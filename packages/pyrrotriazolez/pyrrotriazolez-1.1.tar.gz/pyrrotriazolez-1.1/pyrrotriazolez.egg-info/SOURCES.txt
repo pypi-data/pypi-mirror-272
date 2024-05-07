@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyrrotriazolez/__init__.py
+pyrrotriazolez/main.py
+pyrrotriazolez.egg-info/PKG-INFO
+pyrrotriazolez.egg-info/SOURCES.txt
+pyrrotriazolez.egg-info/dependency_links.txt
+pyrrotriazolez.egg-info/requires.txt
+pyrrotriazolez.egg-info/top_level.txt
