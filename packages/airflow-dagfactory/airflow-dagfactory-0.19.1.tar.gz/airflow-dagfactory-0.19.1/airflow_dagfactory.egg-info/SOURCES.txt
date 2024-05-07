@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+airflow_dagfactory/__init__.py
+airflow_dagfactory/__version__.py
+airflow_dagfactory/dagbuilder.py
+airflow_dagfactory/dagfactory.py
+airflow_dagfactory/exceptions.py
+airflow_dagfactory/utils.py
+airflow_dagfactory.egg-info/PKG-INFO
+airflow_dagfactory.egg-info/SOURCES.txt
+airflow_dagfactory.egg-info/dependency_links.txt
+airflow_dagfactory.egg-info/requires.txt
+airflow_dagfactory.egg-info/top_level.txt
