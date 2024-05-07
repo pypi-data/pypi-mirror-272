@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+photosensitivez/__init__.py
+photosensitivez/main.py
+photosensitivez.egg-info/PKG-INFO
+photosensitivez.egg-info/SOURCES.txt
+photosensitivez.egg-info/dependency_links.txt
+photosensitivez.egg-info/requires.txt
+photosensitivez.egg-info/top_level.txt
