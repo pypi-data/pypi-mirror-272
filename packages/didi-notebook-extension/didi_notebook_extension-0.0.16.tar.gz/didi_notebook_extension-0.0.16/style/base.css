@@ -1,0 +1,66 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+.hide-menu #jp-left-stack, 
+.hide-menu #jp-right-stack,
+.hide-menu #jp-top-panel, 
+.hide-menu .jp-SideBar,
+.hide-menu #jp-bottom-panel{
+    display: none !important;
+}
+.hide-menu #jp-main-dock-panel {
+    left: 0 !important;
+    width: 100% !important;
+}
+.hide-menu #jq-main-dock-panel #jp-main-dock-panel {
+    width: 100% !important;
+}
+.hide-menu #jp-main-vsplit-panel {
+    left: 0 !important;
+    width: 100% !important;
+}
+.hide-menu #jp-main-split-panel {
+    width: 100% !important;
+    left: 0 !important;
+}
+.hide-menu #jp-main-content-panel{
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+.hide-menu .jp-NotebookPanel, .hide-menu .jp-Notebook {
+    width: 100% !important;
+}
+.hide-menu .jp-NotebookPanel  > .jp-NotebookPanel-toolbar,
+.hide-menu .lm-DockPanel  > .lm-DockPanel-tabBar
+ {
+    width: 100% !important;
+}
+.from-studio .jp-KernelName, 
+.from-studio .lm-DockPanel-tabBar,
+.from-studio .lm-TabBar 
+.hide-menu.from-studio .jp-NotebookPanel  > .jp-NotebookPanel-toolbar,
+.hide-menu.from-studio .lm-DockPanel  > .lm-DockPanel-tabBar{
+    display: none !important;
+}
+.from-studio.hide-menu .jp-NotebookPanel, .from-studio.hide-menu .lm-DockPanel {
+    top: 0 !important;
+    border: none !important;
+}
+.from-studio .jp-Notebook-toolbarCellType .jp-Notebook-toolbarCellTypeDropdown option[value="raw"],
+.from-studio .jp-CommandToolbarButton .jp-ToolbarButtonComponent[data-command="docmanager:save"] {
+    display: none !important;
+}
+.from-studio .lm-Menu-item[data-command="notebook:create-console"], 
+.from-studio .lm-Menu-item[data-command="inspector:open"],
+.from-studio .lm-Menu-item[data-command="logconsole:open"] {
+    display: none !important;
+}
+.from-studio .lm-TabBar .lm-TabBar-addButton {
+    display: none !important;
+}
+.from-studio {
+    background-color: #fff;
+}
