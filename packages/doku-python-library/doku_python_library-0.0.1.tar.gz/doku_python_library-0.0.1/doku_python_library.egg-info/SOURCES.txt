@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+doku_python_library.egg-info/PKG-INFO
+doku_python_library.egg-info/SOURCES.txt
+doku_python_library.egg-info/dependency_links.txt
+doku_python_library.egg-info/top_level.txt
