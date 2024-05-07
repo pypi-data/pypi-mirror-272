@@ -1,0 +1,2 @@
+[console_scripts]
+run_automlapp = automlapp.launcher:launch_streamlit
