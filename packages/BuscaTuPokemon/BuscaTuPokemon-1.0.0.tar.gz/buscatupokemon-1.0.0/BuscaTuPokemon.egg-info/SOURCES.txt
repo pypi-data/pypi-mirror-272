@@ -1,0 +1,10 @@
+README.md
+setup.py
+BuscaTuPokemon/__init__.py
+BuscaTuPokemon/pokemon.csv
+BuscaTuPokemon/random_pokemon.py
+BuscaTuPokemon.egg-info/PKG-INFO
+BuscaTuPokemon.egg-info/SOURCES.txt
+BuscaTuPokemon.egg-info/dependency_links.txt
+BuscaTuPokemon.egg-info/requires.txt
+BuscaTuPokemon.egg-info/top_level.txt

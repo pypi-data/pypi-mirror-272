@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: BuscaTuPokemon
+Version: 1.0.0
+Summary: Es una libreria la cual permitira generar un pokemon aleatorio
+Author: Milton Angel
+Author-email: milton_ac@tesch.edu.mx
+Requires-Dist: pandas
+Requires-Dist: twine
+Requires-Dist: wheel
+Requires-Dist: setuptools
