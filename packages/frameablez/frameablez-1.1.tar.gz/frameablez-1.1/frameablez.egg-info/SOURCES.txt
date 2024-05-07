@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+frameablez/__init__.py
+frameablez/main.py
+frameablez.egg-info/PKG-INFO
+frameablez.egg-info/SOURCES.txt
+frameablez.egg-info/dependency_links.txt
+frameablez.egg-info/requires.txt
+frameablez.egg-info/top_level.txt
