@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "bpgtask"
+version = "0.1.2"
+description = ""
+authors = ["Yu Chang <yu.chang@rokt.com>"]
+readme = "README.md"
+packages = [{include = "my_package", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+requests = "^2.31.0"
+flytekit = "^1.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.9.0"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
