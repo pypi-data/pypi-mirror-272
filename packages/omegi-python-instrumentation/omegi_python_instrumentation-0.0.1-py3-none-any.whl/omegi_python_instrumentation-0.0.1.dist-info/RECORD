@@ -1,0 +1,9 @@
+omegi/KafkaSpanExporter.py,sha256=z_UrwqlBOiY30p7QkNF9TDFFvVOI0hdMFErzEqufECI,2809
+omegi/OmegHandler.py,sha256=Fa_w1Dvh2A8Au6pQ1W1E5PAaaprIXzzWDhY9Hq41RTE,1350
+omegi/OmegiTracer.py,sha256=sSQEuArfgTUeyHksvwRNsPdeMphgY3BxES8S6uTaVT0,2722
+omegi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omegi_python_instrumentation-0.0.1.dist-info/LICENSE.txt,sha256=iVhkZIMy2O_r1zPXPqq20a8SMru8Sa_q8TkKjeicKzQ,13
+omegi_python_instrumentation-0.0.1.dist-info/METADATA,sha256=F9MdMsyaUXoWkqEapLMsUuYi6s6TrHdNX2oSOq5p4N8,550
+omegi_python_instrumentation-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+omegi_python_instrumentation-0.0.1.dist-info/top_level.txt,sha256=UixSDEkI1Qe7btTiYaP1CSTs9FP7n0cFC9X6QSPq2XY,6
+omegi_python_instrumentation-0.0.1.dist-info/RECORD,,
