@@ -1,0 +1,6 @@
+README.md
+setup.py
+seamoney_spp_drconfig.egg-info/PKG-INFO
+seamoney_spp_drconfig.egg-info/SOURCES.txt
+seamoney_spp_drconfig.egg-info/dependency_links.txt
+seamoney_spp_drconfig.egg-info/top_level.txt
