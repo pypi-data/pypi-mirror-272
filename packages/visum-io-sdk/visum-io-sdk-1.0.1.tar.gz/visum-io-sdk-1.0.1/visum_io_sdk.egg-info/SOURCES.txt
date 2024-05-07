@@ -1,0 +1,11 @@
+setup.py
+visum_io_sdk.egg-info/PKG-INFO
+visum_io_sdk.egg-info/SOURCES.txt
+visum_io_sdk.egg-info/dependency_links.txt
+visum_io_sdk.egg-info/requires.txt
+visum_io_sdk.egg-info/top_level.txt
+visum_sdk/__init__.py
+visum_sdk/client.py
+visum_sdk/dto.py
+visum_sdk/enums.py
+visum_sdk/errors.py
