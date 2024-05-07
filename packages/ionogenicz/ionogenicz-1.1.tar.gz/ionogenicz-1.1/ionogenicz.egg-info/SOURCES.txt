@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ionogenicz/__init__.py
+ionogenicz/main.py
+ionogenicz.egg-info/PKG-INFO
+ionogenicz.egg-info/SOURCES.txt
+ionogenicz.egg-info/dependency_links.txt
+ionogenicz.egg-info/requires.txt
+ionogenicz.egg-info/top_level.txt
