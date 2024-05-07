@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oversorrowz/__init__.py
+oversorrowz/main.py
+oversorrowz.egg-info/PKG-INFO
+oversorrowz.egg-info/SOURCES.txt
+oversorrowz.egg-info/dependency_links.txt
+oversorrowz.egg-info/requires.txt
+oversorrowz.egg-info/top_level.txt
