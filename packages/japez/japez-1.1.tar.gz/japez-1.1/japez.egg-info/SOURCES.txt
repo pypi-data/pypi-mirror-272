@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+japez/__init__.py
+japez/main.py
+japez.egg-info/PKG-INFO
+japez.egg-info/SOURCES.txt
+japez.egg-info/dependency_links.txt
+japez.egg-info/requires.txt
+japez.egg-info/top_level.txt
