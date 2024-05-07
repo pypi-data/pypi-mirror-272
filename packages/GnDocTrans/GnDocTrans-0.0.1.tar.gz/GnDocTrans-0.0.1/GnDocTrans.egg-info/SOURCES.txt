@@ -1,0 +1,8 @@
+setup.py
+GnDocTrans/__init__.py
+GnDocTrans/tri_derive_tile.py
+GnDocTrans.egg-info/PKG-INFO
+GnDocTrans.egg-info/SOURCES.txt
+GnDocTrans.egg-info/dependency_links.txt
+GnDocTrans.egg-info/requires.txt
+GnDocTrans.egg-info/top_level.txt
