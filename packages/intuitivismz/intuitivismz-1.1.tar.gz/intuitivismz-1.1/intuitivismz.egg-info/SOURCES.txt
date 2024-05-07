@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+intuitivismz/__init__.py
+intuitivismz/main.py
+intuitivismz.egg-info/PKG-INFO
+intuitivismz.egg-info/SOURCES.txt
+intuitivismz.egg-info/dependency_links.txt
+intuitivismz.egg-info/requires.txt
+intuitivismz.egg-info/top_level.txt
