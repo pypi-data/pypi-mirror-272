@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gymnospermismz/__init__.py
+gymnospermismz/main.py
+gymnospermismz.egg-info/PKG-INFO
+gymnospermismz.egg-info/SOURCES.txt
+gymnospermismz.egg-info/dependency_links.txt
+gymnospermismz.egg-info/requires.txt
+gymnospermismz.egg-info/top_level.txt
