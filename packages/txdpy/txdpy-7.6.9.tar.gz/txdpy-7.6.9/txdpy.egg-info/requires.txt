@@ -1,0 +1,12 @@
+lxml
+loguru
+tqdm
+colorama
+openpyxl
+pymysql
+xlsxwriter
+selenium
+natsort
+sshtunnel
+file_ls
+requests
