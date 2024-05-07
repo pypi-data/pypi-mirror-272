@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+forewrittenz/__init__.py
+forewrittenz/main.py
+forewrittenz.egg-info/PKG-INFO
+forewrittenz.egg-info/SOURCES.txt
+forewrittenz.egg-info/dependency_links.txt
+forewrittenz.egg-info/requires.txt
+forewrittenz.egg-info/top_level.txt
