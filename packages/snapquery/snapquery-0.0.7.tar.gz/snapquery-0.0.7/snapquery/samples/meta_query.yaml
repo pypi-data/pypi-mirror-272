@@ -1,0 +1,29 @@
+# Meta Queries
+# WF 2025-05-06
+'query_count':
+    sql: |
+      SELECT COUNT(*)
+      FROM NamedQuery
+'all_queries':
+    sql: |
+      SELECT * FROM NamedQuery
+'error_histogram':
+    sql: |
+      SELECT COUNT(*), query_id
+      FROM QueryStats
+      WHERE error_msg is not null
+      GROUP BY query_id
+      ORDER BY 1 DESC
+'query_stats':
+    sql: |
+      SELECT query_id,
+        COUNT(duration) AS count,
+        MIN(duration) AS min_time,
+        MAX(duration) AS max_time,
+        AVG(duration) AS avg_time,
+        MIN(records) AS min,
+        MAX(records) AS max,
+        AVG(records) AS avg
+      FROM QueryStats
+        GROUP by query_id
+        ORDER BY 1 DESC;
