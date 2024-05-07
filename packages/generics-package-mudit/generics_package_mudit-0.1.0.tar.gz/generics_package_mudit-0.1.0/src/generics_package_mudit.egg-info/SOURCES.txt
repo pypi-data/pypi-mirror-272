@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/generics_package_mudit/__init__.py
+src/generics_package_mudit/generics.py
+src/generics_package_mudit.egg-info/PKG-INFO
+src/generics_package_mudit.egg-info/SOURCES.txt
+src/generics_package_mudit.egg-info/dependency_links.txt
+src/generics_package_mudit.egg-info/top_level.txt
