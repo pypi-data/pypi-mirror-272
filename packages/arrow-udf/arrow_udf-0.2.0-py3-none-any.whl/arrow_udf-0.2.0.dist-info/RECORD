@@ -1,0 +1,7 @@
+arrow_udf/__init__.py,sha256=FHCLtTUuV9QyR156jhteFpX8pen4bodKgJU08MroB6M,18071
+arrow_udf/test_udf.py,sha256=y1CWmerHV1OcyIS8RJcYl1XgVA5gHQxO9jUkb-JPxyc,8181
+arrow_udf/udf/health_check.py,sha256=6gNn-vTucby5BHTAyA6mEZra6yTXeIqAfWKaqjqdUj8,1290
+arrow_udf-0.2.0.dist-info/METADATA,sha256=G0Vkol60HFxGDOz51NXXFbRHcaeD-h8yW-xTc16Fv40,3375
+arrow_udf-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+arrow_udf-0.2.0.dist-info/top_level.txt,sha256=eCqZfO3YPsGEVTWS628ichQz1fe_0NBckqtpGaQZpP8,10
+arrow_udf-0.2.0.dist-info/RECORD,,
