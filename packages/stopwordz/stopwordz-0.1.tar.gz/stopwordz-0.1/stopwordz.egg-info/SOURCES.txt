@@ -1,0 +1,8 @@
+README.md
+setup.py
+stopwordz/__init__.py
+stopwordz/stopwords.py
+stopwordz.egg-info/PKG-INFO
+stopwordz.egg-info/SOURCES.txt
+stopwordz.egg-info/dependency_links.txt
+stopwordz.egg-info/top_level.txt
