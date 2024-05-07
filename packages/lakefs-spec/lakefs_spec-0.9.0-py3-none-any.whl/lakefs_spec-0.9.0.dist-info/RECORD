@@ -1,0 +1,11 @@
+lakefs_spec/__init__.py,sha256=HL8O6J1Z2thTWtCHXKOZRryWgeEgxtQh-LoRjdFHO-Y,338
+lakefs_spec/errors.py,sha256=6qH0RKVH0irzAfjDn0vDLgjQi6L_T4-LX-Sh91tqUJQ,2335
+lakefs_spec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lakefs_spec/spec.py,sha256=mIFaVbrDGKjEflWzC1SLuyltKww3vN0fn61hyABnriQ,29593
+lakefs_spec/transaction.py,sha256=crwNiYQCsj6e5ZqTr8QeMEutv-8vq5jtLDyr_wuEzDk,9130
+lakefs_spec/util.py,sha256=B7W8pZcrigAtEdE0kM9H4rNvFi_6i_3gitjJV2CeI0U,3267
+lakefs_spec-0.9.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lakefs_spec-0.9.0.dist-info/METADATA,sha256=33oUBJwpf5Hyb94PcpIYn4yel7K9xS-E2lwk04qSD-8,7952
+lakefs_spec-0.9.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lakefs_spec-0.9.0.dist-info/top_level.txt,sha256=h1YRoSlm_26IIeIFG9veS4U2gPUfhtibDcXF2Pzdcuc,12
+lakefs_spec-0.9.0.dist-info/RECORD,,
