@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: syize
+Version: 1.2.6
+Summary: A tool kit package
+Author: Syize
+Author-email: Syize <syizeliu@gmail.com>
+Requires-Dist: Pillow
+Requires-Dist: pytesseract
+Requires-Dist: pdf2image
+Requires-Dist: rich
+Requires-Dist: matplotlib
+Requires-Dist: Cartopy
+Requires-Dist: haversine
+
