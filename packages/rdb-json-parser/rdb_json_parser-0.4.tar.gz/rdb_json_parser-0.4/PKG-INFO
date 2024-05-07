@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rdb_json_parser
+Version: 0.4
+Author: Nikunj Pathak
+Author-email: nik.twister@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Parses json string in either of these two formats :
+
+    [{} , {} , {} , {} ...]
+
+
+    {}
+    {}
+    {}
+    ...
+
+and determine the location of top level objects.
+
+If the json string is broken at EOF , then also returns the location of broken top level object at EOF.
+
+

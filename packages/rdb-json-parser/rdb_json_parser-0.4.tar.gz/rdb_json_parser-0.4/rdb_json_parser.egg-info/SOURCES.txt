@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.py
+rdb_json_parser/__init__.py
+rdb_json_parser/json_parser_darwin.so
+rdb_json_parser/json_parser_linux.so
+rdb_json_parser.egg-info/PKG-INFO
+rdb_json_parser.egg-info/SOURCES.txt
+rdb_json_parser.egg-info/dependency_links.txt
+rdb_json_parser.egg-info/top_level.txt
