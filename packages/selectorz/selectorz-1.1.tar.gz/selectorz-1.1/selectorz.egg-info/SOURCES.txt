@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+selectorz/__init__.py
+selectorz/main.py
+selectorz.egg-info/PKG-INFO
+selectorz.egg-info/SOURCES.txt
+selectorz.egg-info/dependency_links.txt
+selectorz.egg-info/requires.txt
+selectorz.egg-info/top_level.txt
