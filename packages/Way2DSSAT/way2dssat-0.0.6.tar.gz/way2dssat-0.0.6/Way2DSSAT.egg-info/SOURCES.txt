@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+Way2DSSAT/WTH.py
+Way2DSSAT/__init__.py
+Way2DSSAT/gssurgo2soil.py
+Way2DSSAT/xfiles.py
+Way2DSSAT.egg-info/PKG-INFO
+Way2DSSAT.egg-info/SOURCES.txt
+Way2DSSAT.egg-info/dependency_links.txt
+Way2DSSAT.egg-info/requires.txt
+Way2DSSAT.egg-info/top_level.txt
