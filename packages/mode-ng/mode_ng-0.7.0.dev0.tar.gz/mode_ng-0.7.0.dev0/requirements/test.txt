@@ -1,0 +1,9 @@
+# hypothesis
+freezegun>=1.2.0
+pytest-asyncio
+pytest
+pytest-mypy-plugins
+
+# test ipython integration
+ipython
+jupyterlab

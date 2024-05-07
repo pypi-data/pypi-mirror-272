@@ -1,0 +1,11 @@
+-r flakes.txt
+-r typecheck.txt
+
+black
+isort
+ruff
+pipdeptree
+pre-commit
+
+# For debugging
+aiomonitor
