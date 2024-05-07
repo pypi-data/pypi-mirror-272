@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pulse-coupled-nn
+Version: 0.0.1
+Summary: Python implementation of the Pulse Coupled Neural Network (PCNN)
+Home-page: https://github.com/ArdeleanRichard/PCNN
+Author: Eugen-Richard Ardelean
+Author-email: ardeleaneugenrichard@gmail.com
+License: MIT
+Description: # PCNN
+        Python implementation of the Pulse Coupled Neural Network (PCNN) alongside multiple variations:
+        - Classical PCNN
+        - Feature Linking Model (FLM)
+        - Intersecting Cortical Model (ICM)
+        - Multi Linking Model (MLM)
+        - Spiking Cortical Model (SCM)
+        - Sigmoidal Linking Model (SLM)
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev

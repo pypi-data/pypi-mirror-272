@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+astropy
+
+[dev]
+twine>=4.0.2
