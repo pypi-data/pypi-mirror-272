@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+blennioideaz/__init__.py
+blennioideaz/main.py
+blennioideaz.egg-info/PKG-INFO
+blennioideaz.egg-info/SOURCES.txt
+blennioideaz.egg-info/dependency_links.txt
+blennioideaz.egg-info/requires.txt
+blennioideaz.egg-info/top_level.txt
