@@ -1,0 +1,16 @@
+magpylib_force/__init__.py,sha256=5bdTwHomJSXNgm3R6RkaW9jlg6ln91YkJff-vA4CFaY,213
+magpylib_force/force.py,sha256=dHp0EishpdK0d4nrkaG2sW_meLqToU_rLmnM3jVwITQ,12050
+magpylib_force/meshing.py,sha256=IbyL5FAkYAWWIzCa6hVo2ko0L5eGqyRDx_JlzWsDQM8,5622
+magpylib_force/utility.py,sha256=2XOXSEk-OayplPQBaEV71sZ7KwP3iujF461aFxOe5dg,1842
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_FEM.py,sha256=EMoe35x6iY_FfbnEiDEjakD3cQHNYmpD9KM783qpRx8,13382
+tests/test_basics.py,sha256=wchdMwzKHZHemOj8ipHMftU3RRXQjKAsM-aTvuxGC1M,1349
+tests/test_interface.py,sha256=jWjYu1ga9TF-O9Kpq3Njj_Dx6zzPS1OchDsdxTmVUs4,1014
+tests/test_meshing.py,sha256=IixgJ70INqR9xCG9Fu6o1P0G8GWKErpQinjwV1qZvRg,597
+tests/test_physics.py,sha256=Cy_i_awHxFt1pJdT_AqrEwvJldoivsQpuCmr-XraleQ,7126
+tests/test_self_consistency.py,sha256=d9cfE-jqILRt0yKsQ1pBy-KMKJr17VbtP1AP2mMrQ4M,5520
+magpylib_force-0.1.8.dist-info/LICENSE,sha256=ANAc4wyq1XgX0palEHLnrNL0pORyhGbKgHG__iAi17k,1332
+magpylib_force-0.1.8.dist-info/METADATA,sha256=Udsk0Ba42abQAxkMMuFN-OgUnR4QkSH-BOqNF3Wm1xA,2141
+magpylib_force-0.1.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+magpylib_force-0.1.8.dist-info/top_level.txt,sha256=uGw20dVNSFEoPOoVIdoNpxhxO2falap0SganHEbBkJ8,21
+magpylib_force-0.1.8.dist-info/RECORD,,
