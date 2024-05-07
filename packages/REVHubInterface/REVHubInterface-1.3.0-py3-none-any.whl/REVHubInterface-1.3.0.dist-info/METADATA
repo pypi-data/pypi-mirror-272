@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: REVHubInterface
+Version: 1.3.0
+License-File: LICENSE.txt
+Requires-Dist: pyft232 ==0.12
+Requires-Dist: pyserial ==3.5
+Requires-Dist: sv-ttk ==2.6.0
+
