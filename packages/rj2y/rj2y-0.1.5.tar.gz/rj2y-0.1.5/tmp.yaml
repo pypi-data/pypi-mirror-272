@@ -1,0 +1,7224 @@
+date: !!float
+  1714719707.0
+path: !!str |-
+  /match/saveReplay
+time: !!str |-
+  2024-05-03 07:01:47.364940+0000
+level: !!str |-
+  ERROR
+channel: !!str |-
+  pastry
+message: !!str |-
+  Exception on /match/saveReplay?p=a&id=237&u=16477474859&t=1714719691524&l=en&r=gl&e=2154 [POST]
+
+exc_info: !!str |-
+  message : IntegrityError('(MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry \'16477474859-1714719643194966159\' for key \'user_match_replay.PRIMARY\'")')
+  traceback : 
+  pastry/api/__init__.py:122: in view_func
+      response_data = func(user_model, request_data_structure)
+  pastry/services/_util.py:8: in inner
+      return func(*args, **kwargs)
+  pastry/services/match.py:168: in save_replay
+      rdb_model.commit()
+  pastry/models/rdb_model.py:64: in commit
+      db.get_session(n).flush()
+  <string>:2: in flush
+      ???
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py:3339: in flush
+      self._flush(objects)
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py:3479: in _flush
+      transaction.rollback(_capture_exception=True)
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py:70: in __exit__
+      compat.raise_(
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py:207: in raise_
+      raise exception
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py:3439: in _flush
+      flush_context.execute()
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py:456: in execute
+      rec.execute(self)
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py:630: in execute
+      util.preloaded.orm_persistence.save_obj(
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py:242: in save_obj
+      _emit_insert_statements(
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py:1094: in _emit_insert_statements
+      c = connection._execute_20(
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py:1611: in _execute_20
+      return meth(self, args_10style, kwargs_10style, execution_options)
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/sql/elements.py:323: in _execute_on_connection
+      return connection._execute_clauseelement(
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py:1478: in _execute_clauseelement
+      ret = self._execute_context(
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py:1842: in _execute_context
+      self._handle_dbapi_exception(
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py:2023: in _handle_dbapi_exception
+      util.raise_(
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py:207: in raise_
+      raise exception
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py:1799: in _execute_context
+      self.dialect.do_execute(
+  ../.venv/lib/python3.9/site-packages/sqlalchemy/engine/default.py:717: in do_execute
+      cursor.execute(statement, parameters)
+  ../.venv/lib/python3.9/site-packages/MySQLdb/cursors.py:209: in execute
+      res = self._query(query)
+  ../.venv/lib/python3.9/site-packages/MySQLdb/cursors.py:315: in _query
+      db.query(q)
+  ../.venv/lib/python3.9/site-packages/MySQLdb/connections.py:239: in query
+      _mysql.connection.query(self, query)
+  E   sqlalchemy.exc.IntegrityError: (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry '16477474859-1714719643194966159' for key 'user_match_replay.PRIMARY'")
+  E   [SQL: INSERT INTO user_match_replay (user_id, match_id, home_user_id, opponent_id, opponent_type, opponent_user_name, game_type, quest_world_m_id, is_called_game, user_score, user_pk_score, opponent_score, opponent_pk_score, opponent_player_item_id, opponent_player_item_level, data_version, is_favorite, save_at, expire_at, created_at, updated_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)]
+  E   [parameters: (16477474859, 1714719643194966159, 16477474859, 2023002, None, None, 2, 202301, 1, 5, 0, 0, 0, 122888300, 1, 5, 0, 1714719691, 1715324491, 1714719691, 1714719691)]
+  E   (Background on this error at: https://sqlalche.me/e/14/gkpj)
+request_data:
+  in_game_report:
+    away_report:
+      average_fps: !!int
+        0
+      dribbling_distance: !!int
+        12
+      extra_time_deck:
+        away_uniform_m_id: !!int
+          1112351
+        captain_player_item_m_id: !!int
+          122888300
+        celebrations:
+          - 
+            null
+          - !!int
+            2300028
+          - !!int
+            2300019
+          - !!int
+            2300014
+          - !!int
+            2300014
+          - !!int
+            2300019
+          - !!int
+            2300014
+          - !!int
+            2300023
+          - !!int
+            2300014
+          - !!int
+            2300021
+          - !!int
+            2300023
+          - !!int
+            2300019
+          - !!int
+            2300028
+          - !!int
+            2300028
+          - !!int
+            2300014
+          - !!int
+            2300031
+          - !!int
+            2300021
+          - 
+            null
+        deck_id: !!int
+          0
+        defense_tactics_m_ids:
+          - !!int
+            12010003
+          - !!int
+            12030004
+          - !!int
+            12040001
+        formation_m_id: !!int
+          10020001
+        home_uniform_m_id: !!int
+          1112350
+        manager_m_id: !!int
+          226283501
+        name: !!str |-
+          HEIDENHEIM
+        offense_tactics_m_ids:
+          - !!int
+            11010001
+          - !!int
+            11020003
+          - !!int
+            11040003
+        player_item_m_ids:
+          - !!int
+            126292200
+          - !!int
+            125128900
+          - !!int
+            118357300
+          - !!int
+            125713600
+          - !!int
+            127529900
+          - !!int
+            127590700
+          - !!int
+            122888300
+          - !!int
+            125831600
+          - !!int
+            123763500
+          - !!int
+            126997600
+          - !!int
+            126997500
+          - !!int
+            124554300
+          - !!int
+            123907800
+          - !!int
+            125313300
+          - !!int
+            120095400
+          - !!int
+            125881200
+          - !!int
+            122927700
+          - !!int
+            126664100
+        team_effect_m_ids:
+          - !!int
+            11000022
+        uniform_numbers:
+          - !!int
+            34
+          - !!int
+            27
+          - !!int
+            30
+          - !!int
+            23
+          - !!int
+            29
+          - !!int
+            36
+          - !!int
+            5
+          - !!int
+            8
+          - !!int
+            17
+          - !!int
+            25
+          - !!int
+            44
+          - !!int
+            24
+          - !!int
+            9
+          - !!int
+            21
+          - !!int
+            11
+          - !!int
+            4
+          - !!int
+            19
+          - !!int
+            40
+        user_id: !!int
+          0
+      first_shoot_half_state_type: !!int
+        4
+      first_shoot_time: !!int
+        0
+      foul_list:
+        126292200: !!int
+          0
+        125128900: !!int
+          0
+        118357300: !!int
+          0
+        125713600: !!int
+          0
+        127529900: !!int
+          0
+        127590700: !!int
+          0
+        122888300: !!int
+          0
+        125831600: !!int
+          0
+        123763500: !!int
+          0
+        126997600: !!int
+          0
+        126997500: !!int
+          0
+        124554300: !!int
+          0
+        123907800: !!int
+          0
+        125313300: !!int
+          0
+        120095400: !!int
+          0
+        125881200: !!int
+          0
+        122927700: !!int
+          0
+        126664100: !!int
+          0
+      operation_mode: !!int
+        2
+      passing_distance: !!int
+        293
+      penalty_kick_score_list:
+
+      power_play_count: !!int
+        0
+      power_play_status:
+
+      press_operation_time: !!int
+        0
+      red_card_list:
+        126292200: !!int
+          0
+        125128900: !!int
+          0
+        118357300: !!int
+          0
+        125713600: !!int
+          0
+        127529900: !!int
+          0
+        127590700: !!int
+          0
+        122888300: !!int
+          0
+        125831600: !!int
+          0
+        123763500: !!int
+          0
+        126997600: !!int
+          0
+        126997500: !!int
+          0
+        124554300: !!int
+          0
+        123907800: !!int
+          0
+        125313300: !!int
+          0
+        120095400: !!int
+          0
+        125881200: !!int
+          0
+        122927700: !!int
+          0
+        126664100: !!int
+          0
+      remaining_stamina:
+        126292200: !!int
+          611
+        125128900: !!int
+          60
+        118357300: !!int
+          60
+        125713600: !!int
+          0
+        127529900: !!int
+          180
+        127590700: !!int
+          120
+        122888300: !!int
+          300
+        125831600: !!int
+          0
+        123763500: !!int
+          0
+        126997600: !!int
+          120
+        126997500: !!int
+          60
+        124554300: !!int
+          0
+        123907800: !!int
+          0
+        125313300: !!int
+          0
+        120095400: !!int
+          0
+        125881200: !!int
+          0
+        122927700: !!int
+          0
+        126664100: !!int
+          0
+      rtt_info:
+        avg_latency: !!int
+          0
+        duration_laten_100: !!int
+          0
+        duration_laten_200: !!int
+          0
+        duration_laten_30: !!int
+          0
+        duration_laten_severe: !!int
+          0
+      score: !!int
+        0
+      score_info_list:
+
+      second_half_deck:
+        away_uniform_m_id: !!int
+          1112351
+        captain_player_item_m_id: !!int
+          122888300
+        celebrations:
+          - 
+            null
+          - !!int
+            2300028
+          - !!int
+            2300019
+          - !!int
+            2300014
+          - !!int
+            2300014
+          - !!int
+            2300019
+          - !!int
+            2300014
+          - !!int
+            2300023
+          - !!int
+            2300014
+          - !!int
+            2300021
+          - !!int
+            2300023
+          - !!int
+            2300019
+          - !!int
+            2300028
+          - !!int
+            2300028
+          - !!int
+            2300014
+          - !!int
+            2300031
+          - !!int
+            2300021
+          - 
+            null
+        deck_id: !!int
+          0
+        defense_tactics_m_ids:
+          - !!int
+            12010003
+          - !!int
+            12030004
+          - !!int
+            12040001
+        formation_m_id: !!int
+          10020001
+        home_uniform_m_id: !!int
+          1112350
+        manager_m_id: !!int
+          226283501
+        name: !!str |-
+          HEIDENHEIM
+        offense_tactics_m_ids:
+          - !!int
+            11010001
+          - !!int
+            11020003
+          - !!int
+            11040003
+        player_item_m_ids:
+          - !!int
+            126292200
+          - !!int
+            125128900
+          - !!int
+            118357300
+          - !!int
+            125713600
+          - !!int
+            127529900
+          - !!int
+            127590700
+          - !!int
+            122888300
+          - !!int
+            125831600
+          - !!int
+            123763500
+          - !!int
+            126997600
+          - !!int
+            126997500
+          - !!int
+            124554300
+          - !!int
+            123907800
+          - !!int
+            125313300
+          - !!int
+            120095400
+          - !!int
+            125881200
+          - !!int
+            122927700
+          - !!int
+            126664100
+        team_effect_m_ids:
+          - !!int
+            11000022
+        uniform_numbers:
+          - !!int
+            34
+          - !!int
+            27
+          - !!int
+            30
+          - !!int
+            23
+          - !!int
+            29
+          - !!int
+            36
+          - !!int
+            5
+          - !!int
+            8
+          - !!int
+            17
+          - !!int
+            25
+          - !!int
+            44
+          - !!int
+            24
+          - !!int
+            9
+          - !!int
+            21
+          - !!int
+            11
+          - !!int
+            4
+          - !!int
+            19
+          - !!int
+            40
+        user_id: !!int
+          0
+      yellow_card_list:
+        126292200: !!int
+          0
+        125128900: !!int
+          0
+        118357300: !!int
+          0
+        125713600: !!int
+          0
+        127529900: !!int
+          0
+        127590700: !!int
+          0
+        122888300: !!int
+          0
+        125831600: !!int
+          0
+        123763500: !!int
+          0
+        126997600: !!int
+          0
+        126997500: !!int
+          0
+        124554300: !!int
+          0
+        123907800: !!int
+          0
+        125313300: !!int
+          0
+        120095400: !!int
+          0
+        125881200: !!int
+          0
+        122927700: !!int
+          0
+        126664100: !!int
+          0
+    away_statistics:
+      block_count: !!int
+        0
+      block_count_all: !!int
+        2
+      corner_kick_count: !!int
+        0
+      dribble_count: !!int
+        0
+      dribble_count_all: !!int
+        3
+      duel_attribute_advantage_count: !!int
+        3
+      duel_count: !!int
+        18
+      duel_status_info_list:
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10009
+              critical_type: !!int
+                0
+              defense: !!int
+                9826
+              duel_parameter: !!int
+                9918
+              offense: !!int
+                19013
+              parameter_defense: !!int
+                9826
+              parameter_offense: !!int
+                19013
+              parameter_physical: !!int
+                18581
+              parameter_saving: !!int
+                0
+              physical: !!int
+                18581
+              player_item_m_id: !!int
+                315802301
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                909
+              team_type: !!int
+                0
+          duel_type: !!int
+            0
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              19
+            - !!int
+              6
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10003
+              critical_type: !!int
+                0
+              defense: !!int
+                6507
+              duel_parameter: !!int
+                3801
+              offense: !!int
+                5184
+              parameter_defense: !!int
+                6507
+              parameter_offense: !!int
+                5184
+              parameter_physical: !!int
+                6006
+              parameter_saving: !!int
+                0
+              physical: !!int
+                6006
+              player_item_m_id: !!int
+                127590700
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                462
+              team_type: !!int
+                1
+          result: !!int
+            4
+          time: !!int
+            724
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10009
+              critical_type: !!int
+                0
+              defense: !!int
+                8696
+              duel_parameter: !!int
+                9072
+              offense: !!int
+                16786
+              parameter_defense: !!int
+                8696
+              parameter_offense: !!int
+                16786
+              parameter_physical: !!int
+                17210
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17210
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                836
+              team_type: !!int
+                0
+          duel_type: !!int
+            0
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              19
+            - !!int
+              -6
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10003
+              critical_type: !!int
+                0
+              defense: !!int
+                7961
+              duel_parameter: !!int
+                4651
+              offense: !!int
+                6870
+              parameter_defense: !!int
+                7961
+              parameter_offense: !!int
+                6870
+              parameter_physical: !!int
+                7558
+              parameter_saving: !!int
+                0
+              physical: !!int
+                7558
+              player_item_m_id: !!int
+                122888300
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                653
+              team_type: !!int
+                1
+          result: !!int
+            4
+          time: !!int
+            959
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10007
+              critical_type: !!int
+                0
+              defense: !!int
+                9927
+              duel_parameter: !!int
+                11969
+              offense: !!int
+                19206
+              parameter_defense: !!int
+                9927
+              parameter_offense: !!int
+                19206
+              parameter_physical: !!int
+                18770
+              parameter_saving: !!int
+                0
+              physical: !!int
+                18770
+              player_item_m_id: !!int
+                315802301
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                269
+              team_type: !!int
+                0
+          duel_type: !!int
+            0
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              28
+            - !!int
+              6
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10003
+              critical_type: !!int
+                0
+              defense: !!int
+                7768
+              duel_parameter: !!int
+                3708
+              offense: !!int
+                6779
+              parameter_defense: !!int
+                7768
+              parameter_offense: !!int
+                6779
+              parameter_physical: !!int
+                7966
+              parameter_saving: !!int
+                0
+              physical: !!int
+                7966
+              player_item_m_id: !!int
+                125128900
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                643
+              team_type: !!int
+                1
+          result: !!int
+            4
+          time: !!int
+            1588
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10009
+              critical_type: !!int
+                0
+              defense: !!int
+                8843
+              duel_parameter: !!int
+                7994
+              offense: !!int
+                17070
+              parameter_defense: !!int
+                8843
+              parameter_offense: !!int
+                17070
+              parameter_physical: !!int
+                17501
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17501
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                716
+              team_type: !!int
+                0
+          duel_type: !!int
+            0
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              39
+            - !!int
+              -20
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10006
+              critical_type: !!int
+                0
+              defense: !!int
+                6614
+              duel_parameter: !!int
+                3284
+              offense: !!int
+                6234
+              parameter_defense: !!int
+                6614
+              parameter_offense: !!int
+                6234
+              parameter_physical: !!int
+                6691
+              parameter_saving: !!int
+                0
+              physical: !!int
+                6691
+              player_item_m_id: !!int
+                127529900
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                409
+              team_type: !!int
+                1
+          result: !!int
+            4
+          time: !!int
+            1787
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10009
+              critical_type: !!int
+                0
+              defense: !!int
+                8696
+              duel_parameter: !!int
+                11793
+              offense: !!int
+                16786
+              parameter_defense: !!int
+                8696
+              parameter_offense: !!int
+                16786
+              parameter_physical: !!int
+                17210
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17210
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                596
+              team_type: !!int
+                0
+          duel_type: !!int
+            0
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              19
+            - !!int
+              -6
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10006
+              critical_type: !!int
+                0
+              defense: !!int
+                7961
+              duel_parameter: !!int
+                3606
+              offense: !!int
+                6870
+              parameter_defense: !!int
+                7961
+              parameter_offense: !!int
+                6870
+              parameter_physical: !!int
+                7558
+              parameter_saving: !!int
+                0
+              physical: !!int
+                7558
+              player_item_m_id: !!int
+                122888300
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                473
+              team_type: !!int
+                1
+          result: !!int
+            4
+          time: !!int
+            2098
+      duel_win_reading_count: !!int
+        10
+      duel_win_reading_win_count: !!int
+        0
+      free_kick_count: !!int
+        0
+      goal_status_list:
+
+      intercept_count: !!int
+        0
+      intercept_count_all: !!int
+        4
+      offside_count: !!int
+        0
+      onetwo_count: !!int
+        0
+      onetwo_count_all: !!int
+        2
+      out_of_play_info_list:
+
+      pass_count: !!int
+        0
+      pass_count_all: !!int
+        0
+      player_count_dict:
+        126292200:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            1
+          skill_move_status:
+            -
+              number_of_used: !!int
+                1
+              operation_mode: !!int
+                2
+              skill_move_type: !!int
+                12400201
+              timestamp: !!int
+                1714719674
+          tackle: !!int
+            0
+          trick_play: !!int
+            1
+          try_pass: !!int
+            0
+        125128900:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        118357300:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        125713600:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        127529900:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        127590700:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        122888300:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        125831600:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        123763500:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        126997600:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        126997500:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        124554300:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        123907800:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        125313300:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        120095400:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        125881200:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        122927700:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        126664100:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+      possession_count: !!int
+        144
+      possession_total_count: !!int
+        324
+      saving_count: !!int
+        1
+      saving_count_all: !!int
+        7
+      shoot_count: !!int
+        0
+      shoot_count_all: !!int
+        0
+      tackle_count: !!int
+        0
+      tackle_count_all: !!int
+        3
+    clear_time: !!int
+      222965
+    gameplay_speed: !!int
+      2
+    home_report:
+      average_fps: !!int
+        50
+      dribbling_distance: !!int
+        68
+      extra_time_deck:
+        away_uniform_m_id: !!int
+          900011
+        captain_player_item_m_id: !!int
+          315802301
+        celebrations:
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - !!int
+            2300014
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+        deck_id: !!int
+          1
+        defense_tactics_m_ids:
+          - !!int
+            12040001
+          - !!int
+            12010001
+          - !!int
+            12020001
+        formation_m_id: !!int
+          10140001
+        home_uniform_m_id: !!int
+          10
+        manager_m_id: !!int
+          226285401
+        name: !!str |-
+          Team 1
+        offense_tactics_m_ids:
+          - !!int
+            11040001
+          - !!int
+            11010001
+          - !!int
+            11020001
+        player_item_m_ids:
+          - !!int
+            116358700
+          - !!int
+            423844402
+          - !!int
+            120786500
+          - !!int
+            119744500
+          - !!int
+            120010402
+          - !!int
+            123879401
+          - !!int
+            323905303
+          - !!int
+            318694201
+          - !!int
+            319298503
+          - !!int
+            323908510
+          - !!int
+            315802301
+          - !!int
+            124083301
+          - !!int
+            424292702
+          - !!int
+            124709001
+          - !!int
+            120337601
+          - !!int
+            120348700
+          - !!int
+            114023300
+          - !!int
+            119074500
+        team_effect_m_ids:
+          - !!int
+            12000023
+        uniform_numbers:
+          - !!int
+            33
+          - !!int
+            4
+          - !!int
+            2
+          - !!int
+            14
+          - !!int
+            8
+          - !!int
+            9
+          - !!int
+            7
+          - !!int
+            1
+          - !!int
+            25
+          - !!int
+            99
+          - !!int
+            10
+          - !!int
+            5
+          - !!int
+            11
+          - !!int
+            6
+          - !!int
+            3
+          - !!int
+            13
+          - !!int
+            12
+          - !!int
+            15
+        user_id: !!int
+          0
+      first_shoot_half_state_type: !!int
+        0
+      first_shoot_time: !!int
+        563
+      foul_list:
+        116358700: !!int
+          0
+        423844402: !!int
+          0
+        120786500: !!int
+          0
+        119744500: !!int
+          0
+        120010402: !!int
+          0
+        123879401: !!int
+          0
+        323905303: !!int
+          0
+        318694201: !!int
+          0
+        319298503: !!int
+          0
+        323908510: !!int
+          0
+        315802301: !!int
+          0
+        124083301: !!int
+          0
+        424292702: !!int
+          0
+        124709001: !!int
+          0
+        120337601: !!int
+          0
+        120348700: !!int
+          0
+        114023300: !!int
+          0
+        119074500: !!int
+          0
+      operation_mode: !!int
+        2
+      passing_distance: !!int
+        211
+      penalty_kick_score_list:
+
+      power_play_count: !!int
+        0
+      power_play_status:
+
+      press_operation_time: !!int
+        0
+      red_card_list:
+        116358700: !!int
+          0
+        423844402: !!int
+          0
+        120786500: !!int
+          0
+        119744500: !!int
+          0
+        120010402: !!int
+          0
+        123879401: !!int
+          0
+        323905303: !!int
+          0
+        318694201: !!int
+          0
+        319298503: !!int
+          0
+        323908510: !!int
+          0
+        315802301: !!int
+          0
+        124083301: !!int
+          0
+        424292702: !!int
+          0
+        124709001: !!int
+          0
+        120337601: !!int
+          0
+        120348700: !!int
+          0
+        114023300: !!int
+          0
+        119074500: !!int
+          0
+      remaining_stamina:
+        116358700: !!int
+          0
+        423844402: !!int
+          0
+        120786500: !!int
+          0
+        119744500: !!int
+          0
+        120010402: !!int
+          0
+        123879401: !!int
+          0
+        323905303: !!int
+          0
+        318694201: !!int
+          0
+        319298503: !!int
+          622
+        323908510: !!int
+          600
+        315802301: !!int
+          760
+        124083301: !!int
+          0
+        424292702: !!int
+          0
+        124709001: !!int
+          0
+        120337601: !!int
+          0
+        120348700: !!int
+          0
+        114023300: !!int
+          0
+        119074500: !!int
+          0
+      rtt_info:
+        avg_latency: !!int
+          0
+        duration_laten_100: !!int
+          0
+        duration_laten_200: !!int
+          0
+        duration_laten_30: !!int
+          0
+        duration_laten_severe: !!int
+          0
+      score: !!int
+        5
+      score_info_list:
+        -
+          action_id: !!int
+            10004
+          formation_position_type: !!int
+            31
+          half_state_type: !!int
+            0
+          in_game_state_type: !!int
+            2
+          player_item_id: !!int
+            323908510
+          scoring_time: !!int
+            579
+        -
+          action_id: !!int
+            26405201
+          formation_position_type: !!int
+            31
+          half_state_type: !!int
+            0
+          in_game_state_type: !!int
+            2
+          player_item_id: !!int
+            315802301
+          scoring_time: !!int
+            817
+        -
+          action_id: !!int
+            10004
+          formation_position_type: !!int
+            24
+          half_state_type: !!int
+            0
+          in_game_state_type: !!int
+            2
+          player_item_id: !!int
+            319298503
+          scoring_time: !!int
+            1396
+        -
+          action_id: !!int
+            10004
+          formation_position_type: !!int
+            31
+          half_state_type: !!int
+            0
+          in_game_state_type: !!int
+            2
+          player_item_id: !!int
+            323908510
+          scoring_time: !!int
+            1956
+        -
+          action_id: !!int
+            10004
+          formation_position_type: !!int
+            31
+          half_state_type: !!int
+            0
+          in_game_state_type: !!int
+            2
+          player_item_id: !!int
+            323908510
+          scoring_time: !!int
+            2199
+      second_half_deck:
+        away_uniform_m_id: !!int
+          900011
+        captain_player_item_m_id: !!int
+          315802301
+        celebrations:
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - !!int
+            2300014
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+          - 
+            null
+        deck_id: !!int
+          1
+        defense_tactics_m_ids:
+          - !!int
+            12040001
+          - !!int
+            12010001
+          - !!int
+            12020001
+        formation_m_id: !!int
+          10140001
+        home_uniform_m_id: !!int
+          10
+        manager_m_id: !!int
+          226285401
+        name: !!str |-
+          Team 1
+        offense_tactics_m_ids:
+          - !!int
+            11040001
+          - !!int
+            11010001
+          - !!int
+            11020001
+        player_item_m_ids:
+          - !!int
+            116358700
+          - !!int
+            423844402
+          - !!int
+            120786500
+          - !!int
+            119744500
+          - !!int
+            120010402
+          - !!int
+            123879401
+          - !!int
+            323905303
+          - !!int
+            318694201
+          - !!int
+            319298503
+          - !!int
+            323908510
+          - !!int
+            315802301
+          - !!int
+            124083301
+          - !!int
+            424292702
+          - !!int
+            124709001
+          - !!int
+            120337601
+          - !!int
+            120348700
+          - !!int
+            114023300
+          - !!int
+            119074500
+        team_effect_m_ids:
+          - !!int
+            12000023
+        uniform_numbers:
+          - !!int
+            33
+          - !!int
+            4
+          - !!int
+            2
+          - !!int
+            14
+          - !!int
+            8
+          - !!int
+            9
+          - !!int
+            7
+          - !!int
+            1
+          - !!int
+            25
+          - !!int
+            99
+          - !!int
+            10
+          - !!int
+            5
+          - !!int
+            11
+          - !!int
+            6
+          - !!int
+            3
+          - !!int
+            13
+          - !!int
+            12
+          - !!int
+            15
+        user_id: !!int
+          0
+      yellow_card_list:
+        116358700: !!int
+          0
+        423844402: !!int
+          0
+        120786500: !!int
+          0
+        119744500: !!int
+          0
+        120010402: !!int
+          0
+        123879401: !!int
+          0
+        323905303: !!int
+          0
+        318694201: !!int
+          0
+        319298503: !!int
+          0
+        323908510: !!int
+          0
+        315802301: !!int
+          0
+        124083301: !!int
+          0
+        424292702: !!int
+          0
+        124709001: !!int
+          0
+        120337601: !!int
+          0
+        120348700: !!int
+          0
+        114023300: !!int
+          0
+        119074500: !!int
+          0
+    home_statistics:
+      block_count: !!int
+        0
+      block_count_all: !!int
+        0
+      corner_kick_count: !!int
+        1
+      dribble_count: !!int
+        1
+      dribble_count_all: !!int
+        3
+      duel_attribute_advantage_count: !!int
+        8
+      duel_count: !!int
+        18
+      duel_status_info_list:
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10009
+              critical_type: !!int
+                0
+              defense: !!int
+                5604
+              duel_parameter: !!int
+                6639
+              offense: !!int
+                7840
+              parameter_defense: !!int
+                5604
+              parameter_offense: !!int
+                7840
+              parameter_physical: !!int
+                8677
+              parameter_saving: !!int
+                0
+              physical: !!int
+                8677
+              player_item_m_id: !!int
+                126997500
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                515
+              team_type: !!int
+                1
+            -
+              action_id: !!int
+                10009
+              critical_type: !!int
+                0
+              defense: !!int
+                4772
+              duel_parameter: !!int
+                3403
+              offense: !!int
+                6433
+              parameter_defense: !!int
+                4772
+              parameter_offense: !!int
+                6433
+              parameter_physical: !!int
+                6493
+              parameter_saving: !!int
+                0
+              physical: !!int
+                6493
+              player_item_m_id: !!int
+                126997600
+              result_type: !!int
+                2
+              saving: !!int
+                0
+              stamina: !!int
+                479
+              team_type: !!int
+                1
+          duel_type: !!int
+            0
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              0
+            - !!int
+              12
+          offense_command_status_list:
+            -
+              action_id: !!int
+                19400701
+              critical_type: !!int
+                0
+              defense: !!int
+                8782
+              duel_parameter: !!int
+                9597
+              offense: !!int
+                16387
+              parameter_defense: !!int
+                8782
+              parameter_offense: !!int
+                16387
+              parameter_physical: !!int
+                13012
+              parameter_saving: !!int
+                0
+              physical: !!int
+                13012
+              player_item_m_id: !!int
+                319298503
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                760
+              team_type: !!int
+                0
+            -
+              action_id: !!int
+                19400701
+              critical_type: !!int
+                0
+              defense: !!int
+                8782
+              duel_parameter: !!int
+                14396
+              offense: !!int
+                16387
+              parameter_defense: !!int
+                8782
+              parameter_offense: !!int
+                16387
+              parameter_physical: !!int
+                13012
+              parameter_saving: !!int
+                0
+              physical: !!int
+                13012
+              player_item_m_id: !!int
+                319298503
+              result_type: !!int
+                2
+              saving: !!int
+                0
+              stamina: !!int
+                760
+              team_type: !!int
+                0
+          result: !!int
+            2
+          time: !!int
+            262
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10007
+              critical_type: !!int
+                0
+              defense: !!int
+                8224
+              duel_parameter: !!int
+                5226
+              offense: !!int
+                7654
+              parameter_defense: !!int
+                8224
+              parameter_offense: !!int
+                7654
+              parameter_physical: !!int
+                7909
+              parameter_saving: !!int
+                0
+              physical: !!int
+                7909
+              player_item_m_id: !!int
+                118357300
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                688
+              team_type: !!int
+                1
+            -
+              action_id: !!int
+                10007
+              critical_type: !!int
+                0
+              defense: !!int
+                6614
+              duel_parameter: !!int
+                4726
+              offense: !!int
+                6234
+              parameter_defense: !!int
+                6614
+              parameter_offense: !!int
+                6234
+              parameter_physical: !!int
+                6691
+              parameter_saving: !!int
+                0
+              physical: !!int
+                6691
+              player_item_m_id: !!int
+                127529900
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                529
+              team_type: !!int
+                1
+            -
+              action_id: !!int
+                10007
+              critical_type: !!int
+                0
+              defense: !!int
+                8039
+              duel_parameter: !!int
+                5357
+              offense: !!int
+                6937
+              parameter_defense: !!int
+                8039
+              parameter_offense: !!int
+                6937
+              parameter_physical: !!int
+                7632
+              parameter_saving: !!int
+                0
+              physical: !!int
+                7632
+              player_item_m_id: !!int
+                122888300
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                713
+              team_type: !!int
+                1
+          duel_type: !!int
+            0
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              30
+            - !!int
+              -8
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10003
+              critical_type: !!int
+                0
+              defense: !!int
+                8843
+              duel_parameter: !!int
+                14295
+              offense: !!int
+                17070
+              parameter_defense: !!int
+                8843
+              parameter_offense: !!int
+                17070
+              parameter_physical: !!int
+                17501
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17501
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                1076
+              team_type: !!int
+                0
+            -
+              action_id: !!int
+                10003
+              critical_type: !!int
+                0
+              defense: !!int
+                8843
+              duel_parameter: !!int
+                9530
+              offense: !!int
+                17070
+              parameter_defense: !!int
+                8843
+              parameter_offense: !!int
+                17070
+              parameter_physical: !!int
+                17501
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17501
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                1016
+              team_type: !!int
+                0
+            -
+              action_id: !!int
+                10003
+              critical_type: !!int
+                0
+              defense: !!int
+                8696
+              duel_parameter: !!int
+                14059
+              offense: !!int
+                16786
+              parameter_defense: !!int
+                8696
+              parameter_offense: !!int
+                16786
+              parameter_physical: !!int
+                17210
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17210
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                956
+              team_type: !!int
+                0
+          result: !!int
+            0
+          time: !!int
+            393
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10001
+              critical_type: !!int
+                0
+              defense: !!int
+                0
+              duel_parameter: !!int
+                6112
+              offense: !!int
+                0
+              parameter_defense: !!int
+                0
+              parameter_offense: !!int
+                0
+              parameter_physical: !!int
+                7844
+              parameter_saving: !!int
+                5783
+              physical: !!int
+                7844
+              player_item_m_id: !!int
+                126292200
+              result_type: !!int
+                0
+              saving: !!int
+                5783
+              stamina: !!int
+                551
+              team_type: !!int
+                1
+          duel_type: !!int
+            4
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              58
+            - !!int
+              0
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10004
+              critical_type: !!int
+                0
+              defense: !!int
+                8696
+              duel_parameter: !!int
+                7974
+              offense: !!int
+                16786
+              parameter_defense: !!int
+                8696
+              parameter_offense: !!int
+                16786
+              parameter_physical: !!int
+                17210
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17210
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                956
+              team_type: !!int
+                0
+          result: !!int
+            0
+          time: !!int
+            579
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10001
+              critical_type: !!int
+                0
+              defense: !!int
+                0
+              duel_parameter: !!int
+                6112
+              offense: !!int
+                0
+              parameter_defense: !!int
+                0
+              parameter_offense: !!int
+                0
+              parameter_physical: !!int
+                7844
+              parameter_saving: !!int
+                5783
+              physical: !!int
+                7844
+              player_item_m_id: !!int
+                126292200
+              result_type: !!int
+                0
+              saving: !!int
+                5783
+              stamina: !!int
+                491
+              team_type: !!int
+                1
+          duel_type: !!int
+            4
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              56
+            - !!int
+              0
+          offense_command_status_list:
+            -
+              action_id: !!int
+                26405201
+              critical_type: !!int
+                0
+              defense: !!int
+                9927
+              duel_parameter: !!int
+                7257
+              offense: !!int
+                19206
+              parameter_defense: !!int
+                9927
+              parameter_offense: !!int
+                19206
+              parameter_physical: !!int
+                18770
+              parameter_saving: !!int
+                0
+              physical: !!int
+                18770
+              player_item_m_id: !!int
+                315802301
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                909
+              team_type: !!int
+                0
+          result: !!int
+            0
+          time: !!int
+            817
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10008
+              critical_type: !!int
+                0
+              defense: !!int
+                8305
+              duel_parameter: !!int
+                3196
+              offense: !!int
+                7729
+              parameter_defense: !!int
+                8305
+              parameter_offense: !!int
+                7729
+              parameter_physical: !!int
+                7986
+              parameter_saving: !!int
+                0
+              physical: !!int
+                7986
+              player_item_m_id: !!int
+                118357300
+              result_type: !!int
+                1
+              saving: !!int
+                0
+              stamina: !!int
+                688
+              team_type: !!int
+                1
+          duel_type: !!int
+            3
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              29
+            - !!int
+              -4
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10004
+              critical_type: !!int
+                3
+              defense: !!int
+                8843
+              duel_parameter: !!int
+                19912
+              offense: !!int
+                17070
+              parameter_defense: !!int
+                8843
+              parameter_offense: !!int
+                17070
+              parameter_physical: !!int
+                17501
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17501
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                1
+              saving: !!int
+                0
+              stamina: !!int
+                836
+              team_type: !!int
+                0
+          result: !!int
+            1
+          time: !!int
+            1028
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10002
+              critical_type: !!int
+                0
+              defense: !!int
+                0
+              duel_parameter: !!int
+                6559
+              offense: !!int
+                0
+              parameter_defense: !!int
+                0
+              parameter_offense: !!int
+                0
+              parameter_physical: !!int
+                7844
+              parameter_saving: !!int
+                5783
+              physical: !!int
+                7844
+              player_item_m_id: !!int
+                126292200
+              result_type: !!int
+                3
+              saving: !!int
+                5783
+              stamina: !!int
+                391
+              team_type: !!int
+                1
+          duel_type: !!int
+            4
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              55
+            - !!int
+              0
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10004
+              critical_type: !!int
+                3
+              defense: !!int
+                8696
+              duel_parameter: !!int
+                6356
+              offense: !!int
+                16786
+              parameter_defense: !!int
+                8696
+              parameter_offense: !!int
+                16786
+              parameter_physical: !!int
+                17210
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17210
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                3
+              saving: !!int
+                0
+              stamina: !!int
+                836
+              team_type: !!int
+                0
+          result: !!int
+            3
+          time: !!int
+            1086
+        -
+          ball_aerial_type: !!int
+            2
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10009
+              critical_type: !!int
+                3
+              defense: !!int
+                6937
+              duel_parameter: !!int
+                4038
+              offense: !!int
+                7148
+              parameter_defense: !!int
+                6937
+              parameter_offense: !!int
+                7148
+              parameter_physical: !!int
+                8428
+              parameter_saving: !!int
+                0
+              physical: !!int
+                8428
+              player_item_m_id: !!int
+                125713600
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                833
+              team_type: !!int
+                1
+            -
+              action_id: !!int
+                10009
+              critical_type: !!int
+                0
+              defense: !!int
+                4385
+              duel_parameter: !!int
+                2163
+              offense: !!int
+                7278
+              parameter_defense: !!int
+                4385
+              parameter_offense: !!int
+                7278
+              parameter_physical: !!int
+                8340
+              parameter_saving: !!int
+                0
+              physical: !!int
+                8340
+              player_item_m_id: !!int
+                125831600
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                577
+              team_type: !!int
+                1
+          duel_type: !!int
+            3
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              52
+            - !!int
+              21
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10005
+              critical_type: !!int
+                0
+              defense: !!int
+                9927
+              duel_parameter: !!int
+                7884
+              offense: !!int
+                19206
+              parameter_defense: !!int
+                9927
+              parameter_offense: !!int
+                19206
+              parameter_physical: !!int
+                18770
+              parameter_saving: !!int
+                0
+              physical: !!int
+                18770
+              player_item_m_id: !!int
+                315802301
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                389
+              team_type: !!int
+                0
+            -
+              action_id: !!int
+                10005
+              critical_type: !!int
+                0
+              defense: !!int
+                9927
+              duel_parameter: !!int
+                7744
+              offense: !!int
+                19206
+              parameter_defense: !!int
+                9927
+              parameter_offense: !!int
+                19206
+              parameter_physical: !!int
+                18770
+              parameter_saving: !!int
+                0
+              physical: !!int
+                18770
+              player_item_m_id: !!int
+                315802301
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                389
+              team_type: !!int
+                0
+          result: !!int
+            0
+          time: !!int
+            1152
+        -
+          ball_aerial_type: !!int
+            2
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10012
+              critical_type: !!int
+                0
+              defense: !!int
+                4772
+              duel_parameter: !!int
+                3404
+              offense: !!int
+                6433
+              parameter_defense: !!int
+                4772
+              parameter_offense: !!int
+                6433
+              parameter_physical: !!int
+                6493
+              parameter_saving: !!int
+                0
+              physical: !!int
+                6493
+              player_item_m_id: !!int
+                126997600
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                419
+              team_type: !!int
+                1
+            -
+              action_id: !!int
+                10012
+              critical_type: !!int
+                0
+              defense: !!int
+                7961
+              duel_parameter: !!int
+                7172
+              offense: !!int
+                6870
+              parameter_defense: !!int
+                7961
+              parameter_offense: !!int
+                6870
+              parameter_physical: !!int
+                7558
+              parameter_saving: !!int
+                0
+              physical: !!int
+                7558
+              player_item_m_id: !!int
+                122888300
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                593
+              team_type: !!int
+                1
+            -
+              action_id: !!int
+                10012
+              critical_type: !!int
+                0
+              defense: !!int
+                6507
+              duel_parameter: !!int
+                5859
+              offense: !!int
+                5184
+              parameter_defense: !!int
+                6507
+              parameter_offense: !!int
+                5184
+              parameter_physical: !!int
+                6006
+              parameter_saving: !!int
+                0
+              physical: !!int
+                6006
+              player_item_m_id: !!int
+                127590700
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                402
+              team_type: !!int
+                1
+          duel_type: !!int
+            0
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              43
+            - !!int
+              0
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10014
+              critical_type: !!int
+                0
+              defense: !!int
+                8782
+              duel_parameter: !!int
+                11856
+              offense: !!int
+                16387
+              parameter_defense: !!int
+                8782
+              parameter_offense: !!int
+                16387
+              parameter_physical: !!int
+                13012
+              parameter_saving: !!int
+                0
+              physical: !!int
+                13012
+              player_item_m_id: !!int
+                319298503
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                640
+              team_type: !!int
+                0
+            -
+              action_id: !!int
+                10014
+              critical_type: !!int
+                0
+              defense: !!int
+                8782
+              duel_parameter: !!int
+                7904
+              offense: !!int
+                16387
+              parameter_defense: !!int
+                8782
+              parameter_offense: !!int
+                16387
+              parameter_physical: !!int
+                13012
+              parameter_saving: !!int
+                0
+              physical: !!int
+                13012
+              player_item_m_id: !!int
+                319298503
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                640
+              team_type: !!int
+                0
+            -
+              action_id: !!int
+                10014
+              critical_type: !!int
+                0
+              defense: !!int
+                8782
+              duel_parameter: !!int
+                7904
+              offense: !!int
+                16387
+              parameter_defense: !!int
+                8782
+              parameter_offense: !!int
+                16387
+              parameter_physical: !!int
+                13012
+              parameter_saving: !!int
+                0
+              physical: !!int
+                13012
+              player_item_m_id: !!int
+                319298503
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                640
+              team_type: !!int
+                0
+          result: !!int
+            0
+          time: !!int
+            1256
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10008
+              critical_type: !!int
+                0
+              defense: !!int
+                8305
+              duel_parameter: !!int
+                4794
+              offense: !!int
+                7729
+              parameter_defense: !!int
+                8305
+              parameter_offense: !!int
+                7729
+              parameter_physical: !!int
+                7986
+              parameter_saving: !!int
+                0
+              physical: !!int
+                7986
+              player_item_m_id: !!int
+                118357300
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                688
+              team_type: !!int
+                1
+          duel_type: !!int
+            3
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              55
+            - !!int
+              0
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10004
+              critical_type: !!int
+                0
+              defense: !!int
+                8782
+              duel_parameter: !!int
+                8629
+              offense: !!int
+                16387
+              parameter_defense: !!int
+                8782
+              parameter_offense: !!int
+                16387
+              parameter_physical: !!int
+                13012
+              parameter_saving: !!int
+                0
+              physical: !!int
+                13012
+              player_item_m_id: !!int
+                319298503
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                640
+              team_type: !!int
+                0
+          result: !!int
+            0
+          time: !!int
+            1362
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                12400201
+              critical_type: !!int
+                0
+              defense: !!int
+                0
+              duel_parameter: !!int
+                4727
+              offense: !!int
+                0
+              parameter_defense: !!int
+                0
+              parameter_offense: !!int
+                0
+              parameter_physical: !!int
+                7844
+              parameter_saving: !!int
+                5783
+              physical: !!int
+                7844
+              player_item_m_id: !!int
+                126292200
+              result_type: !!int
+                0
+              saving: !!int
+                5783
+              stamina: !!int
+                158
+              team_type: !!int
+                1
+          duel_type: !!int
+            4
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              56
+            - !!int
+              0
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10004
+              critical_type: !!int
+                0
+              defense: !!int
+                8782
+              duel_parameter: !!int
+                8328
+              offense: !!int
+                16387
+              parameter_defense: !!int
+                8782
+              parameter_offense: !!int
+                16387
+              parameter_physical: !!int
+                13012
+              parameter_saving: !!int
+                0
+              physical: !!int
+                13012
+              player_item_m_id: !!int
+                319298503
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                640
+              team_type: !!int
+                0
+          result: !!int
+            0
+          time: !!int
+            1396
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10002
+              critical_type: !!int
+                3
+              defense: !!int
+                0
+              duel_parameter: !!int
+                9839
+              offense: !!int
+                0
+              parameter_defense: !!int
+                0
+              parameter_offense: !!int
+                0
+              parameter_physical: !!int
+                7844
+              parameter_saving: !!int
+                5783
+              physical: !!int
+                7844
+              player_item_m_id: !!int
+                126292200
+              result_type: !!int
+                4
+              saving: !!int
+                5783
+              stamina: !!int
+                58
+              team_type: !!int
+                1
+          duel_type: !!int
+            4
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              56
+            - !!int
+              0
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10004
+              critical_type: !!int
+                0
+              defense: !!int
+                9927
+              duel_parameter: !!int
+                7945
+              offense: !!int
+                19206
+              parameter_defense: !!int
+                9927
+              parameter_offense: !!int
+                19206
+              parameter_physical: !!int
+                18770
+              parameter_saving: !!int
+                0
+              physical: !!int
+                18770
+              player_item_m_id: !!int
+                315802301
+              result_type: !!int
+                4
+              saving: !!int
+                0
+              stamina: !!int
+                269
+              team_type: !!int
+                0
+          result: !!int
+            4
+          time: !!int
+            1686
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10001
+              critical_type: !!int
+                0
+              defense: !!int
+                0
+              duel_parameter: !!int
+                5929
+              offense: !!int
+                0
+              parameter_defense: !!int
+                0
+              parameter_offense: !!int
+                0
+              parameter_physical: !!int
+                7844
+              parameter_saving: !!int
+                5783
+              physical: !!int
+                7844
+              player_item_m_id: !!int
+                126292200
+              result_type: !!int
+                0
+              saving: !!int
+                5783
+              stamina: !!int
+                0
+              team_type: !!int
+                1
+          duel_type: !!int
+            4
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              57
+            - !!int
+              -2
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10004
+              critical_type: !!int
+                0
+              defense: !!int
+                8696
+              duel_parameter: !!int
+                8332
+              offense: !!int
+                16786
+              parameter_defense: !!int
+                8696
+              parameter_offense: !!int
+                16786
+              parameter_physical: !!int
+                17210
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17210
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                716
+              team_type: !!int
+                0
+          result: !!int
+            0
+          time: !!int
+            1956
+        -
+          ball_aerial_type: !!int
+            0
+          defense_command_status_list:
+            -
+              action_id: !!int
+                10002
+              critical_type: !!int
+                0
+              defense: !!int
+                0
+              duel_parameter: !!int
+                655
+              offense: !!int
+                0
+              parameter_defense: !!int
+                0
+              parameter_offense: !!int
+                0
+              parameter_physical: !!int
+                7844
+              parameter_saving: !!int
+                5783
+              physical: !!int
+                7844
+              player_item_m_id: !!int
+                126292200
+              result_type: !!int
+                0
+              saving: !!int
+                5783
+              stamina: !!int
+                0
+              team_type: !!int
+                1
+          duel_type: !!int
+            4
+          half_state_type: !!int
+            0
+          location:
+            - !!int
+              54
+            - !!int
+              0
+          offense_command_status_list:
+            -
+              action_id: !!int
+                10004
+              critical_type: !!int
+                0
+              defense: !!int
+                8696
+              duel_parameter: !!int
+                4914
+              offense: !!int
+                16786
+              parameter_defense: !!int
+                8696
+              parameter_offense: !!int
+                16786
+              parameter_physical: !!int
+                17210
+              parameter_saving: !!int
+                0
+              physical: !!int
+                17210
+              player_item_m_id: !!int
+                323908510
+              result_type: !!int
+                0
+              saving: !!int
+                0
+              stamina: !!int
+                596
+              team_type: !!int
+                0
+          result: !!int
+            0
+          time: !!int
+            2199
+      duel_win_reading_count: !!int
+        3
+      duel_win_reading_win_count: !!int
+        3
+      free_kick_count: !!int
+        0
+      goal_status_list:
+        -
+          defense:
+            action_id: !!int
+              10001
+            critical_type: !!int
+              0
+            defense: !!int
+              0
+            duel_parameter: !!int
+              6112
+            offense: !!int
+              0
+            parameter_defense: !!int
+              0
+            parameter_offense: !!int
+              0
+            parameter_physical: !!int
+              7844
+            parameter_saving: !!int
+              5783
+            physical: !!int
+              7844
+            player_item_m_id: !!int
+              126292200
+            result_type: !!int
+              0
+            saving: !!int
+              5783
+            stamina: !!int
+              551
+            team_type: !!int
+              1
+          offense:
+            action_id: !!int
+              10004
+            critical_type: !!int
+              0
+            defense: !!int
+              8696
+            duel_parameter: !!int
+              7974
+            offense: !!int
+              16786
+            parameter_defense: !!int
+              8696
+            parameter_offense: !!int
+              16786
+            parameter_physical: !!int
+              17210
+            parameter_saving: !!int
+              0
+            physical: !!int
+              17210
+            player_item_m_id: !!int
+              323908510
+            result_type: !!int
+              0
+            saving: !!int
+              0
+            stamina: !!int
+              956
+            team_type: !!int
+              0
+        -
+          defense:
+            action_id: !!int
+              10001
+            critical_type: !!int
+              0
+            defense: !!int
+              0
+            duel_parameter: !!int
+              6112
+            offense: !!int
+              0
+            parameter_defense: !!int
+              0
+            parameter_offense: !!int
+              0
+            parameter_physical: !!int
+              7844
+            parameter_saving: !!int
+              5783
+            physical: !!int
+              7844
+            player_item_m_id: !!int
+              126292200
+            result_type: !!int
+              0
+            saving: !!int
+              5783
+            stamina: !!int
+              491
+            team_type: !!int
+              1
+          offense:
+            action_id: !!int
+              26405201
+            critical_type: !!int
+              0
+            defense: !!int
+              9927
+            duel_parameter: !!int
+              7257
+            offense: !!int
+              19206
+            parameter_defense: !!int
+              9927
+            parameter_offense: !!int
+              19206
+            parameter_physical: !!int
+              18770
+            parameter_saving: !!int
+              0
+            physical: !!int
+              18770
+            player_item_m_id: !!int
+              315802301
+            result_type: !!int
+              0
+            saving: !!int
+              0
+            stamina: !!int
+              909
+            team_type: !!int
+              0
+        -
+          defense:
+            action_id: !!int
+              12400201
+            critical_type: !!int
+              0
+            defense: !!int
+              0
+            duel_parameter: !!int
+              4727
+            offense: !!int
+              0
+            parameter_defense: !!int
+              0
+            parameter_offense: !!int
+              0
+            parameter_physical: !!int
+              7844
+            parameter_saving: !!int
+              5783
+            physical: !!int
+              7844
+            player_item_m_id: !!int
+              126292200
+            result_type: !!int
+              0
+            saving: !!int
+              5783
+            stamina: !!int
+              158
+            team_type: !!int
+              1
+          offense:
+            action_id: !!int
+              10004
+            critical_type: !!int
+              0
+            defense: !!int
+              8782
+            duel_parameter: !!int
+              8328
+            offense: !!int
+              16387
+            parameter_defense: !!int
+              8782
+            parameter_offense: !!int
+              16387
+            parameter_physical: !!int
+              13012
+            parameter_saving: !!int
+              0
+            physical: !!int
+              13012
+            player_item_m_id: !!int
+              319298503
+            result_type: !!int
+              0
+            saving: !!int
+              0
+            stamina: !!int
+              640
+            team_type: !!int
+              0
+        -
+          defense:
+            action_id: !!int
+              10001
+            critical_type: !!int
+              0
+            defense: !!int
+              0
+            duel_parameter: !!int
+              5929
+            offense: !!int
+              0
+            parameter_defense: !!int
+              0
+            parameter_offense: !!int
+              0
+            parameter_physical: !!int
+              7844
+            parameter_saving: !!int
+              5783
+            physical: !!int
+              7844
+            player_item_m_id: !!int
+              126292200
+            result_type: !!int
+              0
+            saving: !!int
+              5783
+            stamina: !!int
+              0
+            team_type: !!int
+              1
+          offense:
+            action_id: !!int
+              10004
+            critical_type: !!int
+              0
+            defense: !!int
+              8696
+            duel_parameter: !!int
+              8332
+            offense: !!int
+              16786
+            parameter_defense: !!int
+              8696
+            parameter_offense: !!int
+              16786
+            parameter_physical: !!int
+              17210
+            parameter_saving: !!int
+              0
+            physical: !!int
+              17210
+            player_item_m_id: !!int
+              323908510
+            result_type: !!int
+              0
+            saving: !!int
+              0
+            stamina: !!int
+              716
+            team_type: !!int
+              0
+        -
+          defense:
+            action_id: !!int
+              10002
+            critical_type: !!int
+              0
+            defense: !!int
+              0
+            duel_parameter: !!int
+              655
+            offense: !!int
+              0
+            parameter_defense: !!int
+              0
+            parameter_offense: !!int
+              0
+            parameter_physical: !!int
+              7844
+            parameter_saving: !!int
+              5783
+            physical: !!int
+              7844
+            player_item_m_id: !!int
+              126292200
+            result_type: !!int
+              0
+            saving: !!int
+              5783
+            stamina: !!int
+              0
+            team_type: !!int
+              1
+          offense:
+            action_id: !!int
+              10004
+            critical_type: !!int
+              0
+            defense: !!int
+              8696
+            duel_parameter: !!int
+              4914
+            offense: !!int
+              16786
+            parameter_defense: !!int
+              8696
+            parameter_offense: !!int
+              16786
+            parameter_physical: !!int
+              17210
+            parameter_saving: !!int
+              0
+            physical: !!int
+              17210
+            player_item_m_id: !!int
+              323908510
+            result_type: !!int
+              0
+            saving: !!int
+              0
+            stamina: !!int
+              596
+            team_type: !!int
+              0
+      intercept_count: !!int
+        4
+      intercept_count_all: !!int
+        4
+      offside_count: !!int
+        0
+      onetwo_count: !!int
+        1
+      onetwo_count_all: !!int
+        1
+      out_of_play_info_list:
+        -
+          location:
+            - !!int
+              60
+            - !!int
+              37
+          out_of_play_type: !!int
+            3
+          player_item_m_id: !!int
+            315802301
+          time: !!int
+            1116
+      pass_count: !!int
+        2
+      pass_count_all: !!int
+        2
+      player_count_dict:
+        116358700:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        423844402:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        120786500:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        119744500:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        120010402:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        123879401:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        323905303:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        318694201:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        319298503:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            1
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+            -
+              number_of_used: !!int
+                1
+              operation_mode: !!int
+                2
+              skill_move_type: !!int
+                19400701
+              timestamp: !!int
+                1714719657
+          tackle: !!int
+            0
+          trick_play: !!int
+            1
+          try_pass: !!int
+            1
+        323908510:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            1
+          goal: !!int
+            3
+          pass_cut: !!int
+            3
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        315802301:
+          assist: !!int
+            1
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            1
+          pass_cut: !!int
+            1
+          saving: !!int
+            0
+          skill_move_status:
+            -
+              number_of_used: !!int
+                1
+              operation_mode: !!int
+                2
+              skill_move_type: !!int
+                26405201
+              timestamp: !!int
+                1714719664
+          tackle: !!int
+            1
+          trick_play: !!int
+            1
+          try_pass: !!int
+            1
+        124083301:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        424292702:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        124709001:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        120337601:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        120348700:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        114023300:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+        119074500:
+          assist: !!int
+            0
+          block: !!int
+            0
+          dribble: !!int
+            0
+          goal: !!int
+            0
+          pass_cut: !!int
+            0
+          saving: !!int
+            0
+          skill_move_status:
+
+          tackle: !!int
+            0
+          trick_play: !!int
+            0
+          try_pass: !!int
+            0
+      possession_count: !!int
+        180
+      possession_total_count: !!int
+        324
+      saving_count: !!int
+        0
+      saving_count_all: !!int
+        0
+      shoot_count: !!int
+        7
+      shoot_count_all: !!int
+        7
+      tackle_count: !!int
+        1
+      tackle_count_all: !!int
+        1
+    in_game_state_type: !!int
+      5
+    is_established_called_game: !!bool
+      true
+    is_regulation_completed: !!bool
+      false
+    is_regulation_failed: !!bool
+      false
+    is_stage_condition_cleared: !!bool
+      false
+  match_id: !!int
+    1714719643194966159
+  replay_data: !!str |-
+    ****bytes****
+  replay_match_info:
+    ai_strength_m_id: 
+      null
+    away_user:
+      calling_card_m_id: 
+        null
+      class_id: 
+        null
+      class_setting_id: 
+        null
+      deck:
+        away_uniform_m_id: !!int
+          1112351
+        captain_m_id: !!int
+          21104507
+        deck_id: !!int
+          0
+        defense_tactics_m_id_1: !!int
+          12010003
+        defense_tactics_m_id_2: !!int
+          12030004
+        defense_tactics_m_id_3: !!int
+          12040001
+        formation_m_id: !!int
+          10020001
+        fp_1:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104502
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            13501101
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110490004
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_10:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104511
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            16501701
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110160001
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_2:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104503
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            15400201
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110310001
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_3:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104504
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            17401601
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110400010
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_4:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104505
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            13501101
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110010007
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_5:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104506
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            15500201
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110500007
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_6:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104507
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            13500901
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            15500201
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110490001
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_7:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104508
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            16401601
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110490008
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_8:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104509
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            17501501
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110310001
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_9:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104510
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            16401701
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110400010
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_celebration_m_id_1: !!int
+          2300028
+        fp_celebration_m_id_10: !!int
+          2300023
+        fp_celebration_m_id_2: !!int
+          2300019
+        fp_celebration_m_id_3: !!int
+          2300014
+        fp_celebration_m_id_4: !!int
+          2300014
+        fp_celebration_m_id_5: !!int
+          2300019
+        fp_celebration_m_id_6: !!int
+          2300014
+        fp_celebration_m_id_7: !!int
+          2300023
+        fp_celebration_m_id_8: !!int
+          2300014
+        fp_celebration_m_id_9: !!int
+          2300021
+        fp_uniform_number_1: !!int
+          27
+        fp_uniform_number_10: !!int
+          44
+        fp_uniform_number_2: !!int
+          30
+        fp_uniform_number_3: !!int
+          23
+        fp_uniform_number_4: !!int
+          29
+        fp_uniform_number_5: !!int
+          36
+        fp_uniform_number_6: !!int
+          5
+        fp_uniform_number_7: !!int
+          8
+        fp_uniform_number_8: !!int
+          17
+        fp_uniform_number_9: !!int
+          25
+        gk:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104501
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            12400201
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110010011
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        gk_celebration_m_id: 
+          null
+        gk_uniform_number: !!int
+          34
+        home_uniform_m_id: !!int
+          1112350
+        manager:
+          exp: !!int
+            4800
+          manager_m_id: !!int
+            226283501
+        name: !!str |-
+          HEIDENHEIM
+        offense_tactics_m_id_1: !!int
+          11010001
+        offense_tactics_m_id_2: !!int
+          11020003
+        offense_tactics_m_id_3: !!int
+          11040003
+        random_celebration_ids:
+          - !!int
+            2300028
+          - !!int
+            2300019
+          - !!int
+            2300014
+          - !!int
+            2300014
+          - !!int
+            2300019
+          - !!int
+            2300014
+          - !!int
+            2300023
+          - !!int
+            2300014
+          - !!int
+            2300021
+          - !!int
+            2300023
+          - !!int
+            2300019
+          - !!int
+            2300028
+          - !!int
+            2300028
+          - !!int
+            2300014
+          - !!int
+            2300031
+          - !!int
+            2300021
+        sub_1:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104512
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            17401601
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110020001
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_2:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104513
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            16403501
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110010011
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_3:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104514
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            18501301
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110400002
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_4:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104515
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            16501601
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110350001
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_5:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104516
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            15400101
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            13500201
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110010011
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_6:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104517
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            13400801
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            15401301
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110490004
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_7:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            21104518
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            11400801
+          trick_play_2_exp: !!int
+            0
+          trick_play_2_id: 
+            null
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110010011
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_celebration_m_id_1: !!int
+          2300019
+        sub_celebration_m_id_2: !!int
+          2300028
+        sub_celebration_m_id_3: !!int
+          2300028
+        sub_celebration_m_id_4: !!int
+          2300014
+        sub_celebration_m_id_5: !!int
+          2300031
+        sub_celebration_m_id_6: !!int
+          2300021
+        sub_celebration_m_id_7: 
+          null
+        sub_uniform_number_1: !!int
+          24
+        sub_uniform_number_2: !!int
+          9
+        sub_uniform_number_3: !!int
+          21
+        sub_uniform_number_4: !!int
+          11
+        sub_uniform_number_5: !!int
+          4
+        sub_uniform_number_6: !!int
+          19
+        sub_uniform_number_7: !!int
+          40
+        team_effect_m_id_1: !!int
+          11000022
+        team_effect_m_id_2: 
+          null
+        team_effect_m_id_3: 
+          null
+      enable_operation_mode_change: !!bool
+        false
+      rating: !!int
+        0
+      team_crest_m_id: !!int
+        111235
+      team_name: !!str |-
+        HEIDENHEIM
+      user_id: !!int
+        0
+      user_name: !!str |-
+        HEIDENHEIM
+    ball_m_id: !!int
+      2000018
+    bgm_event_name: !!str |-
+      Play_BGM_GAME_005__B01
+    friendly_match_regulation_setting: 
+      null
+    home_user:
+      calling_card_m_id: 
+        null
+      class_id: 
+        null
+      class_setting_id: 
+        null
+      deck:
+        away_uniform_m_id: !!int
+          900011
+        captain_m_id: !!int
+          315802301
+        deck_id: !!int
+          1
+        defense_tactics_m_id_1: !!int
+          12040001
+        defense_tactics_m_id_2: !!int
+          12010001
+        defense_tactics_m_id_3: !!int
+          12020001
+        formation_m_id: !!int
+          10140001
+        fp_1:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            35590
+          player_item_m_id: !!int
+            423844402
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            24400202
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            23400801
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            15401201
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            230010005
+          trigger_effect_2_exp: !!int
+            1
+          trigger_effect_2_id: !!int
+            120020007
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_10:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            47390
+          player_item_m_id: !!int
+            315802301
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            27900101
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            26405201
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            19400601
+          trick_play_4_exp: !!int
+            1
+          trick_play_4_id: !!int
+            16502501
+          trick_play_5_exp: !!int
+            1
+          trick_play_5_id: !!int
+            16401501
+          trick_play_6_exp: !!int
+            1
+          trick_play_6_id: !!int
+            13400601
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            230490010
+          trigger_effect_2_exp: !!int
+            1
+          trigger_effect_2_id: !!int
+            120120001
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_2:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            47390
+          player_item_m_id: !!int
+            120786500
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            14400201
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            13500101
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            18501301
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            130050001
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_3:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            4340
+          player_item_m_id: !!int
+            119744500
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            14400701
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            13400801
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            18500201
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            120010006
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_4:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            72310
+          player_item_m_id: !!int
+            120010402
+          trick_play_1_exp: !!int
+            2
+          trick_play_1_id: !!int
+            16401101
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            17500201
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            120020002
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_5:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            16630
+          player_item_m_id: !!int
+            123879401
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            19400601
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            17501201
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            120160006
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_6:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            16630
+          player_item_m_id: !!int
+            323905303
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            26404702
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            23500801
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            18401101
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            230030001
+          trigger_effect_2_exp: !!int
+            1
+          trigger_effect_2_id: !!int
+            120160004
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_7:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            16630
+          player_item_m_id: !!int
+            318694201
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            28400502
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            27401303
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            18400201
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            220240002
+          trigger_effect_2_exp: !!int
+            1
+          trigger_effect_2_id: !!int
+            110070001
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_8:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            16630
+          player_item_m_id: !!int
+            319298503
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            28400602
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            26401301
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            19400701
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            230260001
+          trigger_effect_2_exp: !!int
+            1
+          trigger_effect_2_id: !!int
+            120080001
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_9:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            27250
+          player_item_m_id: !!int
+            323908510
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            26700101
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            27002201
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            16403401
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            230020015
+          trigger_effect_2_exp: !!int
+            1
+          trigger_effect_2_id: !!int
+            120010002
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        fp_celebration_m_id_1: 
+          null
+        fp_celebration_m_id_10: 
+          null
+        fp_celebration_m_id_2: 
+          null
+        fp_celebration_m_id_3: 
+          null
+        fp_celebration_m_id_4: !!int
+          2300014
+        fp_celebration_m_id_5: 
+          null
+        fp_celebration_m_id_6: 
+          null
+        fp_celebration_m_id_7: 
+          null
+        fp_celebration_m_id_8: 
+          null
+        fp_celebration_m_id_9: 
+          null
+        fp_uniform_number_1: !!int
+          4
+        fp_uniform_number_10: !!int
+          10
+        fp_uniform_number_2: !!int
+          2
+        fp_uniform_number_3: !!int
+          14
+        fp_uniform_number_4: !!int
+          8
+        fp_uniform_number_5: !!int
+          9
+        fp_uniform_number_6: !!int
+          7
+        fp_uniform_number_7: !!int
+          1
+        fp_uniform_number_8: !!int
+          25
+        fp_uniform_number_9: !!int
+          99
+        gk:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            91470
+          player_item_m_id: !!int
+            116358700
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            11400601
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            12500201
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            12500101
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            120010004
+          trigger_effect_2_exp: !!int
+            1
+          trigger_effect_2_id: !!int
+            120320001
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        gk_celebration_m_id: 
+          null
+        gk_uniform_number: !!int
+          33
+        home_uniform_m_id: !!int
+          10
+        manager:
+          exp: !!int
+            2620
+          manager_m_id: !!int
+            226285401
+        name: !!str |-
+          Team 1
+        offense_tactics_m_id_1: !!int
+          11040001
+        offense_tactics_m_id_2: !!int
+          11010001
+        offense_tactics_m_id_3: !!int
+          11020001
+        random_celebration_ids:
+          - !!int
+            2300014
+          - !!int
+            2300019
+          - !!int
+            2300028
+        sub_1:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            16630
+          player_item_m_id: !!int
+            124083301
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            16501101
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            16503301
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            120490006
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_2:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            424292702
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            28001002
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            23001603
+          trick_play_3_exp: !!int
+            1
+          trick_play_3_id: !!int
+            17500201
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            230070002
+          trigger_effect_2_exp: !!int
+            1
+          trigger_effect_2_id: !!int
+            120160004
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_3:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            2
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            1
+          exp: !!int
+            16630
+          player_item_m_id: !!int
+            124709001
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            18400101
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            13500901
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            120070001
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_4:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            2090
+          player_item_m_id: !!int
+            120337601
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            15401201
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            13400901
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            120010006
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_5:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            4340
+          player_item_m_id: !!int
+            120348700
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            15501201
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            13501101
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110010009
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_6:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            114023300
+          trick_play_1_exp: !!int
+            0
+          trick_play_1_id: 
+            null
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            11500801
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            0
+          trigger_effect_1_id: 
+            null
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_7:
+          ability_point_block: !!int
+            0
+          ability_point_catching: !!int
+            0
+          ability_point_dribble: !!int
+            0
+          ability_point_intercept: !!int
+            0
+          ability_point_pass: !!int
+            0
+          ability_point_power: !!int
+            0
+          ability_point_punching: !!int
+            0
+          ability_point_shoot: !!int
+            0
+          ability_point_speed: !!int
+            0
+          ability_point_tackle: !!int
+            0
+          ability_point_technique: !!int
+            0
+          boundary_break: !!int
+            0
+          exp: !!int
+            0
+          player_item_m_id: !!int
+            119074500
+          trick_play_1_exp: !!int
+            1
+          trick_play_1_id: !!int
+            12500701
+          trick_play_2_exp: !!int
+            1
+          trick_play_2_id: !!int
+            11500901
+          trick_play_3_exp: !!int
+            0
+          trick_play_3_id: 
+            null
+          trick_play_4_exp: !!int
+            0
+          trick_play_4_id: 
+            null
+          trick_play_5_exp: !!int
+            0
+          trick_play_5_id: 
+            null
+          trick_play_6_exp: !!int
+            0
+          trick_play_6_id: 
+            null
+          trigger_effect_1_exp: !!int
+            1
+          trigger_effect_1_id: !!int
+            110020010
+          trigger_effect_2_exp: !!int
+            0
+          trigger_effect_2_id: 
+            null
+          trigger_effect_3_exp: !!int
+            0
+          trigger_effect_3_id: 
+            null
+          trigger_effect_4_exp: !!int
+            0
+          trigger_effect_4_id: 
+            null
+          trigger_effect_5_exp: !!int
+            0
+          trigger_effect_5_id: 
+            null
+          trigger_effect_6_exp: !!int
+            0
+          trigger_effect_6_id: 
+            null
+        sub_celebration_m_id_1: 
+          null
+        sub_celebration_m_id_2: 
+          null
+        sub_celebration_m_id_3: 
+          null
+        sub_celebration_m_id_4: 
+          null
+        sub_celebration_m_id_5: 
+          null
+        sub_celebration_m_id_6: 
+          null
+        sub_celebration_m_id_7: 
+          null
+        sub_uniform_number_1: !!int
+          5
+        sub_uniform_number_2: !!int
+          11
+        sub_uniform_number_3: !!int
+          6
+        sub_uniform_number_4: !!int
+          3
+        sub_uniform_number_5: !!int
+          13
+        sub_uniform_number_6: !!int
+          12
+        sub_uniform_number_7: !!int
+          15
+        team_effect_m_id_1: !!int
+          12000023
+        team_effect_m_id_2: 
+          null
+        team_effect_m_id_3: 
+          null
+      enable_operation_mode_change: !!bool
+        false
+      rating: !!int
+        0
+      team_crest_m_id: !!int
+        1
+      team_name: !!str |-
+        Adarsh S
+      user_id: !!int
+        16477474859
+      user_name: !!str |-
+        Adarsh S
+    in_game_type: !!int
+      2
+    quest_stage_m_id: !!int
+      20230021
+    quest_world_m_id: !!int
+      202301
+    regulation_preset_m_id: !!int
+      101
+    score_battle_best_stage_score: 
+      null
+    stadium_m_id: !!int
+      2100035
+user_data: !!str |-
+
+tag: !!str |-
+  api-app
