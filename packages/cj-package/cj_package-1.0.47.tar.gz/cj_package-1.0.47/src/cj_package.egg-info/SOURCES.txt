@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/cj_package/__init__.py
+src/cj_package/__version__.py
+src/cj_package/info.py
+src/cj_package/test.py
+src/cj_package.egg-info/PKG-INFO
+src/cj_package.egg-info/SOURCES.txt
+src/cj_package.egg-info/dependency_links.txt
+src/cj_package.egg-info/requires.txt
+src/cj_package.egg-info/top_level.txt
