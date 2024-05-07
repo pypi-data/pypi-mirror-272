@@ -1,0 +1,13 @@
+transmission_rpc/__init__.py,sha256=VfSeF304XasP2eJw-XOxZIJE0n5TNVvhbvT-2qa-kjI,1893
+transmission_rpc/client.py,sha256=veEVFCyCWcHqB36aSM9WlccrPvJ8bpSG_REbqcFXTgs,44327
+transmission_rpc/constants.py,sha256=QJDyCocHfjB45SZKFVYHr-_leNfCMAK0y9luVjLCUqc,10069
+transmission_rpc/error.py,sha256=WXrxRKwzCdpKxTsyOuvTRanWP5LSXysC3wqBMgl7Syg,1640
+transmission_rpc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transmission_rpc/session.py,sha256=zRJ5bKtPiYs3pO6k_53pqDMml_UAaafrGmb6kF7Q8aE,12506
+transmission_rpc/torrent.py,sha256=AhcA1S2PxNxDSTjqrgFdNPvGQ9pmxZuAze-kU42T3Fg,23193
+transmission_rpc/types.py,sha256=viGJV4iF_rsIK4Oe_ipGe8EtRhCTVxFQXw3kXvRCFR4,1866
+transmission_rpc/utils.py,sha256=KmSyaDWtCI2IW-wEcD9Qrxmq5rmfUov9el56Pl_p5eM,2669
+transmission_rpc-7.0.5.dist-info/LICENSE,sha256=IpIxCKgfRx3LLjVkn5_N-gTLCX6EJfwPlqyQwMWzi48,1127
+transmission_rpc-7.0.5.dist-info/METADATA,sha256=b0C9oTeOvuqXBWWTVrhaUHOxtOZmtYMQGUbB1a6DQSE,3412
+transmission_rpc-7.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+transmission_rpc-7.0.5.dist-info/RECORD,,
