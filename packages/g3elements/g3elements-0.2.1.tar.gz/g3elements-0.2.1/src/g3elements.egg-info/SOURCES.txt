@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+src/g3elements/__init__.py
+src/g3elements/_elements.py
+src/g3elements/py.typed
+src/g3elements.egg-info/PKG-INFO
+src/g3elements.egg-info/SOURCES.txt
+src/g3elements.egg-info/dependency_links.txt
+src/g3elements.egg-info/requires.txt
+src/g3elements.egg-info/top_level.txt
+src/g3elements/route_utils/__init__.py
+src/g3elements/route_utils/_analyzer.py
+src/g3elements/route_utils/_manager.py
+src/g3elements/route_utils/_tram.py
