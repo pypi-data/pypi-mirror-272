@@ -1,0 +1,85 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "install util",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "glglue",
+            "cwd": "${workspaceRoot}",
+            "args": [
+                "${workspaceFolder}\\bin\\freeglut.dll",
+            ],
+            "env": {
+                "PATH": "${env:PATH};${workspaceFolder}\\bin",
+            },
+            "justMyCode": false
+        },
+        {
+            "name": "glut_sample",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceFolder}/examples/freeglut_sample.py",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "PATH": "${env:PATH};${workspaceFolder}\\bin",
+            },
+            "justMyCode": false
+        },
+        {
+            "name": "glfw_sample",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceFolder}/examples/glfw_sample.py",
+            "cwd": "${workspaceRoot}",
+            "justMyCode": false
+        },
+        {
+            "name": "pysdl2_sample",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceFolder}/examples/pysdl2_sample.py",
+            "cwd": "${workspaceRoot}",
+            "justMyCode": false
+        },
+        {
+            "name": "pyside6_sample",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceFolder}/examples/pyside6_sample.py",
+            "cwd": "${workspaceRoot}",
+            "justMyCode": false
+        },
+        {
+            "name": "wgl_sample",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceFolder}/examples/wgl_sample.py",
+            "cwd": "${workspaceRoot}",
+        },
+        {
+            "name": "gtk3_sample",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceFolder}/examples/gtk3_sample.py",
+            "cwd": "${workspaceRoot}",
+        },
+        {
+            "name": "gtk4_sample",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceFolder}/examples/gtk4_sample.py",
+            "cwd": "${workspaceRoot}",
+        },
+    ]
+}
