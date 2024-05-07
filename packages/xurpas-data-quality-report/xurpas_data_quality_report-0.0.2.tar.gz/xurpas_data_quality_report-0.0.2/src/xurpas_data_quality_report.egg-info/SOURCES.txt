@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+src/xurpas_data_quality/__init__.py
+src/xurpas_data_quality/data_report.py
+src/xurpas_data_quality/report/__init__.py
+src/xurpas_data_quality/report/report.py
+src/xurpas_data_quality/visuals/__init__.py
+src/xurpas_data_quality/visuals/plots.py
+src/xurpas_data_quality_report.egg-info/PKG-INFO
+src/xurpas_data_quality_report.egg-info/SOURCES.txt
+src/xurpas_data_quality_report.egg-info/dependency_links.txt
+src/xurpas_data_quality_report.egg-info/requires.txt
+src/xurpas_data_quality_report.egg-info/top_level.txt

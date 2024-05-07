@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xurpas_data_quality_report
+Version: 0.0.2
+Summary: XAIL Data quality
+Author: Neil Ortaliz
+Author-email: Neil Ortaliz <neil.ortaliz@xurpas.com>
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# xurpas_data_quality
