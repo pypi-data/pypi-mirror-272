@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+featuringz/__init__.py
+featuringz/main.py
+featuringz.egg-info/PKG-INFO
+featuringz.egg-info/SOURCES.txt
+featuringz.egg-info/dependency_links.txt
+featuringz.egg-info/requires.txt
+featuringz.egg-info/top_level.txt
