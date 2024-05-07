@@ -1,0 +1,11 @@
+eidospy/__init__.py,sha256=k3SCWTBAR0qGmmOL60Ypq-fe9mzlSp6Tvr3LLkfEj70,48
+eidospy/dataspace.py,sha256=fw2D-8BpG-0BsHaFStFOSDoABNryMfwB8N46ENAz340,269
+eidospy/doc.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eidospy/eidos.py,sha256=mvmQhS5MNrCeVB7dsamjNWGSyolGdOPhmi8R00yemjw,274
+eidospy/rows.py,sha256=flLG6h2osf6L_bqbQgAOvloKXEmIOXXJf_SqwNklzAo,1308
+eidospy/table.py,sha256=BrmV6t-7pq_HdT6Jb1RuG3aTGmQPmI2dYs1BZ15zbBk,473
+eidospy-0.0.1.dist-info/LICENSE,sha256=TUtKD8ZWDjYsRGMG21pxiAH4PKmw6L3t-sTFHkzIt-E,1083
+eidospy-0.0.1.dist-info/METADATA,sha256=0uTACKfQC7p-7I6eK9gBDaV4v64SP_qwya30JmDnKvU,1464
+eidospy-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+eidospy-0.0.1.dist-info/top_level.txt,sha256=aLUQH3odmHTXD9-e1PwT2Ec-YAquGVpyv8MhTtRNj5c,8
+eidospy-0.0.1.dist-info/RECORD,,
