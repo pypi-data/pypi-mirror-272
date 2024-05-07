@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+breaklistz/__init__.py
+breaklistz/main.py
+breaklistz.egg-info/PKG-INFO
+breaklistz.egg-info/SOURCES.txt
+breaklistz.egg-info/dependency_links.txt
+breaklistz.egg-info/requires.txt
+breaklistz.egg-info/top_level.txt
