@@ -1,0 +1,8 @@
+cudnn/datatypes.py,sha256=1GALwuW12uNcGuSil_UP-dOGJud7qVoz-9YEdrpqYiw,2535
+cudnn/__init__.py,sha256=AlYVxCeHWkUNzodRDhQFVbOKwAQBF8OFvLgsrZKtT7w,4297
+cudnn/_compiled_module.cpython-310-x86_64-linux-gnu.so,sha256=aCWTnySenGzDl-iUeTE2G3wzjR53lbYHb7e0WsvKTCE,3754656
+nvidia_cudnn_frontend-1.4.0.dist-info/top_level.txt,sha256=gHiIdbYfcCx28brRG44rywN2j545lfaAsculx1ITRZA,23
+nvidia_cudnn_frontend-1.4.0.dist-info/METADATA,sha256=cKtwd0c8twm3WCiI2_Rxdl1VkYoc1cKVtsHjk-UgqU0,6354
+nvidia_cudnn_frontend-1.4.0.dist-info/RECORD,,
+nvidia_cudnn_frontend-1.4.0.dist-info/LICENSE.txt,sha256=P8S0c6LAh2ioBmv35KWKEYUGDzrWdPLKniARvKSt8s4,1148
+nvidia_cudnn_frontend-1.4.0.dist-info/WHEEL,sha256=R6fT7gUea2hjLgDabtAUsNDV3xRM0QYFWKtByy-2-KU,153
