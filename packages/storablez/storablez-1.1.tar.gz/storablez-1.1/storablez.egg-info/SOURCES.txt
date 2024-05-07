@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+storablez/__init__.py
+storablez/main.py
+storablez.egg-info/PKG-INFO
+storablez.egg-info/SOURCES.txt
+storablez.egg-info/dependency_links.txt
+storablez.egg-info/requires.txt
+storablez.egg-info/top_level.txt
