@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+jzbasiccalculator/__init__.py
+jzbasiccalculator.egg-info/PKG-INFO
+jzbasiccalculator.egg-info/SOURCES.txt
+jzbasiccalculator.egg-info/dependency_links.txt
+jzbasiccalculator.egg-info/top_level.txt
