@@ -1,0 +1,8 @@
+Metadata-Version: 2.3
+Name: automyte
+Version: 0.0.1
+Summary: Tool for automation of code updates.
+Author: Artur Shyshko
+License: MIT
+License-File: LICENSE
+Requires-Python: >=3.10
