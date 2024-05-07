@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: menpodetect
+Version: 0.6.3
+Summary: Object detection for Menpo
+Author: The Menpo Development Team
+Author-email: patricksnape@gmail.com
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: menpo<0.12.0,>=0.9.0
