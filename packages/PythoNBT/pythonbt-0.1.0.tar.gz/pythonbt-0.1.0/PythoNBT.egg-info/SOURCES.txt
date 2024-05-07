@@ -1,0 +1,9 @@
+LICENSE
+README.md
+nbt.py
+pyproject.toml
+PythoNBT.egg-info/PKG-INFO
+PythoNBT.egg-info/SOURCES.txt
+PythoNBT.egg-info/dependency_links.txt
+PythoNBT.egg-info/requires.txt
+PythoNBT.egg-info/top_level.txt
