@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+albuminiformz/__init__.py
+albuminiformz/main.py
+albuminiformz.egg-info/PKG-INFO
+albuminiformz.egg-info/SOURCES.txt
+albuminiformz.egg-info/dependency_links.txt
+albuminiformz.egg-info/requires.txt
+albuminiformz.egg-info/top_level.txt
