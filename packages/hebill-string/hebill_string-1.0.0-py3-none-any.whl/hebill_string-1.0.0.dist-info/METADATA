@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hebill_string
+Version: 1.0.0
+Summary: python字符串扩展类
+Requires-Python: >=3.12
+Description-Content-Type: text/plain
+
+# python字符串扩展类
