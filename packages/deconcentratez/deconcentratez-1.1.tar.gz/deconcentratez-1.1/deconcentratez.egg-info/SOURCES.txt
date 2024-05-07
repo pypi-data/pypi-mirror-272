@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+deconcentratez/__init__.py
+deconcentratez/main.py
+deconcentratez.egg-info/PKG-INFO
+deconcentratez.egg-info/SOURCES.txt
+deconcentratez.egg-info/dependency_links.txt
+deconcentratez.egg-info/requires.txt
+deconcentratez.egg-info/top_level.txt
