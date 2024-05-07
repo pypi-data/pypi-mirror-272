@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: codejudge-common-utils
+Version: 0.1
+Summary: A reusable library to perform certain tasks.
+Author: Akhil Mittal
+Author-email: akhil@codejudge.io
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+
