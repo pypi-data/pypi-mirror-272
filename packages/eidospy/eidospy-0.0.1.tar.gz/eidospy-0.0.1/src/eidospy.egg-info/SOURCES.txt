@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/eidospy/__init__.py
+src/eidospy/dataspace.py
+src/eidospy/doc.py
+src/eidospy/eidos.py
+src/eidospy/rows.py
+src/eidospy/table.py
+src/eidospy.egg-info/PKG-INFO
+src/eidospy.egg-info/SOURCES.txt
+src/eidospy.egg-info/dependency_links.txt
+src/eidospy.egg-info/top_level.txt
+tests/test.py
