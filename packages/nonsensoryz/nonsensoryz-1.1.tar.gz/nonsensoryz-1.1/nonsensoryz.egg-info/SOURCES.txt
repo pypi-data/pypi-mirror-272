@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonsensoryz/__init__.py
+nonsensoryz/main.py
+nonsensoryz.egg-info/PKG-INFO
+nonsensoryz.egg-info/SOURCES.txt
+nonsensoryz.egg-info/dependency_links.txt
+nonsensoryz.egg-info/requires.txt
+nonsensoryz.egg-info/top_level.txt
