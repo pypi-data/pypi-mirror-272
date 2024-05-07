@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dialypetalousz/__init__.py
+dialypetalousz/main.py
+dialypetalousz.egg-info/PKG-INFO
+dialypetalousz.egg-info/SOURCES.txt
+dialypetalousz.egg-info/dependency_links.txt
+dialypetalousz.egg-info/requires.txt
+dialypetalousz.egg-info/top_level.txt
