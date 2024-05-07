@@ -1,0 +1,11 @@
+PACMANCharge/__init__.py,sha256=a6uGjK-uWMVRh0zIKZQi3t_rs9wtUSOzGG2Or1kMFJo,33
+PACMANCharge/atom_init.json,sha256=y5C9Ilfb-M_E5rK21DSNRhbo6WgPEzmxRhE3Ay4PGJQ,28392
+PACMANCharge/pmcharge.py,sha256=RjLjutN4tXFlTccuqB18f1LC79pHAZmUasPDHx2B1qg,25766
+test/Cu-BTC.cif,sha256=G7OAoPdVlhQHD-vDKktZ0-ae31Z8LKMVbHWxR1C_Gn8,34098
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test.py,sha256=dqMb3Ptc47t8HvWqdDCqs7px9kQ-CRNSfSZbMyhNc3s,134
+PACMAN_charge-0.1.9.dist-info/LICENSE,sha256=JN3XUyglr9eHd04K6BNjL90hOlGfDqijvtkdS3MBz2o,1068
+PACMAN_charge-0.1.9.dist-info/METADATA,sha256=weuGhdwp_WYZ8LLW_gu02K3a3MnCPkZ3Y4zDVsD80Gk,3524
+PACMAN_charge-0.1.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PACMAN_charge-0.1.9.dist-info/top_level.txt,sha256=ahTWdrVMSQB5reqTbVSeBGdEuCOb0VSImb_Shy4NtXc,18
+PACMAN_charge-0.1.9.dist-info/RECORD,,
