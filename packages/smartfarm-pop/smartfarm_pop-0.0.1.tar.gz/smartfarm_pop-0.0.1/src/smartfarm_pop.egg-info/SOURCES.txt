@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/bibi/__init__.py
+src/bibi/main.py
+src/smartfarm_pop.egg-info/PKG-INFO
+src/smartfarm_pop.egg-info/SOURCES.txt
+src/smartfarm_pop.egg-info/dependency_links.txt
+src/smartfarm_pop.egg-info/top_level.txt
