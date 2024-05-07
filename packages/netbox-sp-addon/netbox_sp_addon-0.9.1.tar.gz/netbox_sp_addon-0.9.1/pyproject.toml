@@ -1,0 +1,33 @@
+[tool.poetry]
+authors = ["Tobias Genannt <tobias.genannt@gmail.com>"]
+classifiers = [
+  "Framework :: Django",
+  "Environment :: Plugins",
+  "Topic :: System :: Networking",
+  "Topic :: System :: Systems Administration"
+]
+description = "Adds some functions used by scanplus GmbH"
+license = "Apache-2.0"
+name = "netbox-sp-addon"
+readme = "README.md"
+repository = "https://github.com/scanplus/netbox-sp-addon"
+version = "0.9.1"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.black]
+line_length = 100
+target-version = ['py310']
+
+[tool.isort]
+line_length = 100
+multi_line_output = 3
+profile = "black"
+
+[tool.pylint.format]
+max-line-length = "100"
