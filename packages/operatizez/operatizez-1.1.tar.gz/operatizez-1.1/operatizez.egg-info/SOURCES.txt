@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+operatizez/__init__.py
+operatizez/main.py
+operatizez.egg-info/PKG-INFO
+operatizez.egg-info/SOURCES.txt
+operatizez.egg-info/dependency_links.txt
+operatizez.egg-info/requires.txt
+operatizez.egg-info/top_level.txt
