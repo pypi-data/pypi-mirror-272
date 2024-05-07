@@ -1,0 +1,7 @@
+dockumentor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dockumentor/dockumentor.py,sha256=RV7gurRDcCktkt-4kkMlJK4WNGDWvPgDJYiUFUf0oBQ,11030
+dockumentor/templates/dockumentor_compose.md,sha256=BM3tKYIWRGUPw501HWjfMuTpe3_dx4W18YC2AfQ5PM4,1428
+dockumentor-0.1.0.dist-info/METADATA,sha256=b_Qo-_Mk-HuvyDFaNDjZGWWcvTJfL44zJhZVJeJIz88,2765
+dockumentor-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dockumentor-0.1.0.dist-info/entry_points.txt,sha256=aq5tthj0-Gjfcm_bZ1KvMd3GP8rP7MOSzhP3nZ_9wtw,59
+dockumentor-0.1.0.dist-info/RECORD,,
