@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: desalination-and-brine-treatment
+Version: 0.1
+Summary: A simulation tool for desalination and brine treatment technologies
+Home-page: https://github.com/rodoulak/Desalination-and-Brine-Treatment-Simulation-
+Author: rodoulak
+Author-email: r.ktori@tudelft.nl
+License: MIT
+License-File: LICENSE
