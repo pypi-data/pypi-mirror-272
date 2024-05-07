@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+setup.py
+devinci_pybuilder/__init__.py
+devinci_pybuilder/builder.py
+devinci_pybuilder/devinci_pybuilder.py
+devinci_pybuilder/file_utils.py
+devinci_pybuilder/main.py
+devinci_pybuilder.egg-info/PKG-INFO
+devinci_pybuilder.egg-info/SOURCES.txt
+devinci_pybuilder.egg-info/dependency_links.txt
+devinci_pybuilder.egg-info/entry_points.txt
+devinci_pybuilder.egg-info/requires.txt
+devinci_pybuilder.egg-info/top_level.txt
+devinci_pybuilder/build_chores/__init__.py
+devinci_pybuilder/build_chores/custom_install_command.py
+devinci_pybuilder/stub/example-config.ini
