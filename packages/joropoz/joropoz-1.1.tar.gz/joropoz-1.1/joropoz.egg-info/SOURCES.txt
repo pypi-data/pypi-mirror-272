@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+joropoz/__init__.py
+joropoz/main.py
+joropoz.egg-info/PKG-INFO
+joropoz.egg-info/SOURCES.txt
+joropoz.egg-info/dependency_links.txt
+joropoz.egg-info/requires.txt
+joropoz.egg-info/top_level.txt
