@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/cepack/__init__.py
+src/cepack/main.py
+src/cepack/utility.py
+src/cepack.egg-info/PKG-INFO
+src/cepack.egg-info/SOURCES.txt
+src/cepack.egg-info/dependency_links.txt
+src/cepack.egg-info/entry_points.txt
+src/cepack.egg-info/requires.txt
+src/cepack.egg-info/top_level.txt
+test/test.py
+test/test_download_repo.py
