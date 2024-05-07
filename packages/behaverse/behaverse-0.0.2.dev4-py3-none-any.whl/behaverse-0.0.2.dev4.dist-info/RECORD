@@ -1,0 +1,13 @@
+behaverse/__init__.py,sha256=8dPSVhgS7X-u7udNptHkgKEuiaHHZMTcIxVTPXYutro,487
+behaverse/conftest.py,sha256=nqA2z4jwbw8ShOCfxbC1UHzTMtOthIiGnCQGKAY3Tas,27
+behaverse/dataset.py,sha256=hBQQV1TBK_z24dQ91CDoB7BH7rZ4-zZRoHjMiL6rHcI,6773
+behaverse/dataset_description.py,sha256=u5lkaDVAavQa4KHubxG6LNbBiv-vlukx0GseGPRZw70,238
+behaverse/dataset_test.py,sha256=AgLWa_a-2GY6CSBSyeXEmPFGRncfXA9201sPI_5Tkm4,1369
+behaverse/functional.py,sha256=nsgguJOlfD5Rz1Lnw2-N6OGQ6gMjElPM5PC6_uvbe_U,2487
+behaverse/functions_test.py,sha256=3HMXoBXe696vHFBZqm7KRI9oTDaN7GkbI9ThN8D4IBc,28
+behaverse/utils.py,sha256=3gUem9xI6Leqa0vLH6aCDbzPR3A4OGX7I1czLZ4B_jY,3722
+behaverse/utils_test.py,sha256=1mqkvy4bpJGxF-SrJHdUNcSgdiz5mBvnsS4rlZSnfyI,178
+behaverse-0.0.2.dev4.dist-info/LICENSE,sha256=6ds_BgW2jt21B7Hs21FTLJBwjgvPy-b7mDijXX-I4aw,1071
+behaverse-0.0.2.dev4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+behaverse-0.0.2.dev4.dist-info/METADATA,sha256=7Oj-d4Wfb0uoKcgHHhA4wO7LWdljUzLo-pIHEY8NlBk,1870
+behaverse-0.0.2.dev4.dist-info/RECORD,,
