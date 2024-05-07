@@ -1,0 +1,8 @@
+setup.py
+spotify2youtubemusic/download.py
+spotify2youtubemusic.egg-info/PKG-INFO
+spotify2youtubemusic.egg-info/SOURCES.txt
+spotify2youtubemusic.egg-info/dependency_links.txt
+spotify2youtubemusic.egg-info/not-zip-safe
+spotify2youtubemusic.egg-info/requires.txt
+spotify2youtubemusic.egg-info/top_level.txt
