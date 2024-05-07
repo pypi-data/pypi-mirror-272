@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: web_error
+Version: 0.6.11
+Summary: Web based error utils
+Home-page: https://github.com/EdgyEdgemond/web-error/
+License: Apache-2.0
+Author: Daniel Edgecombe
+Author-email: edgy.edgemond@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/EdgyEdgemond/web-error/
+Description-Content-Type: text/markdown
+
+Archived
+
+This repository has migrated to `fastapi_problem`.
+
+[github](https://github.com/NRWLDev/fastapi-problem)
+[pypi](https://pypi.org/project/fastapi-problem)
+
