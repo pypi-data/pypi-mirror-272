@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nickedz/__init__.py
+nickedz/main.py
+nickedz.egg-info/PKG-INFO
+nickedz.egg-info/SOURCES.txt
+nickedz.egg-info/dependency_links.txt
+nickedz.egg-info/requires.txt
+nickedz.egg-info/top_level.txt
