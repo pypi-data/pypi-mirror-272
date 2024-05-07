@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lamiaez/__init__.py
+lamiaez/main.py
+lamiaez.egg-info/PKG-INFO
+lamiaez.egg-info/SOURCES.txt
+lamiaez.egg-info/dependency_links.txt
+lamiaez.egg-info/requires.txt
+lamiaez.egg-info/top_level.txt
