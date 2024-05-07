@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+earthquakez/__init__.py
+earthquakez/main.py
+earthquakez.egg-info/PKG-INFO
+earthquakez.egg-info/SOURCES.txt
+earthquakez.egg-info/dependency_links.txt
+earthquakez.egg-info/requires.txt
+earthquakez.egg-info/top_level.txt
