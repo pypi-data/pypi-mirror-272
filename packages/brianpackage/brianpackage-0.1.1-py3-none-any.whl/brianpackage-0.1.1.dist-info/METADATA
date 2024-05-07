@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: brianpackage
+Version: 0.1.1
+Summary: My first Python package
+Author: Brian
+Author-email: brian@nexa4ai.com
+Keywords: python,math,basic operations
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+A simple Python package that provides basic math operations.
