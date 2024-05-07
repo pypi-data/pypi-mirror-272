@@ -1,0 +1,8 @@
+setup.py
+brianpackage.egg-info/PKG-INFO
+brianpackage.egg-info/SOURCES.txt
+brianpackage.egg-info/dependency_links.txt
+brianpackage.egg-info/top_level.txt
+extras/__init__.py
+extras/divide.py
+extras/multiply.py
