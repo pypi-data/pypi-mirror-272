@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+summonersz/__init__.py
+summonersz/main.py
+summonersz.egg-info/PKG-INFO
+summonersz.egg-info/SOURCES.txt
+summonersz.egg-info/dependency_links.txt
+summonersz.egg-info/requires.txt
+summonersz.egg-info/top_level.txt
