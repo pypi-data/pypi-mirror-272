@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prewarnedz/__init__.py
+prewarnedz/main.py
+prewarnedz.egg-info/PKG-INFO
+prewarnedz.egg-info/SOURCES.txt
+prewarnedz.egg-info/dependency_links.txt
+prewarnedz.egg-info/requires.txt
+prewarnedz.egg-info/top_level.txt
