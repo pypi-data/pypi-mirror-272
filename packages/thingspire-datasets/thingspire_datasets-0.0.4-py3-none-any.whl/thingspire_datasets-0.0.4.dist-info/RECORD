@@ -1,0 +1,9 @@
+ts_feature/__init__.py,sha256=TlFWeDX_II-hLj5rwiVU4Fb4gUnejSGC4ociWX2AXlA,133
+ts_feature/get_calendar.py,sha256=5uJuY7iWPlPwpccNgAwZ9R5LG49soM6nNySSJTdn6aY,4472
+ts_feature/get_weather.py,sha256=o_iXO-61U1kILkGVoqQEHeUznbn3LKttHPsqyeUv_GA,7439
+ts_feature/resource-id-name.py,sha256=ghnMvUGxzZ128mQOLNxLgE9EE41I8rLKnC7hkgRDqrg,15557
+ts_feature/utils.py,sha256=hXjPJZLzBlKyNQ4it-P-uiZjI7tosCdB1i85vyxYQ1I,1879
+thingspire_datasets-0.0.4.dist-info/METADATA,sha256=ifiDPmLW9Ejk1eraMhLwYFQyCe83oWm_K5iyvmX58x0,669
+thingspire_datasets-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thingspire_datasets-0.0.4.dist-info/top_level.txt,sha256=q-aY1i6GFbFZZsrkbjxqwhcR_GPr1wu-_nVhQMxMoy4,11
+thingspire_datasets-0.0.4.dist-info/RECORD,,
