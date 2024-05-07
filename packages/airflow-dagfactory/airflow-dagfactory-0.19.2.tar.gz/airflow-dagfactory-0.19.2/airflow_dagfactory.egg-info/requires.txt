@@ -1,0 +1,11 @@
+apache-airflow[http,kubernetes]==2.9.1
+pyyaml
+packaging
+SQLAlchemy==2.0.30
+
+[dev]
+black
+pytest
+pylint
+pytest-cov
+tox
