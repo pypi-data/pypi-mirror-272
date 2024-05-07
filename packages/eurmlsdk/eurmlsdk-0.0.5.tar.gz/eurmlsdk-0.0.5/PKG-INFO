@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: eurmlsdk
+Version: 0.0.5
+Summary: eUR ML SDK
+Author: eUR
+Author-email: aiml@embedur.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE.txt
+Requires-Dist: boto3
+Requires-Dist: python-dotenv
+Requires-Dist: paramiko
+Requires-Dist: ultralytics
+
+eUR ML SDK
