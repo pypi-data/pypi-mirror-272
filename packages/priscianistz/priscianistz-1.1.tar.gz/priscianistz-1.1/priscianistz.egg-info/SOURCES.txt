@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+priscianistz/__init__.py
+priscianistz/main.py
+priscianistz.egg-info/PKG-INFO
+priscianistz.egg-info/SOURCES.txt
+priscianistz.egg-info/dependency_links.txt
+priscianistz.egg-info/requires.txt
+priscianistz.egg-info/top_level.txt
