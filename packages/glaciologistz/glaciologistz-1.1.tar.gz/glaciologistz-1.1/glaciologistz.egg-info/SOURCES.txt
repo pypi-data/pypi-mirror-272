@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+glaciologistz/__init__.py
+glaciologistz/main.py
+glaciologistz.egg-info/PKG-INFO
+glaciologistz.egg-info/SOURCES.txt
+glaciologistz.egg-info/dependency_links.txt
+glaciologistz.egg-info/requires.txt
+glaciologistz.egg-info/top_level.txt
