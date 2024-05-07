@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tenutiz/__init__.py
+tenutiz/main.py
+tenutiz.egg-info/PKG-INFO
+tenutiz.egg-info/SOURCES.txt
+tenutiz.egg-info/dependency_links.txt
+tenutiz.egg-info/requires.txt
+tenutiz.egg-info/top_level.txt
