@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyzk-new
+Version: 0.9.1
+Summary: an unofficial library of zksoftware fingerprint device
+License: LICENSE.txt
+Keywords: zk,pyzk,zksoftware,attendance machine,fingerprint,biometrics,security
+License-File: LICENSE
+License-File: LICENSE.txt
+
