@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: turbo_boot
+Version: 0.1.9
+Summary: 
+Home-page: https://github.com/adityatiwari2510/turbo-boot
+Author: adityatiwari2510
+Author-email: tiwariaditya45@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Project-URL: Repository, https://github.com/adityatiwari2510/turbo-boot
+Description-Content-Type: text/markdown
+
+
