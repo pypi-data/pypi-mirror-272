@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "turbo_boot"
+version = "0.1.9"
+description = ""
+authors = ["adityatiwari2510 <tiwariaditya45@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "turbo_boot" }
+]
+repository = 'https://github.com/adityatiwari2510/turbo-boot'
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.0"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
