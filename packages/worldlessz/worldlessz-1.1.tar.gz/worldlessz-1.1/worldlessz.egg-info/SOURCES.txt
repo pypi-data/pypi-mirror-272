@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+worldlessz/__init__.py
+worldlessz/main.py
+worldlessz.egg-info/PKG-INFO
+worldlessz.egg-info/SOURCES.txt
+worldlessz.egg-info/dependency_links.txt
+worldlessz.egg-info/requires.txt
+worldlessz.egg-info/top_level.txt
