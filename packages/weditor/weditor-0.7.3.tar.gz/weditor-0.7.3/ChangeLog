@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+0.7.3
+-----
+
+* hotfix for weditor
+* Update uidumplib.py
+* Update README.md
+* fix github actions
+* ignore android.webkit.WebView content
+* bug fix for rect type error when dumping iOS hierarchy
+* add missing file
+* add support for pure adb
+* try to add adbutils support
+* manualy merged, close pr#132
