@@ -1,0 +1,15 @@
+2023-10-21 08:22:11,211 	 [INFO | ymlimporter.py:30] > Loading YML file: data/examples/hello-world/helloworld.yml
+2023-10-21 08:22:11,216 	 [INFO | ymlimporter.py:30] > Loading YML file: data/tests/test_sniffer_ctdm.yml
+2023-10-21 08:22:11,217 	 [INFO | ymlimporter.py:30] > Loading YML file: data/tests/test_sniffer_ebsi.yml
+2023-10-21 08:22:11,218 	 [INFO | ymlimporter.py:30] > Loading YML file: data/tests/test_sniffer_shpr.yml
+2023-10-21 08:22:11,219 	 [INFO | ymlimporter.py:30] > Loading YML file: data/tests/test_sniffer_wbsi.yml
+2023-10-21 08:22:11,219 	 [INFO | ymlimporter.py:30] > Loading YML file: data/examples/hello-world/helloworld.yml
+2023-10-21 08:22:11,220 	 [INFO | ymlimporter.py:30] > Loading YML file: data/tests/test_relationships.yml
+2023-10-21 08:22:11,221 	 [INFO | jsonimporter.py:26] > Loading JSON file: data/tests/test_relationships_properties.json
+2023-10-21 08:22:11,222 	 [INFO | ymlimporter.py:30] > Loading YML file: data/tests/test_groups.yml
+2023-10-21 08:22:11,223 	 [INFO | ymlimporter.py:30] > Loading YML file: data/tests/test_relationships_properties.yml
+2023-10-21 08:22:11,224 	 [INFO | jsonimporter.py:26] > Loading JSON file: data/examples/hello-world/helloworld.json
+2023-10-21 08:22:11,225 	 [INFO | jsonimporter.py:26] > Loading JSON file: data/tests/test_relationships_properties.json
+2023-10-21 08:22:11,226 	 [INFO | ymlimporter.py:30] > Loading YML file: data/examples/hello-world/helloworld.yml
+2023-10-21 08:22:11,226 	 [INFO | ymlimporter.py:30] > Loading YML file: data/tests/test_groups.yml
+2023-10-21 08:22:11,227 	 [INFO | ymlimporter.py:30] > Loading YML file: data/tests/test_relationships_properties.yml
