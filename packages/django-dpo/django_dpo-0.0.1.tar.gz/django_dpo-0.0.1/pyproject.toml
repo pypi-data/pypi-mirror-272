@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "django_dpo"
+keywords = ["django payment", "django dpo", "dpo", "payment", "payment gateway"]
+version = "0.0.1"
+
+dependencies = [
+  "requests",
+  "django>4.0.0"
+]
+
+authors = [
+    {name="Brian Simpokolwe", email="briansimpokolwe@gmail.com"}
+]
+description = "A django DPO gateway integration"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/briansimpo/django_dpo"
+Issues = "https://github.com/briansimpo/django_dpo/issues"
