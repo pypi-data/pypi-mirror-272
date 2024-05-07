@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+narciscissiz/__init__.py
+narciscissiz/main.py
+narciscissiz.egg-info/PKG-INFO
+narciscissiz.egg-info/SOURCES.txt
+narciscissiz.egg-info/dependency_links.txt
+narciscissiz.egg-info/requires.txt
+narciscissiz.egg-info/top_level.txt
