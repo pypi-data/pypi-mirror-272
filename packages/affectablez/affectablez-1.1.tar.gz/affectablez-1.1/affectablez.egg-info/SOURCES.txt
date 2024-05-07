@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+affectablez/__init__.py
+affectablez/main.py
+affectablez.egg-info/PKG-INFO
+affectablez.egg-info/SOURCES.txt
+affectablez.egg-info/dependency_links.txt
+affectablez.egg-info/requires.txt
+affectablez.egg-info/top_level.txt
