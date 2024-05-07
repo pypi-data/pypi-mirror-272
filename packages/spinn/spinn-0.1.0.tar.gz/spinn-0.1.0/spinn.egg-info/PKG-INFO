@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: spinn
+Version: 0.1.0
+Summary: Simple Physics Informed Neural Networks
+Home-page: https://github.com/mrkwjc/spinn
+Author: Marek Wojciechowski
+Author-email: mwojc@p.lodz.pl
+License: LGPL-2.1
+Keywords: ann,pinn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: networkx
+
+# spinn - Simple Physics Informed Neural Networks
+Makes PINNs easy (with jax), see examples...

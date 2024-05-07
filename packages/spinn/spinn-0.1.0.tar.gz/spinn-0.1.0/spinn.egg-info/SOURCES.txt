@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+spinn/__init__.py
+spinn/graphs.py
+spinn/trees.py
+spinn/utils.py
+spinn.egg-info/PKG-INFO
+spinn.egg-info/SOURCES.txt
+spinn.egg-info/dependency_links.txt
+spinn.egg-info/requires.txt
+spinn.egg-info/top_level.txt
