@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pylivestream"
+description = "Livestream using FFmpeg to YouTube Live, Twitter, Facebook Live, Twitch, and more"
+keywords = ["youtube", "ffmpeg", "twitch", "twitter live", "facebook live", "restream.io"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Multimedia :: Graphics :: Capture :: Screen Capture",
+  "Topic :: Multimedia :: Sound/Audio :: Capture/Recording",
+  "Topic :: Multimedia :: Video :: Capture"
+]
+dynamic = ["readme", "version"]
+requires-python = ">=3.9"
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}
+version = {attr = "pylivestream.__version__"}
+
+[project.optional-dependencies]
+tests = ["pytest", "pytest-timeout"]
+lint = ["flake8", "flake8-bugbear", "flake8-builtins", "flake8-blind-except", "mypy"]
+captions = ["tinytag"]
+
+[tool.black]
+line-length = 100
+
+[tool.mypy]
+files = ["src"]
+ignore_missing_imports = true
