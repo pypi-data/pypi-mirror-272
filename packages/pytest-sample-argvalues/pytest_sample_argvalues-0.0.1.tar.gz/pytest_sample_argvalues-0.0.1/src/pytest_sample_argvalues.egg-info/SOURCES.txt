@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/pytest_sample_argvalues/__init__.py
+src/pytest_sample_argvalues/main.py
+src/pytest_sample_argvalues.egg-info/PKG-INFO
+src/pytest_sample_argvalues.egg-info/SOURCES.txt
+src/pytest_sample_argvalues.egg-info/dependency_links.txt
+src/pytest_sample_argvalues.egg-info/requires.txt
+src/pytest_sample_argvalues.egg-info/top_level.txt
+tests/test_pytest_argvalues_sample.py
