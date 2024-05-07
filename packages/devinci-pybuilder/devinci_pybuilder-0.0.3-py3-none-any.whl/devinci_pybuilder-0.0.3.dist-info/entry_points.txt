@@ -1,0 +1,2 @@
+[console_scripts]
+devinci_pybuild = devinci_pybuilder.main:main
