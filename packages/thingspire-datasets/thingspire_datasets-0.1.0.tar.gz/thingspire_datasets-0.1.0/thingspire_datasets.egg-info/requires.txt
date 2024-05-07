@@ -1,0 +1,4 @@
+Bottleneck
+numpy
+pandas
+requests
