@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rabbitfishesz/__init__.py
+rabbitfishesz/main.py
+rabbitfishesz.egg-info/PKG-INFO
+rabbitfishesz.egg-info/SOURCES.txt
+rabbitfishesz.egg-info/dependency_links.txt
+rabbitfishesz.egg-info/requires.txt
+rabbitfishesz.egg-info/top_level.txt
