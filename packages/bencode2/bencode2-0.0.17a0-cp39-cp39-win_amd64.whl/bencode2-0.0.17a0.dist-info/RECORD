@@ -1,0 +1,14 @@
+bencode2/__init__.cp39-win_amd64.pyd,sha256=0xWDNjSYlVsCYY0ZV2eg1lvx2RLSp0vTwGT0LA8kBNc,10752
+bencode2/__init__.py,sha256=cd84V7heH2K5f9LhRchCzsMnQJLFqxDVGeipRsJqCwY,658
+bencode2/_decoder.cp39-win_amd64.pyd,sha256=LzA7TkCV2IGgE4OVdtDDtZ_Jw1ifRmtoXTVBVM0lppg,10752
+bencode2/_decoder.py,sha256=njGPln79CrTY--V6bAzQ0MbzTg99t8h4D15Cm72n5xo,4807
+bencode2/_encoder.cp39-win_amd64.pyd,sha256=GJbATZDxNT7O4b_RLgf9uIGHOZabtB6mOhlAyQUTbok,10752
+bencode2/_encoder.py,sha256=eI1S8C-zgfqBrdNVgUhEJ1zE1kaVh8T39SoPxOo7v7c,2695
+bencode2/_exceptions.cp39-win_amd64.pyd,sha256=aSAtV9lU76lSX9WAMhDBM6U6CVUqEbB4WLRg06q9n3A,10752
+bencode2/_exceptions.py,sha256=G_5_9meiIwDu8wl_GKhJ5Iy85wKR5Os_HCtTSNxFu0k,146
+bencode2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+9f1d0c1ff2f7b5712fc3__mypyc.cp39-win_amd64.pyd,sha256=Ar9vZ6WveV4tswzpiLqn3WjvR_4noz7RxFPz94hnTWs,83968
+bencode2-0.0.17a0.dist-info/METADATA,sha256=ANjJXwFNDaicKvr0ZGLdz2s_sgs72pQnn3yONFXYtnI,2011
+bencode2-0.0.17a0.dist-info/WHEEL,sha256=0o9KcQVL7uk-LQm5G5oyT8N2YliT-fAN1Fr97AlOK_I,95
+bencode2-0.0.17a0.dist-info/licenses/LICENSE,sha256=EEoYi1hvWZLRB6rUABEsjEdCJ56eZs_20XL8mJO-SfA,1106
+bencode2-0.0.17a0.dist-info/RECORD,,
