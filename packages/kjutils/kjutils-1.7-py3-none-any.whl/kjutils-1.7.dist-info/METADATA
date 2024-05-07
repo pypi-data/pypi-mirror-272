@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kjutils
+Version: 1.7
+Summary: 提取规格并去除规格中的空格、特殊字符、统一大小写 ！
+Home-page: http://www.zhaomeng.net
+Author: zhaomeng
+Author-email: 1737605956@qq.com
+
