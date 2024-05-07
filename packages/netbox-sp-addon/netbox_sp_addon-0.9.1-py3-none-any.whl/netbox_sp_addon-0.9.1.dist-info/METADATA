@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: netbox-sp-addon
+Version: 0.9.1
+Summary: Adds some functions used by scanplus GmbH
+Home-page: https://github.com/scanplus/netbox-sp-addon
+License: Apache-2.0
+Author: Tobias Genannt
+Author-email: tobias.genannt@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Environment :: Plugins
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Project-URL: Repository, https://github.com/scanplus/netbox-sp-addon
+Description-Content-Type: text/markdown
+
+# qbeyond Addon
+
+
+
