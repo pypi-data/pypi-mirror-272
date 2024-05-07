@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: proboscis-async-events
+Version: 0.1.10
+Summary: Add your description here
+Author-email: proboscis <nameissoap@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: pampy>=0.3.0
+Requires-Dist: pytest>=8.2.0
+Description-Content-Type: text/markdown
+
+# proboscis-async-events
+
+Describe your project here.
