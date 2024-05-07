@@ -1,0 +1,16 @@
+package_obfuscator/__init__.py,sha256=sPLeAk93yk6kQXiR1nqk7FVO2y8_XC9nQxEaGwyTG0o,85
+package_obfuscator/file_obfuscator.py,sha256=u6WfobGxahUGroWKwb2SjbrXEZ5cz_qzQk1rpEoLX6A,1749
+package_obfuscator/obfuscate_wrapper.py,sha256=xmCp-EVu3BCtMG5jValda5CItKLzukvSXNJuFWR71-M,1774
+package_obfuscator/cli/__init__.py,sha256=mXJEEYivSKnusg2UplhFfGtOdEkNsN8ldKX-re58vrk,819
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_obfuscate_folder.py,sha256=U_tcYeKMf1Qe7TA7fBtFrTUdnwhDf7IebC6Pyx88Frg,1908
+test/test_module/__init__.py,sha256=LzRcwXajnraW8a9FZeE17W8KMCdnNCRqYY8M3874ThI,33
+test/test_module/hello_world.py,sha256=M47tp7_YQ0F9gTKqFasvgKTIA4jAPY0DLWaAddC2iXA,98
+test/test_module/nested/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_module/nested/functionality_test.py,sha256=VGbeim0XAqZMaTAQZp_QNnQRM9qkumcbQcGDBSam7Zk,30
+package_obfuscator-1.0.0.dist-info/LICENSE,sha256=qTGNWqZD0Zakfp4BXOryUvtRkddj-ZRB9iXtCeCxy5U,1074
+package_obfuscator-1.0.0.dist-info/METADATA,sha256=8awJYgQmlw7woohQznigD58FDR_-FibjbGfsO-cd0Z8,6516
+package_obfuscator-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+package_obfuscator-1.0.0.dist-info/entry_points.txt,sha256=XLYAuxH-onsVkTM-UTxsZcFfgbCM-D8kdV6pQf2B75c,66
+package_obfuscator-1.0.0.dist-info/top_level.txt,sha256=vqaH5kanYZsxIliQn8-83F5xY9F5b6FMRU0zY83PCwI,24
+package_obfuscator-1.0.0.dist-info/RECORD,,
