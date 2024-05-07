@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pluggingz/__init__.py
+pluggingz/main.py
+pluggingz.egg-info/PKG-INFO
+pluggingz.egg-info/SOURCES.txt
+pluggingz.egg-info/dependency_links.txt
+pluggingz.egg-info/requires.txt
+pluggingz.egg-info/top_level.txt
