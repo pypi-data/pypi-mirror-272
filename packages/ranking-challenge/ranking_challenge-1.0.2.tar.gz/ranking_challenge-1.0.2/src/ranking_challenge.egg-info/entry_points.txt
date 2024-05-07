@@ -1,0 +1,2 @@
+[console_scripts]
+rcfaker = fake.__main__:main
