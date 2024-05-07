@@ -1,0 +1,12 @@
+g3elements/__init__.py,sha256=dPxjjc0tlg4Lq7QYzcoBVFdcrwt0SF5AcHHzwzCI3I0,3452
+g3elements/_elements.py,sha256=jRO3tKrcR8fQ-7M4A_H-iJOWM6dDnTJrns-E7xrC5Hs,56676
+g3elements/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+g3elements/route_utils/__init__.py,sha256=RCBBzndg3tgmA_yHzXsVeJAsvL0I5qCvN1hM8OCO6pk,424
+g3elements/route_utils/_analyzer.py,sha256=9jSLIg4vBQ_JeuTqInft14MqG4YHQ9NbcRGPhC3Vu1E,47295
+g3elements/route_utils/_manager.py,sha256=qfMd5zTHTfkWMVeoNj1TOHToFVChlX-AC5PH_RELtLI,18088
+g3elements/route_utils/_tram.py,sha256=mxguHgIzy3Zx0yOLL7B0QOnA0MTa6IAv3P6QyilA3Gc,3495
+g3elements-0.2.1.dist-info/LICENCE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+g3elements-0.2.1.dist-info/METADATA,sha256=iu6yorcjbSVjryhiLpq4_wlB2c5izx3MV7TyZv15BAo,1125
+g3elements-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+g3elements-0.2.1.dist-info/top_level.txt,sha256=JTSbrH2wrq-N0Lh8SzxrDoKJeS_PtMiljFQadOS7kh8,11
+g3elements-0.2.1.dist-info/RECORD,,
