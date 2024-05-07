@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: ministryofjustice-data-platform-catalogue
+Version: 1.0.1
+Summary: Wrapper around Datahub supporting custom properties for the Find MOJ Data service.
+License: MIT
+Author: MoJ Data Platform Team
+Author-email: data-platform-tech@digital.justice.gov.uk
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: acryl-datahub[datahub-rest] (>=0.12.1.3,<0.13.0.0)
+Requires-Dist: deepdiff (>=6.7.1,<7.0.0)
+Requires-Dist: freezegun (>=1.4.0,<2.0.0)
+Requires-Dist: pydantic (>=2.7.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Datahub client for Find MOJ Data
+
+This library is part of the Ministry of Justice "Find MOJ Data" service.
+
+It pushes metadata to (and retrieves metadata from) a Datahub catalogue.
+
+## How to install
+
+To install the package using `pip`, run:
+
+```shell
+pip install ministryofjustice-data-platform-catalogue
+```
+
+## Getting started
+
+```python
+from data_platform_catalogue import (
+  DataHubCatalogueClient,
+  Table
+)
+
+client = DataHubCatalogueClient(jwt_token='datahub-personal-token', api_url='https://your-datahub-instance')
+
+# Search
+client.search()
+
+# Ingest a table
+client.upsert_table(Table(name="Some table", description="A special table I want to share")
+```
+
