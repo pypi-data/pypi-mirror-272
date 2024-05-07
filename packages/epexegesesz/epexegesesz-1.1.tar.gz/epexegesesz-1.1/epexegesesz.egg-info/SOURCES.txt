@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+epexegesesz/__init__.py
+epexegesesz/main.py
+epexegesesz.egg-info/PKG-INFO
+epexegesesz.egg-info/SOURCES.txt
+epexegesesz.egg-info/dependency_links.txt
+epexegesesz.egg-info/requires.txt
+epexegesesz.egg-info/top_level.txt
