@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: HusBot
+Version: 0.1
+Summary: Module Telegram Bot For DEVELOPRS
+Author: HUSSAM.FA
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: httpx
