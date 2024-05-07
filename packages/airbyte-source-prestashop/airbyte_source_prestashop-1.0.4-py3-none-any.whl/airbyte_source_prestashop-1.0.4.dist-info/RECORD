@@ -1,0 +1,10 @@
+source_prestashop/__init__.py,sha256=An0n82ouqZVf-1H9GtzdT3Wv1FSdivZIlcjipVq5v2g,132
+source_prestashop/components.py,sha256=dMQMK2UG093CBe9t4xwOmWpZak8BEuHs_lZYatOy0CU,2013
+source_prestashop/manifest.yaml,sha256=4EiGDmrP3hr_ux8ZLsCheChCnByJNOSnCsJEZfQjinE,159670
+source_prestashop/run.py,sha256=-H26ReQCgX23cjaG3FWjZvO38QIR8EKIJpBJqoecWBY,242
+source_prestashop/source.py,sha256=xyDXbiwenvAhPLZr2glnhUK8Rs00Mw7vtdUEnABaf8Y,1980
+source_prestashop/spec.yaml,sha256=65FqbWfEVzHvW6l4VlYkR6dF38yjfAuJpR8Vq5i5TU4,919
+airbyte_source_prestashop-1.0.4.dist-info/METADATA,sha256=6ewlFLr6s8m9uj3X0pbMkzOIsTaebVoDb_rScN-c6ek,5284
+airbyte_source_prestashop-1.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_prestashop-1.0.4.dist-info/entry_points.txt,sha256=9-l96uySF6L7A4Y_63wES2sQDKvZYk0gHJGcFC1gVsQ,63
+airbyte_source_prestashop-1.0.4.dist-info/RECORD,,
