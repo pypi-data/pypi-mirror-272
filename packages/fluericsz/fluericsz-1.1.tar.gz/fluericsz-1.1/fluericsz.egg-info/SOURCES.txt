@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fluericsz/__init__.py
+fluericsz/main.py
+fluericsz.egg-info/PKG-INFO
+fluericsz.egg-info/SOURCES.txt
+fluericsz.egg-info/dependency_links.txt
+fluericsz.egg-info/requires.txt
+fluericsz.egg-info/top_level.txt
