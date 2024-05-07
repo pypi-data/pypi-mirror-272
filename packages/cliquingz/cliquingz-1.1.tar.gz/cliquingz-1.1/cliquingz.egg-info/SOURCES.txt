@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cliquingz/__init__.py
+cliquingz/main.py
+cliquingz.egg-info/PKG-INFO
+cliquingz.egg-info/SOURCES.txt
+cliquingz.egg-info/dependency_links.txt
+cliquingz.egg-info/requires.txt
+cliquingz.egg-info/top_level.txt
