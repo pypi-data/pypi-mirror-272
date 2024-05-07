@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: bpgtask
+Version: 0.1.4
+Summary: 
+Author: Yu Chang
+Author-email: yu.chang@rokt.com
+Requires-Python: >=3.12,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flytekit (>=1.11.0,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Install poetry
+python -m pip install poetry
+
+
+# Create a new project with src layout
+poetry new --src my_project
+
+# Add dev dependencies
+poetry add -D mypy flake8
+
+# Add dependencies
+poetry add requests pytest
+
+# remove dependencies
+poetry remove requests
+
+# Install dependencies
+poetry install
+
+# Show dependencies
+poetry show --tree
+
+# Lint the project
+poetry run flake8
+
+
+# test the project
+poetry run pytest -s -v
+
+# run the project
+poetry run python src/my_package/main.py
+
+# build the project
+poetry build
+
+# publish the project (with build)
+poetry publish --build
+
+
+# FAQ
+- What is Poetry - dependency management and packaging tool for Python
+
+- poetry.lock should be committed to the repository
+
+
+
