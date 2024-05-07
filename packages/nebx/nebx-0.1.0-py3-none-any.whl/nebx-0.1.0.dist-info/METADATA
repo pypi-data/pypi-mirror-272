@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nebx
+Version: 0.1.0
+Summary: nebx is a python "Swiss Army knife" to orchestrate existing python packages, reducing boilerplate codes
+Home-page: https://github.com/enricoroselino/nebx
+Author: Enrico Roselino
+Author-email: roselino.dev@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/enricoroselino/nebx
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11,<3.13
+Description-Content-Type: text/markdown
+License-File: license.txt
+Requires-Dist: schedule >=1.2.1
+Requires-Dist: httpx >=0.27.0
+Requires-Dist: random-user-agent >=1.0.1
+
+ï»¿# Hello, under-construction
