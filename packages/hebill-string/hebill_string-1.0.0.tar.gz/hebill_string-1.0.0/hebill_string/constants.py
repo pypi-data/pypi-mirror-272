@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+NAME = 'hebill_string'
+VERSION = '1.0.0'
+DESCRIPTION = 'python字符串扩展类'
+LONG_DESCRIPTION = 'README.MD'
+LONG_DESCRIPTION_TYPE = 'text/markdown'
+URL = 'http://www.hebill.net/'
+AUTHOR = 'He Bill'
+AUTHOR_EMAIL = 'hebill@hebill.net'
+AUTHOR_URL = 'http://www.hebill.net/'
