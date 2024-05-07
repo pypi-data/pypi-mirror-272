@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: MoonshotAI-Api
+Version: 0.0.3
+Summary: LTV API SDK
+Author: Tomer Efr
+License: MIT
+License-File: LICENSE.md
+Requires-Dist: requests==2.31.0
