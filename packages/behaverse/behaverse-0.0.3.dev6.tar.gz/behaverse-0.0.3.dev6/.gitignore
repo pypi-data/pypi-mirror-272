@@ -1,0 +1,11 @@
+dist/
+tmp/
+*.pyc
+vignettes/
+.Rhistory
+
+cran-comments.md
+CRAN_SUBMITION
+
+.ruff_cache/
+.pytest_cache/
