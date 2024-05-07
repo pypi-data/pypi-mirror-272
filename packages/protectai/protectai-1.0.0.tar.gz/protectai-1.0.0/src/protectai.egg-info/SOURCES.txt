@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/protectai/__init__.py
+src/protectai/protectai.py
+src/protectai.egg-info/PKG-INFO
+src/protectai.egg-info/SOURCES.txt
+src/protectai.egg-info/dependency_links.txt
+src/protectai.egg-info/top_level.txt
