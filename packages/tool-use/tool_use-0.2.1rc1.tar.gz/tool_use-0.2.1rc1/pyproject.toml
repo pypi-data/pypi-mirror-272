@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "tool_use"
+version = "0.2.1rc1"
+description = "Promptflow tool package for OpenAI/Anthropic"
+authors = ["ethan <ethan@wrtn.io>", "JaeminBest <mikjm98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+anthropic = "^0.23.1"
+openai = "^1.23.2"
+promptflow = "1.9.0"
+promptflow-tools = "^1.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.1"
+pre-commit = "^3.6.1"
+pytest = "^8.1.1"
+pytest-asyncio = "^0.23.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
