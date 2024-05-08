@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/questioning_machine/__init__.py
+src/questioning_machine/githf.py
+src/questioning_machine/machina.yaml
+src/questioning_machine.egg-info/PKG-INFO
+src/questioning_machine.egg-info/SOURCES.txt
+src/questioning_machine.egg-info/dependency_links.txt
+src/questioning_machine.egg-info/requires.txt
+src/questioning_machine.egg-info/top_level.txt
