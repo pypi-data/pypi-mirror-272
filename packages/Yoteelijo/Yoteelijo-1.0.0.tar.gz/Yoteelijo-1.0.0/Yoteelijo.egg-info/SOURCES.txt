@@ -1,0 +1,9 @@
+setup.py
+Impactrueno/__init__.py
+Impactrueno/pokemon.csv
+Impactrueno/random_Pokemon.py
+Yoteelijo.egg-info/PKG-INFO
+Yoteelijo.egg-info/SOURCES.txt
+Yoteelijo.egg-info/dependency_links.txt
+Yoteelijo.egg-info/requires.txt
+Yoteelijo.egg-info/top_level.txt
