@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zitools
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: Momodo
+Author-email: momodosky@outlook.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+long_description

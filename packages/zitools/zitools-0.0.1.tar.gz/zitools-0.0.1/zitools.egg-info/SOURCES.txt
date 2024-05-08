@@ -1,0 +1,5 @@
+setup.py
+zitools.egg-info/PKG-INFO
+zitools.egg-info/SOURCES.txt
+zitools.egg-info/dependency_links.txt
+zitools.egg-info/top_level.txt
