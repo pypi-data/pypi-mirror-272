@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+wbg/sharepoint/__init__.py
+wbg/sharepoint/paths.py
+wbg/sharepoint/py.typed
+wbg_sharepoint.egg-info/PKG-INFO
+wbg_sharepoint.egg-info/SOURCES.txt
+wbg_sharepoint.egg-info/dependency_links.txt
+wbg_sharepoint.egg-info/top_level.txt
