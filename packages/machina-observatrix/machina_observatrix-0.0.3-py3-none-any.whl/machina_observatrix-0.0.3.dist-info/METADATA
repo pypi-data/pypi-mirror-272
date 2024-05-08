@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: machina-observatrix
+Version: 0.0.3
+Summary: A machine that observes all the time.
+Author-email: Alexander Fedotov <alex.fedotov@aol.com>
+Project-URL: Homepage, https://github.com/machina-observatrix/machina-observatrix
+Project-URL: Bug Tracker, https://github.com/machina-observatrix/machina-observatrix/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyGithub >=2.3.0
+Requires-Dist: PyYAML >=6.0.1
+
+# Machina Observatrix
+Machine that watches... all the time.
+<pre>
+  pip install machina-observatrix
+</pre>
+Then:
+```Python
+  # Python
+  import machina_observatrix
+```
