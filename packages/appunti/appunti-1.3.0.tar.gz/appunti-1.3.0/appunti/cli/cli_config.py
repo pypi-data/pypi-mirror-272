@@ -1,0 +1,276 @@
+from pathlib import Path
+from collections.abc import MutableMapping
+from typing import Any
+from importlib.metadata import version
+
+_PROG_NAME = 'appunti'
+
+_COMMANDS: MutableMapping[str, Any] = {
+    "command_initialize": {
+        "help": "Initialize the vault.",
+        "flags": {
+            "--git-init": {
+                "help": "Initialize a git repository.",
+                "action": "store_true"
+            },
+            "--git-origin": {
+                "default": [""],
+                "help": "Remote origin for git repository.",
+                "nargs": 1,
+                "type": str
+            },
+            "--force": {
+                "help":
+                "Force creation of vault, overwriting existing files and directories.",
+                "action": "store_true"
+            }
+        }
+    },
+    "command_new": {
+        "help": "Create a new note.",
+        "flags": {
+            "title": {
+                "help": "Title of the new note.",
+                "nargs": 1,
+                "type": str
+            },
+            "--no-confirmation": {
+                "help": "Whether to ask for confirmation before saving.",
+                "action": "store_false"
+            },
+            "--strict": {
+                "help": "Whether to perform strict checks and raise errors",
+                "action": "store_true"
+            }
+        }
+    },
+    "command_edit": {
+        "help": "Open an existing note by ID to edit.",
+        "flags": {
+            "zk_id": {
+                "help": "ID of the note to open.",
+                "nargs": "*",
+                "type": str
+            },
+            "--no-confirmation": {
+                "help": "Whether to ask for confirmation before saving.",
+                "action": "store_false"
+            },
+            "--strict": {
+                "help": "Whether to perform strict checks and raise errors",
+                "action": "store_true"
+            }
+        }
+    },
+    "command_open": {
+        "help": ("Open the selected notes without affecting index and .last"),
+        "flags": {
+            "zk_id": {
+                "help": "ID(s) of the note(s) to open.",
+                "nargs": "*",
+                "type": str
+            }
+        }
+    },
+    "command_delete": {
+        "help": "Delete a note by ID.",
+        "flags": {
+            "zk_id": {
+                "help": "ID of the note(s) to delete.",
+                "nargs": "*",
+                "type": str,
+            },
+            "--no-confirmation": {
+                "help": "Whether to ask for confirmation before saving.",
+                "action": "store_false"
+            }
+        }
+    },
+    "command_print": {
+        "help": "Print the note by ID.",
+        "flags": {
+            "zk_id": {
+                "help": "ID of the note to print.",
+                "nargs": "*",
+                "type": str,
+            }
+        }
+    },
+    "command_list": {
+        "help": "List all the notes.",
+        "flags": {
+            "--title": {
+                "help": "filter the list by these titles.",
+                "nargs": "+",
+                "type": str,
+                "default": None
+            },
+            "--zk_id": {
+                "help": "filter the list by these ids.",
+                "nargs": "+",
+                "type": str,
+                "default": None
+            },
+            "--author-name": {
+                "help": "filter the list by these authors.",
+                "nargs": "+",
+                "type": str,
+                "default": None
+            },
+            "--tags": {
+                "help": "filter the list by these tags.",
+                "nargs": "+",
+                "type": str,
+                "default": None
+            },
+            "--links": {
+                "help": "filter the list by these links.",
+                "nargs": "+",
+                "type": str,
+                "default": None
+            },
+            # "--creation-date": {
+            #     "help": "filter the list by creation date",
+            #     "nargs": "+",
+            #     "type": str,
+            #     "default": None
+            # },
+            # "--access-date": {
+            #     "help": "filter the list by access date",
+            #     "nargs": "+",
+            #     "type": str,
+            #     "default": None
+            # },
+            "--sort-by": {
+                "help":
+                "sort the list by criteria in ascending order.",
+                "nargs":
+                1,
+                "type":
+                str,
+                "default": ['creation_date'],
+                "choices": [
+                    "title", "author", "zk_id", "tag", "link", "creation_date",
+                    "last_changed"
+                ]
+            },
+            "--descending": {
+                "help": "How to sort the results.",
+                "action": "store_true"
+            },
+            "--no-color": {
+                "help": "Output without color.",
+                "action": "store_true"
+            },
+            "--show": {
+                "help":
+                "Which attributes to show",
+                "type":
+                str,
+                "nargs":
+                "+",
+                "default": ["title", "zk_id"],
+                "choices": [
+                    "title", "author", "zk_id", "creation_date",
+                    "last_changed", "tag", "link"
+                ]
+            },
+            "--no-header": {
+                "help": "Do not show header",
+                "action": "store_true"
+            }
+        }
+    },
+    "command_reindex": {
+        "help": "Reindex the vault.",
+        "flags": {
+            "--no-multi-core": {
+                "help": "Run the reindexing concurrently",
+                "action": "store_false"
+            }
+        }
+    },
+    "command_next": {
+        "help": "Create new note continuing from last one.",
+        "flags": {
+            "title": {
+                "help": "Title of the new note.",
+                "nargs": 1,
+                "type": str
+            },
+            "--zk_id": {
+                "help": "ID of the note to continue from.",
+                "nargs": 1,
+                "type": str,
+                "default": []
+            },
+            "--no-confirmation": {
+                "help": "Whether to ask for confirmation.",
+                "action": "store_false"
+            },
+            "--strict": {
+                "help": "Whether to perform strict checks and raise errors",
+                "action": "store_true"
+            }
+        }
+    },
+    "command_sync": {
+        "help": "Commit and sync with remote repository if available.",
+    },
+    "command_commit": {
+        "help": "Commit current changes to repo.",
+    },
+    "command_info": {
+        "help": "Show metadata for a note.",
+        "flags": {
+            "zk_id": {
+                "help": "ID of the note to print.",
+                "nargs": "*",
+                "type": str,
+            },
+            "--no-color": {
+                "help": "Output without color.",
+                "action": "store_true"
+            },
+        }
+    },
+    "command_browse": {
+        "help": "Browse the Zettelkasten.",
+        "flags": {
+            "zk_id": {
+                "help": "ID of the note to show.",
+                "nargs": "*",
+                "type": str
+            }
+        }
+    },
+    "flag_vault": {
+        "default": ".",
+        "type": Path,
+        "help": "Location of the vault."
+    },
+    "flag_author": {
+        "default": [""],
+        "type": str,
+        "nargs": 1,
+        "help": "Author name."
+    },
+    "flag_autocommit": {
+        "action": "store_true",
+        "help": "Whether to commit the git repo at every action."
+    },
+    "flag_autosync": {
+        "action": "store_true",
+        "help": "Whether to push to remote origin at every action."
+    },
+    "flag_editor": {
+        "default": [None],
+        "type": str,
+        "nargs": 1,
+        "help": "Editor to use."
+    },
+    "flag_version": {
+        "action": "version",
+        "version": '%(prog)s {version}'.format(version=version(_PROG_NAME))
+    }
+}
