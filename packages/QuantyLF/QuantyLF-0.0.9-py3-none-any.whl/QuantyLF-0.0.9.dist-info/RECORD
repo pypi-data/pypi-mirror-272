@@ -1,0 +1,14 @@
+QuantyLF/QuantyLF.py,sha256=b-vcnfMZHr2_BDnMRnGGmUXyJ73RHW6V-p9697yCbz0,18703
+QuantyLF/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+QuantyLF/cases/D3h_3d.lua,sha256=eReNzVd-OJFoDowNjuRo_oV3C1qdOwDnOZBBEKAZQVE,20672
+QuantyLF/cases/D3h_3d.txt,sha256=bR-9Bc2kEFrKhrPK7mkYfW0fr36OUuPrPbUzswDWvuE,430
+QuantyLF/cases/Oh_3d.lua,sha256=oHXqZ6TwZoPPYffinsKGbFFFX7zFD5OxKC8c2AcC8V8,19016
+QuantyLF/cases/Oh_3d.txt,sha256=-Nlv7Ulxv17wiLFGw4kh-bpEu7he7QUlGxhnhLUaLSQ,416
+QuantyLF/cases/Td_3d.lua,sha256=r_twoXI5AFv9lRwdYHZcsTfLM0O-cC-Phc2887XGBCI,19083
+QuantyLF/cases/Td_3d.txt,sha256=_YRQLBuqmyI5GJPK2S-pWk5asGL5Iwo3kSStv_SZvUw,417
+QuantyLF/cases/utils/slater_integrals.lua,sha256=RHC7FzL4cRuw_y-PAzGyIdV42AZuicQKQp64YYf8Boo,5265
+QuantyLF-0.0.9.dist-info/LICENSE,sha256=xMR_-cy2TsqdU21Yf-hd5QGWAlr9SHSiUmN6A3P7QJk,1074
+QuantyLF-0.0.9.dist-info/METADATA,sha256=3rc4IiYUHbn-sv4w0YCT2Ex-0qEcHVBS_yU8YroLQ2c,726
+QuantyLF-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+QuantyLF-0.0.9.dist-info/top_level.txt,sha256=l8qUY_OiIst_HOPQLdJyuRfwYeXR59MbxKtpmPUuVgw,9
+QuantyLF-0.0.9.dist-info/RECORD,,
