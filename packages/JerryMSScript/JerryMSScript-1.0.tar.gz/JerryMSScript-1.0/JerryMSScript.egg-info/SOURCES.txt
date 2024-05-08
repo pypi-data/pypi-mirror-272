@@ -1,0 +1,15 @@
+README.md
+setup.py
+JerryMSScript.egg-info/PKG-INFO
+JerryMSScript.egg-info/SOURCES.txt
+JerryMSScript.egg-info/dependency_links.txt
+JerryMSScript.egg-info/requires.txt
+JerryMSScript.egg-info/top_level.txt
+common/__init__.py
+common/customException.py
+common/debugTalk.py
+common/operateRedis.py
+common/operationConfig.py
+common/paramsEncoder.py
+common/readLog.py
+common/setting.py
