@@ -1,0 +1,10 @@
+errors/__init__.py,sha256=A3cusMJmjFzsTIAk4cKZjg7TqRob_1yvN9zZeoJ4gg0,316
+errors/base.py,sha256=fkMKubSSnzjn4_1BuU9VD6AprRUvZfJ-zg9mi08JLrE,3023
+errors/data_classes.py,sha256=XY1dwZueNBpYSvl08fGtSs0XKgctUZV1yHCjSy1Htk0,1628
+errors/error.py,sha256=lWHjkOIBljIhH0hCGgXnkugqB53YB9RaaN8fodeDhHk,1965
+errors/settings.py,sha256=1dayoYSe-fkp5WAXuTUjN_hiZ-0xbOTjRpeywa_AsYU,163
+error_manager-1.3.4.dist-info/LICENSE,sha256=q88uRrC18XK55YsLjWs-_hbXeiHhj4hU-sukryF9vwY,43710
+error_manager-1.3.4.dist-info/METADATA,sha256=LtVTpySL2DOAJ9KNSwTZa9N1LYEHwWIpYWnHhzK-RLM,5272
+error_manager-1.3.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+error_manager-1.3.4.dist-info/top_level.txt,sha256=-faFb0nzS6Z57ipYdQq5ZNGvg1JQqD5XUIharWfpR7g,7
+error_manager-1.3.4.dist-info/RECORD,,
