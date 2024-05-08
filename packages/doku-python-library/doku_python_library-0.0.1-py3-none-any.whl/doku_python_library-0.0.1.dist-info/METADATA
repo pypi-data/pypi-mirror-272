@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: doku-python-library
+Version: 0.0.1
+Summary: DOKU Python Library for Payment Integration
+Home-page: https://github.com/PTNUSASATUINTIARTHA-DOKU/doku-python-library
+Author: DOKU
+Author-email: technology@doku.com
+License: MIT
+Keywords: snap doku payment
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: pyjwt
+Requires-Dist: pytz
+Requires-Dist: pycparser
+Requires-Dist: idna
+Requires-Dist: cryptography
+Requires-Dist: charset-normalizer
+Requires-Dist: cffi
+Requires-Dist: certifi
+
+UNKNOWN
+
