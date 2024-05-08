@@ -1,0 +1,47 @@
+[project]
+name = "bindfiles"
+description = "Google API Helper"
+authors = [{ name = "Christoph Chester Cury", email = "cury.grupos@gmail.com" }]
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "google-api-python-client",
+    "google-auth-httplib2",
+    "google-auth-oauthlib",
+    "typing_extensions",
+    "pytz"
+]
+requires-python = ">=3.6"
+dynamic = ["version"]
+
+[tool.setuptools.packages.find]
+#include = ["bindfiles*"]
+where = ["src"]
+
+[tool.setuptools]
+include-package-data = true
+#packages = ["bindfiles"]
+#package-data={ 'bindfiles'= ['jsc/*.js'] }
+#package-data={'bindfiles'= ['py.typed'] }
+#package-data = { 'bindfiles': ['py.typed'] }
+#long_description = "Data Visualization"
+
+
+
+
+[tool.setuptools.dynamic]
+version = {attr = "bindfiles.__version__"}
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.mypy]
+strict = true
+mypy_path = "mypy_stubs"
