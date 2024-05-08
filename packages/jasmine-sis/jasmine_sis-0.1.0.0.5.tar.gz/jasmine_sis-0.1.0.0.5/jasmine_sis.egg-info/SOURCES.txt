@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+jasmine/__init__.py
+jasmine/files_organizer/__init__.py
+jasmine/files_organizer/data_challenge_prep.py
+jasmine/files_organizer/data_challenge_reader.py
+jasmine/files_organizer/lightcurve_cls.py
+jasmine/files_organizer/plasticc_files_reader.py
+jasmine_sis.egg-info/PKG-INFO
+jasmine_sis.egg-info/SOURCES.txt
+jasmine_sis.egg-info/dependency_links.txt
+jasmine_sis.egg-info/not-zip-safe
+jasmine_sis.egg-info/requires.txt
+jasmine_sis.egg-info/top_level.txt
