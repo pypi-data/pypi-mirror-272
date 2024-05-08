@@ -1,0 +1,235 @@
+---
+variables:
+  PYTHON_VERSION: "3.12"
+
+stages:
+  - check
+  - test
+  - build
+  - publish
+  - clean up
+
+workflow:
+  auto_cancel:
+    on_new_commit: interruptible
+    on_job_failure: all
+
+
+.x-code: &code
+  - pyproject.toml
+  - mypy.ini
+  - tox.ini
+  - requirements-dev-*.lock
+  - src/**/*.py
+  - src/**/*.pyi
+  - .gitlab-ci.yml
+
+.x-code-and-docs: &code-and-docs
+  - pyproject.toml
+  - mypy.ini
+  - tox.ini
+  - requirements-dev-*.lock
+  - src/**/*.py
+  - src/**/*.pyi
+  - .gitlab-ci.yml
+  - docs/**/*.rst
+  - docs/**/*.py
+  - docs/**/*.css
+
+
+lint:
+  interruptible: true
+  image: python:$PYTHON_VERSION
+  stage: check
+  script:
+    - pip install -r requirements-dev-py38.lock
+    - ruff check src/
+    - ruff format --check src/
+    - isort --check --diff src/
+  rules:
+    - if: $CI_SERVER_HOST != "gitlab.merchise.org"
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_MERGE_REQUEST_IID || $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes: *code
+
+
+.run_tox_tests: &run_tox_tests
+  interruptible: true
+  image: python:$PYTHON
+  stage: test
+  script:
+    - pip install tox
+    - tox -e system-$UNITTEST
+
+tests:
+  <<: *run_tox_tests
+  needs:
+    - lint
+    - run static checks
+  rules:
+    - if: $CI_SERVER_HOST != "gitlab.merchise.org"
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_MERGE_REQUEST_IID || $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes: *code
+  parallel:
+    matrix:
+      - PYTHON: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+        UNITTEST: ["unit", "immutables"]
+
+
+
+.run_tox_staticcheck: &run_tox_staticcheck
+  interruptible: true
+  image: python:$PYTHON
+  stage: check
+  script:
+    - pip install tox
+    - tox -e system-staticcheck
+
+run static checks:
+  <<: *run_tox_staticcheck
+  rules:
+    - if: $CI_SERVER_HOST != "gitlab.merchise.org"
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_MERGE_REQUEST_IID || $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_COMMIT_BRANCH =~ /^releases-/
+      changes: *code
+  parallel:
+    matrix:
+      - PYTHON: ["3.10", "3.11", "3.12"]
+
+
+.run_tox_doctest: &run_tox_doctest
+  interruptible: true
+  image: python:$PYTHON
+  stage: test
+  script:
+    - pip install tox
+    - tox -e system-doctest
+
+
+run doctests:
+  <<: *run_tox_doctest
+  rules:
+    - if: $CI_SERVER_HOST != "gitlab.merchise.org"
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_MERGE_REQUEST_IID || $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes: *code-and-docs
+  parallel:
+    matrix:
+      - PYTHON: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+
+run coverage tests:
+  image: python:$PYTHON_VERSION
+  interruptible: true
+  needs:
+    - lint
+    - run static checks
+    - tests
+  stage: test
+  script:
+    - pip install tox
+    - tox -e system-coverage
+  rules:
+    - if: $CI_SERVER_HOST != "gitlab.merchise.org"
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_MERGE_REQUEST_IID || $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes: *code
+
+
+build distribution:
+  image: python:$PYTHON_VERSION
+  stage: build
+  script:
+    - apt-get update; apt-get install -y --no-install-recommends git make
+    - pip install hatch
+    - hatch build
+  artifacts:
+    paths:
+      - dist/
+  rules:
+    - if: $CI_SERVER_HOST != "gitlab.merchise.org"
+      when: never
+    - if: $CI_COMMIT_TAG =~ /^\d+(\.\d+)*(|a\d+|b\d+|rc\d+)?(\.post\d+)?$/
+    - if: $CI_MERGE_REQUEST_IID || $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes: *code
+
+.build-doc: &build-documentation
+  image: python:$PYTHON_VERSION
+  stage: build
+  script:
+    - apt-get update; apt-get install -y --no-install-recommends git make
+    - pip install -r requirements-dev-py38.lock
+    - make -C docs html
+    - mkdir -p public
+    - cp -r docs/build/html/* public/
+  artifacts:
+    paths:
+      - docs/build/html
+      - public/
+
+build documentation:
+  <<: *build-documentation
+  interruptible: true
+  needs:
+    - run doctests
+  rules:
+    - if: $CI_SERVER_HOST != "gitlab.merchise.org"
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      variables:
+        SPHINXOPTS: ""
+    - if: $CI_MERGE_REQUEST_IID
+      changes: *code-and-docs
+      variables:
+        SPHINXOPTS: "-W"
+
+pages:
+  <<: *build-documentation
+  needs: []
+  rules:
+    - if: $CI_SERVER_HOST != "gitlab.com"
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+
+check signature of tag:
+  image: alpine
+  stage: test
+  script:
+    - apk add gnupg git
+    - cat $GNUPG_PUBLIC_KEY_FILE | gpg --import
+    - git verify-tag $CI_COMMIT_REF_NAME
+  rules: &release-rules
+    - if: $CI_SERVER_HOST != "gitlab.merchise.org"
+      when: never
+    - if: $CI_COMMIT_TAG =~ /^\d+(\.\d+)*(|a\d+|b\d+|rc\d+)?(\.post\d+)?$/
+
+
+publish_pypi:
+  variables:
+    GIT_STRATEGY: none
+  image: python:$PYTHON_VERSION
+  stage: publish
+  script:
+    - pip install twine
+    - twine upload -u "$PYPI_USERNAME" -p "$PYPI_PASSWORD" dist/*
+  needs:
+    - check signature of tag
+    - build distribution
+  environment:
+    name: pypi
+    url: https://pypi.org/project/$CI_PROJECT_NAME
+  rules: *release-rules
