@@ -1,0 +1,61 @@
+Metadata-Version: 2.3
+Name: heiwa4126.hello
+Version: 0.0.8
+Summary: A simple hello function.
+Project-URL: Repository, https://github.com/heiwa4126/pip-heiwa4126-hello.git
+Project-URL: Homepage, https://github.com/heiwa4126/pip-heiwa4126-hello#readme
+Project-URL: Issues, https://github.com/heiwa4126/pip-heiwa4126-hello/issues
+Author-email: heiwa4126 <heiwa4126@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: demo,hello
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# heiwa4126.hello (pip-heiwa4126-hello)
+
+[![PyPI - Version](https://img.shields.io/pypi/v/heiwa4126-hello.svg)](https://pypi.org/project/heiwa4126-hello)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/heiwa4126-hello.svg)](https://pypi.org/project/heiwa4126-hello)
+
+---
+
+## Installation
+
+```bash
+pip install heiwa4126.hello
+# or
+pip install heiwa4126-hello
+pip install heiwa4126_hello
+pip install "heiwa4126 hello"
+```
+
+## Usage
+
+This package can be used as follows:
+
+```python
+from heiwa4126.hello import hello
+print(hello())
+```
+
+This code will properly output "hello".
+Additionally, when the package is installed, the command `heiwa4126_hello` is also installed.
+
+```sh
+heiwa4126_hello # or heiwa4126_hello2
+```
+
+This command will properly output "hello".
+
+## License
+
+`heiwa4126-hello` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
