@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: detrain
+Version: 0.2.0
+Summary: A package for distributed training & model parallelism using Torch
+Author: A2N Finance
+Author-email: Levi <levi@a2n.finance>, John <john@a2n.finance>
+License: BSD-3-Clause
+Keywords: torch,model parallelism,pipeline,tensor
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: torch
+
