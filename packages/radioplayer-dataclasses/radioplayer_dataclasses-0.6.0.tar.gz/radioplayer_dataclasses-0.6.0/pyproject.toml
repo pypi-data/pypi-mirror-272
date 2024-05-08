@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "radioplayer-dataclasses"
+version = "v0.6.0" # 0.0.0 placeholder is replaced on release
+description = "Python dataclasses for radioplayer generated from XSD"
+repository = "https://github.com/radiorabe/python-radioplayer-dataclasses"
+authors = ["RaBe IT-Reaktion <it@rabe.ch>"]
+license = "AGPL-3"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+readme = "README.md"
+packages = [
+    { include = "radioplayer/dataclasses"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+xsdata = ">=22.12,<25.0"
+
+[tool.poetry.group.dev.dependencies]
+lxml = ">=4.9.2,<6.0.0"
+lxml-stubs = "^0.5.1"
+mkdocs = "^1.4.2"
+mkdocs-material = ">=8,<10"
+mkdocs-gen-files = ">=0.4,<0.6"
+mkdocs-literate-nav = "^0.6.0"
+mkdocs-section-index = "^0.3.5"
+mkdocstrings = {extras = ["python"], version = ">=0.20,<0.26"}
+pytest = ">=7.2,<9.0"
+pytest-cov = ">=4,<6"
+pytest-mypy = "^0.10.3"
+pytest-random-order = "^1.1.0"
+wheel = ">=0.38.4,<0.44.0"
+xmldiff = "^2.4"
+xsdata = {extras = ["cli"], version = ">=22.12,<25.0"}
+pytest-ruff = "^0.3.1"
+
+[tool.ruff]
+extend-exclude = [
+	"radioplayer/dataclasses",
+]
+
+[tool.pytest.ini_options]
+minversion = "7.2"
+addopts = "-ra -q --random-order --doctest-glob='*.md' --doctest-modules --cov=radioplayer.dataclasses --cov-fail-under=100 --ruff --mypy --ignore=docs/"
+filterwarnings = [
+    "ignore::DeprecationWarning:mypy",
+    "ignore::DeprecationWarning:pkg_resources",
+    "ignore::DeprecationWarning:xsdata",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
