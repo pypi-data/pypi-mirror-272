@@ -1,0 +1,10 @@
+msgpack/__init__.py,sha256=xxPLRvEmjuS1OaCF8EI1S0137_m-Vr8ez5kf_SJse9k,1174
+msgpack/_cmsgpack.cp312-win32.pyd,sha256=M1QHYBScazqDmFN1fMZ9-KWUOqqvtO-8MSsjbTkhs5A,125440
+msgpack/exceptions.py,sha256=2fCtczricqQgdT3NtW6cTqmZn3WA7GQtmlPuT-NhLyM,1129
+msgpack/ext.py,sha256=9gDKxuEHfYWdPRzcpFwFYyuBx0puprlQflDGOaccRhE,5896
+msgpack/fallback.py,sha256=EAP6g9N7tTWvTw01RtnXXdYg-zZn21FcGVfdBid8aUg,33319
+msgpack-1.1.0rc1.dist-info/COPYING,sha256=T73_QuukWTwW96fqcHiIOytzSHCh4rY2KEzi3OYr9Pc,628
+msgpack-1.1.0rc1.dist-info/METADATA,sha256=wmip_evE8VhUsGpHdoZaNmE0vp8AaKvuL14SfEqbPA4,8635
+msgpack-1.1.0rc1.dist-info/WHEEL,sha256=N7fPzcANYQSP-1lTeUuLriuOSDjRoCV8Fj8BnfANnGQ,98
+msgpack-1.1.0rc1.dist-info/top_level.txt,sha256=2tykSY1pXdiA2xYTDR6jPw0qI5ZGxRihyhf4S5hZyXk,8
+msgpack-1.1.0rc1.dist-info/RECORD,,
