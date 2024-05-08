@@ -1,0 +1,12 @@
+feather/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feather/ftools_workhorse.py,sha256=twyZp-wBwmOko5Gl4E6B-y6DviQpqZtAIo9ZyWtpWNM,20998
+feather/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feather/test/f2csv_copy.py,sha256=RwkG-F3Ea42zqFCxMgrD5sYzPFz1tmwoST9CotvEszc,6441
+feather/test/fmore_copy.py,sha256=EmCIYB2ywk8dmye5jACRSMyp0wrMoPUzY0-VkUFszsw,2721
+feather/test/ftail_copy.py,sha256=bo-3UTJ305BjyBZaPRvx8byqybdfX-ZBqVlrP9pErtQ,2913
+feather/test/fwc_copy.py,sha256=jLRjSafHShY8UJDhu9hDoIXJZPKQO67ldR0Wc_iEFwc,2224
+feather/test/test_ftools_workhorse.py,sha256=VL2MjU4knrrObmOUygX-zF36aDMSb-8UgEHEbEl7tOw,27512
+feather_tools-0.2.0.dist-info/METADATA,sha256=L7gSCXfif4YhXefQeOBmo64QgINac6pgP9J7_n4okcA,3708
+feather_tools-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+feather_tools-0.2.0.dist-info/top_level.txt,sha256=B11h-cXDGpSbczjCVdDf1bMpf0y3wYmOs0qC3PgxROI,8
+feather_tools-0.2.0.dist-info/RECORD,,
