@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+smolderz/__init__.py
+smolderz/main.py
+smolderz.egg-info/PKG-INFO
+smolderz.egg-info/SOURCES.txt
+smolderz.egg-info/dependency_links.txt
+smolderz.egg-info/requires.txt
+smolderz.egg-info/top_level.txt
