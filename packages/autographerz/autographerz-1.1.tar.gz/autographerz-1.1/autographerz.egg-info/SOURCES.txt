@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+autographerz/__init__.py
+autographerz/main.py
+autographerz.egg-info/PKG-INFO
+autographerz.egg-info/SOURCES.txt
+autographerz.egg-info/dependency_links.txt
+autographerz.egg-info/requires.txt
+autographerz.egg-info/top_level.txt
