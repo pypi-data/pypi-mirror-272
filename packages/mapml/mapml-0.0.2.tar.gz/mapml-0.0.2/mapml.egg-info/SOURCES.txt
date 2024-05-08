@@ -1,0 +1,14 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+mapml/.pypirc
+mapml/__init__.py
+mapml/cli.py
+mapml/get_banner.py
+mapml.egg-info/PKG-INFO
+mapml.egg-info/SOURCES.txt
+mapml.egg-info/dependency_links.txt
+mapml.egg-info/entry_points.txt
+mapml.egg-info/requires.txt
+mapml.egg-info/top_level.txt
