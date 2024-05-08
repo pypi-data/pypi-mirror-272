@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: verify-import
+Version: 0.1.2
+Summary: Simple tool to verify all submodules import without error
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/marciclabas/codegen.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: lazy-loader
+Requires-Dist: dslog
+
+# Import Checker
+
+> Simple tool to verify all submodules import without error
+
+## Usage
+
+```bash
+import-checker "mypkg" --verbose
+import-checker "mypkg.submodule"
+```
+
+Also works with namespaces packages!
