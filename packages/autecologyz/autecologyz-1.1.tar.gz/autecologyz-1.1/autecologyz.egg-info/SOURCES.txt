@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+autecologyz/__init__.py
+autecologyz/main.py
+autecologyz.egg-info/PKG-INFO
+autecologyz.egg-info/SOURCES.txt
+autecologyz.egg-info/dependency_links.txt
+autecologyz.egg-info/requires.txt
+autecologyz.egg-info/top_level.txt
