@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+skip-string-normalization = true
+
+[project]
+name = 'wbg-msd'
+version = '1.0.0'
+requires-python = '>=3.10'
+dependencies = [
+    'pandas >=2.2.0, <3.0.0',
+    'pyodbc >=5.1.0, <6.0.0',
+]

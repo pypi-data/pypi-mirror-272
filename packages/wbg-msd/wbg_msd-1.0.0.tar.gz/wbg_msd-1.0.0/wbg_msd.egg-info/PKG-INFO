@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: wbg-msd
+Version: 1.0.0
+Requires-Python: >=3.10
+Requires-Dist: pandas<3.0.0,>=2.2.0
+Requires-Dist: pyodbc<6.0.0,>=5.1.0

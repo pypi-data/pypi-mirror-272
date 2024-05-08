@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+wbg/msd/__init__.py
+wbg/msd/_protocols.py
+wbg/msd/app.py
+wbg/msd/db.py
+wbg/msd/entity.py
+wbg/msd/env.py
+wbg/msd/link.py
+wbg/msd/py.typed
+wbg_msd.egg-info/PKG-INFO
+wbg_msd.egg-info/SOURCES.txt
+wbg_msd.egg-info/dependency_links.txt
+wbg_msd.egg-info/requires.txt
+wbg_msd.egg-info/top_level.txt
