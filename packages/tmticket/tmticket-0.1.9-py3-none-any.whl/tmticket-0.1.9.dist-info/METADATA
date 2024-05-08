@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tmticket
+Version: 0.1.9
+Summary: Python wrapper for the Ticketmaster Discovery API
+Home-page: https://github.com/hokiebrian/pytmtickets
+Author: hokiebrian
+Author-email: hokiebrian@gmail.com
+License: MIT
+Keywords: Ticketmaster API
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: requests
+
