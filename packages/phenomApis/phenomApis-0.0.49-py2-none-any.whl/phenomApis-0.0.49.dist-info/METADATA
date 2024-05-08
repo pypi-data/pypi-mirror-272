@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: phenomApis
+Version: 0.0.49
+Summary: A Package To Access Phenom Apis
+Home-page: UNKNOWN
+Author: phenom
+Author-email: 8297991468h@gmail.com
+License: UNKNOWN
+Keywords: resumeparser,exsearch
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: PyJWT (==2.4.0)
+Requires-Dist: certifi (==2024.2.2)
+Requires-Dist: urllib3 (==1.26.18)
+Requires-Dist: six (==1.16.0)
+
+<div style="display: flex;align-items: center;gap: 16px"><p><img src="https://www.phenom.com/images/favicon-180x180.png"><br></p><p style="font-size: 80px;font-weight: 800;font-family: sans-serif;color: black;">phenom</p></div>
+
+
