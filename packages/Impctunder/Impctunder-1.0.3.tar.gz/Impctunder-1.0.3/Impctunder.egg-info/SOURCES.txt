@@ -1,0 +1,10 @@
+README.md
+setup.py
+Impctunder/__init__.py
+Impctunder/pokemon.csv
+Impctunder/random_pokemon.py
+Impctunder.egg-info/PKG-INFO
+Impctunder.egg-info/SOURCES.txt
+Impctunder.egg-info/dependency_links.txt
+Impctunder.egg-info/requires.txt
+Impctunder.egg-info/top_level.txt
