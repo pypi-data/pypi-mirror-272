@@ -1,0 +1,8 @@
+code_owners/__init__.py,sha256=KpQV6L_w-gZB_tmXakX9cryakyfR6HfJbxw2I5F30Qk,39
+code_owners/config.py,sha256=0SkzTj2VI-kLjzYRWcKb3HC3384xNrHScfTqxkAvNOI,490
+code_owners/parser.py,sha256=edSnS6NIRv1521SS2wZ-HSGpJMv-Bl2mB0LEhvKR2FU,2225
+pbx_code_owners-1.0.0a4.dist-info/METADATA,sha256=6-TZAFTn0uvPrJGItU51qB7-lCOsPSBjIngjsGVjS94,191
+pbx_code_owners-1.0.0a4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pbx_code_owners-1.0.0a4.dist-info/entry_points.txt,sha256=f95eIPd8GX6RCorAFvYPHsC9PsAnWwjqTuAT5DA5y3Y,53
+pbx_code_owners-1.0.0a4.dist-info/top_level.txt,sha256=sL_gdls-fhXq9nUJZAzuPTtGYSYn-SF_D_t9hwGqArA,12
+pbx_code_owners-1.0.0a4.dist-info/RECORD,,
