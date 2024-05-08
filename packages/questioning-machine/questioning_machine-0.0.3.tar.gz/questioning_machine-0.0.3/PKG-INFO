@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: questioning-machine
+Version: 0.0.3
+Summary: Machine that asks questions.
+Author-email: Alexander Fedotov <alex.fedotov@aol.com>
+Project-URL: Homepage, https://github.com/questioning-machine/questioning-machine
+Project-URL: Bug Tracker, https://github.com/questioning-machine/questioning-machine/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyGithub>=2.3.0
+Requires-Dist: PyYAML>=6.0.1
+
+# Questioning Machine
+Machine that asks questions.
+<pre>
+  pip install questioning-machine
+</pre>
+Then:
+```Python
+  # Python
+  import questioning_machine
+```
