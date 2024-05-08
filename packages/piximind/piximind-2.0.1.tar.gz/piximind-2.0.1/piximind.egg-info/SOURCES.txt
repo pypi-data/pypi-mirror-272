@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+piximind/__init__.py
+piximind/princo.py
+piximind.egg-info/PKG-INFO
+piximind.egg-info/SOURCES.txt
+piximind.egg-info/dependency_links.txt
+piximind.egg-info/top_level.txt
