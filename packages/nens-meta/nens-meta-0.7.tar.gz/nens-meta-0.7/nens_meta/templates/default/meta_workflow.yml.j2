@@ -1,0 +1,27 @@
+{{ header }}
+name: nens-meta
+on:
+  push:
+    branches:
+      - master
+      - main
+  pull_request:
+    branches:
+      - master
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  nens-meta:
+    name: nens-meta
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: {{ main_python_version }}
+          {# You can customise the python version in .nens.toml: #}
+          {# [workflow_meta] > main_python_version. #}
+      - uses: pre-commit/action@v3.0.1
