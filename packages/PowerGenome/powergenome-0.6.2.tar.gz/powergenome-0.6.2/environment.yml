@@ -1,0 +1,30 @@
+name: powergenome
+channels:
+  - conda-forge
+  # - defaults
+dependencies:
+  - python=3.10 # Remove for tox.ini & setup.py
+  - pip
+  - conda-forge::catalystcoop.pudl=2022.11.30
+  - jupyterlab
+  - black
+  - pytest
+  - beautifulsoup4
+  - pyyaml
+  - isort
+  - pre-commit
+  - conda-forge::nb_conda_kernels
+  - statsmodels>=0.13
+  - conda-forge::python-dotenv
+  - conda-forge::flatten-dict
+  - conda-forge::ruamel.yaml
+  - conda-forge::frozendict
+  - conda-forge::hypothesis[pandas]
+  - numpy
+  - openpyxl>=3.0
+
+  # GIS dependencies from conda-forge
+  - conda-forge::fiona
+  - conda-forge::geopandas>=0.12
+  - conda-forge::pyogrio
+  - conda-forge::shapely
