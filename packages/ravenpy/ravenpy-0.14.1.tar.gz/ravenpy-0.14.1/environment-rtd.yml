@@ -1,0 +1,38 @@
+name: ravenpy-rtd
+channels:
+- conda-forge
+- defaults
+dependencies:
+  - python >=3.9,<3.10  # fixed to reduce solver time
+  - raven-hydro >=0.2.4,<1.0
+  - autodoc-pydantic
+  - click
+#  - clisops  # mocked
+  - gdal
+# Needed for notebooks/HydroShare_integration.ipynb
+# See: https://github.com/CSHS-CWRA/RavenPy/pull/326
+#  - "hsclient",
+  - ipykernel
+  - ipython
+  - jupyter_client
+  - matplotlib-base
+  - myst-nb
+  - jupytext
+  - nbsphinx
+#  - netCDF4  # mocked
+  - notebook
+  - pandoc
+  - pydantic >=2.0
+  - pygments
+  - salib
+  - seaborn
+  - sphinx
+  - sphinx-autoapi
+  - sphinx-click
+  - sphinx-codeautolink
+  - sphinx-copybutton
+  - sphinx-rtd-theme >=1.0
+  - sphinxcontrib-napoleon
+  - typing_extensions
+  - wheel
+#  - xarray  # mocked
