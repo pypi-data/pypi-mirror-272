@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gmo_fx
+Version: 0.1.0
+Summary: GMO社のFX API用Pythonライブラリ
+Home-page: https://github.com/RikitoNoto/gmo-fx-py
+Download-URL: https://github.com/RikitoNoto/gmo-fx-py
+Author: Rikito Noto
+Author-email: rikitonoto@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+
+# gmo-fx-py

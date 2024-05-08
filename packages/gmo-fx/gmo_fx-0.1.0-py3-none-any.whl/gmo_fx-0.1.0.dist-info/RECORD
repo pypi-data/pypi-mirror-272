@@ -1,0 +1,13 @@
+gmo_fx/__init__.py,sha256=mFJeTwvSwYlA9ucCVITWFhL_Ll8eQurdD4HBpJ99COE,158
+gmo_fx/errors.py,sha256=2FwfVaRiMHmiVRT9QxwQHuVqiUh2fdWxX_wBIWXJ6u0,7751
+gmo_fx/klines.py,sha256=wNAOXXRbpnp0gwki8lX4qwCQ32aMcpNbS04T4CdHjNQ,2114
+gmo_fx/response.py,sha256=1pXN57X7StpFSCyBwk5Ykegvwz9CYKznYcWchh020Js,566
+gmo_fx/status.py,sha256=lKiDtDmgTgaxNlzalsOKWqAuUbXzKWPSEChx_11Q2dM,1314
+gmo_fx/symbols.py,sha256=-X7k8_NUV-X1Sg4Klog-jeu-BTD8IIUSsNXkz-VPdvg,1623
+gmo_fx/ticker.py,sha256=9tF8mpHqOkeKYqRJoHaebLL2n1F4aKFx3EIEQs0cD_0,1260
+gmo_fx/urls.py,sha256=PAUzpnoD_5MNeW36pMg-m7H7zbP4zxFqRUFPmeHftqI,59
+gmo_fx-0.1.0.dist-info/LICENSE,sha256=E0OTq-yBYiEdz67sZVyselIpZTwiWvQZXIwYe0pghqQ,1067
+gmo_fx-0.1.0.dist-info/METADATA,sha256=_hDC6OcQTV7nT7RSfX6L6P1u2XsvEFJqgeOR6T-9tzw,340
+gmo_fx-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gmo_fx-0.1.0.dist-info/top_level.txt,sha256=adYIVHWAgwdd8W9iLSy8SwXTu5ixgOktevt6AHxsOh0,7
+gmo_fx-0.1.0.dist-info/RECORD,,
