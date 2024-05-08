@@ -1,0 +1,13 @@
+block_weave/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+block_weave/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+block_weave/core/agent.py,sha256=V45uxPkf4Z1-UaoPYhOCjj7ybVo-RLiKQelmJlAyM_c,16972
+block_weave/core/block.py,sha256=AA9Mr3oUoGAqcROqiuNBUd_run791ACmzNqzDEiAWE0,3141
+block_weave/core/block_type.py,sha256=oc5nl6thW6j4qZQRcl1OuopaihUGueSQygN82ELEBl0,6087
+block_weave/core/data_loader.py,sha256=PMQteXgN3EWKagS0ASzxdTp0kx-Z7c-OMD-P6Y9jN6k,513
+block_weave/core/llm.py,sha256=y-xUBe9v1DP_-S0s4F-EvlunbaKV-KE7M-Q3Qw0Kk4M,2795
+block_weave/core/prompt_templates/basic1.md,sha256=EDrGCdTy1SDiaRogm437YRfpCLC4r4ZQ20Ys1tdfb1Q,452
+block_weave/core/prompt_templates/function.md,sha256=pM9OEAOoFw462DQY_EMyjVZaA57Z3kjs2V9jhbn1CQY,586
+block_weave-0.0.1.dist-info/METADATA,sha256=Lii2UZ5Nw7wTLCWZFkwSn2q1LnG9toL9RIPRV1-Q8D8,7806
+block_weave-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+block_weave-0.0.1.dist-info/licenses/LICENSE,sha256=2EpzfPDsl7bwHWTpNw7Fohlqs78MhtCUc_GX3KMRFTk,11349
+block_weave-0.0.1.dist-info/RECORD,,
