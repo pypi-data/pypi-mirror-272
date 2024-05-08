@@ -1,0 +1,8 @@
+[project]
+name = "vairflow-search"
+authors = [
+    { name = "Chinmaya Samal", email = "chinmaya@vairflow.com" },
+    { name = "Shivam Srivastava", email = "shivam@vairflow.com" }
+]
+version = "0.0.0"
+description = "Coming soon"
