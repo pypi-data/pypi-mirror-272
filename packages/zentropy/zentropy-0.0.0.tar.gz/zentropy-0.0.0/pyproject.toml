@@ -1,0 +1,22 @@
+[build-system]
+requires = [
+  "setuptools >= 40.9.0",
+  "Cython >= 3.0",
+  "numpy >= 1.23"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zentropy"
+version = "0.0.0"
+authors = [
+  { name="Samuel Loomis", email="samlikesphysics@gmail.com" },
+]
+description = "Nonparametric estimation of entropy and other information-theoretic quantities for continuous and categorical data"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
