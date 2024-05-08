@@ -1,0 +1,3 @@
+[console_scripts]
+vfsmerge=vfs_merge.__main__:cli
+
