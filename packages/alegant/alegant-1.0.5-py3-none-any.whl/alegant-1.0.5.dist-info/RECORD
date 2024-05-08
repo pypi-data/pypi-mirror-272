@@ -1,0 +1,10 @@
+alegant/__init__.py,sha256=fTRuxcMo-NxyUrnBMcJovprrLCTHBQAXLk5ge8RgZkY,176
+alegant/data_module.py,sha256=Kih16WeX_W83c2WB06KQ5xfyBvS9fdfKkCKVXF6JzA4,5399
+alegant/runner.py,sha256=x7I5pvtSI0mV0r-yTYG79NJ5MP2x_cDE5gJS6pPM4Yw,3350
+alegant/trainer.py,sha256=UTPAVNJnbvYBuBxsr2gcP7V_j4RP-mqmNy_2jInXlic,16857
+alegant/utils.py,sha256=Z9023cYqPzfj-45-xx6e29WuzUMKGrR0R5RGgBHZYNk,1465
+alegant-1.0.5.dist-info/LICENSE,sha256=cY3l_7WiqIW8Zo4pPRs2QLMg3ivRZ_eHTTfSwFdHUJ0,1061
+alegant-1.0.5.dist-info/METADATA,sha256=KaKRJUKzlk3bVRPOWaGf0HTasUIF30TfxY0u7nq2fak,2679
+alegant-1.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+alegant-1.0.5.dist-info/top_level.txt,sha256=HMLkMqFRVKlFTRQAc6SIGBFf-a8P-gbHBIxb2PgMelU,8
+alegant-1.0.5.dist-info/RECORD,,
