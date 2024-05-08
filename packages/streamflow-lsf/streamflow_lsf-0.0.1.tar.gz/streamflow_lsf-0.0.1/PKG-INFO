@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: streamflow-lsf
+Version: 0.0.1
+Summary: StreamFlow LSF plugin
+Author-email: Iacopo Colonnelli <iacopo.colonnelli@unito.it>, Alberto Mulone <alberto.mulone@unito.it>
+License: LGPL-3.0-or-later
+Project-URL: Repository, https://github.com/alpha-unito/streamflow-lsf
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamflow==0.2.0.dev11
+
+# LSF Plugin for StreamFlow
+
+## Installation
+Simply install the package directory from [PyPI]() using [pip](https://pip.pypa.io/en/stable/). StreamFlow will automatically recognise it as a plugin and load it at each workflow execution.
+```bash
+pip install streamflow-lsf
+```
+
+If everything worked correctly, whenever a workflow execution start the following message should be printed in the log:
+```bash
+Successfully registered plugin streamflow_lsf.plugin.LSFStreamFlowPlugin
+```
+
+## Usage
+This plugin registers a new `Connector` component, called `LSFConnector`, which extends the StreamFlow `ConnectorWrapper` class. This implies that the `LSFConnector` can wrap an underlying `Connector` object through the `wraps` directive. The example below shows a possible `streamflow.yml` configuration file, where the `LSFConnector` wraps an `SSHConnector` for remote execution offloading.
+```bash
+deployments:
+  ssh-deplyoment:
+    type: ssh
+    config:
+      nodes:
+        - 10.0.0.1
+        - 10.0.0.2
+      sshKey: /path/to/ssh/key
+      username: <username>
+  lsf-deployment:
+    type: unito.lsf
+    config: {}
+    wraps: ssh-deplyoment
+```

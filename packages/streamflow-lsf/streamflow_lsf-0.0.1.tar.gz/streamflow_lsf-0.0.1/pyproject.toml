@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamflow-lsf"
+authors = [
+    {name = "Iacopo Colonnelli", email = "iacopo.colonnelli@unito.it"},
+    {name = "Alberto Mulone", email = "alberto.mulone@unito.it"}
+]
+description = "StreamFlow LSF plugin"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "LGPL-3.0-or-later"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Intended Audience :: Science/Research",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Distributed Computing",
+]
+dynamic = ["dependencies", "version"]
+
+[project.urls]
+Repository = "https://github.com/alpha-unito/streamflow-lsf"
+
+[project.entry-points]
+"unito.streamflow.plugin" = {"unito.lsf" = "streamflow_lsf.plugin:LSFStreamFlowPlugin"}
+
+[tool.setuptools]
+packages = [
+    "streamflow_lsf"
+]
+zip-safe = true
+[tool.setuptools.package-data]
+"streamflow_lsf" = ["schemas/*.json"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+version = {attr = "streamflow_lsf.version.VERSION"}
+
+[tool.setuptools.dynamic.optional-dependencies]
+bandit = {file = "bandit-requirements.txt"}
+lint = {file = "lint-requirements.txt"}
+test = {file = "test-requirements.txt"}
