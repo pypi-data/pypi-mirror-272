@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: iaklogger
+Version: 1.0.5
+Summary: Very basic and easy logger
+Home-page: https://github.com/Iakl/iaklogger
+Download-URL: https://github.com/Iakl/iaklogger/archive/refs/tags/v1.0.0.tar.gz
+Author: Iakl
+Author-email: estebaniakl@gmail.com
+License: MIT
+Keywords: logger,easy,print,log,basic,logging
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+Very basic and easy logger for python. It allows to print logs to the console and/or to a file. It also allows to mute logs by tags, mute all logs, show tags before the message, show time before the message, and set a maximum size for the log file.

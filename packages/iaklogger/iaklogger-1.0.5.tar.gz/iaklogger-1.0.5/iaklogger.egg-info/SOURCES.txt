@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+iaklogger/__init__.py
+iaklogger/iaklogger.py
+iaklogger/test_iaklogger.py
+iaklogger.egg-info/PKG-INFO
+iaklogger.egg-info/SOURCES.txt
+iaklogger.egg-info/dependency_links.txt
+iaklogger.egg-info/top_level.txt
