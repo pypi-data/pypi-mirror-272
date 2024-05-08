@@ -1,0 +1,13 @@
+pokeapi_ditto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pokeapi_ditto/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pokeapi_ditto/commands/analyze.py,sha256=c9WgPI4xN2QKlLOGiBH7aTZJMxtDh1JPzlgjDmfG7eU,3014
+pokeapi_ditto/commands/clone.py,sha256=yhlkrqQ0531mVWq8xOaucl4U45T_9dDB0Zf4KalMvRM,3307
+pokeapi_ditto/commands/models.py,sha256=jT36TOmoqDCIj66CqLm8mZs4OKm9gfGYLYWW45pCbEY,4987
+pokeapi_ditto/commands/transform.py,sha256=3u4LEFydrSVAGlO6znalSH-ItJAq0C3hAs6guLCZrl4,1899
+pokeapi_ditto/common.py,sha256=nBUvRun5PrpjAY48_2kmW7NX8T5MgMS0hzxAbMA-pS0,584
+pokeapi_ditto/main.py,sha256=1CyGg72Xs0tYynvnpsTi6mov5QpfpMV-eMaO6fOTFBc,1704
+pokeapi_ditto-1.0.3.dist-info/LICENSE,sha256=FR_0kPdER5YwmERp6gSpOiybTa1aBkFtgkItFhgTuCE,11347
+pokeapi_ditto-1.0.3.dist-info/METADATA,sha256=fMaUc4RN9EY5QsQ4U83zXXv8prbDEp35ccqtyHTWj0A,1980
+pokeapi_ditto-1.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pokeapi_ditto-1.0.3.dist-info/entry_points.txt,sha256=aXqqmORDKcnCCcfuIEdiTUJL9ioG7_z4k9QQoAbiAf4,49
+pokeapi_ditto-1.0.3.dist-info/RECORD,,
