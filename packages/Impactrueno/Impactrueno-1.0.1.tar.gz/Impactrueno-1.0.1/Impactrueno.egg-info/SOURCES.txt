@@ -1,0 +1,9 @@
+setup.py
+Impactrueno/__init__.py
+Impactrueno/pokemon.csv
+Impactrueno/random_pokemon.py
+Impactrueno.egg-info/PKG-INFO
+Impactrueno.egg-info/SOURCES.txt
+Impactrueno.egg-info/dependency_links.txt
+Impactrueno.egg-info/requires.txt
+Impactrueno.egg-info/top_level.txt
