@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cockishnessz/__init__.py
+cockishnessz/main.py
+cockishnessz.egg-info/PKG-INFO
+cockishnessz.egg-info/SOURCES.txt
+cockishnessz.egg-info/dependency_links.txt
+cockishnessz.egg-info/requires.txt
+cockishnessz.egg-info/top_level.txt
