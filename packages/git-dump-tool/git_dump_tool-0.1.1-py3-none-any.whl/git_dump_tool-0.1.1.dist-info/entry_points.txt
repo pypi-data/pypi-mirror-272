@@ -1,0 +1,2 @@
+[console_scripts]
+git-dump = git_dump:main
