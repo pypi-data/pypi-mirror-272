@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: milvus-lite
+Version: 2.4.1
+Home-page: https://github.com/milvus-io/milvus-lite.git
+Author: Milvus Team
+Author-email: milvus-team@zilliz.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
