@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+foreladiesz/__init__.py
+foreladiesz/main.py
+foreladiesz.egg-info/PKG-INFO
+foreladiesz.egg-info/SOURCES.txt
+foreladiesz.egg-info/dependency_links.txt
+foreladiesz.egg-info/requires.txt
+foreladiesz.egg-info/top_level.txt
