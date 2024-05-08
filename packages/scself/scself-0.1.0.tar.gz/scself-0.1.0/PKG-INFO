@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: scself
+Version: 0.1.0
+Summary: Self Supervised Tools for Single Cell Data
+Home-page: https://github.com/GreshamLab/sc_self_supervised
+Author: Chris Jackson
+Author-email: cj59@nyu.edu
+Maintainer: Chris Jackson
+Maintainer-email: cj59@nyu.edu
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: anndata>=0.8
+Requires-Dist: scanpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: sparse_dot_mkl
+Requires-Dist: numba
+
+# sc_self_supervised
+Self Supervised Tools for Single Cell Data
