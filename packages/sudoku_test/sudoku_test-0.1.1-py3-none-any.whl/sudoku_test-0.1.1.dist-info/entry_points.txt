@@ -1,0 +1,3 @@
+[console_scripts]
+sudoku_test=sudoku_test.main:main
+
