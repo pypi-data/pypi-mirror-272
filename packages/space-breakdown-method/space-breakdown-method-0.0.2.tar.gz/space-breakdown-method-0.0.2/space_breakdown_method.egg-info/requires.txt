@@ -1,0 +1,10 @@
+numpy
+scikit-learn
+matplotlib
+scipy
+networkx
+plotly
+pandas
+
+[dev]
+twine>=4.0.2
