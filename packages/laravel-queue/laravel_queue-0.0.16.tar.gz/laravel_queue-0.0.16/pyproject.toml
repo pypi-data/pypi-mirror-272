@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "laravel_queue"
+dynamic = ["version"]
+authors = [
+  { name="2NDNATURE", email="info@2ndnaturewater.com" },
+]
+description = "Reads from a Laravel queue"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "psycopg2",
+  "phpserialize"
+]
+
+[project.urls]
+Repository = "https://github.com/2ndnaturewater/python-laravel-queue"
+Issues = "https://github.com/2ndnaturewater/python-laravel-queue/issues"
+
+[tool.hatch.version]
+path = "src/laravel_queue/__about__.py"
