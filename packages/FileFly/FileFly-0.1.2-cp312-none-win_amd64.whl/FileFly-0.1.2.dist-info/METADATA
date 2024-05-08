@@ -1,0 +1,75 @@
+Metadata-Version: 2.3
+Name: FileFly
+Version: 0.1.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: 适用于64位Windows的文件查找工具
+Keywords: File,Windows,Find,Find File
+Author-email: WebChang <2965330149@qq.com>
+Maintainer-email: WebChang <2965330149@qq.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# FileFly
+
+* 一个用Rust开发的文件工具
+* 适用于64位Windows
+* 简单易用  无其他依赖
+* 速度超快  10W+文件全部搜索完成仅需0.6秒
+
+# 示例
+
+```python
+from re import compile as Regex
+from time import time
+
+import FileFly
+
+
+def Wrap(Fun):
+    def _Wrap(*args, **kwargs):
+        Time_Start = time()
+        Results = Fun(*args, **kwargs)
+        print(f"{Fun.__name__} 耗时 {time() - Time_Start} 秒")
+        return Results
+    [setattr(_Wrap, E, getattr(Fun, E))
+     for E in ["__module__", "__name__", "__doc__",
+               "__qualname__", "__annotations__"]]
+    return _Wrap
+
+
+@Wrap
+def TestAllFile():
+    print(len(FileFly.GetAllFile("D:\\", True)))
+
+
+@Wrap
+def TestPngFile():
+    print(len(FileFly.GetAllFile("D:\\", True, Regex(r".*\.png$"), False, False)))
+
+
+if __name__ == "__main__":
+    TestAllFile()
+    TestPngFile()
+
+>>> 109193
+>>> TestAllFile 耗时 0.5151987075805664 秒
+>>> 5346
+>>> TestPngFile 耗时 0.6114356517791748 秒
+```
+
+# 任务目标
+
+* [X] 获取系统所有硬盘
+* [X] 获取硬盘全部文件(HS系统元文件自动跳过)
+* [X] 实现原生正则匹配
+* [ ] 适配Linux
+* [ ] ...
+
+# 现存问题以及解决方案
+
+* 系统盘根目录全部文件耗时较长, 应避免直接读取系统盘根目录, 可对需要的目录进行过滤
+
+
