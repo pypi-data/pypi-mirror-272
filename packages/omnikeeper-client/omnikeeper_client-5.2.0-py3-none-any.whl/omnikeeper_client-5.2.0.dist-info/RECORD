@@ -1,0 +1,16 @@
+omnikeeper_client/__init__.py,sha256=JAZEDxX9hU1cOoXnz9yarIJMroHteueGYOIVZHVuKkw,1265
+omnikeeper_client/apiclient.py,sha256=X2NMaqM23pGLmDFDV2ueJnJzGdUEjz1WLrVvlWkYaGA,1984
+omnikeeper_client/ci.py,sha256=hXYsfDbMNvIy32CbStar1ade3ifH6VTL4VjxF9ICy1I,5040
+omnikeeper_client/dataframes.py,sha256=1G-k_IhPejA1UpR0_JYzLSgEBkVymD24gWNpWC5aHC0,3796
+omnikeeper_client/layer.py,sha256=To0INBUjgOiIuwwcMRo3wdT1mIbwcm-cVjJ4Lqh0SwI,3232
+omnikeeper_client/pyd.py,sha256=8AQVtMzxz2tkDP8z-0MCLA0meLOxmtEMBHQxI_f6Uwk,2765
+omnikeeper_client/simple_traits.py,sha256=yduQQKL93hUOBe6NQBBHchrtC8qr-kl8BU29b5cnbls,10639
+omnikeeper_client/trait.py,sha256=mPn46R2Aj5x1F6us_Z5VQ2iXf2pYQW9osSgItcQ8L5Q,4574
+omnikeeper_client/traitentities.py,sha256=icKLKe6zTMbOpsdiLdsFvkerICaw0RmbZ3q2DPH0kTw,20532
+omnikeeper_client/typing.py,sha256=dLzATV6Ez3VhPMEGdnsLKkZNS1aFgfURYbRKHiAGEFE,5262
+omnikeeper_client/util.py,sha256=Htf_rrlvd6usJ-ONWOU1l0Bz_CnisjQrlRzNODppiZg,917
+omnikeeper_client-5.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+omnikeeper_client-5.2.0.dist-info/METADATA,sha256=ruu5QjK4PWw4RlPhXNfkfAs8S03zaW8cha35-g5lwIE,572
+omnikeeper_client-5.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+omnikeeper_client-5.2.0.dist-info/top_level.txt,sha256=3VgpRS-e1mbaX1mKkPt9Mszwazf6tc1Tk3GORBV6ijk,18
+omnikeeper_client-5.2.0.dist-info/RECORD,,
