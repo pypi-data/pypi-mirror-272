@@ -1,0 +1,1 @@
+from JokeMachine import Dad_Joke
