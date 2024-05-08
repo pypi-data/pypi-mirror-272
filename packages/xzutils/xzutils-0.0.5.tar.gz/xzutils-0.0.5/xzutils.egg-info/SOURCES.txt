@@ -1,0 +1,8 @@
+setup.py
+xzutils/EncodeUtils.py
+xzutils/__init__.py
+xzutils/web3Utils.py
+xzutils.egg-info/PKG-INFO
+xzutils.egg-info/SOURCES.txt
+xzutils.egg-info/dependency_links.txt
+xzutils.egg-info/top_level.txt
