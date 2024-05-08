@@ -1,0 +1,86 @@
+# Mini-Maze
+Mini-Maze is an open-source reinforcement learning (RL) environment based on the Minigrid package. Its primary goal is to simplify the development and testing of RL algorithms by enabling users to generate random mazes that guarantee a feasible path to the goal, as well as define mazes through a straightforward 0-1 matrix representation.
+
+## Installation
+To install Mini-Maze, you will need Python 3.6 or later. It is recommended to use a virtual environment. Install Mini-Maze using pip:
+```commandline
+pip install mini-maze
+```
+
+## Quickstart
+Below is a step-by-step guide to help you get started with Mini-Maze, showcasing two fundamental ways to work with mazes: defining a custom maze using a 0-1 matrix and generating a maze randomly.
+### Defining a Custom Maze
+First, we demonstrate how to manually define a maze using a 0-1 matrix, where `0` represents an open path and `1` represents an obstacle, and then initialize the environment with custom start and target positions.
+```python
+from mini_maze import MiniMazeEnv
+
+# Define a 5x5 maze using a 0-1 matrix (0 represents an open path, 1 represents an obstacle)
+maze = [
+    [0, 1, 0, 0, 0],
+    [0, 1, 0, 1, 0],
+    [0, 0, 0, 1, 0],
+    [0, 1, 1, 1, 0],
+    [0, 0, 0, 0, 0]
+]
+
+# Initialize the environment with the defined maze, start position, and target position
+env = MiniMazeEnv(maze=maze, start_pos=(0,0), target_pos=(4,4))
+
+# Reset the environment to start a new episode
+observation = env.reset()
+done = False
+while not done:
+    # The action space of Mini-Maze is discrete, ranging from 0 to 3 (up, right, down, left)
+    action = env.action_space.sample()  # Replace with your RL algorithm's action
+    observation, reward, done, info = env.step(action)
+    env.render()
+# Close the environment
+env.close()
+```
+
+### Generating a Random Maze
+For those looking to dive into experimentation on the generalization capabilities of reinforcement learning algorithms, Mini-Maze offers a convenient function to generate random mazes. This method ensures the generation of a solvable maze, along with randomly positioned start and target locations.
+```python
+from mini_maze import generate_random_maze
+
+maze, start_pos, target_pos = generate_random_maze(size=(5,5)) 
+print(maze)
+```
+Here is an example output:
+```
+[
+ [1, 1, 1, 1, 1], 
+ [1, 0, 1, 0, 1], 
+ [1, 0, 1, 0, 1], 
+ [1, 0, 0, 0, 1], 
+ [1, 1, 1, 1, 1]
+] 
+```
+
+### Built-In Optimal Policy 
+Mini-Maze provides a built-in optimal policy for each generated maze. This feature allows you to compare the performance of your RL algorithm against the optimal solution. To access the optimal policy, simply call the `.get_optimal_action()` method on the environment object:
+```python
+from mini_maze import MiniMazeEnv, generate_random_maze 
+# Generate a random maze
+maze, start_pos, target_pos = generate_random_maze(size=(33, 33)) 
+env = MiniMazeEnv(maze=maze, start_pos=start_pos, target_pos=target_pos, render_mode="human")
+
+# Reset the environment to start a new episode
+observation, _ = env.reset()
+done = False
+while not done:
+    # Get the optimal action for the current state
+    action = env.get_optimal_action()
+
+    # Take the optimal action
+    next_state, reward, done, truncated, info = env.step(action)
+
+# Close the environment
+env.close()
+```
+
+## License
+
+Mini-Maze is open source and licensed under the MIT license. See the LICENSE file for more details.
+
+
