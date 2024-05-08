@@ -1,0 +1,11 @@
+sparrowDB/__init__.py,sha256=AzUCPn4-3le3DHUwAUZZVBpmwZduRp0OxxyrxSiVnL0,153
+sparrowDB/config.py,sha256=ruOPC4bycAp_poBIIS2FYZf3xSTkOLuG9PCGQkw8Vlg,327
+sparrowDB/sparrow.py,sha256=NAHikW7reqQwXSUXVvJ1BHAED3BeMbbI6Bi-FRexgEM,8148
+sparrowDB/sparrow_clint.py,sha256=J0rIokYvYq5Z67LAYmlWFu-Eshl7PuFSjMblLRg29tY,2923
+sparrowDB/sparrow_clint_service.py,sha256=SxYJIWSU4jERkEvy2Tw2sj7QMiIErZkmvTIQI093gyE,11734
+sparrowDB/tools/__init__.py,sha256=Zzdo607ir1AfHN7AWmwymZmbJbUABcfHM9GNKNJRREU,57
+sparrowDB/tools/error.py,sha256=OkveY-VeKudTvAR2vvEqJM2g_zjnD28Q37PQgX8vcdg,296
+sparrowDB-0.1.1.dist-info/METADATA,sha256=lCmNH2fJP8rj9_piBkujRHBQ91HqJq2yTRnD7vP0ep8,182
+sparrowDB-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sparrowDB-0.1.1.dist-info/top_level.txt,sha256=WYwc3JZpgFjNpnGBKrE6X9M0DkFe-CFe2EuyHIJosG8,10
+sparrowDB-0.1.1.dist-info/RECORD,,
