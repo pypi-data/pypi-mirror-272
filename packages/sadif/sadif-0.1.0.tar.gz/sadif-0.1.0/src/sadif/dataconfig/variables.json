@@ -1,0 +1,52 @@
+{
+    "SOAR_INTERNAL_USER": "SOAR_MANAGER_USER",
+    "EMAIL_SETUP_MANAGER": [""],
+    "EMAIL_SOAR_MONITORING": [""],
+    "THEHIVE": "http://localhost:9000/api",
+    "THEHIVE_API_SERVICE": "YNv1jmR5IpBKJAfd6CWx6Py58HYX+Xqd",
+    "ROUTER_PROXY_HTTP": "127.0.0.1:5566",
+    "ROUTER_PROXY_HTTPS": "127.0.0.1:5566",
+    "MONGODB_URL": "mongodb://localhost:27017",
+    "MONGODB_DATABASE_MODULES_MANAGER": "Modules",
+    "MONGODB_DATABASE_YARA": "YaraRules",
+    "MONGODB_CLIENT_PREFIX": "Client_",
+    "MONGODB_DATABASE_CLIENTS": "Clients",
+    "MONGODB_DATABASE_CRAWLER": "Crawler",
+    "MONGODB_COLLECTION_CRAWLER_ONION_WITH_CREDENTIAL": "crawler_with_credential_onion",
+    "MONGODB_COLLECTION_CRAWLER_ONION_WITHOUT_CREDENTIAL": "crawler_without_credential_onion",
+    "MONGODB_COLLECTION_CRAWLER_WEB_WITH_CREDENTIAL": "crawler_with_credential_web",
+    "MONGODB_COLLECTION_CRAWLER_WEB_WITHOUT_CREDENTIAL": "crawler_without_credential_web",
+
+    "SOAR_DATA_MODULES_URL": "https://git.florestleaks.com/florestleaks/soar/modules_data",
+    "MONGODB_DATABASE_MODULES_MANAGER_RANSOMWHAT_FOLDER": "ransomwhat",
+    "MONGODB_DATABASE_MODULES_MANAGER_RANSOMWHAT_NAME": "ransomwhat",
+    "MONGODB_DATABASE_MODULES_MANAGER_RANSOMWHAT_COLLECTION": "ransomwhat",
+    "MONGODB_DATABASE_MODULES_MANAGER_RANSOMWHAT_URL": "https://raw.githubusercontent.com/joshhighet/ransomwatch/main/groups.json",
+    "MONGODB_DATABASE_MODULES_MANAGER_RANSOMWHAT_JSON_SCHEMA":{
+        "bsonType": "object",
+        "required": ["url"],
+        "properties": {
+            "url":
+            {"bsonType": "string",
+                "description": "deve ser uma string e é obrigatório"}}
+    },
+
+    "CLIENTS_MODULES": ["ModuloA", "ModuloB", "ModuloC"],
+
+
+    "GIT_REPO_CLIENT_CRAWLER_MONITORING": "https://gitlab.florestleaks.com/soar/modules/crawler_monitoring",
+    "GIT_REPO_CLIENT_CRAWLER_BRANCH": "main",
+
+    "GIT_REPO_CLIENT_YARA_RULES_URL": "https://gitlab.florestleaks.com/soar/modules/client_monitoring_yara_rules",
+    "GIT_REPO_CLIENT_YARA_RULES_BRANCH": "main",
+
+    "GIT_REPO_CLIENT_MONITORING_BRANCH": "main",
+    "GIT_REPO_CLIENT_MONITORING_URL":"https://gitlab.florestleaks.com/soar/modules/client_monitoring",
+
+    "GIT_REPO_USER": "lcorrea",
+    "GIT_REPO_TOKEN": "glpat-stQLNy-eFy3wQ8zUbdxj",
+
+    "YARA_TYPE_RULES": ["Vips", "POC", "Leak", "Domino", "Incidente", "StringMatch"],
+
+    "SENTRYDSN": "https://324720c1aca97d04fec361d27d81bb70@o978268.ingest.sentry.io/4506727133609984"
+}

@@ -1,0 +1,165 @@
+[build-system]  # https://python-poetry.org/docs/pyproject/#poetry-and-pep-517
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]  # https://python-poetry.org/docs/pyproject/
+name = "sadif"
+version = "0.1.0"
+description = "Secure Asses Data Insight Framework - SADIF"
+authors = ["CorrêaLabs <lcorrea@florestleaks.com>"]
+readme = "README.md"
+repository = "https://github.com/florestleaks/SADIF"
+
+[tool.commitizen]  # https://commitizen-tools.github.io/commitizen/config/
+bump_message = "bump(release): v$current_version → v$new_version"
+tag_format = "v$version"
+update_changelog_on_bump = true
+version_provider = "poetry"
+
+[tool.poetry.dependencies]  # https://python-poetry.org/docs/dependency-specification/
+python = ">=3.10,<4.0"
+pymongo = "^4.6.3"
+sentry-sdk = "^1.45.0"
+toml = "^0.10.2"
+bs4 = "^0.0.2"
+yara-python = "^4.5.0"
+mongomock = "^4.1.2"
+pymdown-extensions = "^10.8.1"
+mdx-include = "^1.4.2"
+mkdocs-rss-plugin = "^1.12.2"
+mkdocstrings = "^0.25.0"
+mkdocstrings-python = "^1.10.0"
+griffe-typingdoc = "^0.2.5"
+
+[tool.poetry.group.test.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
+commitizen = ">=3.21.3"
+coverage = { extras = ["toml"], version = ">=7.4.4" }
+mypy = ">=1.9.0"
+poethepoet = ">=0.25.0"
+pre-commit = ">=3.7.0"
+pytest = ">=8.1.1"
+pytest-mock = ">=3.14.0"
+pytest-xdist = ">=3.5.0"
+ruff = ">=0.3.5"
+safety = ">=3.1.0"
+shellcheck-py = ">=0.10.0.1"
+typeguard = ">=4.2.1"
+
+[tool.poetry.group.dev.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
+cruft = ">=2.15.0"
+ipykernel = ">=6.29.4"
+ipywidgets = ">=8.1.2"
+pdoc = ">=14.4.0"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.18"
+mkdocs-git-authors-plugin = "^0.8.0"
+mkdocs-git-committers-plugin-2 = "^2.3.0"
+mkdocs-git-revision-date-localized-plugin = "^1.2.4"
+mkdocs-glightbox = "^0.3.7"
+mike = {git = "https://github.com/jimporter/mike"}
+lxml = "^5.2.1"
+
+[tool.coverage.report]  # https://coverage.readthedocs.io/en/latest/config.html#report
+fail_under = 0
+precision = 1
+show_missing = true
+skip_covered = true
+
+[tool.coverage.run]  # https://coverage.readthedocs.io/en/latest/config.html#run
+branch = true
+command_line = "--module pytest"
+data_file = "reports/.coverage"
+source = ["src"]
+
+[tool.coverage.xml]  # https://coverage.readthedocs.io/en/latest/config.html#xml
+output = "reports/coverage.xml"
+
+[tool.mypy]  # https://mypy.readthedocs.io/en/latest/config_file.html
+junit_xml = "reports/mypy.xml"
+strict = true
+disallow_subclassing_any = false
+disallow_untyped_decorators = false
+ignore_missing_imports = true
+pretty = true
+show_column_numbers = true
+show_error_codes = true
+show_error_context = true
+warn_unreachable = true
+
+[tool.pytest.ini_options]  # https://docs.pytest.org/en/latest/reference/reference.html#ini-options-ref
+addopts = "--color=yes --doctest-modules --exitfirst --failed-first --strict-config --strict-markers --typeguard-packages=sadif --verbosity=2 --junitxml=reports/pytest.xml"
+filterwarnings = ["error", "ignore::DeprecationWarning"]
+testpaths = ["src", "tests"]
+xfail_strict = true
+
+[tool.ruff]  # https://github.com/charliermarsh/ruff
+fix = true
+line-length = 100
+src = ["src", "tests"]
+target-version = "py310"
+
+[tool.ruff.lint]
+ignore-init-module-imports = true
+select = ["A", "ASYNC", "B", "BLE", "C4", "C90", "D", "DTZ", "E", "EM", "ERA", "F", "FBT", "FLY", "FURB", "G", "I", "ICN", "INP", "INT", "ISC", "LOG", "N", "NPY", "PERF", "PGH", "PIE", "PLC", "PLE", "PLR", "PLW", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "S", "SIM", "SLF", "SLOT", "T10", "T20", "TCH", "TID", "TRY", "UP", "W", "YTT"]
+ignore = ["E501","S311",'TRY301','TCH002','PERF203','PLR0912','TRY004','N806','RUF013','TRY002','PLR2004','ERA001','FBT002','N815','N803','PLR0913','C901','W','B007','BLE001','RET505','TRY300','T203','F811','SIM117','T201','UP008','TRY401',"D205","G004","D",'PT',"SLF","ISC001","N999","PGH001", "RET504", "S101"]
+
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.pycodestyle]
+max-doc-length = 100
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.poe.tasks]  # https://github.com/nat-n/poethepoet
+
+  [tool.poe.tasks.docs]
+  help = "Generate this package's docs"
+  cmd = """
+    pdoc
+      --docformat $docformat
+      --output-directory $outputdirectory
+      sadif
+    """
+
+    [[tool.poe.tasks.docs.args]]
+    help = "The docstring style (default: numpy)"
+    name = "docformat"
+    options = ["--docformat"]
+    default = "numpy"
+
+    [[tool.poe.tasks.docs.args]]
+    help = "The output directory (default: docs)"
+    name = "outputdirectory"
+    options = ["--output-directory"]
+    default = "docs"
+
+  [tool.poe.tasks.lint]
+  help = "Lint this package"
+
+    [[tool.poe.tasks.lint.sequence]]
+    cmd = """
+      pre-commit run
+        --all-files
+        --color always
+      """
+
+    [[tool.poe.tasks.lint.sequence]]
+    shell = "safety check --continue-on-error --full-report"
+
+  [tool.poe.tasks.test]
+  help = "Test this package"
+
+    [[tool.poe.tasks.test.sequence]]
+    cmd = "coverage run"
+
+    [[tool.poe.tasks.test.sequence]]
+    cmd = "coverage report"
+
+    [[tool.poe.tasks.test.sequence]]
+    cmd = "coverage xml"
