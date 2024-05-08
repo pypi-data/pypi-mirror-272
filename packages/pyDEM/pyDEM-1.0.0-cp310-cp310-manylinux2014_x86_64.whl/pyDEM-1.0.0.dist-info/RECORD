@@ -1,0 +1,14 @@
+pydem/__init__.py,sha256=EZPjum58vRui1JG7jsjOmx-tgIsBRs63dBVqwpi-t7I,670
+pydem/commandline_utils.py,sha256=FRjKZRzU_5RS2aGvBdIR51lUc7wGyTRxYhAQRjL3QUQ,6969
+pydem/dem_processing.py,sha256=zRNys096AOuk575anO3xwg3_ycsEkURVm7lKVIH5_08,79499
+pydem/process_manager.py,sha256=vuSRTdzycgvHXm2tiboSia-AL6YMz8pvpvAu3iF8wyc,56073
+pydem/utils.py,sha256=hoe1uO61qb6e_ONF2nY7lWXpkTRQjUo_R48eetYzApA,16177
+pydem/utils_test_pydem.py,sha256=OJsH3qofrfnnM99Mu0HBzsMEf6usD562eEGnSIEvWOA,19281
+pydem/cyfuncs/__init__.py,sha256=VkwxUrvaM6bOSO3tbmGYrj45-6J2JB2OLAomfeIxj_A,584
+pydem/cyfuncs/cyutils.cpython-310-x86_64-linux-gnu.so,sha256=3zmpgkvN5t6atDRYOrCI7lAe3ZMknOVW7BmgjrVdFV0,490600
+pyDEM-1.0.0.dist-info/LICENSE.txt,sha256=WYmcYJG1QFgu1hfo7qrEkZ3Jhcz8NUWe6XUraZvlIFs,10172
+pyDEM-1.0.0.dist-info/METADATA,sha256=6G94tJpBKmJ_rrCTA8HU7IWMJc2LK33A_J4sHWBPw5s,681
+pyDEM-1.0.0.dist-info/WHEEL,sha256=z7jxKkYRKKJ7SfPfMKwPqpTzAxGIqIt5_V74YUShghE,105
+pyDEM-1.0.0.dist-info/entry_points.txt,sha256=X1h0V7_VfU5SJpDYRGD9URosDoPQTgJBSMwx5MBlpR4,154
+pyDEM-1.0.0.dist-info/top_level.txt,sha256=Vzw484JIIu5ouD34LbTGcV2Di-sYrkIhIB_Ke83GUR8,6
+pyDEM-1.0.0.dist-info/RECORD,,
