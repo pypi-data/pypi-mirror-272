@@ -1,0 +1,10 @@
+selenium_authenticated_proxy/__init__.py,sha256=G3TCTIpfeaMSW8sGgEms5tTjJ7X6N9LMIE3YfAFOyQk,125
+selenium_authenticated_proxy/selenium_authenticated_proxy.py,sha256=xuC_Mxy7CxHdgodJ6b0SCLXOsfjsTtZLYzxoPUP5eSo,2111
+selenium_authenticated_proxy/selenium_extension_generator.py,sha256=yOJnidQ3fwmVN9wPvm1gczA3T2MV5JFmX15_USlCDlk,3163
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_proxy.py,sha256=BUIs0fthkAealjqyazzWt8kBGAp9CKe7MNNwgbspGi4,1699
+selenium_authenticated_proxy-1.1.0.dist-info/LICENSE,sha256=bhs5U3qqHxnr1T_NkQbie2dwXfWZLJdvzJvXfu__GlU,1076
+selenium_authenticated_proxy-1.1.0.dist-info/METADATA,sha256=YEHnaU1ZyZEpioilmJTboRLP-Hvg-TEFkWc1HjO5ync,3208
+selenium_authenticated_proxy-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+selenium_authenticated_proxy-1.1.0.dist-info/top_level.txt,sha256=GjQaO_8ocTo1xFNJ6rIqnC5SlVTfZkbI-3QK6ZNQSHM,34
+selenium_authenticated_proxy-1.1.0.dist-info/RECORD,,
