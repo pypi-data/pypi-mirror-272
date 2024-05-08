@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+NOTICE
+README.md
+pyproject.toml
+setup.py
+cengal.egg-info/PKG-INFO
+cengal.egg-info/SOURCES.txt
+cengal.egg-info/dependency_links.txt
+cengal.egg-info/requires.txt
+cengal.egg-info/top_level.txt
+cengal_shell/__init__.py
