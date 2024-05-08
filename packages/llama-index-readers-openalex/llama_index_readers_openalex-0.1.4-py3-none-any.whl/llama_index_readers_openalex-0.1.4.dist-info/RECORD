@@ -1,0 +1,5 @@
+llama_index/readers/openalex/__init__.py,sha256=s1IjmR3jzkiwYjBJKk_1MdKCBKLhRutIMzNzkOsRIEk,108
+llama_index/readers/openalex/base.py,sha256=2uC4TGPKdW46bOZdHgdgBSh7z7AtZCS7cJV6itveCkk,4427
+llama_index_readers_openalex-0.1.4.dist-info/METADATA,sha256=nRf41uT_Zb1IckbvNn0uQZscqfZx5djppr4Mggnr37k,2650
+llama_index_readers_openalex-0.1.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_readers_openalex-0.1.4.dist-info/RECORD,,
