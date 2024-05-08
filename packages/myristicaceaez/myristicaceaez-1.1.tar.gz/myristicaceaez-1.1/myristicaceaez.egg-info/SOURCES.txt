@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+myristicaceaez/__init__.py
+myristicaceaez/main.py
+myristicaceaez.egg-info/PKG-INFO
+myristicaceaez.egg-info/SOURCES.txt
+myristicaceaez.egg-info/dependency_links.txt
+myristicaceaez.egg-info/requires.txt
+myristicaceaez.egg-info/top_level.txt
