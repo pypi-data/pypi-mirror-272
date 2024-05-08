@@ -1,0 +1,10 @@
+temporal_kan/__init__.py,sha256=bVJMuJJT2kWNt-093u2IM_Mofd1ZZeCaNr94b7YMjN0,641
+temporal_kan/glstm.py,sha256=CxFTepktZKYkCBtqksaxiqQl6D2X9Qy6k-5XY6vBO3Y,6021
+temporal_kan/gr.py,sha256=9PG6vrf5xda2YHlEp2_WapFUnNjA2KjWUDAEaWwWMfs,3757
+temporal_kan/kan.py,sha256=lBF3YJc2p2hlPLtQkSz5sbfnyP5o2MSwFRUlmx9ij-o,1264
+temporal_kan/sltsm.py,sha256=HVHVDsLliAvMFbrL2yZT7NRcN2diyOhsz1hjkmSxWek,4165
+temporal_kan/spline.py,sha256=MNxKNL0umbGWhbBYYHm9Oxw_asExSI8yFckSs9IqYUQ,132
+temporal_kan/sr.py,sha256=Qu_fsBL14rI2DqgI0ileMxZGkpUX97aMnnCkxsnIqxg,3424
+temporal_kan-0.1.3.dist-info/METADATA,sha256=5P2dHI-2UltPy-M29oafdV0qRp_OkAjmIzAmc8EY_ic,1786
+temporal_kan-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+temporal_kan-0.1.3.dist-info/RECORD,,
