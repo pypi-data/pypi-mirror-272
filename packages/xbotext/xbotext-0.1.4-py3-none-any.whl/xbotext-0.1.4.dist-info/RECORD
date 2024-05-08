@@ -1,0 +1,11 @@
+xbotext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xbotext/cache.py,sha256=CGGBWyjUpkWYr0Oy-_B6YMxpzeUG9OwFk76QrTmjXyg,3336
+xbotext/chromium.py,sha256=NCgNuVbvOEVeAB6df-FRG6LM7jj3HhhrBYUSQmFk_rg,522
+xbotext/client.py,sha256=8XGdc1uIdCjClz-WFwXa4pGtjgv1wSd4olP3pIMIk0k,76
+xbotext/regedit.py,sha256=ohnNwgywuto7Ngh0EsQ79xTbopwzPhBKMtiV4xLFOWk,605
+xbotext/sofaware.py,sha256=MCGB764k1x8jhTkTOiZh6dzErz6OVG0LKZ6uPCgIzt4,20
+xbotext/system.py,sha256=82AHx3IUN-D3v0J1xGxkoSsKNVMV0Jyqz5Tot4O71lQ,101
+xbotext/web.py,sha256=TtWHqTL6bDTmClCeqArKrRW_P96AZ-umVVec98FnWjw,538
+xbotext-0.1.4.dist-info/METADATA,sha256=6wMf_WffjShCuXKLUXSnmYuo8LnfDYUCaZV1EV_7Vqo,500
+xbotext-0.1.4.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+xbotext-0.1.4.dist-info/RECORD,,
