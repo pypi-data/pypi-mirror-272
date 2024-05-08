@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+thingspire/__init__.py
+thingspire/dataset/__init__.py
+thingspire/dataset/get_calendar.py
+thingspire/dataset/get_weather.py
+thingspire/dataset/resource-id-name.py
+thingspire/dataset/utils.py
+thingspire_datasets.egg-info/PKG-INFO
+thingspire_datasets.egg-info/SOURCES.txt
+thingspire_datasets.egg-info/dependency_links.txt
+thingspire_datasets.egg-info/requires.txt
+thingspire_datasets.egg-info/top_level.txt
