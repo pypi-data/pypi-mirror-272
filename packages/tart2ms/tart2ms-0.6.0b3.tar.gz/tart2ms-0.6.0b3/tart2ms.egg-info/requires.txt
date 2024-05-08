@@ -1,0 +1,13 @@
+dask-ms
+python-casacore
+tart
+tart_tools
+astropy
+numpy
+h5py
+progress
+requests
+pandas
+
+[predict]
+codex-africanus
