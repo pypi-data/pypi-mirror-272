@@ -1,0 +1,3 @@
+[console_scripts]
+mkrp=mkrp.cli:app
+
