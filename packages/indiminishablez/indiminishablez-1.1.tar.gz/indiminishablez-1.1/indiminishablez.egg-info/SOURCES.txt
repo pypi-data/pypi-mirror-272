@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+indiminishablez/__init__.py
+indiminishablez/main.py
+indiminishablez.egg-info/PKG-INFO
+indiminishablez.egg-info/SOURCES.txt
+indiminishablez.egg-info/dependency_links.txt
+indiminishablez.egg-info/requires.txt
+indiminishablez.egg-info/top_level.txt
