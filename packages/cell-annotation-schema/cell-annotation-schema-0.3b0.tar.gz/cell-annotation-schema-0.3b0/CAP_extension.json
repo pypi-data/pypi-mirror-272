@@ -1,0 +1,50 @@
+{
+  "allOf": [
+      {
+        "$ref": "./general_schema.json"
+      }
+    ],
+
+  "definitions": {
+    "Annotation": {
+      "properties": {
+        "canonical_marker_genes": {
+          "description": "A list of gene names considered to be canonical markers for the biological entity used in the cell annotation.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A gene name recognized as a key marker for the entity's classification."
+          }
+        }
+      }
+    }
+  },
+  "properties":{
+    "cap_publication_title": {
+      "type": "string",
+      "description": "The title of the publication on CAP (i.e. a published collection of datasets, the \"CAP Workspace\".). The title of the publication on CAP. (NOTE: the term \"publication\" refers to the workspace published on CAP with a version and timestamp.) This MUST be less than or equal to N characters, and this MUST be encoded as a single string."
+    },
+    "cap_publication_description": {
+      "type": "string",
+      "description": "The description of the publication on CAP. The description of the publication on CAP. (NOTE: the term \"publication\" refers to the workspace published on CAP with a version and timestamp.) This MUST be less than or equal to N characters, and this MUST be encoded as a single string."
+    },
+    "cap_publication_url": {
+      "type": "string",
+      "description": "A persistent URL of the publication on CAP. (NOTE: the term \"publication\" refers to the workspace published on CAP with a version and timestamp.)"
+    },
+    "publication_timestamp": {
+      "type": "string",
+      "description": "The timestamp of the CAP publication. This MUST be a string in the format %yyyy-%MM-%dd'T'%hh:%mm:%ss. This value will be overwritten by the newest timestamp upon a new publication."
+    },
+    "publication_version": {
+      "type": "string",
+      "description": "The (latest) version of the CAP publication. This value will be overwritten by the newest version upon a new publication (and automatically incremented). This versioning MUST follow the format 'v' + '[integer]', whereby newer versions must be naturally incremented."
+    }
+  },
+  "required": [
+    "cellannotation_schema_version",
+    "cellannotation_timestamp",
+    "cellannotation_version",
+    "cellannotation_url"
+  ]
+}
