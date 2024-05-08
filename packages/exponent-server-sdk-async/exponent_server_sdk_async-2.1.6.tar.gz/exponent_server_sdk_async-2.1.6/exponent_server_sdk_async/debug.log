@@ -1,0 +1,8 @@
+2024-05-07 15:44:03.445 | DEBUG    | __main__:<module>:17 - Using Expo Token: OLEae8ZpgzjeNcytom2jePXi6ZVpqdamTjJZBN-F
+2024-05-07 15:49:45.599 | DEBUG    | __main__:<module>:17 - Using Expo Token: OLEae8ZpgzjeNcytom2jePXi6ZVpqdamTjJZBN-F
+2024-05-07 15:49:46.102 | INFO     | __main__:send_push_message_to_multiple:41 - Notification sent successfully to: ExponentPushToken[7B4yUpFFph75wyc0rFSwkp]
+2024-05-07 15:49:46.103 | INFO     | __main__:send_push_message_to_multiple:41 - Notification sent successfully to: ExponentPushToken[7B4yUpFFph75wyc0rFSwkp]
+2024-05-07 15:49:46.103 | INFO     | __main__:send_push_message_to_multiple:41 - Notification sent successfully to: ExponentPushToken[7B4yUpFFph75wyc0rFSwkp]
+2024-05-07 15:49:46.405 | INFO     | __main__:send_push_message_to_multiple:41 - Notification sent successfully to: ExponentPushToken[7B4yUpFFph75wyc0rFSwkp]
+2024-05-07 15:49:46.405 | INFO     | __main__:send_push_message_to_multiple:41 - Notification sent successfully to: ExponentPushToken[7B4yUpFFph75wyc0rFSwkp]
+2024-05-07 15:49:46.406 | INFO     | __main__:send_push_message_to_multiple:41 - Notification sent successfully to: ExponentPushToken[7B4yUpFFph75wyc0rFSwkp]
