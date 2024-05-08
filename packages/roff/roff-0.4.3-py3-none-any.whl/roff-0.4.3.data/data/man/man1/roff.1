@@ -1,0 +1,95 @@
+.\" generated with roff/v0.3.1
+.\" https://pypi.org/project/roff/0.3.1
+.\" https://github.com/utility-toolbox/roff/
+.\"
+.TH "ROFF" "1" "29 April 2024" "github.com/utility-toolbox/roff"
+.SH "NAME"
+\fBroff\fP • python-based cli to convert markdown to the roff (man-pages) format
+.SH "SYNOPSIS"
+.sp
+• \fBroff\fP [\fB-h\fP] [\fB-v\fP] {\fIconvert\fP,\fItemplate\fP} ...
+.br
+• \fBroff\fP \fIconvert\fP [\fB-h\fP] \fIsource\fP [\fIdest\fP]
+.br
+• \fBroff\fP \fItemplate\fP [\fB-h\fP] \fIdest\fP
+.br
+.sp
+.SH "DESCRIPTION"
+python-based cli to convert markdown to the roff (man-pages) format\.
+.sp
+.RS 2
+see roff(5) for more information about the file specification
+.RE
+.sp
+Support for all* Markdown features:
+.sp
+.RS 2
+*h1 is reserved for the head\.
+.RE
+.sp
+.sp
+• heading (h2-h6)
+.br
+• Ordered Lists
+.br
+• Unordered Lists
+.br
+• Code-Blocks
+.br
+• Inline
+.br
+.RS 2
+.br
+• Code
+.br
+• Bold
+.br
+• Emphasis
+.br
+• Links
+.br
+.br
+.RE
+• Images (rendered as braille-art)
+.br
+• Horizontal-Rule
+.br
+.sp
+.SH "OPTIONS"
+.SS "\fBroff\fP \fIconvert\fP"
+.sp
+.RS 2
+Converts markdown files to roff files
+.RE
+.sp
+.sp
+\fIsource\fP:
+.sp
+Markdown file that should be parsed
+.sp
+\fI[dest]\fP:
+.sp
+Manpage file
+.SS "\fBroff\fP \fItemplate\fP"
+.sp
+.RS 2
+Generates a Markdown file that you can fill
+.RE
+.sp
+.sp
+\fI-y\fP, \fI--yes\fP:
+.sp
+Overwrite file if it exists
+.sp
+\fIdest\fP:
+.sp
+Target file that should be generated
+.SH "BUGS"
+https://github\.com/utility-toolbox/roff/issues
+.SH "AUTHOR"
+https://github\.com/PlayerG9
+.SH "SEE ALSO"
+.SS "Organisation:"
+https://github\.com/utility-toolbox
+.SS "Repository:"
+https://github\.com/utility-toolbox/roff

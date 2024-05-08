@@ -1,0 +1,225 @@
+.\" generated with roff/v0.4.2
+.\" https://pypi.org/project/roff/0.4.2
+.\" https://github.com/utility-toolbox/roff/
+.\"
+.TH "ROFF" "5" "30 April 2024" "github.com/utility-toolbox/roff"
+.SH "NAME"
+\fBroff\fP • python\[em]based cli to convert markdown to the roff (man\[em]pages) format
+.SH "DESCRIPTION"
+see roff(1) for more information about the CLI.
+This document is about the .md file\[em]specification
+.sp
+.RS 2
+Use \fBroff\fP \fItemplate\fP \fI\[aq]command.1.md\[aq]\fP to get a template as a starting point.
+.RE
+.sp
+.SH "FILES"
+Input files should follow the naming convention of \fI[command].[area].md\fP (e.g. \fIroff.1.md\fP)
+Output files should follow the naming convention of \fI[command].[area]\fP (e.g. \fIroff.1\fP)
+.SH "ELEMENTS"
+.SS "Document Head"
+The Document head should have the following structure and is required in the document
+.sp
+.RS 2
+.EX
+\fI
+.br
+command(1) -- description
+.br
+=============================================
+\fP
+.EE
+.RE
+.sp
+.sp
+.RS 2
+Because h1 is reserved for the head you are not allowed to use \fI#\fP in your files
+.sp
+.RS 2
+.EX
+\fI
+.br
+# SECTION
+\fP
+.EE
+.RE
+.sp
+.RE
+.sp
+.SS "Sections"
+.sp
+.RS 2
+.EX
+\fI
+.br
+## SECTION
+\fP
+.EE
+.RE
+.sp
+.SS "Subsections"
+.sp
+.RS 2
+.EX
+\fI
+.br
+### SUBSECTION
+\fP
+.EE
+.RE
+.sp
+.SS "Subsubsections"
+.sp
+.RS 2
+.EX
+\fI
+.br
+#### SUBSUBSECTION
+.br
+##### SUBSUBSECTION
+.br
+###### SUBSUBSECTION
+\fP
+.EE
+.RE
+.sp
+.SS "Unordered Lists"
+.sp
+.RS 2
+.EX
+\fI
+.br
+- First Element
+.br
+- Second Element
+\fP
+.EE
+.RE
+.sp
+.SS "Ordered Lists"
+.sp
+.RS 2
+.EX
+\fI
+.br
+1. First Element
+.br
+2. Second Element
+\fP
+.EE
+.RE
+.sp
+.SS "Blockquotes"
+.sp
+.RS 2
+.EX
+\fI
+.br
+> You can simply add blockquotes by starting a line with `>`
+\fP
+.EE
+.RE
+.sp
+.SS "Code\[em]Blocks"
+.sp
+.RS 2
+.EX
+\fI
+.br
+```
+.br
+code-content
+.br
+```
+\fP
+.EE
+.RE
+.sp
+.SS "Inline/Text"
+.sp
+.RS 2
+.EX
+\fI
+.br
+You can add `inline-code`, **bold** and *italic* code from markdown which are displayed in their own way
+\fP
+.EE
+.RE
+.sp
+.SS "Links"
+.sp
+.RS 2
+.EX
+\fI
+.br
+Links are possible as reference (e.g. roff(1)) or via the markdown syntax (e.g. [repository](https://github.com/utiltiy-toolbox/roff))
+\fP
+.EE
+.RE
+.sp
+.SS "Images"
+requires \fIroff[images]\fP or \fIroff[images-svg]\fP
+.sp
+.RS 2
+.EX
+\fI
+.br
+![alt](asset.png)
+.br
+![alt](https://server.com/asset.png)
+\fP
+.EE
+.RE
+.sp
+.SS "Separator"
+.sp
+.RS 2
+.EX
+\fI
+.br
+---
+\fP
+.EE
+.RE
+.sp
+.SH "NOTES"
+.SH "EXAMPLE"
+.sp
+.RS 2
+.EX
+\fI
+.br
+command(1) -- @DESCRIPTION
+.br
+=============================================
+.br
+.sp
+.br
+## DESCRIPTION
+.br
+.sp
+.br
+## OPTIONS
+.br
+.sp
+.br
+### `subcommand`
+.br
+.sp
+.br
+#### `-h`, `--help`:
+.br
+shows a help message and exists
+\fP
+.EE
+.RE
+.sp
+.SH "BUGS"
+https://github.com/utility\[em]toolbox/roff/issues
+.SH "AUTHOR"
+https://github.com/PlayerG9
+.SH "SEE ALSO"
+.SS "Organisation"
+https://github.com/utility\[em]toolbox
+.SS "Repository"
+https://github.com/utility\[em]toolbox/roff
