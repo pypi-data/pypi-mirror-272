@@ -1,0 +1,2 @@
+[console_scripts]
+iman = manhelp.main:app
