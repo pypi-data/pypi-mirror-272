@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reaccentz/__init__.py
+reaccentz/main.py
+reaccentz.egg-info/PKG-INFO
+reaccentz.egg-info/SOURCES.txt
+reaccentz.egg-info/dependency_links.txt
+reaccentz.egg-info/requires.txt
+reaccentz.egg-info/top_level.txt
