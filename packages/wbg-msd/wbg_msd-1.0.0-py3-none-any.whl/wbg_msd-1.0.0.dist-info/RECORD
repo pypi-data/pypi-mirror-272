@@ -1,0 +1,12 @@
+wbg/msd/__init__.py,sha256=oOEPBz5mQ8hPll-jrgE-0Bt7jGLdHMzUkgGlORyNcI0,66
+wbg/msd/_protocols.py,sha256=_MQ-mpZU59cckt-nlFJs6rozZEbN9jlKkttyp7d_q0o,48
+wbg/msd/app.py,sha256=MDs3waOILaLgGOOjlwTtJwyW7GsZXbE0jxxH8lAPrbs,248
+wbg/msd/db.py,sha256=NcIrThI0hR4pjK8mPPtZHtEXb1HuQc-djNyno2fwWJU,1056
+wbg/msd/entity.py,sha256=OdJMavvj-i8rr0fgevtxQLAH0Jd195i0C7CO928IPGY,138
+wbg/msd/env.py,sha256=itgLhzEzo5Kf6vs8bExFgD4PuctCumedKQvz0x2vvkg,88
+wbg/msd/link.py,sha256=gBVj6ECCDRAS1UEZuXNesAYBtF6SiICpPZpqKySRTYI,913
+wbg/msd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wbg_msd-1.0.0.dist-info/METADATA,sha256=owCoYoYTPIzMbbhBRGvCAqU50V297XI2oG9BuroxGFU,150
+wbg_msd-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+wbg_msd-1.0.0.dist-info/top_level.txt,sha256=XxKK6RAGow_BJGo9q2TOYxDGi9Kwq9TMthXeGrXrxgk,4
+wbg_msd-1.0.0.dist-info/RECORD,,
