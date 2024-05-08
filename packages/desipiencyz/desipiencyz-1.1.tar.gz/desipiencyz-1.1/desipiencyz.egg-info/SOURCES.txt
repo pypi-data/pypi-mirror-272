@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+desipiencyz/__init__.py
+desipiencyz/main.py
+desipiencyz.egg-info/PKG-INFO
+desipiencyz.egg-info/SOURCES.txt
+desipiencyz.egg-info/dependency_links.txt
+desipiencyz.egg-info/requires.txt
+desipiencyz.egg-info/top_level.txt
