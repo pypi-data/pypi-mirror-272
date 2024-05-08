@@ -1,0 +1,8 @@
+subdivision_hole_filler/__init__.py,sha256=VbmdJcKuJfUz7uXoAnz_QCC8fnV7eINhR2OT8OH9ZQc,56
+subdivision_hole_filler/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+subdivision_hole_filler/hole_filler.py,sha256=tq7UAbaYi3uTkzx5b3hZMULcU3KXZO9HTUkI0jo4QtQ,330
+subdivision_hole_filler-0.0.1.dist-info/LICENSE,sha256=GkFITfhzIhA_7H35zkRWCaDpBBrwU6o0TrBYcLuN7MU,1080
+subdivision_hole_filler-0.0.1.dist-info/METADATA,sha256=cixQFFmYi81ytknRmgXstbgzYjo_QOy_xcBuW1iSkBY,2046
+subdivision_hole_filler-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+subdivision_hole_filler-0.0.1.dist-info/top_level.txt,sha256=QQ1V-r9FZr8qFCe6Mk2m9tbhJcoAvawa3tN2pboE6_o,24
+subdivision_hole_filler-0.0.1.dist-info/RECORD,,
