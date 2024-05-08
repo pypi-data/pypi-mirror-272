@@ -1,0 +1,14 @@
+README.md
+setup.py
+Orange3_Sqlite3.egg-info/PKG-INFO
+Orange3_Sqlite3.egg-info/SOURCES.txt
+Orange3_Sqlite3.egg-info/dependency_links.txt
+Orange3_Sqlite3.egg-info/entry_points.txt
+Orange3_Sqlite3.egg-info/namespace_packages.txt
+Orange3_Sqlite3.egg-info/requires.txt
+Orange3_Sqlite3.egg-info/top_level.txt
+orangecontrib/__init__.py
+orangecontrib/sqlite3/__init__.py
+orangecontrib/sqlite3/widgets/__init__.py
+orangecontrib/sqlite3/widgets/owsqlite3.py
+orangecontrib/sqlite3/widgets/icons/sqlite3.svg
