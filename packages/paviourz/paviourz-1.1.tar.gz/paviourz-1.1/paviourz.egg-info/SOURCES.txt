@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+paviourz/__init__.py
+paviourz/main.py
+paviourz.egg-info/PKG-INFO
+paviourz.egg-info/SOURCES.txt
+paviourz.egg-info/dependency_links.txt
+paviourz.egg-info/requires.txt
+paviourz.egg-info/top_level.txt
