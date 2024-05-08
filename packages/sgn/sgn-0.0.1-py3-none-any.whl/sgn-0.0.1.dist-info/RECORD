@@ -1,0 +1,11 @@
+sgn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sgn/apps/__init__.py,sha256=j1cDsGXkxL5adqR5fM2B0vqaaSEYP9-Apy4MWruH2nA,3719
+sgn/base/__init__.py,sha256=WIqWbs3gpE3IL1MUb-bw0mcmjMqdF9Y7Jih2_HWsjw4,6815
+sgn/sinks/__init__.py,sha256=HoxYaPV-lctCinglr0_8enFACNt1SyjwsdLOf8OQcgc,1088
+sgn/sources/__init__.py,sha256=CQvJygB_3feAw9bqAwiMGv_KgDnZz6nRmnKJHUZqGX8,1027
+sgn/transforms/__init__.py,sha256=ezEv99eN5_7wnmsQKC-9__FN2PA9LkjlMH00d5IIoWc,1332
+sgn-0.0.1.dist-info/LICENSE,sha256=3tuq34H-cz5SIWZfFOLD9ScsotWEeMLY4UfL7sEgri4,16756
+sgn-0.0.1.dist-info/METADATA,sha256=Mqj5xPEz5CUOy4O6SjhQRunR2MMtR5mQwia75T3aXZM,2188
+sgn-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sgn-0.0.1.dist-info/top_level.txt,sha256=_zpfqFDFKt2yZDaWtpe8TH8K8mJKLzfJACsdWcvfIxk,4
+sgn-0.0.1.dist-info/RECORD,,
