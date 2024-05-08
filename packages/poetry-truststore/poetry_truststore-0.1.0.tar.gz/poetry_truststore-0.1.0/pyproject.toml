@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry-truststore"
+version = "0.1.0"
+description = ""
+authors = ["Raidzin <60663550+Raidzin@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+poetry = "^1.6"
+truststore = "^0.8.0"
+
+[tool.poetry.plugins."poetry.plugin"]
+truststore = "poetry_truststore.plugin:TrustStorePlugin"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

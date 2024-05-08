@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: poetry-truststore
+Version: 0.1.0
+Summary: 
+Author: Raidzin
+Author-email: 60663550+Raidzin@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: poetry (>=1.6,<2.0)
+Requires-Dist: truststore (>=0.8.0,<0.9.0)
+Description-Content-Type: text/markdown
+
+# Poetry-TrustStore
+
+Truststore plugin for poetry
