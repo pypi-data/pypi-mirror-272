@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-22 13:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: easyaudit/admin_helpers.py:119
+#, python-format
+msgid "Successfully removed %d rows"
+msgstr "已成功删除 %d 行"
+
+#: easyaudit/admin_helpers.py:121
+msgid "ERROR"
+msgstr "错误"
+
+#: easyaudit/admin_helpers.py:123
+msgid "Action cancelled by user"
+msgstr "用户取消的操作"
+
+#: easyaudit/admin_helpers.py:127
+#, python-format
+msgid "Purge all %s ... are you sure?"
+msgstr "清除所有 %s ...是否确定？"
+
+#: easyaudit/crudhistory_admin_mixin.py:43
+msgid "CRUD history"
+msgstr "数据修改历史"
+
+#: easyaudit/models.py:21
+msgid "Create"
+msgstr "创建"
+
+#: easyaudit/models.py:22
+msgid "Update"
+msgstr "修改"
+
+#: easyaudit/models.py:23
+msgid "Delete"
+msgstr "删除"
+
+#: easyaudit/models.py:24
+msgid "Many-to-Many Change"
+msgstr "多对多变化"
+
+#: easyaudit/models.py:25
+msgid "Reverse Many-to-Many Change"
+msgstr "反向多对多变化"
+
+#: easyaudit/models.py:26
+msgid "Many-to-Many Add"
+msgstr "多对多添加"
+
+#: easyaudit/models.py:27
+msgid "Reverse Many-to-Many Add"
+msgstr "反向多对多加法"
+
+#: easyaudit/models.py:28
+msgid "Many-to-Many Remove"
+msgstr "多对多删除"
+
+#: easyaudit/models.py:29
+msgid "Reverse Many-to-Many Remove"
+msgstr "反向多对多删除"
+
+#: easyaudit/models.py:30
+msgid "Many-to-Many Clear"
+msgstr "多对多清除"
+
+#: easyaudit/models.py:31
+msgid "Reverse Many-to-Many Clear"
+msgstr "反向多对多清除"
+
+#: easyaudit/models.py:34 easyaudit/models.py:74
+msgid "Event type"
+msgstr "事件类型"
+
+#: easyaudit/models.py:35
+msgid "Object ID"
+msgstr "Object ID"
+
+#: easyaudit/models.py:37
+msgid "Content type"
+msgstr "Content Type"
+
+#: easyaudit/models.py:38
+msgid "Object representation"
+msgstr "对象表示"
+
+#: easyaudit/models.py:39
+msgid "Object JSON representation"
+msgstr "对象 JSON 表示形式"
+
+#: easyaudit/models.py:40
+msgid "Changed fields"
+msgstr "修改字段"
+
+#: easyaudit/models.py:43 easyaudit/models.py:78 easyaudit/models.py:94
+msgid "User"
+msgstr "用户"
+
+#: easyaudit/models.py:45
+msgid "String version of the user pk"
+msgstr "用户 pk 的字符串版本"
+
+#: easyaudit/models.py:46
+msgid "User PK as string"
+msgstr "用户 PK 作为字符串"
+
+#: easyaudit/models.py:47 easyaudit/models.py:80 easyaudit/models.py:96
+msgid "Date time"
+msgstr "时间"
+
+#: easyaudit/models.py:59
+msgid "CRUD event"
+msgstr "数据操作事件"
+
+#: easyaudit/models.py:60
+msgid "CRUD events"
+msgstr "数据操作事件"
+
+#: easyaudit/models.py:70
+msgid "Login"
+msgstr "登录"
+
+#: easyaudit/models.py:71
+msgid "Logout"
+msgstr "注销"
+
+#: easyaudit/models.py:72
+msgid "Failed login"
+msgstr "登录失败"
+
+#: easyaudit/models.py:75
+msgid "Username"
+msgstr "用户名"
+
+#: easyaudit/models.py:79 easyaudit/models.py:95
+msgid "Remote IP"
+msgstr "IP 地址"
+
+#: easyaudit/models.py:83
+msgid "login event"
+msgstr "登录注销事件"
+
+#: easyaudit/models.py:84
+msgid "login events"
+msgstr "登录注销事件"
+
+#: easyaudit/models.py:89
+msgid "URL"
+msgstr "URL"
+
+#: easyaudit/models.py:90
+msgid "Method"
+msgstr "Method"
+
+#: easyaudit/models.py:91
+msgid "Query string"
+msgstr "Query String"
+
+#: easyaudit/models.py:99
+msgid "request event"
+msgstr "网络请求事件"
+
+#: easyaudit/models.py:100
+msgid "request events"
+msgstr "网络请求事件"
+
+#: easyaudit/templates/admin/easyaudit/change_list.html:10
+#, python-format
+msgid "Purge %(name)s"
+msgstr "清除 %(name)s"
+
+#: easyaudit/templates/admin/easyaudit/purge_confirmation.html:7
+msgid "Home"
+msgstr "开始"
+
+#: easyaudit/templates/admin/easyaudit/purge_confirmation.html:10
+msgid "Purge"
+msgstr "清除"
+
+#: easyaudit/templates/admin/easyaudit/purge_confirmation.html:19
+msgid "Please confirm deletion"
+msgstr "请确认删除"
+
+#: easyaudit/templates/admin/easyaudit/purge_confirmation.html:20
+msgid "This operation is destructive, cannot be undone and may require some minutes."
+msgstr "此操作具有破坏性，无法撤消，可能需要几分钟时间。"
+
+#: easyaudit/templates/admin/easyaudit/purge_confirmation.html:22
+msgid "Are you sure you want to permanently remove all objects ?"
+msgstr "您确定要永久删除所有对象吗？"
+
+#: easyaudit/templates/admin/easyaudit/purge_confirmation.html:27
+#, fuzzy
+#| msgid "Yes, I'm sure"
+msgid "Yes, I'm sure"
+msgstr "确定"
+
+#: easyaudit/templates/admin/easyaudit/purge_confirmation.html:28
+msgid "Cancel"
+msgstr "取消"
