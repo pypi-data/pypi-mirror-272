@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mathsip.egg-info/PKG-INFO
+mathsip.egg-info/SOURCES.txt
+mathsip.egg-info/dependency_links.txt
+mathsip.egg-info/requires.txt
+mathsip.egg-info/top_level.txt
+mathsip_turkmenogluc/MathOperations.py
+mathsip_turkmenogluc/__init__.py
+tests/test.py

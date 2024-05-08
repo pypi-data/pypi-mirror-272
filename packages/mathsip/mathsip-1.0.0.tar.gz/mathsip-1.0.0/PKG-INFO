@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mathsip
+Version: 1.0.0
+Summary: A very basic Math library.
+Home-page: https://github.com/cml/mathsip
+Author: Cumali Turkmenoglu
+Author-email: turkmenogluc@gmail.com
+License: Apache Software License
+Keywords: Maths,tensorflow,machine learning,deep learning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
