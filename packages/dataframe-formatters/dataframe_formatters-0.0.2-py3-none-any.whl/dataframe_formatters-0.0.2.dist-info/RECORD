@@ -1,0 +1,9 @@
+formatters/__init__.py,sha256=-FT3nt2pVyAg1Xh8WPkCfimOZ7ELs7auHwkLD4CUhbI,28
+formatters/excel.py,sha256=Vze2WKI8tjP1lW8XFN4rDENvfBH0ttlllx9tGyByK70,2167
+formatters/html.py,sha256=kVi4-UJknvguzqaS8wgcFAouImMbN28WEbckJ0_QjB4,621
+formatters/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataframe_formatters-0.0.2.dist-info/LICENSE,sha256=VjI0ijDu-U4D2BuMFJF8LMQen_40EEGOT0BkV9C1e1Q,1067
+dataframe_formatters-0.0.2.dist-info/METADATA,sha256=g5du7xpSbBmGr4o1Unss-0ZMLefBEZzlFr3HqQmQvZU,187
+dataframe_formatters-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dataframe_formatters-0.0.2.dist-info/top_level.txt,sha256=xXNN00XfvlpQGNlN6toc-G9TNzLtdsd_pgCeohD_ek4,11
+dataframe_formatters-0.0.2.dist-info/RECORD,,
