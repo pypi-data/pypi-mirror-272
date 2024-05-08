@@ -1,0 +1,10 @@
+marsilea
+pandas
+openpyxl
+xlrd
+scikit-learn
+mpl_fontkit
+matplotlib
+seaborn
+random_word
+streamlit
