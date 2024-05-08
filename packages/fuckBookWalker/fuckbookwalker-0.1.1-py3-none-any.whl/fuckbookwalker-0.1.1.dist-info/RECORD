@@ -1,0 +1,12 @@
+bookphucker/__init__.py,sha256=gOQQWKhmV1t96Nl9n2G9JLs5aQF4lY3NbmwaNhHDnAo,25
+bookphucker/__main__.py,sha256=6yn6oKkObo3QNGDWlvX-MJO_nZRpe1Bh-qY6EmAdMzM,4843
+bookphucker/commonvars.py,sha256=koXlM3j7Fs5CKKSSEyuu0l_fFUzeLYUUaiuOzuAzq2c,212
+bookphucker/config.py,sha256=VSGBBi73mqGTsprZ6baJ2aXBOxQjXwu41L30sPm5bOY,2427
+bookphucker/exc.py,sha256=ni1LSKgRlA9RTRaEX4OnvO_ywd8j9ZC4rz13k8_vGhU,78
+bookphucker/jp.py,sha256=3N7WJR6WpO1L2g-4UW4-B9LazYnfhHcRoKGhQc51HK8,7561
+bookphucker/tw.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bookphucker/utils.py,sha256=vb9Taziuda64cW47RE3S0zMws4qzZewfrbKtWslXxyo,1680
+fuckbookwalker-0.1.1.dist-info/LICENSE,sha256=-JoQY3e1FD1pJ78H_5cK2bYq6PqxfrwvLPzCBHyw4Nw,1061
+fuckbookwalker-0.1.1.dist-info/METADATA,sha256=ltI0a_E2CCCEeEzUxxAi2oE0jgFSCwNfLa9dRrYjLFw,2444
+fuckbookwalker-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fuckbookwalker-0.1.1.dist-info/RECORD,,
