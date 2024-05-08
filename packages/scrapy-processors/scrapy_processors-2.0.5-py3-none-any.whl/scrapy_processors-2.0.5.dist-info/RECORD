@@ -1,0 +1,10 @@
+scrapy_processors/__init__.py,sha256=ieoMtdE-8Wf21EUkwowxe4vVrM0w7dhfvoE8eTqcj7g,969
+scrapy_processors/base.py,sha256=QcXG7bfRmb7yAMMXhG22kdgbdMVgMgIFiskFK00fKU0,42677
+scrapy_processors/collections.py,sha256=lqbTJofX-_dOrC0MtpNhIfZ0QCr2CulciGhIolDTygU,5414
+scrapy_processors/common.py,sha256=J19N64GMDTXG42mECzvpYgTGobqHl2DcVx2iILZWDjA,830
+scrapy_processors/multi_values.py,sha256=pSCYWYWk_132ptJxFrvnwK4w1HyX4APf3P3ZzAxcRVw,9286
+scrapy_processors/single_value.py,sha256=oBPZ22C-I0-aLA8G_q7P-Tl8ZkpgoButGPmguZO-F-A,43195
+scrapy_processors-2.0.5.dist-info/LICENSE,sha256=0Rn9ai4tQx_7u6IB7gfvx6uN_ww6U-0Ci_KAYqEOIlk,1072
+scrapy_processors-2.0.5.dist-info/METADATA,sha256=bkcut0eVyck6Odluc6TmuYKQps7sKrdew_XEa_dg8W8,11429
+scrapy_processors-2.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+scrapy_processors-2.0.5.dist-info/RECORD,,
