@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+tabqa/__init__.py
+tabqa/myfunctions.py
+tabqa.egg-info/PKG-INFO
+tabqa.egg-info/SOURCES.txt
+tabqa.egg-info/dependency_links.txt
+tabqa.egg-info/requires.txt
+tabqa.egg-info/top_level.txt
