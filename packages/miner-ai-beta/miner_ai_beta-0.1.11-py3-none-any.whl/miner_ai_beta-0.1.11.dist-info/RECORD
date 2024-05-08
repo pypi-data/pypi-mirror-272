@@ -1,0 +1,13 @@
+miner_ai_beta/loader/__init__.py,sha256=kwV5-gmGGtG_70NGGO7njrYDE14kBuk0FlikNETvNB0,236
+miner_ai_beta/loader/docs.py,sha256=ptSk977uWma94f2W_G5J0qXKZibwqEuVQU7tEtQlFF0,1759
+miner_ai_beta/loader/excels.py,sha256=rubjRw4VFVL32tNPNqanvimcaYMvvrGsdrQ-zf_7aEg,1934
+miner_ai_beta/loader/git.py,sha256=m56XHt0GJcwf2t75I9eEpwMh9mqEwCFdj1WIFJeKWAY,1700
+miner_ai_beta/loader/pdfs.py,sha256=wp4tKTW0gVBMIuuCiK-9jHySPL8yMMJPjCXuFtm5978,1718
+miner_ai_beta/loader/ppts.py,sha256=Okoq1sIYaLn3p8gTylQ2qON2lo-mW--BeU8smzkY1oQ,1762
+miner_ai_beta/loader/tubes.py,sha256=JLgAaBOn-EDXTzca63_6VmBcjWkSF7fxivLmPUvl-o8,1849
+miner_ai_beta/loader/union.py,sha256=w82qqpGZ9cJYIsGf1tgBCIDoP7VaGBvXkSjAoaPxl9k,361
+miner_ai_beta/loader/web_pages.py,sha256=wLYga2SORLuGE30Wen8zTqYlqfgtrWGyBXaLaVxzQXk,1873
+miner_ai_beta-0.1.11.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+miner_ai_beta-0.1.11.dist-info/METADATA,sha256=zMRTZUfvBGN9OhmnX7_ABJDKIZeHKN_O3YCHxEbehxk,4884
+miner_ai_beta-0.1.11.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+miner_ai_beta-0.1.11.dist-info/RECORD,,
