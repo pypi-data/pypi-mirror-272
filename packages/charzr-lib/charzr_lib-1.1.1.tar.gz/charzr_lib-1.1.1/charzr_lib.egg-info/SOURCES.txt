@@ -1,0 +1,10 @@
+README.md
+setup.py
+charzr_lib/__init__.py
+charzr_lib/pokemon.csv
+charzr_lib/random_pokemon.py
+charzr_lib.egg-info/PKG-INFO
+charzr_lib.egg-info/SOURCES.txt
+charzr_lib.egg-info/dependency_links.txt
+charzr_lib.egg-info/requires.txt
+charzr_lib.egg-info/top_level.txt
