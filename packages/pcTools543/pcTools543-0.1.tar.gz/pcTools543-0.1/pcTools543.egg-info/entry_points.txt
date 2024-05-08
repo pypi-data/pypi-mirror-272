@@ -1,0 +1,3 @@
+[console_scripts]
+pcTools543 = pcTools543:main
+
