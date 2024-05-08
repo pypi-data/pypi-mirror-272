@@ -1,0 +1,4 @@
+menpo>=0.11
+ipywidgets
+ipyevents
+nest-asyncio

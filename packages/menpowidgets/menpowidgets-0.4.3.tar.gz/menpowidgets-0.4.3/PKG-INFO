@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: menpowidgets
+Version: 0.4.3
+Summary: Menpo's Jupyter widgets for fancy visualization
+Author: The Menpo Development Team
+Author-email: hello@menpo.org
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: menpo>=0.11
+Requires-Dist: ipywidgets
+Requires-Dist: ipyevents
+Requires-Dist: nest-asyncio
