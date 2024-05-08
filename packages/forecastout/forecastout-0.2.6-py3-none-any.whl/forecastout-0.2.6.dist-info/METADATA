@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: forecastout
+Version: 0.2.6
+Summary: 
+Author: alexis-vazquez
+Author-email: alexis.vazquez@adevinta.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# forecastout
