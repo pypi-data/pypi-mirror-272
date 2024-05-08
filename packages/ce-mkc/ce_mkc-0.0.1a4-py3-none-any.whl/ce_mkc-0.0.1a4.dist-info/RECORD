@@ -1,0 +1,17 @@
+ce_mkc/__init__.py,sha256=SILC7c6gG8_fjzGR6U5cCI9Yh52SUNlWDHA7c9ucMds,31
+ce_mkc/__main__.py,sha256=VkG_jRamcCabRFItHNZ_uqHyG61t2bTUyv6BL2ZW-50,156
+ce_mkc/main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ce_mkc/main/ce_mkc.py,sha256=eQ3jeSnW3x5bKOlXeU6RS0BtAxT6QyqhlnCp90cdens,24249
+ce_mkc/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ce_mkc/templates/akhq/akhq.template,sha256=JRvxJK_Y6i0zWPBp5FAAoaVvkJq8BdybEs8Dg5I2Y6A,547
+ce_mkc/templates/docker-compose.template,sha256=4RgLhbyAUVAV7X9Tgu4qfg2gF_KZAuSjBRiZ04x79nI,5286
+ce_mkc/templates/docker-compose.template.reference,sha256=jBPT0IH7IPUSQyHHMoWEpFUfvVVlO1nDKkR7E4xzNbg,4397
+ce_mkc/templates/kafka/kafka.template,sha256=j-HXo2V2QqRDRQJ_7hr-CUlaQPLrRUbsZwaQnMN5k08,1803
+ce_mkc/templates/kafka/zookeeper.template,sha256=-pvuhH3uhth7rOZbDOCZhf2C_FXnuyaeJDdu0lnnu8U,313
+ce_mkc/templates/kafkaconnect/kafkaconnect.template,sha256=UU1_P13VrDgHrB4B-0RQQ9Ppeirt7dvvR2rCYhIV0zE,2251
+ce_mkc/templates/mongod/mongod.conf.template,sha256=NZIuxhMwzrEEw_onf22oZioVDNlQQx9Hd7z_6Ss1bJY,112
+ce_mkc/templates/mongod/mongod.template,sha256=Myboph8H1yykqH-ugNCzgtNtxQPAzFXjmMZ7JsTnXbs,372
+ce_mkc/templates/schemaregistry/schemaregistry.template,sha256=zwNqvD0abgAJd1iUWZxTuQ93Ur8opAAT95bxoC4DENY,335
+ce_mkc-0.0.1a4.dist-info/METADATA,sha256=DunyvN203apsqo6FCUXgiitu6l-FCdHE-xtKJmEpm0I,16090
+ce_mkc-0.0.1a4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ce_mkc-0.0.1a4.dist-info/RECORD,,
