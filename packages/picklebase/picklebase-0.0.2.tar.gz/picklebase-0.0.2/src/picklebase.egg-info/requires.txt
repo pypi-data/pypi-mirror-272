@@ -1,0 +1,15 @@
+imblearn>=0.0
+imbalanced-learn>=0.8.0
+matplotlib>=3.3.1
+numpy>=1.19.1
+seaborn>=0.11.1
+scikit-learn>=0.24.2
+scikit-plot>=0.3.7
+statsmodels>=0.12.2
+scipy==1.11.4
+pyodbc>=5.1.0
+twint>=2.1.20
+keras>=3.3.3
+tensorflow>=2.16.1
+mlxtend>=0.23.1
+kneed>=0.8.5
