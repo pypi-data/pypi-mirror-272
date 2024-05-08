@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: UnderAutomation.UniversalRobots
+Version: 7.4.1.0.1
+Summary: Quickly create applications that communicate with your Universal Robots cobot
+Home-page: https://underautomation.com/universal-robots
+Author: UnderAutomation
+Author-email: support@underautomation.com
+License: UNKNOWN
+Project-URL: Documentation, https://underautomation.com/universal-robots/documentation/get-started-python
+Project-URL: Source, https://github.com/underautomation/UniversalRobots
+Description: Read the documentation : https://underautomation.com/universal-robots/documentation/get-started-python
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
