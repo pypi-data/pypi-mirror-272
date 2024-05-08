@@ -1,0 +1,28 @@
+[project]
+name = "matoolkit"
+version = "0.1.2"
+authors = [
+  { name="Joseph Barbier", email="joseph.barbierdarnal@gmail.com" },
+]
+description = "A toolkit for chart creation in matplotlib"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pandas",
+  "highlight_text",
+  "matplotlib",
+  "pytest"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"

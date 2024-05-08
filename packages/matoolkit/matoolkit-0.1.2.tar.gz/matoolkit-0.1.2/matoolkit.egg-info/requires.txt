@@ -1,0 +1,4 @@
+pandas
+highlight_text
+matplotlib
+pytest
