@@ -1,0 +1,60 @@
+Metadata-Version: 2.3
+Name: pytest-ditto
+Version: 0.0.3
+Summary: Snapshot testing pytest plugin with minimal ceremony and flexible persistence formats.
+Author-email: Lachlan Taylor <lachlanbtaylor@proton.me>
+Maintainer-email: Lachlan Taylor <lachlanbtaylor@proton.me>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: pytest,testing
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: pytest>=3.5.0
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: hatch-vcs>=0.4.0; extra == 'dev'
+Requires-Dist: hatch>=1.9.4; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# pytest-ditto
+[![PyPI version](https://badge.fury.io/py/pytest-ditto.svg)](https://badge.fury.io/py/pytest-ditto)
+[![Continuous Integration](https://github.com/owlowlyowl/pytest-ditto/actions/workflows/ci.yml/badge.svg)](https://github.com/owlowlyowl/pytest-ditto/actions/workflows/ci.yml)
+
+Snapshot testing pytest plugin with minimal ceremony and flexible persistence formats.
+
+
+## Usage
+
+### `pd.DataFrame`
+
+```python
+import pandas as pd
+
+import ditto
+
+
+def awesome_fn_to_test(df: pd.DataFrame):
+    df["a"] *= 2
+    return df
+
+
+@ditto.record("pandas_parquet")
+def test_save_pandas_dataframe(snapshot):
+    input_data = pd.DataFrame({"a": [1, 2, 3], "b": [4, 5, 9]})
+    result = awesome_fn_to_test(input_data)
+    pd.testing.assert_frame_equal(result, snapshot(result, key="ab_dataframe"))
+```
