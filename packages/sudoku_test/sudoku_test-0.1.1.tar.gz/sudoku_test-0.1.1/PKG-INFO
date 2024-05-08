@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: sudoku_test
+Version: 0.1.1
+Summary: A sudoku project to test Blankslate.
+Home-page: https://github.com/unkokaeru/sudoku_test
+License: MIT
+Author: W. Fayers
+Author-email: wills@fayers.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: dev
+Provides-Extra: devlint
+Provides-Extra: docs
+Provides-Extra: lint
+Provides-Extra: release
+Provides-Extra: test
+Provides-Extra: types
+Requires-Dist: rich (>=12.0.0,<13.0.0)
+Project-URL: Repository, https://github.com/unkokaeru/sudoku_test
+Description-Content-Type: text/markdown
+
+# sudoku_test
+
+![Continuous Integration (CI) Tests](https://github.com/unkokaeru/sudoku_test/actions/workflows/continuous_integration.yml/badge.svg)
+
+A sudoku project to test Blankslate.
+
+## Installation
+
+To install sudoku_test, simply run:
+
+```bash
+pip install sudoku_test
+```
+
+## Usage
+
+After installation, you can use the package by executing:
+
+```bash
+sudoku_test
+```
+
+## Features
+
+- **Feature 1**: Description of feature 1.
+- **Feature 2**: Description of feature 2.
+- etc. - *to be filled in by the project maintainer*.
+
+## Documentation
+For more information, you can find the documentation within the `docs` directory or on the project's [GitHub Pages](https://unkokaeru.github.io/sudoku_test/).
+
+## Contributing
+
+Contributions are welcome! Please refer to our `CONTRIBUTING.md` for more information.
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
