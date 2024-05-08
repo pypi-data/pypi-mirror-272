@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=0.61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "covplan"
+version = "0.2.0"
+authors = [
+  { name="Sanjeev Kumar R. S.", email="sanjeev.k.r.sudha@ntnu.no" },
+  { name="Ibrahim A. Hameed", email="ibib@ntnu.no" }
+]
+description = "A package to generate a guidance trajectory for complete 2D coverage of a region of interest"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "matplotlib~=3.6",
+  "scipy>=1.10",
+  "scikit-learn>=1.2.0",
+  "wheel",
+  "utm",
+  "folium",
+  "python-tsp>=0.3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sanjeevrs2000/cpp"
+"Bug Tracker" = "https://github.com/sanjeevrs2000/cpp/issues"
