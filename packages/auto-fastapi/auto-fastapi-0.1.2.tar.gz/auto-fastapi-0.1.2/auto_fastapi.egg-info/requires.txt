@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+data-place
+
+[dev]
