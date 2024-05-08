@@ -1,0 +1,9 @@
+porgo/__init__.py,sha256=38xCrK8ms2668EMOzga_pryhdruIgnMdKXzskCKP3mg,225
+porgo/_typing.py,sha256=mGwg2-1CTe39GGslsJr4VTHcK0FQbECOh5Bx2JBwWgA,157
+porgo/_version.py,sha256=r7egOSFd6l3bZ1wur-g3ZxxOMx989V7Ai7WBpMRTjak,57
+porgo/runtime.py,sha256=zdaYAwhzNqTxMXhnn0-1CzNcG71dg2vdFYAL5MtNLxg,4292
+porgo-1.1.0.dist-info/LICENSE,sha256=6tZMvmRANwvfuPHCTWM4gS9MHtQFReXNH_yqQFVRqlw,1089
+porgo-1.1.0.dist-info/METADATA,sha256=3Fq4V9pj-fX_jEuu9QIiaJFhextJXkZyfPfOe6-_Vo4,3400
+porgo-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+porgo-1.1.0.dist-info/top_level.txt,sha256=rE9a1sFwUTPF1rtbHkyRSdCEK2q_yytJfKybWP8tMRo,6
+porgo-1.1.0.dist-info/RECORD,,
