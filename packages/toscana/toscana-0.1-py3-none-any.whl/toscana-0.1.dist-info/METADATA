@@ -1,0 +1,415 @@
+Metadata-Version: 2.1
+Name: toscana
+Version: 0.1
+Summary: toscana allows to run SEBE simulation at village scale to obtain building rooftop irradiation, using open-access database (BDTOPO, OpenDEM)
+Author-email: Apolline Ferry <apolline.ferry@laposte.net>
+License: Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright [2024] [Apolline Ferry]
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+        
+        
+Project-URL: Laboratory, https://www.univ-smb.fr/locie/
+Project-URL: Repository, https://github.com/locie/toscana
+Keywords: irradiation,solar,cadastre,gis,rooftop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# toscana
+
+## What does "toscana" stand for? 
+"toscana" stands for TerritOrial Solar Cadastre modeling and ANAlysis. 
+
+
+## Scientific description 
+`toscana` is a tool aimed at obtaining a solar cadastre at the territory or municipality scale. 
+
+It is based on the `SEBE` algorithm from `UMEP`. 
+This tool facilitates simulation over large scale by gathering and consolidating all the pre-processing and post-processing tasks. Additionaly, the tool was developped with the goal of being suitable for mountainous territories by considering local and far masks. 
+`toscana` has been developped to be compatible with open-access databases for the French territory, but can be adapated for other databases (after adjusting them to the required format).
+
+
+## Example 
+
+An example of usage is provided in the tests folder in `test`. 
+To run the example, you need at least to specify a `working_directory` (a folder path) in the `test` file (line 26).
+The example will allow you to obtain a solar cadastre for the village of *La Croix-de-la-Rochette* (INSEE code : 73095). 
+
+There are two options to execute this test : 
+- First option : set `download_BDTOPO` and `download_DEM` to True. This will utilize two functions that allow for the direct downloading of the BDTOPO (IGN) for the chosen departement and the raster files from OpenDem for the selected municipality. 
+- Second option : set `download_BDTOPO` and `download_DEM` to False, and download the data from [toscana_test_data](https://github.com/locie/toscana_test_data). Then, place these downloaded data in a subfolder named **DATA** within your specified **working directory**. 
+    These data can be obtained as follows : 
+    - The shapefiles _BATIMENT_ and _COMMUNE_ can be found by downloading the dataset from the BDTOPO for departement 73 ([IGN database](https://geoservices.ign.fr/bdtopo)).\
+        - _COMMUNE.shp_ can be found in the subfolder  : "/BDTOPO/1_DONNEES_LIVRAISON_XXXX-XX-XXXXX/BDT_X-X_SHP_LAMB93_D073-EDXXXX-XX-XX/ADMINISTRATIF/". \
+        - _BATI.shp_ can be found in the subfolder : "/BDTOPO/1_DONNEES_LIVRAISON_XXXX-XX-XXXXX/BDT_X-X_SHP_LAMB93_D073-EDXXXX-XX-XX/BATI/".\
+        - XXXX represents numbers that depend on the version of the dataset. \
+    - The raster file _N245E400.tif_ can be downloaded from [OpenDem](https://www.opendem.info/opendemeu_download_highres.html).
+
+If the first option is selected, the municipality can be changed by modifying `village_name`, `village_INSEE_code` and `village_departement`. 
+
+## Databases
+
+Three main inputs are required to use this package : one shapefile with the municipality/territory footprint, one shapefile with the building footprints and one raster file with a DEM.
+
+### Basic databases
+`toscana` was designed to utilize shapefiles from the BDTOPO database produced by IGN. Two inputs are required from the BDTOPO : _COMMUNE.shp_ and _BATIMENT.shp_.
+`toscana` is configured for the use of raster in IGNF: ETRS89LAEA coordinate reference system. Such rasters can be found on the [OpenDEM portal](https://www.opendem.info/opendemeu_download_highres.html).
+
+
+
+### Databases requirements
+To utilize all functions within the package, the following input data requirements must be met:
+- Building footprint : projected in EPSG:2154, with a column named "HAUTEUR" representing the maximum building height. 
+- Municipality footprint : projected in EPSG:2154, with a column named "INSEE_COM" containing the INSEE code of the municipality (for France) and a column named "POPULATION" with the number of inhabitants (only used for post-processing). 
+- DEM (Digital Elevation Model) : projected in IGNF:ETRS89LAEA, covering a larger extent than the municipality footprint, with a recommended resolution of 1 meter.
+
+### Use of alternative databases
+
+Many other databases are available and could be compatible with functions available in `toscana`. 
+
+#### Projection of alternative databases
+The raster and shapefile databases should share the same projection (preferably matching the raster's projection, as reprojecting a raster is more complex). A function is available to reproject the shapefile from BDTOPO (EPSG:2154) into the IGNF:ETRS89LAEA projection.
+
+If the shapefile are in a different projection than EPSG:2154, they should be pre-processed using software/package like QGIS, although `toscana` does not provide such pre-processing functions.
+
+Most of the function are designed to be used with IGNF:ETRS89LAEA projection, but for many of them, it is possible to specify the name of an alternative projection. 
+
+For ease of use with `toscana`, a DEM projected in IGNF:ETRS89LAEA is recommended. IGNF:ETRS89LAEA is a projected coordinate reference systems with coordinates in meters. Some functions will work only with projected coordinate systems.
+
+#### Required information in the shapefiles
+In the shapefile containing building footprints, a column indicating building height should be present. By default, the column name is "HAUTEUR", but this can be changed if the shapefile is not derived from BDTOPO.
+
+For the shapefile containing the municipality footprints, a column with the INSEE code of the studied municipality should be included (unique code). If the studied territory is not a French municipality, data should be preprocessed to obtain the footprint of the territory in a 
+shapefile. Additionally, in this shapefile, the "POPULATION" column is used for post-processing results, but it is optional.
+
+#### Other required information
+Three pieces of information are needed to start the simulation : the village name, the village INSEE code and the departement. 
+The village name can be replaced by the name of the territory to study. 
+The INSEE code is usefull to select the territory footprint. If it's not available, the footprint needs to be obtained using another method. 
+The departement and the INSEE code are also needed for post-processing but are optional for this initial step.
+
+
+## Common/unsolved problems
+Some comon problems have been identified and have not yet been resolved:
+- Meteorological files are obtained from PVGIS. If the municipality is located close to the sea, there may be occasions where some meteorological data cannot be downloaded. If certain meteorological files cannot be downloaded, several options can be selected to average the available meteorological data.
+- Erroneous meteorological files can cause the SEBE calculation to fail.
+- The meteorological data are processed in SEBE : the diffuse and direct irradiation components are redistributed into sky vault patches. If meteorological files are averaged, this redistribution can result in some components becoming negative, leading to negative irradiation received by surfaces (which is physically impossible).
+- To address negative results from the SEBE calculation, the direct and diffuse irradiation components could be estimated from global irradiation. However, in some cases, the sky irradiance distribution could failed if these components are estimated from global irradiation.
+
+
+## Documentation
+
+You can access the documentation in 3 ways:
+
+- embedded help within your IDE regarding specific `toscana` functions
+- the HTML version of this documentation: simply open (with your browser) the file `doc/_build/html/index.html` 
+- the PDF version of this documentation: `doc/_build/toscana.pdf`
+
+## Installation 
+
+### Overview
+
+`toscana` was successfully tested on the following setup:
+
+- `conda` environment
+- `qgis` installed within this environment (LTS release)
+- `python=3.10`
+- plugins `UMEP` and `UMEP for processing` installed through the Qgis GUI
+
+Installation is a 2 steps process: 
+
+1. Creation of the conda environment
+2. Installation of `toscana`
+
+### Environment set up
+
+Below is a small code snippet that would set up a proper conda environment:
+
+```
+conda create -n toscana_env python=3.10
+conda activate toscana_env
+conda install -y conda-forge::qgis=3.34 conda-forge::pvlib conda-forge::matplotlib-scalebar
+conda install -y rasterio matplotlib tqdm scipy scikit-learn shapely geopandas pandas 
+
+```
+
+If needed, you might install the `draco` and `py7zr` libraries:
+
+```
+conda install conda-forge::gsl conda-forge::draco conda-forge::py7zr 
+```
+
+Don't forget to [install `UMEP` and `UMEP for processing` from Qgis **Plugin Manager**](https://docs.qgis.org/3.34/en/docs/training_manual/qgis_plugins/fetching_plugins.html#follow-along-installing-new-plugins)!
+
+### `toscana` installation
+
+
+#### `pip` installation (preferred way)
+
+1. Activate your conda environment (`toscana_env`)
+2. Run `pip install toscana`.
+
+**note**: installation of packages using `pip` within a conda environment is usually depreciated, yet this one is very unlikely to break your environment.
+
+#### Manual installation
+
+1. Clone this repository: `git clone <Github_repo>`
+2. Move to the cloned directory: `cd toscana`
+3. Activate your conda environment (`toscana_env`)
+4. Run `pip install .` to install the `toscana` package
+
+You can test your installation by running `import toscana` inside a Python interpreter.
+
+### Notes
+
+A conda package might be available in a near future.
+
+## Detailed description 
+
+### Main algorithm
+
+The solar cadastres created with `toscana` are based on calculations performed using SEBE algorithms developed in the UMEP plugin for QGIS. 
+
+Calculations can be time-consuming if the size of the studied territory is too large. Therefore, the territory is divided into tiles, and simulations are conducted per tile. The required inputs include a DSM (Digital Surface Model), a raster file containing wall aspect data and one containing wall height data, and a meteorological file. 
+
+A different meteorological file is used for each grid tile, allowing to consider the various far masks at different locations (especially in the mountainous territory). 
+
+
+### Meteorological files 
+
+- `toscana` allows averaging of meteorological files to address discontinuities caused by low resolution of weather data.
+
+Meteorological files are sourced from the SARAH-2 database and downloaded from PVGIS. They are taking into account the far masks. 
+However, the resolution of this dataset is only 5km, which means that two simulation tiles belonging to different parts of the SARAH-2 database can result in significantly different meteorological files.
+To mitigate large differences and discontinuities in input weather data that could lead to substantial variations in calculated irradiance, `toscana` allows averaging of meteorological files. 
+An average of the weather files from the studied tile and its 12 neighbouring tiles is computed, with weights depending on the distance between the center of each neighbouring tile and the studied tile, and based on the normal distribution. 
+
+### Data preparation 
+Data preparation is necessary before running the calculation to obtain the solar cadastre with `toscana`. This tool is designed to study a specific delimited territory (such as a municipality). 
+The footprint of the territory must be obtained and must be in the same projection as the DEM, wich represents the elevation of the terrain. Therefore, shapefiles must be reprojected into the correct reference system. The grid is then created based on the footprint of the territory. 
+The DEM may need to be resampled if its resolution is too low, especially because it will be modified to include the height of the buildings.
+
+### Post-processing 
+`toscana` was also developed to calculate irradiation on building rooftops. 
+After obtaining the solar cadastre, post processing is performed to calculate the mean irradiation per building. Buffers are created to exclude the edges of the buildings because edges typically receive much lower irradiation than the rest of the rooftop.
+
+### Visualization of the results
+`toscana` allows visualization of the results including the DEM, the solar map, a map displaying the mean irradiation per building. 
+Additionally, the mean irradiation per building is displayed as an histogram. The histogram often fits very well the Johnson's SU distribution for the majority of French municipalities.
+
+Futhermore, `toscana` allows calculating severam indicators such as a Sky View Index, a Diffuse Fraction Index and also indicators related to the description of the distribution of the mean irradiation per building. 
+
+
+## Author
+
+Apolline Ferry is the author of this code, developed during her PhD thesis. You can contact her by email at : apolline.ferry@laposte.net or sending a message on GitHub. 
+
+## Copyright
+The code is distributed under an Apache-2.0 license. 
+Most of the development work was conducted during a PhD thesis funded by [UNITA](https://univ-unita.eu/Sites/UNITA/en/).
