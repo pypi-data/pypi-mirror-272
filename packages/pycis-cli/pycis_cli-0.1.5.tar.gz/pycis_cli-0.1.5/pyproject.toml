@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "pycis-cli"
+description = "Python Continuous Integration System (PyCIS) - CLI Tools"
+version = "0.1.5"
+authors = []
+readme = "README.rst"
+license = "LICENSE.txt"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX"
+]
+keywords = [
+    "python"
+]
+packages = [{include="pycis", from="source/packages"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9 <4.0"
+click = "^8.1.4"
+pymongo = {version = "^4.0.0", optional = true}
+couchdb = {version = "^1.2", optional = true}
+mojo-xmodules = ">=1.3.0 <1.4.0"
+mojo-credentials = ">=1.3.10 <1.4.0"
+mojo-config = ">=1.3.20 <1.4.0"
+jira = {version="^3.8.0", optional = true}
+
+[tool.poetry.scripts]
+pycis = "pycis.cli.pycis_command:pycis_root_command"
+
+[tool.poetry.extras]
+mongodb = ["pymongo"]
+couchdb = ["couchdb"]
+jira = ["jira"]
+
+[tool.poetry.group.dev.dependencies]
+myst-parser = "^0.18.1"
+sphinx = ">=1.6,<6"
+sphinx-rtd-theme = "^1.1.1"
+
+[tool.poetry.group.dbio.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
