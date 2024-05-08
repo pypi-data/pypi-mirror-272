@@ -1,0 +1,10 @@
+tool_mapi/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tool_mapi/logger.py,sha256=wGZ1TIbqIP8QZ4QY10qZGlswsBmQqVrNbgE8fKxeVGw,431
+tool_mapi/clitools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tool_mapi/clitools/print_hello_worlds.py,sha256=N95c9goUgdeZgIrrVOwNBfSlLWqBbXT1Cz2D-aImp9I,350
+tool_mapi/helloworld/__init__.py,sha256=5J04dSJQjzsNBASa_cwfhOP7JaYtDGgVxtluWmQhr6Q,26
+tool_mapi/helloworld/helloworld.py,sha256=lKiMWNYNrd-q88Edf6IOgl8iI587wPfOVI-XuaxZ0qI,483
+tool_mapi-5.0.0.dist-info/METADATA,sha256=3dqhgIGMgPuOvjo5Np5Vxu8Lw0VUhtA05USfHXYm4lQ,196
+tool_mapi-5.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tool_mapi-5.0.0.dist-info/top_level.txt,sha256=Nq6vcuuFJsHgUOw00DcaQpYpAyadGc4cTDlsk5alO6c,10
+tool_mapi-5.0.0.dist-info/RECORD,,
