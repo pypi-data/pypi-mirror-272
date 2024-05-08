@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: "1.16.0"
+dependencies:
+- condition: dependency.enabled
+  name: dependency
+  repository: file://charts/dependency
+  version: '*.*.*'
+description: A Helm chart for Kubernetes
+name: test-chart
+type: application
+version: 0.1.0
