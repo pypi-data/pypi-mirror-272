@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: MaaDebugger
+Version: 1.1.0b1
+Summary: MaaDebugger
+Author: MaaXYZ
+Project-URL: Homepage, https://github.com/MaaXYZ/MaaDebugger
+Requires-Python: >=3.9
+Requires-Dist: MaaFw
+Requires-Dist: nicegui
+Description-Content-Type: text/markdown
+
+# MaaDebugger
+
+## Installation
+
+```bash
+python -m pip install MaaDebugger
+```
+
+## Usage
+
+```bash
+python -m MaaDebugger
+```
