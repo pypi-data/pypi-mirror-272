@@ -1,0 +1,7 @@
+cv2
+ddddocr
+execjs
+fake_useragent
+loguru
+lxml
+requests
