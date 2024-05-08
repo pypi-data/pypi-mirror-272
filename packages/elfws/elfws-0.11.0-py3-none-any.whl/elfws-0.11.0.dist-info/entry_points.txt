@@ -1,0 +1,2 @@
+[console_scripts]
+elfws = elfws.__main__:main
