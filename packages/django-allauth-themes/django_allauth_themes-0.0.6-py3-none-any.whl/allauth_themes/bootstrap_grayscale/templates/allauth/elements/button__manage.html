@@ -1,0 +1,6 @@
+{% extends "allauth/elements/button.html" %}
+{% load allauth %}
+{% block class %}
+    {{ block.super }}
+    {% if origin == "account/logout" %}w-100{% endif %}
+{% endblock %}
