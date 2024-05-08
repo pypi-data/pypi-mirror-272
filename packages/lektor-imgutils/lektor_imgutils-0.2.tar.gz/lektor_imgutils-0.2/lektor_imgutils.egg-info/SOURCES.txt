@@ -1,0 +1,15 @@
+.gitignore
+CHANGES.rst
+LICENSE.txt
+README.rst
+lektor_imgutils.py
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+lektor_imgutils.egg-info/PKG-INFO
+lektor_imgutils.egg-info/SOURCES.txt
+lektor_imgutils.egg-info/dependency_links.txt
+lektor_imgutils.egg-info/entry_points.txt
+lektor_imgutils.egg-info/requires.txt
+lektor_imgutils.egg-info/top_level.txt
+tests/test_imgutils.py
