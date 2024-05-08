@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+nodejs_wheel.egg-info/PKG-INFO
+nodejs_wheel.egg-info/SOURCES.txt
+nodejs_wheel.egg-info/dependency_links.txt
+nodejs_wheel.egg-info/entry_points.txt
+nodejs_wheel.egg-info/requires.txt
+nodejs_wheel.egg-info/top_level.txt
