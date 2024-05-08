@@ -1,0 +1,6 @@
+README.md
+setup.py
+amos_api.egg-info/PKG-INFO
+amos_api.egg-info/SOURCES.txt
+amos_api.egg-info/dependency_links.txt
+amos_api.egg-info/top_level.txt
