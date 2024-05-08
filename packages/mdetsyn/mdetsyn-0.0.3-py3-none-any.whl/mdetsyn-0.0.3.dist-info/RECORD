@@ -1,0 +1,8 @@
+mdetsyn/__init__.py,sha256=2IwVeGOEGlAy69HfpUALK_z93J0IlxzRQrpb3y11r-A,46
+mdetsyn/detsyn.py,sha256=vGhqQJsiS6_iiIZdoFY_7FX7J9gw2IVgnMsGkLGQ0rw,9603
+mdetsyn/helpers.py,sha256=PfVpRz4GDtXscB6ZJypZ5iHCQ_rsh_xSqOs3AmCon14,7552
+mdetsyn-0.0.3.data/data/requirements.txt,sha256=4Fl0GS47_4BrBPKXYFJ7OrAZGDS-YCk3NslTP9kEyzs,20
+mdetsyn-0.0.3.dist-info/METADATA,sha256=PByC8URwfSGMYIUOQHctqFrMz4z-fbYR6zLRY3vb0dA,2263
+mdetsyn-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mdetsyn-0.0.3.dist-info/top_level.txt,sha256=7PQUGRA1iWNXNcOWgIW5FDxxsa3zx1kmKs1cocg5AuM,8
+mdetsyn-0.0.3.dist-info/RECORD,,
