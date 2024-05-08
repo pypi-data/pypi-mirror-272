@@ -1,0 +1,4 @@
+pyOpenSSL~=18.0.0
+setuptools>=69.5.1
+wmagent>=2.3.0.2
+MySQL-python==1.2.4b4
