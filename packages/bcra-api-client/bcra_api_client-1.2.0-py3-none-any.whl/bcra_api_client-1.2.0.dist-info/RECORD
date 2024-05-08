@@ -1,0 +1,14 @@
+bcra/__init__.py,sha256=aDxMhB1ICkkvbNtUsDpnubydk5mzm0_XpfuaqfeLoiQ,166
+bcra/base.py,sha256=lHfo03WemzFXIWEni4kq0rXBZ7jM0DTqwdN-V_a_t0c,1575
+bcra/client.py,sha256=c3j60NUZBd-B6fJwOVfxuHnh5Ewoum3hn4t8prl_jpg,326
+bcra/config.py,sha256=29P9cc6vibc4mi2Ic49mJWbl8kbc0cS4EAoyPmIjjuo,642
+bcra/exceptions.py,sha256=Ne8zpytl7nQzTQIHRcpWwvW8xLo-YM68konvt7KU8F4,284
+bcra/currency/__init__.py,sha256=exe7lE-RuIUQZaStyEyv2sBc5l2wYxvtM9ONdOZ-myA,253
+bcra/currency/dollar.py,sha256=KlX1HGKStOchveeaavXutbibmN2SmPnHavSGx9ot5-c,718
+bcra/statistics/__init__.py,sha256=_VtdP1KnngO2PWS3-yw6InCdmz49GlDOw_d0vBqQA6Y,314
+bcra/statistics/variables.py,sha256=RvxN5yu8To27v9ZGc6Syric2tSHF0LsqJsF9cp5E7As,3137
+bcra_api_client-1.2.0.dist-info/LICENSE,sha256=_JXVtWSD6QPvMiRGrPSvBDvwioTjdFCzkwD4vJgTIIM,1061
+bcra_api_client-1.2.0.dist-info/METADATA,sha256=ebPETKMg8DoTbq8U52tneYRsVSBuyBDjLsTdc0nZ__c,2628
+bcra_api_client-1.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bcra_api_client-1.2.0.dist-info/top_level.txt,sha256=oF3hENq6EyN2X7HJcolv5JnEmJ25nMLXyhwhDAeRWzU,5
+bcra_api_client-1.2.0.dist-info/RECORD,,
