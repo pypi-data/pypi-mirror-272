@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nix-python-utils"
+version = "0.1.0"
+dependencies = [
+
+]
+requires-python = ">=3.11"
+authors = [
+    { name = "Nix ツ", email = "nikusunix@gmail.com" },
+]
+maintainers = [
+    { name = "Nix ツ", email = "nikusunix@gmail.com" },
+]
+description = "Useful Python decorators that I use in development."
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["python", "utils", "useful", "library"]
+classifiers = [
+    "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/nixnks/nix-python-utils"
+Documentation = "https://github.com/nixnks/nix-python-utils"
+Repository = "https://github.com/nixnks/nix-python-utils"
+Changelog = "https://github.com/nixnks/nix-python-utils/CHANGELOG.md"
