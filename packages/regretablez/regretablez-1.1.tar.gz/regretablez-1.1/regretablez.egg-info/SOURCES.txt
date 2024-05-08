@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+regretablez/__init__.py
+regretablez/main.py
+regretablez.egg-info/PKG-INFO
+regretablez.egg-info/SOURCES.txt
+regretablez.egg-info/dependency_links.txt
+regretablez.egg-info/requires.txt
+regretablez.egg-info/top_level.txt
