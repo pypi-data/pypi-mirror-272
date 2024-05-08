@@ -1,0 +1,14 @@
+queue-api
+dslog
+prettyprinter
+fs-tools
+
+[all]
+queue-kv
+templang
+
+[codegen]
+templang
+
+[local]
+queue-kv
