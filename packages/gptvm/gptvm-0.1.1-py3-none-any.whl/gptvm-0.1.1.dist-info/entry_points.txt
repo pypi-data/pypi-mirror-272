@@ -1,0 +1,2 @@
+[console_scripts]
+gptvm = gptvm.__main__:main
