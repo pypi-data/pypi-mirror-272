@@ -1,0 +1,5 @@
+setup.py
+Latifa.egg-info/PKG-INFO
+Latifa.egg-info/SOURCES.txt
+Latifa.egg-info/dependency_links.txt
+Latifa.egg-info/top_level.txt
