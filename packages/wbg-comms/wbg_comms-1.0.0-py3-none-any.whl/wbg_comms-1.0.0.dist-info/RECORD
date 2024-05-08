@@ -1,0 +1,9 @@
+wbg/comms/__init__.py,sha256=yt76aUfJOEcqzQSB4sFwPfWrC24DyF0h2h6Zrt5F4iM,139
+wbg/comms/_comms.py,sha256=ccd4CpeHqewSbvu4cEaIIt8RkGQBYYlqu6_VGfqovgM,3270
+wbg/comms/_email_accounts.py,sha256=fgvgNib1am2Bu-7F6AcM1W8FmbdTztatIKnLqekU6Ao,86
+wbg/comms/_paths.py,sha256=cBr7qeJuvbRbnzy5yGOGK63PfsaDxwZvn363mK5fQMU,189
+wbg/comms/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wbg_comms-1.0.0.dist-info/METADATA,sha256=pRQ2MWq8ygP8hUG_YqI1qO5S5QZchJz8hAO_T0XjqjA,169
+wbg_comms-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+wbg_comms-1.0.0.dist-info/top_level.txt,sha256=XxKK6RAGow_BJGo9q2TOYxDGi9Kwq9TMthXeGrXrxgk,4
+wbg_comms-1.0.0.dist-info/RECORD,,
