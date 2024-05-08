@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+tensor_maximum_entropy/__init__.py
+tensor_maximum_entropy/test_run.py
+tensor_maximum_entropy/tme.py
+tensor_maximum_entropy/utils.py
+tensor_maximum_entropy.egg-info/PKG-INFO
+tensor_maximum_entropy.egg-info/SOURCES.txt
+tensor_maximum_entropy.egg-info/dependency_links.txt
+tensor_maximum_entropy.egg-info/requires.txt
+tensor_maximum_entropy.egg-info/top_level.txt
