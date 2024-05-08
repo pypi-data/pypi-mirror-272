@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+preexclusivelyz/__init__.py
+preexclusivelyz/main.py
+preexclusivelyz.egg-info/PKG-INFO
+preexclusivelyz.egg-info/SOURCES.txt
+preexclusivelyz.egg-info/dependency_links.txt
+preexclusivelyz.egg-info/requires.txt
+preexclusivelyz.egg-info/top_level.txt
