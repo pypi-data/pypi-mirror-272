@@ -1,0 +1,11 @@
+pymc>=5.0.0
+xarray
+
+[provider_usgs]
+dataretrieval
+
+[test]
+flake8
+ruff
+pytest>5.0.0
+pytest-cov[all]
