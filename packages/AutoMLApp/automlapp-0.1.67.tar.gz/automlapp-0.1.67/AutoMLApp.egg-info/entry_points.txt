@@ -1,0 +1,2 @@
+[console_scripts]
+streamlit_run_tool = automlapp.launcher:main
