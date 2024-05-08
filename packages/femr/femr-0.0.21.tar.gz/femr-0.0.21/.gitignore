@@ -1,0 +1,9 @@
+.DS_Store
+.vscode
+__pycache__
+*.so
+bazel-*
+*.egg-info
+ignore/*
+*.ipynb_checkpoints*
+tutorials/trash
