@@ -1,0 +1,12 @@
+awss/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awss/__main__.py,sha256=IDaI0cO3swNq_VDuVxN4qGsFuu-AKkHQYEaZ4pzQtgQ,3294
+awss/acm.py,sha256=Uvky1_Ztpfn_o3JDm-7lovKumzqFwLK4e9CNLw3C_j4,2082
+awss/ec2.py,sha256=pct476P47T9BG3DQErvGW7tyBuuJhdbiJoOM6HG0duQ,3003
+awss/lib.py,sha256=3TDtloxIxLYxHfepUHOPR2_x7ZO9MP6DNcZFl2oMzkU,787
+awss/rds.py,sha256=35Ks45ASegkGgCWQ5WbsDIg0qmy3GWwV_dCnM9dWVc0,1361
+awss/sts.py,sha256=-wlSamAKx6LN8Zw-9Ea3CcgsNwAnO1bh0awlG8vDipk,1170
+aws_multi_region_search-0.1.0.dist-info/LICENSE,sha256=_bWPzLML3GaS6nSpReb9eXk15R_B79rAwJ-4JAlzkv0,1048
+aws_multi_region_search-0.1.0.dist-info/METADATA,sha256=a9OwHV975MPV0xV37Om3XzfIG9bnluteqkluo0l3j4c,1318
+aws_multi_region_search-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aws_multi_region_search-0.1.0.dist-info/entry_points.txt,sha256=capjkr96UdEJCcC3SofiriQAQyHtS57j5RLg6GXXxuc,42
+aws_multi_region_search-0.1.0.dist-info/RECORD,,
