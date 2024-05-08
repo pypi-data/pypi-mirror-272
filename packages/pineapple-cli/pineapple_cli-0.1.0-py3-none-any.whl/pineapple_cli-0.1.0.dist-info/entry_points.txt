@@ -1,0 +1,3 @@
+[console_scripts]
+pineapple=pineapple.pineapple:app
+

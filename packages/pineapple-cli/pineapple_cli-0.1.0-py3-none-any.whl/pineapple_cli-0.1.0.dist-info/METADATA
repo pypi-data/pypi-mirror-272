@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pineapple-cli
+Version: 0.1.0
+Summary: Generate projects in seconds with a simple CLI, configuration, and documentation.
+License: MIT
+Author: Adam Garza
+Author-email: 168875175+hyerland@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: typer[all] (>=0.12.3,<0.13.0)
+Description-Content-Type: text/markdown
+
+# Pineapple 🍍
+
+![CodeFactor Grade (with branch)](https://img.shields.io/codefactor/grade/github/hyerland/pineapple/main?style=flat-square&logo=codefactor&logoColor=black&label=Code%20quality&labelColor=%23FFBF00&color=black)
+
+Generate projects in seconds with a simple CLI, configuration, and documentation.
+
