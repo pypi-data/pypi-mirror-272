@@ -1,0 +1,16 @@
+cdsspy/__init__.py,sha256=vKV9C019Q8EGWSmFGAhUWfIQgTZoUwuknrIoMvLexP8,265
+cdsspy/admin_calls.py,sha256=kYr13QJCRJkV8tBmuf0iNRmoAHxIZ1ELYCIZjihtO8o,4941
+cdsspy/analysis_services.py,sha256=TqVGAlZyfXYBikCP-I1XA_U7u9DHpM-XOyLev5QrRVs,33365
+cdsspy/climate.py,sha256=OMnV6j4qGMBVdyeRydx4loH9H8O0TTLhuITilq_wZ1M,22661
+cdsspy/gw.py,sha256=iqITn3saCA3Lob-ipI7G28yZ_rv368pRuALMI8K7Kp0,15410
+cdsspy/reference_tbl.py,sha256=bQTG0O4w8BmADcUTLdntJe0zEoqlgzTPD_KORd6GIeU,24621
+cdsspy/structures.py,sha256=8Gp0gHlAmKj0avExoszvrM-kS9tnm2Ps0_217GqO2tM,33729
+cdsspy/sw.py,sha256=IcyaNr5XloRYkfskjzHgxAIoT4Zn49yjaENcGYQmWJM,24200
+cdsspy/telemetry.py,sha256=sDI35cSbxS0DFxa7TtD2l0Swo-rZ4l70auVkFeDBEV0,10959
+cdsspy/utils.py,sha256=w-tOn1mrwxJ83QHx028i99m4wtX8LF7s1cw4c9UFLZc,32661
+cdsspy/water_rights.py,sha256=3bKsWuyLwHLbUD5VdEA6aS6jIwSqAdM5rfjMUL2cbF8,9699
+cdsspy-1.2.71.dist-info/LICENSE,sha256=2fTmeZKIDVv4bQW7zeoBk6_1JOa1Xrb3PW2ckmobO4w,1053
+cdsspy-1.2.71.dist-info/METADATA,sha256=r9HlqnOUXg0_st9kH57iDldWNaCLHfjtauSxuZQviUk,18892
+cdsspy-1.2.71.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cdsspy-1.2.71.dist-info/top_level.txt,sha256=VA3p7zVPjmWqk9zahSC5wrjcK78tdNvUUD5PdHNnI48,7
+cdsspy-1.2.71.dist-info/RECORD,,
