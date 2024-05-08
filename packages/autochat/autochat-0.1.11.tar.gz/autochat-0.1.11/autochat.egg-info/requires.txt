@@ -1,0 +1,5 @@
+openai==1.26.0
+tenacity==8.3.0
+
+[llama_cpp]
+llama-cpp-python==0.2.69
