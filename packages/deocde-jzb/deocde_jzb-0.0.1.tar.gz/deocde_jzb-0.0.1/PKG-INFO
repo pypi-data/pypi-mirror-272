@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: deocde_jzb
+Version: 0.0.1
+Summary: A small example package
+Author-email: A tiny Python program for decoding a jzb string <menachemkornreich@gmail.com>
+Project-URL: Homepage, https://github.com/mkornreich/jzb
+Project-URL: Issues, https://github.com/mkornreich/jzb/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#  Decoding JZB with Python
+
+A tiny Python program for decoding a jzb string
+
+Based on https://github.com/benjaminapetersen/jzbtool
