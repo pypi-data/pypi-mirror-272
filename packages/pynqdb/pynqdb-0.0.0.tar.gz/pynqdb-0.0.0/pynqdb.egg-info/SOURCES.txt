@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pynqdb.egg-info/PKG-INFO
+pynqdb.egg-info/SOURCES.txt
+pynqdb.egg-info/dependency_links.txt
+pynqdb.egg-info/top_level.txt
