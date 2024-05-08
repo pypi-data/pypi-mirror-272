@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Yoteelijo
+Version: 1.0.0
+Summary: Una Biblioteca que contiene la clase Random_pokemon para mostranos poquemones locos
+Author: Missael Angel Cardenas
+Author-email: missaelanggel@gmail.com
+Requires-Dist: pandas
+Requires-Dist: pkg-resources
+Requires-Dist: setuptools
+Requires-Dist: twine
+Requires-Dist: wheel
+
