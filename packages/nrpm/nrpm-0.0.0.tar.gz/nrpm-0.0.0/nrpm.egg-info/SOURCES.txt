@@ -1,0 +1,6 @@
+pyproject.toml
+nrpm/__init__.py
+nrpm.egg-info/PKG-INFO
+nrpm.egg-info/SOURCES.txt
+nrpm.egg-info/dependency_links.txt
+nrpm.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+[project]
+name = "nrpm"
+authors = [
+    {name = "Jules", email = "nrpm.contact.faculty897@passmail.net"}
+]
+
+version = "0.0.0"
+
+description = "Nginx Reverse Proxy Manager - coming soon"
