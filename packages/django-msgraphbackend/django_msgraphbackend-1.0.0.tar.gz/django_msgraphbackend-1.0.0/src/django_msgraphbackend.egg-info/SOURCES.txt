@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/django_msgraphbackend.egg-info/PKG-INFO
+src/django_msgraphbackend.egg-info/SOURCES.txt
+src/django_msgraphbackend.egg-info/dependency_links.txt
+src/django_msgraphbackend.egg-info/top_level.txt
+src/msgraphbackend/__init__.py
