@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tridynamousz/__init__.py
+tridynamousz/main.py
+tridynamousz.egg-info/PKG-INFO
+tridynamousz.egg-info/SOURCES.txt
+tridynamousz.egg-info/dependency_links.txt
+tridynamousz.egg-info/requires.txt
+tridynamousz.egg-info/top_level.txt
