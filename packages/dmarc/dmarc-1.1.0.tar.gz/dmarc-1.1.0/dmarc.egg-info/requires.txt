@@ -1,0 +1,12 @@
+
+[ar]
+authres
+
+[psl]
+publicsuffix2
+
+[report]
+xmlschema
+
+[resolver]
+dnspython
