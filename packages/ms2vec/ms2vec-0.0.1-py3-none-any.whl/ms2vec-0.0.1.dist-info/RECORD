@@ -1,0 +1,17 @@
+ms2vec/__init__.py,sha256=U6opTrVX390b4C_oOYMP179CgmeYtDmOeRKcqLFHuig,532
+ms2vec/bge_model.py,sha256=PVjid5yI9Y7i13sPBDeDkj4BO7sJYTXer9x2HDAccL8,2032
+ms2vec/cosent_model.py,sha256=Y8cCPCxnx6ag-ENZATgswI-zIg6bpltOmihBJxu_KIY,2326
+ms2vec/ngram.py,sha256=ASN7QgJuZo8h3Bi_jWcf_ZQw1VGbEcAeglCvCcKpLu8,3287
+ms2vec/sentence_model.py,sha256=M-uMPU55GbBB_pVY9eFAH820MxOEvH-jPJrB1drnecc,12286
+ms2vec/similarity.py,sha256=qLB-RtLGZWvq5w5TuhPiuZ0z1w19avR7QEBgKqClMf4,9586
+ms2vec/stopwords.txt,sha256=jx_eWmGWzNPkeSgxCvwoAX1zKPGzKYuPf_TSIkJ_L60,9136
+ms2vec/word2vec.py,sha256=9mmR-6j4X0AHDud2jJKaIUgSJleDzg1mucfteTMtBwM,6116
+ms2vec/utils/__init__.py,sha256=eX0kQRd0nFsBjRiYqPs79KkXQFfO9Eu0qztguPa4sws,38
+ms2vec/utils/distance.py,sha256=wbWWBSOupjgzfzkiBbPzlvMFiYqMkzBAc3lxyfuwRlY,6505
+ms2vec/utils/stats_util.py,sha256=gsqroG8NgaSo1kz2cg2yY2Q_VIo-gpXxnB8_85YArXY,789
+ms2vec/utils/tokenizer.py,sha256=3T6ZJ-YKTJeK1hBrhNKjizTX4QLTkqLLBfqcL4mdMfE,1915
+ms2vec-0.0.1.dist-info/LICENSE,sha256=Bv8K6IAZRIWoOJkByL5VSKRXYSww14N9PGkLQujOeYc,1067
+ms2vec-0.0.1.dist-info/METADATA,sha256=BaWe1-r1max1FfwvxWldf5CIWx_atOScBm5oBoJg9BM,3009
+ms2vec-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ms2vec-0.0.1.dist-info/top_level.txt,sha256=Fu12PDFNvKZylJjGHo7WYYw3nvOYciGqlJJpaEWxjOE,7
+ms2vec-0.0.1.dist-info/RECORD,,
