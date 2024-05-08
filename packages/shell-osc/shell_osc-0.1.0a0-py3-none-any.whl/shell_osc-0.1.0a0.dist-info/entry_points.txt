@@ -1,0 +1,2 @@
+[console_scripts]
+shell-osc = shell_osc.__main__:main

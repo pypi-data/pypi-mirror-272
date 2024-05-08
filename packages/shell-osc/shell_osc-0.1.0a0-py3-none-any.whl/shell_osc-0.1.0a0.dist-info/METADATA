@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: shell-osc
+Version: 0.1.0a0
+Summary: Run shell commands on receiving OSC messages.
+Home-page: https://github.com/cansik/shell-osc
+Author: Florian Bruggisser
+Author-email: github@broox.ch
+License: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-osc ~=1.8.3
+
+# shell-osc
+Run shell commands on receiving OSC messages.

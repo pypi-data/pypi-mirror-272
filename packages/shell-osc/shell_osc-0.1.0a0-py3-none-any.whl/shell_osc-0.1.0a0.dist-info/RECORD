@@ -1,0 +1,10 @@
+shell_osc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shell_osc/__main__.py,sha256=_NWuPYkggmfGXFzJHztLGALoIuileVU-9QaqpXgQS0A,675
+shell_osc/client.py,sha256=8Dt1HrdvPuAh-AMH_K42XrqYku2tabuRAnY7u-ccrhk,2433
+shell_osc/server.py,sha256=CBXarTND7C3IVZ7jfOAdH2Dm_xLjn8ULZWh5cZcfj4U,1833
+shell_osc-0.1.0a0.dist-info/LICENSE,sha256=KpHMG-i0KjhuOO-CAYnMMI1aQLBi54LarTr5FKT1uwQ,1075
+shell_osc-0.1.0a0.dist-info/METADATA,sha256=jCB6R14m49VXGSCg_4GmGHcxM4hj9cJL8lNEuTUDrUc,390
+shell_osc-0.1.0a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+shell_osc-0.1.0a0.dist-info/entry_points.txt,sha256=HUeQgnFuwmDQZBi7uP2bVxWgUV4ie2xkQWsvYt04RrI,54
+shell_osc-0.1.0a0.dist-info/top_level.txt,sha256=7rJhfGbXyw-CJvESC7AIJHiFfl0nH3ofQo5wW51DQqc,10
+shell_osc-0.1.0a0.dist-info/RECORD,,
