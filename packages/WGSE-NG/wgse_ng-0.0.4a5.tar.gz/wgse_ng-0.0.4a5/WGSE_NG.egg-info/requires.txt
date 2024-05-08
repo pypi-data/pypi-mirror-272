@@ -1,0 +1,16 @@
+setuptools
+pefile
+pycurl
+tqdm
+google-cloud-storage
+sphinx
+pytest
+pyqt6
+pyinstaller
+PySide6
+
+[cli]
+wgse.cli
+
+[gui]
+wgse.gui
