@@ -1,0 +1,12 @@
+par_run/__init__.py,sha256=YP_4baPtDQ4gOBFfrkzkHy6JQRlOYJdb_-iOPkTj0pk,68
+par_run/cli.py,sha256=rN8zacWhEnO-G_T-pQS6X_rRudi08wA7KrDwL4zmR0E,13539
+par_run/executor.py,sha256=L0lk1Y3BVnYHCYLwgzqSvRNPeBtg9aacdhH9ZaxmuHo,11263
+par_run/web.py,sha256=QGNcp8Osq8YW4AR2qvN-lhgFVHrQyoGSUdr8RBiEtTA,2275
+par_run/static/css/style.css,sha256=CMhZD25cMb9aV63T7qrubwIkZMGCmuKUuQucUt16LmA,4317
+par_run/static/js/app.js,sha256=E9J7P0eK4xLbh45lfoZhYFGr_4eeLX4es8_Kjx8A5IA,8623
+par_run/templates/index.html,sha256=YzqSTPyUCFG4zGaUhcm1SeEPSjZgB5k1j1n_FRqKzSQ,2087
+par_run-0.5.0.dist-info/METADATA,sha256=nokkk21FiLTwsoMmiX2cn6GUnrBJ4--uzwj-ptmClQE,4076
+par_run-0.5.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+par_run-0.5.0.dist-info/entry_points.txt,sha256=7wSAuKa3mQm6G6N_H9ENQ3Vf493Sy6ErtHAvzRUVmKg,48
+par_run-0.5.0.dist-info/licenses/LICENSE,sha256=T90S9vqRS6qP-voULxAcvwEs558wRRo6dHuZrjgcOUI,1085
+par_run-0.5.0.dist-info/RECORD,,
