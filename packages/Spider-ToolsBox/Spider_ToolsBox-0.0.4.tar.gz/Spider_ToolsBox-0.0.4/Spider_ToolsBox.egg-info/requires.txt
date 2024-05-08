@@ -1,0 +1,7 @@
+requests
+opencv-python@ https://pypi.tuna.tsinghua.edu.cn/simple
+ddddocr
+execjs
+fake_useragent
+loguru
+lxml
