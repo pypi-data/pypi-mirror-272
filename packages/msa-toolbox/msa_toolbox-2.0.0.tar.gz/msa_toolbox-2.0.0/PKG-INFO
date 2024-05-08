@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: msa_toolbox
+Version: 2.0.0
+Summary: MSA Toolbox
+Author: Akshit, Khushdev, Sumit
+Author-email: sumit20249@iiitd.ac.in
+Keywords: msa
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: scikit-learn<1.2.0,>=0.22.2
+Requires-Dist: six
+Requires-Dist: setuptools
+Requires-Dist: tqdm
+Requires-Dist: Flask
+Requires-Dist: scipy>=1.7.3
+Requires-Dist: matplotlib>=3.5.1
+Requires-Dist: yacs
+Requires-Dist: gradio
+Requires-Dist: gradio_client
+Requires-Dist: huggingface-hub
+Requires-Dist: ipykernel
+Requires-Dist: pylint
+Requires-Dist: PyYAML
+Requires-Dist: torch
+Requires-Dist: torchvision
+Provides-Extra: pytorch
+Requires-Dist: torch; extra == "pytorch"
+Requires-Dist: torchvision; extra == "pytorch"
+Provides-Extra: pytorch-image
+Requires-Dist: torch; extra == "pytorch-image"
+Requires-Dist: torchvision; extra == "pytorch-image"
+Requires-Dist: kornia; extra == "pytorch-image"
+Requires-Dist: Pillow; extra == "pytorch-image"
+Requires-Dist: ffmpeg-python; extra == "pytorch-image"
+Requires-Dist: opencv-python; extra == "pytorch-image"
+Provides-Extra: pytorch-audio
+Requires-Dist: torch; extra == "pytorch-audio"
+Requires-Dist: torchvision; extra == "pytorch-audio"
+Requires-Dist: torchaudio; extra == "pytorch-audio"
+Requires-Dist: pydub; extra == "pytorch-audio"
+Requires-Dist: resampy; extra == "pytorch-audio"
+Requires-Dist: librosa; extra == "pytorch-audio"
+Provides-Extra: xgboost
+Requires-Dist: xgboost; extra == "xgboost"
+Provides-Extra: all
+Requires-Dist: torch; extra == "all"
+Requires-Dist: torchvision; extra == "all"
+Requires-Dist: xgboost; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: kornia; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: Pillow; extra == "all"
+Requires-Dist: statsmodels; extra == "all"
+Requires-Dist: pydub; extra == "all"
+Requires-Dist: resampy; extra == "all"
+Requires-Dist: ffmpeg-python; extra == "all"
+Requires-Dist: cma; extra == "all"
+Requires-Dist: librosa; extra == "all"
+Requires-Dist: opencv-python; extra == "all"
+Requires-Dist: numba; extra == "all"
+Provides-Extra: non-framework
+Requires-Dist: matplotlib; extra == "non-framework"
+Requires-Dist: Pillow; extra == "non-framework"
+Requires-Dist: statsmodels; extra == "non-framework"
+Requires-Dist: pydub; extra == "non-framework"
+Requires-Dist: resampy; extra == "non-framework"
+Requires-Dist: ffmpeg-python; extra == "non-framework"
+Requires-Dist: cma; extra == "non-framework"
+Requires-Dist: pandas; extra == "non-framework"
+Requires-Dist: librosa; extra == "non-framework"
+Requires-Dist: opencv-python; extra == "non-framework"
+Requires-Dist: pytest; extra == "non-framework"
+Requires-Dist: pytest-flake8; extra == "non-framework"
+Requires-Dist: pytest-mock; extra == "non-framework"
+Requires-Dist: pytest-cov; extra == "non-framework"
+Requires-Dist: codecov; extra == "non-framework"
+Requires-Dist: requests; extra == "non-framework"
+Requires-Dist: sortedcontainers; extra == "non-framework"
+Requires-Dist: numba; extra == "non-framework"
+
+
+#MSA Toolbox
+
+- For running, choose an one of one the config from 'cfgs' folder.
+- Each config has format 'config_activelearningname.yaml' where 'activelearningname' is the name of the active learning strategy.
+- IMPORTANT: Set the appropriate parameters in the config file.
+- To run the code, use the following command:
+```
+from msa_toolbox import main
+path = #path-to-the-config-file
+main.app(path)
+```
