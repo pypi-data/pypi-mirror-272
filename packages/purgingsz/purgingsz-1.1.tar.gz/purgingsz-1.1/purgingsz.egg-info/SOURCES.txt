@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+purgingsz/__init__.py
+purgingsz/main.py
+purgingsz.egg-info/PKG-INFO
+purgingsz.egg-info/SOURCES.txt
+purgingsz.egg-info/dependency_links.txt
+purgingsz.egg-info/requires.txt
+purgingsz.egg-info/top_level.txt
