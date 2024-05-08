@@ -1,0 +1,27 @@
+{
+  "template": "https://github.com/frankie567/cookiecutter-hipster-pypackage",
+  "commit": "8d08540791a735c0668f08b8025719728c7677f9",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Saikat Karmakar",
+      "email": "king.arthur@camelot.bt",
+      "github_username": "avik_saikat",
+      "project_name": "nipe_py",
+      "dist_name": "nipe_py",
+      "package_name": "nipe_py",
+      "project_short_description": "",
+      "repository_name": "avik_saikat/nipe_py",
+      "repository_url": "https://github.com/avik_saikat/nipe_py",
+      "docs_url": "https://avik_saikat.github.io/nipe_py/",
+      "open_source_license": "MIT license",
+      "python_version": "3.11",
+      "asyncio": "N",
+      "docs_icon": "material/library",
+      "docs_color_primary": "deep purple",
+      "docs_color_accent": "deep purple",
+      "_template": "https://github.com/frankie567/cookiecutter-hipster-pypackage"
+    }
+  },
+  "directory": null
+}
