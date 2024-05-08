@@ -1,0 +1,6 @@
+setup.py
+ridge_utils.egg-info/PKG-INFO
+ridge_utils.egg-info/SOURCES.txt
+ridge_utils.egg-info/dependency_links.txt
+ridge_utils.egg-info/requires.txt
+ridge_utils.egg-info/top_level.txt
