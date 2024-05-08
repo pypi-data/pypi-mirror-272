@@ -1,0 +1,12 @@
+h5tui/__init__.py,sha256=7apwKQACXccmc_Yh0wxzLcITMkh7WgUtRW6Ns3ZrlPQ,473
+h5tui/h5.py,sha256=taFCchfZi0RX0bPRBBBNJ0SSLTWvC2y3MxZPkU5rvKQ,7698
+h5tui/hdf5_tui.py,sha256=LTixlew7GayTw9r_My_BDnrHPTTiqiHHPFPUh_DowII,16302
+h5tui/hdf5_tui.tcss,sha256=lCO-wjOHrK1y8Bf4Vr1XOOwxomIPByYjM1T0MVw5cQs,674
+h5tui/plugin.py,sha256=U8tH7pC9A2WHZNTdCPh5ahPdQH3G-u6RfALlKoYAfe0,1141
+plugins/hex/__init__.py,sha256=x33YvqGHUftWv7w4caZYiACmBcvlfju5A5kFp9a6Xvw,2590
+plugins/image/__init__.py,sha256=KH4ODjZ4nNwV9VlSjmPk7CCwCNuWwhAYhAzEYwyU4f8,2500
+h5ui-0.1.10.dist-info/METADATA,sha256=2VQEuaqFVobgEUJvEX32NakUzxqh60fVw78V4Yrxt0w,1846
+h5ui-0.1.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+h5ui-0.1.10.dist-info/entry_points.txt,sha256=A69apEDeqb9wvHD--jyJLgEJEutvXngAVFUVkawXjdo,136
+h5ui-0.1.10.dist-info/top_level.txt,sha256=Dbj7qSo3hsdzMt_P4U5StIPgb1PhE2WhcV43XaNy2_Q,14
+h5ui-0.1.10.dist-info/RECORD,,
