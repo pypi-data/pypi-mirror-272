@@ -1,0 +1,4 @@
+[console_scripts]
+gocodeo-advanced = gocodeo.executable:advanced
+gocodeo-generate = gocodeo.executable:generate_tests_cli
+gocodeo-train = gocodeo.train:start
