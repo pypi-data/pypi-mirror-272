@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+skip-string-normalization = true
+
+[project]
+name = 'wbg-organization'
+version = '1.0.0'
+requires-python = '>=3.10'
+dependencies = [
+    'wbg-sharepoint >=1.0.0, <2.0.0',
+    'networkx',
+    'nltk',
+    'numpy',
+    'pandas',
+    'pyyaml',
+    'requests',
+    'termcolor',
+    'tqdm'
+]

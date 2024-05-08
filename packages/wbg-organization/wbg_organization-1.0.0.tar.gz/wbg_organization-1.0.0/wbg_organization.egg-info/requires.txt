@@ -1,0 +1,9 @@
+wbg-sharepoint<2.0.0,>=1.0.0
+networkx
+nltk
+numpy
+pandas
+pyyaml
+requests
+termcolor
+tqdm
