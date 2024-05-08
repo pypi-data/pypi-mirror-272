@@ -1,0 +1,120 @@
+from __future__ import annotations
+
+from tcsoa.gen.BusinessObjects import BusinessObject, RuntimeBusinessObject
+from tcsoa.gen.StructureManagement._2021_06.StructureSearch import ExpandOptions, SettingsMap, ExpandResponse
+from tcsoa.gen.StructureManagement._2021_06.Effectivity import GetEffectivitiesResponse
+from typing import List
+from tcsoa.gen.Server import ServiceData
+from tcsoa.base import TcService
+
+
+class StructureSearchService(TcService):
+
+    @classmethod
+    def nextExpandBOMLines(cls, pageSize: int, expandOptions: ExpandOptions, expandCursor: BusinessObject) -> ExpandResponse:
+        """
+        This operation gets the next set of objects from a previously executed expansion result. The results returned
+        are based on the pageSize specified in the input. This API returns the same response structure as that of
+        startExpandBOMLines.
+        
+        Use cases:
+        This API is used in conjunction with startExpandBOMLines operation. startExpandBOMLines operation is a
+        prerequisite for invoking nextExpandBOMLines. The expand cursor returned by the startExpandBOMLines is used to
+        call nextExpandBOMLines operation. This operation could be called repeatedly by the caller, until all the
+        expansion results are returned.
+        """
+        return cls.execute_soa_method(
+            method_name='nextExpandBOMLines',
+            library='StructureManagement',
+            service_date='2021_06',
+            service_name='StructureSearch',
+            params={'pageSize': pageSize, 'expandOptions': expandOptions, 'expandCursor': expandCursor},
+            response_cls=ExpandResponse,
+        )
+
+    @classmethod
+    def startExpandBOMLines(cls, bomLines: List[RuntimeBusinessObject], expandSettings: SettingsMap, pageSize: int, expandOptions: ExpandOptions) -> ExpandResponse:
+        """
+        This operation initiates a sequence of operations to expand BOMLine objects based on  filter information on
+        BOMWindow and returns a list of BOMLine objects. Filter information could be a complex expression set that
+        combines multiple simpler Expand terms in a logical sequence. 
+        Expansion is always executed within the scope of a BOMWindow under one or more BOMLine objects. 
+        The results of an expansion are returned one set at a time based on the pageSize. The ExpandResponse also
+        contains a Cursor object that the caller uses to expand the next set of results by invoking the
+        StructureManagement::StructureSearch::nextExpandBOMLines call.
+        
+        Use cases:
+        1.    Expand all lines of a structure page by page by setting levels to 0 (expand all levels) and pageSize is
+        100. The operation will return the result breadth first.
+        2.    Expand all lines of a structure by setting levels to 0 (expand all levels) and pageSize is 0.
+        3.    Expand all child lines of a list of lines by setting level to 1 and pageSize is 100.
+        4.    Expand all child lines from the structure based on the given pageSize.
+        The returned childlines may or may not contain specific datasets. For example, if dataset information is
+        specified - dataset relation is IMAN_reference and dataset type is Text then the response will contain the
+        specified datasets (if there are any). 
+        5.    Expand the child lines from the structure given the page size. The dataset information contains the
+        minimum number of dataset objects to be returned. For example, dataset relation is given as IMAN_reference,
+        dataset type is Text, expandRelatedObjects is 1 and min datasets to be returned is set to 10. In this case, the
+        response will contain only 10 specified datasets.
+        6.     Expand the child lines from the structure given the page size. When dataset information specify the
+        dataset relation and dataset type. In this case, the response will contain 0 datasets.
+        7.    Expand the child lines defined by the Expand criteria (Expand criteria given in the BOM window) given the
+        page size.
+        """
+        return cls.execute_soa_method(
+            method_name='startExpandBOMLines',
+            library='StructureManagement',
+            service_date='2021_06',
+            service_name='StructureSearch',
+            params={'bomLines': bomLines, 'expandSettings': expandSettings, 'pageSize': pageSize, 'expandOptions': expandOptions},
+            response_cls=ExpandResponse,
+        )
+
+    @classmethod
+    def stopExpandBOMLines(cls, expandCursor: BusinessObject) -> ServiceData:
+        """
+        This operation stops further loading of objects from a previously executed expansion and clears all the memory
+        allocated for the expansion operation. The expand cursor is deleted and the list of objects that are kept track
+        by the expand cursor are removed from the server memory.
+        The stopExpandBomlines does not unload any previously loaded objects. Also there is no locking or unlocking
+        performed by the stopExpandBOMLines operation.
+        
+        Use cases:
+        When an expansion is executed in structure and the expansion returns a large set of objects. The server process
+        keeps the results of a expansion using a expand cursor object. At each nextExpandBOMLines operation, the
+        results are further filtered and returned in batches specified by the load count. However, if the caller is not
+        interested in consuming the expansion results further, then a stopExpandBOMLines could be called to release all
+        the resources allocated for that expansion operation. This includes dropping the runtime expand cursor object
+        and the list of lines kept track by the cursor. The cursor will be automatically deleted if it is exhausted.
+        """
+        return cls.execute_soa_method(
+            method_name='stopExpandBOMLines',
+            library='StructureManagement',
+            service_date='2021_06',
+            service_name='StructureSearch',
+            params={'expandCursor': expandCursor},
+            response_cls=ServiceData,
+        )
+
+
+class EffectivityService(TcService):
+
+    @classmethod
+    def getEffectivities(cls, inputObjects: List[BusinessObject]) -> GetEffectivitiesResponse:
+        """
+        This operation retrieves effectivity for given input objects. Based on the underlying storage model, it returns
+        the effectivity information either as a list of Effectivity objects or a list of effectivity expression data
+        
+        Use cases:
+        User can read effectivity information stored on selected BOMLine or ItemRevision. User can display retrieved
+        effectivity information and subsequently edit using operations like
+        Teamcenter::Soa::StructureManagement::_2015_10::editOccurrenceEffectivity.
+        """
+        return cls.execute_soa_method(
+            method_name='getEffectivities',
+            library='StructureManagement',
+            service_date='2021_06',
+            service_name='Effectivity',
+            params={'inputObjects': inputObjects},
+            response_cls=GetEffectivitiesResponse,
+        )
