@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fbee7df-bfbf-4326-aa56-dc3a718f551b" name="Changes" comment="Fix missing certificates for download" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2g5sXLf8F18eSiUiNloeaQqPaCM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/gaha/workspace/python/playsound3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings custom-start-script="%load_ext autoreload&#10;%autoreload 2&#10;&#10;import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;" module-name="playsound3" is-module-sdk="true">
+        <option name="myCustomStartScript" value="%load_ext autoreload&#10;%autoreload 2&#10;&#10;import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;" />
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="playsound3" />
+      </console-settings>
+    </option>
+    <option name="myShowVariablesByDefault" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/devel" />
+      <recent name="$PROJECT_DIR$/playsound2" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fbee7df-bfbf-4326-aa56-dc3a718f551b" name="Changes" comment="" />
+      <created>1714998812773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714998812773</updated>
+      <workItem from="1714998813807" duration="5416000" />
+      <workItem from="1715004716181" duration="5329000" />
+      <workItem from="1715014531807" duration="3424000" />
+      <workItem from="1715028902191" duration="292000" />
+      <workItem from="1715029948125" duration="587000" />
+      <workItem from="1715030546044" duration="41000" />
+      <workItem from="1715030697321" duration="9000" />
+      <workItem from="1715035744281" duration="106000" />
+      <workItem from="1715035857578" duration="3880000" />
+      <workItem from="1715073679361" duration="4093000" />
+    </task>
+    <task id="LOCAL-00001" summary="Clearing up the structure">
+      <option name="closed" value="true" />
+      <created>1714999313464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714999313464</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove some README sections">
+      <option name="closed" value="true" />
+      <created>1714999377033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714999377033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Separate source code">
+      <option name="closed" value="true" />
+      <created>1714999976248</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714999976248</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactoring the main file">
+      <option name="closed" value="true" />
+      <created>1715001862807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715001862807</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update requirements">
+      <option name="closed" value="true" />
+      <created>1715003173317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715003173317</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add back Windows support">
+      <option name="closed" value="true" />
+      <created>1715004151981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715004151982</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Typo">
+      <option name="closed" value="true" />
+      <created>1715004758764</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715004758764</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Remove licensing information from README">
+      <option name="closed" value="true" />
+      <created>1715004972498</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715004972498</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix import">
+      <option name="closed" value="true" />
+      <created>1715006555283</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715006555283</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix OSX version">
+      <option name="closed" value="true" />
+      <created>1715015970445</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715015970445</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Remove additional files">
+      <option name="closed" value="true" />
+      <created>1715015982231</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715015982231</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fix setup.py">
+      <option name="closed" value="true" />
+      <created>1715016251549</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715016251549</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update documentation">
+      <option name="closed" value="true" />
+      <created>1715016926338</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715016926338</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Release 2.0.0">
+      <option name="closed" value="true" />
+      <created>1715017032333</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715017032333</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add badges">
+      <option name="closed" value="true" />
+      <created>1715017178649</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715017178649</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Bump version for release">
+      <option name="closed" value="true" />
+      <created>1715017208426</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715017208426</updated>
+    </task>
+    <task id="LOCAL-00017" summary="README typo">
+      <option name="closed" value="true" />
+      <created>1715017344053</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715017344053</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Importing changes">
+      <option name="closed" value="true" />
+      <created>1715017614283</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715017614283</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Remove mentions of supporting web files">
+      <option name="closed" value="true" />
+      <created>1715017778386</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1715017778386</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fix typing error">
+      <option name="closed" value="true" />
+      <created>1715029081242</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1715029081242</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Clear up the license">
+      <option name="closed" value="true" />
+      <created>1715030476646</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1715030476646</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add short description">
+      <option name="closed" value="true" />
+      <created>1715035847548</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1715035847548</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Change case">
+      <option name="closed" value="true" />
+      <created>1715035904774</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715035904774</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add support for URL files">
+      <option name="closed" value="true" />
+      <created>1715038575990</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1715038575990</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add support for URL files">
+      <option name="closed" value="true" />
+      <created>1715038598510</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715038598510</updated>
+    </task>
+    <task id="LOCAL-00026" summary="isort and black formatting">
+      <option name="closed" value="true" />
+      <created>1715038636110</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1715038636110</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Restore python 3.7 compatibility">
+      <option name="closed" value="true" />
+      <created>1715039900731</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1715039900731</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Change to packaging system to pyproject.toml">
+      <option name="closed" value="true" />
+      <created>1715075015844</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1715075015844</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updating legacy download function">
+      <option name="closed" value="true" />
+      <created>1715076338617</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1715076338617</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fix missing certificates for download">
+      <option name="closed" value="true" />
+      <created>1715077928155</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1715077928155</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update requirements" />
+    <MESSAGE value="Add back Windows support" />
+    <MESSAGE value="Typo" />
+    <MESSAGE value="Remove licensing information from README" />
+    <MESSAGE value="Fix import" />
+    <MESSAGE value="Fix OSX version" />
+    <MESSAGE value="Remove additional files" />
+    <MESSAGE value="Fix setup.py" />
+    <MESSAGE value="Update documentation" />
+    <MESSAGE value="Release 2.0.0" />
+    <MESSAGE value="Add badges" />
+    <MESSAGE value="Bump version for release" />
+    <MESSAGE value="README typo" />
+    <MESSAGE value="Importing changes" />
+    <MESSAGE value="Remove mentions of supporting web files" />
+    <MESSAGE value="Fix typing error" />
+    <MESSAGE value="Clear up the license" />
+    <MESSAGE value="Add short description" />
+    <MESSAGE value="Change case" />
+    <MESSAGE value="Add support for URL files" />
+    <MESSAGE value="isort and black formatting" />
+    <MESSAGE value="Restore python 3.7 compatibility" />
+    <MESSAGE value="Change to packaging system to pyproject.toml" />
+    <MESSAGE value="Updating legacy download function" />
+    <MESSAGE value="Fix missing certificates for download" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix missing certificates for download" />
+  </component>
+</project>
