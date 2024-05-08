@@ -1,0 +1,4 @@
+[console_scripts]
+cylindra=cylindra.__main__:main
+[napari.manifest]
+cylindra=cylindra:napari.yaml
