@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "fastapi-jwt-auth-v2"
+version = "0.1.2"
+description = ""
+authors = ["Daniel Chico <chico@generalsoftwareinc.com>"]
+readme = "README.md"
+packages = [
+    { include = "fastapi_jwt_auth" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+pyjwt = "^2.8.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.29.0"
+cryptography = "^42.0.7"
+pydantic-settings = "^2.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
