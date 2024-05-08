@@ -1,0 +1,7 @@
+setup.py
+pygetindia/__init__.py
+pygetindia/pygetindia.py
+pygetindia.egg-info/PKG-INFO
+pygetindia.egg-info/SOURCES.txt
+pygetindia.egg-info/dependency_links.txt
+pygetindia.egg-info/top_level.txt
