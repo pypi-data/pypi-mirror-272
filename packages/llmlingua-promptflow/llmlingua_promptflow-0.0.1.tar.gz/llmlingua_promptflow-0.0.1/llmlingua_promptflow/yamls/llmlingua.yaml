@@ -1,0 +1,22 @@
+llmlingua_promptflow.tools.llmlingua.prompt_compress:
+  function: prompt_compress
+  inputs:
+    prompt:
+      type:
+      - string
+    myconn:
+      type:
+      - CustomConnection
+    rate:
+      type:
+      - double
+  module: llmlingua_promptflow.tools.llmlingua
+  name: LLMLingua Prompt Compression Tool
+  description: To speed up LLMs' inference and enhance LLM's perceive of key information, compress the prompt and KV-Cache, which achieves up to 20x compression with minimal performance loss.
+  type: python
+  tags:
+    tag1: Prompt Compression
+    tag2: LLMs
+    tag3: Inference Acceleration
+    tag4: Black-box LLMs
+    tag5: Efficient LLMs
