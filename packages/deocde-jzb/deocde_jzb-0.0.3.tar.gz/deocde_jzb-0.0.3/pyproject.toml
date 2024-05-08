@@ -1,0 +1,18 @@
+[project]
+name = "deocde_jzb"
+version = "0.0.3"
+authors = [
+  { name="Menachem Kornreich", email="menachemkornreich@gmail.com" },
+]
+description = "A tiny Python program for decoding a jzb string"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mkornreich/jzb"
+Issues = "https://github.com/mkornreich/jzb/issues"
