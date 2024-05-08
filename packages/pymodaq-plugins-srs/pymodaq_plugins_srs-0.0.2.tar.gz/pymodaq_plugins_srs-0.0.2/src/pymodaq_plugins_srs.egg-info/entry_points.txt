@@ -1,0 +1,5 @@
+[pymodaq.instruments]
+srs = pymodaq_plugins_srs
+
+[pymodaq.plugins]
+srs = pymodaq_plugins_srs
