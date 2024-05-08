@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+moosewoodz/__init__.py
+moosewoodz/main.py
+moosewoodz.egg-info/PKG-INFO
+moosewoodz.egg-info/SOURCES.txt
+moosewoodz.egg-info/dependency_links.txt
+moosewoodz.egg-info/requires.txt
+moosewoodz.egg-info/top_level.txt
