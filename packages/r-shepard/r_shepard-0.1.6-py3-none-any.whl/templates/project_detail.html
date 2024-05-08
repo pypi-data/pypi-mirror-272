@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="header-line">
+    <h1>{{ project.name }}</h1>
+    <a role="button" href="{% url 'admin:api_project_change' project.id %}">Edit</a>
+  </div>
+  <div>
+    <strong class="project-info">Data Path</strong><code>{{ project.data_path }}</code>
+  </div>
+  <small id="password-helper">
+    This is where the data for the project is stored. It's mounted read-only in the containers at <code>/data</code>.
+  </small>
+  <div>
+    <strong class="project-info">Workspace Path</strong><code>{{ project.workspace_path }}</code>
+  </div>
+  <small id="password-helper">
+    This is where the code for the project is stored. It's mounted read-write in the containers at <code>/root/workspace</code>.
+  </small>
+  <div>
+    <strong class="project-info">Maximum RAM for all containers:</strong> {{ project.max_ram }} GB
+  </div>
+  <div>
+    <strong>Maximum number of CPUs for all containers:</strong> {{ project.max_cpus }}
+  </div>
+  <hr />
+  <div class="header-line">
+    <h2>Containers</h2>
+  </div>
+  <!-- Form to create a new container -->
+  <form action="{% url 'create_container' project.pk %}" method="post">
+    {% csrf_token %}
+    <fieldset role="group">
+      <input placeholder="Enter RAM for container"
+             type="number"
+             id="ram"
+             name="ram"
+             aria-label="RAM"
+             required
+             min="1"
+             max="{{ project.max_ram }}"
+             step="1">
+      <input placeholder="Enter CPUs for container"
+             type="number"
+             id="cpus"
+             name="cpus"
+             aria-label="CPUs"
+             required
+             min="1"
+             max="{{ project.max_cpus }}"
+             step="1">
+    </fieldset>
+    <fieldset role="group">
+      <input placeholder="Enter password for RStudio"
+             type="password"
+             id="password"
+             name="password"
+             aria-label="Password"
+             required>
+      <button type="submit">Create</button>
+    </fieldset>
+    <small id="password-helper">
+      Here, you can create a new container. Please store the password securely, as
+      even administrators won't be able to recover it. The user is always <code>root</code>
+    </small>
+  </form>
+  <!-- Container list -->
+  {% include 'container_list.html' %}
+  <!-- Footer -->
+  <hr>
+  <footer>
+    <ul>
+      <!-- Go back to Projects -->
+      <li>
+        <a href="{% url 'project_list' %}">Back to project list</a>
+      </li>
+    </ul>
+  </footer>
+{% endblock %}

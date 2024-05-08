@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+    <hgroup class="container-title">
+        <h1>Projects</h1>
+        <p>This is a list of all running projects you have access to</p>
+    </hgroup>
+    {% for project in projects %}
+        <a href="{% url 'project_detail' pk=project.pk %}">
+            <article>
+                <h4>{{ project.name }}</h4>
+            </article>
+        </a>
+    {% empty %}
+        <li class="info-pill">No projects available.</li>
+    {% endfor %}
+    {% if user.is_staff %}
+        <a role="button"
+           class="action-button"
+           href="{% url 'admin:api_project_add' %}">Create new</a>
+    {% endif %}
+    <hr>
+    {% if user.is_staff %}
+        <a role="button" href="{% url 'admin:index' %}">Go to admin page</a>
+    {% endif %}
+{% endblock %}
