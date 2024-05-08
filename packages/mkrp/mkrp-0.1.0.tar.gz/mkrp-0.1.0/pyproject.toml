@@ -1,0 +1,97 @@
+[tool.poetry]
+name = "mkrp"
+version = "0.1.0"
+description = " A CLI to generate utils files for new projects."
+authors = ["Henrique Sebastião <contato@henriquesebastiao.com>"]
+readme = "README.md"
+packages = [{include = "mkrp"}]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Telecommunications Industry",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.urls]
+"Documentation" = "https://mkrp.henriquesebastiao.com"
+"Homepage" = "https://mkrp.henriquesebastiao.com"
+"Repository" = "https://github.com/henriquesebastiao/mkrp"
+"Bug Tracker" = "https://github.com/henriquesebastiao/mkrp/issues"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = {extras = ["all"], version = "^0.12.3"}
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.12.2"
+blue = "^0.9.1"
+ruff = "^0.4.3"
+isort = "^5.13.2"
+mypy = "^1.10.0"
+pydocstyle = "^6.3.0"
+radon = {extras = ["toml"], version = "^6.0.1"}
+bandit = {extras = ["toml"], version = "^1.7.8"}
+ignr = "^2.2"
+pytest = "^8.2.0"
+pytest-cov = "^5.0.0"
+coverage-badge = "^1.1.1"
+setuptools = "^69.5.1"
+
+[tool.poetry.scripts]
+mkrp = "mkrp.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+ignore_missing_imports = true
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+pythonpath = "."
+python_files = "test.py tests.py test_*.py tests_*.py *_test.py *_tests.py"
+
+[tool.coverage.run]
+source = [
+    "mkrp",
+]
+omit = [
+    "/tests/*",
+]
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.ruff]
+line-length = 79
+indent-width = 4
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F403", "F401"]
+"tests/*" = ["F401", "F811"]
+
+[tool.taskipy.tasks]
+ruff = "ruff check ."
+blue = "blue --check ./mkrp/cli.py --diff"
+isort = "isort --check --diff ."
+mypy = "mypy -p mkrp"
+radon = "radon cc ./mkrp -a -na"
+bandit = "bandit -r ./mkrp"
+pydocstyle = "pydocstyle ./mkrp --count --convention=google --add-ignore=D100,D104,D105,D107"
+lint = "task ruff && task blue && task isort"
+format = 'blue ./mkrp/cli.py  && isort .'
+docs = "mkdocs serve"
+quality = "task mypy && task radon && task pydocstyle"
+badge = "coverage-badge -o img/coverage.svg -f"
+pre_test = "task lint"
+test = "pytest -s -x --cov=mkrp -vv"
+post_test = "coverage html"
+export-requirements = "rm requirements.txt && poetry export -f requirements.txt --output requirements.txt --without-hashes"
+export-requirements-doc = "poetry export -f requirements.txt --output docs/requirements.txt --without-hashes --only doc"
+ready = "task lint && task quality && task bandit && pytest -s -x --cov=mkrp -vv && coverage html && task export-requirements && task export-requirements-doc && task badge"
