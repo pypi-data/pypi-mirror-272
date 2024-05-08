@@ -1,0 +1,4 @@
+Requests
+parsel
+loguru
+fake_useragent
