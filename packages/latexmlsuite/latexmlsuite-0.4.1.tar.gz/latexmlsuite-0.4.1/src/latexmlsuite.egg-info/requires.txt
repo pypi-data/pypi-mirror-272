@@ -1,0 +1,27 @@
+cbsplotlib
+colorama
+matplotlib
+pandas
+path
+PyYAML
+seaborn
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+black
+setuptools
+setuptools_scm
+wheel
+tox
+pytest
+pytest-pep8
+pytest-cov
+
+[testing]
+setuptools
+pytest
+pytest-pep8
+pytest-cov
+tox

@@ -1,0 +1,7 @@
+cbsplotlib
+colorama
+matplotlib
+pandas
+path
+PyYAML
+seaborn

@@ -1,0 +1,17 @@
+# maak de kopij aan de hand van deze settings door te runnen:
+# latex2ccn
+general:
+  latex_main: main.tex
+  bibtex_file: references.bib
+  output_filename: voorbeeld_cbs_publicatie.pdf
+  ccn_output_directory: ccn
+  merge_html: false
+makefiles:
+  - "figures/iris"
+  - "tables" 
+postscripts:
+  - "figures/iris/sync_htmls.ps1"
+  - "figures/iris_via_hc/sync_htmls.ps1"
+cache:
+  output_directory: out
+  output_html_directory: out_html
