@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spikeweedz/__init__.py
+spikeweedz/main.py
+spikeweedz.egg-info/PKG-INFO
+spikeweedz.egg-info/SOURCES.txt
+spikeweedz.egg-info/dependency_links.txt
+spikeweedz.egg-info/requires.txt
+spikeweedz.egg-info/top_level.txt
