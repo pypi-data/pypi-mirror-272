@@ -1,0 +1,2 @@
+[console_scripts]
+import-checker = import_checker.cli:main
