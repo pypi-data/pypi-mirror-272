@@ -1,0 +1,9 @@
+README.md
+licence.txt
+setup.py
+python_goto/__init__.py
+python_goto/goto.py
+python_goto.egg-info/PKG-INFO
+python_goto.egg-info/SOURCES.txt
+python_goto.egg-info/dependency_links.txt
+python_goto.egg-info/top_level.txt
