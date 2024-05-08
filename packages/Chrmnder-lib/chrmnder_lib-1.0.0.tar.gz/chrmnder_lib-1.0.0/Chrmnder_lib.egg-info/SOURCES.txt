@@ -1,0 +1,10 @@
+README.md
+setup.py
+Chrmnder_lib/__init__.py
+Chrmnder_lib/pokemon.csv
+Chrmnder_lib/random_pokemon.py
+Chrmnder_lib.egg-info/PKG-INFO
+Chrmnder_lib.egg-info/SOURCES.txt
+Chrmnder_lib.egg-info/dependency_links.txt
+Chrmnder_lib.egg-info/requires.txt
+Chrmnder_lib.egg-info/top_level.txt
