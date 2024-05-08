@@ -1,0 +1,114 @@
+[project.urls]
+"Homepage" = "OCXStandard/ocx-common"
+"Bug Tracker" = "OCXStandard/ocx-common/issues"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "ocx_common"
+version = "0.3.0"
+description = "A python package with common classes and functions used across several projects"
+authors = ["Ole Christian Astrup <ole.christianastrup@dnv.com>"]
+readme = "README.md"
+packages = [{include = "ocx_common"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+packaging = "^23.1"
+tbump = '*'
+loguru = "*"
+
+
+[tool.poetry.group.development.dependencies]
+pre-commit = "*"
+sourcery = '*'
+flake8-pyproject ="*"
+poetry-plugin-export = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+pytest-cov = "*"
+pytest-regressions ="*"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "*"
+sphinx-autodoc-typehints = "*"
+sphinx_rtd_theme = "*"
+sphinx-click = "*"
+sphinx_automodapi = "*"
+
+[tool.flake8]
+# Check that this is aligned with your other tools like Black
+max-line-length = 120
+exclude = [
+    # No need to traverse our git directory
+    ".git",
+    # There's no value in checking cache directories
+    "__pycache__"
+]
+# Use extend-ignore to add to already ignored checks which are anti-patterns like W503.
+extend-ignore = [
+    # PEP 8 recommends to treat : in slices as a binary operator with the lowest priority, and to leave an equal
+    # amount of space on either side, except if a parameter is omitted (e.g. ham[1 + 1 :]).
+    # This behaviour may raise E203 whitespace before ':' warnings in style guide enforcement tools like Flake8.
+    # Since E203 is not PEP 8 compliant, we tell Flake8 to ignore this warning.
+    # https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html#slices
+    "E203"
+]
+
+[tool.tbump]
+# Uncomment this if your project is hosted on GitHub:
+github_url = "OCXStandard/ocx-common"
+
+[tool.tbump.version]
+current = "0.3.0"
+
+# Example of a semver regexp.
+# Make sure this matches current_version before using tbump
+regex = '''
+  (?P<major>\d+)
+  \.
+  (?P<minor>\d+)
+  \.
+  (?P<patch>\d+)
+  (
+    (?P<extra>.+)
+  )?
+  '''
+
+
+[[tool.tbump.field]]
+# the name of the field
+name = "extra"
+# the default value to use, if there is no match
+default = ""
+
+[tool.tbump.git]
+message_template = "Bump to {new_version}"
+tag_template = "v{new_version}"
+
+# For each file to patch, add a [[tool.tbump.file]] config
+# section containing the path of the file, relative to the
+# tbump.toml location.
+
+[[tool.tbump.file]]
+src = "pyproject.toml"
+
+[[tool.tbump.file]]
+src = "./ocx_common/__init__.py"
+
+[[tool.tbump.file]]
+src = "./docs/conf.py"
+
+# You can specify a list of commands to
+# run after the files have been patched
+# and before the git commit is made
+
+# Or run some commands after the git tag and the branch
+# have been pushed:
+# [[tool.tbump.after_push]]
+# name = "build"
+# cmd = "poetry build"
