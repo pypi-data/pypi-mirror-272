@@ -1,0 +1,15 @@
+click
+PyYAML
+tqdm
+
+[:python_version < "3.9"]
+importlib_resources
+
+[lint]
+flake8==4.0.1
+black==22.3.0
+isort==5.10.1
+
+[test]
+pytest==6.2.5
+pytest-mock==3.4.0
