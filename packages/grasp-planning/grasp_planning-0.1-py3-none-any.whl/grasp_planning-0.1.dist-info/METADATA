@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: grasp-planning
+Version: 0.1
+Summary: Grasp and Motion Planning Python Package
+Home-page: UNKNOWN
+Author: Tomas Merva
+Author-email: tmerva7@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: casadi (==3.6.5)
+Requires-Dist: forwardkinematics (==1.2.1)
+Requires-Dist: scipy (==1.10.1)
+Requires-Dist: spatial-casadi (==1.1.0)
+
+Grasp and Motion Planning Python Package
+
+
