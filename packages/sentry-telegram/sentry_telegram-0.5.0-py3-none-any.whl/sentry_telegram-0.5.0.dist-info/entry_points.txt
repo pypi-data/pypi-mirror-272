@@ -1,0 +1,2 @@
+[sentry.plugins]
+sentry_telegram = sentry_telegram.plugin:TelegramNotificationsPlugin
