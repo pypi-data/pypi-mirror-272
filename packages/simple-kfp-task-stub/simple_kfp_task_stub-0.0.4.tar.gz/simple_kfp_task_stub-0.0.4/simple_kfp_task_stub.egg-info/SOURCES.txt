@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+simple_kfp_task/__init__.py
+simple_kfp_task/task.py
+simple_kfp_task_stub.egg-info/PKG-INFO
+simple_kfp_task_stub.egg-info/SOURCES.txt
+simple_kfp_task_stub.egg-info/dependency_links.txt
+simple_kfp_task_stub.egg-info/top_level.txt
