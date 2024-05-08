@@ -1,0 +1,3 @@
+[console_scripts]
+debby=debby.__main__:main
+
