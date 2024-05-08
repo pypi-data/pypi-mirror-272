@@ -1,0 +1,8 @@
+gsapme/__init__.py,sha256=7Ja8GzAch3ttw5dZLvBk1aC9EA2WREXKNf8Q8PGzsyg,274
+gsapme/analysis.py,sha256=yVmY2d5W2I6HWiWDEfTCMfYPyxverp5pe1FCaqtTctM,3952
+gsapme/covariance.py,sha256=2Jp8vhIfSSZkWIqggDdn9bW9BHO1OLnuE8z60GlLDnc,897
+gsapme/models.py,sha256=Nv0NVkb09wzxMuW_NkxgYTO-HcuR0t6Zj7cXRGHPeC4,788
+gsapme/simulation.py,sha256=DADz_akUK2kgpT1eI-yb41Bxa9nqxSQapQbMr4fhJgM,2658
+gsapme-0.1.1.dist-info/METADATA,sha256=PSRSPEsbDR58ExDbk1O_xWNSy3czzpx3CIbHTL1KQuI,1086
+gsapme-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gsapme-0.1.1.dist-info/RECORD,,
