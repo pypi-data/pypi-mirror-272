@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dabstersz/__init__.py
+dabstersz/main.py
+dabstersz.egg-info/PKG-INFO
+dabstersz.egg-info/SOURCES.txt
+dabstersz.egg-info/dependency_links.txt
+dabstersz.egg-info/requires.txt
+dabstersz.egg-info/top_level.txt
