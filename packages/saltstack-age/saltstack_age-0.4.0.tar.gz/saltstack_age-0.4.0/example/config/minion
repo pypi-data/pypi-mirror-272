@@ -1,0 +1,12 @@
+root_dir: run
+file_client: local
+file_roots:
+  base:
+    - ./states
+pillar_roots:
+  base:
+    - ./pillar
+
+age_identity_file: ./config/age.key
+
+# vim: ft=yaml
