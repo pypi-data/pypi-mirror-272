@@ -1,0 +1,6 @@
+langevals_huggingface/bert_f1.py,sha256=e8ukDkrhdeWFGp2S5Y3gLfxlElaHLJEBXRoQwcbGT8E,1768
+langevals_huggingface/bert_precision.py,sha256=RxmmNydQtwfOmmwj9HOk3srLDPoeLdYC8GfDRhNMi3k,1876
+langevals_huggingface/bert_recall.py,sha256=sNl4LR_KBgod1TUyoXuPgjQituFqlPWvLfXkBDBjUa8,2082
+langevals_huggingface-0.1.2.dist-info/METADATA,sha256=hcpxvABmxVvybaXFXilgJZisGDw0cshV1WumJeW4ma8,671
+langevals_huggingface-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+langevals_huggingface-0.1.2.dist-info/RECORD,,
