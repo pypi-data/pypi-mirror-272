@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+honorariumsz/__init__.py
+honorariumsz/main.py
+honorariumsz.egg-info/PKG-INFO
+honorariumsz.egg-info/SOURCES.txt
+honorariumsz.egg-info/dependency_links.txt
+honorariumsz.egg-info/requires.txt
+honorariumsz.egg-info/top_level.txt
