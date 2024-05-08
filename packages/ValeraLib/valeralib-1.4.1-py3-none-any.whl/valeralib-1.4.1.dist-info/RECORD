@@ -1,0 +1,12 @@
+ValeraLib/Binance.py,sha256=Bs3ghSDp-0oTSNgGvV-MA81-6o8BLfz8cQlBihvwwE0,6524
+ValeraLib/DataScience.py,sha256=8QNb-P4SuYhI4fNWWsbCbfgyu68sZ-kqXabNe0oI6-I,3720
+ValeraLib/Valera.py,sha256=z4UJphrpl0zrXjNHYcM6Wshm8KZltIFqQBTQpxhvoNY,7251
+ValeraLib/__init__.py,sha256=_kb22X3XZ6JcYuGD4svdqAG8TBIby791D7oHjRtg96g,402
+ValeraLib/prelude.py,sha256=_wrnU6NHb_XgeEA5GjhjPXRsnRX_5WPnyryFXt_9z4s,216
+ValeraLib/utils/DuckTypes.py,sha256=SxpDpR73JmQmIEB1GT3ZYFQV6eRuFqdDeauk69wXAs8,7883
+ValeraLib/utils/Notification.mp3,sha256=APcX1wk9f2YVaEZSGnBtOZNkt7ybgbtyrTIkh5vsQbA,6587
+ValeraLib/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ValeraLib/utils/rust_types.py,sha256=KOLeWLqMavtH_AGscd8PdSa0wRDhAYAVoLkGUvgD1po,8688
+valeralib-1.4.1.dist-info/METADATA,sha256=8zYmdMeWKBHbUeE8qy1TFJMnzcNj-zYOw6trPQiQvHo,1449
+valeralib-1.4.1.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+valeralib-1.4.1.dist-info/RECORD,,
