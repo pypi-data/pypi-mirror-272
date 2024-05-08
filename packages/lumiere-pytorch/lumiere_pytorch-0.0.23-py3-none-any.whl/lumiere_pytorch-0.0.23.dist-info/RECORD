@@ -1,0 +1,8 @@
+lumiere_pytorch/__init__.py,sha256=7fSqz9sOAkzRSJdxa2DhFRnlerIkwYSdrLP5Y3l6u5Q,363
+lumiere_pytorch/lumiere.py,sha256=nK9nYIMn-RhNzGDqiNTnrJ5EU5HdcgZDqQz5gI4YU_A,17573
+lumiere_pytorch/mp_lumiere.py,sha256=DqKAGwg5_n6ITg1COPAcm4gYW3Bpwzti8e3r3i3k7F4,11301
+lumiere_pytorch-0.0.23.dist-info/LICENSE,sha256=E7RGS7kpJIStk5za_-4DVhWEAamf65EU0CNML25mq4c,1066
+lumiere_pytorch-0.0.23.dist-info/METADATA,sha256=67i3fA7wHtwHu0Nuo2MGG7lY8NXkASvpEYI9NdB43lg,717
+lumiere_pytorch-0.0.23.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lumiere_pytorch-0.0.23.dist-info/top_level.txt,sha256=BKglghcnq5dnn0xcrYHEgQsQb9mHMQerH2Z9CHghyPo,16
+lumiere_pytorch-0.0.23.dist-info/RECORD,,
