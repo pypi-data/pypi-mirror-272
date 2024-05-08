@@ -1,0 +1,4492 @@
+[33mf4414964[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m fixes fault_log
+[33m81a143f3[m harden MQTT transport from offline/online
+[33maa2e91ef[m better log messages
+[33md48aea28[m tweak when logging info msg
+[33m9cef8980[m doctweak
+[33m4b81931c[m allow more signature retries
+[33m259b9327[m entities only store some pkts
+[33m416adf8a[m doctweak
+[33m3d48b213[m doctweak
+[33m097e8a4d[m use pyserial-asyncio if present
+[33md7319c36[m bugfix deprecated kwargs
+[33m4b1d5680[m reduce logspam when checking known_list for HGI
+[33m75be0a27[m tweak
+[33m28ab5381[m mypy
+[33m20be93b6[m bump to 0.31.20
+[33mc073947d[m harden checks
+[33m3deafe67[m bug fix
+[33m962f0868[m bugfix pkt expiry for 3220
+[33m19856cc4[m doctweak
+[33m5493e6cf[m lint, mypy
+[33m449a23d8[m mypy
+[33m9688bba6[m mypy
+[33meed49829[m mypy
+[33m0bc7550b[m mypy
+[33m30f0cceb[m add typed-dict to schedules
+[33mbd6ac1b1[m doctweak
+[33m0613d583[m mypy
+[33m80f351c6[m mypy
+[33mb4813410[m mypy
+[33m595e726d[m undo unwanted change
+[33m69c7e14d[m mypy, tweak 1030
+[33m12a7248c[m tweak 1260
+[33maab639cb[m refactoring, mypy
+[33mb00995f5[m lint
+[33m226bc759[m fix bugs
+[33m44e6eb75[m doctweak
+[33m1dec8259[m fix a bug when no log
+[33m882c89c7[m mypy
+[33m481c14ce[m typo
+[33m8a38cf45[m mypy
+[33me83e41c8[m add guard check for ZZZ project
+[33m7c439768[m add name() getter from ZZZ project
+[33mb2291e1c[m add assert to tests for ZZZ project
+[33m95cad94b[m update dependencies
+[33m60cc7a64[m bugfix regression
+[33m85746e17[m add ._zzz attrs to Base classes, fixes
+[33mcb985703[m bugfix
+[33m564ad63b[m rename symbol
+[33m1458890e[m add test suite
+[33m41f3a6d4[m binding test, mypy
+[33m655cb192[m mypy work
+[33me546a466[m mypy no-any-return
+[33m41364206[m mypy call defs
+[33m6cce04c4[m temp fix for R/O protocols
+[33m24e166ba[m doctweak
+[33m718a798a[m doctweak
+[33mc634e989[m mypy work
+[33m8bc79de1[m Refactor methods wrapping Command.set_*
+[33m6b7b2b02[m Deprecate Zone.name setter
+[33mcf793575[m HomogeniseFaked  Command.put_* via setters
+[33m5494532c[m tweak error message
+[33mba2798d7[m tidy up tests
+[33m474a243d[m lint
+[33m5efa0f9d[m rename test suites
+[33m769a92ea[m send_cmd(Cmd.set_.*) as Priority.HIGH
+[33m91af4ae4[m Use Priority.HIGH for get-schedule
+[33m8061c0d8[m remove _make_and_send_cmd()
+[33mc9703475[m mypy, tweak test
+[33m1e05b19e[m tweak requirements
+[33m3e3fd8a0[m refactor faultlog for active_faults
+[33m27adb638[m bump dependencies (ruff to 0.4.2)
+[33mc37db05b[m create test suit from log file
+[33md8cb3495[m add TEST_DIR
+[33mfb410588[m deprecated stuff and nonsense
+[33mcd8daf04[m tidy up imports
+[33m1483c6a9[m faultlog & test
+[33m69ca7f1f[m add test for virtual evofw3
+[33m79b5b363[m tweak test docstrings, fixture guard clauses
+[33m96073b4b[m tweak fault log test
+[33m893eeb96[m refactor: send_cmd() -> Packet
+[33m8a850409[m mypy / logging
+[33m7e061d15[m rationalise regex logging
+[33m8dc0573c[m add a default limit to fault log discovery
+[33m8700ec63[m doctweak
+[33m91268c02[m bugfix GET_FAULTS
+[33m9f824c37[m doctweak
+[33m707c354e[m bugfix for id = 99:123456_xx (e.g. zones)
+[33md04e51c5[m refactor of MsgIdx
+[33me7bca9fb[m bugfix, doctweaks
+[33m4d45240d[m bump to 0.31.19
+[33m440ff98d[m bugfix
+[33mc02f5cba[m mypy
+[33m398ea7c3[m mypy - disallow_untyped_defs
+[33m069ad368[m mypy - disallow_incomplete_defs
+[33mef3a32d1[m mypy
+[33m297a2404[m mypy - disallow_incomplete_defs
+[33meb044805[m doctweak
+[33ma0df39d7[m mypy
+[33m94f05732[m requirements
+[33m985ecdee[m mypy
+[33mc129331d[m dependencies
+[33m9d42b46f[m tweak warning messages
+[33ma1640a38[m mypy, ruff, lint
+[33mb7ed20db[m mypy work, bug fixes
+[33mbffbd3cd[m[33m ([m[1;33mtag: 0.31.18[m[33m)[m mypy fixes
+[33me0e6d2aa[m qos, and wait_for_reply
+[33m800a901d[m more mypy
+[33m8ee49ab2[m mypy tests
+[33m5c1d03ff[m mypy tests II
+[33maabf6b6d[m mypy for tests
+[33mbbe87401[m final fixes to FSM
+[33mfd0dd85d[m mypy/typing for tests
+[33m126566e7[m bugfix failure to opportunistically pickup reply
+[33m86da7744[m enhance assert messages
+[33mfece07ff[m refactor FSM state engine
+[33md5d3c40e[m Correct loop.create_task() for threads
+[33m3c4a1be0[m doctweak
+[33mab2bcedd[m bugfix idx is int, not str
+[33ma17e0627[m pull out MessageIndex for now
+[33md5f8f8c0[m bump to 0.31.18
+[33mc3cb6f72[m[33m ([m[1;33mtag: 0.31.17[m[33m)[m refactor transports & factory, esp. MQTT
+[33m8bd263e2[m tweaks to FSM
+[33m3fdf3ad1[m mypy
+[33m5f1c9202[m refactor stack create/teardown
+[33me6078fd6[m tweak tests to skip mqtt in GitHub Actions
+[33me1f3ab1e[m use asyncio.create_task()
+[33m3000e533[m add _DBG_DISABLE_QOS
+[33m6e418d54[m rename test
+[33m801d16a8[m tweak test for refactored protocol stack
+[33mdf4387cd[m refactor transports & tests
+[33m929fd981[m wait_for_reply=True: correct tests
+[33mf55ecf30[m wait_for_reply by default
+[33m1592f75f[m mypy tests and consequential bugfixes
+[33m01bbe51c[m harden MI.add method
+[33mcf5894b7[m wait_for_reply is default to True (fix CC181)
+[33mf445681e[m bump to 0.31.17
+[33m8a48b9e6[m add const
+[33me3920052[m add MessageIndex (#113)
+[33m967e1df3[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m604d524b[m add fixtures for MQTT
+[33mb8b2abd6[m mypy
+[33m937529d5[m doctweak
+[33m7c752ea9[m refactor MQTT transport for hgi_id detection, etc.
+[33me50891ba[m improve logger msgs with timers
+[33m650e9a48[m extend tests for MQTT
+[33m5bad83e1[m mypy tweak
+[33m54ca5660[m tweak hgi tests
+[33mdebf6b6c[m clean up rf fixtures
+[33m143aabfd[m add fixtures for MQTT
+[33mf976b668[m FSM, fault log & tests (#112)
+[33m7894d7ed[m[33m ([m[1;33mtag: 0.31.16[m[33m)[m Fixes for schedule/other / Workflow (#111)
+[33m69235417[m[33m ([m[1;33mtag: 0.31.15[m[33m)[m Mypy tweaks (#110)
+[33m58333453[m Refactor protocol/transport (#109)
+[33mcf4e329c[m mypy fix
+[33me3354772[m tweak requirements
+[33m3214d02d[m[33m ([m[1;33mtag: 0.31.11[m[33m)[m bump to 0.31.11
+[33m4ec71bf6[m doctweak
+[33mdf88d69c[m tweak actions
+[33m597eb42c[m tweak requirements
+[33mb1a20dfd[m[33m ([m[1;33mtag: 0.31.10[m[33m, [m[1;31morigin/feature_mqtt[m[33m)[m bump to 0.31.10
+[33mc5d156e3[m lint
+[33m2a81ce4c[m requirements
+[33m3ba4d33e[m hack to pass tests
+[33m9146c1c0[m add test packets
+[33m75d5e1c7[m lint
+[33md75da930[m for #108
+[33m7ee72198[m add sanity checks
+[33maf8213e8[m hacks to get tests working
+[33m42fbac49[m tweak logging
+[33mea83cbea[m mypy for MQTT
+[33m5d20a8be[m doctweak
+[33m3e725a94[m 000E, 01FF, 3110, CODE_IDX_SIMPLE
+[33m4dbcced0[m parser test logs
+[33meb0e4d3e[m requirements
+[33m07bd94b5[m lint (mostly isort)
+[33m75407519[m lint
+[33m3133339b[m new isort config
+[33ma4bb2499[m tweak virtual RF
+[33mb71287e0[m tweak typing
+[33m995d3b91[m mypy for virtual_rf
+[33mc880fce5[m refactor virtual_rf: user port names, not file descriptors
+[33md6fc7841[m tweak pre-commit
+[33mb00609a4[m pre-commit update
+[33m762a3d19[m More StrEnum OTB Msg Id
+[33me5b036d2[m tweak 10e0 test log
+[33mfa460511[m remove logspam (can cherry-pick)
+[33m41ddc04e[m tweak 3110
+[33me89fbf27[m mypy
+[33m4ac2ecab[m lint
+[33mddeaebb8[m add test for Command constructor checks
+[33m3a38a014[m enhance strict checking, use in commad constructor
+[33mec2e163b[m type hints, doctweaks
+[33maac7a1b8[m tweak addr_set tests
+[33ma3a75c0f[m extend addr_set tests
+[33mc36af885[m mypy tweak
+[33mbcfb21a9[m extend addr_set tests
+[33mcb2cf323[m harden file reader
+[33mfd3abb0b[m restore invalid packet logging
+[33m9ff89bea[m improve tip text (can cherry-pick)
+[33m9cdf36b0[m[33m ([m[1;33mtag: 0.31.9[m[33m)[m bump ver to 0.31.9
+[33m0d851a2e[m add qos to MqttTransport
+[33mad742891[m tweak exc message (can cherry-pick)
+[33m4ec8c0a9[m add MqttTransport
+[33m7ffa17c0[m rename attr (can cherry-pick)
+[33me87d8fc3[m mypy hint (can cherry-pick)
+[33m0bf80608[m tweak exception msg (can cherry-pick)
+[33m77cb6db9[m use call_soon_threadsafe (can cherry-pick)
+[33m5b9cea60[m bump ver to 0.31.8
+[33mb48035c0[m Merge pull request #105 from zxdavb/cherry-picks
+[33m8a18acb6[m[33m ([m[1;31morigin/cherry-picks[m[33m)[m It's not OK to dump a packet silently
+[33m0ddb1b7b[m asyncio.TimeoutError is now TimeoutError
+[33m7a91dfa3[m upgrade workflow libraries
+[33m0561e42f[m[33m ([m[1;33mtag: 0.31.7[m[33m)[m bump to 0.31.7
+[33m1247c7bb[m tweaks for 01FF
+[33m7d918acb[m fix hex_from_double check
+[33m7f418a1c[m correct 0006 test
+[33m3e6540d8[m tweak 0006
+[33md910fc5d[m more dict typing
+[33m828d9b3a[m add more typed dicts
+[33me5f89906[m[33m ([m[1;33mtag: 0.31.6[m[33m)[m bump to 0.31.6
+[33m0def4da0[m remove difficult test
+[33mc2e3568c[m tweak test for future improvements
+[33m658fd515[m introduce typed dicts
+[33m70a80e15[m refector test
+[33m0ea91187[m tweak test
+[33md7a04cd3[m tweak QoS for CLI
+[33m8bdf8d72[m possible bugfix for periodically unavailable OTB sensors
+[33mcf078b12[m mypy
+[33mbff75303[m Final, not Final[str]
+[33m7244d5cd[m add typed dicts fro some payloads
+[33m507e3c6a[m move constants to const.py
+[33m267bb631[m Add parser tests
+[33m3b3ea5f5[m Add MsgId(StrEnum)
+[33m13868d7e[m update action to latest ver
+[33mf9dff645[m worjflow, try #3
+[33m6a2c6f16[m workflow
+[33m3589ecfe[m workflow
+[33maa257ed2[m restore polling of 2401
+[33mf3c28555[m[33m ([m[1;33mtag: 0.31.5[m[33m)[m doctweak
+[33m3f70a567[m bump to 0.31.5 part 2
+[33m570cc749[m match Pkt._expiry timeouts for OTB
+[33m24487a53[m Correct typo: max_rel_modularion
+[33mff8a10e5[m re-instate OTB HACKs for now
+[33m5f07866a[m bump to 0.31.5
+[33m8ccbe5f4[m[33m ([m[1;33mtag: 0.31.4[m[33m)[m doctweak
+[33m10636187[m rename methods
+[33m77c73584[m Harden retrieval of OTB attrs
+[33m52f9d042[m remove OTB attr HACKs
+[33m792e90ab[m fix unavailable OTB attrs
+[33mfbd2eab5[m doctweaks
+[33m88bb9d74[m disable deprecation by default
+[33md57e8f9f[m mypy
+[33m39f0a2d0[m disable backoff by default
+[33md6fc6aa9[m doctweak
+[33m7b8697f7[m tweak test logs
+[33m523b5ce8[m renam eaction
+[33m436fceb2[m tweak workflow
+[33ma2c95238[m tweak workflow
+[33m7ba0c10b[m deprecate QoS in Cmd constrctor kwargs
+[33mefb807c6[m tidy up kwargs in CLI discovery tool
+[33m643ca1a4[m bump version to 0.31.4
+[33m930f6a8c[m set bind wait timer to 5.1 (from 3.0)
+[33m77e0f085[m mypy: times are floats, not ints
+[33m9c564307[m no QoS, priority feeding into Cmd
+[33m22c4160a[m tweak RND when OT controller
+[33me8ca4c24[m refactor OTB._handle_msg()
+[33m24e7370d[m tweak parser for 1300
+[33mbb2d20af[m doctweak
+[33mee58f018[m refactor 3220 parser
+[33md39b5beb[m add 3220 parser test cases
+[33mdff91b0c[m ufh_setpoint is now setpoint_bounds
+[33m39cb6804[m add a test log for 22:
+[33m0d5cc6ff[m removed deprecated kwarg from CLI tool
+[33md871698b[m remove qos= from test suite
+[33m5220efa9[m remove qos from 1FC9 and 7FFF constructors
+[33mb4291742[m remove cbk from cmd class
+[33meadc2681[m deprecate some constants
+[33m9ba76ec0[m pre-commit config
+[33m81ae60d8[m ruff lint
+[33m8ba08813[m doctweak
+[33md3f82b75[m workflow tweaks
+[33m5496995f[m Update dependencies as per HA 2024.1.5
+[33mb0f5d9a5[m tweak workflow tests
+[33m38b541ce[m update workflow for 3.12
+[33m8266ba61[m[33m ([m[1;33mtag: 0.31.3[m[33m)[m disable faultlog
+[33m6b6e1b63[m bugfix client fro --get-faults
+[33me074c088[m allow for GWY not being in known_list
+[33m97cc9aeb[m hgi_id attr should never return None
+[33m889bdfd8[m doctweak
+[33mc630a908[m doctweak
+[33mcf0b4b64[m lint
+[33mbe4b043d[m initial 0418 test log
+[33mc01c3cd8[m tidy up
+[33m95f7657a[m remove unused code
+[33m199069a9[m add constant
+[33m0a59ca1a[m doctweak
+[33m7acaa6dc[m rename _make_cmd() to _make_and_send_cmd()
+[33m5befd10e[m remove unused bloc
+[33m60393ed8[m lint fix - unreachable code
+[33m513e4a5b[m typing
+[33mefe643a6[m remove most of QoS from discovery
+[33md4a1f9b2[m qos= to **qos
+[33m9974a34e[m lint
+[33me0a2c85d[m remove backoff
+[33m70ca5c7f[m remove disable_backoff
+[33m6464c70c[m typing
+[33mccc9aa04[m typing
+[33m2a8e3050[m typing
+[33ma61083a5[m typing
+[33m04f8ff47[m bump ver to 0.31.3
+[33mf3844634[m typing
+[33m3b044edd[m harden tests
+[33mca3e1630[m tweak schedule module
+[33m4030be72[m extend send api kwargs
+[33me4439112[m start fingerprint table
+[33m0eb60234[m typing
+[33mbae18881[m make QoS = None (selective)
+[33m31bffdc7[m typing
+[33m5a3a276f[m refactor schedule stuff
+[33m902c87a0[m enforce QoS for test
+[33m02deb9cb[m reformat JSON for readability
+[33m7c14f392[m missing requirement
+[33md7b62480[m pytest for python 3.12.x
+[33m4401c00b[m[33m ([m[1;33mtag: 0.31.2[m[33m)[m typing, checks
+[33mc52741af[m typing
+[33m5069c0f3[m typing hints
+[33m383372bc[m typing. doctweak
+[33m4826ed3f[m creat DOMAIN_DEV_CLASS_BY_SLUG
+[33m2faf753f[m move is_subset helper from ramses_cc
+[33mac2abd3d[m refactor send_cmd kwargs
+[33m2c621d00[m raise exception if command filtered
+[33mf46d52b7[m check filters when sending
+[33m28c0c3ab[m remove legacy code
+[33mb26f582c[m doctweak
+[33m8702f7ee[m harden is_hgi80()
+[33mf67b18cd[m change logging
+[33m000754eb[m handle ramses_esp bugs
+[33m7f2f537c[m remove old bind methods
+[33m8c20d698[m mypy, fixes for faking
+[33m37c2af01[m doctweaks
+[33m464877ee[m workflow tweaks
+[33m8dad1757[m bump to 0.31.2
+[33m4a84c9a5[m refactor CLI (can't yet handle _DBG_CLI = true)
+[33m11a21a0b[m mypy for 0418
+[33mc2002b05[m mypy hints
+[33m7fff63c2[m Merge pull request #99 from trvrnrth/fix-ot-to-ramses
+[33m24e27237[m Fix OT to RAMSES mapping
+[33m80e8b173[m[33m ([m[1;33mtag: 0.31.1[m[33m)[m bump ver to 0.31.1
+[33m9d34c6be[m mypy
+[33m9df4d5f1[m mypy
+[33m667cd805[m extend binding test to 10E0
+[33m9e68b7d5[m deprecate som OT data ids
+[33maae95d08[m extend 3220 tests
+[33md75fa579[m 3220 handle null values
+[33m06d9963c[m reduce logspam
+[33mf4200ef1[m bugfix exception strings
+[33ma04a09bc[m refactor set_state, faking, QoS, mypy
+[33md8c79490[m bugfix make_fake didn't return dev
+[33m74176bfb[m add priority and qos to binding
+[33m8ec92aa9[m doctweak
+[33m8fea3452[m rename attr to _bind_context
+[33ma84cb4d0[m remove unused attr
+[33m708434d0[m tidy up tests
+[33me1170531[m add a guard
+[33m3cd58887[m refactor GWY.fake_device()
+[33mff263627[m tidy up test suite
+[33m4e4f87b5[m tidy up
+[33md185ff20[m remove HGI faking
+[33m8c91457d[m use dev.is_faked
+[33mad6564dc[m reaftcor ensure_fakeable helper
+[33m6915df09[m rename dev_id to device_id
+[33mc0a6171d[m doctweak
+[33m07e5190b[m tweak
+[33m284977be[m rename constant
+[33m67e9b8ce[m fixup Priority/SendPriority
+[33mb1249024[m remove crud
+[33mbe08c5fd[m lots of tidy up
+[33m17064e0d[m refactor binding to new schema
+[33meaf73c10[m bugfix put_offer api
+[33mfc06c599[m lint
+[33m851e2ced[m add useful constrctors
+[33m074e8c1f[m add VOL_SUPPLICANT vol schema
+[33m679a3a67[m tidy up binding FSMM
+[33m4efb53f2[m all OT idx are integers
+[33m1ad974df[m chamge msg string
+[33mcbdfe725[m doctweak
+[33ma3e21f00[m make -lf switch permanently dev-mode
+[33m2add04f8[m add data-ids to 3220 tests
+[33m9a35bf88[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33md0c8632c[m fix #94
+[33m58cf4447[m Update README.md for Ruff
+[33mc724b775[m test logs
+[33mcec9fe8a[m small tweak
+[33mc591fcce[m mypy tidyup
+[33mbf05abea[m use better RamsesProtocolT
+[33m65356fef[m split engoine out from gateway
+[33m5497b84f[m mypy
+[33ma3a21579[m refactor for upcoming split
+[33mb0ca60c4[m tweak OTB polling
+[33mcc0680c4[m remove regression in get_zone_name()
+[33m2b243db9[m mypy tweaks
+[33m46e539df[m doctweak
+[33m9b5ad16d[m bugfix structural type
+[33mcbd08eb8[m tidy up scheduled tasks
+[33m9205d4d2[m lint
+[33m23b51d1c[m tweak 10E0 Test log
+[33mc8d48328[m refactor gwy._tasks
+[33maca05f19[m add const
+[33mc4b749f9[m tidy up task mgt
+[33me081de23[m tidy up
+[33m429e827c[m remove _mk_cmd workaround
+[33m6ecaba8a[m temp workaround for _mk_cmd
+[33ma026d300[m tidy up
+[33ma862fcb5[m Command constructors don't include Qos
+[33md47e64c8[m remove generic exceptions
+[33md447d11c[m reorder convenience dict
+[33mcd53b6b8[m reorder class methods numerically
+[33m5512a47e[m mypy command.py
+[33mf1d12442[m improve code
+[33mfe23f389[m doctweak
+[33m6d879143[m enumerate ports via by-id symlink
+[33m1b8fa5a1[m refactor tests - add qos to cmds
+[33md9f708f5[m bugfix selective qos
+[33m885553ca[m bugfix disptcher
+[33m9ebb94b8[m add slug to address class
+[33mc7fab64d[m mypy hint
+[33mdba0be54[m interim bugix for dispatcher
+[33m8aec8a9b[m doctweak
+[33me1e288d8[m doctweak
+[33m9dcae36f[m doctweak
+[33m858c8ba0[m disable QoS by default
+[33m7171fbea[m correct config schema
+[33m706e0b0d[m Default QoS is None (selective QoS)
+[33mc2320318[m bump to 0.31.0
+[33m0df986d6[m[33m ([m[1;33mtag: 0.30.8[m[33m)[m correct test logs
+[33me4d23e99[m simplify dispatcher checks
+[33m0ce514ad[m tweak 10E0 test log
+[33mbcf35da0[m tweak 2401
+[33medfcdebf[m correct tests for 2401
+[33m91dbb16d[m bugfix schemas
+[33m79e882fa[m for 3220, use str & not repr-like values
+[33m774fc89a[m doctweak
+[33m5e490061[m tweak mypy
+[33ma35bdf87[m mypy
+[33m5b9ae097[m mypy
+[33mf5ee9807[m mypy
+[33m906083b0[m mypy
+[33m05bee683[m more mypy
+[33mbbdb92e8[m more mypy
+[33mb909c0fe[m more mypy
+[33m9a261595[m add file to mypy
+[33m76f5109f[m mypy goodness
+[33m2d02d589[m doctweak test
+[33m9154bff6[m bump to 0.30.8
+[33me5ef6db5[m bugfix, tweak 2401
+[33me028d122[m lint, doctweaks
+[33m328f6daf[m use more constants
+[33m62395ca1[m doctweak
+[33m6d5f0db8[m add SZ_ACTIVE
+[33m97ad35c0[m[33m ([m[1;33mtag: 0.30.7[m[33m)[m bump to 0.30.7
+[33mad021244[m bugfix packets expiring early
+[33mdfa24659[m tweak 3EF1
+[33m1254f5b0[m ass some logging (temporary)
+[33ma1ca05e0[m tweak pytest
+[33m353495c8[m[33m ([m[1;33mtag: 0.30.5[m[33m)[m bump to 0.30.5
+[33me0e435d5[m[33m ([m[1;31morigin/pause_discovery[m[33m)[m refactor gwy.start()
+[33m336e44b0[m rename merge to deep_merge
+[33m31768ba4[m bugfix
+[33m045fa8c5[m final tweaks
+[33m2e9afe7b[m fix exception handling, tidy-up
+[33m4c5dc616[m[33m ([m[1;33mtag: 0.30.4[m[33m)[m doctweak
+[33mbdcdc3b1[m fix ramses_cc issue 91
+[33mf5e9fec5[m bump version to 0.30.4
+[33mfb09b78f[m import VERSION into module
+[33mc33d2c02[m correct 4e04 test log
+[33m96a395d8[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m8a4352ed[m tweak 4e04
+[33md95d71f0[m rename test log
+[33mcd1890ef[m tweak test logs 3150, 3ef1
+[33mb6d498d1[m tweak 10E0, 22F1, 31D9-A, 3EF0, 4401, 4E02|4|D
+[33m67bc1adb[m Merge pull request #91 from trvrnrth/battery-test-dt4r-typo
+[33m4d924290[m Fix device name typo in code 1060 test
+[33m4d153839[m tweak code_1060.log
+[33m0a084517[m Merge pull request #89 from trvrnrth/battery-level-0
+[33mfaea57b7[m add 22|10E0
+[33m8eec748d[m add DT4R|10E0
+[33m07b5ee44[m Add Code 1060 tests
+[33m74009aae[m Add example payloads
+[33m35b7dffa[m Ignore battery levels of 0% as they are impossible
+[33m0bd181ef[m tidy up
+[33m724f8357[m tweak CI
+[33m760179fd[m tweak CI
+[33maa518034[m tweak CI
+[33m574cd9ba[m fix CI - missing pip
+[33m4a9ec248[m extend 10D0
+[33maa0b45a9[m fix CI
+[33m896c30f9[m tweak requirements
+[33m512c9943[m fix tests
+[33m58425413[m bugfix
+[33me87f9d9a[m bugfix
+[33mde88405d[m bugfix
+[33m728b07af[m bugfix
+[33mcebf9103[m fixes
+[33m014f58d0[m tweak workflows
+[33m879d5664[m tweak
+[33m503c2bf1[m tweak
+[33m00c717ea[m tweak ruff
+[33m00762dad[m remove old action
+[33m3f5d8bcb[m tweak
+[33m51359f11[m remove unneeded type hint
+[33mbad68014[m bump voluptuous to 0.14.1
+[33m779ad07d[m tweak
+[33m1a2652a2[m tweak
+[33m35ad916b[m tweak github action
+[33md033ab65[m refactor exceptions
+[33ma5564e01[m exc is now err
+[33m1b26ddbf[m chnage an err to exc
+[33m6b054b38[m doctweak
+[33m5da17318[m tweak CI workflow
+[33ma3b5e379[m lint
+[33m7911738a[m add SZ_FILTER_REMAINING const
+[33m7fadeec9[m tweak pyproject.toml
+[33m37e98413[m add test for 10D0
+[33mfde98f2f[m tweak QoS max retries default
+[33ma3b03ac3[m minor refactor
+[33m92b3b34c[m rename symbol
+[33m5036cc57[m add py.typed for ramses_tx
+[33meace7e62[m refactor QosParams
+[33m64ef1e14[m doctweaks
+[33mbbc8a4f8[m remove complexity from Protocol
+[33m33f39d80[m bugfix logspam - foreign gateway
+[33m1e6f1379[m remove tat
+[33mf6f80e9d[m tweak 01FF
+[33m4bdf6c97[m fixes # 78 on ramses_cc
+[33mf13ca73f[m refactor is_hgi80
+[33m25109e2a[m tweak tests
+[33m0aece749[m mypy
+[33m16d0aad4[m mypy
+[33me5a327bc[m bump version to 0.30.3
+[33mac8d4b37[m tidy up test
+[33mb4ce01ad[m doctweak
+[33mdea582d0[m doctweak
+[33mc5191675[m remove lint
+[33m154d254c[m doctweak
+[33m9dea7224[m mypy config
+[33m6418f79d[m mypy
+[33mec2e5b39[m mypy
+[33m96ba1db9[m remove Literal for now
+[33mcd08743a[m mypy
+[33mff80db68[m tidy up parsers
+[33m8e4be8ee[m mypy
+[33mf288ff43[m initial 2E10 test
+[33md5c648e5[m add to 10E0 tests
+[33m720f2a13[m tidy up test
+[33m9c4e65da[m bugfix
+[33mab0b9456[m mypy
+[33m37d6eba8[m bugfix typing
+[33m080a8c5a[m mypy clean - refactor
+[33m742f2035[m mypt doctweak
+[33m3d28cfe3[m mypy
+[33mcad488f9[m mypy
+[33m4d80415a[m mypy
+[33m4df6afda[m convert Pririty to IntEnum
+[33mcff679d4[m widen mypy coverage
+[33m60303709[m deprecate unused constructor
+[33m09a4fe7c[m remove skipcq
+[33mdcb0fbfa[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m45b729d8[m remove skipcq
+[33m9f39e9ec[m remove skipcq
+[33ma86f3e9c[m mypy extension
+[33m763dc91d[m mypi
+[33me3a0dd37[m mypy
+[33mfe13ac07[m mypy tidyup
+[33mf881f841[m mypy
+[33m549e612a[m mypy
+[33m2fce5b3a[m mypy
+[33m5c3306a1[m remove typeguard as a requirement
+[33m497653a2[m mypy
+[33m83e109c3[m mypy
+[33m45b55588[m remove typeguard
+[33m6ab3c732[m mypy
+[33m34386158[m remove typeguard
+[33m9003cc41[m tweak
+[33m83d9c2a9[m mypy
+[33md285e9ae[m mypy
+[33m04febaee[m refactor pkt lifespan
+[33md58cef73[m doctweak
+[33me8d8bfdd[m refactor opentherm.py
+[33mfa516f36[m mypy
+[33mbe06d202[m mypy
+[33m788e1969[m mypy
+[33mfe9a073a[m bugfix regression
+[33m4a0f14b3[m correct tests
+[33m6fe8b55b[m mypy
+[33m28f2e3a6[m mypy
+[33m02729ed0[m mypy
+[33me434d6ff[m rename symbols
+[33m022dc28d[m mypy
+[33m8bd03d14[m refactor OT.py
+[33mf04dc069[m add protocol_fsm.py to mypy
+[33m91bd9a16[m add transport.py to mypy
+[33mf5ac4795[m improve evofw3 detection
+[33m13cf9f6d[m tidy up
+[33m38bd1f78[m add frame.py to mypy
+[33m465799eb[m add client.py
+[33m7a6ec59c[m add schemas.py to mypy
+[33mba7c3312[m bugfix client.py
+[33m045445ac[m reduce logspam
+[33m83be646f[m add a 31DA test
+[33m7c476bd1[m reduce logspam
+[33m9ab60e52[m[33m ([m[1;33mtag: 0.30.2[m[33m)[m RF tests fixed
+[33m05f93b98[m bugfix test part 1
+[33mc19405d4[m doctweak test
+[33ma5e48bef[m tests_rf: enforce qos when required
+[33m5bbaa9b1[m remove runtime typechecks
+[33m16a21aa7[m tweak test
+[33m274ef74a[m stub for #76
+[33mc9e18d10[m rename parser helper
+[33m71b1fdf9[m tweak parser helper
+[33m5d8d8abe[m mypy bugfix
+[33m4f0a6e43[m tweak requirements
+[33m3915112a[m bump to 0.30.2
+[33m2a1f8b6d[m rename FAN attrs
+[33m0c8783af[m bugfix ruff config
+[33m4ef6b534[m mypy
+[33m474d7492[m[33m ([m[1;33mtag: 0.30.1[m[33m)[m ruff-format fix rather than check
+[33m7311123a[m tweak 22f1 test
+[33ma189c400[m warn rather than deprecate potential foreign gwys
+[33m6c61b06a[m refactor filtering/hgi detection (again!)
+[33mba66c663[m tweak tests
+[33m582f419f[m weaken 0418 tests
+[33m95cff2df[m add parser tests (all failing)
+[33m6ad511c2[m doctweak
+[33m9d0d787c[m fix #77 idx for 31D9, 31DA
+[33me5d3b309[m tweak tests for when QoS disabled
+[33m73d41442[m handle HGI not in enforced known_list
+[33m158cbfa6[m QoS disabled by default
+[33mb7cd4b40[m bugfix disabling QoS
+[33m3aebcf2d[m tweak 2210 (hardened)
+[33m21f436f8[m tweak .gitignore
+[33m3bfcdf11[m new .gitignore
+[33ma42be8f2[m bump to 0.30.1
+[33m0cbebf1a[m fix #77 hvac_id shoudl be accepted
+[33m254b8f86[m include/fix disable_qos feature
+[33m6d55820b[m new pre-commit config
+[33mfd34b5e3[m[33m ([m[1;33mtag: 0.30.0[m[33m)[m doctweak
+[33mf0756706[m mypy
+[33m548a5a41[m doctweak / typo
+[33m4a58d29b[m initial commit
+[33m92773b64[m tweak requirements, etc.
+[33mb0986ac1[m tidy up
+[33mc30e64af[m de-lint B904
+[33m17aeb395[m lint
+[33m0ce74f6e[m lint
+[33m1024b94e[m lint
+[33m31050c00[m pre-commit now ruff
+[33m73f93aab[m refactor folder structure
+[33m4d0c2648[m bugfix tests
+[33m9a8ec982[m requirements & dependencies
+[33m6414f4c0[m refactor structure
+[33mcb5f95a0[m refactor dir structure
+[33m8d4f8ee2[m doctweak
+[33m055e41d8[m add HCE100 to tests
+[33ma86bd3f9[m Add HCE100's 10E0 to protocol
+[33ma366e477[m fixes, plenty
+[33m55f27559[m add find_gateway_device()
+[33m316bb9e0[m merge refactor_transport into master
+[33m59e8a10d[m bugfix listen & tidy-up
+[33mf71e49db[m doctweak
+[33m2d9311a6[m disable_sending WIP
+[33m1d5c8c27[m add disable_qos flag
+[33ma1fa5cba[m tidy up/tweak protocol
+[33me843c1b6[m weak test for better
+[33m8337e8cd[m Merge branch 'refactor_transport' of https://github.com/zxdavb/ramses_rf into refactor_transport
+[33m247f452a[m text typo
+[33mc723136c[m wrap gwy.send_cmd
+[33m3765d58e[m tweak test
+[33maaba76ed[m tidy up
+[33m311f752c[m de-lint
+[33m9912469d[m bugfix protocol FSM
+[33m55ed5534[m bugfix
+[33ma9d2706c[m tidy up
+[33mbf0aface[m tidy up, removed decorator
+[33m2999884e[m tidy up
+[33mbbe9f6f9[m tidy up
+[33m59231458[m tweak
+[33mce8cabf4[m tidy up tests
+[33m4f9f4fd1[m de-lint
+[33m1d41f90b[m delint test
+[33ma2e2f6d5[m remove crud from test
+[33mf460a870[m delint
+[33m3285d4a6[m tidy-up
+[33m41742b6d[m doctweak
+[33mb4c33617[m tidy up binding tests
+[33m8e9b54dc[m de-lint
+[33m20a679ce[m doctweak
+[33m0d35d842[m test tweaks
+[33m024922ca[m refactor tests
+[33m4b740f69[m doctweak
+[33m999da253[m working test - but no cleanup
+[33m688b422a[m tidy up protocol FSM code
+[33m685eaf61[m frther tweaks to protocol FSM
+[33m3dc2eb38[m better tx_hdr, rx_hdr
+[33mca6288ff[m more doctweaks
+[33mee9887e9[m rename symbols
+[33md7a3339b[m rename symbols
+[33m18fb8a3f[m doctweak
+[33mdb2868af[m refactor protocol FSM part 3
+[33m32326e5d[m refactor protocol FSM part 2
+[33m1a2b563a[m start refactor of protocol FSM
+[33me84654ac[m bugfix - all tests working
+[33mc2a3b402[m doctweak
+[33m4780bd6b[m remove regression
+[33md7d9cc92[m refactor echo detecttion for 18:730
+[33md09af2c1[m tweak virtual rf
+[33mb43a48d8[m tweak
+[33m13e0cc83[m working test (except hgi80 detect on some)
+[33md1886c7d[m tweak virtual_rf again
+[33m95a10076[m harden virtual_rf code
+[33mbff726b9[m doctweak
+[33m085f5742[m Virtual RF behaves as per HGI80/evofw3
+[33m2bdaabcc[m tweaks
+[33mb214d262[m add wait_for transport
+[33ma4cd2825[m baseline test - is wip
+[33m13d6a1e5[m rename symbol
+[33mc8416f31[m undo regression
+[33m296a23bf[m remove old test
+[33mb4a54433[m test_protocol_fsm working
+[33m3a0764e9[m test regex working
+[33md64e5126[m tweaks virtual_rf
+[33ma9970121[m test_virt_rf working
+[33m67e945a0[m black
+[33m86a1a807[m test_binding_fsm working
+[33m6f0df10e[m bugfix, add debug flag
+[33mc79d37da[m tweak assert
+[33m5843c513[m Merge pull request #79 from janvkem/master
+[33m3e4a831f[m add SZ_FILTER_REMAINING
+[33m7230262e[m tweak 10E0 parser/tests
+[33m9b3633fe[m tidy up transport, exceptions
+[33m4e27ca04[m FSM working now
+[33m0e659f84[m mypy
+[33m225db6ba[m tweak virtual RF
+[33m5dd33dc8[m tweaks
+[33m51865a34[m refactor is_evofw3()
+[33md0b08484[m HGI works
+[33m346dda4a[m remove recursion, tweaks
+[33ma67ba750[m mypy tweaks
+[33m72757e1b[m refactor send APIs
+[33m5daacdba[m rename symbol
+[33mfc438e30[m improve repr
+[33mc932cec6[m rename symbol, fix test
+[33m27b065c1[m doctweak
+[33m5da3e084[m working protocol FSM
+[33mdb9654b9[m doctweak, minor bugfix
+[33m35927e52[m Merge branch 'refactor_transport' of https://github.com/zxdavb/ramses_rf into refactor_transport
+[33mfe319b58[m tidy up logging
+[33mb09355bc[m remove deprecated code
+[33m7d559fbd[m FSM working again
+[33me8de5a52[m doctweaks
+[33mb9b70bdb[m tweaks
+[33mae2b36c0[m initial working version
+[33m057d1ac6[m tidy up
+[33m6d613493[m tidy up
+[33me99aed65[m mypy / doctweak
+[33m458839b1[m tests pass
+[33m1be5ab4b[m add warning if QoS disabled
+[33mb86896ed[m doctweak
+[33me4e5a187[m tidy up imports
+[33m88377675[m tidy-up after refactor
+[33mbbd9e80c[m remove test_binding regressions
+[33m8dd10ec0[m tidy up, esp send_cmd() + que_cleaner
+[33m1f94b92f[m tweaks
+[33m83821213[m doctweak
+[33m8a55c2ac[m refactored protocol FSM send_cmd()
+[33m7d09ed74[m pre-refactor
+[33me47bc684[m pre-refactor refactor
+[33m50c517d6[m Merge branch 'refactor_transport' of https://github.com/zxdavb/ramses_rf into refactor_transport
+[33m1590ae5a[m add await assert_protocol_ready to test
+[33mb14dad3b[m Merge branch 'refactor_transport' of https://github.com/zxdavb/ramses_rf into refactor_transport
+[33m6ecc3815[m tidy-up transport factory
+[33m28c579f4[m doctweak
+[33mf1903120[m tidy-up pre-refactor
+[33mb9fdf526[m doctweak
+[33mb87fe6d5[m doctweak
+[33m11ba5daa[m tidy up FSM.send_cmd()
+[33m316df86e[m transport_factory, connection_made, signature
+[33m94d82852[m harden test with assert_protocol_ready
+[33mbfed91db[m doctweak
+[33mda6b1ad6[m doctweak
+[33m373bddd8[m doctweak
+[33m7376377b[m doctweak
+[33m633d9199[m pre-factor
+[33md0a93c05[m pre-factor signature code
+[33maba722d2[m black lint
+[33m175c39d1[m before moving write_fingerprint()
+[33ma6efbdff[m move string const around
+[33m59f8ea28[m timing issue workaround
+[33maf41fe56[m doctweak
+[33m4db65b2b[m Merge branch 'refactor_transport' of https://github.com/zxdavb/ramses_rf into refactor_transport
+[33m6ed10682[m add wait_for_reply
+[33m943da2ba[m mypy
+[33m908c5724[m clean up
+[33mf96046e0[m refactory base Entity MRO
+[33ma4b31f8e[m tweak
+[33m678fe619[m test2
+[33m02cd99bc[m test
+[33m06887f93[m test
+[33m9c71f09f[m test
+[33mba69e303[m test
+[33m181f4626[m test
+[33m40c30a17[m quick test
+[33m217a78f9[m add ti_3410.fw to repo
+[33m50e0bdfd[m bugfix and mypy
+[33m198fa933[m doctweak
+[33mac5b82b7[m bugfix test
+[33m0710d2c7[m all sorts
+[33m40b2dd43[m new binding FSM
+[33mea8f7393[m mypy, minor bugs
+[33m496c12ff[m fix typo/regression
+[33mf5f35573[m mypy, StrEnums
+[33m6ddab068[m use StrEnum 4 SimpleNamespace (may not be atomic)
+[33m94d7cbe4[m tweak flake8 settings
+[33mbdf64d49[m mypy part 1 (possibly non-atomic)
+[33m32f0a620[m tweak client err msg
+[33m7e3d8c16[m refactor mypy
+[33m3b9838e6[m working test for binding FSM
+[33me59b0fe7[m tweak test log
+[33mb7d5ebcd[m tweak test
+[33m01bac20f[m tweak constructors
+[33m9704aa82[m tweak 1FC9 command constructors
+[33m63d3284c[m doctweak, tests
+[33mb0cb47ab[m rename test log
+[33m4a0ea7c7[m doctweak
+[33mb3c162b1[m Add Index Literal for mypy
+[33m6c57fc7d[m tweak binding tests
+[33m793e217d[m Code/Verb type hints
+[33mdc041b18[m Code, Verb type hints
+[33m8ec46c9f[m mypy
+[33mc06fef81[m mypy
+[33mf54966a7[m mypy
+[33m7dae29bf[m fix regressions
+[33m954dc3e4[m mypy
+[33m7fee4529[m mypy
+[33md5dcfe4c[m mypy
+[33m26f55b34[m mypy
+[33m3a557cb4[m mypy
+[33mebfeee76[m mypy
+[33m8145acc2[m mypy
+[33md7ac7b26[m min python is now 3.11
+[33mef47c630[m remove unneeded backport
+[33m2e7091c3[m mypy
+[33me7fe42b5[m bump to 0.30.0
+[33m4afccfaf[m correct bad msg.payloads in 1FC9 test suite
+[33m51661b9b[m bugfix error when typechecked not installed
+[33mf12d899c[m Correct bad 1FC9 test
+[33m613cabb0[m add scheme (vendor) to bindings
+[33m925d1d1e[m binding fsm & tests
+[33mdd5c0286[m remove outdated tests
+[33m28d996bd[m refactor symbol names
+[33m925eeb02[m rename to BindContext
+[33m67e1fd4d[m refactor bind_state (binding_fsm), with tests
+[33ma022fd03[m bugfix of falsey rather than None
+[33m07cad7b5[m correct regression
+[33md8a4c01e[m mypy tweak
+[33mcdc033df[m remove print() from old code
+[33m96afbb48[m add FORCE_LOG_FRAMES to transport
+[33md1d6c817[m add higher-precision timestamp for Puzzle(ver) pkt
+[33m11eea8f7[m tweak tests, debug flags
+[33m2f6a5c4f[m add 1FC9 api & tests
+[33mf2696384[m add 1FC9 sub-constructors (initial), tests
+[33m43be63a9[m tweak API tests
+[33mf21c2544[m mypy tweak
+[33mf6d11b65[m add expected import
+[33mc3719e2b[m bugfix
+[33m892fb942[m missing constant
+[33mf206ef9c[m tweak test files
+[33m0c479512[m add a constant, SZ_OEM_CODE
+[33ma406eaf0[m tidy up
+[33mdb4dbdd0[m add _async_send_cmd
+[33m4aa9b6aa[m again, circleci
+[33ma3daeae4[m sigh
+[33mee8a6f46[m circleci regression
+[33mb6077718[m circleci clear debug flags
+[33m3a85a7d1[m debug flags
+[33m07e20206[m mypy/lint
+[33m2e831b1a[m delint/mypy transport
+[33mb892aca8[m delint/mypy transport
+[33m898b0cfc[m remove lint
+[33m25cd89db[m lint
+[33m631070fe[m bugfix msg_handler
+[33m4f13ef1e[m tweak test
+[33mfc6e1459[m doctweak
+[33m8e8b504d[m return pkt, exception handling, mypy
+[33m780149d9[m tidy up
+[33mb2c22ba0[m bugfix regression in gwy.send_cmd()
+[33mc1d03fba[m remove unused code
+[33m182cd32a[m rename test
+[33m3e69c6e9[m doctweak
+[33mdb2293ca[m tweak test
+[33mb0caf706[m bugfix broken eavesdrop test
+[33m8714b8fa[m fix regression in test
+[33m93dac269[m use new send_cmd in public api
+[33mc2f5f157[m simplify tests
+[33m22719447[m tidy up
+[33m98b84aec[m doctweak
+[33m38f2e85a[m remove unused code
+[33m79a3ec06[m Bugfix duty cycle bug
+[33m330819d4[m tweak tests
+[33md04c0c9a[m working tests: 100, 230, 200
+[33m397c593e[m tweak fsm
+[33m881f5eaa[m test_100 is working
+[33me0bc7542[m refactor - collapse retries into context
+[33m39773589[m harden protocol fsm
+[33md013cc36[m Revert "harden protocol_fsm"
+[33m235665a5[m harden protocol_fsm
+[33m28b95bdd[m tidy up _handle_msg
+[33meffa92ef[m remove regression
+[33mb71e4139[m tweak test
+[33m75a9e3f3[m tidy up tests
+[33m6e753a7d[m remove unused code
+[33m2a00c476[m tweak test
+[33m0e2f5b80[m remove unwanted code block
+[33m288f6e67[m tweaks
+[33m34942637[m tweaks
+[33md139eb07[m tidy up protocol FSM
+[33m2c5d0679[m tweak test
+[33m1abf623f[m tweak protocol/fsm
+[33m486ee127[m bugfix 100, 110
+[33ma2de1b77[m bugfix 1
+[33md2f51622[m almost there
+[33md771900c[m harden tests_rf
+[33m9d7ca060[m extend tests
+[33m92b1c6dc[m tweak test
+[33m6e289e4a[m refactor, Exceptions
+[33mf348606d[m doctweak
+[33m658dbcbb[m rename symbols
+[33m285af7a0[m add DEBUG_DISABLE_QOS
+[33mc7ebb0b3[m add debug flag to protocol factory
+[33m4bdbe51d[m tweak
+[33mba741730[m tidy up state attr
+[33m83d40cf0[m Tweak type hints
+[33mf1ef0405[m undo regreesion _state vs state
+[33mf472918a[m rename symbols
+[33mafc19e3d[m bugfix refactoring
+[33m92303f23[m refactor async_rcvd method
+[33m2dfb99da[m doctweak
+[33mc1b8bd1c[m remove old test
+[33mb1cd6f6d[m tidy up bindings fsm state chain
+[33m4c5f5238[m refactor
+[33mc09c80f9[m change logging of RF sends/receives
+[33m56302f85[m doctweak
+[33ma6c76571[m rename symbols, refactor
+[33m8f547a3c[m add State._next_state
+[33mebef8128[m remove unused constant
+[33m713485bf[m 100/101 working, 200 isn't
+[33m8d2b92e0[m remove unwanted code
+[33m8fc1842a[m remove deprecated modules
+[33mcbfd5f1d[m rename symbol
+[33m06df1b75[m refactor for async send
+[33mbad7fb4d[m code quality
+[33mbb1a8ae3[m bugfixes
+[33m37d15614[m pre-timeout works
+[33m2a860dd6[m tweak context/state logging
+[33m6fe5928a[m rename symbol
+[33m7ab1e436[m restart with context apis
+[33m63efb70f[m change loglevel
+[33m988bee84[m simplify tests
+[33m2f805a98[m harden test 18
+[33m12cf9b69[m tweak exception message
+[33mcf4b33cf[m tweak logger messages
+[33m233dea21[m tweak tests
+[33mede63709[m doctweak
+[33mabfdf8e4[m bugfix protocol FSM
+[33m2b7d9c9d[m doctweak
+[33m86c4b697[m tweak tests
+[33m1ee22016[m doctweak
+[33m78af44f5[m tweak tests
+[33me8b4687b[m tweak tests
+[33m34a04723[m initial send_cmd guardian code & tests
+[33mf17e0146[m rename files
+[33mdccd5ff8[m tweak protocol FSM & tests
+[33mefceb342[m test tweaks
+[33m69b649f0[m bugfix protocol FSM code/tests
+[33m3aa23484[m tweak protocol MROs
+[33mb1b9f0aa[m initial working test_protocol_fsm
+[33m7a38af9d[m rename protocol/transport files
+[33m38146843[m add back use_regex & bugfix test suite
+[33m0fe211d7[m add use_regex back in
+[33m35dd3f76[m bugfix test regression
+[33m801f5ff4[m bugfic client
+[33meea5d3bb[m add use_regex back in
+[33mcbd727d3[m Merge branch 'refactor_transport' of https://github.com/zxdavb/ramses_rf into refactor_transport
+[33m9abc0427[m refactor client for new stack
+[33m804d514a[m doctweak
+[33me92e00d5[m doctweak
+[33m631b1f08[m Merge branch 'refactor_transport' of https://github.com/zxdavb/ramses_rf into refactor_transport
+[33m6d0ee17c[m bugfix stop()
+[33m9b12713c[m disable test
+[33mb484bc6c[m bugfix test
+[33m6c4ac0ba[m doctweak
+[33m9fdc0e88[m mypy
+[33m9c58315d[m bugfix tests_rf
+[33m6b2ad938[m bugfix HGI addr checks
+[33m2a7d4e48[m bugfix evofw3 detection
+[33m8ae1d3e7[m bugfix virtual_rf
+[33m2adcff47[m add base logging
+[33m4d1b0496[m housekeeping
+[33m9d8492a5[m add wait_connection_lost
+[33ma5ef639a[m bugfix
+[33mb0deedf0[m fix typo
+[33mdc10266e[m tweaks
+[33m50f8dc02[m send_cmd, pkt_received
+[33m34fed4f8[m bug restore protocol state
+[33m8fce494f[m bugfix regression
+[33m357f730c[m remove unwanted code blocks
+[33m889022d1[m bugfix discovery
+[33mcef6b250[m doctweak
+[33mef285f31[m add call_soon to dispatcher
+[33m5e9f6816[m refactor engine/gateway config/validation
+[33m141b6e67[m bugfixes
+[33md16bb460[m tweak test
+[33m58557ed8[m bugfix tests
+[33m9c9c5f0d[m bugfix saving state
+[33mcb31b28b[m doctweak
+[33mef1007ac[m tweak tests
+[33m2fd1ea58[m refactor init()/start()
+[33m40a94f2a[m lots of tests passing (all test_rf)
+[33ma7f55577[m hotfix test bug
+[33m7aa1a7c8[m tighten test
+[33m28ec8b90[m tweak 1100 regex for evo cooling
+[33m2e6a08f4[m minor refactor
+[33m03a56bc4[m tweaks - working baseline of protocol
+[33m13abd5d9[m bugfix transport (still WIP)
+[33m7e7bab2e[m tweak bind_state (is WIP)
+[33me7b3e9a3[m Test Bindings Passed
+[33m2d4bf704[m Test Bindings FSM passed
+[33m541a1b9c[m Test RF network passes
+[33mef631c1c[m Test HGI behaviours passes
+[33m0271994a[m bugfix
+[33m3cecb81a[m dtm_str again
+[33m8d52b60f[m bugfix dtm_str
+[33ma297444e[m read_only tweaks
+[33m3dbbca66[m temp changes
+[33m9aa9ca99[m remove unneeded config code
+[33mc2f3b22c[m add mypy hint
+[33m4a301310[m ensure fakable
+[33m52631435[m add guard if
+[33m622b4ba5[m TextIO -> TextIOWrapper
+[33m88bc48a2[m TextIO -> TextIOWrapper
+[33m40929910[m tweak tests
+[33m92bb490c[m harden wrapper
+[33mb11dddc2[m doctweak
+[33md6056691[m Bugfix bind_state
+[33m70ba425c[m code tweaks
+[33m21e384a6[m use _extra instead of _hgi80
+[33ma00af757[m bugfix protocol mixins
+[33mca30b8bf[m Test HGI behaviours pass
+[33me27fff77[m add self._loop
+[33m4f1d06fe[m fix old protocol/transport in place
+[33m889ff09c[m change name of module
+[33md0b5cfeb[m add transport FSM
+[33md6df1cf1[m[33m ([m[1;31morigin/refactor_protocol_layer[m[33m)[m fix doc typo
+[33m28c3cc38[m add min_gap patch
+[33m63d6ba6a[m more tweaks
+[33m0877c4f7[m more tweaks
+[33m8cc71dcb[m tidy up
+[33m0dc994a1[m fix regression
+[33mf603bfb4[m tidy up tests
+[33m1b3c7694[m strip gwy from protocol layer (BIG)
+[33m05eea992[m fix/tweak tests
+[33m70fd0e93[m bugfix regexes (can CP)
+[33mc09e68f2[m Packets shouldn't know the current datetime
+[33me0ae7d12[m tweaks
+[33m561dc585[m doctweak
+[33m972e6ac5[m tweak parser tests
+[33mf8be049c[m tweak test
+[33m3203b65a[m tweak test
+[33mbf039b98[m tweak tests
+[33m2c8f9819[m tweak early fail
+[33m0d9391f0[m selective xfail of test WIP
+[33m0b0dc94c[m test tweaks
+[33m87e393e0[m refactors HGI addr tests
+[33m006500c2[m bugfix
+[33mdd33b403[m add physical devices to test
+[33m4643a42f[m doctweak
+[33mb89b5042[m doctweak
+[33ma8e6898e[m minor tidyup refactor transport
+[33ma69a9ae7[m remove SZ_IS_EVOFW3
+[33m301bc32e[m add comports() for monkeypatching
+[33mc0979b16[m tweak clenup() II
+[33m43457167[m add cleanup() to test
+[33mc1104e1f[m tweak 4401, 4E0D, 4E14, 4E15, 4E20, 4E21
+[33ma33047da[m tweak 31DA & tests
+[33m838fd5a4[m tweak 31DA regex
+[33m88f3b312[m bugfix 31DA
+[33ma756e930[m tweak 31Da & add tests
+[33m526830b1[m rename symbols
+[33m21c1390f[m tweak 31DA capabilities
+[33m6f7870bb[m tweak 31DA remaining time
+[33mb75518ac[m tweak 31DA fan_speed
+[33m6edf8b5a[m tweak 31DA post/pre-flow
+[33m8ba5ff2a[m tweak 31DA pre/post temp
+[33m8c27eacb[m tweak 31DA bypass_position
+[33mb11e97f3[m tweak 31DA temperatures
+[33mc2b2c824[m tweak 31DA humidity parsers
+[33m1055e567[m tweak test timings
+[33m499695f2[m test performance WIP
+[33me005d714[m doctweak
+[33m0d77fb2e[m tweak co2_level, air_quality parsers
+[33m1f78650c[m tweak 31DAair_quality
+[33m2dd4d0e2[m doctweak
+[33md2f1f14e[m test tidy-up
+[33m163948d6[m tweak 4E04
+[33m31d49582[m re-organize tests
+[33mc9297365[m tweak tests, 22D0 parser
+[33m88ea2807[m tweak tests
+[33m36cc89e0[m tweak test
+[33m6ad135e5[m WIP test for HGI addr detection & swap behaviours
+[33m277ced6a[m Refactor VirtualRF for Gateway devices
+[33mf9d17a15[m small cleanup of Command._from_attrs
+[33m1918a779[m tweak Frame.init
+[33m7d590c7d[m refactor virtual RF for HGI80 WIP
+[33mef04cb12[m refactor tests, mypy work
+[33m25904a8b[m mypy tweaks
+[33m6e197ed0[m mypy
+[33m197d8e49[m remove ABC from State
+[33m59c4b55f[m tweak RF test timeouts
+[33mbefc30f7[m tweak tests
+[33m61d79701[m tweak binding tests
+[33mbf4b593a[m mypy, guard logic
+[33m40cd484e[m disable slow schedule tests
+[33mf8f140d3[m rename symbol
+[33m13d77a41[m rename symbol
+[33m9402caa4[m small refactor, State._prev_state
+[33m556f6b9a[m tweak bind fsm & tests
+[33mbf2944c6[m doctweak
+[33m355e2430[m refactor binding & imports
+[33m36c71f8b[m tweak exceptions
+[33m7eb0c10d[m tweak 10E0 parser test
+[33m383ba7d4[m Add fingerprints (WIP)
+[33mdf925d43[m doctweak
+[33mdb2f5e6a[m new 1FC9 tests files (TBD)
+[33m0b377ab8[m tweak 1FC9 (parser, tests & device base)
+[33md8083019[m doctweak
+[33m2ea25ae3[m bugfix binding FSM
+[33m7b353d29[m Add tests for binding FSM
+[33m57f976d2[m tweak 10E0 tests
+[33m74408dae[m fixes virtual RF, tests
+[33mbbc46d1e[m doctweaks
+[33m26370994[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m729aaf36[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33maf587b12[m tweak setup metadata
+[33m429d7972[m update requirements.txt
+[33m0e4da043[m add binding FSM
+[33m8edeef6f[m remove prev_msg from cli
+[33m296d6bc6[m bump to v0.25.0 (big refactor)
+[33mb469219c[m refactor this/prev_msg
+[33m2db8aabd[m reorganize tests
+[33m07e15ea4[m mypy
+[33m00f14abb[m tweak MT.dispatcher poller timings
+[33mf2fd232b[m refactor MP._pkt_receiver and callback code
+[33m99e5bd0e[m use call_soon for MP.callback
+[33md0d70ef3[m mypy & doctweaks
+[33m092c4607[m Revert "mypy"
+[33ma33bf029[m mypy
+[33mbf32e6ce[m Tweak 1FC9 to accept domain 21 - to cherrypick
+[33mc6e77193[m refactor handle_msg for 1FC9
+[33mb7dc8054[m doctweak
+[33mfc7d1d7c[m add option of 0 for rate limiters
+[33m42257b13[m doctweak dispatcher
+[33m373a52f2[m rename test
+[33meb2b5f41[m tweak test
+[33m414a7e09[m mypy
+[33m588560bc[m refactor Virtual RF
+[33mf004f52e[m refactor virtual RF class
+[33m3d03d4af[m doctweak
+[33ma06d1352[m doctweak
+[33ma3ddd5a4[m twaek hard_scan timings
+[33m3d390a28[m tweak rf_net tests (reduce duration)
+[33m711770ee[m delint
+[33m00a1d424[m rf_net tests refactor
+[33m7e4d8b1b[m refactor tests for virtual RF
+[33m79fb576c[m fix bugs in gwy.stop()
+[33ma05e214e[m remove problem create_task()s from schedule_task()
+[33mbe382854[m refactor gwy.stop() - swallow CancelledError
+[33ma2fb9442[m clean up
+[33mcd0e3070[m mypy tweak
+[33m4e2ae40a[m mypy tweak
+[33m0cf2633d[m remove unnecessary strip from data_received()
+[33m400020e9[m refactor VirtualRF
+[33m5c096f41[m rename class
+[33m1e65ffff[m Add a virtual RF net for testing
+[33mee2cca5c[m doctweak (mypy)
+[33m33470ca9[m doctweak
+[33me5b8df6d[m tweak 1FC9 assert
+[33m67386b5e[m doctweak
+[33m39ef3d61[m bugfix MockSerial (add portstr)
+[33mc288eb8e[m tweak 4E04 test log
+[33m8e15db8a[m add 4E04
+[33m2a372820[m tweak 4E15
+[33m944d0e9e[m tweak 4E01
+[33m053c2870[m fix 22C9 regression
+[33ma5d659cd[m doctweak tests
+[33mf79a9232[m tweak 4E15
+[33m172754be[m doctweak
+[33meead93f8[m tweak 01FF
+[33m64edbdf1[m Tweak 22C9
+[33m1d4b1203[m doctweak
+[33m8547fc4c[m Add (some) 4E0D (no parser)
+[33me71b4346[m Add 4E16
+[33m078cc050[m doctweak parsers.py
+[33m16b963c5[m tweak ramses.py for DEV_MODE
+[33mbeca7752[m fix 3EF0-related tests
+[33mc3576a9b[m Add 4E15
+[33mf04eeb05[m tweak 3EF0
+[33m470a884d[m Update const.py
+[33m72faf451[m Tweak 4E01/4E02
+[33ma3486ae4[m tweak 3110
+[33maed5b4e6[m tweak 10E0
+[33me43119c6[m Update README.md
+[33m94f4c49f[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33mb9db5ecb[m Add 01FF parser
+[33m34dca99f[m fix requirements typo
+[33m249766e8[m de lint
+[33m03610480[m remove file
+[33m62483107[m upfate pre-commit
+[33mc855643c[m update pip requirements
+[33m88271585[m rename symbol, disable regex warning for dev
+[33mab9e6547[m bugfix keyerror (can cherrypick)
+[33md6533bb9[m refactor CLI tests
+[33mb8ddf884[m tweak CLI
+[33m3d9c422b[m tweak 22D0
+[33m6223dc6c[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m2a1616a2[m Bugfix WIP: -rrr listen
+[33m535f58af[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33mf70b6b0c[m tweak tests
+[33m07068f4b[m tweak circleci config
+[33m4d962563[m tweak circleci config
+[33m98bd575d[m[33m ([m[1;33mtag: 0.22.40[m[33m)[m bump to 0.22.40 (incl. 0.20.40 fixes)
+[33m395c0da8[m bump to 0.22.39 (incl 0.20.39 fixes)
+[33m8d6b2f1a[m[33m ([m[1;33mtag: 0.22.3[m[33m)[m bump to 0.22.3
+[33mf6a6f1ee[m de-lint Optional
+[33mb99ec6b8[m doctweak/typo
+[33m294a0f59[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33ma2f8bc5f[m Merge pull request #67 from janvkem/janvkem-10DO-patch
+[33mecc5e832[m bugfix for 31DA request instead of 10D0
+[33m3f7311bd[m add better put_outdoor_temp()
+[33m334ed284[m add 22F8, tweak 3EF0
+[33mc9253daa[m add test_client unittest
+[33m07b02bac[m refactor client.py tweak
+[33mabf1cb53[m refactor client for unittest
+[33mbe846e28[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33mc515e847[m tweak 0001
+[33m7522dff3[m[33m ([m[1;33mtag: 0.22.2[m[33m)[m doctweak
+[33m752f6bd5[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m9a82a513[m Merge pull request #65 from tomkooij/neg_temps
+[33mcc82032c[m Negative temperatures
+[33m3cf865ab[m add initial tests for 31DA
+[33mbf364e0c[m bump to 0.22.2
+[33m471db6e0[m bugfix mode validation for set_xxx_mode APIs
+[33m26fc0c38[m[33m ([m[1;33mtag: 0.22.1[m[33m)[m hackfix discovery_cmds dict for discovery API
+[33m5b99fe4f[m remove lint
+[33me91b5832[m make entity.discover() public
+[33me857688b[m missing await
+[33m8731c190[m bump to 0.22.1
+[33m64f572a0[m add back entity._discover()
+[33m098d6045[m tweak domain constants
+[33m3cc6504c[m minor tweak 3EF0
+[33m3498dd94[m doctweak
+[33m6d415755[m bugfix: may fail 2 create orphans (to cherry-pick)
+[33md24827c5[m doctweak
+[33m090fc4b8[m doctweak
+[33md1ff10a6[m mypy tweaks
+[33m59244ff2[m mypy
+[33m1adb9637[m[33m ([m[1;33mtag: 0.22.0[m[33m)[m 0.22.0 - refactor OTB support
+[33me1a390b9[m doctweak
+[33m0c4e7fef[m use 3EF0, even with prefer OT
+[33ma67c8524[m minor tweaks, fixes
+[33m83823652[m tweak CircleCI config
+[33mb1cd3e77[m extend 3EF0 tests
+[33md206e47b[m drop eavesdrop testing for now
+[33me3122652[m eavesdrop HACK
+[33m0e31c070[m 3EF0 refactor x
+[33mf592c9fe[m 3EF0 refactor 4
+[33m74a5cbe1[m 3EF0 refactor 3
+[33m161c37c2[m 3EF0 refactor 2
+[33m12dc3dd7[m 3EF0 refactor 1
+[33mb264aa26[m doctweak
+[33m31616527[m tweak status
+[33mcde6275a[m tweak warning msg
+[33me8b86a21[m add OT state attrs
+[33ma6fd1429[m tweak error messages
+[33md810b91c[m refactor, polling, deprecation, OTB attrs
+[33m65c57703[m increase logging for exceptions
+[33m60fefe95[m mypy
+[33m3b31bc35[m bugfix: duplicate packet.log entries
+[33mc34b9523[m enhance self._msg_supported, esp. OTB
+[33mb6bcbf75[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33meb2ef22d[m working UFH schema
+[33mabccb943[m bugfix zone_type eavesdropping
+[33mfffa9673[m doctweak client
+[33maf414095[m tweak tests for use_native_ot
+[33m95ba656b[m tweak gwy.hgi
+[33m9635de87[m bump to 0.21.6
+[33mddb05486[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m9d6dd09e[m broaden use_native_ot
+[33m0aef7a44[m minor refactor
+[33m9f3f259a[m[33m ([m[1;33mtag: 0.21.0[m[33m)[m bump to 0.21.0
+[33m250cb6c8[m bump to 0.20.37
+[33mc0820b3e[m bugfix get_state packets
+[33me5b84672[m bugfix discovery of main relay
+[33m5b432a72[m mypy tweak
+[33md540af1c[m qos code quality
+[33mf2d5cbc2[m code quality
+[33m483a924d[m tidy up QoS table
+[33md4d25c3d[m tidy up attrs initialisation
+[33m5eb2a6ae[m doctweak
+[33meb5faf9d[m bump to 0.20.36
+[33mccef0e87[m woraround for python <3.10.0
+[33m78ed80b6[m add eavesdrop test
+[33me2bce0c4[m tweak test log
+[33m94f114f2[m tweak test log
+[33mddc974b4[m tweak test
+[33mc4189751[m tweak test log
+[33m04f3c68f[m switch to new eavesdrop zone sensor
+[33mbf04177a[m doctweak
+[33m4af92719[m refactor get_temp for multiroom zones
+[33m900fa3c4[m bugfix get_temp for multiroom_mode zones
+[33med4e7bba[m add get_temp for multiroom_mode zones
+[33m05cbc466[m tweak 000C, 313F
+[33meb01d0d4[m add schedule_version to zone/DHW attrs
+[33mf8ddc97b[m add version attr to schedule object
+[33md79fba3f[m add schedule_version to TCS status attrs
+[33m33197365[m bump to 0.20.33
+[33m14f00d43[m tweak warning text
+[33m4b6efe7f[m minor doctweak
+[33mf138f9a3[m refactor HGI sanity check
+[33mf492e09f[m bugfix typo
+[33mcf078c88[m swap exception for warning when >1 HGI
+[33md7e8ac9d[m doctweak
+[33m91177d07[m harden gwy, reduce logspam
+[33m458b25f5[m doctweak
+[33m58d933e6[m remove controller key from the minimal schema
+[33m13c12609[m faking/impersonation test work
+[33m90132a00[m doctweak
+[33m99813fd8[m add profiling to client.py
+[33m1756d86e[m refactor is_wanted/check_set_hgi80
+[33m0cb048ef[m tweak CircleCI config
+[33m981be834[m start working on a virtual controller
+[33m04d7a49a[m tweak helpers, add flag8_to_hex()
+[33md218590d[m tweak MockCTL
+[33m2aaab4a9[m bugfix CMD.put_sensor_temp
+[33mebd30eba[m bugfix putter/getter, esp for CMD.put_
+[33m88836d68[m update test_rf for faking
+[33mbd7c8bac[m bugfix fidpatcher, handle_1FC9
+[33m51c4465a[m refactor faking tests
+[33m74332714[m binding no longer uses transport-layer callbacks
+[33m5dadd644[m tweak test binding
+[33mb6376bb2[m tweak OTB._handle_3220()
+[33me7215f43[m bugfix excess RQ|3220
+[33me87a6882[m bugfix OTB.flame_active
+[33mb2ae5eea[m doctweak
+[33m0f6c5ee1[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m5cf194ae[m const for literal
+[33m9a0b1945[m rename file
+[33m8cf27eac[m tweak 1FC9 parser test
+[33m576f93cb[m widen 3220 parser tests
+[33m25749c58[m add test for 2309 payload
+[33m8fad1c1d[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m4025472a[m doctweak
+[33mf05ea7e3[m Merge pull request #55 from bheading/bh-fix-opentherm-regex
+[33m85bd26f0[m correct test's invalid msg payloads
+[33m826372f1[m WIP: workaround concurrent.futures
+[33mf5d64d1a[m tidy up connection_lost()
+[33m845124e0[m add initial test_binding
+[33m662ee35f[m const instead of literals
+[33m8ef63cca[m WIP: mocked devices are optional
+[33m8fd8fbed[m bugfix new 1FC9 parser
+[33m4c8ee8fd[m add name to tasks
+[33m372f85bf[m tidy up
+[33mf99ad230[m rename discovery symbols
+[33mf490036c[m fix invalid regex for opentherm message
+[33mba47e9e9[m add binding test - initial commit
+[33m45d98f9d[m rename symbols
+[33madd78cc9[m doctweak, mypy
+[33m1978a3fe[m doctweak
+[33m0cfce035[m rename symbol
+[33m99208a9e[m refactor test_rf_schedule
+[33m96bf1107[m bugfix response table
+[33m07079dec[m doctweak
+[33meb18a3e8[m bugfix mocking, test_w_0404
+[33m29c68a86[m bugfix 0404 parser
+[33m68c1acc1[m tweak RF tests - psuedo CTL
+[33m5930fdff[m mypy tweaks
+[33m03bc1b00[m refactor 1FC9 parser as dict WIP
+[33mcee13639[m add more hints for mypy
+[33medd3ab37[m improve abort decorator
+[33me3108519[m tadd cmd kwarg to _add_callback()
+[33mc834be3c[m avoid using 000730
+[33maa338d7b[m use const instead of literal
+[33mbf2e911b[m fix corrupt pkt
+[33m78260cc6[m doctweak
+[33m663ec92f[m[33m ([m[1;33mtag: 0.20.30[m[33m)[m reduce logspam
+[33m4329ee3c[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m7f4f623c[m bump to 0.20.30
+[33mdfc04205[m doctweak
+[33m852f7aa2[m doctweak putbind()
+[33m97e8d4e1[m WIP: test_rf_binding(), tweak mocked stack
+[33mf1be3c2a[m doctweak
+[33m9f6c6339[m bugfix bind_request()
+[33m87915b32[m workaround a small mess
+[33ma30eea6e[m tweak fro bugging
+[33m41fcbe99[m doctweak
+[33m25c9b017[m tweak load_test_gwy for config_file is None
+[33m70709038[m Merge pull request #52 from dennisvbussel/fix_33DA_FAN_INFO-autonight
+[33mf963d8d8[m doctweak
+[33m17265142[m doctweak
+[33m78d23cb8[m 31DA stretch assert range for auto night mode
+[33mbeaea18e[m[33m ([m[1;33mtag: 0.20.29[m[33m)[m bump to 0.20.29
+[33m64918256[m improve HGI detection
+[33mfcd6f051[m add check for >1 HGI in known_list
+[33m17734a50[m add fingerprints
+[33m20995aae[m bugfix is_array for 1FC9
+[33mdf7c8bed[m doctweak
+[33me534fa1c[m[33m ([m[1;33mtag: 0.20.28[m[33m)[m bump to 0.20.28
+[33m80bb957c[m bugfix
+[33m16eaf260[m[33m ([m[1;33mtag: 0.20.27[m[33m)[m bugfix circleci
+[33md436a976[m bugfix circle config
+[33m85c8aaac[m remove circleci tests_rf for now
+[33m096a05b4[m bugfix circleci config
+[33m099f2b2d[m bugfix circelci config
+[33mbaf61117[m bugfix circleci config
+[33mbfb47065[m bugfix circleci config
+[33m2414b69b[m bugfix CircleCI config
+[33md9ab0ab5[m CI: migrate from leagcy images
+[33m78c461fa[m bump to 0.20.27
+[33mc957b7d5[m refactor is_wanted() & HGI detect
+[33m150159eb[m doctweak 2210
+[33m1c32bb9d[m bugfix puzzle pkt constructor
+[33mf317464c[m add fingerprint
+[33m14468ea4[m add const
+[33mb4951b40[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m6ea00898[m add binding to remotes
+[33m5247a956[m add const
+[33mb7f83ef6[m fix tests
+[33m7ed48f7b[m soften 3EF0
+[33m2eff3bbc[m bump to 0.20.26
+[33m128d32da[m refactor is_wanted() & _check_set_hgi80()
+[33ma5e0e0f6[m harden pkt validation
+[33m6e12b649[m check for overlapping lists
+[33mf7f0ad62[m parsers: 22E0, 31E0
+[33m625777e9[m 000C, 12F0, 2210, 22Ex, 22Fx, 313E, 31D9, 3222
+[33m31d79dae[m add fingerprint
+[33me771a0f2[m fix typo in err_msg
+[33m6cfc4ff8[m[33m ([m[1;33mtag: 0.20.25[m[33m)[m doctweak
+[33m25a05d8a[m str lits to constants
+[33m9eaa55f8[m bump to 0.20.25
+[33mc98789ea[m[33m ([m[1;33mtag: 0.20.24[m[33m)[m bump to 0.20.24
+[33m58dc56c8[m tweak 2210
+[33mced0c040[m tweak 3110
+[33mf9ce5e80[m dont promote to the other domain
+[33mb11221b6[m doctweak
+[33mbf44472f[m bugfix addr set validation for HVAC
+[33m5fee31c2[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m544572b3[m[33m ([m[1;33mtag: 0.20.23[m[33m)[m bump 0.20.23
+[33m0ba42bb2[m bugfix _delete_msg: now call_soon(_delete_msg)
+[33m588caf31[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m8eb07d35[m bugfix CODES_OF_HEAT_DOMAIN
+[33m7caf403a[m add in debug hack to client
+[33mdf755452[m doctweak
+[33md4084900[m doctweak
+[33m5377150f[m add 22E0, 22E5, 22E9, 22F2, 22F4, 313E, 3222
+[33m7f995150[m bugfix tests
+[33m17be8ca3[m extend tests
+[33ma1fd38d0[m remove SQL
+[33m8608036b[m bugfix
+[33m7a9dacef[m doctweak
+[33meeee4133[m[33m ([m[1;33mtag: 0.20.22[m[33m)[m refactor: always test mocked port
+[33me4166ec1[m bugfix
+[33md15688b8[m estend test
+[33mfdb5db95[m doctweak
+[33m14c1431c[m add test of merge
+[33m1454e069[m doctweak
+[33m15a1d5ac[m bugfix, refactor sch_global_traits_dict_factory()
+[33ma33f353a[m doctweak
+[33mf3f230eb[m rename zx_ symbols
+[33mce65c634[m small refactor of zx_device_factory()
+[33m8ba2f255[m doctweak
+[33mee3dab83[m add port_config back in
+[33m5ad4c996[m extract sch_ser_port_config from factory
+[33m11f0faff[m doctweak
+[33m6f662258[m bump to 0.20.22
+[33mdee350db[m dev tweak
+[33me4256b86[m[33m ([m[1;33mtag: 0.20.21[m[33m)[m bump to 0.20.21
+[33mc5a82604[m[33m ([m[1;33mtag: 0.20.20[m[33m)[m refactor HGI detect
+[33m7a787bf3[m tweak trait factory
+[33mc6887620[m reduce logspam
+[33m45e5dd52[m refactor sch_global_traits_dict_factory
+[33m7d956d8d[m remove 22F1 regression
+[33m4ffa530e[m tweak 22F1
+[33mb58af896[m tweak 22F1 for Nuaire
+[33maefcbc45[m bugfix display_name(addr)
+[33m2245a6a5[m bump to 0.20.20
+[33mccb555ee[m doctweak
+[33m7d90332c[m bugfix display_name(addr)
+[33m73e7ee10[m[33m ([m[1;33mtag: 0.20.19[m[33m)[m bump to 0.20.19
+[33m71098213[m add WIP
+[33mce155907[m doctweak
+[33me117eda0[m tweak ser_config
+[33m76595cd8[m tidy up tests
+[33m1ea92c38[m tidy up
+[33m471d7609[m tidy up config schemas
+[33m59a4f511[m abort rf tests if any one test fails
+[33m04d4cd7e[m doctweak
+[33md580ab57[m doctweak
+[33m25c0d850[m add more tests
+[33m11e4f651[m refactor voluptuous (again)
+[33mbf22271b[m tidy up CODES_OF_DOMAIN
+[33mbfee61bb[m tweak 22C9, 22D0, 22F3, add 4E0x
+[33mfba2e8eb[m tweak REGEXs, CODE_IDX_SIMPLE
+[33m956bac0c[m refactor meta attrs
+[33m92a44e06[m bugfix Msg._is_fragment
+[33mbca18495[m doctweak
+[33mbb23cedd[m tweak meta attr tests
+[33me6092da9[m slacken test
+[33m9b88c90a[m test payload meta data
+[33mbb884fc1[m add 4E0x consts
+[33ma238afa6[m tweak 31D9, 31E0
+[33md358c81d[m Merge pull request #50 from tomkooij/31d9byte16
+[33m577ca187[m Byte 16 of 31D9 can be 00, 04 and 08
+[33m7189ad38[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m51720447[m doctweak
+[33md8b4fcf1[m bugfix --config_file
+[33mffa1c20f[m[33m ([m[1;33mtag: 0.20.18[m[33m)[m bump to 0.20.18
+[33m9c15d122[m tweak requirements-dev
+[33m94376d54[m tweak gitignore
+[33mf5c2347f[m add tests files
+[33m5064f22a[m tweak gitignore
+[33me7eb326f[m doctweak
+[33m673108f3[m add ramses_cc feature
+[33m32e6eac5[m tolerate old schema (main_CTL)
+[33m49c30fa9[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m25fd4274[m tweak schema processing
+[33m9c06071c[m tweak schemas, cli
+[33m9211adfc[m better error message
+[33ma7f52240[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m040c6e55[m tweak 2410
+[33m9b1ababd[m split out RF from tests
+[33mc5ec5005[m test_vol_schema
+[33m2a33020a[m tweak tests_vol_schema
+[33m533bfc63[m add yet more vol_schema tests
+[33mb10ed6a5[m bugfix client for new config schema
+[33m3eec25cc[m bugfix schema, tests
+[33m635b80bc[m bugfix schemas, vol_schema tests
+[33m003a74fe[m add vol_schema tests
+[33mafe1e29b[m tweak vol_schema & tests
+[33meac0e8db[m tweak vol_schema tests
+[33m0623ff1e[m tweak vol_schema tests
+[33m68d9763c[m extend vol_schema tests
+[33m891f441c[m extend vol_schema tests
+[33m23a0317b[m bugfix schema, add tests
+[33m913d7091[m add vol_schemas tests
+[33m360d17a4[m refactor vol_schemas
+[33m505bd73b[m add mypy to requirements-dev
+[33med2cfd44[m[33m ([m[1;33mtag: 0.20.17[m[33m)[m mypy tweaks, bugfixes
+[33m37d07e24[m logger schema
+[33mc7027db0[m bugfix mock/non-mock
+[33m4b9cda17[m tidy up creat_pkt_stack
+[33m9d790950[m bugfix create_pkt_stack
+[33m0ee136ad[m bugfix pending tasks
+[33mf0985eaa[m tidy up tests
+[33mfd4b3ddb[m bugfix serial port config
+[33mc0fceb8e[m bugfix client(WIP)
+[33m87f09df2[m bugfix tests
+[33m753690c5[m refactor schema, config, max_zones, others
+[33m2d2b8a40[m tweak 31DA
+[33mc4607881[m harden schemas, bugfix tests
+[33mecfa5330[m bugfix mypy work
+[33m6facbcd4[m refactor config NS, default regex_hack
+[33m020b927c[m name change
+[33m0a8e2cd1[m bump to 0.20.17
+[33m442b74f9[m refactor schema/mypy
+[33md8d6b0b4[m[33m ([m[1;33mtag: 0.20.16[m[33m)[m doctweak
+[33md0c1c876[m doctweak
+[33m66626a0a[m doctweak
+[33m9562dcfc[m bugfix type hint
+[33mba8a2783[m refactor put_bind for multiple codes
+[33m0e7e5ec6[m bump to 0.20.16
+[33m7e029c05[m bump to 0.20.15
+[33mccf23148[m tweak
+[33m91c3280c[m doctweak
+[33mab83bbc9[m tidy up
+[33m34a8656a[m add tests
+[33md79059af[m tidy up
+[33m79d758d9[m tidy up
+[33m29dc7c83[m add constructors for 1298, 12A0, 2E10
+[33m94efbb35[m tweak helper parsers, add tests
+[33m1f080edf[m refactor for faking
+[33mf0de0650[m doctweak
+[33m55e64d3d[m add FAN._update_schema
+[33m9b6954d3[m fan_info is not fan_mode
+[33md3c038d3[m doctweak
+[33m06e952a0[m small refactor
+[33mab1fbe75[m tweak consts
+[33m87d470f5[m tweak 31D9/31DA
+[33mf31a758f[m use cmd not hdr in mocked RF ether
+[33m5b02c546[m[33m ([m[1;33mtag: 0.20.14[m[33m)[m fix mock lint
+[33mc36261ab[m ad mocked fan
+[33m629fdb08[m minor tweaks
+[33m9235d580[m bugfix tests
+[33m48ce1fc3[m tweak output formatting
+[33mbd118534[m bugfix discovery
+[33m000adca6[m bugfix protocol poller
+[33m62d9e091[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m8f1ee680[m bump to 0.20.14
+[33m827b41f2[m SCH_SYS swap with SCH_TCS
+[33m38dacb08[m tidy up mock code
+[33m6d598e63[m better test names
+[33mdfaf6099[m wip
+[33mb2c5a8f3[m refactor mocking
+[33m7bdbf4ba[m add test_rf_faking_hvac
+[33m61e435a3[m add ser2net.yaml
+[33m86238c28[m[33m ([m[1;33mtag: 0.20.13[m[33m)[m refactor 2
+[33m5e6ff776[m refactor
+[33m325ef762[m bump to 0.20.13
+[33m6cf8a4d3[m tidy up consts
+[33ma5a3f5c5[m add new util WIP
+[33m9e155e50[m add eavesdrop log WIP
+[33m20c6492c[m doctweak, mypy
+[33m7ecc203c[m mypy QI WIP
+[33m7fef811a[m small refactor
+[33mcf1c63f2[m bump to 0.20.12
+[33m9e1bf88e[m typeguard APIs
+[33m4d77a6ee[m fix regression for typeguard
+[33m1a4e4e01[m _ZoneIdxT
+[33m1195cc07[m refactor types & Codx to Code
+[33m65879703[m refactor Code StrEnum, and modules
+[33m9360bfee[m type annotations
+[33m1e1d1669[m type annotations
+[33ma7717cb7[m annotations
+[33m99246ee4[m type annotations
+[33ma741837e[m restore type: ignore check
+[33meae90491[m annotations
+[33mf498b49f[m annotations
+[33m26232e4f[m annotations
+[33m9ba410c0[m annotations
+[33mf58413e3[m mypy transport
+[33m0a8e2411[m mypy protocol
+[33me8903c46[m sl. refactor transport
+[33m51dd4385[m tweak pre-commit
+[33ma9805119[m mypy linting
+[33me14c9909[m mypy tweaks
+[33m134f9192[m refactor for mypy
+[33ma0158fd5[m add annotations
+[33m80b48fe9[m add annotations
+[33m72209465[m change CONST name
+[33m4012c7e2[m[33m ([m[1;33mtag: 0.20.11[m[33m)[m bump to 0.20.11
+[33m3d184752[m doctweak
+[33m6dc5706f[m tidy up class names
+[33m08646167[m add back useful utility
+[33meb19ea2b[m doctweak
+[33m07db0c76[m tweak test
+[33m931f911d[m SWI is now REM
+[33mcdd9fc55[m tweak str dunder
+[33m25c21bb1[m[33m ([m[1;33mtag: 0.20.10[m[33m)[m bugfix circleci config
+[33m1b20661a[m bump to 0.20.10
+[33m11ef7f3b[m doctweak
+[33m157cbe54[m bugfix tests
+[33m1855d09d[m tweak
+[33mf1052e7c[m tweak parser tests
+[33m89751d2e[m rename vol consts
+[33mec8bf528[m bugfix _normalise_mode()
+[33mcdfb7382[m bugfox command apis
+[33m17bbaa87[m doctweak
+[33m0d03a9a1[m rename vol consts
+[33m66ae7b6b[m rename voluptuous consts
+[33m36c5916b[m bugfix schema load of orphans
+[33m9906d2ad[m bugfix 0404
+[33m1117e7f6[m tweak rf tests
+[33m34163e55[m refactor schedules
+[33maa36d1d8[m Merge branch 'master' of github.com:zxdavb/ramses_rf
+[33m499c4d30[m doctweak
+[33m59131a49[m Faked HVAC devices must have an explicit class
+[33m4ffc8b32[m add test unfaked sensor
+[33m7e6d1241[m graceful shutdown of mocked serial port
+[33m3ca0ae83[m add a test for zone sensor faking
+[33mcfcff74d[m add faked zone sensor to test schema
+[33mf8c98ec6[m doctweak
+[33m709d7286[m bugfix typo
+[33mc44b1e6e[m switch tp PyPI API token
+[33m00cc0ad0[m better log message
+[33m8653d6f7[m[33m ([m[1;33mtag: 0.20.9[m[33m)[m bugfix: missing 1 required positional arg: 'value'
+[33m57450623[m reduce logspam for HVAC
+[33m64af90ba[m tweak 31D9/31DA
+[33m5abf2802[m bump to 0.20.9
+[33mfa9873e4[m doctweak
+[33m3a91a52b[m expose fan flags
+[33m3695827b[m split out 10D0
+[33m99329241[m bugfix 10d0
+[33mc092bc3a[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m22811705[m add 10d0
+[33m097a309a[m Merge branch 'master' of github.com:zxdavb/ramses_rf
+[33mfb18ed2a[m bugfix puzzle qos
+[33m79c184a0[m tweak 2411
+[33m6bada094[m update 2411 hints
+[33me412d5f6[m bugfix 0001
+[33m490b4ac1[m tweak 0001
+[33m769b8485[m tweak 0001 (HVAC)
+[33mef2d6fde[m WIP: add option start to scan_hard
+[33m64006264[m doctweak
+[33mcd8b6a13[m add fan polling
+[33m5557e2e3[m add scan_fan
+[33m0934b612[m add new codes
+[33m482b2135[m fix typo
+[33m1e93ea59[m bugfix mock gwy test
+[33mdcc18eee[m tweak 1040, 2E04 & tests
+[33m8aa16b2c[m correct the tests for 2E04
+[33mc500a4ad[m tweak 1030, 1F70, 2400
+[33m8e0672aa[m tweak 1030, 2410
+[33mc22bedaf[m tweak 0418 parser
+[33m505255a1[m tweak test
+[33me1ed25ae[m tidy up test_apis_heat
+[33m70b9ca84[m better tests for 2e04
+[33ma1d2fe06[m tweak test 1100
+[33m0922e92e[m 1F41 bugfix regression
+[33md98fa9b3[m[33m ([m[1;33mtag: 0.20.8[m[33m)[m bump to 0.20.8
+[33m7ad49b38[m logging tweak
+[33m7bb39acb[m discovery: bugfix scan_full, qos
+[33m96d3232c[m tweak 0404 (use HW), 1F41, add F6
+[33mba7edcfd[m add in eval(str) to tests
+[33m0dcf6fa1[m improve 1f41 tests
+[33m79a128af[m doctweak
+[33m6cf51f9e[m refactor test_apis_...
+[33mae49b9c9[m refactor tests, add RQ|0404
+[33m02447c18[m doctweaks
+[33m550fc9aa[m bugfix dhw_idx, puzzle qos, RQ|0404
+[33m8dad048e[m add bones for STRICT_MODE
+[33m0716b9e0[m bugfix, tidyup deiscovery
+[33m14f72933[m doctweak, tweak RQ|0008
+[33m9d8cf7dc[m bugfix cmd constructor
+[33m2f867de2[m doctweak
+[33mf3df026f[m delint
+[33m14ae5cda[m[33m ([m[1;33mtag: 0.20.7[m[33m)[m bump to 0.20.7
+[33m248a25e7[m add use_native_ot
+[33mc64a090a[m refactor OTB attrs
+[33m7ea17822[m doctweak
+[33m1c7662d0[m Update README.md
+[33m866540d6[m[33m ([m[1;33mtag: 0.20.6[m[33m)[m tweak logging
+[33m8d602fbc[m refactor 313F diff check
+[33ma099b984[m refactor OTB attrs
+[33m398a09b4[m fix tests
+[33m27fc4473[m bump to 0.20.6
+[33m8cc9a5f3[m code quality
+[33mba80deb7[m bugfix excessive dt difference
+[33m32c1a04a[m fix test 22f1
+[33mb6541d55[m bugfix typo
+[33mb2baa5a1[m doctweak
+[33mfd8b699c[m diff schemes for 22F1
+[33mc790f33e[m doctweak
+[33m389ec83d[m bump version to 0.20.5
+[33m838e9304[m tweak delay for 0100
+[33m2f2a5a1b[m allow using slugs for device class
+[33mec8aac58[m bugfix DEV_TYPE typo
+[33mc4a8be22[m typo
+[33m398121ab[m dev tweak
+[33maa60a06a[m lots of HVAC love
+[33m656ee0d1[m bugfix 22F1 HACK
+[33mae404284[m tweak tests
+[33m3a5f8fb0[m add test_parsers_hvac
+[33m35b91492[m bugfix mocked serial port
+[33mf38c0e61[m doctweak
+[33m1652fefa[m disable HVAC test for now
+[33m5439ae9a[m bugfix for odd 22F1 payloads
+[33m34953032[m HVAC tweaks
+[33m032a2b41[m bugfix 10e0 regression
+[33mdb1d664b[m tweak 1470, 1F70, 22B0
+[33ma5fe3e3b[m add test log for 1470
+[33m49794ae6[m tweak 10E0
+[33m5c23eb2c[m tweak 1470
+[33m92316199[m tweak 1470
+[33mf865e898[m tweak 1470, fiddle 2F1/31Dx
+[33m091e81ac[m another constructor issue
+[33m2d8ed28c[m bugfix mock_gateway
+[33m77b9f78c[m better error message
+[33m44363439[m add wrapper to Command()
+[33mb0e0e16d[m bugfix part 2
+[33mb2697c03[m bugfix await _handle_impersonation()
+[33m69573e17[m bugfix CLI
+[33mf9053116[m bugfix 22F7
+[33m330bd7d1[m re-instate test_apis_hvac
+[33m97c3766f[m test_rf_schedule hangs
+[33m717b9ae3[m refactor inheritance from Frame
+[33m2c49f2f4[m doctweak
+[33m6b5bba5b[m doctweak
+[33me7cd7792[m WIP new test
+[33mfa927923[m add eavesdrop_zone_sensors_new()
+[33m1e15e82d[m bugfix client.py long-format
+[33m5bfaf78a[m doctweak
+[33mf298a600[m bugfix 22F1 constructor
+[33mfe405cc3[m bugfix 22F7 constructor
+[33mba2e96df[m doctweak
+[33mf3da64c3[m inital add of 2411 constructor
+[33m26840658[m tweak 2411 payload schema
+[33m1fd020fc[m bugfix decorator
+[33meeecccc5[m improve 22F8 payload schema
+[33m5a2e8a48[m doctweak
+[33mf547a5b7[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33m6f26c0ef[m tweak hvac parsers
+[33m42c50291[m doctweak
+[33mb32e5960[m doctweak 2411
+[33m7633569d[m doctweak
+[33mab804e27[m tweak 2411
+[33mb17a4661[m tweak 2411
+[33md4a32083[m bugfix 2411
+[33m6d492d97[m delint 2411
+[33md8e98ed9[m parser for 2411
+[33md535f3b5[m tweak 2411
+[33m420c5074[m tweak 2411
+[33m5758932b[m 2411 tweaks
+[33m2c273a59[m initial work 2411
+[33m1b2a2156[m tweak tests
+[33mb5611e5b[m bugfix api tests
+[33me84658d1[m test W|22F7
+[33m2197942a[m constructor for W|22F7
+[33m2b17ee8a[m add test for test W|22F7
+[33mc05fa566[m add new test
+[33mf7340aee[m rename test
+[33mf9d2346f[m add faking decorator
+[33m891a20ee[m doctweak
+[33m6fff633c[m[33m ([m[1;33mtag: 0.20.4[m[33m)[m reduce logspam, v0.20.4
+[33m72fc1c01[m[33m ([m[1;33mtag: 0.20.3[m[33m)[m doctwek
+[33m501f0492[m doctweak
+[33m0e1f1bc0[m[33m ([m[1;33mtag: 0.20.1[m[33m)[m version bump
+[33m6b49b956[m bugfix packet logger
+[33m6475fc01[m add pytest to circleCI 6
+[33m45fc89f2[m add pytest to circleCI 6
+[33m33eece8c[m add pytest to circleCI 5
+[33me1ef0883[m add pytest to circleCI 4
+[33mafd145ad[m add pytest to circleCI 4
+[33m9f2e9dd9[m add pytest to circleCI 3
+[33madc52e4e[m add pytest to circleCI 2
+[33me7bdbe2e[m add pytest to circleCI
+[33m2b175747[m[33m ([m[1;33mtag: 0.20.0[m[33m)[m bugfix for dhw_idx
+[33maedfe128[m fix command constructors fro dhw_idx
+[33me60e42f5[m tweak OTB discovery
+[33m7e65fa87[m refactor discovery for OTB
+[33m688622c9[m tweak discovery timings
+[33ma77840ad[m add new OT_MSG to schema/param
+[33m77e34512[m bugfix 1260
+[33m1d0419ea[m de-lint
+[33m3164050a[m bugfix schema
+[33m57fd351c[m lots of work to reduce discovery spam
+[33md6d2e972[m tweak for dhw_idx, log_idx, 0006 name
+[33m85203956[m bugfix _get_msg_by_hdr, _poll_discovery_tasks
+[33m9af7c68d[m tweak QoS, Callback
+[33mdfbf7e80[m tweak discovery poller
+[33m1f15a6a4[m tweak attr name
+[33m52d3ec7f[m parser tweaks
+[33m6c26015c[m add HVAC consts to parsers
+[33mb41a14f1[m lots of 31DA stuff
+[33mba39c3e6[m add _note to device trait
+[33mfb77165a[m add 1470, tweak FAN, SWI
+[33md7074d0d[m first tweak of discovery params
+[33md593c9eb[m tidy up transport QoS refactor
+[33m736cdb7c[m working QoS
+[33m3d2cc169[m initial commit new QoS
+[33mfa91b970[m refactor CBK, QoS & discovery - initial commit
+[33m34030b15[m tweak 313F
+[33m00cbf52a[m add consts
+[33m051e1c64[m change arg name
+[33m8885d991[m doctweak
+[33md4a9c1b2[m add consts, tweak Priority ns
+[33mfadf546a[m tweak dtm_to_hex() helper
+[33m83666cc1[m doctweak
+[33m6f3fb3c7[m add 1470, 22F7, tweak 0001, 2411, 3120
+[33mab80371e[m hvac tweaks
+[33m80a422f5[m refactor discovery
+[33mad07ee03[m base for discovery scheduler
+[33m37e5f8af[m bugfix cmd.qos.timeout
+[33m7bf22da1[m doc typo
+[33m9565ade7[m initial commit for set_fan_rate
+[33m00ff610b[m bugfix
+[33m9123e7cd[m doctweak
+[33me1c4601a[m bugfix 1FC9/null payload should be list, not dict
+[33mf5d995e9[m fixes for evohome_cc
+[33m79d58be3[m Test w/0404 working with RF
+[33m05bb86a3[m tweaking W/schedule, tests
+[33m3ebd11e0[m tweaks fro DHW/testing
+[33m9fdead5d[m test fro DHW schedule
+[33m2cdb1ddf[m DHW schedule added
+[33m01f50a8d[m prep for sql DB
+[33m7f7ff2dc[m refactor mocked controller
+[33m6ceacbb0[m bugfix typo
+[33mdbec5258[m protect gather()
+[33m88f80fe4[m tweak flag8()
+[33m27995397[m refactor repr(), str()
+[33m61b272b5[m doctweak
+[33me570b435[m typo
+[33md1dca257[m tidy up
+[33m1abb82c6[m tweak
+[33m2d6b6be6[m refactor mock_gateway
+[33mdd628e45[m add Cmd.from_raw_str constructor
+[33me492fc04[m tidy up fut loop
+[33mb3ec4578[m bugfix future loop
+[33mc6f5e9e5[m new AwaitableCallback
+[33m963adec6[m doctweak
+[33m625046a4[m WIP - new Await2Callbk
+[33mc50c61b6[m bugfix async_send_cmd()
+[33m27264e6f[m tweak test
+[33me8afbea5[m bugfix
+[33m4600d707[m add const
+[33m00b98447[m small tweak
+[33mcde3f2ec[m fix regression
+[33mc09e044e[m less excepts
+[33m9fb4d2a1[m prep for set_sched()
+[33mf82e78fa[m bugfix
+[33m61c9f0dd[m doctweak
+[33m4b23cc31[m tweak tests
+[33m56beb032[m refactor get_schedule()
+[33m8a8a22e5[m tweak
+[33mb6f19f63[m tweaks to send_cmd
+[33md08529a9[m small tweaks
+[33m63001bcf[m tidy up transport.close()
+[33m1fe3aa65[m add mock_gwy (mock serial)
+[33mb84fc2fb[m tidy up transport/protocol
+[33mcac24459[m add temporary asserts, type hints
+[33m8cc3715b[m doc typo
+[33m5906122b[m add schedule schema
+[33mbd07f8cf[m tidy up
+[33mdba7ea7e[m remove crud
+[33mcc869877[m tweak tests
+[33m7c7226db[m tweak tests
+[33m60cb4e2d[m bugfix scheds fro DHW, tweaks
+[33m36a7f5b4[m tweak tests
+[33m152095ce[m tweak tests
+[33m1c41e4f2[m tweak tests
+[33m464769ff[m doctweak
+[33me8fd64c3[m refactor zones, scheds, discovery
+[33me286f8a0[m tweak tests
+[33m893477cf[m tweak
+[33m02ebdc41[m bugfix send_data wrapper
+[33mcaffca41[m add efficiency to get_sched()
+[33mc6859bfa[m doctweak
+[33mdf8fdb6e[m less logspam
+[33m234713ea[m bugfix for short pkt logs
+[33m6001536d[m fix get_schedule()
+[33m28a47d5b[m tweak tests
+[33me7ebf709[m tweak tests
+[33mb8d40af1[m tweak debug logging
+[33me3ef6c6a[m cleanup
+[33m3f6e081a[m Merge branch 'master' of https://github.com/zxdavb/ramses_rf
+[33mda35d873[m Merge branch 'master' of github.com:zxdavb/ramses_rf
+[33md132da54[m tweak tests
+[33mfbf69a1f[m tweak start/stop/add_task
+[33m7e4ece29[m bugfix Cmd.from_str()
+[33m74e38f73[m code quality
+[33m585100ce[m doctweak
+[33ma67740ea[m bugfix test
+[33m7994a928[m lots of async improvements
+[33macec1cbe[m tweak ser_instance code
+[33m7f706c13[m bugfix
+[33mf8291c41[m schedule WIP
+[33me169e5e8[m tweak tests
+[33m543c4daf[m tweak long-format switch
+[33mc9cacf3d[m sort lists in shrink()
+[33m06a2baa2[m remove literals
+[33me278219b[m tweak tests
+[33me541fb2a[m doctweak
+[33mcf9a7659[m add RQ/0006 cmd
+[33m778330ca[m tweak tests
+[33md53ee13a[m tweak tests
+[33m492ffe6c[m code quality
+[33md1067c4b[m code quality
+[33mdb89f92d[m code quality
+[33m57993726[m code quality
+[33m2b970911[m use FB const
+[33m7f01cbfb[m use F8 domain const
+[33mb827a410[m use FF domain const
+[33m80deb0fe[m use FC const
+[33m6533dd00[m use FA const
+[33m1bb4897a[m use F9 const
+[33m110ef0d4[m tweak domain consts
+[33mb77e2c63[m eavesdrop sensors
+[33m7d5bdf59[m code quality
+[33m044e88d6[m tweak tests
+[33m314d459b[m tweak tests
+[33m90506312[m tweak tests
+[33mb18b7f42[m bugfix eavesdrop sensors
+[33mbcc63b2e[m more tidy up, de-lint, bugfix
+[33me396afad[m refactor tidy-up
+[33m47f83a6c[m tweak tests
+[33m3279c71b[m remove junk set_parent() code
+[33me7617f38[m set_parent was _set_parent
+[33mb70b6406[m reap_ is get_
+[33m78ef9ac7[m get_device() - debug of refactor
+[33m13073e29[m tweak exc eption handling, logginf
+[33med66963a[m use Parent/Child class, lots more
+[33mb7304eff[m tweak tests
+[33m5337704d[m tweak tests
+[33mbbb8b74c[m tweak client
+[33m85ea5442[m doctweak
+[33m49b245bb[m harden args, kwargs
+[33mb5dd01f5[m tweak tests
+[33m8fb339a5[m tweak tests
+[33md545d3f3[m tweak tests
+[33m5053b02a[m tweak DEV_ROLE_MAP
+[33maa723049[m tweak 31D9 fro new FAN
+[33m1a2f1bd6[m tweaks
+[33mf504462e[m tweak tests
+[33m66d1b51c[m quality
+[33mc19e1d23[m tweak test packet.log
+[33m51b4b2d1[m code quality
+[33ma4ecd849[m passes all tests
+[33mdf763b0f[m various tweaks
+[33mac9ca628[m improve UFH tests
+[33me5aecbaa[m bugfix 02:/2309
+[33mf38c92dd[m add eavesdropping tests
+[33m41bf64ce[m bruce's bug
+[33m9b80ed7d[m tweak test
+[33m66ecc0ba[m tweak test
+[33m4e90389d[m bugfix
+[33m565b6c38[m config tweak
+[33m434a34e2[m bugfix
+[33madf61a83[m change linter config - REVERT
+[33m86d1f08f[m change linter config
+[33mf68de12f[m remove protected member, _pkt_receiver
+[33m06178574[m use XXX.dhw instead of XXX._dhw
+[33m2e196fc1[m fix test
+[33m7c684058[m add tests (tweak ignore)
+[33mcfd3b1c3[m remove hgi from orphans
+[33me37e5b21[m user const instead of literal
+[33m5c65666f[m minor tweak
+[33mdf1e2f6f[m minor bugfix
+[33m0af2d0f8[m improve message
+[33m4861a19c[m doctweak
+[33ma456710c[m add helper test fro pkt_addr set parser
+[33m0c38f3f0[m avoid string literals
+[33m05db4825[m delint
+[33m83c5c10d[m doctweak
+[33m476d8dd0[m tweak tests
+[33mec5c86a4[m tweak to staticmethod
+[33ma234bbd8[m bugfix, tweak schema, eavesdrop AppCtrl
+[33m70973a07[m de-lint
+[33md3c9dfaa[m de-lint
+[33m19f42039[m de-lint
+[33m5d8f4a16[m reduce asserts
+[33m609ede07[m XXX._ctl is now XXX.ctl
+[33m3866f381[m tcz is tcs
+[33m21159e2f[m XXX._tcs is now XXX.tcs
+[33m7a066fdf[m delint
+[33m0701c750[m tweaks, delint
+[33mf1915e2a[m tweaks - k_l aint part of schema
+[33m6e69cd36[m delint
+[33m4e188306[m tweak traits keys
+[33me7ca1b20[m lint hint
+[33m31f2c903[m bugfix faking
+[33m4113f4b9[m tweak tests
+[33mbed51651[m doctweak
+[33mf3fade97[m tweak tests
+[33me4543f02[m tweak tests
+[33md80f7bfc[m tweak tests
+[33m3ce091a4[m tweak known_devices
+[33m325522f5[m tweak tests, bugfixes
+[33mbcad0365[m bugfix, tweak tests
+[33m57a78ff5[m bugfix dunders
+[33mfa3a9af8[m bugfix clear_state
+[33mdebc57d3[m minor tweaks
+[33m194ce56b[m leave for later
+[33m65120b7b[m refactor tests fro pytest
+[33m7e4fa52a[m bugfix device schema/slug
+[33m0238bc9c[m tweak AttrDict
+[33m68c553da[m refactor api tests for pytest
+[33m01a59eae[m refactor api tests for pytest
+[33m9e08fbaf[m refactor schema tests for pytest
+[33mfe6a853d[m fixes
+[33m1d2d1fd8[m schema tweaks
+[33md932840b[m tweak tests, systems
+[33ma0853ddd[m tweak tests - pytest
+[33m9952f87f[m tweak
+[33mfe73be4e[m refactor more
+[33m2dc6ae7a[m refactoring continues - some HVAC
+[33m0648d0e0[m tweak tests - pytest
+[33mf0cb9c0a[m rename module
+[33m496b0ec8[m change module name
+[33m2d62183c[m twas tests (prefer pytest
+[33ma1d6ea4d[m more tweaks
+[33md609e156[m tweak 000C
+[33m50c14810[m add test for 000C
+[33m6cafd25f[m refactor even more, even moore...
+[33m45011280[m refactor even more...
+[33m5ef87ff1[m refactor yet more again
+[33m982260e1[m refactor yet more again
+[33mcd2850d1[m refactor yet more again
+[33me5c6973f[m DEV_ROLE was DEV_CLASS
+[33m8110b762[m tidy tests folder
+[33m8939ea2c[m refactor yet more
+[33m28d6d3a2[m refactor more tests
+[33m60f4edd3[m refactor more namespaces
+[33m2e558447[m refactor more namespace
+[33mb0a3f110[m refactor more namespace
+[33m5ff2f800[m refactor more namespace
+[33m406bd962[m refactor CONSTANTS
+[33me0400b70[m tweak
+[33m7f096fe8[m refactor to pass tests
+[33m435f4f48[m bugfix DHW refactor
+[33mb414af18[m refactor shedloads 2
+[33m77bdd9a7[m refactor shedloads
+[33mbb8dd906[m refactoring
+[33m4e43cca1[m move files
+[33m71b27a7d[m literals for consts+
+[33m050864a3[m passes SchemaLoad
+[33mde3fb3af[m schema load - passing more tests
+[33m398e72d2[m schema load first working
+[33m1328f43c[m doctweak
+[33m074c4139[m initial commit - entity factories
+[33m5f2618b6[m refactor class factory
+[33m9c2ff3fe[m big refactor
+[33m31833b6d[m initial commit
+[33mbdf12c77[m tweak all tests
+[33m41948bde[m tweak all tests
+[33mfe6943d2[m tweak colours
+[33m6d6eda3c[m use verb/code const in client
+[33m186ee899[m tweak client colors
+[33m5eaa263f[m tweak all tests
+[33ma9658309[m tweak all tests
+[33mf7562a71[m tweak all tests
+[33mcbd56e36[m tweak all tests
+[33m3b1ea28d[m tweak all tests
+[33m8851b8cc[m doctweak
+[33md0caa23b[m tweak all tests
+[33m35a2fb43[m tweak all tests
+[33m18c4c5ec[m tweak all tests
+[33m9b9d5dc9[m tweak test
+[33m101877ac[m add clean to helps
+[33maf8c628f[m doctweak
+[33m1dbc7a2c[m tweak 1FC9 for HVAC
+[33m011a7f44[m refactor throttle decorators
+[33m127e1e42[m bugfix _DEV_REGEX_SEN
+[33mac042757[m tweak all tests
+[33mdda6bec5[m minor tweak
+[33m2e0efc0b[m doctweak
+[33mebff6922[m tweaks
+[33mba0394a3[m[33m ([m[1;33mtag: 0.19.2[m[33m)[m bump to 0.19.2
+[33m633e73ef[m duty_cycle, track_sync, refactor QoS, tweak dt_now
+[33mb4af0401[m bugfix seqn decorator
+[33m6d298d24[m doctweak
+[33m45a83370[m bugfix _validate for complex idx
+[33m8955ea40[m tweak dt_now() (used by win32)
+[33mbdb170a2[m Add 2411, tweak 4401
+[33m0f0951c9[m tweak test eavesdrop device class
+[33m5892cfd8[m tweak 1FC9, 31D9
+[33m3659c84b[m doctweak
+[33m5025054c[m add DEV_HACK_REGEX
+[33m17b5dc09[m bugfix
+[33m4cac8e24[m doctweak
+[33m0c45c714[m doctweak
+[33mf6d56fa7[m doctweak
+[33m118542ea[m Add slow utility
+[33mef9f3683[m add test packet log for 10E0
+[33md259687e[m tweak 10E0
+[33m5be326c8[m[33m ([m[1;33mtag: 0.19.1[m[33m)[m tweak HVAC discovery, bugfix send_cmd()
+[33m548317f4[m bump to 0.19.1
+[33ma22e3257[m add clear_state to _set_state()
+[33m0b23cdf8[m bugfix OTB msgs DB
+[33mc0d27377[m update tests
+[33m43714ca8[m tweak
+[33ma9200b20[m mypy, test transform
+[33m2935c441[m mypy stuff
+[33m65aecd0c[m lots of mypy
+[33m6e04a18b[m tweak pre-commit
+[33me75a0a0a[m refactor devices: split heat + hvac
+[33m0fb0d27b[m[33m ([m[1;33mtag: 0.19.0[m[33m)[m bump to 0.19.0
+[33m98829078[m logging tweaak
+[33mcb5f5970[m lots of changes, mostly for HVAC
+[33mc8ddfeba[m enable schedule
+[33m2f29f47c[m tweak
+[33m0223289a[m tweak
+[33m88ed5fa9[m fix regression
+[33m27c19b47[m fix typo
+[33m11beb2f0[m re-populate signatures
+[33meefc1d4e[m tweak tests
+[33m07edeb10[m tests
+[33m41704737[m delint tests
+[33m3e67a742[m refactor process_msg()
+[33m1d62ed9f[m add DEV_KLASS_BY_TYPE
+[33m599df180[m change name of RAMSES constants
+[33m2eca74b6[m add CODES_HVAC_ONLY
+[33mce48002d[m whitepace
+[33m639e05b6[m remove addr check - fails for HVAC
+[33m921a9da2[m minor tweak
+[33mdc6a0039[m tweak
+[33me7de5723[m doctweak
+[33mf41560dd[m tweak 31E0, 31DA
+[33m3c73543b[m harden init dunder
+[33ma2b930dc[m doctweak
+[33m4eb80ef9[m add check to _check_msg_payload
+[33mf7055a65[m bugfix str dunder
+[33mfa6144f7[m delint
+[33md981a33a[m harden repr
+[33m96fd14dd[m add repr
+[33mff84365a[m small tweak to __str__
+[33mb4afb429[m delint
+[33m2cf31b69[m refeactor, delint
+[33m4c24b8fd[m harden polling lopp
+[33m72884252[m add guard to regex_hack()
+[33m3b3d7be5[m update requirements-dev
+[33mdcddb292[m add/tweak tests
+[33m7a9004b3[m tweak API tests
+[33me903ee56[m bugfix/tweak constructors
+[33m9f1e3d78[m add more tests
+[33m833166c0[m add tests
+[33m3125d34c[m delint
+[33m46c9e79a[m remove lint
+[33mba400d4f[m bugfix set_zone_name
+[33m54cef1ad[m helpers: fix regression, tweaks
+[33m3ce8387e[m remove test code from parsers
+[33mc78aeec4[m add_tasks, not _add_tasks
+[33m206ae779[m code quality
+[33mcffc07bf[m bump to 0.18.8
+[33m79615c2a[m bugfix -rr
+[33m5c6038ee[m refactor address/helpers
+[33m924dae73[m bugfix: CTLs wont RP|0008
+[33mc7387da1[m add 10E2, 4401, tweak 3110
+[33m4b9c2f5c[m delint
+[33ma6446465[m code quality
+[33m15e620b7[m use {msg!r}
+[33mc656e4da[m bugfix 12A0
+[33m347c7466[m tidy up CODE constants
+[33m004d3f1e[m add 3110
+[33m8a969b16[m tweak 10E0, 12C0, 22F1/3, 2E10, 3EF0, FAN
+[33m1603d048[m add Itho Spider RF gateway device
+[33mee804b65[m refactor client (switches, PEP585)
+[33ma1d0c09a[m add fingerprints
+[33m11e6062e[m refactor helpers for strict type checking
+[33me11d8ca7[m tweak 12A0, UFC
+[33ma9eee9c9[m refactor 1280, 1298, 12A0
+[33m54e49b6a[m PEP585
+[33m3df58a01[m code quality
+[33m557c29e3[m code quality
+[33mc50b87b1[m code quality
+[33m1ffbb6fc[m code quality
+[33mb13f93f7[m code quality
+[33mb3d6e92c[m code quality
+[33m23e92cfe[m code quality/bugfixes
+[33mb6641e46[m code quality
+[33m4428f1c4[m buffix
+[33m3f57682a[m code quality
+[33m628a8dca[m code quality
+[33mdbd90cb3[m Merge pull request #44 from zxdavb/deepsource-fix-68497d03
+[33mb42224af[m Use literal syntax instead of function calls to create data structure
+[33me7c26b08[m Merge pull request #43 from zxdavb/deepsource-fix-f79c51d1
+[33me7ae9866[m Remove unnecessary use of comprehension
+[33mdbef6dc2[m code quality
+[33mfcbb235e[m code quality
+[33m09ea7cb2[m code quality
+[33m4867f6d9[m code quality
+[33m95a04498[m code quality
+[33ma4a242b5[m code quality
+[33mf92d8d09[m code quality
+[33mddc852d1[m code quality
+[33m2eea0f06[m Merge branch 'master' of github.com:zxdavb/ramses_rf
+[33me15593fa[m refactor for traits
+[33m3c7f9052[m bugfix _faked attr name
+[33m3f2ba98e[m workaround: UFH is a controller too
+[33m866162f9[m small tweak/delint
+[33m73efd050[m bugfix heat_demand (0 is not falsy)
+[33m82930d0e[m small tweak/delint
+[33m7e5d2909[m small tweak/delint
+[33m7b3d07c5[m small bugfix
+[33mc1eca3be[m small tweak/delint
+[33m27b85640[m tweak x._codes to incl. names
+[33mcc394ce8[m small tweak/delint
+[33m4f224549[m Update .deepsource.toml
+[33m1eb2ab08[m exclude utils from deepsource
+[33m4148260e[m Merge branch 'master' of github.com:zxdavb/ramses_rf
+[33m840cc50d[m Update .deepsource.toml
+[33mb5e43cb8[m tweak is_wanted() (again)
+[33md8326712[m code quality - defined outside init
+[33me77635a6[m Add .deepsource.toml
+[33m2b56d895[m[33m ([m[1;33mtag: 0.18.7[m[33m)[m add transform(demand) to UFH zones
+[33m35c7a858[m extract _check_set_hgi80()
+[33me95854c4[m refactor OTB attr names
+[33m96d1ced6[m refactor for OT -reserved-
+[33mfd507d1b[m bump to 0.18.7
+[33m8e72507b[m refactor is_wanted() (again)
+[33madc6abb1[m bugfix exc in subscriber callback
+[33m215ab424[m tweak identical err_msg
+[33mb7332145[m bugfix typo
+[33mcbb5b08c[m doctweak (really)
+[33m9756d6ac[m[33m ([m[1;33mtag: 0.18.6[m[33m)[m bump 0.18.6
+[33m5ba829c0[m OTB tweaks
+[33m9c9aa53b[m OTB tweak polling
+[33m5c7bef8d[m OT tweak status/params
+[33m1cc05473[m UFC refactor lots
+[33m2bed92e3[m refactor OTB for RAMSES
+[33mde6c5cf7[m tidy up Actuator
+[33m4427fe83[m doctweak
+[33m3c4edba8[m[33m ([m[1;33mtag: 0.18.5[m[33m)[m bump 0.18.5
+[33m60cd7562[m refactor OTB flags
+[33m251a3e31[m add _msg_flag()
+[33m1ef89f25[m[33m ([m[1;33mtag: 0.18.4[m[33m)[m black
+[33m6de777a8[m CI
+[33m119182ee[m requirements
+[33m7d73d57b[m timing tweaks
+[33ma34b867d[m OTB tweaks
+[33me91687e7[m 3EF0 tweak
+[33mfc7fd864[m OTB refactor attrs
+[33mc3364796[m rename to _relay_demand_fa
+[33mfe009a85[m UFC: refactor set_ctl/parent
+[33m8aa250a2[m change min (Tx, Re-Tx) gaps
+[33m382ef9b3[m doctweak
+[33m54079ac8[m tweak is_wanted()
+[33m1f5fe1b8[m tweak discovery for zones
+[33m13a03e86[m tweak 042F
+[33m819e6d2b[m Ext is now Out
+[33m0b0b8f13[m disable DEV_MODE by deafult
+[33m9f178343[m add MIN_GAP_BETWEEN_WRITES
+[33m8ce53562[m delint
+[33mf0a5d8b9[m bump to 0.18.4
+[33mbb6d40d3[m Refactor PktProtocols and create_pkt_stack()
+[33m380ccbf5[m[33m ([m[1;33mtag: 0.18.3[m[33m)[m wrap callbacks for better logging
+[33m8e22202e[m doctweaks, delints
+[33m0e446e1f[m version bump
+[33m0b00cc51[m refactor UFC
+[33m609e7ccf[m tweak CLI switches
+[33mff6da05b[m tweak CLI (this should work)
+[33m388eabe9[m tweak CLI
+[33mbdfedb90[m bugfix OTB schema
+[33md97b6732[m refactor CLI tool
+[33m7f810d3c[m refactor msg validator logging
+[33m8851bd33[m tweak logging of msg/pkt validation
+[33m87e2f44b[m doctweak
+[33me3fd4e40[m remove assert
+[33m76df117b[m doctweak
+[33m1b8244df[m 0418 add dev messages
+[33m909f7bd2[m add sesnor_fault to 0418_FAULT_TYPE
+[33m6986cf2c[m[33m ([m[1;33mtag: 0.18.2[m[33m)[m bump to 0.18.2
+[33m6b6687d9[m Merge branch 'bleeding_edge'
+[33m21637c09[m[33m ([m[1;33mtag: 0.17.12[m[33m)[m bump to 0.17.12
+[33mef8ad5c8[m workaround logging bug (not deleting old logs)
+[33me81a60e5[m workaround logging bug (not deleting old logs)
+[33m47e2c034[m reduce logging for expired pkts
+[33maca7120b[m doctweak
+[33mcd433c65[m tweak 1298, 31E0, 3210, add 2E10
+[33m1e945311[m reduce retries for speculative cmds
+[33m0c6295ee[m reduce retries for speculative cmds
+[33ma7f8f860[m[33m ([m[1;33mtag: 0.18.1[m[33m)[m bump 0.18.1
+[33m3da19b7b[m[33m ([m[1;33mtag: 0.17.11[m[33m)[m version bump
+[33m3eec9bfe[m[33m ([m[1;33mtag: 0.18.0[m[33m)[m refactor client
+[33m47f2e521[m version bump
+[33m0717c5b4[m refactor UFH.heat_demand (zone)
+[33m71cee692[m refactor msg routing fro zones
+[33m728c29b4[m add detect_array() for 000A/22C9
+[33m326cb2e8[m refactor prev_msg
+[33m6a61be79[m doctweak
+[33m0c36496e[m Remove ufh_zone.ufh_setpoint
+[33m2f8225ac[m add OT.msg_id(73) dev hack
+[33m9b53ca91[m add OTB.counters
+[33me4d49dca[m bugfix Zone.window_open
+[33m2782665a[m add zone discovery throttle
+[33mfef7633a[m lint hint
+[33m789064eb[m handle empty fault logs
+[33mcc807562[m[33m ([m[1;33mtag: 0.17.10[m[33m)[m minor bugfix
+[33mcd0e9ff1[m version bump
+[33m0704bd11[m increase some OTB polling (for now)
+[33mc55c2be2[m doctweak
+[33m9a5aaf86[m[33m ([m[1;33mtag: 0.17.9[m[33m)[m refactor OTB for less agression
+[33m30d353cd[m version bump
+[33mdfb7a247[m[33m ([m[1;33mtag: 0.17.8[m[33m)[m bump to 0.17.8
+[33m59fb9839[m refactor OTB
+[33mc7d9a03e[m reduce logspam
+[33mba60598e[m tweak HVAC base
+[33m79ac9e1d[m protect start_discovery call
+[33m483784cd[m correct klass
+[33md144941a[m add fingerprint code
+[33mba54f54d[m minor tweak
+[33ma77071e0[m doctweak
+[33md8322061[m minor delint
+[33m8c7d97aa[m ELE don't ever call for heat
+[33me0f13583[m Harden Frame._pkt_idx checks
+[33md2e80ebc[m tweak Transport._is_wanted
+[33m64880a69[m tweak timeout from 3220
+[33m30e4d362[m tweak 31D9/A & 31E0, Asserts
+[33m44715e29[m bugfix 7-bit year
+[33md671151b[m[33m ([m[1;33mtag: 0.17.7[m[33m)[m bugfix device alias/friendly name
+[33md4059fcf[m tweak 1280, 12A0, 31D9, 31DA
+[33me3cf083b[m add/refactor HVAC entities
+[33m6de25447[m doctweak
+[33mcf2079e0[m refactor Fault Log
+[33ma0de7eef[m tweak 2401
+[33mb869f51c[m simplify log messages
+[33m20aa2401[m don't warn if orphans are filtered out
+[33me4f9a9c0[m bump to 0.17.7
+[33m63deeec1[m refactor UFC, SWI
+[33mc2d3b0ec[m refactor 22F1/3
+[33mcdd11ddf[m tweak WIP parsers
+[33m98b875a4[m[33m ([m[1;33mtag: 0.17.6[m[33m)[m tweak 0TB
+[33m487c3431[m 000C: fix regression
+[33m914af54d[m tweak 2349
+[33m0f8a9e6f[m tweak minor parsers
+[33m9fc50965[m bump to 0.17.6
+[33maaa8d424[m tweak device schema for _klass
+[33m38da4621[m add Command.from_str constructor
+[33mf2fd6bfa[m add Command.put_dhw_temp constructor
+[33m6f444686[m code tweak
+[33mc1b05f34[m remove regression
+[33m1deb200f[m add faking for DHW
+[33m89ca0a23[m delint
+[33m9cf07484[m refactor binding
+[33mf055dde3[m doctweak
+[33m46fdd997[m HVAC: add CO2, tweak attrs
+[33mb8ce396f[m Add many OTB attrs
+[33mae837b38[m remove deprecated HACK
+[33m4c7ed5ac[m add Device._STATE_ATTR
+[33m8f6a658a[m doctweak
+[33mdc171aeb[m tweak 12F0, CO2, HUM
+[33m57e61758[m doctweak
+[33mc7ca7cb4[m add 11F0
+[33m294afcf8[m bugfix msg_handler for 1FC9
+[33m3d2c0b6e[m[33m ([m[1;33mtag: 0.17.3[m[33m)[m version bump to 0.17.3
+[33md386386b[m drop device types, bugfix htg_ctl discovery
+[33m9ae5db52[m doctweak
+[33md77afe4c[m[33m ([m[1;33mtag: 0.17.2[m[33m)[m bump to 0.17.2
+[33me91a0e37[m WIP: additional OTB packet codes
+[33mc820f68b[m add transform for zone heat_demand
+[33m4a5c7bf5[m parser tweaks
+[33m3a56205b[m tweak 000C parser
+[33me9be7ee7[m add all known packet codes
+[33me2597930[m remove 1 DEX
+[33m1a40abe8[m doctweak
+[33mc7b87553[m delint
+[33m398bac8a[m doctweak
+[33md0257a9d[m tweak device type asserts
+[33m0a4f26b7[m[33m ([m[1;33mtag: 0.17.1[m[33m)[m version bump to 0.17.1
+[33me97df7b5[m add ser2net warning
+[33meb844048[m minor bugfix
+[33ma9500ffb[m bugfix packet expiry code
+[33mf1a00700[m refactor create_XXX - class_by_attr()
+[33m7cf0cccb[m tweak TRV.heat_demand
+[33m538614a7[m[33m ([m[1;33mtag: 0.17.0[m[33m)[m version bump to 0.17.0
+[33m276177ec[m 3EF0: also for BDR (BDR91T?)
+[33m51a6708c[m fix deprecation - missing imports
+[33m095d998c[m 3220: fix indent typo
+[33m501901d1[m decouple protocol, refactor constants
+[33m5eeccae0[m minor tidy up
+[33m68807f61[m 3220/3EF0: add attrs for the flags
+[33m786ba2b6[m tweak DEV_KLASS, RAMSES_DEVICES
+[33m87db51c3[m refactor set_pkt_logging_config()
+[33m945798a7[m 3220/3EF0: assert for new flags
+[33m5678b4f3[m expose OT slave status flags (+ code quality)
+[33md78ad8f5[m 3EF0: switch ch_enabled/ch_active
+[33m8666b676[m remove DHW_HACK code
+[33m8c74f84b[m doctweak
+[33m3fc9a37e[m tweak 0418 parser
+[33mc1b28582[m add verbs to PUZZ
+[33m1e449e5f[m temp benign change
+[33mad5b7f68[m doctweak
+[33m226c5d65[m[33m ([m[1;33mtag: 0.16.26[m[33m)[m fix regression
+[33m81eafb6a[m[33m ([m[1;33mtag: 0.16.25[m[33m)[m delint
+[33m969e7f7d[m version bump 0.16.25
+[33m817146b6[m refactor discovery (dodgy)
+[33m3edb791c[m tweak DEV_MODE
+[33mfd16070a[m disable dev_mode in message.py
+[33m97eca303[m rename_msg_name to _ot_msg_name
+[33m9e5511b4[m disable DHW_HACK 2/2
+[33m91750ff8[m tweak pkt timeouts (esp. OT)
+[33m1d577eec[m DEV_MODE tweak
+[33m18b19995[m OT codes have their own timings
+[33mef86a0a6[m tweak puzzle parser
+[33m1c022141[m add use_regex warning
+[33m3801dac2[m disable DHW sensor hacks 2
+[33m1446eae2[m fix minor typo
+[33m4e043f2b[m Disable the DHW sensor hack
+[33m13d6fa5d[m tweak discovery for  UFC
+[33mdff381c4[m change messages
+[33m93c2d414[m doctweak
+[33mc9a9e049[m tweak QoS for 3220
+[33m95d556de[m doctweak
+[33mffaa234d[m add new signature
+[33m2ef7fade[m tweak DEV_MODE
+[33m99365304[m fix typo
+[33m7abc7f7e[m minor tweak
+[33ma9b0dc6f[m Add DEVICE_INFO constant
+[33m7aad2c62[m[33m ([m[1;33mtag: 0.16.24[m[33m)[m bump to 0.16.24
+[33me0d3fe10[m UFC-specific tweaks
+[33m74c568b5[m add new regex hacks
+[33m6472754f[m reserve logger.info() for RF logging
+[33m161e1b01[m removing old (unused) QoS code
+[33mf17333af[m move _normalise() out
+[33m9bbca6d1[m[33m ([m[1;33mtag: 0.16.23[m[33m)[m bugfix: Sending inadvisable
+[33mbd3229f9[m bump to 0.16.23
+[33m4b43ab7e[m[33m ([m[1;33mtag: 0.16.22[m[33m)[m 0.16.22 - Bugfix get_relay_demand
+[33mfb527538[m bugfix get_relay_demand() take 2
+[33macf2eb65[m[33m ([m[1;33mtag: 0.16.21[m[33m)[m 0.16.21 - Bugfixes, Code quality
+[33m9e131cf1[m bugfix: object of type 'int' has no len()
+[33m91f6fbef[m tweak error messages
+[33m7db88379[m remove broad-except x2
+[33mc818cc60[m code quality func -> fnc
+[33mfe0166c4[m improve logging of command API wrapper
+[33m5e290aea[m delint - remove duplicate constants
+[33m365cb2b0[m add zone_type to schema (for UFH)
+[33me95edbc6[m bugfix UFC cant set_ctl
+[33m316a98d9[m doctweak
+[33mbc2a3f1a[m tweak 0418_DEVICE_CLASS
+[33m9bdc90d6[m add use_regex
+[33mbcbaa357[m[33m ([m[1;33mtag: 0.16.20[m[33m)[m bump 0.16.20 - bugfixes
+[33m90e8e457[m bugfix DHW? and add battery warning
+[33m1e8a030c[m bugfix: 'NoneType' has no attr '_source_entity'
+[33me9de0d00[m[33m ([m[1;33mtag: 0.16.19[m[33m)[m bump
+[33ma05d3425[m doctweak
+[33m36e5e8c5[m fix regression
+[33mf225ff4c[m[33m ([m[1;33mtag: 0.16.18[m[33m)[m bump to 0.16.18
+[33mfa87cb32[m[33m ([m[1;33mtag: 0.16.17[m[33m)[m bump to 0.16.17 - DHW_HACK
+[33me44c3b21[m doctweak
+[33m7103bd8d[m DHW hack, and refactor HvacEntity
+[33m063aa9ae[m zones leverage cached discovery pkts
+[33m442208c2[m minor tweak
+[33m74cc66ba[m[33m ([m[1;33mtag: 0.16.16[m[33m)[m version bump 0.16.16
+[33m47257994[m[33m ([m[1;33mtag: 0.16.15[m[33m)[m version bump 0.16.15
+[33m726f8c49[m HACK: lloyda
+[33m713b7a3a[m Improve logging for device filters 2
+[33m2530749d[m Improve logging for device filters
+[33m91e48ffc[m doctweak
+[33m198fb14d[m Add 2389, Tweak 0002, 10E0, 03:/30C9
+[33m5a87d2bb[m 0005/000C for (?prototype) ATC928G1000
+[33m6f55af4d[m tweak logger messages
+[33md979f99e[m[33m ([m[1;33mtag: 0.16.14[m[33m)[m bugfix & bump
+[33m97500159[m[33m ([m[1;33mtag: 0.16.13[m[33m)[m bump to 0.16.13
+[33m9e3ccf4f[m wrap DHW.temp
+[33m8f55f42e[m minor refactor: HVAC_ONLY_CODES
+[33m0c44d6c2[m tweak packet validators
+[33m951ac19b[m doctweak
+[33m330bfdae[m doctweak
+[33me3027f6b[m remove circular reference from OtbGateway
+[33m0c6513c0[m remove circular reference from FanSwitch
+[33me625761e[m eliminate duplicate logging of dprecation
+[33m3d99f46b[m[33m ([m[1;33mtag: 0.16.12[m[33m)[m bump version 0.16.12
+[33m6bff7089[m tweak logging
+[33m3a028829[m[33m ([m[1;33mtag: 0.16.11[m[33m)[m 0.16.11 - bugfix build
+[33mcc10e6f4[m[33m ([m[1;33mtag: 0.16.10[m[33m)[m de-lint
+[33mc3b6a20f[m[33m ([m[1;33mtag: 0.16.9[m[33m)[m bugfix CircleCI
+[33ma8a1a325[m[33m ([m[1;33mtag: 0.16.8[m[33m)[m workaround double-logging for now
+[33m61a58163[m remove log hint feature
+[33m4c2d1ce9[m dont expire 0404 pkts
+[33m2e1e7a5b[m restore bits
+[33med5e6a67[m add test
+[33m1304d7bb[m tweak create_devices_from_addrs()
+[33m916a90cc[m doctweak
+[33md790c8cf[m tweak zone.schedule
+[33mcfe7e666[m Not yet ready to download schedules automatically
+[33m7688dc1d[m Schedule(): add 0006 to conversation (WIP)
+[33m0d131fc9[m add multiple HGI80 warning to PktProtocolRead
+[33m9127ac3b[m add new ZONE.actuators attr
+[33m9825cab1[m don't discover zone actuators unless required
+[33m4229caa5[m bugfix eavesdrop ELC->ZVZ
+[33mda607640[m app layer has own DEV_MODE
+[33ma072ff59[m don't create unwanted devices (via eavesdrop)
+[33me7ace8f4[m logging HACK for HA
+[33m8119ecf3[m tweak eavesdrop parent
+[33m29324aec[m tweak log message
+[33m54b42493[m add constructor
+[33m8fd7689f[m add --eavesdrop
+[33m2dc4930c[m version bump 0.16.8
+[33m6c919d5c[m doctweak
+[33m2fde504c[m doctweak
+[33m2ab3f8e9[m trial entity._qos deprecation
+[33mb52025dd[m refactor QoS
+[33m77c3adaf[m tweak discovery
+[33m00b1abcb[m tweak log messages
+[33m4f9a4b38[m bugfix wrapper logging
+[33m06130611[m bugfix setup.py
+[33m607de98f[m[33m ([m[1;33mtag: 0.16.7[m[33m)[m bump to 0.16.7
+[33m36dc279d[m tweak
+[33m309e9119[m bugfix: 'NoneType & int'
+[33mc4350efb[m remove deprecation of non-responsive entities
+[33m1cb25c68[m reduce logspam
+[33m5ad7fa31[m disable sending for non-resposive entities
+[33m571f8430[m[33m ([m[1;33mtag: 0.16.5[m[33m)[m version bump to 0.16.5 (bugfix discovery)
+[33m83a3e9e7[m bugfix losing zone state/params
+[33m89e0a9ad[m bugfix
+[33m4a5e2940[m doctweak
+[33m10145355[m partially fix -X
+[33m06bfa20e[m tweak .gitignore
+[33mc11979fe[m tweak 10E0, 3220 parsers
+[33m4f227263[m[33m ([m[1;33mtag: 0.16.4[m[33m)[m bump ver to 0.16.4
+[33mf3e79bc6[m bugfix: system key shouldnt be reqd
+[33m39f2232a[m[33m ([m[1;33mtag: 0.16.3[m[33m)[m discovery for DEV_MODE
+[33m876f672b[m bump client
+[33m01af1770[m refactor 3220 pkt timeouts
+[33m8f1a6c61[m doctweak
+[33mee227d85[m bugfix OTB.discovery
+[33md970c3f6[m tweak OTB pkt timeouts 2
+[33m184ae176[m tweak OTB pkt timeouts
+[33m0b79c328[m OTB: fix deprecation regression
+[33mcfa6c206[m[33m ([m[1;33mtag: 0.16.1[m[33m)[m version bump to 0.16.1
+[33m145f464f[m tweak discovery timings, handle filtered schema
+[33mccc71a82[m[33m ([m[1;33mtag: 0.16.0[m[33m)[m version bump to 0.16.0
+[33m257b8664[m schema *then* state *then* monitor
+[33md2941e76[m send discover pkts only if reqd
+[33me678122b[m tweak logging
+[33m63014a63[m reduce expired logspam
+[33m31c5bfb3[m handle edge case when restroing state
+[33m9d7894ba[m tweak pause/resume
+[33m879bb888[m bugfix OTB deprecation
+[33m38f7c1cf[m doctweak
+[33mf9398f5c[m tweak pause/resume engine
+[33m21cc6917[m refactor pause/resume engine
+[33mbb482de1[m tweak get/set state
+[33m189c10b4[m doctweak
+[33md2225945[m tweak pause/resume engine
+[33mea18daba[m[33m ([m[1;33mtag: 0.15.5[m[33m)[m bump to 0.15.5
+[33mafa65a37[m WIP: refactor decode_frame()
+[33ma71725d8[m add check: wrong device type fro sensor
+[33m68ebd10a[m bugfix OTB.dhw_setpoint()
+[33m18ea5a8b[m workaround: timings of discovery
+[33mb79156ec[m protect active handle_msg() from  disable_sending
+[33m1e57d8e4[m doctweak
+[33m3aa2c464[m remove raise from _send_cmd()
+[33m69ce0eba[m[33m ([m[1;33mtag: 0.15.2[m[33m)[m bump version
+[33mb2ae33aa[m bugfix missing OTB status values
+[33m0215f9d4[m[33m ([m[1;33mtag: 0.15.1[m[33m)[m 0.15.1 - many, many chanes
+[33mc9f59f96[m[33m ([m[1;33mtag: 0.15.0[m[33m)[m add disable_sending checks
+[33m6e3bc0bc[m delint, change discover timings
+[33m1613c5c0[m refactor Datetime
+[33me5deb129[m refactor ScheduleSync
+[33m72d81be4[m Fault Log
+[33m661f2569[m delint
+[33m284887f2[m doctweak
+[33mc9af8bdd[m tweak assert
+[33m6c8275d9[m refactor send_cmd()
+[33mfdce7e8d[m bugfix handling of invalid 3220 payloads
+[33m4596e9d7[m delint
+[33mfc2f7679[m refactor entity._msg_value()
+[33m3e12363a[m delint
+[33m2ba9f0c3[m bugfix, delint, tweak
+[33mffbc40b0[m bugfix gwy._add_task()
+[33m34791075[m tidy up async_send_cmd()
+[33m405b2dc4[m tweaks
+[33m693dce0c[m 0418: add new fault type
+[33m530b317d[m tweak 7FFF parser
+[33me0cd10d0[m delint asserts, doctweak
+[33m5e96ec76[m poll for zone schedules
+[33me4e4f582[m doctweak
+[33m903e1ee3[m change DISCOVER constants to a namespace
+[33m2b432e51[m add ScheduleSync
+[33m937dd56d[m tests
+[33m1120a567[m tweak CLI
+[33m289f80f5[m packets fly to their entities
+[33m9eaf51ca[m tweak OTB discovery
+[33mfcd3317e[m workaround UFC looks like CTL controller
+[33m0387b54e[m throttle device discovery
+[33meb39d1bd[m bugfix UfhSystem._ufh_ctls()
+[33mad86872f[m add back @discovery_decorator
+[33m03a429bc[m PUZZ constructor v2
+[33m0672350d[m tweak 10E0, 1298, 12A0, 22F3, 7FFF
+[33mefa68152[m add OTB codes, DEV class/type map, tweak 22F3
+[33m780d7c52[m bugfix otb scan
+[33m670f9379[m tweak puzzle msgs in script decorator
+[33m7fbd6e16[m normalise many fewer packets
+[33m1829c221[m rewrite 7FFF
+[33m83e9d2e0[m bump version.py to 0.15.0
+[33m472de35b[m use DEFAULT_QOS for discovery
+[33m55147a74[m improve OTB._handle_msg for unsupported msg_ids
+[33mb0894a3f[m doctweak
+[33m9f92d027[m add 0005 to CODES_WITH_ARRAYS
+[33mdbc1ec60[m fix send_cmd vs make_cmd
+[33m60a4446e[m send_cmd vs make_cmd
+[33mc0dd6db0[m tweak 10:
+[33m3c5c5d54[m add script_otb_*, script_decorator
+[33m04b16152[m remove dex, minimize DEVICE_TABLE, clean const.py
+[33m185ed922[m remove .type from zones.py
+[33m6131b945[m remove dex from zones.py
+[33me7dcd191[m remove most all DEX from systems.py
+[33m743767f8[m use setpont, not temp & tweak 12C0, scan_otb
+[33m162f2bb3[m tweak 10E0 - add _LOGGER
+[33mbb1cf816[m tweak get_relay_demand(), @validate_command
+[33m0c32c993[m add 1280
+[33md4817b5e[m add 1081, 10E1, 1300, 3200, 3210 , fix 10A0
+[33m96e6c29c[m add get_relay_demand, tweak get_tpi_params
+[33mfb923c4a[m doctweak
+[33m045d068d[m remove @discovery_filter
+[33mbadd8455[m protect send_cmd when read_only mode
+[33mbd62d6d9[m set_state, schema is optional
+[33m053038e2[m disable DEV_MODE before deploy
+[33m43bdd85d[m tweak 0005, 000C
+[33m5805bd1a[m tweak 31D9, 3EF0 (percent())
+[33mdc5517fc[m use self._send_cmd not gwy._send_cmd
+[33m27a63920[m add asserts
+[33m2d44d26f[m protect msg_transport.write with raises
+[33m87614729[m bugfix _dt_now() for Win32 - address logspam
+[33m17e6d17a[m tweak RP/000A
+[33me39970dc[m add W/000A, fix 1100, add 10:/042F
+[33m506e7857[m doctweak
+[33med891541[m doctweak
+[33m59770cb5[m improve pkt_addrs()
+[33me0578eeb[m doctweak
+[33m6a0170df[m temp workaround for friendly names
+[33ma36912e8[m the CTL will create systems now
+[33mffad35df[m refactor is_wanted to reduce logspam
+[33m89d2690f[m bugfix OTB.rel_mod_level
+[33m273d40c6[m tidy up Address
+[33mdbcf9b48[m remove unused ._gwy
+[33m01c6ca6c[m bugfix MSG._pkt
+[33mbbf0e622[m bugfix OTB._supported_msg
+[33mee516569[m remove DEV._is_actuator, ._is_sensor
+[33m7b663354[m dont use devices in protocol, drop MSG.raw_payload
+[33m6869b36e[m doctweak
+[33m78fe3e97[m bugfix: CODE_RQ_COMPLEX missing 3220
+[33m30f7e1d4[m doctweak
+[33m81b3674e[m doctweaks
+[33mdd7233ab[m improve schedule CLI
+[33mcb1da23d[m bugfix 0404 constructors
+[33m8eb7125b[m tweak 0404
+[33mdf15f81c[m tweak logger message
+[33me2645fd2[m doctweak
+[33m7baa84bb[m tweak 042F, 1298, 31E0, 32:
+[33m4256a889[m tweak 042F
+[33mbb72693f[m tweak 1298, 042F
+[33m96ed060a[m bugfix - not logging bad MSGs
+[33m82e0e7cd[m tests
+[33m449d8ff5[m small refactor
+[33m0c5fe9f6[m doctweak
+[33m15f5be22[m tweak logging, engine management
+[33m37d50990[m bugfix logger.debug()
+[33mbbc16921[m doctweak
+[33me812386e[m bump circleci/python:3.9.5
+[33m9876550b[m minor tweak
+[33m3f13f865[m doctweak
+[33m4267f665[m doctweak
+[33mcd5ccce4[m write_buffer stuff
+[33m34de6f1e[m refactor gwy.hgi, add DEX marker
+[33mcc46ec80[m[33m ([m[1;33mtag: 0.14.24[m[33m)[m 0.14.24 - refactor transport for rfc2217
+[33m3326405d[m[33m ([m[1;33mtag: 0.14.23[m[33m)[m 0.14.23 - harden MSG constructor
+[33m4acf6a94[m[33m ([m[1;33mtag: 0.14.22[m[33m)[m harden msg constructor
+[33md783e333[m tweak 3EF1
+[33m41ae0f1a[m[33m ([m[1;33mtag: 0.14.21[m[33m)[m 0.14.21 - bugfix is_wanted (again)
+[33m5e59653a[m[33m ([m[1;33mtag: 0.14.20[m[33m)[m 0.14.20 - bugfix is_wanted, less logspam, tweak schema
+[33md8a1091b[m reduce logging
+[33m174ab361[m validation tweaks
+[33m7ee05783[m tweak 10A0, 1100, 2309, 2349 schema
+[33m491fa21a[m don't poll entites unless using a serial port
+[33m95d48f22[m bugfix is_wanted()
+[33mc86e16df[m bugfix is_wanted(), delint
+[33m8836e035[m delint
+[33m2a538f6b[m err to esc
+[33m72afb2bf[m tweak 0001, remove 1FCA
+[33mab3c4329[m add _0B04, doctweak
+[33m517359e8[m bugfix 07: with no ctl
+[33m4f9567c7[m reduce logging, better messages
+[33m35fc7e1f[m[33m ([m[1;33mtag: 0.14.19[m[33m)[m 0.14.19 - DHW temp convergence, has_payload to Frame, delint
+[33m031da64d[m remove dodgey hack
+[33me2d96764[m remove mangling
+[33m2bb3d0c7[m doctweak
+[33mf0d5b624[m doctweak
+[33md4febf21[m remove mangling
+[33m3c540f50[m remove mangling, Msg.is_valid
+[33m6c6abffa[m remove Msg.is_valid
+[33mf12e2ffa[m MSG validator to Message, _has.payload to Frame
+[33m328805cd[m simplify 7FFF regexp
+[33m7da6fc05[m get CTL's DHW temp every time DHW sensor updates
+[33mecfdac11[m remove mangling
+[33mb95f1f60[m add _has_payload attr
+[33mbbe03c2f[m[33m ([m[1;33mtag: 0.14.18[m[33m)[m 0.14.18 - Bugfixes, tweaking, hardening
+[33ma604e613[m refactor addr set parser
+[33m0c66391b[m delint
+[33mb4dacf3b[m reduce log level
+[33md080fd2d[m tweak msg.has_payload
+[33m19b99067[m tweak RAMSES schema, asserts
+[33m214d17fb[m bugfix -rr fail
+[33m5ec08dd9[m bugfix flag8 MSB
+[33m1bca2c00[m bugfix flag8 MSB change
+[33m667eb7b0[m bugfix validate
+[33mf166b670[m flag8 should be MSB first
+[33m030fabe7[m tweak init dunder
+[33ma6349afe[m hardening
+[33me5cfb2c2[m doctweaks
+[33m2b06a1a9[m[33m ([m[1;33mtag: 0.14.17[m[33m)[m 0.14.17 - Bugfix: imperonation breaks pkt dispatcher
+[33m7922899d[m impersonation warning for non-evofw3
+[33md7368651[m req latest zone temp after put_temp
+[33mf91336ab[m req latest zone temp after put_temp
+[33mc4e4d8d8[m change exception to LookupError
+[33m9f92a92c[m[33m ([m[1;33mtag: 0.14.16[m[33m)[m version bump
+[33m3d5b8ed3[m bugfix impersonation breaks pkt dispatcher
+[33m8be1a464[m[33m ([m[1;33mtag: 0.14.15[m[33m)[m 0.14.15 - Improve transport/logging, device schema, filtering
+[33m70b2c6de[m refactor constructors, validation, pkt_logger
+[33m5a8f103f[m move send_data around (esp. for  QoS)
+[33mce4a1e38[m improve error logging
+[33m1a1567e1[m removw duplicate warning
+[33mbeca1c4f[m minor tweak
+[33maf2ae501[m bugfix is_wanted()
+[33m507d6d61[m bugfix empty packet_dict
+[33m270d732c[m remove unused ignore_pause
+[33me2a433ec[m refactor BDR/OTB schema, remove actuator_enabled
+[33mef8cd40a[m HGI cant (really) have a controller
+[33mc8c6657a[m All 0009 are I
+[33mcc6383fa[m no device will RP/0009
+[33m2e11bc59[m No device wil RP/3B00
+[33mcf1eb42e[m remove junk code block
+[33m6865fee7[m tweak is_wanted()
+[33m8b601904[m improve zone.set_mode()
+[33m06868deb[m improve loggin with callbacks
+[33meb5c45dd[m doctweak
+[33m3ea726c6[m better warnings, less logspam for  unwanted
+[33m762f7b9f[m doctweak
+[33mc4d03a85[m doctweak
+[33m49aa3769[m[33m ([m[1;33mtag: 0.14.14[m[33m)[m HGI is a device now
+[33m22c1eaa7[m[33m ([m[1;33mtag: 0.14.13[m[33m)[m 0.14.13 - bugfix discover/faking/has_battery, tweak BDR.repr
+[33m5ae93ebb[m change BDR default attr to relay_demand
+[33m72b5cc42[m bugfix has_battery
+[33m0f0b20b7[m tweak
+[33m1eb5a83a[m bugfix BDR discovery
+[33m159fb872[m bugfix faking
+[33mfd6e0099[m tweak 3EF0 parser
+[33mdf15d3d5[m[33m ([m[1;33mtag: 0.14.12[m[33m)[m 0.14.12 - bugfix DHW setpoint, bugfix pkt logging
+[33mf52e82df[m[33m ([m[1;33mtag: 0.14.11[m[33m)[m version bump 0.14.11
+[33mbc76c2f3[m bugfix DHW.setpoint
+[33md3af341c[m doctweak
+[33mb5374a5f[m bugfix packet logging
+[33ma8d54a71[m bugfix
+[33me0079188[m transport: hGI80, dynamic include
+[33m7bb3be51[m tidy up discovery
+[33m747b561e[m reduce logging
+[33ma9e630d7[m tweak is_wanted()
+[33m07c6b197[m reduce logging for trivial pkts
+[33m592b92e7[m tweak BatteryState for faked devices
+[33me5abb3fa[m[33m ([m[1;33mtag: 0.14.8[m[33m)[m version bump
+[33mfd311ccd[m reduce 1F09
+[33m4c710eab[m bugfix indefinite system modes
+[33m29f39b68[m 1F09 tweak timeout, reduce logging
+[33mdd002bf7[m doctweak
+[33m21e4c055[m doctweak
+[33md908b7ca[m reduce logger severity
+[33m2469b88d[m[33m ([m[1;33mtag: 0.14.7[m[33m)[m bugfix set_system_mode
+[33m28de74c9[m[33m ([m[1;33mtag: 0.14.6[m[33m)[m system/zone mode + constructors, bugfix discovery
+[33mb0e319df[m doctweak
+[33m0dfc4e32[m bugfix schedule_task
+[33m5cd5da85[m[33m ([m[1;33mtag: 0.14.5[m[33m)[m bugfix sensor.temp, discovery
+[33m1a187090[m bugfix RQ_NO_PAYLOAD
+[33m9e4faf36[m cyclic import hack
+[33mb4dd597a[m minor tweak
+[33mc3c1c971[m tweak assert messages
+[33m89f7b68b[m[33m ([m[1;33mtag: 0.14.4[m[33m)[m periodic _disc, harden protocol, pkt validation,
+[33m7caf2374[m[33m ([m[1;33mtag: 0.14.3[m[33m)[m 0.14.3 - very huge refactor/protocol split
+[33mb8baed22[m[33m ([m[1;33mtag: 0.14.2[m[33m)[m 0.14.2 - very huge refactor/protocol split
+[33mf93303c6[m[33m ([m[1;33mtag: 0.14.0[m[33m)[m 0.14.0 - very huge refactor/protocol split
+[33mdf698060[m refactor out protocol
+[33mb38e9a21[m finalise addr/id, and bugfix binf
+[33mf5f8583f[m reduce logging
+[33m45450b20[m minor bugfix
+[33m166d23c3[m doctweak
+[33m74c7277a[m tweak
+[33m46d544e7[m Hsrden code: circular references, others
+[33m8cd34e32[m remove unneded import
+[33mef9be0a6[m tidy up str dunder
+[33mf5961909[m reduce logging
+[33m3af3321b[m repr, pkt_idx, pkt_hdr
+[33m16f8b5c4[m bugfix edge case
+[33m94b59e60[m tweak
+[33m1b962027[m tweak 3220
+[33m4eec33cb[m tweak SYSTEM_BY_PROFILE
+[33m5521f40f[m tweak OTB
+[33m411adaa6[m tweak 3220
+[33mca82ac1a[m tweak DEV_MODE
+[33mc9b918cf[m tweak OT frame_decoder
+[33mbb34dfe1[m tweaks
+[33m8c478908[m tweak repr/str
+[33m86cef142[m tweak
+[33m3ba9b58c[m ease 3220 HDR validation
+[33m8c79a045[m add hide_summary
+[33m6f31fac0[m Tweak 1F41
+[33med1bc080[m minor tweaks
+[33mf62b4ce0[m minor tweak
+[33m57b4e34f[m tweak load_schema
+[33m441c5385[m doctweak
+[33m9a2498ba[m tweak
+[33m8a819524[m remove known_devices
+[33m4c34f55e[m harden allow/block lists
+[33m0e65f71a[m bugfix display name
+[33me1da04ef[m lots of work: threadsafe, faking & CLI
+[33mbbcd9591[m bugfix assert
+[33m67a5a4a1[m reduce logging
+[33m6f23c04f[m doctweak
+[33m9e9fafa8[m fix pkt_hdr
+[33m380b4fff[m retire old msg from msgs DB
+[33mfd20916d[m small tidy up
+[33ma44c1d07[m add actuator constructors, bind accepts iters
+[33mc4423a73[m add add_callback
+[33m0014f5cd[m refactor
+[33m91306fe8[m add bind_rf to 17:
+[33mdcba846e[m remove uneeded if
+[33md3243e4c[m minor tweak
+[33mb07b56cb[m tweak zone_type 0C
+[33ma9bb9001[m tweak _pkt_hdr
+[33mf91e5c17[m add put_bind constructor
+[33m10da2a0a[m refactor state database, use logged times
+[33m008b8db4[m add 1FCA, tweak schema
+[33mc951ab23[m tweak
+[33m9f7a7f0b[m tweak 0005/000C
+[33m5a9675f1[m tweak 0005/000C
+[33mf068837f[m bugfix 1F09
+[33m4a2a62f8[m bugfix isoformat(ms)
+[33m7fbe2595[m timestamps fixes/refactor
+[33m86270fdb[m tidy up loose ends
+[33m8a7953fa[m tweaks to opentherm/OTB
+[33me1ebd2c3[m tidy up
+[33md57ddbf0[m dt_now cleanup part 1
+[33mb9d464a2[m client use isoformat dt for long dates
+[33m2e7d0260[m add Pkt._gwy, Gwy,_dt_now
+[33mf8eaaa5d[m route msgs, any dev as CTL, promote 30:
+[33meb5f511d[m doctweak
+[33mc5f60526[m small typo
+[33m441d9f51[m doctweak
+[33m04d837c7[m Split out Entity base clase
+[33m59360411[m add -sx switch
+[33mda26cf4a[m tweak 3150 complex_idx
+[33m91859408[m doc tweak
+[33m157bcf49[m add notes
+[33mf675b25d[m tweaks
+[33ma5420e3d[m CODES_WITH_ARRAYS, bugfix expires
+[33me0e8f676[m workaround fault log bug
+[33m7a8e44b1[m version bump
+[33m7e771c57[m tweak 1100
+[33m3988bf6e[m bugfix 1100 assert
+[33mfb65d93b[m bugfix 1100 idx, simplify wrapper for RQ
+[33mdaf7e1ff[m simplify MSG._has_payload
+[33mbeb3907e[m bugfix 1100 idx
+[33m4d04ea72[m ramses chema 000C, 1100, RQ_NO_PAYLOAD
+[33md034e66a[m tweak trans/proto logging
+[33ma6798560[m 2249 Parser
+[33m16d43b81[m tweak EXPIRES const
+[33mcee5f9cc[m bugfix  RAMSES schema
+[33m0b6c121e[m refactor Packet constructor, transport flow
+[33mda278490[m rename classes
+[33m248fb507[m raise polling_loop()
+[33m15cc8150[m remove hasattr() and
+[33m89322e4a[m raise normalise, tweaks
+[33m66886fa6[m tweak
+[33md71c4ea4[m tweak variable names
+[33ma13b4b9c[m tweak meta-data (CODE_IDX_)
+[33m20589bea[m remove index from puzzle packet
+[33mfc731c84[m add context to MSG.str()
+[33m9537bcb1[m doc tweak
+[33m439b4975[m tidy up parsers
+[33mc3e1ed51[m Many improvements to PKT @properties
+[33m9734cfff[m bugfix
+[33m90ed8041[m add back in FaultLog
+[33ma08a32e6[m bugfix FaultLog
+[33m6226e5d0[m bugfix
+[33mc3ab4ee4[m shedloads of fixes/refactors
+[33m80ba74f3[m tweak timestamp
+[33mcf8d24ff[m protect set_low_latency_mode
+[33me7686058[m add __all__
+[33mdcf8cf9a[m refactor, add prev_pkt/this_pkt, simplify logging
+[33m9987d3db[m Add prev_msg, this_msg
+[33mf4bcf308[m cc_stdout now cc_console
+[33m4bbfa90d[m tweak is_controller
+[33mf02d28ae[m tweak 31D9, 31E0
+[33mf43ac348[m MSG expired, friendly names
+[33m85df02b8[m tweak logmsg
+[33m59bd8c6d[m bugfix
+[33m216efff7[m bugfix
+[33mdd99acc2[m doc tweak
+[33m82e96b32[m doc tweak
+[33m3917a77a[m pkt expiry
+[33m6df99885[m refactor heaps
+[33m60636f0e[m move addr functions
+[33m7d1e53d7[m src/dst, Address, timeouts
+[33md3132a47[m refactor payload parser and pkt processor
+[33m0e979d59[m logging tweaks
+[33md227c9ac[m code quality
+[33md44d5ac4[m code quality
+[33m2eb69cdc[m code quality
+[33ma9bb214c[m significant refactoring 3
+[33m60b1f1fb[m significant refactoring 2
+[33md5c164ae[m significant refactoring
+[33me9e1d291[m refactor msgs_db, pkt._idx
+[33m0d3b4daf[m CLI: add client_state flag
+[33m5a1ee4c6[m[33m ([m[1;33mtag: 0.11.1[m[33m, [m[1;33mtag: 0.11.0[m[33m)[m 0.11.1 - 3220/OTB: big refactor
+[33m7398c59b[m 3220/OTB: big refactor
+[33mf4e55243[m untweak RQ/3220
+[33m65922603[m tweak RQ/3220
+[33mfaf24d13[m[33m ([m[1;33mtag: 0.10.12[m[33m)[m 0.10.12 - OTB bugfix
+[33m8395cb04[m[33m ([m[1;33mtag: 0.10.11[m[33m)[m 0.10.11 - OTB parser, timeouts
+[33m3b58b1a3[m tweak scan_otb
+[33m736616cb[m OTB refactor parser, add decode frame
+[33m2995b549[m OTB refactor discovery/timeouts
+[33mdbaeb1e1[m refactor OTB discovery
+[33m7202dfea[m doc tweak
+[33mbf423bd8[m[33m ([m[1;33mtag: 0.10.10[m[33m)[m 0.10.10 - OTB + 3220 changes
+[33mdfd80df5[m fix merge
+[33mdce1303b[m 0.10.8 - OTB + 3220 changes
+[33m5a984bef[m Merge pull request #35 from zxdavb/otb_support
+[33m2c670e09[m Merge branch 'master' into otb_support
+[33m9dd60120[m code quality
+[33m937751f0[m tweak 22D9, 22F1
+[33m8414f24d[m doc tweaks
+[33m6666b916[m tweak 3220 timings
+[33m7c8ff708[m refactor OTB, HeatDemand
+[33m210610e8[m tweak timeout for RQ/3220
+[33ma38cdeea[m[33m ([m[1;33mtag: 0.10.7[m[33m)[m 0.10.7 - OTB polling
+[33m0c4376a1[m poll OTB
+[33m0cea601e[m tweak UFC discovery
+[33me2837db9[m tweak vent parsers
+[33me04f3739[m tweak msg names for vent
+[33maf6ed13e[m[33m ([m[1;33mtag: 0.10.6[m[33m)[m 0.10.6 - improve save_state, prep for OTB
+[33m17c5e231[m Merge pull request #34 from zxdavb/otb_support
+[33m89cb7d1d[m tweak schema
+[33m5f2cc944[m refactor OTB
+[33m36746fe1[m doc tweak
+[33m56ea612e[m add OT scans
+[33m0005399c[m add show_state flag
+[33m16587ef3[m refactor msgz, save_state()
+[33m1d0c2813[m tweak 31DA parser
+[33mfefb56ec[m is GWY (HGI) not RFG
+[33m42e86d7a[m[33m ([m[1;33mtag: 0.10.5[m[33m)[m 0.10.5 - bugfix: load schema
+[33mc6c9fc6b[m bugfix load_schema for zone devices
+[33me05742dd[m[33m ([m[1;33mtag: 0.10.4[m[33m)[m 0.10.4 - bugfix typo
+[33m3ffafa04[m[33m ([m[1;33mtag: 0.10.3[m[33m)[m 0.10.3 - minor bugfixes
+[33m4cd5a213[m add dev_class to schema
+[33mfeb2d0e6[m tweak device classes
+[33m05d16c0e[m doc tweak
+[33m9f43546b[m add eavesdropper warning
+[33m7d6d9e53[m make is_wanted() private
+[33m2160aac1[m dont cache any pkts >7d old
+[33me1fe564f[m correct bad msg_timeout
+[33mc3ec3f12[m bugfix: invalid device type
+[33m4b81927d[m undo tweak
+[33m81c94566[m bugfix/harden transport
+[33mfafa1588[m[33m ([m[1;33mtag: 0.10.2[m[33m)[m 0.10.2 - bugfix: pause_write & _make_fake
+[33m40c2db7e[m bugfix: _pause_writing
+[33mb3e6b1c4[m add temporay debug log message
+[33m8c3a54b2[m clearer logging message
+[33mfc2ae278[m[33m ([m[1;33mtag: 0.10.1[m[33m)[m 0.10.1 - bugfix: no attribute '_make_fake'
+[33mb8e58d5c[m 'types.SimpleNamespace' object has no attr 'get'
+[33m2fcbbc44[m[33m ([m[1;33mtag: 0.10.0[m[33m)[m 0.10.0 - correct design snafus
+[33m97341cdd[m remove debug code
+[33mdfffe93b[m tweak restore_state
+[33m989a169d[m refactor pkt_hdr_idx
+[33mffbfee94[m bugfix log msg
+[33mdbf778ae[m reduce logging
+[33m23404b91[m bugfix schema, get_device
+[33mfcc4b524[m improve discovery
+[33m282f7bc3[m improve discovery
+[33mbe9f9a31[m set_zone_type, set_system, improve discovery
+[33mf2073710[m doc tweak
+[33m8be0afec[m tweak logging
+[33mb247b979[m bugfix: not not callback["expired"]
+[33mbefb29cd[m tweak logging, consolidate .encode("ascii")
+[33m7880a049[m dt.isoformat(sep=T), add schedule_task()
+[33mc146ad02[m Merge pull request #31 from zxdavb/refactor
+[33m178061aa[m refactor set_parent()
+[33m38283203[m tweak _set_xxx(device)
+[33m5a31077c[m initial commit
+[33mbebb656b[m tweaks
+[33me0b11761[m add in scheduler(period, ...
+[33m912c63b0[m bugfix join() stupidity
+[33m63dc91f3[m add getter 10A0/1260
+[33mc33a9457[m refactor 0005/000C constants 2
+[33me4188497[m refactor 0005/000C constants
+[33md51b3bfc[m[33m ([m[1;33mtag: 0.9.15[m[33m)[m 0.9.15 - tweak msg timeouts, add/tweak cmd constructors, tweak parsers
+[33m51ab4dcd[m[33m ([m[1;33mtag: 0.9.14[m[33m)[m 0.9.13 - tweak msg timeouts, add/tweak cmd constructors, tweak parsers
+[33mea0e9a7b[m tweak msg.expire timings
+[33m4a5a7370[m 12A0: remove broken assert
+[33mfc8750f2[m use join()
+[33mfc8ab130[m bugfix UFC - self._setpoints is None
+[33mf4f0b0ff[m workaround bug
+[33m1489eb2f[m bugfix 3150
+[33m58460280[m remove print()
+[33md4d07c4b[m tweak 12A0, 3150, 31D9, 31DA
+[33mb4a74aba[m[33m ([m[1;33mtag: 0.9.12[m[33m)[m 0.9.12 - tweak msg timeouts, add/tweak cmd constructors
+[33md5eb81e8[m tweak msg timeouts
+[33m72c53e9b[m reduce logspam
+[33m97bc3e68[m tweak 2349 2/2
+[33m60beada5[m tweak 2349
+[33m7fb4e78e[m tweak command constructors
+[33m6c1c0e4c[m[33m ([m[1;33mtag: 0.9.11[m[33m)[m 0.9.11 - bugfix is_wanted, expire pkts at 1h, tweak parsers
+[33me9d7214c[m tweak is_wanted
+[33m832568ea[m warn if creating filtered device
+[33m2ca746f2[m change debug port to 5678
+[33m285f6a7c[m expire all messages at max 1h
+[33ma03ea059[m tweak 31DA
+[33m35bf14a0[m tweak 31DA
+[33m0117b370[m client tweaks
+[33md55b86fe[m tweak output of client
+[33ma0c96623[m tweak 31DA, 3120  (31D9, 12C8, 3EF0)
+[33me120d44b[m tweak 3120, add 29:, tweak 30:
+[33ma79c410e[m tweak 10E0
+[33mebcefbb3[m tweak 02: schema/params
+[33m23d07e06[m tweak docs
+[33m2b786356[m tweak 10E0
+[33m68efc5c4[m[33m ([m[1;33mtag: 0.9.8[m[33m)[m 0.9.8 - impose device filters upon schema
+[33m63a0d2ce[m enforce filter lists on schma
+[33m5f68986f[m disable old code
+[33mc45f7e7a[m remove old relay code
+[33m47e82113[m improve cmd expiry 2/2
+[33mde97d78e[m improve cmd expiry 2/2
+[33mb5de3bb3[m improve cmd expiry
+[33m2ba35dd6[m[33m ([m[1;33mtag: 0.9.7[m[33m)[m 0.9.7 - bugfix 17/18 & callbacks
+[33m5c68cf64[m bugfix
+[33m91b7dbbc[m reduce logging
+[33ma3edbd45[m tweak docstring
+[33me379cb31[m add dev code
+[33ma6d1ea78[m disable 17/18 as devices
+[33md098b942[m prevent 17/18 from being instantiated
+[33m26d9bcb0[m remove many removeme
+[33mcba23625[m[33m ([m[1;33mtag: 0.9.6[m[33m)[m 0.9.6 - bugfix UFC/3150 & add 1298, 12C8
+[33m58a1498f[m Improve UFC
+[33m96d636ed[m add 1298, 12c8 (part 2)
+[33mbe00da88[m Add 1298, 12C8
+[33m0efd4857[m[33m ([m[1;33mtag: 0.9.5[m[33m)[m 0.9.5 - tweaks/fixes, and faking
+[33mcdbbbabf[m WIP: Add create_fake() wrappers
+[33m7e7042b6[m Add RfiGateway
+[33m04999d02[m Add device._is_present
+[33m876c5742[m tweak OTB.status
+[33md37399a9[m improve is_expired logging
+[33m0f8e2fab[m refactor zones (TODO relay demand)
+[33m53233f38[m workflow teaks
+[33m6f0ccf50[m Add ExtSensor
+[33m3893c83c[m minor tweak to client
+[33m3db232a1[m tweak
+[33m30ca844a[m Tweak 3EFx discovery
+[33m300cfdb0[m[33m ([m[1;33mtag: 0.9.4[m[33m)[m 0.9.4 - refactor device attrs
+[33m1684c29c[m refactor device attrs
+[33m8cfb93c3[m bugfix / workaround
+[33m88c92ca8[m tweak
+[33mafccb2f7[m minor tweak
+[33m3edf1148[m update requirements
+[33m3be2b2c1[m[33m ([m[1;33mtag: 0.9.3[m[33m)[m 0.9.3 - bugfixes
+[33m8fd6b34f[m tweaks
+[33mee1d0fb1[m add put_outdoor_temp()
+[33m9cbeac32[m refactor exception handler
+[33m3d5224e6[m update 002
+[33m4f3eb57a[m tweak 0002
+[33mfd41fdd4[m workaround 1F41 bug
+[33m47196137[m[33m ([m[1;33mtag: 0.9.2[m[33m)[m 0.9.2 - bugfixes
+[33m8c724fae[m bug workaround fro is_expired
+[33mdedf2525[m bugfix - the CTL won't have this attr
+[33mc8dfa4e2[m tweak
+[33m10f01681[m Merge branch 'master' of github.com:zxdavb/evohome_rf
+[33m8f6be289[m tweak
+[33maa5f55ae[m Merge pull request #27 from zxdavb/change_name
+[33maf89c6c2[m Merge branch 'master' into change_name
+[33m1c3bba44[m Update README.md
+[33m8aefaead[m Update README.md
+[33m9543d4a3[m Update README.md
+[33m3544470e[m Update README.md
+[33m667c700b[m Update README.md
+[33m25cc8bb1[m Update README.md
+[33me1d6adc5[m Update README.md
+[33m05a7a60f[m Update README.md
+[33mc42e36c7[m[33m ([m[1;33mtag: 0.9.1[m[33m)[m 0.9.1 - now called ramses_rf
+[33m1cb88695[m[33m ([m[1;33mtag: 0.9.0[m[33m)[m initial commit
+[33ma5935181[m[33m ([m[1;33mtag: 0.8.6[m[33m)[m 0.8.6 - add is_faked, remove 43:
+[33me5762d3d[m tweak sensor faking
+[33m0d9be97a[m collapse fake sensor
+[33m5efac030[m tweak bind & bugfix - working now
+[33me7de9f06[m delint
+[33m42b81b62[m refactor command constructor
+[33mfa6748a3[m[33m ([m[1;33mtag: 0.8.5[m[33m)[m 0.8.5 - add zone sensor emulator
+[33m376aeab6[m bump ver for fake sensor
+[33meb2e79e2[m Add Faked sensor
+[33m88854466[m create_dev_id(), hex_id_to_dec()
+[33m0490209f[m add Command.put_sensor_temp
+[33me3340638[m tweak
+[33m2f9c8db6[m Improve QoS & Header
+[33me644bbde[m bugfix
+[33mcbd5aa81[m minor tweak
+[33m005e0da4[m add notes
+[33mcea8599d[m bugfix msg.is_expired
+[33mbefcb448[m[33m ([m[1;33mtag: 0.8.3[m[33m)[m 0.8.3 - improve logging, RAMSES_RF
+[33macb0e283[m delint
+[33m50b4218e[m delint
+[33me4d86a58[m[33m ([m[1;33mtag: 0.8.2[m[33m)[m 0.8.2 - improve logging, RAMSES_RF
+[33mdf1c1999[m Merge branch 'master' of github.com:zxdavb/evohome_rf
+[33mb8a3ae73[m now RAMSES RF
+[33m83f604d1[m tidyup
+[33m92e8505d[m bugfix
+[33m978be4d1[m refactor logging
+[33m0f27a69c[m tweak schema
+[33m418c8f4c[m tweak
+[33made6b349[m small tweak
+[33m8b2f8089[m bugfix _split_pkt_line
+[33m1f4355c5[m tweak 2349
+[33m64e61f10[m 2349 tweak
+[33m1871feba[m tweak filter list
+[33m1035671e[m Update README.md
+[33m916465bd[m tweak
+[33m81dcb67e[m[33m ([m[1;33mtag: 0.8.1[m[33m)[m Merge pull request #26 from zxdavb/refactor_parser
+[33mbc07b977[m tweak note
+[33m10888df3[m bugfix: Port must be configured before it can b...
+[33ma289e097[m TODO: Fix duplicate logging
+[33mb68d2b6d[m add TODO
+[33mf6132e8f[m minor delint
+[33m1f4a5a44[m rename var
+[33m326482cf[m add comments
+[33ma5111d12[m fix demand for ZVZ
+[33m8c025e94[m add timeout for 1060
+[33m78c761ce[m add TODO
+[33m9793672f[m add heat demand for ZVZs
+[33mf8e1db29[m add back missing 12B0
+[33m1b459c8e[m Big changes - parser/schema, fixes, speedups
+[33m2e68cbee[m verb constants
+[33m3a9db3a4[m verb constants
+[33m5ef55e77[m tweak cache size
+[33m32c39804[m verb constants
+[33m3b054586[m comments
+[33m63532d6b[m delint
+[33mf15bbb3a[m delint
+[33m1d5c4aa0[m tweak
+[33m89bd8c90[m delint
+[33m6d53e7f7[m tweak pkt log schema
+[33m63d1dfae[m lru_cache extract_addrs()
+[33mb81db175[m delint
+[33m489acc2d[m delint
+[33m9392f243[m remove lint
+[33mf5be88e2[m[33m ([m[1;33mtag: 0.8.0[m[33m)[m 0.8.0 - add back eavesdropping, fix 0016
+[33mb5f17758[m Merge pull request #25 from zxdavb/add_back_eavesdropping
+[33mcc6a13a3[m optional eavesdropping
+[33m2f470597[m delint
+[33m20176ce3[m delint
+[33mdf96783d[m refactor filer list
+[33m2fbc37c1[m refactor _get_device()
+[33mbe6f40fc[m minor tweak
+[33m44ba1675[m tweak pkt logging
+[33mfa204f83[m typo
+[33mdd38a513[m 0016: tweak _idx
+[33m6d0d9449[m tweaks
+[33mc8211e9a[m tweaks
+[33m2e6138f0[m disable exception handler
+[33mc86a1316[m THM to STA, fix typo
+[33m284afb65[m[33m ([m[1;33mtag: 0.7.9[m[33m)[m 0.7.9 - bugfix restore state
+[33m9551d135[m[33m ([m[1;33mtag: 0.7.8[m[33m)[m 0.7.8 - bugfix restore state
+[33me5d077ac[m bugfix restore state
+[33mc3d9c356[m[33m ([m[1;33mtag: 0.7.7[m[33m)[m 0.7.7 - save/restore state
+[33m7a3596a6[m system state, R/O transport
+[33m6aebb566[m blacken
+[33m05776090[m blacken
+[33mcc541883[m blackened
+[33m185dd245[m blackened
+[33m5a79728c[m blackened
+[33m522a8923[m[33m ([m[1;33mtag: 0.7.6[m[33m)[m 0.7.6 - refactor config, schema
+[33m30d11a10[m[33m ([m[1;33mtag: 0.7.5[m[33m)[m 0.7.5 - refactor config, schema
+[33md0598c97[m tweak 0005, 10E0, 2349, 3EF0
+[33m7fb3bae1[m refactor config+schema
+[33md9329dbc[m refactor _msgs / devices, add FanXXX / 23:
+[33m53c92e69[m remove lint
+[33ma8eb3cc4[m 12C0, 31E0
+[33m7de9f97c[m add lint
+[33m1bd0a66f[m tweak 31E0, delint 3EFx
+[33m2695e520[m[33m ([m[1;33mtag: 0.7.1[m[33m)[m 0.7.1 - add Itho sensors, bugfixes
+[33m19fb5dcb[m add fan devices
+[33m19200268[m bugfix 2349
+[33m65aa5491[m[33m ([m[1;33mtag: 0.7.0[m[33m)[m 0.7.0 - refactor system modes
+[33m3749cf07[m bugfix
+[33m44d54595[m add rfc2217
+[33m3fbad34e[m Eavesdrop for Hometronics
+[33m22e99e66[m save/restore state, refactor schema
+[33mddcab13f[m add methods for save state
+[33m7ff00849[m tweaks for restore state
+[33m75ac0f4c[m add dev code for restoring state
+[33m56e43179[m tweaks: logging, sort msgs by dtm
+[33m04273d9d[m tweak .gitignore
+[33m315c73dc[m minor tweak
+[33m265ab0cc[m[33m ([m[1;33mtag: 0.6.6[m[33m)[m 0.6.6 - bugfix system modes
+[33m337a7413[m bugfix
+[33md4c161b9[m[33m ([m[1;33mtag: 0.6.5[m[33m)[m 0.6.5 - add evohome_cc services
+[33ma278acd0[m[33m ([m[1;33mtag: 0.5.26[m[33m)[m 0.5.26 - fix workflow
+[33mda150b04[m[33m ([m[1;33mtag: 0.5.25[m[33m)[m 0.5.25 - fix workflow
+[33m340824e9[m[33m ([m[1;33mtag: 0.5.23[m[33m)[m 0.5.23 - pre-services refactor
+[33m381cbf9e[m[33m ([m[1;33mtag: 0.5.22a[m[33m)[m 0.5.22a - pre-services refactor
+[33m7ae44e5b[m[33m ([m[1;33mtag: 0.5.22[m[33m)[m 0.5.22 - pre-services refactor
+[33m4083261f[m bugfix
+[33mfeb84e32[m refactor / tweak
+[33mb71010cf[m tweak 34
+[33m8f97261c[m typo
+[33md6ef8097[m tweak workflow
+[33m1055b55c[m workflow
+[33mfa53e946[m undo test
+[33m1be530e2[m isort
+[33mb824e883[m fix merge
+[33ma1d101b9[m broken merge
+[33m8ebfa20a[m broken merge
+[33m1b01f79a[m tweak circleci
+[33m852d7d61[m Merge branch 'master' of github.com:zxdavb/evohome_rf
+[33m9cd3da4d[m isort
+[33m9a7846e9[m Updated config.yml
+[33m17a40b22[m tweak
+[33m7137eee0[m add system profiles
+[33me6c19499[m delint
+[33m1cff5ca4[m circleci
+[33m073e0c75[m minor tweaks
+[33md97853df[m Merge branch 'master' of github.com:zxdavb/evohome_rf
+[33m565a9309[m tweak
+[33m944cdbf0[m Update README.md
+[33me501479a[m tweak circleci
+[33m4574c964[m Updated config.yml
+[33m5d99b8fa[m Merge branch 'master' of github.com:zxdavb/evohome_rf
+[33m13c7587f[m add workflow 2
+[33m103d2409[m Update README.md
+[33m40992c35[m Merge branch 'master' of github.com:zxdavb/evohome_rf
+[33mc3533524[m add workflow
+[33m97e4b3f2[m Merge pull request #21 from zxdavb/add-license-1
+[33m858c738f[m Create LICENSE
+[33m2dbdf288[m change license
+[33m5b8f7fc1[m[33m ([m[1;33mtag: 0.5.20[m[33m)[m 0.5.20 - bugfix assert
+[33m00a79b48[m[33m ([m[1;33mtag: 0.5.19[m[33m)[m 0.5.19 - bugfix regression
+[33m3bc729fb[m 0.5.18 - bugfix regression
+[33mcfa4d430[m[33m ([m[1;33mtag: 0.5.18[m[33m)[m 0.5.18 - bugfix regression
+[33m60232e51[m[33m ([m[1;33mtag: 0.5.17[m[33m)[m 0.5.17 - bugfix bare asterisk
+[33m5699f540[m[33m ([m[1;33mtag: 0.5.16[m[33m)[m 0.5.16 - refactor set_modes, bugfix OTB
+[33md595d8bc[m add TODO
+[33mfb2e4eb2[m refactor set_mode constructors
+[33m61d60133[m reduce retries on discovery
+[33m4ceb3fb5[m bugfix
+[33m939b8a6e[m delint
+[33m4300907d[m bugfix 3220 parser
+[33m097077ef[m tweak
+[33mf24dc597[m[33m ([m[1;33mtag: 0.5.14[m[33m)[m 0.5.14 - bugfix: OTB send_cmd
+[33mba0ba637[m[33m ([m[1;33mtag: 0.5.13[m[33m)[m 0.5.13 - bugfix: OTB.ctl -> ._ctl
+[33m50fcad4b[m minor tweak
+[33m032305af[m add TODO
+[33m99cb1913[m bugfix OTB.ctl -> ._ctl
+[33mb1858a08[m[33m ([m[1;33mtag: 0.5.12[m[33m)[m Mostly DHW
+[33m3bdf5483[m add sx
+[33mf6a0a7c5[m logging
+[33mcbd2ba31[m add DHW.setpoint setter
+[33mcf317b39[m bugfix tests
+[33m2e7e1382[m lots a tweaks
+[33m4971da4b[m doc tweak
+[33m75724eac[m[33m ([m[1;33mtag: 0.5.11[m[33m)[m 0.5.11 - Cmd.Constructors, Fix QoS, OT, Orphans, Puzzle, FanSwitch, 12C0, 57.6k, tweaks/lints/fixes
+[33mf896871d[m Merge pull request #20 from zxdavb/bleeding_edge
+[33md46a7d4c[m doc tweak
+[33m27e79c9f[m bugfix qos, seqn, notify impersonation, tweak -x
+[33m2e09d850[m 12C0, execute_cmd, cmd constructors, bugfixes
+[33maca87634[m tweak OpenTherm
+[33mb32a492a[m tweak constructor
+[33mc877389d[m widen execute_cmd
+[33m8704c490[m bugfix, tweak
+[33md3d5bd3d[m heaps of tweaks, bugfixes
+[33mcb317422[m[33m ([m[1;33mtag: 0.5.10[m[33m)[m 0.5.10 - bugfixes, logging, tweaks, de-lints
+[33me50e7481[m Merge pull request #19 from zxdavb/bleeding_edge
+[33m3b7f48b0[m Merge branch 'master' into bleeding_edge
+[33m5eef25c6[m fix logging issue
+[33m659d6d8e[m tweak logging
+[33mfbe81c21[m Merge pull request #18 from zxdavb/bleeding_edge
+[33mcac9a658[m bugfix
+[33m17ff7a95[m delint
+[33m6819eb82[m delint
+[33m86a2e9f5[m tweak
+[33m0e3961c0[m tweak
+[33ma5da3e6d[m tweak 31D9/A
+[33mbf48a411[m fix max_zones
+[33m650fe829[m delint
+[33m7f014c73[m[33m ([m[1;33mtag: 0.5.9[m[33m)[m 0.5.9 - bugfix HGI80 seqx numbers
+[33m729606c5[m sequence numbers only for evofw3
+[33me24e7c15[m tweak MakeCallbackAwaitable
+[33mbb82830a[m[33m ([m[1;33mtag: 0.5.8[m[33m)[m 0.5.8 - domain demands, serial_config, 31D9/31DA
+[33m3592839c[m force pkt_logging
+[33m23e3281a[m tweak 31D9, 31DA
+[33m5347e747[m tidy up domains
+[33m12565d51[m add serial_config
+[33m13535d6c[m harden is_expired
+[33m5d9385ec[m Merge pull request #17 from zxdavb/bleeding_edge2
+[33mc13057f2[m logging tweak
+[33m62985d9c[m[33m ([m[1;33mtag: 0.5.7[m[33m)[m 0.5.7 - shedloads of breaking changes
+[33m25f689c9[m final tweaks
+[33m13dcf7f8[m refactor for DHW, schema
+[33m20818781[m lint
+[33m6de79354[m black
+[33m0f59ef92[m Tweak doc, add todo
+[33m30647e00[m tweak schema
+[33md0cf78b8[m tweak docs
+[33m2e8ff207[m tweak
+[33m1519be03[m tweak 0009, 1030, 1060, 10E0, 22F1, 22F3, 2309
+[33ma732e499[m add OT constructor
+[33m491761a4[m rotate log files
+[33m37b19976[m tweak 1100
+[33md33efa2a[m tweak 2309
+[33me75ec6bd[m tweak 0001, 0008, 1100, 1F09, 1FC9, 2349
+[33m72046f60[m tweak 1F09, 1FC9
+[33mf92549e7[m bugfix
+[33mb2e3bc59[m bugfix
+[33ma4f336e7[m bug_fix
+[33m5fde8988[m tweak pkt validation, logging
+[33m7c6170f4[m black
+[33m0b0dd408[m bugfix dhe
+[33mef9dedc0[m harden code
+[33m2926bd2e[m bugfix
+[33mf2b6f3ea[m bugfix
+[33m8fb96c32[m tweak DHW
+[33mc27106a5[m bugfix
+[33m841b5525[m rewrite schema, params, status
+[33m3f4e4e30[m tweak
+[33m82647681[m widen ramses schema check
+[33m1d29cbd3[m add warning for impersonation
+[33m09ab5f8e[m improve command wrappers
+[33mbae9a2c3[m tweak ramses schema
+[33m8a35f1db[m tweak logging
+[33mcfd6b5dc[m tweak dtm_from_hex
+[33mb4cf11af[m tweak logging
+[33m3e0fbb33[m tweak docstring
+[33m3c967b86[m bugfix
+[33m251f9773[m put back system mode
+[33m03a4e763[m reduce log spam
+[33m0edd0ebe[m Add bare-bones command constructor
+[33mdf490174[m too many changes
+[33m313c2c62[m bugfixes
+[33m09e48cc6[m bugfix
+[33ma5dfcff8[m bugfix
+[33m85249898[m add sorted dunder
+[33m38c8bae2[m add schedules back into zones
+[33mc71b3f86[m add sorted() dunder
+[33mc1d8497b[m add code_name attr
+[33m0c6bae48[m tweak
+[33m4089ee46[m tweak 3220 validator
+[33md6c06aa5[m bugfix, tweak
+[33m91f0cf13[m consolidate zones - add back missing attrs
+[33m9af541e6[m remove 10/2349
+[33m624edd44[m Change startup packet
+[33m484d52e8[m tweak create_zones
+[33ma89874b2[m tweak 313F
+[33mf9f10565[m tweak UFC
+[33m52e27a98[m tweak actuator discovery
+[33me8a712f3[m tweak
+[33maa7d4540[m tweaks
+[33mcf70e30a[m bugfix
+[33m3a234347[m Merge pull request #16 from zxdavb/bleeding_edge
+[33m30315da0[m remove debug print
+[33mce3bc414[m tweak cmd construtors
+[33mf5d03534[m tweak helper
+[33m93a77e9b[m add set_commands
+[33m4c213fbe[m bugfix x2
+[33m22eff866[m bugfix reading empty fault log
+[33m23c49902[m add commands
+[33mb405cba7[m add helpers
+[33mc9533f52[m 0.5.5 - much better logging
+[33mc5c60884[m tweak logging
+[33mb40dc788[m delint
+[33m8fbf128c[m tweak logging
+[33mfef55ae1[m[33m ([m[1;33mtag: 0.5.4[m[33m)[m 0.5.4 - various bugfixes
+[33m8d6b0851[m[33m ([m[1;33mtag: 0.5.3[m[33m)[m 0.5.3 - various bugfixes
+[33m1e34ad58[m tweak utils
+[33m43bd4771[m tweak
+[33mfb929603[m refactor RAMSES schema, validation
+[33m234e0a8b[m tweak
+[33m87098252[m add eavesdrop flag
+[33m3285a085[m delint
+[33m04b7526c[m move utils to one folder
+[33mcdd70fa1[m tweak
+[33m5dd8bf6c[m add archive utility
+[33m6ef516b4[m tweak device_id switch
+[33m2acdf118[m add new scan_002
+[33m189e98d3[m add new scan_001
+[33m2993602c[m bugfix
+[33mb2fc9dc5[m tweak, add long_date
+[33mf013c26d[m tidy up
+[33m8ea490ba[m tweak
+[33m538703cd[m tweak
+[33m14dcc6f4[m tweaks
+[33m33227bd1[m bugfix, tweak asserts/opentherm
+[33m79acd77d[m tweak scan_full
+[33m0004cf33[m tweak scan_full
+[33m3a55fbe0[m bugfix
+[33mbaa051eb[m bugfix, de-regression, de-lint
+[33mb74d6c96[m[33m ([m[1;33mtag: 0.5.2[m[33m)[m 0.5.2 - various bugfixes
+[33maf0448c1[m tweak
+[33me2464b87[m tweak opentherm
+[33mab230e9c[m Tweak Opentherm
+[33mdbea7150[m lot of tweaks
+[33mb2138fd5[m make thread safe
+[33ma20e4cd6[m add 01/1100/RQ
+[33m62d7b7b7[m remove unwanted signal handlers
+[33mc0f0edbf[m Tweak DONT_CREATE_MESSAGES
+[33m5bf519f0[m tweak for DONT_CREATE_MSGS
+[33made53a3c[m refactor state DB code
+[33mba14e067[m fix typo
+[33mc49420b1[m add expiry warning, tweak msg processor
+[33m4abab4f8[m tweak client
+[33mc7db62bc[m[33m ([m[1;33mtag: 0.5.1[m[33m)[m 0.5.1 - various bugfixes
+[33meb0e318b[m tweak schema for 10:
+[33mfbf8fc3f[m bugfix no msg to evohome
+[33m4e15e773[m hack domain support
+[33ma6b7b834[m[33m ([m[1;33mtag: 0.5.0[m[33m)[m 0.5.0 - after big refactor
+[33meb9039f9[m tweak schema
+[33m7d941fab[m bugfix 12B0 expiry
+[33mcd379d5f[m bugfix
+[33mbe7b50fe[m bugfix runtimerror
+[33m5d6f0dd7[m tweak logging
+[33me44d6b60[m bugfix schema, teak logging
+[33m914ea0dd[m delint
+[33me86a1e3b[m tweak devices, delint
+[33m10dae5e1[m tweak
+[33mae6c33b0[m version 0.5.0
+[33m472f1984[m Merge pull request #12 from zxdavb/bleeding_edge
+[33mb45f2e1a[m Merge branch 'master' into bleeding_edge
+[33mff049649[m tweak
+[33m828c8358[m tweak
+[33m6b9fc136[m bugfix
+[33mc39b22d7[m Limit log retreival to 12 (for now)
+[33m6f3d758e[m various tweaks
+[33m43f95c4c[m refactor handle_msg
+[33m71b7ca88[m tweak Jasper & Asserts
+[33mf8a0e105[m tweak normalizer, increase buffer size
+[33mcefa0d10[m tweak CODE_SCHEMA
+[33mda7eadc7[m tweak client output
+[33mbf41f693[m delint exception handling
+[33m1bef59a3[m exclude invalid controller id
+[33m51dd0ca1[m improve error msg
+[33m5d92d861[m tweak
+[33mcf446d3f[m delint
+[33m3fd8df47[m 3220 tweak
+[33m3b6ea749[m tweak jasper BLOBs
+[33m739baf0b[m tweak allow/blocklist processing
+[33m7a10a174[m improve allow/blocklist processing
+[33m01e13b51[m workaround discovery limit
+[33m0066f2b5[m delint
+[33m711389ae[m tweak
+[33m90f00d1b[m tweak 1030, 1100
+[33m4b0da49b[m delint
+[33m86c0fb85[m tweaks
+[33mf7c78bf0[m remove redundant code
+[33mff02562c[m delint
+[33m6fe164db[m Add Address type
+[33mf60548bc[m bugfix
+[33m68de7fab[m tweak client.py
+[33m5a2a6472[m tweak DeviceIdParamType()
+[33m58714846[m add Is_valid_device_id Fx
+[33mac19a59a[m tweak
+[33m5232a7fb[m tweak
+[33m3490873c[m tweak
+[33m55153795[m tweak
+[33m5bdda453[m add device filter
+[33mf9b6cccb[m bugfix
+[33mae8f94dc[m delint
+[33m87137bb7[m re-wrote chop
+[33m9620418e[m improve precision
+[33m858961f1[m tidy up
+[33mf244976e[m tidy up
+[33m8f7fdc99[m add visible feature
+[33mf961ed45[m harden mutex
+[33m5f2e42b5[m poller for Win only
+[33m610baa92[m tweak
+[33m669340b7[m bugfix regression
+[33mfec389a4[m delint
+[33m8c70561a[m tweaks
+[33md55124a1[m delint
+[33mef111187[m tweak 13:
+[33m1ba968ba[m stuff
+[33mc40b3809[m delint
+[33maf6cf44f[m delint
+[33m89018719[m tidy up
+[33ma313b9d8[m set quiesce period to 0.5
+[33m5fed0bfa[m tweak
+[33m0db99955[m tweak
+[33m1aa148a7[m tweak
+[33m8b8674cf[m tweak
+[33m20e7bdc5[m large refactor
+[33m533f0f5e[m refactor serial interface
+[33m1553fb54[m move create_pkt_stack
+[33mbe824b40[m tweak 0418, delint
+[33m21e5f4f6[m tweaks
+[33m23a9ee83[m refactor polling PktTransport
+[33mc4b58519[m add non-async serTransport
+[33m136a06b7[m _write_data becomes _send_data
+[33m583b00f4[m no messages
+[33m7420e71c[m add back debug lines
+[33md696b770[m delint
+[33mc6259bec[m bugfix
+[33m19d59158[m tweak
+[33m350ec927[m bugfix
+[33m8420bc85[m refactor for puzzler
+[33mea616474[m tweak
+[33m9ec519b0[m split PktProtocol in Base/Qos
+[33m8d586f07[m tweaks
+[33m255b95bf[m tweaks
+[33m7c29aeb7[m tweaks
+[33m8828fb88[m remove allowlist
+[33m0aa652a0[m delint
+[33m271dec97[m delint
+[33m34a9d544[m truncated binary_chop
+[33m34ed4957[m fix binary chop
+[33m0d3ee2a4[m tidyup
+[33mc58f1173[m delint
+[33m4dce49c3[m bugfix
+[33m9a350515[m bugfix
+[33mf4c922d3[m delint
+[33m37425446[m bugfix
+[33me9737d36[m truncate binary chop
+[33m30a59728[m bugfix
+[33m52a49c95[m tweak wait_for serial interface
+[33m3c92d7d9[m add switches
+[33m18523a0b[m tweak
+[33madd6326a[m bugfix
+[33m375fab55[m stuff
+[33m09714f4c[m change file name
+[33mf91d37af[m delint
+[33m4e6e1af9[m tweaks
+[33ma03e4c0a[m puzzle tweaks
+[33md00c1a27[m tweaks
+[33m9de5fe6f[m puzzle initial commit
+[33m4e0d527b[m big refactor for puzzle packets
+[33mde86376d[m tweak cli help
+[33mf07dc4e3[m bugfix allowlist, tidy up
+[33m8a087f98[m reduce logspam
+[33mc16040c7[m bugfix, tidy up
+[33m065d55a5[m bugfix
+[33m1c004ced[m add back in friendly names
+[33m27ffc1ee[m handle Jasper, some refactoring
+[33m68bd4c37[m delint
+[33mc4ff030f[m delint
+[33m5d4ea722[m de-lint
+[33m6c445896[m tweak debug msg
+[33me8b0dc70[m change to records
+[33m187d563e[m tweak
+[33m661fc133[m loop workaround
+[33m1bb8989d[m add evofw_flag back in
+[33m25208e58[m enforce listen mode at protocol layer
+[33m2208c105[m bugfix 00
+[33mac117dae[m Add 00 device
+[33me21ca3d2[m add raw packet normaliser
+[33m6b1d5a28[m tweak 3EF0 (WIP), 22D9
+[33mf2d9e54f[m bugfix colour warning
+[33m37a93f3c[m rename to _dev_mode_
+[33m719be356[m refactor QoS backoff again
+[33m60961737[m mix zones don't do demand
+[33mc9feb800[m tweak pkt logger
+[33m5b0372b9[m bugfix address validator
+[33m72c25077[m minor tweak
+[33ma264d761[m delint
+[33m342780a8[m reduce backoff
+[33m59ea86cb[m workaround evofw3 bug
+[33mbf675380[m pkt  logging refactor
+[33ma4c9b51e[m add TODO
+[33m0efab885[m improve header code 4 addrs
+[33m28faa281[m tweak
+[33m049e18c2[m extract_addrs to helper fx
+[33me608516a[m tweak backoff
+[33md72d5250[m bugfix, delint
+[33mb90ffcf9[m chnage attr names
+[33m064eaa57[m minor tweaks
+[33m322864dd[m 0001 add comment
+[33mc6df6281[m tweak timings
+[33m43106e74[m delint
+[33m15a0c032[m add comments
+[33m6b9a3590[m refactor/bugfix backoff
+[33m86e7c181[m normalise execute_cmd
+[33m6c041cda[m add is_valid to  class
+[33m9fc37de1[m reduce pkt transport logging
+[33m03361753[m minor change
+[33m575f01da[m bugfix no scripts
+[33m3c8c6078[m bugfix evofw_flag type
+[33ma48c1ff7[m bugfix script shutdown 2
+[33m5c65e5df[m bugfix script shutdown
+[33m3e619b52[m delint
+[33mfa89184d[m tweak throttle logging
+[33m26efde45[m bugfix: no running loop
+[33mbdcbf0e6[m tweak wrapper name
+[33m100d770c[m 0404 tweak timeout
+[33mf6f7257d[m replace QoS throttle with backoff
+[33m474a1038[m refactor stuff
+[33mbfdd238b[m delint
+[33m01d8f8bb[m tweak expirimental serial transport
+[33m7167adbe[m add serial transport
+[33ma8be2099[m bugfix regression
+[33m7ba02a4c[m tweak 0006
+[33m3cf5741a[m bugfix
+[33md41cea50[m tweaks - restrict STDOUT cols
+[33mc41952ff[m bugfix warmup
+[33md4d70cd9[m minor typo
+[33m456d51ea[m tweak qos
+[33m8a93950d[m add scans
+[33mc60528ad[m fix execute_cmd script
+[33m1e508b81[m tweak gwy._tasks
+[33m9ae04d40[m restore Ctrl-C 2
+[33ma69ec30c[m restore Ctrl-C
+[33m7edefef6[m workaround for slow serial gateways 2
+[33m05eec4f2[m workaround for slow serial gateways
+[33m631f9c45[m tweak probe
+[33me297c8c8[m correct double-logging bug
+[33m1443c859[m useless refactor
+[33m36fd1673[m bug fixes for discovery/fault_log
+[33m1760d6a6[m dont stop if probing
+[33m5cc1049e[m tweak scripts
+[33mb51f1a06[m sched get/set working
+[33mde7ac853[m refactor scripts (sched/faults) - WIP
+[33m28966043[m tweak 0006
+[33m3f71fcb3[m add back is_wanted filter
+[33m8cc9cb44[m can be two DHW valves per system
+[33mfe9977ad[m bugfix regression
+[33maf640ecd[m big refactor around schedule
+[33m7a74692f[m refactor startup: CLI/schema/logging
+[33mcd6d36b7[m add a debug log line
+[33m9a41eaa0[m minor refactor
+[33mf400f741[m tidy up logging
+[33me40e8cd8[m bugfix DHW sensor missing from schema
+[33mfa2e354e[m bugfix OtbGateway has no _boiler_setpoint
+[33mffa7329e[m refactor logging: no enforced packet log
+[33m80540b58[m refactor logging
+[33m5ef3d93f[m bugfix listen mode
+[33mec1c1127[m switch to new debugger
+[33m66d952a2[m bugfix: no listen mode, and log idx base 10
+[33m4c11abeb[m small tweak
+[33m00f81c3e[m add in set_schedule (WIP)
+[33m55d156a6[m refactor packet logging
+[33mc2db2c3b[m add some OT attrs to OTB
+[33m2e1902e7[m minor tweak
+[33m0c79669d[m remove debug code
+[33me8271793[m tweak probe
+[33m67067f73[m add back the lost diff
+[33me0c2153b[m add slugify function
+[33m5394833d[m bugfix broken probes
+[33m457b922d[m bugfix discovery scripts
+[33mb483bbac[m add listen command
+[33m4abfeb98[m minor tweak
+[33m456596a0[m add per-packet backoff to QoS
+[33mcf3ce804[m bugfix msg.is_expired
+[33me867f76f[m hack msg distributer
+[33mb77f4d75[m tweak
+[33m13703aa3[m refactor message processor
+[33mf7d40d62[m delint code, tweak asserts
+[33m00871057[m tweak packet validator
+[33m7d4b863b[m bugfix
+[33mfd3f8e31[m minor tweak
+[33mfc8f0601[m clean up Win32 signal handling
+[33mb819baec[m clean up w32 signal handler
+[33m902e90f2[m minor tweak
+[33m9420b57c[m tweak 0418 parser
+[33mf3bc1d1b[m minor tweak
+[33m70896294[m tweak QoS
+[33mcef65813[m tweak 12:/3B00
+[33mbac68c80[m small tweaks
+[33m75a3c47c[m simplify client protocol 2
+[33m2c9896cc[m simplify client protocol
+[33mf8440d09[m tweaks
+[33m1f2c38af[m bugfix msg callback
+[33mbd8bb785[m separate msg callbacks from pkt qos
+[33meb047394[m delint/tidy-up
+[33m9165af6f[m working refactor msg protocol
+[33me35e879d[m minor tweak
+[33m0e7df465[m add bones of client protocol
+[33me1132a97[m cleanup shutdown & CLI UI
+[33m3f64084e[m move msg_proc to message.py
+[33mfe72ced1[m msg callback moved to msg_transport
+[33m20fb606b[m functioning ramses stack
+[33m6c181162[m tweak 2
+[33mbbc8571c[m tweak
+[33m0edee787[m add backbone ffor msg protocol
+[33m0ed4d49a[m add bones of msg transport
+[33m785c229f[m tidyup
+[33ma26558f8[m from zone_idx from status dicts
+[33mb7f58f71[m tweak system creation
+[33m54239959[m refactor cmd callbacks
+[33mdfc3765a[m remove debug hacks
+[33mabae9950[m small tweaks
+[33m30bcf7ce[m significant refactor
+[33mafbc7e13[m v0.4.4 - refactor schema, attrs
+[33m3b50cf11[m refactor attrs, add timeouts
+[33mff2909d9[m fix typos
+[33m987c5c80[m expire stale data 2
+[33me1b98b78[m expire stale messages
+[33m993eec8c[m bugfix 30C9
+[33m7957eb7a[m refactor signal/exception handlers
+[33m4d5f8c72[m tidy up 30C9 handling
+[33md9c99f25[m tidy up handling 30C9
+[33m4f0c5f29[m move things around
+[33mbd03ba14[m initial commit
+[33m2c8d2aaf[m setters to methods
+[33m2ac7f7a9[m poll domains, heating_control, F9/FA, BDR role
+[33mf2b6b072[m bugfix schema
+[33m7dc972ec[m tweak short probe
+[33m3a53f073[m tweak fault_log_done
+[33m8cd09e02[m v0.4.3 - earlier values
+[33m26fbe4ae[m v0.4.3 - earlier zone temps
+[33m4e55afab[m v0.4.4
+[33m3cbfe28a[m handle_msg, discover, entity attrs
+[33maf736c24[m add orphans, delint
+[33m021fbe46[m tweak probe
+[33md595f98b[m delint
+[33mbce85372[m harden discovery (zone sensors)
+[33maa169023[m harden discovery (zone sensors)
+[33me0f40566[m tweak poll/probe (esp. 17:)
+[33m77d9958f[m bugfix 0004 trailing spaces
+[33m5ac72887[m stuff
+[33m104da2a1[m bugfix callbacks
+[33m84fd159b[m re-jig discovery, add callacks, add f-logs
+[33m6f744fc0[m v0.4.2 - temps for multi_room zones
+[33m8d2cdfaf[m small tweaks
+[33mff7aec3b[m Merge branch 'master' of github.com:zxdavb/evohome_rf
+[33mdacc2d8d[m Merge branch 'master' into bleeding_edge
+[33m84aae871[m v0.4.1 #2
+[33mf7502f72[m v0.4.1
+[33m230e10b5[m Update README.md
+[33m8c3e3909[m extend poll codes
+[33mb4ef40c0[m minor tweak
+[33m6ef76e0b[m v0.4.0
+[33m9d819449[m bugfixes, tweaks
+[33m7e532941[m improve warning msg
+[33m7030f2b5[m tweaks fro OTB payloads
+[33mad0494e7[m add poll codes for OTB
+[33mf4f25ef6[m bugfix fro parse mode
+[33mf5686085[m probe + poll
+[33m6d220682[m v0.3.5 - max zones
+[33meff626d5[m v0.3.3
+[33m6708ef31[m refactor discovery
+[33m2badbba6[m refactor zones, devices
+[33ma33d15b4[m v0.3.1 - tweak setup.py
+[33mb39296fc[m v0.3.0
+[33m3a95f4db[m v0.2.5
+[33m28c7d653[m fix temps
+[33m906611a7[m QoS retries working 3
+[33m34b6ab67[m QoS retries working 2
+[33m74f03936[m QoS reties working
+[33m20a5dd05[m minor refactor
+[33m290a1822[m tweak UFC
+[33mcc725cc3[m refactor engine, entity.update()
+[33m89a79999[m minor tweaks
+[33m67ccbfbf[m version 0.2.3
+[33m0924fffc[m 0.2.2 - refactor updates/assert expected packets
+[33me1e05455[m refactor zone attrs
+[33m49a82f00[m bugfix null fault_log
+[33m22b90739[m version 2
+[33m0732f7d5[m set DHW device parent zone
+[33m06846d2f[m add some eavesdropping back
+[33m88ad80f9[m Harden 1FC9
+[33md8cfdc77[m tweak schema
+[33mecedc487[m bugfix probing, block/allow
+[33m7d449f86[m tweak config
+[33ma0b3d78b[m remove bad try/except
+[33mb9958524[m schema for ufh ctl
+[33mba1e37da[m tweak schema
+[33mad8373fb[m set controller for UFH controller
+[33m56f165d3[m bugfix
+[33m648f6f29[m speed up survey
+[33mcf298a3d[m tweak 000C
+[33m9641734c[m reduce discovery RQ spam
+[33macfd6316[m reduce discovery RQ spam
+[33me7bef8ff[m tweak
+[33mb2a5c4a3[m bugfix
+[33m9784f39a[m tweak schema
+[33m781753f4[m tweak 000C
+[33m49485eff[m minimize survey
+[33m0693c670[m fix typo
+[33m6c327752[m tweak parser fro 000C
+[33m8d9851a1[m 000c fro UFH
+[33m0f378ba2[m typo
+[33mdb1c45b0[m shallow probe of 02:
+[33m691e8986[m bugfix
+[33mb5eb39d4[m no zones for UFC
+[33m3e2a7e3d[m remove deep probe
+[33md6f6f807[m harden validation engine 2
+[33m095fc3a9[m harden validation engine
+[33m4265be18[m restor QoS 2
+[33m7485b67e[m restor QoS
+[33m4d05a689[m try again
+[33mce75e6eb[m disable QoS code
+[33ma93f3962[m extend discovery
+[33me18b9fb6[m try survey with 02:
+[33m97687922[m Nuno hack
+[33m2423c545[m add sleep - guessing
+[33mfda61cdf[m harden discovery
+[33m05e782a8[m Harden zone.status
+[33mce2ddd3f[m bugfix
+[33md4a9ac0f[m refactor QoS, probe edition
+[33m87cc3baf[m tweak UI
+[33mb838c54f[m add comments
+[33m82728e70[m format JSON output
+[33m79cbd79a[m tweak 1100, 1FC9
+[33mf1a216b4[m bugfix
+[33m004309c3[m tweaks
+[33m628e17fb[m Refactor QoS, move Pause
+[33m4e82f46d[m tweak timeouts, harden status
+[33m41912226[m refactor QoS code
+[33m3ff6e1b3[m reduce logspam
+[33md5403ae8[m tweak 0418
+[33ma7ae3f39[m tweak
+[33m366ad759[m add discovery for UFH controllers
+[33m435ca8a3[m workaround dodgy code
+[33meefa072a[m add to 0418 parser
+[33m199240f9[m tweak headers
+[33mde4ab8d4[m enable discory for controllers
+[33m71edeffd[m test code
+[33mbfcad961[m minor bugfix
+[33mb1125e08[m latest tweaks
+[33m93728577[m schema tweaks
+[33me315c061[m set zone type, tweak config/CLI schema, id_to_addr
+[33ma267bb39[m tweak _idx for 03, 12, 22
+[33mab621104[m set zone_type
+[33m1493c60b[m add set_domain, load_schema
+[33mafe98fba[m refactor CLI, switches, config + schema
+[33m9a858588[m tweak
+[33madd5e2d8[m params tweaks
+[33m907c86ff[m innitial work on .params
+[33ma1aabbb0[m working discovery
+[33mbe342aa2[m Fix discovery & DHW, Tweak Schema
+[33m91955aa6[m tweak system schema of zones
+[33m662c9c57[m improve discovery, logging
+[33m47923511[m tweaks, small bugfix
+[33m85e1c373[m refactor evo.discovery, pkt headers
+[33mee5f6ce4[m 000C, FA (not HW), types
+[33mc90f467f[m refactor, delint 0418
+[33m34a5c44b[m tidy up TPI, dunders
+[33mbce6fd21[m delint/tweak
+[33m2cab59eb[m tweaks
+[33m1588100d[m switch zone.id to zone.idx, tweak DHW detect
+[33mf932ca75[m add comment
+[33m7f6058fb[m cleanup constants
+[33m61b36ecf[m BDR zone is now ELE
+[33m75a8ff51[m TRV zone is now RAD
+[33m60f186ff[m UFH Controller is now UFC
+[33m9534c377[m enable gwy.evo
+[33ma9b6023d[m add 0005 to create entities
+[33m3ccf3dc7[m tweak device table
+[33m0cb52865[m tweak parsers (thanks rob)
+[33ma246b836[m Merge branch 'bleeding_edge' of github.com:zxdavb/evohome_rf into bleeding_edge
+[33m5536b284[m correct requirements
+[33m20684622[m Update README.md
+[33mbcd0eb81[m Update README.md
+[33mc80d57da[m Merge branch 'bleeding_edge' of github.com:zxdavb/evohome_rf into bleeding_edge
+[33m30596469[m correct requirements
+[33m02b4bad5[m Update README.md
+[33m3a48539f[m add 0005 - system_zones
+[33mcb7914f4[m add zone_type parser
+[33m9742e0bb[m tweaks
+[33m27ec224b[m Tweak QoS for sched
+[33mc1a8271c[m tweak logging
+[33mb99e03b0[m schedule working (single zone only)
+[33m9e7a7818[m remove crud
+[33m76e6117f[m de-lint
+[33m3bb4e66e[m working QoS
+[33m790e0f7e[m bugfix
+[33m6dd64b55[m minor tweak
+[33md7d5a908[m bugfix
+[33m1585d3aa[m bugfix, tweaks
+[33ma7bac251[m tweak parser asserts
+[33mc0b7eb0f[m minor tweaks
+[33m61abc2ed[m baseline
+[33mdadabc8a[m correct unbound vars
+[33ma2e0c7a4[m ser.readline() is not CPU-bound now
+[33m86277c6e[m add QoS for transmit
+[33mb53be693[m minor tweaks
+[33m31c1368e[m tweak TODO
+[33mb09cf3ff[m small tweak
+[33mf647fb2d[m add namespaces c
+[33me45659f8[m add namesapce b
+[33m6403c52a[m add namesapce a
+[33mace5b6ed[m add namespace 4
+[33m523da220[m add namespace 3
+[33me18dea4e[m add namespace 2
+[33m559c8ae0[m Add namespace 1
+[33mcfb723da[m undo regression
+[33me0ca54fe[m tweak timestamp code 2
+[33mec0af6af[m tweak timestamp code
+[33m92d15c48[m tweak gitignore
+[33mb618fb55[m add QOS constants
+[33ma4c2c715[m reduce logspam, etc.
+[33mbd23e543[m tweak get_device
+[33m887d4960[m delint
+[33mb88de02f[m bugfix ._domain = {}, not None
+[33m35613eb0[m address known assert failure
+[33m6f65f2b9[m revert regression 2
+[33m93f8e900[m revert regression
+[33m3771e39c[m Merge branch 'bleeding_edge' of github.com:zxdavb/evohome_rf into bleeding_edge
+[33m5201669a[m significant refactor
+[33m23b8fd4f[m tweaking logging, asserts
+[33m8137995a[m _pkt is now _msg
+[33m6d518739[m add a TODO for later
+[33m28a757b8[m _pkts is now _msgs
+[33mc800ff28[m cleanup init a little
+[33m0c945202[m tweak pkt_line_split for <
+[33mdde0a7f8[m tweak create_device() (incl. bugfix?)
+[33m12318bf8[m refactor logging, exceptions, etc.
+[33m3cb2162f[m matcher, schemas/params/status, aio attrs, methods
+[33mcac95d24[m bugfix, tweaks
+[33md5548eb8[m clean up parent zone, parent system/controller
+[33m4a031953[m add sleep to reduce CPU utilization
+[33mc0faebbb[m refactor for schema, JSON file
+[33md2f09e53[m tweaks
+[33meeea821a[m tweaks
+[33m5a165a30[m bugfix
+[33m31c496bf[m minor tweaks
+[33ma815f554[m parser fixes/tweaks
+[33mad9d0d7a[m add a test tool for parser
+[33m9619d5a4[m refactor fro schema - tweaks
+[33me1013f83[m refactor for config file
+[33me757748c[m refactor parent zone logic
+[33m5c6c2ad9[m add exceptions module
+[33m1b7c6390[m survive blank lines
+[33m47cb4b2f[m further tweaks
+[33mb5f4d6e6[m big tidy-up
+[33m34bb2292[m clean up refactor
+[33m6c7ec013[m cleanup refactor for multiple controller/systems
+[33m1d412cce[m Refactor: objects, not IDs, and tolerate mple CTLs
+[33md82b00ef[m refactor - remove domains
+[33m04a257ea[m minor bugfix
+[33m2f44bfdc[m tweak
+[33m3103d76c[m tweaks
+[33m1d969ecf[m more bugfixes
+[33mea2db2cc[m add workaround
+[33mafa89b24[m harden exception handling
+[33med3014b0[m many bugfixes and tweaks
+[33m32186a3c[m minor bugfix
+[33mf0816bf9[m improve const
+[33m72da06f3[m bugfix parser
+[33m64dfdd7a[m bugfix
+[33ma8f07324[m bugfix, and better reporting
+[33m03b2084e[m more hacks
+[33m9c5d24a4[m add TODO
+[33m23fa9df3[m bugfix
+[33me170c748[m minor tweak
+[33m71aedb6b[m hack fix
+[33mcf2313b8[m hacks to workaround
+[33m2609b0c3[m big re-write: multiple controllers per gateway
+[33mf64414eb[m minor tweaks
+[33mcd8487c4[m improve 0418
+[33m3fede555[m delint
+[33m0886f197[m add FAULT_TYPE 0x03
+[33mf9f10a35[m add _eq_, refactor elsewhere
+[33md94b0515[m tweaks
+[33m056bf986[m tweak address assert
+[33mcd768050[m tweak address assert
+[33m733e5a6f[m delint address assert
+[33m606289a0[m address HCW80
+[33mcc6d31ec[m minor tweaks
+[33m352764b8[m tweak
+[33mf4531d20[m heaps of changes!
+[33m586d381a[m refactor pause (duration) processing
+[33mf3f0f07c[m Added/tested zone methods
+[33m78fa260c[m add zone mode methods
+[33md1c10b1b[m add system mode methods
+[33m1b81571e[m allow Ws to bypass listen_only
+[33mf270ee34[m tidy up dev addr, and bugfix 22C9
+[33m59e55a14[m minor tweaks to parsers
+[33m865800ef[m various tweaks
+[33m38787e5e[m minor tweak
+[33m099c25af[m tweak
+[33m72fbfde4[m bugfix que & tweak logging
+[33m010e745a[m Major rewrite: named tuples, includelist, entities
+[33m680bd3a0[m minor tweaks
+[33m2820300e[m add retry attr
+[33m44891e95[m minor tweaks
+[33m660356cd[m minor tweak
+[33m722b6b48[m minor tweaks
+[33mdc53d061[m minor tweak
+[33me83c4782[m 1090 added, tweaks, refactor
+[33mde87d3a8[m fix typo
+[33mad865f01[m delint
+[33ma930b2b8[m delint
+[33m39f51d28[m delint/refactor
+[33m0f7de96a[m delint
+[33ma74f27d0[m minor tweak
+[33m6caf6c1b[m refactor packet reader
+[33m9ede533b[m 0006/0404 tweaks
+[33mef91c74c[m minor tweaks
+[33mdcf6ff0c[m add 2249; tweak 3B00; use msg.len, tweak _temp
+[33m7f6e6ef2[m refactor packet generators part 1
+[33mb7453268[m remove database option for now
+[33m1c9a3537[m refactor config.get, schedule_task, wrap put_pkt()
+[33m0f968342[m add pririty, pause, tweak req_fragment
+[33m0b32ea37[m delint config.get()
+[33me2d39a1b[m add pause, priority
+[33m1775cc00[m tweak comments
+[33m5fcf6b71[m delint
+[33ma7e5d8f7[m tweak
+[33ma91ae5cc[m refactor schedule gatherer
+[33mfa50618d[m 0016 tweak assert
+[33m63c754d0[m bugfix
+[33m401f9b3f[m refactor _idx()
+[33md8398b0d[m add msg.is_fragment
+[33mb33aed76[m tweak comment
+[33m99ab949d[m tweak timer
+[33md5c90b75[m docstring tweak
+[33mb134259a[m various tweaks
+[33m117a42ca[m bugfix, tweak schedule builder
+[33mea236ee8[m bugfix/tweak schedule
+[33mc524556d[m scheduler bugfix, and reduce logging
+[33med6e3e0a[m reduce excess logging
+[33mcb8aedd6[m refactor schedules, speedup parsing
+[33ma1673c47[m safer sleeps after packet write
+[33m25e5dbda[m tweak str dunder
+[33md4a8db21[m add prints hints back in
+[33m3d2938ae[m Add schedule class
+[33m86c268ad[m minor tweaks
+[33md8619725[m minor tweak
+[33m25dcd139[m change algorithm for schedules
+[33m610c35f9[m fix priorities
+[33m4a2433a4[m improve logging
+[33m95f49b79[m fix PriorityQueue 2
+[33mb701d19a[m fix PriorityQueue
+[33md9b2f80d[m useless tweak
+[33mcf0f05c8[m Tidy up CLI, init dunder + GracefulExit
+[33mdea5223b[m minor tweaks
+[33ma0a84c9e[m refactor signal handler
+[33m06643f94[m tweak logging
+[33mef9c3ab0[m tweak _idx()
+[33m1e3b8510[m tweak _idx()
+[33mca30e31b[m tweak _idx()
+[33m27c297fc[m refactor _idx()
+[33me56488b0[m refactor parser code
+[33m7237e1f3[m refactor parser code
+[33mdb6470ac[m add comments
+[33md7e62f03[m tweak packet validator - remove domain ID check
+[33m4b11f099[m delint
+[33mfca19b98[m small tweak
+[33mcbf2b2a4[m Update __init__.py
+[33maa1824d0[m Hopeful hack, likely temporary
+[33m1cf2140a[m Add hack fro Windows to catch SIGINT
+[33ma7401360[m tweak 3EF1 and others
+[33m4b9d744f[m 22F3 add new parser
+[33md5c257eb[m 31D9/31DA decoding
+[33m6f73a9db[m pause is the new stall
+[33m95d362b4[m add stall args, workaround crazy bugs
+[33mf84b08c9[m tweaks
+[33md9fe435d[m text tweaks
+[33m713b6f60[m improve the way stalls are discovered
+[33mdf372bd8[m tweaks
+[33mde23d4bf[m add stall summary
+[33mc271a2d3[m very minor tweaks
+[33m8ace998c[m final tweaks
+[33ma9bf1b07[m tidy up
+[33mf4ec9323[m tidy up
+[33mab56ff62[m small tweaks
+[33m66a55b99[m small tweaks
+[33m86f6ed84[m refactor completed
+[33mddf2edb5[m add pkt_match()
+[33mc25ce882[m add summary, warning
+[33maff1edc6[m new algorithm
+[33m7301cb8c[m handle outliers
+[33maf5ac656[m start of complicated tweaks to reduce outliers)
+[33m7d653b82[m fix display bug
+[33mc7a93138[m add warning
+[33m68522d76[m fix comments, text
+[33m4854af34[m bugfix of counters
+[33mf847b0c2[m tweak argparse
+[33mfe26007e[m more delinting
+[33m39e0e517[m de-lint
+[33mff5d2551[m blackened
+[33md4d1e4c6[m add namedtuple
+[33mc229bd57[m add summary data
+[33mffe2e188[m remove mem leak code, add state_data.__str__
+[33m2c116639[m tweak
+[33m3df31f74[m Add summary message (avg timedelta)
+[33m74e25102[m tidy up new logging
+[33mf60412ba[m reduce schedule test pkts
+[33m7eed4e04[m Various minor tweaks
+[33mcaac1818[m add reslilience, logging to packet processor
+[33m1e294b86[m small fix to default filter, delint
+[33m4bfbe472[m Add UFH zone, Tweak actuators, 3150 typing, scheds
+[33me2c4b2cf[m relax foreigner detection
+[33m4e252f15[m Tweak DEVICE table
+[33mae7b7bf7[m small tweak
+[33mf4288625[m improve ser2net
+[33mcc597e28[m harden RF get_pkt
+[33m3330b039[m state_db: refactor sync_cycle arrary
+[33med1ede80[m add pkt retry/timeout, bugfix 0404
+[33m00544c48[m minor delint
+[33mea5948a9[m bugfix
+[33m07799fc8[m Add zone.schedule processor
+[33m3ca46135[m 0404 Add parser fro RQ/RP
+[33m09358c01[m tweak zones.sensor
+[33m85773806[m tweak battery
+[33mc2358049[m 313F tweaks
+[33m59fec465[m bugfix
+[33maab1e88a[m bugfix
+[33m6e56b5dd[m tweak stuff
+[33m2cd25e72[m 1100 tweak parser
+[33m19d4acd7[m Minor tweak
+[33m08eb6c2a[m refactor, flesh out device table
+[33mff99cb8b[m Improve --raw-output
+[33mdd799a33[m 0016 - tweak _idx()
+[33m643bfa20[m tweak
+[33m76f2e2df[m tweak arguments, harden shutdown
+[33m8dbeb02a[m refactor CLI arguments
+[33me7a53789[m minor delint
+[33m18725455[m zone.sensors - improve rigour
+[33mc371924f[m bugfix / tidyup
+[33m748de935[m bugfix _idx() for UFH/3150
+[33m79843714[m minor comment change
+[33mee5cef5b[m Prepare of selective discovery
+[33m979798c6[m Sort system DB output
+[33m7c51cd24[m zones.sensors - remove debug msgs
+[33m6dcea560[m zones.sensor - less false +ve
+[33m3ab1b1fd[m zone.sensor - ready ffor detecting CTL as sensor
+[33m96d3b840[m Refactor zone.sensor, prevent duplicate CTLs
+[33mde2ac965[m bugfix zone validation code
+[33m5f566a36[m zone.sensor - remove excess logging
+[33m408c4fd4[m zone.sensor: remove bad check
+[33m267cdde4[m zone.sensor heuristics MVP
+[33m5f8a3b38[m 31D9 tweaks bugfix
+[33m14fccfd4[m 31D9 tweaks
+[33m33bf039d[m tweak _idx()
+[33mac06fa68[m tidy up _idx()
+[33mef5d76c9[m add sensor hueristic, refactor entity attrs, tidy up _idx()
+[33m459362a9[m Add xonxoff back in
+[33mc4c1c6b6[m Harden sighup processor
+[33m0f9cfe78[m add Electric Valve / Zone Valve passive detection
+[33mf8234226[m return logging to normal
+[33mbde81a1d[m add more debugging fo serial port comms
+[33md32fb578[m refactor command class
+[33meb7fda9f[m add back debug logging
+[33m66abd9b2[m ser2net: handle closed network socket
+[33m43ff1388[m fix actuator_enabled, UFH/3150, ufh_idx
+[33m416ec20a[m tweak parser, add assert for arrays
+[33m83857edd[m tweak 000C/1FC9 parsers
+[33m404ea11a[m UFH: add 3150 array, bugfix 22C9/ufh_idx
+[33m204f5392[m remove duplicate code
+[33md5de2d64[m bugfix update_entities fro zones/0418
+[33md460048a[m rationalise entity_update, bugfix, tweak
+[33mdf5ebf77[m bugfix known devices
+[33mf2bf321a[m tweak schema
+[33mea441b47[m tidyup, and bugfix
+[33m4741967e[m bugfix, small tweaks
+[33m116af2ff[m many tweaks
+[33m966e95e5[m use PriorityQueue, add fault_log, fix typo
+[33mba31c748[m minor tweaks
+[33m9aa5b0e4[m clean up index, RQ, etc.
+[33mf2fad731[m refactor identifiers, tidyup acuators, etc.
+[33m205f64c9[m parser tweaks 2
+[33m5c7bec4c[m parser tweaks
+[33m70afbe05[m rationalise 000A, 2309, 30C9 parsers 2
+[33m61d18840[m rationalise 000A, 2309, 30C9 parsers
+[33me5a373c9[m add message.is_array property
+[33m387f3529[m tweak discovery and zone_xxx
+[33md799c4ca[m various tweaks to entity state
+[33m7b08e3f5[m BDR.is_tpi was sync_tpi
+[33m96a070ed[m remove infinite loop
+[33mb19f6607[m largish tidy-up
+[33ma7460c88[m heaps of minor tweaks
+[33mf4c9c8a3[m flesh out entity attrs
+[33m584e3c33[m bugfix, tweak parser
+[33m7d13f173[m flesh out state data
+[33m429b9708[m tweak code
+[33ma48cc48e[m bugfix friendly names
+[33mbdc057cc[m improved parent_zone parser
+[33ma6084ac5[m revert system._devices to production version
+[33m4580bf41[m Stop using constant for  CTL_DEV_ID
+[33md55d76ca[m improve discovery
+[33m560f19a2[m Bugfix parser RQ/1100
+[33m16986b0d[m major discovery improvements
+[33m7dbb5d62[m bugfix dev_mode checks
+[33md7e2f495[m tidy up lookup tables
+[33m0de7adfa[m tweak: move _discover()
+[33ma134dbab[m tweak command code
+[33mb2e03247[m use DEVICE_TYPES now
+[33m9f2fec25[m tweak comments
+[33m5a94e845[m tidy up
+[33m1f7a234c[m add logging to entity creation
+[33mf9fde622[m bugfix payload length int
+[33m717d77ca[m cleanup
+[33m80a70dcf[m improve 000a, 2309, 30c9
+[33m4cfde946[m add state for num_zones, single array problem
+[33mcd3a3a4a[m add evofw3 flag, bugfix -x option
+[33m69428c47[m latest checks
+[33m6e33daa8[m remove unneeded GC
+[33mad6446ee[m tweak tests
+[33m57fa9529[m bugfix
+[33m03a1b9bb[m tidy up known_devices update
+[33m1b76050f[m add self._tasks to file
+[33m1dd8dee8[m add self._tasks
+[33m9d22e741[m tweak client
+[33mef46a02e[m small tweaks
+[33m22b118d3[m typo tweak
+[33m70926ef9[m tweak
+[33m63c76725[m add devmode to system state
+[33me294bc8b[m cleanup const.py
+[33m683c1fda[m add create_entities back in
+[33m625decc8[m bugfix: created database even when not asked to
+[33m50eb1589[m updated reqirements
+[33m0ca7230d[m add dev mode
+[33m221d844d[m switch base packet from str to namespace
+[33mde6f7505[m convert packet to bytearray before write
+[33m9992cef8[m tidy up tasks fiasco
+[33m2c56532f[m use pkt instead of packet
+[33mbc1917a2[m move database to monitor
+[33m67418197[m split evohome out from gateway
+[33mc523c4fe[m tweaks, add timeout skeleton
+[33m9cdcb9b6[m polished ser2net.py, added sleep()s where needed
+[33m261a1cfa[m ser2net working now
+[33m84e92acd[m refactor ser2net
+[33md7116eb5[m first working version of ser2net
+[33mc449dd62[m clean up parser_3150
+[33mc630cd84[m refactor update_state()
+[33ma0f3c151[m small tweaks
+[33mabe801e7[m improve timestamp, packet validation
+[33mcf4c6ba9[m fix/improve logging, click, parent_zone_idx
+[33m94a59e22[m Tweak command class 1
+[33m6c06192e[m small tweak to message
+[33m5d6aec85[m test new parent_zone_code
+[33m0b6e0709[m tweak serial port processor
+[33mf325456f[m switch to click from argparse 2
+[33mf34ba3d7[m switch to click from argparse
+[33me52c9b5f[m add msg.from, msg.dest 3
+[33m9bc5b32d[m add msg.from, msg.dest 2
+[33mffb3f634[m add msg.from, msg.dest
+[33mf172eb09[m state DB for devices is working
+[33mf144729c[m remove discovery code
+[33m7435129e[m add device state data
+[33mc0579a8a[m blacken client.py
+[33m09fe6563[m tweak meta-parsers
+[33m49bfd550[m add update entity code for opentherm
+[33me446b14d[m Add parent_zone, domain_id
+[33mbb9dd1d3[m add vent domain
+[33m58e79990[m Add dev packages for mem leak
+[33m8f893bf0[m Wrap update_entities with try
+[33mba55ed6e[m Refactor create_entities
+[33m99e96abc[m Improved debug logging
+[33mda9a97ca[m fix bug
+[33m60e3276f[m Correct _is_valid flag
+[33m3a8e4554[m remove default parser, switch to < 12
+[33mb56f2680[m add create/update entities
+[33m8f39ed52[m Add command lookup table
+[33m000ecc0e[m initial tweaks
+[33m821eaa2a[m add guppy3 heap code
+[33mb3f1ccb5[m minor tweak
+[33ma4f95d02[m add parser 31d9 (ventilation)
+[33m71d2ed38[m rollback hex_id
+[33ma281a6cb[m add hex_id to known_devices JSON file 2
+[33m7f28ab81[m add hex_id to known_devices JSON file
+[33m353bd769[m change switch name to probe_system
+[33m6cf19353[m change switch name
+[33md28a4d4d[m * (error) should be # (comment)
+[33m9c4e0922[m add write warning
+[33m01b64a2a[m improve signal handler: graceful shutdown, SIGUSR1, SIGUSR2
+[33m6bbd6aea[m tweaks
+[33me689db9a[m tweak client.py
+[33m4d189b4e[m fix debug code typo
+[33mbe5c2801[m add serial exception logging
+[33m60f068d0[m add RR, add debug code for mem_leak
+[33m383356a5[m bugfix excessive CPU utilization - tweak
+[33m11e4b21e[m bugfix excessive CPU utilization
+[33m9b86d5a2[m improve logging in __init__() 3
+[33m1ccac828[m improve logging in __init__() 2
+[33ma6897b34[m improve logging in __init__()
+[33ma89780f8[m remove magic
+[33m47873faf[m small tweaks
+[33mb8767259[m add magic 1
+[33m2be89df4[m Add payload parswer magic 1
+[33m628c5654[m big potential bug in logger (for default logging)
+[33m9793199c[m initial tidyup 5
+[33m32e24366[m initial tidyup 4
+[33m7274fd5b[m initial tidyup 3
+[33meda4d534[m initial tidyup 2
+[33mb93d97a0[m initial tidyup
+[33m0080d71e[m tweak --help 3
+[33m09e5ae3d[m tweak --help 2
+[33m7b623d12[m tweak --help
+[33med7bfd0f[m correct listen_only not working
+[33mc3df4e36[m cope with absent colorlog module 2
+[33m5e369139[m cope with absent colorlog module
+[33m19bede77[m remove debug code 4
+[33maf59dab0[m remove debug code 3
+[33m2c51e934[m remove debug code 2
+[33m9fbecb68[m remove debug code
+[33mcd3bf8bd[m logging tidyup fro messages
+[33meb25b1ae[m logging tidyup 3: -r works 2
+[33m50676014[m logging tidyup 3: -r works
+[33m6381c5f5[m logging tidyup 2
+[33m22adf1b5[m logging tidyup
+[33mbe9c7e95[m tweak logging
+[33mec81855d[m minor rewrite of _process_packet
+[33m16b9d65b[m packet is now a Class 2
+[33m075d8c77[m packet is now a Class
+[33m9d4328ee[m small tweak
+[33m7f811b30[m refactor logger.py
+[33mc6172a45[m refactor __init__.py
+[33ma2b78abc[m refactor packet.py
+[33m95495d2b[m refactor client, diff tools
+[33m04417be0[m refactor WindowsSelectorEventLoopPolicy hack 3
+[33mcba6d738[m refactor WindowsSelectorEventLoopPolicy hack 2
+[33m5754a3e4[m refactor WindowsSelectorEventLoopPolicy hack
+[33m7e106fce[m Merge branch 'refactor' of github.com:zxdavb/evohome_rf into refactor
+[33m8f0edd09[m Merge branch 'refactor' of https://github.com/zxdavb/evohome_rf into refactor
+[33m7e437929[m Windows hack for Bruce
+[33m7b8876c1[m tweak dev requirements
+[33m154b1ba5[m tweak .gitignore file
+[33m577be2e1[m add requirements files
+[33m5161463c[m bugfix: database exceptions
+[33mf1022ecc[m 0100/12B0: add back some unknown fields
+[33m964cba81[m 10E0: correct names for dt fields
+[33m771507c3[m small improvement to ASSERT for 313F (datetime)
+[33mc9bbf495[m 313F (datetime) now DST-aware
+[33m44f3143b[m fix typo in --help
+[33mcb22cb78[m fix very minor lint
+[33m5833ac09[m fix very minor typo
+[33mee8f5cda[m add bitmask to _date
+[33m30a28dba[m Merge branch 'refactor' of github.com:zxdavb/evohome_rf into refactor
+[33m5dbacc10[m remove hound.yml
+[33m24a96561[m small changes
+[33m684ba3b3[m fix dirmware dt decoder for 10E0
+[33mf0947e8c[m Merge pull request #8 from zxdavb/bleeding_edge
+[33m25482f08[m last tweaks
+[33mdadb65a5[m last tweaks
+[33m9cbb17c5[m last tweaks
+[33me31f2efe[m last tweaks
+[33m3df55629[m Merge pull request #7 from zxdavb/bleeding_edge
+[33m0670210d[m last tweaks
+[33m320bee7f[m filter is working now
+[33m521be5ff[m half way there
+[33m8f98c30f[m small tweaks
+[33m5867d401[m Merge pull request #6 from zxdavb/bleeding_edge
+[33mc0eba3dd[m add diff utility
+[33m506af91f[m pkt now a dict instead of a tuple
+[33me8b35041[m Merge pull request #5 from zxdavb/bleeding_edge
+[33m05ad394d[m bug fixes
+[33m8279b8fa[m Merge pull request #3 from zxdavb/bleeding_edge
+[33meb91e85b[m Merge branch 'refactor' into bleeding_edge
+[33m5a471481[m very raw logging
+[33m0473e2b7[m tidyup
+[33m4385e027[m much async work
+[33m40c1d2ed[m much async work
+[33mab58a083[m add back SIGHUP, only fro posix
+[33me6219113[m Windows doesnt like SIGHUP
+[33m114812b7[m include invalid packets in packet log
+[33m39309767[m workaround to trap TypeError
+[33m99de8526[m cleanup
+[33mfa14a139[m tweak 3150
+[33me0f72577[m small tweaks
+[33m36989837[m cleanup
+[33m38495026[m refactor for with
+[33md09d99c1[m tidy up
+[33md7245095[m de-lint 3
+[33m8a015e4e[m de-lint 2
+[33mc73859d0[m de-lint
+[33md4f3f46a[m tidy up
+[33md02dd938[m clean up
+[33ma5f883a0[m small tweaks
+[33ma4220b7b[m various bug fixes, tweaks, etc.
+[33m21ee348f[m tweak arparse
+[33mc24b8489[m add whitelist
+[33mbb60ee68[m tweaks
+[33m7701fdef[m tweaks
+[33m75dde1b0[m Opentherm tweaks
+[33m685dea4c[m remove regressions, remove device_type 2
+[33m5c17e7bd[m remove regressions, remove device_type
+[33ma1ea42e6[m bugfix: writer is None
+[33m0ec1d2a2[m fix odd bug
+[33ma0825db6[m small tidyup
+[33m56402cf9[m fix friendly name lookup
+[33mcaebd856[m fix message formatting
+[33m65568d08[m small tweak 2
+[33m63865499[m small tweak
+[33m721178e7[m removed old code
+[33m6f9b5115[m logging refactor
+[33m9a9799bc[m refactor logging
+[33mbc40418d[m remove discover
+[33mfe88a2aa[m latest changes
+[33m82e27333[m Merge pull request #2 from zxdavb/refactor
+[33me2b38255[m Merge branch 'refactor' of https://github.com/zxdavb/evohome_rf into refactor
+[33mc3796035[m add .get()s
+[33mca3286a6[m tweaks
+[33m406cec64[m tweaks
+[33mf0b65443[m tweaks
+[33m3a0dfa21[m tweaks
+[33mbb150da5[m tweaks
+[33m0fc53b1b[m tweaks
+[33m0fd8ccc9[m tweaks
+[33m5d94d08c[m add hp time for win 2
+[33mcdd4cae5[m add hp time for win
+[33m1000d2ad[m small changes
+[33mc912990d[m small changes
+[33m7ba5349b[m small changes
+[33me052dd42[m small changes
+[33m2d488930[m small changes
+[33ma2a44e79[m refactored parser (no zones)
+[33m9654c3eb[m reactor (no parser)
+[33mf6e7bbfe[m 0.0.8 - mostly client tweaks
+[33m29f99c40[m[33m ([m[1;33mtag: 0.0.7[m[33m)[m 0.0.7 - configure packet log
+[33mbf362543[m[33m ([m[1;33mtag: 0.0.6[m[33m)[m 0.0.6 - assign serial port correctly
+[33m90323e17[m latest changes
+[33m854ea449[m Merge branch 'master' of github.com:zxdavb/evohome
+[33m86695cb5[m add fault reader
+[33mc4036dc5[m latest changes
+[33md963c8e8[m latest changes
+[33m56787851[m Merge pull request #1 from gitter-badger/gitter-badge
+[33m673866f4[m Add Gitter badge
+[33m9291ffca[m[33m ([m[1;33mtag: 0.0.5[m[33m)[m 0.0.5 - restore zones, solves gaps
+[33m66b4cfd5[m Update README.md
+[33mc5ba0459[m Update README.md
+[33mba8882a2[m Update README.md
+[33m8db1ad35[m Update README.md
+[33m3bb4960b[m Update README.md
+[33m2f519836[m Update README.md
+[33m1db67ae7[m[33m ([m[1;33mtag: 0.0.4[m[33m)[m 0.0.4 - first bundled version with HA custom_component
+[33mf253669d[m last tweak
+[33mfff291d3[m latest changes
+[33mff8690fc[m latest changes
+[33m8e74539c[m latest fixes 2
+[33m2e2e8f5a[m latest fixes
+[33m43a6916e[m[33m ([m[1;33mtag: 0.0.3[m[33m)[m 0.0.3 - added list for devices, domains, zones
+[33m6de880bd[m[33m ([m[1;33mtag: 0.0.2[m[33m)[m add async
+[33m924d46a6[m[33m ([m[1;33mtag: 0.0.1[m[33m)[m 0.0.1 - initial version
+[33m2c33be76[m initial commit
+[33m0446ca40[m Initial commit
