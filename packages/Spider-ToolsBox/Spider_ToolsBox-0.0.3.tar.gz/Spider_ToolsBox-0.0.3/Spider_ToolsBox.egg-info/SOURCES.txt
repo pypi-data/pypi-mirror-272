@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+Spider_ToolsBox.egg-info/PKG-INFO
+Spider_ToolsBox.egg-info/SOURCES.txt
+Spider_ToolsBox.egg-info/dependency_links.txt
+Spider_ToolsBox.egg-info/requires.txt
+Spider_ToolsBox.egg-info/top_level.txt
+spidertools/__init__.py
+spidertools/spider_tools.py
