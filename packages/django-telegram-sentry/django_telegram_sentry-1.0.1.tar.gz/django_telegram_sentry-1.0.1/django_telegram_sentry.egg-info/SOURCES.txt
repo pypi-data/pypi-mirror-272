@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+example.png
+pyproject.toml
+setup.cfg
+setup.py
+django_telegram_sentry/__init__.py
+django_telegram_sentry/apps.py
+django_telegram_sentry/handler.py
+django_telegram_sentry/tests.py
+django_telegram_sentry.egg-info/PKG-INFO
+django_telegram_sentry.egg-info/SOURCES.txt
+django_telegram_sentry.egg-info/dependency_links.txt
+django_telegram_sentry.egg-info/requires.txt
+django_telegram_sentry.egg-info/top_level.txt
