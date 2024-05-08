@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "typer", "httpx"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ETH_GTD_cli"
+version = "0.0.1"
+authors = [
+  { name="Johann Schwabe", email="jschwab@ethz.ch" },
+]
+description = "A CLI for the ETH project"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/leggedrobotics/GrandTourDatasets"
+Issues = "https://github.com/leggedrobotics/GrandTourDatasets/issues"
