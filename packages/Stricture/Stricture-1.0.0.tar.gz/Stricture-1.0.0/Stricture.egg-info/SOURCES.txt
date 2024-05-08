@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+Stricture.egg-info/PKG-INFO
+Stricture.egg-info/SOURCES.txt
+Stricture.egg-info/dependency_links.txt
+Stricture.egg-info/entry_points.txt
+Stricture.egg-info/requires.txt
+Stricture.egg-info/top_level.txt
+stricture/__init__.py
+stricture/cli.py
+stricture/commandstricture.py
+stricture/exceptions.py
+stricture/processstricture.py
+stricture/schedule.py
+stricture/sfm.py
+stricture/stricture.py
