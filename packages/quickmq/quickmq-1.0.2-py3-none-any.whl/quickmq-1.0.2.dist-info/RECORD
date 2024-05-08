@@ -1,0 +1,10 @@
+ssec_amqp/__about__.py,sha256=vlXWelqnmYGDIUJdkI9UoPlt3o_MlYI2nYalHKHrJZk,82
+ssec_amqp/__init__.py,sha256=1IAIEVb7sSJXakNuRj1q27-5wjAbFQJGIF2n0IJ2aZw,11562
+ssec_amqp/_defs.py,sha256=4gp9nsCUsPXLWkOpdm2esJoi7NSBKL8yEM01ANz6hdM,1300
+ssec_amqp/_utils.py,sha256=HDwC76Kx876cwZuUuw8gQFAVeRlJ4UsV5thd2wzaYKU,1428
+ssec_amqp/api.py,sha256=uhzHYoDh-wEdYEm-pDYvqyFF-TPzzjCaOqIWKnT8g6k,2596
+ssec_amqp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickmq-1.0.2.dist-info/METADATA,sha256=JRpZ2PBiWHExpR9LTvDuEaqfwwLqP6HjGP4f2JaKLMg,4314
+quickmq-1.0.2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+quickmq-1.0.2.dist-info/licenses/LICENSE,sha256=6dIdaJzG8ynMQpaLYg2IQhq_bkt9ilzVQ4xk2pvCuGE,1072
+quickmq-1.0.2.dist-info/RECORD,,
