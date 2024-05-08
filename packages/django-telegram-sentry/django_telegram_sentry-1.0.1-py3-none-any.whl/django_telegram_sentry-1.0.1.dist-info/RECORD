@@ -1,0 +1,9 @@
+django_telegram_sentry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_telegram_sentry/apps.py,sha256=C6QG-d2ZHFjg2QkhM4Dh9B5b9TE89hOZ0qNyOpjC7ss,203
+django_telegram_sentry/handler.py,sha256=6GVKmuHGUSWBmcA7tgjZMOXsh8dIevtlfSqnmlSnTH0,4260
+django_telegram_sentry/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_telegram_sentry-1.0.1.dist-info/LICENSE,sha256=KId7aobQHHZG6TVl5dv5GVPsEssIQJu8pH6EPttmAN4,1064
+django_telegram_sentry-1.0.1.dist-info/METADATA,sha256=oRcmPn6Dz3PvVWVYDb1ntE9p-kYqgaeLjlvjbJEnGy4,2881
+django_telegram_sentry-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_telegram_sentry-1.0.1.dist-info/top_level.txt,sha256=AtKBaL008RAhpU4qGmxoWu2gB6LXpen3LsMkFfQLMaI,23
+django_telegram_sentry-1.0.1.dist-info/RECORD,,
