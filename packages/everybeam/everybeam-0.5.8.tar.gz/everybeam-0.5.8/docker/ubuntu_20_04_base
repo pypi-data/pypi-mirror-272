@@ -1,0 +1,57 @@
+# Copyright (C) 2020 ASTRON (Netherlands Institute for Radio Astronomy)
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+FROM ubuntu:20.04
+RUN export DEBIAN_FRONTEND="noninteractive" && \
+	apt-get update && \
+	apt-get upgrade -y && \
+    apt-get -y install \
+		aoflagger-dev \
+		casacore-dev \
+		doxygen \
+		g++ \
+		git \
+		graphviz \
+		libblas-dev \
+		libboost-all-dev \
+		libcfitsio-dev \
+		libfftw3-dev \
+		libgtkmm-3.0-dev \
+		libhdf5-dev \
+		liblapack-dev \
+		libpng-dev \
+		libpython3-dev \
+		libxml2-dev \
+		make \
+		ninja-build \
+		python3-casacore \
+		python3-pip \
+		wcslib-dev \
+		wget \
+	&& \
+	rm -rf /var/lib/apt/lists/*
+# pytest-lazy-fixture does not work with pytest-8.x -> Use pytest-7.x for now.
+# TODO(AST-1501): Investigate removing pytest-lazy-fixture.
+RUN pip3 install \
+		aptly-api-client \
+		astropy \
+		breathe \
+		cmake \
+		gcovr \
+		h5py \
+		lofarantpos \
+		matplotlib \
+		myst-parser \
+		numpy==1.19.0 \
+		pandas \
+		pytest~=7.0 \
+		pytest-lazy-fixture \
+		scipy \
+		sphinx \
+		sphinx_rtd_theme \
+		tqdm \
+	;
+# Putting the 2.5 GB LOBES coefficients in the docker image avoids downloading
+# them in the jobs that use this image.
+RUN mkdir -p /coeffs/lobes && \
+  wget -P /coeffs/lobes -r -nH -nd --no-parent -A 'LOBES_*.h5' https://support.astron.nl/software/lobes/
