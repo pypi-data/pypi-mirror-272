@@ -1,0 +1,11 @@
+cvdataloading/__init__.py,sha256=u8iSOlShktYeP4cttVzE9q2P2x1yd5r3_m79tY8NpwA,152
+cvdataloading/_utils.py,sha256=wb8FZ60RH4QYPhZe8tW_uAX2uWNLKIC1cFTwZWrT9cA,6711
+cvdataloading/cvdata.py,sha256=qU93qcIyh2IdwsaDIRuPUA-1YQ8DhVT6bsdZCsepNEE,60585
+cvdataloading/data_items.py,sha256=TJeH1RfDgJ-dUTiuzSiBwxFYyVDC6rhFaUtGhYW3l5g,25684
+cvdataloading/processing.py,sha256=Yr7V2QXClqPme1GI8QIPNfumqHwOm1Ce3Regb5odkVI,26277
+cvdataloading/transforms.py,sha256=dFefdEtuJunF4XfLfTrmAKHU7HABEmv0YVw2ClmjG2A,7598
+cvdataloading-0.1.0a1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cvdataloading-0.1.0a1.dist-info/METADATA,sha256=Pq2Gy-UsXNB77oIvBDIaLaS7U5vKOvVAlyEK_U9VXWs,1561
+cvdataloading-0.1.0a1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cvdataloading-0.1.0a1.dist-info/top_level.txt,sha256=Bphow9zhZRfkwW_MUIv3eBFqWI9rcjoZzOIAllxuQcY,14
+cvdataloading-0.1.0a1.dist-info/RECORD,,
