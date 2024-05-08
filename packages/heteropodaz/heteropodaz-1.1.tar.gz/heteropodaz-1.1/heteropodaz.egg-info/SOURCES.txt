@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+heteropodaz/__init__.py
+heteropodaz/main.py
+heteropodaz.egg-info/PKG-INFO
+heteropodaz.egg-info/SOURCES.txt
+heteropodaz.egg-info/dependency_links.txt
+heteropodaz.egg-info/requires.txt
+heteropodaz.egg-info/top_level.txt
