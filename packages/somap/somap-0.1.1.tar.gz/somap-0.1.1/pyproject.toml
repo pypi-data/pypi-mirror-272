@@ -1,0 +1,77 @@
+[project]
+name = "somap"
+version = "0.1.1"
+description = "Self-Organizing Maps in python"
+authors = [
+    { name = "Matthieu Thiboust", email = "14574229+mthiboust@users.noreply.github.com" },
+]
+dependencies = [
+    "jax>=0.4.20",
+    "equinox>=0.11.1",
+    "jaxtyping>=0.2.23",
+    "beartype>=0.16.4",
+    "datasets>=2.14.6",
+    "matplotlib>=3.8.0",
+    "altair>=5.1.2",
+    "vl-convert-python>=1.0.0",
+    "colormap2d>=0.1.3",
+    "array2image>=0.1.0",
+]
+requires-python = ">=3.10,<3.12"
+readme = "README.md"
+
+[project.license]
+text = "Apache 2.0"
+
+[project.urls]
+repository = "https://github.com/mthiboust/somap"
+documentation = "https://mthiboust.github.io/somap/"
+
+[project.optional-dependencies]
+notebook = [
+    "ipykernel>=6.26.0",
+    "ipywidgets>=8.1.1",
+    "python-dotenv>=1.0.0",
+]
+dev = [
+    "pytest>=7.4.3",
+    "ruff>=0.1.5",
+]
+docs = [
+    "mkdocs-material>=9.4.11",
+    "mknotebooks>=0.8.0",
+    "mkdocstrings[crystal,python]>=0.24.0",
+    "pytkdocs-tweaks>=0.0.7",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.ruff]
+line-length = 88
+select = [
+    "D",
+    "E",
+    "F",
+    "I001",
+]
+ignore = [
+    "D206",
+    "F722",
+]
+ignore-init-module-imports = true
+fixable = [
+    "I001",
+    "F401",
+]
+
+[tool.ruff.isort]
+combine-as-imports = true
+lines-after-imports = 2
+order-by-type = false
+
+[tool.ruff.pydocstyle]
+convention = "google"
