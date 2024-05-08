@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+paucilocularz/__init__.py
+paucilocularz/main.py
+paucilocularz.egg-info/PKG-INFO
+paucilocularz.egg-info/SOURCES.txt
+paucilocularz.egg-info/dependency_links.txt
+paucilocularz.egg-info/requires.txt
+paucilocularz.egg-info/top_level.txt
