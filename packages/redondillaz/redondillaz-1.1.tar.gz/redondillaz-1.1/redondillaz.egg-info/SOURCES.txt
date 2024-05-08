@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+redondillaz/__init__.py
+redondillaz/main.py
+redondillaz.egg-info/PKG-INFO
+redondillaz.egg-info/SOURCES.txt
+redondillaz.egg-info/dependency_links.txt
+redondillaz.egg-info/requires.txt
+redondillaz.egg-info/top_level.txt
