@@ -1,0 +1,9 @@
+sinaraml_jupyter/__init__.py,sha256=Cs4UCjVxBYco-OBjzYjJhl5NUPEvf6vmX_fKwQ8biaQ,32
+sinaraml_jupyter/_version.py,sha256=yFy9zXmnFTU7za8ewUOS3W35OPmPecw70WkBdTOFIaE,417
+sinaraml_jupyter/org_manager.py,sha256=0YDaG_A_6VAG-r8s2b3wvP66DNN27eT9nAzPpDeWWC4,7629
+sinaraml_jupyter/sinaraml_jupyter.py,sha256=2ldg8UjeKGu4lqXnwdIh8Y0EsWVmGiwvGEWYlKMEmCg,4039
+sinaraml_jupyter-2024.5.7.dist-info/METADATA,sha256=arxWqJLUhaWsCM9s6-vcpBpypEv7ThupEVspo65ONU0,5976
+sinaraml_jupyter-2024.5.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+sinaraml_jupyter-2024.5.7.dist-info/entry_points.txt,sha256=VJtFGWLP8WWvwln5wsTzyDZuKkEv2OPpmb_FF_PdyzQ,66
+sinaraml_jupyter-2024.5.7.dist-info/licenses/LICENSE,sha256=AQ3hx4JLH6dWZhT0Ndj8hZa72gUfBuNAYxm_GSESCd8,1065
+sinaraml_jupyter-2024.5.7.dist-info/RECORD,,
