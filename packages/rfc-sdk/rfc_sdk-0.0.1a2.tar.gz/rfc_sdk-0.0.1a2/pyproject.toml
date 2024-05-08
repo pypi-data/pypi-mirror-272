@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rfc-sdk"
+version = "0.0.1-alpha.2"
+description = ""
+authors = ["randomforest <admin@randomforest.cloud>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests-toolbelt = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
