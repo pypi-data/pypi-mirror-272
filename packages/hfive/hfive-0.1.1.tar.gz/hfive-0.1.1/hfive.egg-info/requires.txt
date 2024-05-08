@@ -1,0 +1,3 @@
+urwid
+h5py
+numpy
