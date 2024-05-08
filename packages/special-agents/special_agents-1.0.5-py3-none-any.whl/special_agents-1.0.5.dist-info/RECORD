@@ -1,0 +1,13 @@
+special_agents/Agent.py,sha256=nto64Vy4XzAWN74pMnPcwdk9bsqgloFYsOTmn48exPo,1598
+special_agents/__init__.py,sha256=PNkXdTZ4PVUOzOKJbkBFjoBJSYxlsdexq9RF_czGTgw,88
+special_agents/config.py,sha256=1Wgp3mvKcVsYP_d_w2WKk52dNYrIjIU-s8NxtDtpyVM,310
+special_agents/utils.py,sha256=X-Q2Eo1AB8AFWpRZKzEbS9MlC1gZkZw9M3KO6fAHZRI,4428
+special_agents/agents/ContentCreator.py,sha256=oX3WwAudLd4cZ6K5YVeHhhj-fqLvFnXyHUSieEGMGXQ,5205
+special_agents/agents/FullStackDeveloper.py,sha256=fN9-Lq9TvEo2qI8WpNuXknU6_nAkYSdWK63pWfX06GQ,4221
+special_agents/agents/ProductManager.py,sha256=eFSb61XUD3tE6QuTTfpKwzPXTxuNc3TH-72ZKH9atk8,6063
+special_agents/agents/__init__.py,sha256=v9XCE1GbNgPTKElUON18wLmwcGD_0jnwMoC36c9mPh8,95
+special_agents-1.0.5.dist-info/LICENSE,sha256=Vn_Q6wGRTAkKgdiuhNjG3oUbbBzWYwca9x8AHsb_Y2A,1065
+special_agents-1.0.5.dist-info/METADATA,sha256=sjGpo4kwbYMyOPsqoYTW5gCS5csM5jIAzuVJhwwMw3c,4453
+special_agents-1.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+special_agents-1.0.5.dist-info/top_level.txt,sha256=r4YxfoKex9n4x0g8K0MgtFIeITMBkiQQ_nQ8rJJq2z0,15
+special_agents-1.0.5.dist-info/RECORD,,
