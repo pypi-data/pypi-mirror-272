@@ -1,0 +1,5 @@
+click
+requests
+chardet
+urllib3==1.26.16
+beautifulsoup4

@@ -1,0 +1,10 @@
+README.md
+setup.py
+zzd/__init__.py
+zzd/cli.py
+zzd_cli.egg-info/PKG-INFO
+zzd_cli.egg-info/SOURCES.txt
+zzd_cli.egg-info/dependency_links.txt
+zzd_cli.egg-info/entry_points.txt
+zzd_cli.egg-info/requires.txt
+zzd_cli.egg-info/top_level.txt
