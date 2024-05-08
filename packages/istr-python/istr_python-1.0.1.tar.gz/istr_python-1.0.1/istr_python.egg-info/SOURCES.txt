@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+istr/__init__.py
+istr/changelog.md
+istr/istr.py
+istr/readme.md
+istr_python.egg-info/PKG-INFO
+istr_python.egg-info/SOURCES.txt
+istr_python.egg-info/dependency_links.txt
+istr_python.egg-info/top_level.txt
+tests/test_istr.py
