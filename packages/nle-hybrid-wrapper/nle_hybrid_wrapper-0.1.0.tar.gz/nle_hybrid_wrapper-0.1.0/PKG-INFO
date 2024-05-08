@@ -1,0 +1,149 @@
+Metadata-Version: 2.1
+Name: nle-hybrid-wrapper
+Version: 0.1.0
+Summary: Language Wrapper for the NetHack Learning Environment (NLE) 
+Home-page: https://github.com/DavidePaglieri/nle-language-wrapper
+Author: Davide Paglieri
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: C++
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pybind11>=2.9
+Requires-Dist: gym<=0.23,>=0.15
+Requires-Dist: nle==0.9.0
+Requires-Dist: minihack==0.1.4
+Requires-Dist: gym-minigrid==1.1.0
+Provides-Extra: dev
+Requires-Dist: black>=22.6.0; extra == "dev"
+Requires-Dist: flake8>=4.0.1; extra == "dev"
+Requires-Dist: pylint>=2.15.8; extra == "dev"
+Requires-Dist: pytest>=7.1.2; extra == "dev"
+Requires-Dist: pytest-cov>=3.0.0; extra == "dev"
+Requires-Dist: pytest-mock>=3.7.0; extra == "dev"
+Requires-Dist: pygame>=2.1.2; extra == "dev"
+Requires-Dist: isort>=5.10.1; extra == "dev"
+Requires-Dist: numpy>=1.21.0; extra == "dev"
+
+[![PyPI](https://img.shields.io/pypi/v/nle-language-wrapper.svg)](https://pypi.org/project/nle-language-wrapper)
+[![codecov](https://codecov.io/gh/ngoodger/nle-language-wrapper/branch/main/graph/badge.svg)](https://codecov.io/gh/ngoodger/nle-language-wrapper)
+[![Downloads](https://static.pepy.tech/personalized-badge/nle-language-wrapper?period=total&units=abbreviation&left_color=grey&right_color=green&left_text=Downloads%20Total)](https://pepy.tech/project/nle-language-wrapper)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/510003556.svg)](https://zenodo.org/badge/latestdoi/510003556)
+
+# Modified Nethack Learning Environment Language Wrapper
+
+```
+Inventory:
+a: a +0 katana (weapon in hand)
+b: a +0 wakizashi (alternate weapon; not wielded)
+c: a +0 yumi
+d: 43 +0 ya (in quiver)
+e: a blessed rustproof +0 splint mail (being worn)
+
+Map observation:
+ebony wand very near eastnortheast
+tame little dog very near west
+
+
+
+                                                                                
+                                                                                
+                                                                                
+                                                           --------------       
+                                                           |..../.......|       
+                                                          #-d.@.........|       
+                                                          #|............|       
+                                                -----     #|............|       
+                                            ####....|   ###|............|       
+                                            #   |...|   #  --------------       
+                                            #   |.^.| ###                       
+                               ------------ #   |...-##                         
+                               .<.........| #   |...|                           
+                               |..........| #   -----                           
+                               |..........| #                                   
+                               |..........| #                                   
+                               |..........|##                                   
+                               ...........-#                                    
+                               ------------                                     
+                                                                                
+                                                                                
+                                                                                
+Agent the Hatamoto             St:14 Dx:18 Co:16 In:9 Wi:9 Ch:7 Lawful S:0      
+Dlvl:1 $:0 HP:15(15) Pw:2(2) AC:4 Xp:1/0 T:72                                 
+```
+
+For development on the wrapper clone the repository and install it in development mode.
+
+```
+git clone git@github.com:DavidePaglieri/nle-language-wrapper.git --recursive
+cd nle-language-wrapper
+pip install -e ".[dev]"
+```
+
+To update the library with changes to the C++ code recompile by running
+
+```
+python -m setup develop
+```
+
+## Usage
+
+The wrapper can be used simply by instantiating a base environment from [NLE](https://github.com/facebookresearch/nle) or [MiniHack](https://github.com/facebookresearch/minihack) and passing it to the wrapper constructor.
+
+```
+import gym
+import nle
+from nle_language_wrapper import NLELanguageWrapper
+env = NLELanguageWrapper(gym.make("NetHackChallenge-v0"))
+obsv = env.reset()
+obsv, reward, done, info = env.step("wait")
+```
+
+Alternatively to utilize the discrete actions rather than language actions specify `use-text-action=True`.
+
+```
+env = NLELanguageWrapper(gym.make("NetHackChallenge-v0"),  use_language_action=text)
+obsv = env.reset()
+wait_action = 17
+obsv, reward, done, info = env.step(wait_action)
+```
+
+## Manual play
+
+A script is provided select an NLE or MiniHack task and directly interact with an environment.
+
+```
+python -m nle_language_wrapper.scripts.play
+```
+
+
+## Licence
+
+MIT License
+
+## Citation
+
+If you use Nethack Learning Environment Language Wrapper in any of your work, kindly cite:
+```
+@article{goodger2023nethack,
+author = {Goodger, Nikolaj and Vamplew, Peter and Foale, Cameron and Dazeley, Richard},
+year = {2023},
+month = {06},
+title = {A NetHack Learning Environment Language Wrapper for Autonomous Agents},
+volume = {11},
+journal = {Journal of Open Research Software},
+doi = {10.5334/jors.444}
+}
+```
