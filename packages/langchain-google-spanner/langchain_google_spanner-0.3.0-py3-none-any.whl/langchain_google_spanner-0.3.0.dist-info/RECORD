@@ -1,0 +1,11 @@
+langchain_google_spanner/__init__.py,sha256=OkwnZFkNvXB69ny8aj6H6SWIfFMlyMJDLN3lQoLdOfU,1137
+langchain_google_spanner/chat_message_history.py,sha256=DJ-uTsJjBYYlJw4jgmZCcC2hiYYkJLM0n5jTKESoUJY,9697
+langchain_google_spanner/loader.py,sha256=BJSSur_ZdB132K2CzU0_kD7vxOMn-qjwGmokLYx1x6c,17168
+langchain_google_spanner/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_google_spanner/vector_store.py,sha256=rBq5QnqNsdO0BlkgyEBrWMVmS0AVxkXmiksY2OEB9rY,45114
+langchain_google_spanner/version.py,sha256=Bt9xmJb_aic5hHSb19XJI5LMnotdGjBnwcYbbCI4jfo,597
+langchain_google_spanner-0.3.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+langchain_google_spanner-0.3.0.dist-info/METADATA,sha256=8wYLvs3QIVpXNblYq9CRlKtPMvejMtAb68YlvkWI0-U,19523
+langchain_google_spanner-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+langchain_google_spanner-0.3.0.dist-info/top_level.txt,sha256=CrnecUOOApZ7uXTt6m7w1sVSYJ_qZZ3T_TQzPim2r8c,25
+langchain_google_spanner-0.3.0.dist-info/RECORD,,
