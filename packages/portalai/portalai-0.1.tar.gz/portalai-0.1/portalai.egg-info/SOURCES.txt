@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+portalai/__init__.py
+portalai/core.py
+portalai.egg-info/PKG-INFO
+portalai.egg-info/SOURCES.txt
+portalai.egg-info/dependency_links.txt
+portalai.egg-info/entry_points.txt
+portalai.egg-info/requires.txt
+portalai.egg-info/top_level.txt
