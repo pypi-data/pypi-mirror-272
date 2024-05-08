@@ -1,0 +1,7 @@
+[project]
+name = "bombcell"
+authors = [
+    {name = "Sam Dodgson", email = "skgtdod@ucl.ac.uk"},
+]
+version = "0.0.0"
+description = "Coming soon"
