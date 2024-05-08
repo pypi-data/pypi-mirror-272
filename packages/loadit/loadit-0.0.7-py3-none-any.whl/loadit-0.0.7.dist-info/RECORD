@@ -1,0 +1,12 @@
+loadit/__about__.py,sha256=In7J7uD_g1X5hZNvQbQoFKvAq8PXq-BX9NvEcTrkS-Q,130
+loadit/__init__.py,sha256=JQkBfO2OmPVwoeRB7rMIeNWXxt5jnETyl_NwK0kl9ho,497
+loadit/cache_base.py,sha256=e6-n9iETeGhuLh0vX2PT1436jKEf0P9zHrbwe1WQRo8,4136
+loadit/dict_cache.py,sha256=9xMFak4MCRSqsO2OetBwW8_2_V8JmxcrA0-8EjtS0dU,1576
+loadit/loadit.py,sha256=unfNrEjAIfdJRj_Lm4BPnYcm6ro3y6Nbaq3Av77bWSI,7650
+loadit/sharded_dataset.py,sha256=J-vH2V4am86iGj1x8CaXkQ7ykvWVsUEiXKeJ4sWlpXg,12210
+loadit/util.py,sha256=3y54Pj3Ssydju3cuBMr75jZoMW1mnbRDni7DQUbx6Ic,6589
+loadit/writer.py,sha256=4kjNEcRIkpaP931sZ7JpJK3EqGPW4rEiNMmzJYba6Kk,7371
+loadit-0.0.7.dist-info/METADATA,sha256=vMYn70NkYHG8HqZNGQ-_Rzxm3RDYp_BgNEYC3IJpemg,11233
+loadit-0.0.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+loadit-0.0.7.dist-info/licenses/LICENSE.txt,sha256=NQeB80AgCl3ME8aQek8pVcB6DzbgIM6aqpwfJKH6CR0,1079
+loadit-0.0.7.dist-info/RECORD,,
