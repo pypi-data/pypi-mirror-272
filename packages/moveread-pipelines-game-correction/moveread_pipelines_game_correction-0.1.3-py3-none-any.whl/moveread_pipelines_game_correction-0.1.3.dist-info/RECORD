@@ -1,0 +1,15 @@
+moveread/pipelines/game_correction/__init__.py,sha256=3dw_craJrDPt__CfwO-tmu24Q2rDeC7-bsDDkLmLlBY,163
+moveread/pipelines/game_correction/__init__.pyi,sha256=hNQFIxS4aCieP7ipuoaUasNr_EPtSzItFwJEMUkpABk,306
+moveread/pipelines/game_correction/cli.py,sha256=H8_y7EzJqLoqU22ty9FOfhWf-pH3v7Bw9__j5Ic672Y,1296
+moveread/pipelines/game_correction/main.py,sha256=Dunca43H6l15cbYlePsWaJq__wSDn6xC-gFr4Ke0w4c,785
+moveread/pipelines/game_correction/sdk.py,sha256=57Ys-SqBnRTpetWc6mgd813j9g2PbdMWH7rr-Tdtp0Y,2860
+moveread/pipelines/game_correction/types.py,sha256=jSTTsOoehb-g2qADxpuiQpVxe8XKLYWhFCiRfY73V3w,1898
+moveread/pipelines/game_correction/api/__init__.py,sha256=wqjFll4GEYYMXYgisVv3-ywx66YoHJ4ZNFHUTdmm9lA,64
+moveread/pipelines/game_correction/api/api.py,sha256=Kd5uwZy3ZrWlm8YZB3ZWapQgYGiBjcJ5mTZQhFlSEkk,3528
+moveread/pipelines/game_correction/api/clientgen_cli.py,sha256=KesEWqbmNb_mm5SpM489-i4WZDq_l0g_PJsL23OHJUk,702
+moveread/pipelines/game_correction/api/types.py,sha256=IiR6EUEQE3SAmNLamj4LIY8kQmB9SmfUJmTZQbhWOs0,638
+moveread_pipelines_game_correction-0.1.3.dist-info/METADATA,sha256=T97GofjXRvlfUfv2uq_xEHmiVcFYvtaqieaTr6RTTY0,859
+moveread_pipelines_game_correction-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+moveread_pipelines_game_correction-0.1.3.dist-info/entry_points.txt,sha256=CQSVc-sflHby5ZtZoxo9u2IcnA4_Ld0BR9VtFLTCsJ4,152
+moveread_pipelines_game_correction-0.1.3.dist-info/top_level.txt,sha256=Nf4zr37sbhc5sbPztUq8FfXD7iyRYJ9bjMTU09166ig,9
+moveread_pipelines_game_correction-0.1.3.dist-info/RECORD,,
