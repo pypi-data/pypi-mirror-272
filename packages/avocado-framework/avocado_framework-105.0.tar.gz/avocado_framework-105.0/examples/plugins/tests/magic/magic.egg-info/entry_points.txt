@@ -1,0 +1,14 @@
+[avocado.plugins.discoverer]
+magic = avocado_magic.resolver:MagicDiscoverer
+
+[avocado.plugins.init]
+magic = avocado_magic.resolver:MagicInit
+
+[avocado.plugins.resolver]
+magic = avocado_magic.resolver:MagicResolver
+
+[avocado.plugins.runnable.runner]
+magic = avocado_magic.runner:MagicRunner
+
+[console_scripts]
+avocado-runner-magic = avocado_magic.runner:main

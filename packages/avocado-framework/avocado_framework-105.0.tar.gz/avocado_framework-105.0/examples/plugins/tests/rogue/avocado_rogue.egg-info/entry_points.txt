@@ -1,0 +1,8 @@
+[avocado.plugins.resolver]
+rogue = avocado_rogue.resolver:RogueResolver
+
+[avocado.plugins.runnable.runner]
+rogue = avocado_rogue.runner:RogueRunner
+
+[console_scripts]
+avocado-runner-rogue = avocado_rogue.runner:main

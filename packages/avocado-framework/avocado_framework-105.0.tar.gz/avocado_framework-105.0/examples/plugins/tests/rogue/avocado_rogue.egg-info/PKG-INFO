@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: avocado-rogue
+Version: 1.0
+Summary: Avocado "rogue" test type
+
+This is a plugin that contains a rogue runner, that is, a runner that will try to never allow to be terminated.

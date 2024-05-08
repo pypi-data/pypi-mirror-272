@@ -1,0 +1,9 @@
+setup.py
+avocado_magic/__init__.py
+avocado_magic/resolver.py
+avocado_magic/runner.py
+magic.egg-info/PKG-INFO
+magic.egg-info/SOURCES.txt
+magic.egg-info/dependency_links.txt
+magic.egg-info/entry_points.txt
+magic.egg-info/top_level.txt
