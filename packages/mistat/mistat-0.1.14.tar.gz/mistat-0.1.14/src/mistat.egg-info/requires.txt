@@ -1,0 +1,2 @@
+pyDOE3
+diversipy
