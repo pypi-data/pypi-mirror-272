@@ -1,0 +1,104 @@
+Metadata-Version: 2.3
+Name: pretzelai
+Version: 0.2.1
+Dynamic: Keywords
+Summary: AI code completion
+Author-email: Ramon Garate <ramon@withpretzel.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, Ramon Garate
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 4
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Pretzel AI is an Jupyter extention for context-aware AI codegen in Jupyter.
+
+# Quick start
+
+## Installation
+
+In the same virtual environment where Jupyter is installed, run:
+
+```bash
+pip install pretzelai
+```
+
+Reload Jupyter to enable the extension.
+
+Next, you need to set up the OpenAI API key. Go to Settings > Settings Editor (or press Command + ,)
+
+![](assets/screenshot_1.png)
+
+Then, search for Pretzel AI in the top left search bar, select `OpenAI API key` as the AI Service and set the API key.
+
+![](assets/screenshot_2.png)
+
+## Usage
+
+In any cell, press `Command + K` to prompt with GPT4. This opens a prompt window.
+
+In the prompt window, type your instruction. Note that:
+
+- you can refer to existing variables and dataframes with the `@variable` syntax (for example, if you have a dataframe `df`, you can refer to it with `@df`)
+- The AI has access to all code in your current notebook as well so you can refer to other parts of the code as well
+
+Press `Enter` or the Submit Button to get the answer. Press `Command + K` again to hide the prompt window.
+
+![](assets/screenshot_3.png)
+
+You can look at the AI response as a diff (if there was some code already in the cell).
+
+![](assets/screenshot_4.png)
+
+You can accept this by clicking the Accept button in the prompt window. This will update the cell with the new code **and run the new code!**
+
+![](assets/screenshot_5.png)
+
+# Choosing your AI Server
+
+You have three options for AI Servers:
+
+1. OpenAI API Key: This is the default, just set your OpenAI API key in the Settings Editor. We also allow setting a cutom URL in case your company has a local GPT-4 deployment.
+2. Azure AI Server: If your company is running OpenAI models on Azure, you can set the Azure URL, project name and your API key here.
+3. Pretzel AI Server: This is a wrapper of GPT-4 that we're running. It's free to use and the easiest way to get started. (AI responses aren't streamed with this server right now)
+
+You can set the AI Service in the Settings Editor.
