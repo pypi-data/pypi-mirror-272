@@ -1,0 +1,10 @@
+README.md
+setup.py
+ElijeTuPok/__init__.py
+ElijeTuPok/pokemon.csv
+ElijeTuPok/random_pokemon.py
+ElijeTuPok.egg-info/PKG-INFO
+ElijeTuPok.egg-info/SOURCES.txt
+ElijeTuPok.egg-info/dependency_links.txt
+ElijeTuPok.egg-info/requires.txt
+ElijeTuPok.egg-info/top_level.txt
