@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+git_dump.py
+pyproject.toml
+git_dump_tool.egg-info/PKG-INFO
+git_dump_tool.egg-info/SOURCES.txt
+git_dump_tool.egg-info/dependency_links.txt
+git_dump_tool.egg-info/entry_points.txt
+git_dump_tool.egg-info/requires.txt
+git_dump_tool.egg-info/top_level.txt
