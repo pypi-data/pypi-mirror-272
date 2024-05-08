@@ -1,0 +1,12 @@
+MANIFEST.in
+pyproject.toml
+requirements.txt
+manhelp/__init__.py
+manhelp/main.py
+manhelp/search.py
+manhelp.egg-info/PKG-INFO
+manhelp.egg-info/SOURCES.txt
+manhelp.egg-info/dependency_links.txt
+manhelp.egg-info/entry_points.txt
+manhelp.egg-info/requires.txt
+manhelp.egg-info/top_level.txt
