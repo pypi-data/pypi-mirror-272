@@ -1,0 +1,2 @@
+[unito.streamflow.plugin]
+unito.lsf = streamflow_lsf.plugin:LSFStreamFlowPlugin

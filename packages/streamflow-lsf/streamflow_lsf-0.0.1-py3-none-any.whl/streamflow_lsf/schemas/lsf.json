@@ -1,0 +1,275 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "https://streamflow.di.unito.it/schemas/plugins/lsf/lfs.json",
+  "type": "object",
+  "$defs": {
+    "service": {
+      "type": "object",
+      "title": "LSFService",
+      "description": "This complex type represents a submission to the LSF queue manager.",
+      "properties": {
+        "file": {
+          "type": "string",
+          "description": "Path to a file containing a Jinja2 template, describing how the StreamFlow command should be executed in the remote environment"
+        },
+        "applicationProfile": {
+          "type": "string",
+          "description": "Submits the job to the specified application profile."
+        },
+        "autoResizable": {
+          "type": "boolean",
+          "description": "Specifies that the job is autoresizable."
+        },
+        "checkpoint": {
+          "type": "string",
+          "description": "Makes a job checkpointable and specifies the checkpoint directory."
+        },
+        "clusters": {
+          "type": "string",
+          "description": "LSF multicluster capability only. Specifies cluster names when submitting jobs."
+        },
+        "coreLimit": {
+          "type": "integer",
+          "description": "Sets a per-process (soft) core file size limit for all the processes that belong to this job."
+        },
+        "cpuTimeLimit": {
+          "type": "string",
+          "description": "Limits the total CPU time the job can use. Format: [hour:]minute[/host_name | /host_model]"
+        },
+        "data": {
+          "type": "string",
+          "description": "Specifies data requirements for a job."
+        },
+        "dataLimit": {
+          "type": "integer",
+          "description": "Sets a per-process (soft) data segment size limit for each of the processes that belong to the job."
+        },
+        "datagrp": {
+          "type": "string",
+          "description": "Specifies user group for job data requirements."
+        },
+        "dynamicInputFile": {
+          "type": "string",
+          "description": "Gets the standard input for the job from the specified file path, but allows you to modify or remove the input file before the job completes."
+        },
+        "eligiblePendingTimeLimit": {
+          "type": "string",
+          "description": "Specifies the eligible pending time limit for the job. Format: [hour:]minute"
+        },
+        "enableSpool": {
+          "type": "boolean",
+          "description": "Spools a job command file to the directory specified by the JOB_SPOOL_DIR parameter in lsb.params, and uses the spooled file as the command file for the job."
+        },
+        "env": {
+          "type": "string",
+          "description": "Controls the propagation of the specified job submission environment variables to the execution hosts."
+        },
+        "errorFileAppend": {
+          "type": "string",
+          "description": "Appends the standard error output of the job to the specified file path."
+        },
+        "errorFileOverwrite": {
+          "type": "string",
+          "description": "Overwrites the standard error output of the job to the specified file path."
+        },
+        "estimatedRunningTime": {
+          "type": "integer",
+          "description": "Specifies an estimated run time for the job."
+        },
+        "exclusive": {
+          "type": "boolean",
+          "description": "Puts the host running your job into exclusive execution mode."
+        },
+        "externalSchedulerOptions": {
+          "type": "string",
+          "description": "Specifies application-specific external scheduling options for the job."
+        },
+        "fileSizeLimit": {
+          "type": "integer",
+          "description": "Sets a per-process (soft) file size limit for each of the processes that belong to the job."
+        },
+        "freq": {
+          "type": "integer",
+          "description": "Specifies a CPU frequency for a job."
+        },
+        "hostfile": {
+          "type": "string",
+          "description": "Submits a job with a user-specified host file."
+        },
+        "inputFile": {
+          "type": "string",
+          "description": "Gets the standard input for the job from specified file path."
+        },
+        "jobDescription": {
+          "type": "string",
+          "description": "Assigns the specified description to the job; for job arrays, specifies the same job description for all elements in the job array."
+        },
+        "jobGroup": {
+          "type": "string",
+          "description": "Submits jobs in the specified job group."
+        },
+        "jobName": {
+          "type": "string",
+          "description": "Assigns the specified name to the job, and, for job arrays, specifies the indices of the job array and optionally the maximum number of jobs that can run at any given time."
+        },
+        "jsdlFile": {
+          "type": "string",
+          "description": "Submits a job using a JSDL file that uses the LSF extension to specify job submission options."
+        },
+        "jsdlStrict": {
+          "type": "string",
+          "description": "Submits a job using a JSDL file that only uses the standard JSDL elements and POSIX extensions to specify job submission options."
+        },
+        "licenseProject": {
+          "type": "string",
+          "description": "Assigns the job to the specified LSF License Scheduler project."
+        },
+        "localFile": {
+          "type": "string",
+          "description": "Copies a file between the local (submission) host and the remote (execution) host."
+        },
+        "locationRequired": {
+          "type": "string",
+          "description": "Submits a job to be run on specific hosts, host groups, or compute units."
+        },
+        "mailUser": {
+          "type": "string",
+          "description": "Sends mail to the specified email destination."
+        },
+        "memAndSwapLimit": {
+          "type": "boolean",
+          "description": "Enables job-level host-based memory and swap limit enforcement on systems that support Linux cgroups."
+        },
+        "memoryLimit": {
+          "type": "integer",
+          "description": "Sets a memory limit for all the processes that belong to the job."
+        },
+        "migrationThreshold": {
+          "type": "integer",
+          "description": "Specifies the migration threshold for checkpointable or re-runnable jobs, in minutes."
+        },
+        "noRerunnable": {
+          "type": "boolean",
+          "description": "Specifies that the job is never re-runnable."
+        },
+        "numOfTasks": {
+          "type": "string",
+          "description": "Submits a parallel job and specifies the number of tasks in the job."
+        },
+        "pendingTimeLimit": {
+          "type": "string",
+          "description": "Specifies the pending time limit for the job. Format: [hour:]minute"
+        },
+        "postExecCommand": {
+          "type": "string",
+          "description": "Runs the specified job-based post-execution command on the execution host after the job finishes."
+        },
+        "preExecCommand": {
+          "type": "string",
+          "description": "Runs the specified job-based pre-execution command on the execution host before actually running the job."
+        },
+        "priority": {
+          "type": "integer",
+          "description": "Specifies user-assigned job priority that orders jobs in a queue."
+        },
+        "processLimit": {
+          "type": "integer",
+          "description": "Sets the limit of the number of processes to the specified value for the whole job."
+        },
+        "projectName": {
+          "type": "string",
+          "description": "Assigns the job to the specified project."
+        },
+        "queueName": {
+          "type": "string",
+          "description": "Submits the job to one of the specified queues."
+        },
+        "requeueExitValue": {
+          "type": "string",
+          "description": "Specify automatic job re-queue exit values."
+        },
+        "rerunOnHostFailure": {
+          "type": "boolean",
+          "description": "Reruns a job if the execution host or the system fails; it does not rerun a job if the job itself fails."
+        },
+        "reservation": {
+          "type": "string",
+          "description": "If an advance reservation has been created with the brsvadd command, the job makes use of the reservation."
+        },
+        "resizeNotificationCmd": {
+          "type": "string",
+          "description": "Specifies the full path of an executable to be invoked on the first execution host when the job allocation has been modified (both shrink and grow)."
+        },
+        "resourceRequirements": {
+          "type": "string",
+          "description": "Runs the job on a host that meets the specified resource requirements."
+        },
+        "runLimit": {
+          "type": "integer",
+          "description": "Set a limit on the total run time of the job allocation. If a `timeout` value is defined directly in the workflow specification, it will override this value"
+        },
+        "sendMail": {
+          "type": "boolean",
+          "description": "Sends mail to you when the job is dispatched and begins execution."
+        },
+        "serviceClassName": {
+          "type": "string",
+          "description": "Specifies the service class where the job is to run."
+        },
+        "signal": {
+          "type": "string",
+          "description": "Sends the specified signal when a queue-level run window closes."
+        },
+        "stackSizeLimit": {
+          "type": "integer",
+          "description": "Sets a per-process (soft) stack segment size limit for each of the processes that belong to the job."
+        },
+        "startTime": {
+          "type": "string",
+          "description": "Dispatches the job for execution on or after the specified date and time. Format:  [[year:][month:]day:]hour:minute"
+        },
+        "terminationDeadline": {
+          "type": "string",
+          "description": "Specifies the job termination deadline. Format: [[[year:]month:]day:]hour:minute"
+        },
+        "threadLimit": {
+          "type": "integer",
+          "description": "Sets the limit of the number of concurrent threads to the specified value for the whole job."
+        },
+        "userGroup": {
+          "type": "string",
+          "description": "For fair share scheduling. Associates the job with the specified group or excludes the job from the specified groups."
+        },
+        "virtualMemLimit": {
+          "type": "integer",
+          "description": "Sets the total process virtual memory limit to the specified value for the whole job."
+        },
+        "warningAction": {
+          "type": "string",
+          "description": "Specifies the job action to be taken before a job control action occurs."
+        },
+        "warningTimeAction": {
+          "type": "string",
+          "description": "Specifies the amount of time before a job control action occurs that a job warning action is to be taken. Format: [hour:]minute"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "$ref": "https://streamflow.di.unito.it/schemas/deployment/connector/queue_manager.json"
+    }
+  ],
+  "properties": {
+    "services": {
+      "type": "object",
+      "description": "Map containing named configurations of LSF submissions. Parameters can be either specified as #HQ directives in a file or directly in YAML format.",
+      "patternProperties": {
+        "^[a-z][a-zA-Z0-9._-]*$": {
+          "$ref": "#/$defs/service"
+        }
+      }
+    }
+  },
+  "unevaluatedProperties": false
+}

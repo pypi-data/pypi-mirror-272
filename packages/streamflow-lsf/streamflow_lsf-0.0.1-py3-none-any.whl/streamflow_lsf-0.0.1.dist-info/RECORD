@@ -1,0 +1,12 @@
+streamflow_lsf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streamflow_lsf/connector.py,sha256=tJhUyJqizK72EZWWX9uExpepchV_wunbkzcv5eAmKqI,17812
+streamflow_lsf/plugin.py,sha256=yVgVSoJTHJ50frk--z2JlLgum6PB2Oq4n78wz5pYAAM,240
+streamflow_lsf/version.py,sha256=Q8raD6k02z4DoYniAz3iui5d6EdM1el95SMTLXJbeCA,18
+streamflow_lsf/schemas/lsf.json,sha256=4tOmWGlTmpTeFXStXkiFEtqhgb6YMvJm6p31AgIY3AE,11655
+streamflow_lsf-0.0.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+streamflow_lsf-0.0.1.dist-info/METADATA,sha256=u4iG1uCVDHJE5TOQ2rOBvzuIoI6MyiPAYQPITtzhuLQ,2261
+streamflow_lsf-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+streamflow_lsf-0.0.1.dist-info/entry_points.txt,sha256=Y5T1JP1Usl190gaEu0ecSkkYeU9e-mYF7IcJGGhRz1I,80
+streamflow_lsf-0.0.1.dist-info/top_level.txt,sha256=KPewYpER1kHUzccueCqCAiixWjoP9zQWiR1w4OHz9as,15
+streamflow_lsf-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+streamflow_lsf-0.0.1.dist-info/RECORD,,
