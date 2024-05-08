@@ -1,0 +1,14 @@
+mypkg/__init__.py,sha256=fp-7TecoyYAn4GZWLbxHxsiWXjHlDmFcLTW2KI5-DtA,289
+mypkg/aggridhelper.py,sha256=7mqv5kTh3EAOUrYsIXN3GluMbnFXmh47Nn5Ru2eg6uE,1079
+mypkg/appinator.py,sha256=JSL4T4qaVYbRJMB3Ps-P6ZvyknN3FhB7oH7TLdq9zPg,21269
+mypkg/browser_title.py,sha256=1aYp7X10l3v7lt1DD8hDEFwa429AhJd-zZNnb7UKdGw,746
+mypkg/datagrid.py,sha256=p-dX5sRdfiqVpyEqeuFfZf_M__IYfx_G6D7Jr27KU3M,15437
+mypkg/jinjamagic.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypkg/plotly_charts.py,sha256=cTp4V4cFFmXPSafyTTxY-u8SDKwTlDsEW_pOUEiIXqs,1839
+mypkg/treew.py,sha256=UYn392QsdWELYKfNFMiY7XMknQ6PLxjIrKF2YMg5rE8,1579
+mypkg/version.py,sha256=QiMekSpJPc2XC8pC-eD1PRgAYcQ9iGtnGbJtV1zEMwM,51
+nbappinator-0.1.5b1.dist-info/LICENSE.md,sha256=5yVtaH22Orpf3-dg42yjAmxcI5bJFRl_4h8fGJcdxoM,1479
+nbappinator-0.1.5b1.dist-info/METADATA,sha256=UAt8wTGozgH_Yv_plkrAEeEW-MQWNSB_4HQvqMKQQrg,5250
+nbappinator-0.1.5b1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+nbappinator-0.1.5b1.dist-info/top_level.txt,sha256=Ui0aKppBqGQo0g4aG2GZRiRa1aYqNIiQ8WMKYxa2n2g,6
+nbappinator-0.1.5b1.dist-info/RECORD,,
