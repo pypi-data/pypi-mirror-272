@@ -1,0 +1,2 @@
+[lektor.plugins]
+imgutils = lektor_imgutils:ImgUtilsPlugin
