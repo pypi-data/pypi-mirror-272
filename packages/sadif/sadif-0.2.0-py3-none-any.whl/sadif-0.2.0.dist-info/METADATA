@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: sadif
+Version: 0.2.0
+Summary: Secure Asses Data Insight Framework - SADIF
+Home-page: https://github.com/florestleaks/SADIF
+Author: CorrêaLabs
+Author-email: lcorrea@florestleaks.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bs4 (>=0.0.2,<0.0.3)
+Requires-Dist: griffe-typingdoc (>=0.2.5,<0.3.0)
+Requires-Dist: mdx-include (>=1.4.2,<2.0.0)
+Requires-Dist: mkdocs-rss-plugin (>=1.12.2,<2.0.0)
+Requires-Dist: mkdocstrings (>=0.25.0,<0.26.0)
+Requires-Dist: mkdocstrings-python (>=1.10.0,<2.0.0)
+Requires-Dist: mongomock (>=4.1.2,<5.0.0)
+Requires-Dist: pymdown-extensions (>=10.8.1,<11.0.0)
+Requires-Dist: pymongo (>=4.6.3,<5.0.0)
+Requires-Dist: sentry-sdk (>=1.45.0,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: yara-python (>=4.5.0,<5.0.0)
+Project-URL: Repository, https://github.com/florestleaks/SADIF
+Description-Content-Type: text/markdown
+
+# Secure Asses Data Insight Framework - SADIF
+
+
+[![Release](https://img.shields.io/github/v/release/florestleaks/SADIF)](https://img.shields.io/github/v/release/florestleaks/SADIF)
+[![Build status](https://img.shields.io/github/actions/workflow/status/florestleaks/SADIF/main.yml?branch=main)](https://github.com/florestleaks/SADIF/actions/workflows/main.yml?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/florestleaks/SADIF/graph/badge.svg?token=IE1G7T0wo0)](https://codecov.io/gh/florestleaks/SADIF)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/florestleaks/SADIF)](https://img.shields.io/github/commit-activity/m/florestleaks/SADIF)
+[![License](https://img.shields.io/github/license/florestleaks/SADIF)](https://img.shields.io/github/license/florestleaks/SADIF)
+
+
+- **Github repository**: <https://github.com/florestleaks/SADIF/>
+- **Github Documentation** <https://florestleaks.github.io/SADIF/>
+- **OFFICIAL Documentation** <https://forestleaks.com/SADIF/>
+
+# install
+```bash
+pip3 install sadif 
+```
