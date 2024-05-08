@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced load and save logic &mdash; mzdata2mat 0.2.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=938c9ccc"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="mzDataManager" href="mzDataManager.html" />
+    <link rel="prev" title="Example Code" href="code-example.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            mzdata2mat
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Infos</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Changelog.html">Changelog</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Quickstart</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-example.html">Example Code</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Advanced</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Advanced load and save logic</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#presentation">Presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#example-1-load-custom-structure">Example 1 : Load custom structure</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#from-a-matlab-file">From a matlab file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#from-a-dictionnary">From a dictionnary</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#example-2-save-custom-structure">Example 2 : Save custom structure</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="mzDataManager.html">mzDataManager</a></li>
+<li class="toctree-l1"><a class="reference internal" href="matStruct.html">matStruct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mzData.html">mzData</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mzDataXMLStruct.html">mzDataXMLStruct</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">CLI</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="mzdata2mat-verify.html">mzdata2mat-verify</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">mzdata2mat</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Advanced load and save logic</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/advancedLoadSaveLogic.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="advanced-load-and-save-logic">
+<h1>Advanced load and save logic<a class="headerlink" href="#advanced-load-and-save-logic" title="Link to this heading"></a></h1>
+<section id="presentation">
+<h2>Presentation<a class="headerlink" href="#presentation" title="Link to this heading"></a></h2>
+<p>In this section the advanced load and save structure will be explained and examples will be given to illustrate the documentation.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is an advanced topic, if you are not familiar with the package, we highly recommand to check the <a class="reference internal" href="code-example.html"><span class="std std-doc">basic code example</span></a> first.</p>
+</div>
+</section>
+<section id="example-1-load-custom-structure">
+<h2>Example 1 : Load custom structure<a class="headerlink" href="#example-1-load-custom-structure" title="Link to this heading"></a></h2>
+<section id="from-a-matlab-file">
+<h3>From a matlab file<a class="headerlink" href="#from-a-matlab-file" title="Link to this heading"></a></h3>
+<p>In this example, we are going to load a custom matlab structure containing m/z values into a mzData class. Let’s get started !</p>
+<p>Here is the matlab file’s content :<br>
+<code class="docutils literal notranslate"><span class="pre">sampleTest.mat</span></code></p>
+<ul class="simple">
+<li><p>sampleTest</p>
+<ul>
+<li><p>echName</p></li>
+<li><p>mData</p></li>
+<li><p>path</p></li>
+<li><p>times</p></li>
+<li><p>m/z</p></li>
+<li><p>intensities</p></li>
+</ul>
+</li>
+</ul>
+<p>To be able to load this data properly, let’s define a <code class="docutils literal notranslate"><span class="pre">matStruct</span></code> class where we specify which field is which :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">mzdata2mat.classes</span> <span class="kn">import</span> <span class="n">matStruct</span>
+
+<span class="n">savedDataStruct</span> <span class="o">=</span> <span class="n">matStruct</span><span class="p">(</span>
+    <span class="n">oneStruct</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="n">metadata</span> <span class="o">=</span> <span class="s2">&quot;mData&quot;</span><span class="p">,</span>
+    <span class="n">fileName</span> <span class="o">=</span> <span class="s2">&quot;echName&quot;</span><span class="p">,</span>
+    <span class="n">filePath</span> <span class="o">=</span> <span class="s2">&quot;path&quot;</span><span class="p">,</span>
+    <span class="n">mz</span> <span class="o">=</span> <span class="s2">&quot;m/z&quot;</span><span class="p">,</span>
+    <span class="n">time</span> <span class="o">=</span> <span class="s2">&quot;times&quot;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Since the variable <code class="docutils literal notranslate"><span class="pre">intensities</span></code> is the same in the class as inside the matlab structure, we can omit it’s declaration.</p>
+</div>
+<p>Now that’s our matlab structure is defined, let’s load the data into a variable :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">mzdata2mat</span> <span class="kn">import</span> <span class="n">mzDataManager</span>
+
+<span class="n">manager</span> <span class="o">=</span> <span class="n">mzDataManager</span><span class="p">(</span><span class="n">matStructure</span><span class="o">=</span><span class="n">savedDataStruct</span><span class="p">)</span>
+<span class="n">sampleTestData</span> <span class="o">=</span> <span class="n">manager</span><span class="o">.</span><span class="n">loadMatfile</span><span class="p">(</span><span class="n">fileName</span><span class="o">=</span><span class="s2">&quot;sampleTest.mat&quot;</span><span class="p">)</span>
+
+</pre></div>
+</div>
+<p>Our data is now stored inside the <code class="docutils literal notranslate"><span class="pre">sampleTestData</span></code> variable. We can now access the data by referencing the varaible. For example, let’s say I want to get the file’s name. In the file the variable was <code class="docutils literal notranslate"><span class="pre">echName</span></code>, we now know that this variable corresponds with the <code class="docutils literal notranslate"><span class="pre">fileName</span></code> property. So, we get the value like this : <code class="docutils literal notranslate"><span class="pre">sampleTestData.fileName</span></code>.</p>
+<div class="admonition-teaser admonition">
+<p class="admonition-title">Teaser !</p>
+<p>In the future, features will be added to expose those properties directly inside the variable insdead of a generic name. For instance, <code class="docutils literal notranslate"><span class="pre">echName</span></code> will be directly accessible by the following code <code class="docutils literal notranslate"><span class="pre">sampleTestData.echName</span></code>. More information about this feature in the future.</p>
+</div>
+</section>
+<section id="from-a-dictionnary">
+<h3>From a dictionnary<a class="headerlink" href="#from-a-dictionnary" title="Link to this heading"></a></h3>
+<p>To load a <code class="docutils literal notranslate"><span class="pre">mzData</span></code> structure from a dictionnary representation, the process is almost the same.<br>
+Here is how to achieve this :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Instead of calling the loadMatfile function from the mzDataManager class,</span>
+<span class="c1"># we need to directly create an instance of the `mzData` class.</span>
+
+<span class="kn">from</span> <span class="nn">mzdata2mat</span> <span class="kn">import</span> <span class="n">mzData</span>
+
+<span class="n">dictData</span> <span class="o">=</span> <span class="n">mzData</span><span class="p">()</span>
+<span class="n">dictData</span><span class="o">.</span><span class="n">fromDict</span><span class="p">(</span>
+    <span class="n">toParse</span><span class="o">=</span><span class="n">someDictionnary</span><span class="p">,</span>
+    <span class="n">mat</span><span class="o">=</span><span class="n">matRepresentation</span>
+<span class="p">)</span>
+<span class="c1"># We don&#39;t need to instantiate the mzDataManager class for this parse.</span>
+<span class="c1"># But you will need an instance in order to save the data to a Matlab file.</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code class="docutils literal notranslate"><span class="pre">toParse</span></code> should be of type <code class="docutils literal notranslate"><span class="pre">str</span></code> or <code class="docutils literal notranslate"><span class="pre">dict</span></code> only. If your data is formated in the default reprentation, you can omit the <code class="docutils literal notranslate"><span class="pre">mat</span></code> parameter.</p>
+</div>
+</section>
+</section>
+<section id="example-2-save-custom-structure">
+<h2>Example 2 : Save custom structure<a class="headerlink" href="#example-2-save-custom-structure" title="Link to this heading"></a></h2>
+<p>In this example, we are going to save an already existing <code class="docutils literal notranslate"><span class="pre">mzData</span></code> variable into a matlab file with custom fields. Let’s get started !<br>
+The process is really easy and much shorter than the one for loading custom data.</p>
+<p>The same logic applies for defining the <code class="docutils literal notranslate"><span class="pre">matStruct</span></code> variable (see above for how to define the matlab structure you want to have).</p>
+<p>This code saves the <code class="docutils literal notranslate"><span class="pre">sampleTestData</span></code> variable according to the corresponding <code class="docutils literal notranslate"><span class="pre">matStruct</span></code> defined in the custom loading logic.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">manager</span><span class="o">.</span><span class="n">saveMatfile</span><span class="p">(</span><span class="n">mzData</span><span class="o">=</span><span class="n">sampleTestData</span><span class="p">):</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The custom save structure doesn’t need to be passed while calling this function. The manager saves the data according to the structure given in it’s initalization. To modify it add this line before : <code class="docutils literal notranslate"><span class="pre">manager.matStruct</span> <span class="pre">=</span> <span class="pre">someNewStructure</span></code>.</p>
+</div>
+<p>This function has a lot of parameters. To have a complete description of its functionnalities check <a class="reference internal" href="mzDataManager.html#savematfile"><span class="std std-ref">this page</span></a>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="code-example.html" class="btn btn-neutral float-left" title="Example Code" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="mzDataManager.html" class="btn btn-neutral float-right" title="mzDataManager" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, CORDELLA Maxime.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mzData &mdash; mzdata2mat 0.2.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=938c9ccc"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="mzDataXMLStruct" href="mzDataXMLStruct.html" />
+    <link rel="prev" title="matStruct" href="matStruct.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            mzdata2mat
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Infos</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Changelog.html">Changelog</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Quickstart</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-example.html">Example Code</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Advanced</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="advancedLoadSaveLogic.html">Advanced load and save logic</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="mzDataManager.html">mzDataManager</a></li>
+<li class="toctree-l1"><a class="reference internal" href="matStruct.html">matStruct</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">mzData</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#presentation">Presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#definition">Definition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use">How to use</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fromdict">fromDict</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">How to use</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#todict">toDict</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">How to use</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#setattribute">setAttribute</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">How to use</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#getattribute">getAttribute</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">How to use</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#getattributenames">getAttributeNames</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id13">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id15">How to use</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#deleteattribute">deleteAttribute</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id16">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id17">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id18">How to use</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#clearattributes">clearAttributes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id19">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id20">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id21">How to use</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="mzDataXMLStruct.html">mzDataXMLStruct</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">CLI</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="mzdata2mat-verify.html">mzdata2mat-verify</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">mzdata2mat</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">mzData</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/mzData.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mzdata">
+<h1>mzData<a class="headerlink" href="#mzdata" title="Link to this heading"></a></h1>
+<section id="presentation">
+<h2>Presentation<a class="headerlink" href="#presentation" title="Link to this heading"></a></h2>
+<p>This is the Base class which holds all the data collected from a given <code class="docutils literal notranslate"><span class="pre">mzdata.xml</span></code> file. This is the data class used when the <code class="docutils literal notranslate"><span class="pre">mzDataManager</span></code> creates a <code class="docutils literal notranslate"><span class="pre">.mat</span></code> file.<br>
+You can create your own instances of this class if your data is not collected from the mzData files.</p>
+</section>
+<section id="definition">
+<h2>Definition<a class="headerlink" href="#definition" title="Link to this heading"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">mzData</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">fileName</span> <span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">filePath</span> <span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">metadata</span> <span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">mz</span> <span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">list</span><span class="p">[</span><span class="nb">float</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[[]]</span>
+    <span class="n">intensities</span> <span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">list</span><span class="p">[</span><span class="nb">float</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[[]]</span>
+    <span class="n">time</span> <span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">oneStruct</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span>
+</pre></div>
+</div>
+</section>
+<section id="how-to-use">
+<h2>How to use<a class="headerlink" href="#how-to-use" title="Link to this heading"></a></h2>
+<p>There are two ways of creating this class, the first one is the following :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Class creation</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">mzData</span><span class="p">()</span>
+
+<span class="c1"># The script below could be called anywhere you want, just be sure to fill all necessary data before calling the saveMatfile function from the mzdataManager class.</span>
+<span class="n">data</span><span class="o">.</span><span class="n">fileName</span> <span class="o">=</span> <span class="s2">&quot;sample.mzdata.xml&quot;</span>
+<span class="n">data</span><span class="o">.</span><span class="n">filePath</span> <span class="o">=</span> <span class="s2">&quot;some/path/&quot;</span>
+<span class="n">data</span><span class="o">.</span><span class="n">metadata</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;software&#39;</span> <span class="p">:</span> <span class="s1">&#39;someSoftware&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;analyser&#39;</span> <span class="p">:</span> <span class="s1">&#39;John Doe&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;detector&#39;</span> <span class="p">:</span> <span class="s1">&#39;someDetector&#39;</span>
+<span class="p">}</span>
+<span class="n">data</span><span class="o">.</span><span class="n">mz</span> <span class="o">=</span> <span class="n">mzList</span>
+<span class="n">data</span><span class="o">.</span><span class="n">intensities</span> <span class="o">=</span> <span class="n">intensitiesList</span>
+<span class="n">data</span><span class="o">.</span><span class="n">time</span> <span class="o">=</span> <span class="n">timeList</span>
+<span class="n">data</span><span class="o">.</span><span class="n">oneStruct</span> <span class="o">=</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<p>If you have all informations at the same time, you could use the second way of defining the class :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">mzData</span><span class="p">(</span>
+    <span class="n">fileName</span> <span class="o">=</span> <span class="s2">&quot;sample.mzdata.xml&quot;</span><span class="p">,</span>
+    <span class="n">filePath</span> <span class="o">=</span> <span class="s2">&quot;some/path/&quot;</span><span class="p">,</span>
+    <span class="n">metadata</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;software&#39;</span> <span class="p">:</span> <span class="s1">&#39;someSoftware&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;analyser&#39;</span> <span class="p">:</span> <span class="s1">&#39;John Doe&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;detector&#39;</span> <span class="p">:</span> <span class="s1">&#39;someDetector&#39;</span>
+    <span class="p">},</span>
+    <span class="n">mz</span> <span class="o">=</span> <span class="n">mzList</span><span class="p">,</span>
+    <span class="n">intensities</span> <span class="o">=</span> <span class="n">intensitiesList</span><span class="p">,</span>
+    <span class="n">time</span> <span class="o">=</span> <span class="n">timeList</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Link to this heading"></a></h2>
+<section id="fromdict">
+<h3>fromDict<a class="headerlink" href="#fromdict" title="Link to this heading"></a></h3>
+<section id="id1">
+<h4>Presentation<a class="headerlink" href="#id1" title="Link to this heading"></a></h4>
+<p>Use <code class="docutils literal notranslate"><span class="pre">fromDict</span></code> function to populate the current <code class="docutils literal notranslate"><span class="pre">mzData</span></code> class based on a given <code class="docutils literal notranslate"><span class="pre">dict</span></code>.</p>
+</section>
+<section id="id2">
+<h4>Definition<a class="headerlink" href="#id2" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">fromDict</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzData</span><span class="p">,</span> <span class="n">toParse</span> <span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">mat</span> <span class="p">:</span> <span class="n">matStruct</span> <span class="o">=</span> <span class="n">matStruct</span><span class="p">())</span>
+</pre></div>
+</div>
+</section>
+<section id="id3">
+<h4>How to use<a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
+<p>To use this function, you need to specify how the dictionnary is built with the parameter <code class="docutils literal notranslate"><span class="pre">mat</span></code> which is of type <code class="docutils literal notranslate"><span class="pre">matStruct</span></code> class (The dictionnary could contain more elements, but only elements listed in the parameter will be parsed). The second parameter is the data to parse <code class="docutils literal notranslate"><span class="pre">toParse</span></code>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This data must always be a dictionnary. Meaning that the <code class="docutils literal notranslate"><span class="pre">toParse</span></code> parameter must be either of type <code class="docutils literal notranslate"><span class="pre">dict</span></code> or it’s equivalent in <code class="docutils literal notranslate"><span class="pre">str</span></code>. Anything other than this will raise an error.</p>
+</div>
+<p>Call this function like this:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">fromDict</span><span class="p">(</span><span class="n">mat</span><span class="o">=</span><span class="n">someMatStructure</span><span class="p">,</span> <span class="n">toParse</span><span class="o">=</span><span class="n">dictionnaryRepresentationOfData</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If the structure is the default one, you can omit the <code class="docutils literal notranslate"><span class="pre">mat</span></code> parameter.</p>
+</section>
+</section>
+<section id="todict">
+<h3>toDict<a class="headerlink" href="#todict" title="Link to this heading"></a></h3>
+<section id="id4">
+<h4>Presentation<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<p>Use this function to convert <code class="docutils literal notranslate"><span class="pre">mzData</span></code> structure into a dictionnary representation of the data. This function is automatically called inside the <code class="docutils literal notranslate"><span class="pre">saveMatfile</span></code> function in the <code class="docutils literal notranslate"><span class="pre">mzDataManager</span></code> class.</p>
+</section>
+<section id="id5">
+<h4>Definition<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">toDict</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzData</span><span class="p">,</span> <span class="n">mat</span> <span class="p">:</span> <span class="n">matStruct</span><span class="p">,</span> <span class="n">partialSave</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span>
+</pre></div>
+</div>
+</section>
+<section id="id6">
+<h4>How to use<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<p>This function takes two input parameters. The first one, <code class="docutils literal notranslate"><span class="pre">mat</span></code> is a <code class="docutils literal notranslate"><span class="pre">matStruct</span></code> class which specifies how the dictionnary should be generated. See <a class="reference internal" href="matStruct.html"><span class="std std-doc">matStruct class</span></a> for further details.<br>
+The second input parameter is a boolean <code class="docutils literal notranslate"><span class="pre">partialSave</span></code>. Set this parameter to <code class="docutils literal notranslate"><span class="pre">True</span></code> if you want to save a partial structure (i.e an incomplete <code class="docutils literal notranslate"><span class="pre">mzData</span></code> structure where, for example, time values are not specified. This parameter is by default set to <code class="docutils literal notranslate"><span class="pre">False</span></code>). If an incomplete structure is found and <code class="docutils literal notranslate"><span class="pre">partialSave</span></code> is not <code class="docutils literal notranslate"><span class="pre">True</span></code>, an error of class <code class="docutils literal notranslate"><span class="pre">mzDataError</span></code> will be raised.</p>
+<p>With an already created <code class="docutils literal notranslate"><span class="pre">mzData</span></code> object, call the function like follows :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">convertedDict</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">toDict</span><span class="p">(</span><span class="n">mat</span><span class="o">=</span><span class="n">someMatStruct</span><span class="p">,</span> <span class="n">partialSave</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The dictionnary generated will be containing the content inside the <code class="docutils literal notranslate"><span class="pre">data</span></code> variable.</p>
+</section>
+</section>
+<section id="setattribute">
+<h3>setAttribute<a class="headerlink" href="#setattribute" title="Link to this heading"></a></h3>
+<section id="id7">
+<h4>Presentation<a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
+<p>This function gives the possibility to the user to define new properties or modify existing one inside the <code class="docutils literal notranslate"><span class="pre">extra</span></code> field of the class.</p>
+</section>
+<section id="id8">
+<h4>Definition<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">setAttribute</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzData</span><span class="p">,</span> <span class="n">attributeName</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">attributeValue</span> <span class="p">:</span> <span class="n">Any</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id9">
+<h4>How to use<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<p>The <code class="docutils literal notranslate"><span class="pre">setAttribue</span></code> function expects two input variables. The first one <code class="docutils literal notranslate"><span class="pre">attributeName</span></code> is a <code class="docutils literal notranslate"><span class="pre">str</span></code> and will be the new property’s name. The second one called <code class="docutils literal notranslate"><span class="pre">attributeValue</span></code> corresponds to it’s given value. This value could be a string, an integer or a dictionnary.</p>
+<div class="admonition-info admonition">
+<p class="admonition-title">Info</p>
+<p>Sets are not allowed at this time.</p>
+</div>
+<p>For example, let’s say you want to create a new attribute called <code class="docutils literal notranslate"><span class="pre">uniqueIdentifier</span></code> which will be equal to an integer. To define such attribute, use the following code :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Considering that the data variable is an instance of the mzData class initialized with the default values.</span>
+
+<span class="n">data</span><span class="o">.</span><span class="n">setAttribute</span><span class="p">(</span><span class="n">attributeName</span><span class="o">=</span><span class="s2">&quot;uniqueIdentifier&quot;</span><span class="p">,</span> <span class="n">attributeValue</span><span class="o">=</span><span class="mi">2846</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>It is not possible yet to define an empty attribute with no value associated with it. This is a feature which will be added in a future release.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Whenever you create a new attribute, you need to give it a value even if it is a blank string.</p>
+</div>
+</section>
+</section>
+<section id="getattribute">
+<h3>getAttribute<a class="headerlink" href="#getattribute" title="Link to this heading"></a></h3>
+<section id="id10">
+<h4>Presentation<a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
+<p>This one is pretty straight forward, returns the current value associated with the given attribute name.</p>
+</section>
+<section id="id11">
+<h4>Definition<a class="headerlink" href="#id11" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">getAttribute</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzData</span><span class="p">,</span> <span class="n">attributeName</span> <span class="p">:</span> <span class="nb">str</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id12">
+<h4>How to use<a class="headerlink" href="#id12" title="Link to this heading"></a></h4>
+<p>This function takes one parameter <code class="docutils literal notranslate"><span class="pre">attributeName</span></code> as a <code class="docutils literal notranslate"><span class="pre">str</span></code>. Here is how to get the associated value of the attribute <code class="docutils literal notranslate"><span class="pre">uniqueIdentifier</span></code> defined above :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="n">ID</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">getAttribute</span><span class="p">(</span><span class="n">attributeName</span><span class="o">=</span><span class="s2">&quot;uniqueIdentifier&quot;</span><span class="p">)</span>
+<span class="c1"># ID should be equal to 2846</span>
+
+</pre></div>
+</div>
+<p>If the attribute doesn’t exists, an error will be thrown by this function with the type <code class="docutils literal notranslate"><span class="pre">mzDataError</span></code>.</p>
+</section>
+</section>
+<section id="getattributenames">
+<h3>getAttributeNames<a class="headerlink" href="#getattributenames" title="Link to this heading"></a></h3>
+<section id="id13">
+<h4>Presentation<a class="headerlink" href="#id13" title="Link to this heading"></a></h4>
+<p>This function returns all defined attributes names as a list of string values.</p>
+</section>
+<section id="id14">
+<h4>Definition<a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">getAttributesNames</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzData</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id15">
+<h4>How to use<a class="headerlink" href="#id15" title="Link to this heading"></a></h4>
+<p>The usage of <code class="docutils literal notranslate"><span class="pre">getAttributeNames</span></code> function is pretty straight forward. From an already created <code class="docutils literal notranslate"><span class="pre">mzData</span></code> object call the function as shown below :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Considering data a variable of `mzData` class</span>
+
+<span class="n">attributes</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">getAttributesNames</span><span class="p">()</span>
+
+<span class="c1"># With previously defined attributes in this page, this function should results :</span>
+<span class="c1"># attributes = [&quot;uniqueIdentifier&quot;]</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="deleteattribute">
+<h3>deleteAttribute<a class="headerlink" href="#deleteattribute" title="Link to this heading"></a></h3>
+<section id="id16">
+<h4>Presentation<a class="headerlink" href="#id16" title="Link to this heading"></a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">deleteAttribute</span></code> function removes the given attribute name as a <code class="docutils literal notranslate"><span class="pre">str</span></code> from the list of custom attributes. Throws an error if the attribute name is not found.</p>
+</section>
+<section id="id17">
+<h4>Definition<a class="headerlink" href="#id17" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">deleteAttribute</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzData</span><span class="p">,</span> <span class="n">attributeName</span> <span class="p">:</span> <span class="nb">str</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id18">
+<h4>How to use<a class="headerlink" href="#id18" title="Link to this heading"></a></h4>
+<p>From an already initialized <code class="docutils literal notranslate"><span class="pre">mzData</span></code> class, use the following code to call this function :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">deleteAttribute</span><span class="p">(</span><span class="n">attributeName</span><span class="o">=</span><span class="s2">&quot;uniqueIdentifier&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This function is a void, so it doesn’t returns any value. If an error occurs, it will be thrown.</p>
+</section>
+</section>
+<section id="clearattributes">
+<h3>clearAttributes<a class="headerlink" href="#clearattributes" title="Link to this heading"></a></h3>
+<section id="id19">
+<h4>Presentation<a class="headerlink" href="#id19" title="Link to this heading"></a></h4>
+<p>This function removes all custom user defined attributes. Use this function carefully because it removes everything. Use <code class="docutils literal notranslate"><span class="pre">removeAttribute</span></code> to have a better control over the available attributes.</p>
+</section>
+<section id="id20">
+<h4>Definition<a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">clearAttributes</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzData</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id21">
+<h4>How to use<a class="headerlink" href="#id21" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">clearAttributes</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>There is no return to this function.</p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="matStruct.html" class="btn btn-neutral float-left" title="matStruct" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="mzDataXMLStruct.html" class="btn btn-neutral float-right" title="mzDataXMLStruct" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, CORDELLA Maxime.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

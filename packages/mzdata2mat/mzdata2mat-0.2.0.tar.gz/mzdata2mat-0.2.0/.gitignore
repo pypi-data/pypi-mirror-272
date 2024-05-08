@@ -1,0 +1,15 @@
+dist
+old
+*.egg-info
+.DS*
+__*__
+__pycache__/
+*.py[cod]
+*$py.class
+docs/_build/
+roadmap.md
+tests/bin
+tests/include
+tests/lib
+tests/pyvenv.cfg
+tests/Scripts
