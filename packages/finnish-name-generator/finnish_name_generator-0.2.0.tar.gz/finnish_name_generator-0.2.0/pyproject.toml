@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "finnish-name-generator"
+version = "0.2.0"
+description = "Generate random Finnish names"
+authors = ["Lassi Haasio"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+isort = "^5.13.2"
+mypy = "^1.10.0"
+ipython = "^8.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
