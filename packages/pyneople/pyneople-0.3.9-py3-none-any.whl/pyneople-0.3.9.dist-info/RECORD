@@ -1,0 +1,10 @@
+pyneople/METADATA.py,sha256=oJwwYXw0C24ubr9bMe-1FTmIdWXgdym3x9fTc-H1ETY,8406
+pyneople/__init__.py,sha256=F5NJfwEuNlVF2uw3icpB-uq3rHdFe_QERN53Q2-x5hI,24
+pyneople/character.py,sha256=cZBK5yWhl6VGAn2JO3KrC9NdVraXQW5lSGug1MQkxl4,37562
+pyneople/database_connecter.py,sha256=c5Mk7spb7E0OKjD38HsPfam0HycBZPUG5ty27ek6_k0,22894
+pyneople/functions.py,sha256=LpbGBep74bs11mHPEA8Z5Yi8ZYMMw2dRv1Exf6LTd1c,7061
+pyneople-0.3.9.dist-info/LICENSE,sha256=IezqYErKVySCuFY6lF66aoTUIQUqVJYWFstetKxdQf4,1067
+pyneople-0.3.9.dist-info/METADATA,sha256=RJPMbx06NZn3h0LsOPDpM-FkfUVrebQEOnDM6aa7Yww,988
+pyneople-0.3.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyneople-0.3.9.dist-info/top_level.txt,sha256=_CDIT_STLo8MgJpFD5lZ4sO5oM7lBUTA3YEnev29SRk,9
+pyneople-0.3.9.dist-info/RECORD,,
