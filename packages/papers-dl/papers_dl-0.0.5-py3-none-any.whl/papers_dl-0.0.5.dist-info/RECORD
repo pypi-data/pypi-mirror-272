@@ -1,0 +1,10 @@
+__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+papers_dl.py,sha256=u0dRZS3izVfhXD72973_z4QSCSjzBN2iVWPed53OuS0,3562
+parse.py,sha256=XUxR_hE2dB24ocLLdCUwTaryodAi0q9rw8IasF_v6r4,2384
+scihub.py,sha256=dAmhdMoei3ZZU4Ciji7C3zouvO5xSNPyNNvyBtSckSM,7881
+papers_dl-0.0.5.dist-info/LICENSE,sha256=YIBNfGgk3v3n85eIGBpTMYIsb0zwCsi3Ng4KbWaJWNQ,1070
+papers_dl-0.0.5.dist-info/METADATA,sha256=5CHwV6Oq-eh0cQiXEugI_VE2mEzJjWZ1D5Ykgaehf9U,2640
+papers_dl-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+papers_dl-0.0.5.dist-info/entry_points.txt,sha256=gEpygZ-R0aSY4mV7-Ti3FTXXMuf4juVTeQZVJCf96WQ,45
+papers_dl-0.0.5.dist-info/top_level.txt,sha256=tK6yJxXAILP3TxxWvvWKuYa5MKU53GQ_MN3GjS_qt-Q,32
+papers_dl-0.0.5.dist-info/RECORD,,
