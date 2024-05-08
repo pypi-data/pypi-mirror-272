@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+libconfigv1/LibConfig.py
+libconfigv1/__init__.py
+libconfigv1.egg-info/PKG-INFO
+libconfigv1.egg-info/SOURCES.txt
+libconfigv1.egg-info/dependency_links.txt
+libconfigv1.egg-info/requires.txt
+libconfigv1.egg-info/top_level.txt

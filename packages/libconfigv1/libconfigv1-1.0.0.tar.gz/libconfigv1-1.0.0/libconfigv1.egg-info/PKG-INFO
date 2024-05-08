@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: libconfigv1
+Version: 1.0.0
+Summary: A library for working with YAML configuration files
+Home-page: https://github.com/Amitminer/LibConfig-PY
+Author: amitminer
+Author-email: amitxd4871@gmail.com
+License-File: LICENSE
+Requires-Dist: pyyaml
