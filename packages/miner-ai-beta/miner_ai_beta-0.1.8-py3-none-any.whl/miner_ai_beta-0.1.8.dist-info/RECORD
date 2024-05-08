@@ -1,0 +1,12 @@
+miner_ai_beta/loader/__init__.py,sha256=2-SMTcJDFekHNaxhzRONYGMRS37S9MO-Y-M8O5upBu4,242
+miner_ai_beta/loader/docs.py,sha256=4Nb9Pqcqrtz8hrvHL_occtSRc_JOPCMGvn8GnDWdSBk,1804
+miner_ai_beta/loader/excels.py,sha256=c-Ixt80Y4eBhRwjHB3n0TRyrk2gQEZO1_03JpOYbe1Q,1915
+miner_ai_beta/loader/pdfs.py,sha256=_Y29mr_S6v0vd7RHFhe5ZQl6kn6rEvgWSb--o-D9gek,1760
+miner_ai_beta/loader/ppts.py,sha256=lmraO623o0ZLqWOSKdV37gaL54V5ClW4g6JHQ_4hsmw,1805
+miner_ai_beta/loader/tubes.py,sha256=yQiX-BWJUV3cpmnofvavF4qYtKCTb4lU0QyRAlIyvbU,1895
+miner_ai_beta/loader/union.py,sha256=w82qqpGZ9cJYIsGf1tgBCIDoP7VaGBvXkSjAoaPxl9k,361
+miner_ai_beta/loader/web_pages.py,sha256=wLYga2SORLuGE30Wen8zTqYlqfgtrWGyBXaLaVxzQXk,1873
+miner_ai_beta-0.1.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+miner_ai_beta-0.1.8.dist-info/METADATA,sha256=m_yO4Jd1dxyR8G9Rqqju7Fu2jJfuRvAa9QNx7KhyqHE,4883
+miner_ai_beta-0.1.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+miner_ai_beta-0.1.8.dist-info/RECORD,,
