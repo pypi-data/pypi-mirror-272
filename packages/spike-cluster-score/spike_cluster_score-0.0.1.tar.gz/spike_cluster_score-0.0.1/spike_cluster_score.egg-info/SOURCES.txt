@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+spike_cluster_score/__init__.py
+spike_cluster_score/main.py
+spike_cluster_score/scores.py
+spike_cluster_score/scs.py
+spike_cluster_score.egg-info/PKG-INFO
+spike_cluster_score.egg-info/SOURCES.txt
+spike_cluster_score.egg-info/dependency_links.txt
+spike_cluster_score.egg-info/requires.txt
+spike_cluster_score.egg-info/top_level.txt
