@@ -1,0 +1,226 @@
+import ast
+import csv
+import json
+import re
+from io import StringIO
+
+
+def limit_data_size(
+    data: list[dict[str, str]], character_limit: int = 10000
+) -> list[dict[str, str]]:
+    # Helper function to get total character count for a given row
+    def get_row_char_count(row: dict[str, str]) -> int:
+        return (
+            sum(len(str(value)) + len(str(key)) for key, value in row.items())
+            + len(row)
+            - 1
+        )
+
+    # Helper function to limit the characters per field in a row
+    def limit_row_chars(
+        row: dict[str, str], char_limit_per_field: int
+    ) -> dict[str, str]:
+        return {key: str(value)[:char_limit_per_field] for key, value in row.items()}
+
+    # Initialize the resulting data list and the character counter
+    result_data = []
+    total_char_count = 0
+
+    for row in data:
+        # Calculate the character count for the current row
+        row_char_count = get_row_char_count(row)
+
+        # If adding this row will exceed the limit
+        if total_char_count + row_char_count > character_limit:
+            # If this is the only row we are processing, then limit characters per field
+            if len(result_data) == 0:
+                avg_chars_per_field = (character_limit - total_char_count) // len(row)
+                if avg_chars_per_field < 1:
+                    return "Error: Too many fields to display data within the character limit."
+                limited_row = limit_row_chars(row, avg_chars_per_field)
+                result_data.append(limited_row)
+            break
+
+        # Otherwise, add this row to the result and update the total character count
+        result_data.append(row)
+        total_char_count += row_char_count
+
+    return result_data
+
+
+def csv_dumps(data: list[dict]) -> str:
+    # Dumps to CSV, with header row
+    if not data:
+        return "[]"
+
+    limited_data = limit_data_size(data, character_limit=500)
+    header = list(data[0].keys())
+    with StringIO() as output:
+        writer = csv.DictWriter(output, fieldnames=header)
+        writer.writeheader()
+        writer.writerows(limited_data)
+        output = output.getvalue().strip()
+        output.replace("\r\n", "\n").replace("\r", "\n")
+
+    if len(limited_data) < len(data):
+        output += f"\n\n... {len((limited_data))} of {len(data)} rows displayed."
+    return output
+
+
+def parse_function(text: str) -> dict:
+    # Cleaning the text
+    lines = text.strip().split("\n")
+    text = " ".join(
+        line[2:] if line.startswith(">") else line for line in lines
+    )  # remove the leading ">"
+
+    # Replacing the multiline string delimiters
+    parts = text.split("```")
+    for i in range(1, len(parts), 2):
+        parts[i] = f"'''{parts[i]}'''"
+    text = "".join(parts)
+
+    # Parsing the text using ast
+    parsed = ast.parse(text).body[0].value
+
+    # Check if it's a valid function call
+    if not isinstance(parsed, ast.Call):
+        raise ValueError("The text does not contain a valid function call.")
+
+    # Extracting the function name
+    function_name = parsed.func.id
+
+    # Extracting the arguments
+    arguments = {}
+    for keyword in parsed.keywords:
+        if isinstance(keyword.value, ast.Str):
+            value = keyword.value.s
+            arguments[keyword.arg] = value
+        elif isinstance(keyword.value, ast.List):
+            arguments[keyword.arg] = [el.s for el in keyword.value.elts]
+        elif isinstance(keyword.value, ast.Dict):
+            dict_values = {}
+            for k, v in zip(keyword.value.keys, keyword.value.values):
+                if isinstance(v, ast.Str):
+                    dict_values[k.s] = v.s
+            arguments[keyword.arg] = dict_values
+
+    if not arguments:
+        raise ValueError("The function call does not contain any arguments.")
+
+    return {"name": function_name, "arguments": arguments}
+
+
+class StructuredParser:
+    """
+    Parse the output from LLM into a structured format.
+    """
+
+    def parse(self, input_str):
+        """
+        Parses an input string and returns a corresponding structured dictionary.
+
+        Parameters:
+            input_str (str): The input string to parse.
+
+        Returns:
+            dict: A dictionary representing the parsed structure.
+        """
+        # Handle simple content patterns
+        if input_str.strip().startswith('> "'):
+            content_match = re.match(r'^\s*"([^"]+)"', input_str)
+            if content_match:
+                return {"content": content_match.group(1), "function_call": None}
+
+        # Handle explicit function patterns
+        function_start = "<function>"
+        if input_str.startswith(function_start):
+            # Trim leading pattern and trailing quote
+            function_data = input_str[len(function_start) :].rstrip('"')
+
+            # Extract <arguments> section
+            if "<arguments>" in function_data:
+                func_name, arguments_str = function_data.split("<arguments>", 1)
+                func_name = func_name.strip()
+
+                # Replace escaped quotes for proper JSON parsing
+                arguments_str = arguments_str.replace('\\"', '"')
+
+                try:
+                    # Load the JSON arguments
+                    arguments = json.loads(arguments_str)
+                except json.JSONDecodeError:
+                    raise ValueError("Failed to decode the JSON arguments.")
+
+                return {
+                    "content": None,
+                    "function_call": {"name": func_name, "arguments": arguments},
+                }
+
+        raise ValueError("Input string does not match any expected pattern.")
+
+
+def split_message(message):
+    """Split message into content and function_call_str
+    > message = "boat > flight\n> attack()"
+    > split_message(message)
+    > ('boat > flight', 'attack()')
+    """
+    lines = message.split("\n")
+    content = []
+    function_call_str = []
+
+    switch = False
+    for line in lines:
+        if line.startswith(">"):
+            switch = True
+            function_call_str.append(line[1:].strip())  # Remove the leading ">"
+        else:
+            if switch:
+                function_call_str.append(line)
+            else:
+                content.append(line)
+
+    return "\n".join(content), "\n".join(function_call_str)
+
+
+def parse_chat_template(filename):
+    with open(filename) as f:
+        string = f.read()
+
+    # split the string by "\n## " to get a list of speaker and message pairs
+    pairs = string.split("## ")[1:]
+
+    # split each element of the resulting list by "\n" to separate the speaker and message
+    pairs = [pair.split("\n", 1) for pair in pairs]
+
+    # create a list of tuples
+    messages = [(pair[0], pair[1].strip()) for pair in pairs]
+
+    examples = []
+    instruction = None
+    for ind, message in enumerate(messages):
+        # If first message role is a system message, extract the example
+        if ind == 0 and message[0] == "system":
+            instruction = message[1]
+        else:
+            role = message[0].strip().lower()
+            message = message[1]
+
+            content, function_call_str = split_message(message)
+            if function_call_str:
+                examples.append(
+                    {
+                        "role": role,
+                        "content": content if content else None,
+                        "function_call": {**parse_function(function_call_str)},
+                    }
+                )
+            else:
+                examples.append(
+                    {
+                        "role": role,
+                        "content": message,
+                    }
+                )
+    return instruction, examples
