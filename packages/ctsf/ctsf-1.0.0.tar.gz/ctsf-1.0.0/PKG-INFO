@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ctsf
+Version: 1.0.0
+Summary: Certificate Transparency Subdomain Finder
+Home-page: https://erfansamandarian.com/ctsf
+Author: Erfan Samandarian
+Author-email: mail@erfansamandarian.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+
+Certificate Transparency Subdomain Finder
