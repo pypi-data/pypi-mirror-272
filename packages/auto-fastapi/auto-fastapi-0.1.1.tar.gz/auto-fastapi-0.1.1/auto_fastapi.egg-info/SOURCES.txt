@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+build.py
+requirements.txt
+setup.py
+auto_fastapi/__init__.py
+auto_fastapi/auto.py
+auto_fastapi/automation.py
+auto_fastapi/base.py
+auto_fastapi/server.py
+auto_fastapi.egg-info/PKG-INFO
+auto_fastapi.egg-info/SOURCES.txt
+auto_fastapi.egg-info/dependency_links.txt
+auto_fastapi.egg-info/requires.txt
+auto_fastapi.egg-info/top_level.txt
