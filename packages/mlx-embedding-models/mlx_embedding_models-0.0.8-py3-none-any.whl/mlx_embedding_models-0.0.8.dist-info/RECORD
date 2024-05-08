@@ -1,0 +1,11 @@
+mlx_embedding_models/embedding.py,sha256=trGp5Ggx9ro7uCjn6QyXWSbKKcCbQr1PBDgeQJ9dGhk,12078
+mlx_embedding_models/load_utils.py,sha256=gltBpwbYwUpnutBEajGwBp_pQACl_fWD_AlIJCxEHxs,4879
+mlx_embedding_models/model.py,sha256=FsD8pmHUOmVSkcyGUGkkDX7Yc-5byduCw8vdPsLINj8,7194
+mlx_embedding_models/nomic_model.py,sha256=LMqBUX_xAXdC998EYH48OP2I_kbp890UfJt37sLUC1E,9624
+mlx_embedding_models/registry.py,sha256=6MTzU7pUrmrArb3aEAvAu4jpxrsoATTfDMx8eMGk41g,3548
+mlx_embedding_models/test_mteb.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlx_embedding_models-0.0.8.dist-info/LICENSE,sha256=CJpF_GwYKDRGDtddKp_x-98oH0quI5VsMrYclI7G-40,1066
+mlx_embedding_models-0.0.8.dist-info/METADATA,sha256=FOsxhq4J_IEkGDt1aYoORtXO52stXDgqu6PWqLuMOGY,1023
+mlx_embedding_models-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mlx_embedding_models-0.0.8.dist-info/top_level.txt,sha256=OqkYuiPS95QFVEzqS4IU8_fgnvbJc2FEsmpFDHbt-ns,21
+mlx_embedding_models-0.0.8.dist-info/RECORD,,
