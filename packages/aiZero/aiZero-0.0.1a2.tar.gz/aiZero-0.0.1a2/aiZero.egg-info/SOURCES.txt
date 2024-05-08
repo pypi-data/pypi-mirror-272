@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+aiZero/__init__.py
+aiZero.egg-info/PKG-INFO
+aiZero.egg-info/SOURCES.txt
+aiZero.egg-info/dependency_links.txt
+aiZero.egg-info/requires.txt
+aiZero.egg-info/top_level.txt
+aiZero/static/audios/1a32d899-90f3-46e7-a26c-7a744b1516a7.wav
+aiZero/static/js/marked.min.js
+aiZero/templates/index.html
