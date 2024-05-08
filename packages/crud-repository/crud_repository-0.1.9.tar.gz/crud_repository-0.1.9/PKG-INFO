@@ -1,0 +1,176 @@
+Metadata-Version: 2.1
+Name: crud_repository
+Version: 0.1.9
+Summary: The CRUDRepository is a Python project designed to provide a generic implementation of Create, Read, Update, and Delete (CRUD) operations for various databases.
+Home-page: https://github.com/dellius-alexander/CRUDRepository.git
+Author: Dellius Alexander
+Author-email: Dellius Alexander <dalexander@hyfisolutions.com>, info@hyfisolutions.com
+Maintainer-email: Dellius Alexander <dalexander@hyfisolutions.com>
+License: MIT License
+        
+        Copyright (c) 2024 Dellius Alexander
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/dellius-alexander/CRUDRepository.git
+Keywords: crud-repository,database,model,abstraction
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlalchemy>=2.0.29
+Requires-Dist: psycopg2-binary>=2.9.9
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: colorlog>=6.4.1
+Requires-Dist: cryptography>=42.0.5
+Requires-Dist: pymysql>=1.1.0
+Requires-Dist: SQLAlchemy-Utils>=0.41.2
+
+[![Build test and deploy to package repository](https://github.com/dellius-alexander/CRUDRepository/actions/workflows/deploy.yml/badge.svg)](https://github.com/dellius-alexander/CRUDRepository/actions/workflows/deploy.yml)
+
+---
+
+# CRUD Repository
+
+---
+## Description
+
+The CRUDRepository is a Python project designed to provide a 
+generic implementation of Create, Read, Update, and Delete (CRUD) 
+operations for various databases. It uses the Repository design pattern 
+to abstract the data access layer, allowing for easy switching between 
+different databases using the Factory pattern in which each database 
+object implements a Singleton object.  
+
+The project includes classes for handling different types of databases 
+such as PostgreSQL, MySQL, and MariaDB. Each of these classes implements 
+a common Interface, ensuring a consistent method of interaction 
+regardless of the underlying database.  
+
+The CRUDRepository also includes a Repository class that provides generic 
+CRUD operations. This class can be used as a base for creating more specific 
+repositories, like the test Repository UserRepository included in the project, which is 
+designed to manage User instances.  
+
+The project uses SQLAlchemy for ORM, providing a high-level, Pythonic 
+interface for database operations. It also includes a DatabaseFactory for 
+creating instances of the appropriate database class based on provided 
+configuration.  
+
+In summary, CRUDRepository is a flexible and extensible 
+foundation for Python applications that require database interactions, 
+abstracting the complexities of direct database access and providing a 
+clear and simple interface for performing CRUD operations.
+
+---
+
+## Installation
+    
+```bash
+pip install crud-repository
+```
+
+## Code Example Usage
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+from crud_repository.db.factory import DatabaseFactory
+from typing import Optional
+from sqlalchemy import Column, Sequence, Integer, String
+from sqlalchemy.orm import Mapped
+from crud_repository.model.base import Base
+from db.idatabase import IDatabase
+from crud_repository.repo.repository import Repository
+
+
+# ---------------------------------------------------------
+# Create a User model
+# ---------------------------------------------------------
+class User(Base):
+    __tablename__ = "user"
+
+    id: Mapped[int] = Column(
+        Integer,
+        Sequence("user_id_seq"),
+        primary_key=True,
+        autoincrement=True,
+        nullable=False,
+        unique=True,
+        index=True,
+    )
+    username: Mapped[str] = Column(String(128), nullable=False)
+    password: Mapped[Optional[str]] = Column(String(128), nullable=True)
+
+    def to_dict(self) -> dict:
+        return {"id": self.id, "username": self.username, "password": self.password}
+
+    def as_dict(self) -> dict:  # renamed from __dict__ to as_dict
+        return self.to_dict()
+
+    def __repr__(self) -> str:
+        return (
+            f"User(id={self.id!r}, name={self.username!r}, fullname={self.password!r})"
+        )
+
+
+# ---------------------------------------------------------
+# Create a UserRepository instance with the database instance
+# ---------------------------------------------------------
+class UserRepository(Repository[User]):
+    def __init__(self, database: IDatabase):
+        super().__init__(database, User)
+
+
+# ---------------------------------------------------------
+# Create a new user
+# ---------------------------------------------------------
+if __name__ == '__main__':
+    # Create a new database instance
+    db_config = {
+        'type': 'postgresql',
+        'db_name': 'volunteer',
+        'user': "postgres",
+        'password': "adminpassword",
+        'host': "127.0.0.1",
+        'port': "5432"
+    }
+    # Create a new database instance
+    db = DatabaseFactory.create(db_config)
+
+    # Create a UserRepository instance with the database instance
+    user_repo = UserRepository(db)
+
+    # OR create a generic Repository instance with the 
+    # database instance and the User model
+    #user_repo = Repository(db, User)
+
+    # Create a new user
+    user = User(username='Candy', password='password')
+
+    # Add the user to the database
+    user_repo.create(user)
+```
+---
+
