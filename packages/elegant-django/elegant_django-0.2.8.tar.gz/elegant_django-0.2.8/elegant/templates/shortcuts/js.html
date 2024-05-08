@@ -1,0 +1,14 @@
+{% load elegant_shortcuts %}
+{% if enable_hide_app_list %}
+  <script type="text/javascript">
+    var jq = (window.django && window.django.jQuery) ? django.jQuery : jQuery;
+    jq(function () {
+      jq('#shortcuts').hide();
+      jq('#toggle_app_list').bind('click', function (e) {
+        e.preventDefault();
+        jq('#shortcuts').slideToggle(300);
+        jq(this).toggleClass('open');
+      });
+    });
+  </script>
+{% endif %}

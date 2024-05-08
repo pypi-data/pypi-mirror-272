@@ -1,0 +1,89 @@
+[tool.poetry]
+name = "elegant-django"
+version = "0.2.8"
+description = 'Modern theme for Django admin interface.'
+authors = ["bopo <ibopo@126.com>"]
+readme = "README.md"
+packages = [{ include = "elegant" }]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Framework :: Django',
+    'License :: Free for non-commercial use',
+    'Intended Audience :: Developers',
+    'Intended Audience :: System Administrators',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Environment :: Web Environment',
+    'Topic :: Software Development',
+    'Topic :: Software Development :: User Interfaces',
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "default"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "explicit"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.2"
+pytest-django = "^4.8.0"
+django = "<5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "tests.settings"
+python_files = ["tests.py", "test.py", "test_*.py", "*_tests.py"]
+addopts = "-p no:warnings"
+
+
+[tool.commitizen]
+tag_format = "v$version"
+annotated_tag = true
+changelog_incremental = true
+update_changelog_on_bump = true
+version_provider = "poetry"
+version_files = [
+    "elegant/__init__.py:__version__",
+]
+
+
+[tool.isort]
+profile = "django"
+combine_as_imports = true
+include_trailing_comma = true
+line_length = 180
+
+
+[tool.ruff]
+line-length = 180
+
+
+[tool.poe.tasks]
+venv = "poetry install --sync"
+lock = "poetry lock --no-update"
+
+test = "poetry run pytest"
+lint = "poetry run ruff check ./elegant/*.py --fix"
+
+dist = "poetry build -v"
+bump = "cz bump --yes -ch -cc --increment"
+#{MAJOR,MINOR,PATCH}

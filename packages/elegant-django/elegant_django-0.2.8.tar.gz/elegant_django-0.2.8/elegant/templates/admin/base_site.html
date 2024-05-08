@@ -1,0 +1,108 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% load elegant_shortcuts %}
+
+<!-- Environment notice -->
+{% block extrastyle %}{{ block.super }}
+  {% if ENVIRONMENT_NAME and ENVIRONMENT_COLOR and show_notice %}
+    <!-- Environment notice -->
+    <style type="text/css"{% if request.csp_nonce %} nonce="{{ request.csp_nonce }}"{% endif %}>
+      {{ ENVIRONMENT_ADMIN_SELECTOR }}:before {
+        display: block;
+        text-align: center;
+        padding: 0px 5px;
+        font-weight: bold;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: {{ ENVIRONMENT_TEXT_COLOR }};
+        content: "{{ ENVIRONMENT_NAME }}";
+        background-color: {{ ENVIRONMENT_COLOR }};
+      {#transform: rotate(45deg);#} float: right;
+        border-radius: 0 0 0 5px;
+
+      {% if ENVIRONMENT_FLOAT %}
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      {% endif %}
+      }
+    </style>
+  {% endif %}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/solid.css"
+          integrity="sha384-fZFUEa75TqnWs6kJuLABg1hDDArGv1sOKyoqc7RubztZ1lvSU7BS+rc5mwf1Is5a" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/fontawesome.css"
+          integrity="sha384-syoT0d9IcMjfxtHzbJUlNIuL19vD9XQAdOzftC+llPALVSZdxUpVXE0niLOiw/mn" crossorigin="anonymous">
+    <style>{% admin_shortcuts_css %}</style>
+{% endblock %}
+<!-- //Environment notice -->
+{% block nav-global %}
+    {% block admin_shortcuts %}
+      </div>  {# this closes the #header div #}
+      <div class="admin_shortcuts">
+      {% admin_shortcuts %}
+      {# </div>  don't close this one, because it's closed in base.html #}
+    {% endblock %}
+{% endblock %}
+
+{% block extrahead %}
+  {{ block.super }}
+    {% admin_shortcuts_js %}
+{% endblock %}
+
+{# Additional <head> content here, some extra meta tags or favicon #}
+{#{% block extrahead %}#}
+{#{% endblock %}#}
+
+
+{# Additional CSS includes #}
+{#{% block extrastyle %}#}
+{#  <link rel="stylesheet" type="text/css" href="{% static 'css/my_project.css' %}" media="all">#}
+{#{% endblock %}#}
+
+
+{# Additional JS files in footer, right before </body> #}
+{#{% block extrajs %}#}
+{#  <script type="text/javascript" src="{% static 'js/my_project.js' %}"></script>#}
+{#{% endblock %}#}
+
+
+{# Footer links (left side) #}
+{#{% block footer_links %}#}
+{#  <a href="/docs/" class="icon"><i class="icon-question-sign"></i>Documentation</a>#}
+{#{% endblock %}#}
+
+{# Additional header content like notifications or language switcher #}
+{#{% block header_content %}#}
+{#    {{ block.super }}#}
+{#    <div class="header-content">#}
+{#        <!-- First icon column -->#}
+{#        <div class="header-column icon">#}
+{#            <i class="icon-home"></i><br>#}
+{#            <i class="icon-cog"></i>#}
+{#        </div>#}
+{#        <div class="header-column" style="margin-right: 20px">#}
+{#            <a href="/" class="grey">Front-end</a><br>#}
+{#            <a href="" class="grey">One more link</a>#}
+{#        </div>#}
+{#        <!-- Second icon column -->#}
+{#        <div class="header-column icon">#}
+{#            <i class="icon-comment"></i>#}
+{#        </div>#}
+{#        <div class="header-column">#}
+{#            <a href="" class="grey">5 new messages</a>#}
+{#        </div>#}
+{#    </div>#}
+{#{% endblock %}#}
+
+{# Footer branding name (center) #}
+{#{% block footer_branding %}#}
+{#{% endblock %}#}
+
+{#{% block footer %}{% endblock %}#}
+{# Footer copyright (right side) #}
+{% block footer_branding %}{% endblock %}
+{% block footer_links %}{% endblock %}
+{% block copyright %}
+  Copyright &copy; 2020 Developed by <a href="mailto:ibopo@126.com" target="_blank">BoPo</a>
+{% endblock %}
+
