@@ -1,0 +1,5 @@
+numpy
+scikit-learn
+
+[dev]
+twine>=4.0.2
