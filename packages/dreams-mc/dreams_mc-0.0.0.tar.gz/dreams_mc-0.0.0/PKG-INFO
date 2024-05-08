@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dreams-mc
+Version: 0.0.0
+Summary: Library for DL models reporting
+Home-page: https://github.com/LucidJun/DREAM
+Author: LucidMoon
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+Requires-Dist: PyYAML==6.0.1
