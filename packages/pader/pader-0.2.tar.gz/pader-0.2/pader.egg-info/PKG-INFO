@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: pader
+Version: 0.2
+Summary: 轻量框架，支持中间件、检验等功能
+Home-page: https://github.com/markadc/sqlman
+Author: WangTuo
+Author-email: markadc@126.com
+License: MIT
+Keywords: Python,Spider
+Description-Content-Type: text/markdown
+
+# 项目说明
+
+- 轻量框架，支持中间件、检验等功能。用法与Scrapy、Feapder类似。
+
+# Python解释器
+
+- python3
+
+# 如何使用pader？
+
+#### 使用SlowSpider
+
+- 单线程爬虫
+
+```python
+from loguru import logger
+
+import pader
+
+
+class TestSpider(pader.SlowSpider):
+    start_urls = ['https://www.baidu.com']
+
+    def when_spider_start(self):
+        print('爬虫开始了...')
+
+    def when_spider_close(self):
+        print('...爬虫结束了')
+
+    def parse(self, request, response):
+        lis = response.xpath('//ul[@id="hotsearch-content-wrapper"]/li')
+        for li in lis:
+            url = li.xpath('./a/@href').get()
+            title = li.xpath('./a/span[last()]/text()').get()
+            logger.success(title)
+            logger.success(url)
+            logger.info('\r')
+            yield pader.Request(url, callback=self.parse_detail)
+
+    def parse_detail(self, request, response):
+        nodes = response.xpath('//div[@class="c-container"]//h3')
+        for node in nodes:
+            some = node.xpath('./a//text()').getall()
+            title = ''.join(some)
+            url = node.xpath('./a/@href').get()
+            logger.success(title)
+            logger.success(url)
+
+    def middleware(self, request):
+        request.mark = '百度首页' if request.callback.__name__ == 'parse' else '百度搜索页'
+        logger.info('进入了中间件，已设置记号为{}'.format(request.mark))
+
+    def validate(self, request, response):
+        logger.warning('进入了校验，记号={}'.format(request.mark))
+
+
+if __name__ == '__main__':
+    TestSpider().crawl()
+
+```
+
+#### 使用PaderSpider
+
+- 多线程爬虫
+
+```python
+import threading
+import time
+
+from loguru import logger
+
+import pader
+
+
+def t_name():
+    return threading.current_thread().name
+
+
+def show(request):
+    logger.success("回调: {}  =>  线程: {}".format(request.callback.__name__, t_name()))
+
+
+URL = "https://www.baidu.com/s?&wd=python3"
+
+
+class TestSpider(pader.PaderSpider):
+    def start_requests(self):
+        for i in range(5):
+            yield pader.Request(URL)
+
+    def when_spider_start(self):
+        logger.info('爬虫开始了...')
+
+    def when_spider_close(self):
+        logger.info('...爬虫结束了')
+
+    def parse(self, request, response):
+        show(request)
+        for i in range(2):
+            mark = 'parse-{}'.format(i + 1)
+            yield pader.Request(URL, mark=mark, callback=self.parse_list)
+
+    def parse_list(self, request, response):
+        show(request)
+        for i in range(3):
+            mark = 'parse_list-{}'.format(i + 1)
+            yield pader.Request(URL, mark=mark, callback=self.parse_detail)
+
+    def parse_detail(self, request, response):
+        show(request)
+
+    def middleware(self, request):
+        time.sleep(1)  # 睡眠1S方便看出并发效果
+
+
+if __name__ == '__main__':
+    TestSpider(speed=5, qsize=10).crawl()
+
+```
