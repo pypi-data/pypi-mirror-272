@@ -1,0 +1,10 @@
+mzdata2mat/__init__.py,sha256=BPaJ0y2fA-NXwOFEzuZkxKMwPDNR5wDxVvrEC06hnFg,118
+mzdata2mat/classes.py,sha256=evOzcCjdoPzsjLq-Zp-5wj_oHsjDKJLFL9yB4SBz9hg,8000
+mzdata2mat/errors.py,sha256=kPcvD5pDw8OtU_C4T8lQBuE4TzkEVm0ou5kTwk47qTw,373
+mzdata2mat/mzdata2mat.py,sha256=6AVfR2u1nsEmTLjvJi3QkOspMCCO0674LKSj2hj3YlE,11017
+mzdata2mat/tiny1.mzData.xml,sha256=lxP3rZ6T8En37xoQju6-rkCMjnuWBqcmIDWzdxGu2qA,33514
+mzdata2mat-0.2.0.dist-info/METADATA,sha256=UuPDHc_i9LyLDmPM7IO4Iceqx_hd9OXfroPc33Ha9cE,5842
+mzdata2mat-0.2.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+mzdata2mat-0.2.0.dist-info/entry_points.txt,sha256=Gr9pKeLHHpX_jUW_8v9C_fmIcg492WjAALV3BJAit6s,56
+mzdata2mat-0.2.0.dist-info/licenses/LICENSE.txt,sha256=gfNyWBeiprzc0Nkm9KdDvMJKNeWKl1oXqxEs4DnFUz8,4515
+mzdata2mat-0.2.0.dist-info/RECORD,,
