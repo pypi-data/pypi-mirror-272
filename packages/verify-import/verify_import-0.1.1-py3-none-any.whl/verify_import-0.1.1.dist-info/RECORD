@@ -1,0 +1,9 @@
+verify_import/__init__.py,sha256=myeElWWdU_GpWMnwkDMC9Xz3faIULx5Hv8G5Bm8IRTA,182
+verify_import/__init__.pyi,sha256=90me6GhEOTsdi2AHO2LPEVoflL8IMWF8DU9czR6bE_4,58
+verify_import/cli.py,sha256=uz8XM72Pbecn8p4L8vKQVALhR1A9TJTyNYugmHvDI94,596
+verify_import/main.py,sha256=Lqan7u6RhtKqqhxT78AH4RenVNfz4dl48jE_GjKclgU,551
+verify_import-0.1.1.dist-info/METADATA,sha256=59OdLdLA1PlwJT58RlH0GLZ0yZEmiNr5KUrbxwBjrBU,536
+verify_import-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+verify_import-0.1.1.dist-info/entry_points.txt,sha256=UXqjjTYoEX3wVaJdTqo58h9sYVUt3YitJqWwJ47ntiw,57
+verify_import-0.1.1.dist-info/top_level.txt,sha256=bIc_hrZ1UsA4U6hws4qSI2qvzxlOJA-MpVKYynU0Oyc,14
+verify_import-0.1.1.dist-info/RECORD,,
