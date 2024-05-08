@@ -1,0 +1,9 @@
+swemaps/__init__.py,sha256=N6iYAlElNuSFtH_RTk87oNgwVtnWrkOVZGb-76JwxL4,64
+swemaps/utils.py,sha256=hlD9R-xQ2zPEITMJKBcc9nuAOLpJKigdJM65Pr0LGjY,3727
+swemaps/data/fa.parquet,sha256=1TrgxZAWD5iWRBpcf1LWYVBKMIfzGTHbnefXbrf_uK0,63287
+swemaps/data/kommun.parquet,sha256=Qnh3BVnPU8roKFJRikVNBcTfAdI80i-pJnHnHyXGxIs,98708
+swemaps/data/lan.parquet,sha256=dwx3Ab2dAQe7Mr-Bn9q8Nna362AG_Uls3qnQPywkGhE,49115
+swemaps-0.1.0.dist-info/METADATA,sha256=L7RIh85ugrMWfPf04ELTLP5i9mKdiEHllMI3ksE-paU,5160
+swemaps-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+swemaps-0.1.0.dist-info/licenses/LICENSE,sha256=JhQJ9SKUxQncvLecNxdqfz1jTq3nDlFTmktQ8VTAZ80,1068
+swemaps-0.1.0.dist-info/RECORD,,
