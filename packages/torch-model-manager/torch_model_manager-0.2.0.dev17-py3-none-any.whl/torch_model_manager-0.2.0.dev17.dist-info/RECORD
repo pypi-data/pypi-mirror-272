@@ -1,0 +1,9 @@
+torch_model_manager/__init__.py,sha256=d22B1tMve8ZSp7Zcsx_cYhQAqPpa4vb-VSFMWONiOLA,95
+torch_model_manager/neptune_manager.py,sha256=AMUz9QK9uRvWlqd5NP4DQF7Oc5ERgK9-wRMLTA8F2Q8,30220
+torch_model_manager/torch_model_manager.py,sha256=XHMrlwemSnLz_QRg0llnt3u5Bw88V-Kcn0JcF7cT8J8,18831
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/helpers.py,sha256=IxNfv8mMx9PSSR08DP4Y1u3GZmstWWNvJLqDJ6QuWVA,7396
+torch_model_manager-0.2.0.dev17.dist-info/METADATA,sha256=_O5NjPF4L9xamvdFBiUaUtpcd5p5JLDdP3k1sKQwRN0,8726
+torch_model_manager-0.2.0.dev17.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+torch_model_manager-0.2.0.dev17.dist-info/top_level.txt,sha256=ePJHAJdVrENbePnILip0PBS04uCqxpZ5_Z7BSNIZ76E,26
+torch_model_manager-0.2.0.dev17.dist-info/RECORD,,
