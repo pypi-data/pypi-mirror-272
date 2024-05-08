@@ -1,0 +1,62 @@
+# TextToTest
+
+TextToTest is a Python package that facilitates the creation of tests from text files.
+
+## Installation
+
+You can install TextToTest via pip:
+
+```bash
+pip install texttotest
+```
+
+## Usage
+
+TextToTest provides a simple API for converting text files into test cases. Here's an example of how to use it:
+
+```python
+from texttotest import create_test_from_text
+
+text_file_path = "example.txt"
+test_code = create_test_from_text(text_file_path)
+print(test_code)
+```
+
+## Example
+
+Suppose you have a text file `example.txt` with the following content:
+
+```
+Test Case 1:
+Input: 5
+Output: 25
+
+Test Case 2:
+Input: 10
+Output: 100
+```
+
+Running the above code will generate the following test code:
+
+```python
+import unittest
+
+class TestGeneratedTests(unittest.TestCase):
+
+    def test_case_1(self):
+        self.assertEqual(5 * 5, 25)
+
+    def test_case_2(self):
+        self.assertEqual(10 * 10, 100)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue on the GitHub repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.

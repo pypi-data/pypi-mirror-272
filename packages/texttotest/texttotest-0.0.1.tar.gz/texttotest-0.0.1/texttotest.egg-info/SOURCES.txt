@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+texttotest/__init__.py
+texttotest/generate.py
+texttotest.egg-info/PKG-INFO
+texttotest.egg-info/SOURCES.txt
+texttotest.egg-info/dependency_links.txt
+texttotest.egg-info/top_level.txt
