@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=40.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tsst"
+version = "0.0.1"
+description = "A automatic trading application of package"
+authors = [{name = "tsst team", email = "ma2750335@gamil.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["quant", "quantitative", "investment", "trading", "algotrading"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "python-socketio"
+]
