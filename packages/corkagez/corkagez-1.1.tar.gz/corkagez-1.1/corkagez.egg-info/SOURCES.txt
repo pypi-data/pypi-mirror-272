@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+corkagez/__init__.py
+corkagez/main.py
+corkagez.egg-info/PKG-INFO
+corkagez.egg-info/SOURCES.txt
+corkagez.egg-info/dependency_links.txt
+corkagez.egg-info/requires.txt
+corkagez.egg-info/top_level.txt
