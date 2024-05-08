@@ -1,0 +1,3 @@
+[console_scripts]
+r-shepard=manage:main
+
