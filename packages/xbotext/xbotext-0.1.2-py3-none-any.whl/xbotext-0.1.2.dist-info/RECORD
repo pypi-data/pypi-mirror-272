@@ -1,0 +1,9 @@
+xbotext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xbotext/cache.py,sha256=ZwC7s4mZXihUKabDpf8KCfVq6-vABaQWnRrcXiUwZuM,3248
+xbotext/chromium.py,sha256=NCgNuVbvOEVeAB6df-FRG6LM7jj3HhhrBYUSQmFk_rg,522
+xbotext/regedit.py,sha256=ohnNwgywuto7Ngh0EsQ79xTbopwzPhBKMtiV4xLFOWk,605
+xbotext/sofaware.py,sha256=MCGB764k1x8jhTkTOiZh6dzErz6OVG0LKZ6uPCgIzt4,20
+xbotext/system.py,sha256=82AHx3IUN-D3v0J1xGxkoSsKNVMV0Jyqz5Tot4O71lQ,101
+xbotext-0.1.2.dist-info/METADATA,sha256=cYfTLMWAggOdK1aLy1zL2wMC6htki0xHzcf98f-OXR0,475
+xbotext-0.1.2.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+xbotext-0.1.2.dist-info/RECORD,,
