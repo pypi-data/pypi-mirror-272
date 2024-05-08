@@ -1,0 +1,6 @@
+boto3
+paramiko
+python-dotenv
+tensorflow
+tflite_runtime
+ultralytics
