@@ -1,0 +1,11 @@
+nonebot_plugin_ai_timetable/__init__.py,sha256=lzUoV8brfosXk_nyBn1zUxY2ig2uqNnqERoR5EiD2-Q,6249
+nonebot_plugin_ai_timetable/config.py,sha256=ztKvbvfL3dGHasx1_2r1B582IEFFNy_Vyy2FTdkTmV0,332
+nonebot_plugin_ai_timetable/data_manager.py,sha256=coSS9cfcGK6qBQPbheRGcA6-NtV4Z785dqvRbSvLXFY,6582
+nonebot_plugin_ai_timetable/manager.py,sha256=8KiAhWThjlTGhiUnjZ7t88j3bUDakys8SC8I60rTues,9908
+nonebot_plugin_ai_timetable/migrations/f67eb52d6a0f_init.py,sha256=Wew2rV9INd-W0fl5-J7flemPuI213lrlE2vod3bGzwI,2799
+nonebot_plugin_ai_timetable/model.py,sha256=6Ep5bAPi3wQtj9PSmCzTife3IqCa-zKxJ51yYaXTo5k,1774
+nonebot_plugin_ai_timetable/reminder.py,sha256=HMkQSetThXn_sydZNw8ANqL7gLuU8LJEVYI6LdC_lUU,8392
+nonebot_plugin_ai_timetable-0.4.1.dist-info/LICENSE,sha256=YqXvXgrBU_W-BDlIBqkomInI9toHT18KUD18XOGIu8M,1065
+nonebot_plugin_ai_timetable-0.4.1.dist-info/METADATA,sha256=0RXuWYpAm6p1nHOBpl9STATgT8U1TIa1iV0Oev_Boi8,12033
+nonebot_plugin_ai_timetable-0.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nonebot_plugin_ai_timetable-0.4.1.dist-info/RECORD,,
