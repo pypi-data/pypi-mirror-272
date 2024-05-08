@@ -1,0 +1,2 @@
+[console_scripts]
+msa-gui = msa_toolbox.ui.gui:demo2.launch
