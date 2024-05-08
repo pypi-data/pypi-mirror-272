@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+robotsparse/__init__.py
+robotsparse.egg-info/PKG-INFO
+robotsparse.egg-info/SOURCES.txt
+robotsparse.egg-info/dependency_links.txt
+robotsparse.egg-info/requires.txt
+robotsparse.egg-info/top_level.txt
+robotsparse/utils/_regex.py
+robotsparse/utils/exceptions.py
+robotsparse/utils/parser.py
