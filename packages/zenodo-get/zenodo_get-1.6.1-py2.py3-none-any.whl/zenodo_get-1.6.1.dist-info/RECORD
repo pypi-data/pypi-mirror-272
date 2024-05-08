@@ -1,0 +1,9 @@
+zenodo_get/__init__.py,sha256=i7SDhpAr2MgMUfSzUPhHG70lq3uIsoQ6_BL-_08RSII,1161
+zenodo_get/__main__.py,sha256=eFhJUxKlCzAjNTdzyKYW2i3mGTT45mzOanqCJy_P_sU,97
+zenodo_get/zget.py,sha256=oZdyGJ0vIZtYQ4rMf3NWgVvUy2h978Y-2lnnyQfoLo4,12519
+zenodo_get-1.6.1.dist-info/LICENSE.txt,sha256=V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY,34520
+zenodo_get-1.6.1.dist-info/METADATA,sha256=s1SMeT-wVmUonARyJWcDU_sjNzwP2PpC2APt9_8wMMo,1104
+zenodo_get-1.6.1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+zenodo_get-1.6.1.dist-info/entry_points.txt,sha256=i0t8GFmHHY4SrV1djeQKkuhtOO65JRDgaLJBJ_Qy-tM,58
+zenodo_get-1.6.1.dist-info/top_level.txt,sha256=B7IZZ1VFSW9T1tXkWIMDpsw6JClZ2aGEqvweEwD-uZQ,11
+zenodo_get-1.6.1.dist-info/RECORD,,
