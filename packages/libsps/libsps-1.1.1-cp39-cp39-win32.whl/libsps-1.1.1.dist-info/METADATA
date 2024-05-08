@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: libsps
+Version: 1.1.1
+Summary: O(1) region count queries using sparse prefix sums
+Home-page: https://github.com/Siegel-Lab/libSps
+Author: Markus Schmidt
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+
+libSps is a versatile C++ library designed for efficiently analyzing n-dimensional data. Specifically, it implements constant-time hyperrectangle count queries using a sparse prefix sum index. libSps is available as a header-only library for C++ as well as a Python 3 module.
+
+The library is ideal for processing interactome data (https://en.wikipedia.org/wiki/Chromosome_conformation_capture), and is therefore used in Smoother (https://github.com/Siegel-Lab/BioSmoother).
+
+libSps's documentation is available at https://libsps.readthedocs.io/.
+    
