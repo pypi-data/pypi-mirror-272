@@ -1,0 +1,7 @@
+requests
+opencv-python
+ddddocr
+execjs
+fake_useragent
+loguru
+lxml
