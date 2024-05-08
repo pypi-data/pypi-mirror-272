@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jspaste/__init__.py
+jspaste.egg-info/PKG-INFO
+jspaste.egg-info/SOURCES.txt
+jspaste.egg-info/dependency_links.txt
+jspaste.egg-info/requires.txt
+jspaste.egg-info/top_level.txt
+tests/__init__.py
+tests/test_jspaste.py
