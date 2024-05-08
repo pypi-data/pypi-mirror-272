@@ -1,0 +1,46 @@
+# CFX Middleware
+
+## Description
+CFX Middleware is a middleware platform designed to facilitate integration and communication between parser results systems and CM
+
+## Author
+- Victor Dominguez
+
+## Installation
+
+To install the package run
+
+```bash
+pip install cfx_middleware
+```
+
+if you want a specific version use
+
+```bash
+pip install cfx_middleware==version
+```
+
+## Usage
+In your py file you must call the package `from cfx_middleware import parser_result` and provide the parser result dict or JSON as parameter
+
+## Example
+```python
+from cfx_middleware import parser_result
+
+success = parser_result({parser_result})
+
+if success:
+
+    do something
+```
+
+## License
+This project is licensed under the PCD License.
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to CFX Middleware, please follow these steps:
+1. Fork the repository.
+2. Create a branch for your new feature (`git checkout -b feature/new-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push the branch (`git push origin feature/new-feature`).
+5. Create a new pull request.
