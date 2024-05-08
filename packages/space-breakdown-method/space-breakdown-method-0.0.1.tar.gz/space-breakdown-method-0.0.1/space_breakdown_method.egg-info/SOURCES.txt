@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+sbm/ISBM.py
+sbm/SBM.py
+sbm/TFBM.py
+sbm/__init__.py
+sbm/constants.py
+sbm/main.py
+space_breakdown_method.egg-info/PKG-INFO
+space_breakdown_method.egg-info/SOURCES.txt
+space_breakdown_method.egg-info/dependency_links.txt
+space_breakdown_method.egg-info/requires.txt
+space_breakdown_method.egg-info/top_level.txt
