@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cmoonvision"
+version = "0.2.1"
+description = "CmoonVision based on YoloV8"
+authors = ["cmoon <cmoon@mail.ustc.edu.cn>"]
+readme = "README.md"
+exclude = ["cmoonvision/images/**/*", "cmoonvision/runs/**/*", "cmoonvision/weights/**/*"]
+license = "AGPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ultralytics = "8.2.8"
+
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
