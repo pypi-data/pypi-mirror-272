@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+siglost_utils/__init__.py
+siglost_utils/util.py
+siglost_utils.egg-info/PKG-INFO
+siglost_utils.egg-info/SOURCES.txt
+siglost_utils.egg-info/dependency_links.txt
+siglost_utils.egg-info/top_level.txt
+tests/test_util.py
