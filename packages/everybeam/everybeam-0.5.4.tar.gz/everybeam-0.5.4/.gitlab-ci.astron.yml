@@ -1,0 +1,57 @@
+# Copyright (C) 2021 ASTRON (Netherlands Institute for Radio Astronomy)
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# This file contains the pipelines that run on the Astron repository of EveryBeam,
+# which is at https://git.astron.nl/RD/EveryBeam
+
+.dind-requester:
+  tags:
+    - dind
+
+include: .gitlab-ci.common.yml
+
+deploy-package-2204:
+  stage: deploy
+  needs: ["versioning","build-package-2204"]
+  image: $BASE_IMAGE_2204
+  allow_failure: true
+  variables:
+    GIT_SUBMODULE_STRATEGY: normal
+  script:
+    - cd everybeam_package
+    - export FILES=$(ls -1 $PWD/*.deb)
+    - echo UPLOADING files $FILES
+    # The following example command must be executed first or else the update will fail because there is no repository
+    # create_repo.py -a amd64 -c testing -d bionic --gpg-key ${GPG_KEY} --gpg-passphrase ${GPG_PASS} schaap
+    - ../external/schaap-packaging/update_repo.py --cleanup -d jammy --gpg-key ${GPG_KEY} --gpg-passphrase ${GPG_PASS} schaap ${FILES}
+  rules:
+    # Only deploy packages when building the default branch or a tag, or when UPLOAD_PACKAGE is set manually.
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+    - if: '$CI_COMMIT_TAG'
+    - if: '$UPLOAD_PACKAGE'
+
+cibuild-python-wheels:
+  extends: .needs-base-2204
+  stage: deploy
+  image: python:3.8
+  allow_failure: true
+  variables:
+    GIT_SUBMODULE_STRATEGY: normal
+    DOCKER_HOST: tcp://docker:2375
+  script:
+    - wget -qO - https://get.docker.com/ | sh
+    - pip install cibuildwheel
+    - cibuildwheel --output-dir wheelhouse
+  rules:
+    # Run cibuildwheel for merge requests, or when building a tag or the default branch
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+    - if: $CI_COMMIT_TAG
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  tags:
+    - dind
+  artifacts:
+    paths:
+      - wheelhouse/*.whl
+    # Job is allowed to (partially) fail; keep artifacts that were created successfully.
+    # Job has issues with downloading MS, will be fixed in AST-1500
+    when: always
