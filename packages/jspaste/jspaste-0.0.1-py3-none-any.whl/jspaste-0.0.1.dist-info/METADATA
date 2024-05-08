@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: jspaste
+Version: 0.0.1
+Summary: JSPaste Python API Wrapper. WIP.
+Home-page: https://github.com/tnfAngel/jspaste-py
+Author: tnfAngel
+Author-email: git@tnfangel.com
+License: EUPL
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp >=3.9.0
+Requires-Dist: aiodns >=3.2.0
+
+# JSPaste-Py
+
+JSPaste Python API Wrapper. WIP.
