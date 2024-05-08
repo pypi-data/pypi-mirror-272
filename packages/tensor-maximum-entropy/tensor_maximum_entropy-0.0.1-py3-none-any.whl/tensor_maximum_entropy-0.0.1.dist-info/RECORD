@@ -1,0 +1,9 @@
+tensor_maximum_entropy/__init__.py,sha256=BtDqRi4hY52xUi3nZ9K8Pl4DciUQ84EraAtQ62jhrRk,20
+tensor_maximum_entropy/test_run.py,sha256=fhqtFQCCwh6opoTTGHk9GC-By2bAVajr42XuZRgMc8I,275
+tensor_maximum_entropy/tme.py,sha256=nMoE_0h2jX8BABnGb1WDt6PCH_54HJ14gNAYAgBwo5Q,10161
+tensor_maximum_entropy/utils.py,sha256=PilLgp75cFknXBRdjT9cpwcgYlMguEBDmpk9typIRrM,8803
+tensor_maximum_entropy-0.0.1.dist-info/LICENSE.txt,sha256=2Bp4imBMU5uyaHXCU-I9P6neDChx4i5iqkPaOjjHqOU,1079
+tensor_maximum_entropy-0.0.1.dist-info/METADATA,sha256=khktirVAWRbpLIhHqMVXTaY1a57JJeSXnj7wjdLg25M,1495
+tensor_maximum_entropy-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tensor_maximum_entropy-0.0.1.dist-info/top_level.txt,sha256=q10scfccgVRErO-9iemp0uHTvsgH8H06j8Tr_yB1Jfc,23
+tensor_maximum_entropy-0.0.1.dist-info/RECORD,,

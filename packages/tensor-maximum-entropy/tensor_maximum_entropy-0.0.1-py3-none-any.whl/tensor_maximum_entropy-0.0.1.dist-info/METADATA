@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: tensor-maximum-entropy
+Version: 0.0.1
+Summary: Python implementation of the Tensor Maximum Entropy (TME)
+Home-page: https://github.com/ArdeleanRichard/TME
+Author: Eugen-Richard Ardelean
+Author-email: ardeleaneugenrichard@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+# TME
+Python implementation of Tensor Maximum Entropy (TME)
+
+Install:
+```
+pip install tensor_maximum_entropy
+```
+
+Usage example:
+```
+import numpy as np
+import scipy.io
+from tensor_maximum_entropy import TME
+
+model_dim = 10
+
+data = scipy.io.loadmat('./exampleData.mat')
+dataTensor = data['dataTensor']
+
+print(dataTensor.shape)
+t = data['t']
+
+mask = np.logical_and(t > - 50, t < 350)
+TME(dataTensor, mask, model_dim)
+```
+
+The algorithm description can be found in the following article:
+```
+Elsayed, G.F.; Cunningham, J.P. Structure in Neural Population Recordings: An Expected Byproduct of Simpler Phenomena? Nat Neurosci 2017, 20, 1310â€“1318, doi:10.1038/nn.4617.
+```
+
+A matlab implementation can be found at the following link:
+https://github.com/gamaleldin/TME
