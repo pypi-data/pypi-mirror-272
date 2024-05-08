@@ -1,0 +1,9 @@
+opencv_cam_idx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencv_cam_idx/finder.py,sha256=avyzL5sREBfO6Km0tB4_6o3XLg07u6dN_xFbw96SfH8,3365
+opencv_cam_idx/moniker.py,sha256=hX_WQ7O0NtuLYeOqVNlvPNES9InfL-6DNbX2b9HDH7Y,2642
+opencv_cam_idx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencv_cam_idx-1.0.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+opencv_cam_idx-1.0.0.dist-info/METADATA,sha256=hRabn8PGpmX34iEDgqvZIyP8JbjHW4reqBrxvfmPJdA,2457
+opencv_cam_idx-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+opencv_cam_idx-1.0.0.dist-info/top_level.txt,sha256=I4vZd199ooQv2rEcFVSntyyKkH_q9SqpGC0Z_U4lpf0,15
+opencv_cam_idx-1.0.0.dist-info/RECORD,,
