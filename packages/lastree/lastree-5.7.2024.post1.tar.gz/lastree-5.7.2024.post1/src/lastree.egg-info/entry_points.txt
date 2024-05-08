@@ -1,0 +1,2 @@
+[console_scripts]
+las_tree = las_tree.las_tree:main_cli
