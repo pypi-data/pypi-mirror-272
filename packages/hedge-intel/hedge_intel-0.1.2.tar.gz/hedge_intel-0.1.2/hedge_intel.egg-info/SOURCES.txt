@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+hedge_intel.egg-info/PKG-INFO
+hedge_intel.egg-info/SOURCES.txt
+hedge_intel.egg-info/dependency_links.txt
+hedge_intel.egg-info/top_level.txt
