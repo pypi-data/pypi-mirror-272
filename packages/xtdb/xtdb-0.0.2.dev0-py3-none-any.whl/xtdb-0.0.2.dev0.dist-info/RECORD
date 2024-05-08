@@ -1,0 +1,14 @@
+xtdb/__init__.py,sha256=8MmGXWAr5zht0QcpQs0LRIem5Dfh6mqiG4DMZRfM650,9360
+xtdb/binding.py,sha256=l4V0lVweFALs_2bd77sLaBlmJfCCNmonsLb00R0WjLo,467
+xtdb/expr.py,sha256=fyZ7kd04gxsm3OJ0aBc23BooyBwvvt_yt6CZW1Beo-A,1882
+xtdb/query.py,sha256=JIwbX7bllKv_vRL4jyrPS9bVOSWy9SHXH-12ZrZpi1k,6898
+xtdb/temporal_filter.py,sha256=dROBi8lyy4d8ampyGe4UzBf2_M744qC5LawW-86R_Zg,780
+xtdb/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xtdb/test/test_dbapi.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xtdb/test/test_encoding.py,sha256=vMzxIudArjLgFiGCjkvnm0M6hoHgE1gN5oWbzkG9ymg,3104
+xtdb/tx.py,sha256=TJaqvStjeHz_UDF6BP_NSc9Himju4mTw9Pq_Layc9cU,8976
+xtdb/types.py,sha256=gCGp8If18ucg5uF9z4fOv6CskzSHsOMrqRI5RMt_2RE,829
+xtdb/xt_json.py,sha256=4JIHJk0hf6PgGCVq0nDC7Jr53W4F0-P1mF06UMNtx6E,1190
+xtdb-0.0.2.dev0.dist-info/METADATA,sha256=06eIxNdQ4_gyzx8BNte8wOYgAW1YuDbkJGRQqrDlGnM,1474
+xtdb-0.0.2.dev0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+xtdb-0.0.2.dev0.dist-info/RECORD,,
