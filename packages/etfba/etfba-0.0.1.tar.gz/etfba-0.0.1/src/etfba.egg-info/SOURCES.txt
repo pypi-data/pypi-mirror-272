@@ -1,0 +1,9 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/etfba/__init__.py
+src/etfba.egg-info/PKG-INFO
+src/etfba.egg-info/SOURCES.txt
+src/etfba.egg-info/dependency_links.txt
+src/etfba.egg-info/requires.txt
+src/etfba.egg-info/top_level.txt
