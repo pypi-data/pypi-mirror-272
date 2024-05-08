@@ -1,0 +1,10 @@
+llama_index/indices/managed/dashscope/__init__.py,sha256=dILYU4_kXVOZiu__PGIbAVvZyXI_xdoSr3Xbrie5Yk0,222
+llama_index/indices/managed/dashscope/api_utils.py,sha256=4iUWHjBIfGt1nubLsIyIee71t4TegFoi1_l1gCowlTo,2304
+llama_index/indices/managed/dashscope/base.py,sha256=Z6vOhTvCMA2_kywBynWR1Wnj6Nwqy06UlC-Q0U1SPX4,8547
+llama_index/indices/managed/dashscope/constants.py,sha256=GT10kt50mDlZfEiyM0IhcjYJslvbNbeSCEMoK2fS6Tc,451
+llama_index/indices/managed/dashscope/retriever.py,sha256=0wcBIOwx1zyzeh-X7XGEh6bG-f0WNa4x36rDnGGWXNE,7269
+llama_index/indices/managed/dashscope/transformations.py,sha256=55CysiBzXa9XvD1wHr02ct5RFeUas4NFv2DReEq9AV4,6540
+llama_index/indices/managed/dashscope/utils.py,sha256=KRV41IVQxGIjBM7lti4SjCmeS1SnGxQ7QyMpfcvTeDo,821
+llama_index_indices_managed_dashscope_custom-0.1.0.dist-info/METADATA,sha256=T-DFUWYEzoiXa_Dd9KxY3R1_2kpkB7IYs6sHCKtWiVw,1802
+llama_index_indices_managed_dashscope_custom-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_indices_managed_dashscope_custom-0.1.0.dist-info/RECORD,,
