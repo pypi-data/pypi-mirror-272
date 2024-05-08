@@ -1,0 +1,5 @@
+pandas
+pkg_resources
+setuptools
+twine
+wheel
