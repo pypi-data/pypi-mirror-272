@@ -1,0 +1,14 @@
+odoo/addons/product_code_mixin/README.rst,sha256=QMtn8GMujphUGZM6k0nSK1JBxN6zj9PVFQ5566wscwc,3358
+odoo/addons/product_code_mixin/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/product_code_mixin/__manifest__.py,sha256=hDiTl_x9jHww_XmvhpBLHygTk5TU70McOLd-oCGTg0M,494
+odoo/addons/product_code_mixin/i18n/product_code_mixin.pot,sha256=IcjPVO4VCiGUVVUKieXR8hFRM_aj6CuoTIOpOvoScSY,997
+odoo/addons/product_code_mixin/models/__init__.py,sha256=JHlvNFqmnhIqvnWMbl6ViAJXcRNmFo6FCsVhVMefuq4,22
+odoo/addons/product_code_mixin/models/product.py,sha256=5XekYPRj9IbEZlWpUQsGMAhWcDOdArxj0Z2Ea6u3qrg,478
+odoo/addons/product_code_mixin/readme/CONTRIBUTORS.rst,sha256=MMAHKf5EUTcs7WV7JDAMbAIe-dpDGhno_MFkjgVZolA,54
+odoo/addons/product_code_mixin/readme/DESCRIPTION.rst,sha256=MObHFRpYg9f2rpgCw2NO6f0IiYhrivDgE4j8B9Lcyp0,292
+odoo/addons/product_code_mixin/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/product_code_mixin/static/description/index.html,sha256=vK8tncherCp7Z0zJ6eYpm5FyAtmJZDL3OmrmBjMhSK4,12705
+odoo_addon_product_code_mixin-16.0.1.0.0.2.dist-info/METADATA,sha256=QeoLPbn1kU2KCSL3fcEa9_sp0QrNSSzYnSu3dLEoxi4,3928
+odoo_addon_product_code_mixin-16.0.1.0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo_addon_product_code_mixin-16.0.1.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_product_code_mixin-16.0.1.0.0.2.dist-info/RECORD,,
