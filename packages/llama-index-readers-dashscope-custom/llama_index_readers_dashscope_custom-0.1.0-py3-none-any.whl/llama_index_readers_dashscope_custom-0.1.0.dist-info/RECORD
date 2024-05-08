@@ -1,0 +1,8 @@
+llama_index/readers/dashscope/__init__.py,sha256=DlHoCbP4hbyDhYopYza0A1_dJ8l_wEezfUNX3C8mONs,118
+llama_index/readers/dashscope/base.py,sha256=jqtE5UXisAFPvHn0K7kMqg3NbKdsy7HoWksqipVHFpM,15199
+llama_index/readers/dashscope/domain/base_domains.py,sha256=j6VZRVvK660B_QSSPt34_Y2HHXGg3ql-cOnv0P3tzo8,113
+llama_index/readers/dashscope/domain/lease_domains.py,sha256=CjSXd6AEwV_QeWawb0B2uh4tex42OPhDI_wefV33Q2A,10372
+llama_index/readers/dashscope/utils.py,sha256=w0nD06wZpLgHVOqc-Xs8zZoyDRL5f7JwzKZlrHDS8rE,5140
+llama_index_readers_dashscope_custom-0.1.0.dist-info/METADATA,sha256=NZEmoWGz2OFQpZfXu_v1IBb5bZ37wpkIXueLsH88SsY,2873
+llama_index_readers_dashscope_custom-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_readers_dashscope_custom-0.1.0.dist-info/RECORD,,
