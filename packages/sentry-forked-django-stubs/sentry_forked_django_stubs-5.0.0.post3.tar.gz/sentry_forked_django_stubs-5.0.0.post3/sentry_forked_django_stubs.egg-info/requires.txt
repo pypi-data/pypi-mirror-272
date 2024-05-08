@@ -1,0 +1,14 @@
+django
+asgiref
+django-stubs-ext>=5.0.0
+typing-extensions
+types-PyYAML
+
+[:python_version < "3.11"]
+tomli
+
+[compatible-mypy]
+mypy~=1.10.0
+
+[redis]
+redis
