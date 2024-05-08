@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ttq/__init__.py
+ttq/option.py
+ttq/parser.py
+ttq/question.py
+ttq/quiz.py
+ttq/type.py
+ttq.egg-info/PKG-INFO
+ttq.egg-info/SOURCES.txt
+ttq.egg-info/dependency_links.txt
+ttq.egg-info/top_level.txt
