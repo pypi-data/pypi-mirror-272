@@ -1,0 +1,13 @@
+dal/__init__.py,sha256=bv8AAjCZy0EpDaK9DdtHkenJyVcODh9S5Gh0N7ZAUjY,180
+dal/_dal.cpython-39-x86_64-linux-gnu.so,sha256=S026fP44TiOKVisaJAI7cGXqEFGRgdR8lvYaJxzKhEU,8849696
+dal/api.py,sha256=Kt7EWqL3Rn53c7jxoeRzSCCNhP-S-58nSkBEdjuN0Ok,355
+dal/dal.py,sha256=QmtQv56FKJgscVibevvEgBIYxPXhkjUszbxuhfPglls,54893
+dal/dal_wrap.cpp,sha256=MhgIkgYAgKUxlgxoBpBXTnpTCI5sH9ngJnXWswFeZD4,726254
+dal/examples/001.european.py,sha256=f-Oj8kqjv0hnMcepZ9KJXzXMkyMAKI31oFqpe2ASroA,538
+dal/examples/002.uoc.py,sha256=fub7_l4RoZ4CZtVOBZcC9pVD2JMGqHXUYKfCJZB73w0,1395
+dal/examples/003.snowball.py,sha256=plB9HcxP8sWpdfY0VaW7RCoHNGCWWIndJPTsbFR3bVE,2395
+dal/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dal_python-2024.5.8.dist-info/METADATA,sha256=FPcQCMQUIHaQzvNmjNNDpaWVBVGLN-MvGD32nMUUzSM,802
+dal_python-2024.5.8.dist-info/WHEEL,sha256=ycs7Gxh-6bYFXKIXpH7xP3pNtN1btH-bNGDmRvZ8jG0,103
+dal_python-2024.5.8.dist-info/top_level.txt,sha256=0NCtz794zxjwhJcMbphMLr-IHz_8WAyZFNMqTPXtulw,4
+dal_python-2024.5.8.dist-info/RECORD,,
