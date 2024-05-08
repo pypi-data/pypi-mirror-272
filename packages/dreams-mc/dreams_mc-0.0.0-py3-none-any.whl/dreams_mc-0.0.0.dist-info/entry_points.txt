@@ -1,0 +1,2 @@
+[console_scripts]
+dreams-mc = dreams_mc.make_model_card:generate_modelcard
