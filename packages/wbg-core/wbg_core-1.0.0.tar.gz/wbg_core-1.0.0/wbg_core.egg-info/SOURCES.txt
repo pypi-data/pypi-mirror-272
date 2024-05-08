@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+wbg/core/__init__.py
+wbg/core/cli.py
+wbg/core/env.py
+wbg/core/holidays.py
+wbg/core/log_config.py
+wbg/core/py.typed
+wbg/core/shell.py
+wbg_core.egg-info/PKG-INFO
+wbg_core.egg-info/SOURCES.txt
+wbg_core.egg-info/dependency_links.txt
+wbg_core.egg-info/requires.txt
+wbg_core.egg-info/top_level.txt
