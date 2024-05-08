@@ -1,0 +1,9 @@
+iman/__init__.py,sha256=3RSiFGg_fRYjfPB8tzNq-yiaypvr1cl_0314nhq5mtg,316
+iman/main.py,sha256=6EPANAEiGSgpP-Bm5GnoqMbK4YFLwA8ukChgGl_7cWA,66
+iman/search.py,sha256=8-npaqrCdoaoQWkkhthal4mZLmnhNznGCCDM6t2G970,1951
+iman/data/my-embeddings.pkl,sha256=h1GNuNSkz1ZNaKNG8Kedkja9lbnIGgdBIElqzAwTG5w,7715734
+manhelp-0.1.31.dist-info/METADATA,sha256=w3O-kHCz8r5Fs_iTh_9InJpLGbPG7ZZUKufiGy0orNs,495
+manhelp-0.1.31.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+manhelp-0.1.31.dist-info/entry_points.txt,sha256=DGYhbIdVniGBNASTcv2StRe4j01mui24bTsXwLNmj68,39
+manhelp-0.1.31.dist-info/top_level.txt,sha256=uu42R9eDQtXEStvNse_JxTYG_twSL7ZJ0HwUyFWypKE,5
+manhelp-0.1.31.dist-info/RECORD,,
