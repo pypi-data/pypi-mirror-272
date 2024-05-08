@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pineapple-cli"
+version = "0.1.0"
+description = "Generate projects in seconds with a simple CLI, configuration, and documentation."
+authors = ["Adam Garza <168875175+hyerland@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "pineapple" },
+]
+
+[tool.poetry.scripts]
+pineapple = "pineapple.pineapple:app"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = { extras = ["all"], version = "^0.12.3" }
+
+[tool.poetry.group.docs.dependencies]
+mkdocs-git-revision-date-localized-plugin = "^1.2.5"
+mkdocs-material = "^9.5.21"
+mkdocs-git-committers-plugin-2 = "^2.3.0"
+mkdocs-git-authors-plugin = "^0.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
