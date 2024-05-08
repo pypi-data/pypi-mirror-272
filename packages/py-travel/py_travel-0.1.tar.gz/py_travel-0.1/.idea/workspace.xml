@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a23f1143-b431-4db6-81a1-6c066adb997b" name="Changes" comment="Fix tests">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;diagmatrix&quot;
+  }
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="04b87d4d-28b3-4e62-9e96-7448d4a6c0fd" />
+        <option name="url" value="https://github.com/diagmatrix/py-travel.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2eEVpVZgJybU9iz4rk1ZJasHbiu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for test_trip.TestTrip.executor": "Run",
+    "Python tests.Python tests for test_trip.TestTrip.test_create_trip.executor": "Run",
+    "Python.client.executor": "Debug",
+    "Python.main.executor": "Run",
+    "Python.trip_manager.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "PT006",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/manue/PycharmProjects/py-travel/py_travel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manue\PycharmProjects\py-travel\py_travel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manue\PycharmProjects\py-travel\py_travel" />
+      <recent name="C:\Users\manue\PycharmProjects\py-travel\py_travel\trip" />
+      <recent name="C:\Users\manue\PycharmProjects\py-travel\py_travel\client" />
+      <recent name="C:\Users\manue\PycharmProjects\py-travel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_trip.TestTrip">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="py-travel" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10 (py-travel)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_trip.TestTrip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-travel" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_trip.TestTrip&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_trip.TestTrip.test_create_trip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-travel" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_trip.TestTrip.test_create_trip&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_trip.TestTrip" />
+        <item itemvalue="Python tests.Python tests for test_trip.TestTrip.test_create_trip" />
+        <item itemvalue="Python tests.Python tests for test_trip.TestTrip" />
+        <item itemvalue="Python tests.Python tests for test_trip.TestTrip.test_create_trip" />
+        <item itemvalue="Python tests.Python tests for test_trip.TestTrip" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a23f1143-b431-4db6-81a1-6c066adb997b" name="Changes" comment="" />
+      <created>1711469907973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711469907973</updated>
+      <workItem from="1711469909295" duration="2468000" />
+      <workItem from="1712225473048" duration="5985000" />
+      <workItem from="1712248043254" duration="1041000" />
+      <workItem from="1713259237232" duration="3356000" />
+      <workItem from="1713513404082" duration="8459000" />
+      <workItem from="1713775000306" duration="4801000" />
+      <workItem from="1713863565311" duration="9830000" />
+      <workItem from="1714124097984" duration="6210000" />
+      <workItem from="1714378869501" duration="11357000" />
+      <workItem from="1714468334278" duration="9420000" />
+      <workItem from="1714992049074" duration="9029000" />
+      <workItem from="1715074082022" duration="6722000" />
+    </task>
+    <task id="LOCAL-00001" summary="Comienzo refactorizacion">
+      <option name="closed" value="true" />
+      <created>1713277014070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713277014070</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finalizo inicializacion Viaje">
+      <option name="closed" value="true" />
+      <created>1713516519480</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713516519480</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Viajes sin paradas">
+      <option name="closed" value="true" />
+      <created>1713777785318</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713777785318</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Viajes con paradas">
+      <option name="closed" value="true" />
+      <created>1713779619648</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713779619648</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Elimino código antiguo">
+      <option name="closed" value="true" />
+      <created>1713779668606</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713779668606</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modularizo">
+      <option name="closed" value="true" />
+      <created>1713866979092</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713866979092</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Renombro archivo de la clase Trip">
+      <option name="closed" value="true" />
+      <created>1713867089800</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713867089800</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Añado cálculo distancia total">
+      <option name="closed" value="true" />
+      <created>1713868833937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713868833937</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Añado cálculo distancias parciales">
+      <option name="closed" value="true" />
+      <created>1713871150797</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713871150797</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Añado tests">
+      <option name="closed" value="true" />
+      <created>1713874147690</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713874147690</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Creo el método">
+      <option name="closed" value="true" />
+      <created>1714124469062</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714124469062</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Comprobación y modificacion de fechas">
+      <option name="closed" value="true" />
+      <created>1714129474459</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714129474459</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Añado total días y renombro">
+      <option name="closed" value="true" />
+      <created>1714380825331</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714380825331</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Añado wrapper para el endpoint de direcciones">
+      <option name="closed" value="true" />
+      <created>1714384379652</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714384379652</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Añado wrapper para el endpoint de direcciones">
+      <option name="closed" value="true" />
+      <created>1714384387943</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714384387943</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Refactorizo parseo de la respuesta">
+      <option name="closed" value="true" />
+      <created>1714386751628</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714386751628</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Desglose para viaje sin paradas">
+      <option name="closed" value="true" />
+      <created>1714389981274</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714389981274</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Desglose para viaje con paradas">
+      <option name="closed" value="true" />
+      <created>1714391000985</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714391000985</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Tests">
+      <option name="closed" value="true" />
+      <created>1714470841608</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714470841608</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Refactorizo los clientes para hacerlos independientes.&#10;&#10;También añado documentación y modularizo">
+      <option name="closed" value="true" />
+      <created>1714476932362</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714476932362</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Arreglo tests">
+      <option name="closed" value="true" />
+      <created>1714486444381</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1714486444381</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Añado tests">
+      <option name="closed" value="true" />
+      <created>1714993130299</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714993130299</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Linting y errores">
+      <option name="closed" value="true" />
+      <created>1714993788521</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1714993788521</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Mejoro tests">
+      <option name="closed" value="true" />
+      <created>1714994052009</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1714994052009</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Mejoro tests">
+      <option name="closed" value="true" />
+      <created>1714994956423</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1714994956423</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Actualizo dependencia de pipeline">
+      <option name="closed" value="true" />
+      <created>1714995057286</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1714995057286</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Ordeno pipelines">
+      <option name="closed" value="true" />
+      <created>1714995308141</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1714995308141</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Ordeno pipelines">
+      <option name="closed" value="true" />
+      <created>1714995681742</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1714995681742</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Actualizo setup-action">
+      <option name="closed" value="true" />
+      <created>1714995868927</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1714995868927</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Añado documentación en el README.md">
+      <option name="closed" value="true" />
+      <created>1715004437305</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1715004437305</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Arreglo tests">
+      <option name="closed" value="true" />
+      <created>1715005655034</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1715005655034</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Modifico estructura">
+      <option name="closed" value="true" />
+      <created>1715076391891</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1715076391891</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Basic geocode method for location&#10;&#10;Maybe it can be combined...">
+      <option name="closed" value="true" />
+      <created>1715080154620</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1715080154620</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fix tests">
+      <option name="closed" value="true" />
+      <created>1715080226368</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1715080226368</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="tests" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Elimino código antiguo" />
+    <MESSAGE value="Modularizo" />
+    <MESSAGE value="Renombro archivo de la clase Trip" />
+    <MESSAGE value="Añado cálculo distancia total" />
+    <MESSAGE value="Añado cálculo distancias parciales" />
+    <MESSAGE value="Creo el método" />
+    <MESSAGE value="Comprobación y modificacion de fechas" />
+    <MESSAGE value="Añado total días y renombro" />
+    <MESSAGE value="Añado wrapper para el endpoint de direcciones" />
+    <MESSAGE value="Refactorizo parseo de la respuesta" />
+    <MESSAGE value="Desglose para viaje sin paradas" />
+    <MESSAGE value="Desglose para viaje con paradas" />
+    <MESSAGE value="Tests" />
+    <MESSAGE value="Refactorizo los clientes para hacerlos independientes.&#10;&#10;También añado documentación y modularizo" />
+    <MESSAGE value="Añado tests" />
+    <MESSAGE value="Linting y errores" />
+    <MESSAGE value="Mejoro tests" />
+    <MESSAGE value="Actualizo dependencia de pipeline" />
+    <MESSAGE value="Ordeno pipelines" />
+    <MESSAGE value="Actualizo setup-action" />
+    <MESSAGE value="Añado documentación en el README.md" />
+    <MESSAGE value="Arreglo tests" />
+    <MESSAGE value="Modifico estructura" />
+    <MESSAGE value="Basic geocode method for location&#10;&#10;Maybe it can be combined..." />
+    <MESSAGE value="Fix tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/py_travel$main.coverage" NAME="main Coverage Results" MODIFIED="1715080034700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/py_travel$.coverage" NAME=" Coverage Results" MODIFIED="1715080216191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/py_travel$client.coverage" NAME="client Coverage Results" MODIFIED="1712227765792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_travel" />
+    <SUITE FILE_PATH="coverage/py_travel$trip_manager.coverage" NAME="trip_manager Coverage Results" MODIFIED="1712227920142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_travel" />
+  </component>
+</project>

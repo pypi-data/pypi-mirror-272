@@ -1,0 +1,41 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+new file mode 100644
+--- /dev/null	(date 1715076344532)
++++ b/main.py	(date 1715076344532)
+@@ -0,0 +1,31 @@
++from py_travel import init_clients
++from py_travel.trip import Trip, TripConfig
++from datetime import datetime
++import googlemaps
++
++cli = googlemaps.Client(key='AIzaSyBxcVfBoBTyqPGTQfTV4d3vM3_lkpaKbJ4')
++Trip.set_client(cli)
++# init_clients(api_key="AIzaSyBxcVfBoBTyqPGTQfTV4d3vM3_lkpaKbJ4")
++
++my_trip = Trip(origin=(39.25, -4.47), destination="Aveiro, Portugal", config={'mode': 'walking'})
++
++print(my_trip.distance)
++
++# CONFIG = TripConfig(mode="driving", units="metric", traffic_model="pessimistic")
++# b_date = datetime(year=2024, month=6, day=1, hour=13, minute=40)
++# trip = Trip(
++#     "Granada",
++#     "Berlín, Alemania",
++#     config=CONFIG,
++#     departure_date=b_date
++# )
++# trip.stops = [
++#     ("Guadix", datetime(year=2024, month=5, day=7, hour=11, minute=40)),
++#     ("Úbeda", datetime(year=2024, month=5, day=9, hour=7, minute=40)),
++# ]
++# # print(trip.departure_date, trip.arrival_date)
++# # print([s.departure_date for s in trip.stops])
++#
++# calendar = trip.trip_calendar
++# print(calendar)
++# print(trip.distance, sum(c[1] for c in calendar))
