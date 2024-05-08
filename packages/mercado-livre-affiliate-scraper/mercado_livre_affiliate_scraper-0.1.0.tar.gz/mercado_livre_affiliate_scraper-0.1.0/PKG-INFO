@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: mercado-livre-affiliate-scraper
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Marcuth
+Author-email: you@example.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.7.1,<3.0.0)
+Requires-Dist: selenium (>=4.20.0,<5.0.0)
+Requires-Dist: webdriver-manager (>=4.0.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Mercado Livre Affiliate - Scraper Tool
+
+## Quickstart
+
+### Creating Affiliate URL:
+
+```py
+from mercado_livre_affiliate import MercadoLivreAffiliate
+import json
+
+def main():
+    with open("www.mercadolivre.com.br.cookies.json", "r", encoding = "utf-8") as file:
+        cookies = json.load(file)
+
+    mercado_livre_affiliate = MercadoLivreAffiliate(
+        cookies = cookies, # Mercado Livre site cookies
+        origin_url = "https://www.mercadolivre.com.br/", # Mercado Livre root URL in your country
+        webdriver_file_path = "path/to/webdriver.exe", # Path to browser webdriver
+        headless = True # If the browser will appear
+    )
+
+    # Create an affiliate URL like: https://mercadolivre.com/sec/1QJMZsX
+    affiliate_url = mercado_livre_affiliate.create_affiliate_url("https://produto.mercadolivre.com.br/MLB-2698490696-capinha-flashcase-aveludada-para-samsung-todos-os-modelos-_JM#reco_item_pos=1&reco_backend=univb-pdp-buybox&reco_backend_type=low_level&reco_client=pdp-v2p&reco_id=36bd3735-c484-4d17-b8f7-80a94da980f5&reco_backend_model=univb") 
+
+    print(affiliate_url)
+
+if __name__ == "__main__":
+    main()
+```
