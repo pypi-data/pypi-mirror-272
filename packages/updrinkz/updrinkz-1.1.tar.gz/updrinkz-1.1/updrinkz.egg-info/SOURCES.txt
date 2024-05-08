@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+updrinkz/__init__.py
+updrinkz/main.py
+updrinkz.egg-info/PKG-INFO
+updrinkz.egg-info/SOURCES.txt
+updrinkz.egg-info/dependency_links.txt
+updrinkz.egg-info/requires.txt
+updrinkz.egg-info/top_level.txt
