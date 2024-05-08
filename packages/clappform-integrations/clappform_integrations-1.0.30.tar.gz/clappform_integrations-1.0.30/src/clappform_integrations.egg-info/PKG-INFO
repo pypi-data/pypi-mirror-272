@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: clappform-integrations
+Version: 1.0.30
+Summary: Clappform Python API wrapper
+Author-email: "Clappform B.V." <info@clappform.com>
+Project-URL: Documentation, https://clappform.readthedocs.io
+Project-URL: Source, https://github.com/ClappFormOrg/clappform-integrations
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests==2.31.0
+Requires-Dist: pandas==1.5.2
+Requires-Dist: xmltodict==0.13.0
+Requires-Dist: beautifulsoup4==4.12.2
+
+# clappform-integrations
+git pull --recurse-submodules
+git submodule update --recursive --remote
+
+# Itris API Wrapper Documentation
+
+The Itris API wrapper facilitates interaction with the Itris system through both REST and SOAP protocols. It allows users to fetch data from various endpoints and handle cases efficiently.
+
+## Installation
+
+First, you need to download the Python package via pip::
+
+```bash
+$ pip install clappform_integrations==1.0.26
+```
+
+## Import package
+```python
+from clappform_integrations import Itris
+import pandas as pd
+```
+
+## Initialization
+
+### REST Part
+
+To initialize the REST part of the wrapper:
+
+```python
+# Formatting of the REST credentials
+BASEURL_REST = "https://acc-webservices.itris.net/services/acc-istl-vip"
+CLIENT_ID_REST = ""
+CLIENT_SECRET_REST = ""
+USERNAME_REST = ""
+PASSWORD_REST = ""
+headers_rest = {
+    'accept': 'application/json',
+    'Authorization': '', 
+}
+timeout_rest = 600
+
+itrisrest = Itris.ItrisREST(
+    BASEURL_REST,
+    CLIENT_ID_REST,
+    CLIENT_SECRET_REST,
+    USERNAME_REST,
+    PASSWORD_REST,
+    headers_rest,
+    timeout_rest
+)
+```
+
+
+### SOAP Part
+
+Similarly for the SOAP part of the API, initialize the ItrisSOAP object with the following parameters:
+
+```python
+# Formatting of the SOAP credentials
+BASEURL_LOGIN_SOAP= 'https://acc-webservices.itris.net/services/acc-istl-soap?WSDL'
+BASEURL_SOAP= 'https://acc-webservices.itris.net/services/acc-istl-cad'
+PASSWORD_SOAP= ''
+PLAINPASSWD_SOAP= ''
+SOAPUSERID_SOAP= ''
+USERNAME_SOAP= ''
+headers_soap= {
+'Content-Type' : 'text/xml'
+},
+timeout_soap= 600
+
+itrissoap = Itris.ItrisSOAP(
+    BASEURL_LOGIN_SOAP,
+    BASEURL_SOAP,
+    USERNAME_SOAP,
+    PASSWORD_SOAP,
+    SOAPUSERID_SOAP,
+    PLAINPASSWD_SOAP,
+    headers_soap,
+    timeout_soap
+)
+```
+
+# Fetching Data
+
+## REST Part
+
+- To retrieve data in JSON format, use `fetch_data_from_endpoint`.
+- To retrieve data in DataFrame format, use `fetch_data_as_dataframe`.
+
+## SOAP Part
+
+Call the desired endpoint directly using `call_endpoint`. It will return the data in XML format.
+
+## Filters
+
+When fetching data from the REST API, several filters can be applied:
+
+- `$expand`: Retrieve related data along with the main data.
+- `$skip`: Pagination for fetching data in chunks or pages.
+
+## Predefined Endpoints
+
+### REST Part
+
+The wrapper includes predefined endpoints such as:
+
+- `FetchRentalObjectsWithHierarchy` is utilized alongside the "$expand" filter, pertaining to the hierarchy of rental objects. Within this hierarchy, we retrieve both the units and the complexes they correspond to.
+
+For example:
+
+```python
+qParams = { "$expand": "Hierarchie_verhuurbare_objecten", "$skip":0} 
+unit_df = itrisrest.fetch_data_as_dataframe("FetchRentalObjectsWithHierarchy", qParams)
+```
+
+## Custom Endpoints
+Users can interact with endpoints not explicitly defined by providing the endpoint's identifier. 
+
+For example the Contracten endpoint is a new endpoint:
+
+```python
+qParams = { }
+contracts = itrisrest.fetch_data_as_dataframe("Contracten", qParams)
+```
+
+### SOAP Part
+
+Predefined SOAP endpoints include:
+
+- GetCaseTypeDefinitions
+- GetCases
+- GetCaseStartState
+
+For example to get the complaints from the SOAP part you can use: 
+
+```python
+qParams = { }
+response_GetCaseTypeDefinitions = itrissoap.call_endpoint("GetCaseTypeDefinitions", qParams)
+```
