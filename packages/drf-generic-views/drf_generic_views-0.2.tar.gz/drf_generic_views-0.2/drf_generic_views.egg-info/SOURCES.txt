@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+drf_generic_views/__init__.py
+drf_generic_views/apps.py
+drf_generic_views/generics.py
+drf_generic_views/mixins.py
+drf_generic_views.egg-info/PKG-INFO
+drf_generic_views.egg-info/SOURCES.txt
+drf_generic_views.egg-info/dependency_links.txt
+drf_generic_views.egg-info/requires.txt
+drf_generic_views.egg-info/top_level.txt
