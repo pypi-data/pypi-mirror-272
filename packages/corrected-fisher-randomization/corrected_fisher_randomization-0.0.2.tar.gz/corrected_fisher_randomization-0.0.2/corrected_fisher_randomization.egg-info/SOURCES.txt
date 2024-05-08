@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+corrected_fisher_randomization/__init__.py
+corrected_fisher_randomization/cfr.py
+corrected_fisher_randomization/test_run.py
+corrected_fisher_randomization/utils.py
+corrected_fisher_randomization.egg-info/PKG-INFO
+corrected_fisher_randomization.egg-info/SOURCES.txt
+corrected_fisher_randomization.egg-info/dependency_links.txt
+corrected_fisher_randomization.egg-info/requires.txt
+corrected_fisher_randomization.egg-info/top_level.txt
