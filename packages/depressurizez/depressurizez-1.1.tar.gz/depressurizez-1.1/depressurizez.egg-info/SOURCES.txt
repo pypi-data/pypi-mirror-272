@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+depressurizez/__init__.py
+depressurizez/main.py
+depressurizez.egg-info/PKG-INFO
+depressurizez.egg-info/SOURCES.txt
+depressurizez.egg-info/dependency_links.txt
+depressurizez.egg-info/requires.txt
+depressurizez.egg-info/top_level.txt
