@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+blessz/__init__.py
+blessz/main.py
+blessz.egg-info/PKG-INFO
+blessz.egg-info/SOURCES.txt
+blessz.egg-info/dependency_links.txt
+blessz.egg-info/requires.txt
+blessz.egg-info/top_level.txt
