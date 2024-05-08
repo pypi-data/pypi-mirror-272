@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: JerryMSScript
+Version: 1.0
+Summary: 乱写的项目
+Author: JerryLaw
+Author-email: 623487850@qq.com
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: jsonpath <=0.82.2
+Requires-Dist: redis <=3.5.3
+Requires-Dist: redis-py-cluster <=2.1.3
+
