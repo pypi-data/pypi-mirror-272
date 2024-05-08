@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+flopyrw/__init__.py
+flopyrw/version.py
+flopyrw.egg-info/PKG-INFO
+flopyrw.egg-info/SOURCES.txt
+flopyrw.egg-info/dependency_links.txt
+flopyrw.egg-info/requires.txt
+flopyrw.egg-info/top_level.txt
