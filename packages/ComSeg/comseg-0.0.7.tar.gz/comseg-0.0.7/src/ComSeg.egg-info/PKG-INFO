@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ComSeg
+Version: 0.0.7
+Summary: single cell RNA profiling analysis of imaging-based spatial transcriptomics data
+Author-email: Thomas Defard <thomas.defard@mines-paristech.fr>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ComSeg framework
+
+A detail documentation is available Here https://comseg.readthedocs.io/en/latest/userguide.html
+
+
+# Single cell spatial RNA profiling 
+
+ComSeg is an algorithm for single cell spatial RNA profiling in image-based transcriptomic data.
+
+It takes as input a csv with the spot coordinates and output an anndata 
+object with the  genes expression and coordinates of each cell.
+
+### Citation 
+ A point cloud segmentation framework for image-based spatial transcriptomics
+Thomas Defard, Hugo Laporte, Mallick Ayan, Soulier Juliette, Sandra Curras-Alonso, Christian Weber, Florian Massip, José-Arturo Londoño-Vallejo, Charles Fouillade, Florian Mueller, Thomas Walter
+bioRxiv 2023.12.01.569528; doi: https://doi.org/10.1101/2023.12.01.569528 
