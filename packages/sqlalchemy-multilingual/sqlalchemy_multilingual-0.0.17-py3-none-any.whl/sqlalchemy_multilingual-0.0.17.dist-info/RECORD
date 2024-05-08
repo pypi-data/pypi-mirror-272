@@ -1,0 +1,13 @@
+sqlalchemy_multilingual/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlalchemy_multilingual/constants.py,sha256=9nPhRPqtE4MYMRiWCw2ej52FHnv1nBheAXq9Iqgr6iE,212
+sqlalchemy_multilingual/exception.py,sha256=fC6QR6U5_8Ozddti2dWQRuOX642b_8K6lpaYiRYnu60,189
+sqlalchemy_multilingual/mixins.py,sha256=9eR8y0CghqqE5fYVQ1kmMnnzqvChrF9VUbuFCLkuLh8,1500
+sqlalchemy_multilingual/models.py,sha256=s9U2ooFZQnIYC2YpR7zGn-pJZjU8OLMs9YREtc7umfM,1938
+sqlalchemy_multilingual/queries.py,sha256=_LEDtSt8qNhU521-btHZZvScTOfzii3TctNNTE5nrf4,1677
+sqlalchemy_multilingual/alembic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlalchemy_multilingual/alembic/migration.py,sha256=V5QOIv6FHk6RF_ha-B2FV-Hq1JEmH2nkjHQ9PPbGxgc,487
+sqlalchemy_multilingual-0.0.17.dist-info/LICENSE.txt,sha256=rwUKlA8qRw4cQP4_HG_kFOwqJU1mIRW_07OR426O3NQ,1063
+sqlalchemy_multilingual-0.0.17.dist-info/METADATA,sha256=Yyn7dYxNevClw0O4MnyvjCPvYNIQ6VWVXDech87-aZA,615
+sqlalchemy_multilingual-0.0.17.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sqlalchemy_multilingual-0.0.17.dist-info/top_level.txt,sha256=QQzzGMg_MWerH1Jvdc5JC57ORF7jqyu67mGYtVPCb74,24
+sqlalchemy_multilingual-0.0.17.dist-info/RECORD,,
