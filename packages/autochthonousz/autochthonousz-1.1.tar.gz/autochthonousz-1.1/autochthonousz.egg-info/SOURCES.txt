@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+autochthonousz/__init__.py
+autochthonousz/main.py
+autochthonousz.egg-info/PKG-INFO
+autochthonousz.egg-info/SOURCES.txt
+autochthonousz.egg-info/dependency_links.txt
+autochthonousz.egg-info/requires.txt
+autochthonousz.egg-info/top_level.txt
