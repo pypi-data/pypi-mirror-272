@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: wbg-comms
+Version: 1.0.0
+Requires-Python: >=3.10
+Requires-Dist: wbg-core<2.0.0,>=1.0.0
+Requires-Dist: wbg-sharepoint<2.0.0,>=1.0.0

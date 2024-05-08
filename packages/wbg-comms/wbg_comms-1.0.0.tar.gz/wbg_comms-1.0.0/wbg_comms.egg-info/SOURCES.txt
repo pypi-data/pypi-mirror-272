@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+wbg/comms/__init__.py
+wbg/comms/_comms.py
+wbg/comms/_email_accounts.py
+wbg/comms/_paths.py
+wbg/comms/py.typed
+wbg_comms.egg-info/PKG-INFO
+wbg_comms.egg-info/SOURCES.txt
+wbg_comms.egg-info/dependency_links.txt
+wbg_comms.egg-info/requires.txt
+wbg_comms.egg-info/top_level.txt
