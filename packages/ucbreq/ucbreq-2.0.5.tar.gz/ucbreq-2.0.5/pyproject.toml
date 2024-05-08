@@ -1,0 +1,28 @@
+[project]
+name = 'ucbreq'
+description = 'Simple format for serialization, similar to CSV.  Not useful for most general use.'
+version = '2.0.5'
+readme = 'README.rst'
+requires-python = '>= 3.5, < 4'
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.5',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Software Development :: Libraries',
+]
+
+[[project.authors]]
+name = "Taylor C. Richberger"
+email = "taylor.richberger@procern.com"
+
+[project.urls]
+repository  = 'https://github.com/ProCern/ucbreq'
+documentation = 'https://ucbreq.readthedocs.io/'
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4", 'wheel']
