@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ultratrivialz/__init__.py
+ultratrivialz/main.py
+ultratrivialz.egg-info/PKG-INFO
+ultratrivialz.egg-info/SOURCES.txt
+ultratrivialz.egg-info/dependency_links.txt
+ultratrivialz.egg-info/requires.txt
+ultratrivialz.egg-info/top_level.txt
