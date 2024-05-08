@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/tezapi/__init__.py
+src/tezapi/handle.py
+src/tezapi/responses.py
+src/tezapi/routes.py
+src/tezapi/schemas.py
+src/tezapi/templating.py
+src/tezapi.egg-info/PKG-INFO
+src/tezapi.egg-info/SOURCES.txt
+src/tezapi.egg-info/dependency_links.txt
+src/tezapi.egg-info/requires.txt
+src/tezapi.egg-info/top_level.txt
+src/tezapi/exceptions/__init__.py
+src/tezapi/exceptions/apiexception.py
+src/tezapi/exceptions/base_exceptions.py
