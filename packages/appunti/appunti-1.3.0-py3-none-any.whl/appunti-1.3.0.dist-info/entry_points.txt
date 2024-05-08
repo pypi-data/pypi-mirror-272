@@ -1,0 +1,3 @@
+[console_scripts]
+appunti=appunti.__main__:run
+
