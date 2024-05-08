@@ -1,0 +1,13 @@
+markdown-it-py
+
+[all]
+pillow
+cairosvg
+
+[images]
+pillow
+cairosvg
+
+[images-svg]
+pillow
+cairosvg
