@@ -1,0 +1,7 @@
+starkbank-ecdsa>=2.0.3
+python-mbedtls>=2.10.1
+aiohttp
+base58
+
+[domainapi]
+jsonata>=0.2.3
