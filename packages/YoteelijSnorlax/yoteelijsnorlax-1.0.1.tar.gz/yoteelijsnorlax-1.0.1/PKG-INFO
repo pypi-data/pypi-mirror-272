@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: YoteelijSnorlax
+Version: 1.0.1
+Summary: Una Biblioteca que contiene la clase Random_pokemon para mostranos poquemones locos
+Author: Missael Angel Cardenas
+Author-email: missaelanggel@gmail.com
+Requires-Dist: pandas
+Requires-Dist: pkg_resources
+Requires-Dist: setuptools
+Requires-Dist: twine
+Requires-Dist: wheel

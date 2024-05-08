@@ -1,0 +1,10 @@
+README.md
+setup.py
+YoteelijSnorlax/__init__.py
+YoteelijSnorlax/pokemon.csv
+YoteelijSnorlax/random_pokemon.py
+YoteelijSnorlax.egg-info/PKG-INFO
+YoteelijSnorlax.egg-info/SOURCES.txt
+YoteelijSnorlax.egg-info/dependency_links.txt
+YoteelijSnorlax.egg-info/requires.txt
+YoteelijSnorlax.egg-info/top_level.txt
