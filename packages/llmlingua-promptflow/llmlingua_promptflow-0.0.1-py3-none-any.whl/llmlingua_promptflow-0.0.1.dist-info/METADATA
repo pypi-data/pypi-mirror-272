@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: llmlingua-promptflow
+Version: 0.0.1
+Summary: To speed up LLMs' inference and enhance LLM's perceive of key information, compress the prompt and KV-Cache, which achieves up to 20x compression with minimal performance loss.
+Home-page: https://llmlingua.com
+Author: The LLMLingua team
+Author-email: llmlingua@microsoft.com
+License: MIT License
+Keywords: Prompt Compression,LLMs,Inference Acceleration,Black-box LLMs,Efficient LLMs
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8.0
+Requires-Dist: transformers >=4.26.0
+Requires-Dist: tiktoken
+Requires-Dist: nltk
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: transformers >=4.26.0 ; extra == 'dev'
+Requires-Dist: tiktoken ; extra == 'dev'
+Requires-Dist: nltk ; extra == 'dev'
+Requires-Dist: numpy ; extra == 'dev'
+
