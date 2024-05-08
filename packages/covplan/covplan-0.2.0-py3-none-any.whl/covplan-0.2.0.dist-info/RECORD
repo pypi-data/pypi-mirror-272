@@ -1,0 +1,11 @@
+covplan/__init__.py,sha256=zCrgKNPrQZ8IV_IUpk1xlRe9XQkpJSyRJDEPQ4swp9o,75
+covplan/convert_coordinates.py,sha256=5khPf0P0Qc7kCEkpdd1f53wUpgpcaSLeOEpvjMamVZA,8617
+covplan/coverage_path_planner.py,sha256=fdH2OSXLkqkgKDbKGdMMrESzCGJqeiGf4PdnQGk8iqU,2237
+covplan/dubins_path_planner.py,sha256=TY3sKjpuGw1Ed4PgM7AbvwryVG_AMK5ZVtx-4NexDy0,12336
+covplan/field.py,sha256=7TVusu2GUYv7lpSfXlxQpLVxgFipncyIY6SJzRIOHSA,14038
+covplan/lines.py,sha256=Z1HHwL0ExqWhhY2zBkeFTRLJTwIZeJzlITEBX8W_Yt4,8492
+covplan-0.2.0.dist-info/LICENSE,sha256=jP1xep4eI9BQDIFFt_ZC4aQvMjsZt647qIbO4ThkUiM,1091
+covplan-0.2.0.dist-info/METADATA,sha256=9FIruPEMneLrEr2LM0N2p_WCZj3kNBK9HKnfioqIZZs,3757
+covplan-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+covplan-0.2.0.dist-info/top_level.txt,sha256=puAo_MHbRQVTRj1ZPg3sYg9Ma2G62u0ycn-OTo276VI,8
+covplan-0.2.0.dist-info/RECORD,,
