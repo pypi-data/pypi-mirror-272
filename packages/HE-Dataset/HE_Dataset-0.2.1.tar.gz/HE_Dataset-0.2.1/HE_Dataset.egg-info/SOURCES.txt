@@ -1,0 +1,10 @@
+README.md
+setup.py
+HE_Dataset.egg-info/PKG-INFO
+HE_Dataset.egg-info/SOURCES.txt
+HE_Dataset.egg-info/dependency_links.txt
+HE_Dataset.egg-info/requires.txt
+HE_Dataset.egg-info/top_level.txt
+csulb_mock_student_dataset/__init__.py
+csulb_mock_student_dataset/cmp1.csv
+csulb_mock_student_dataset/data.py
