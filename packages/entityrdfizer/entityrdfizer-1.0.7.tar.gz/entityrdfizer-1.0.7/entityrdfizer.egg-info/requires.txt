@@ -1,0 +1,3 @@
+docopt
+py4jps>=1.0.6
+rdflib<6.0,>=4.2
