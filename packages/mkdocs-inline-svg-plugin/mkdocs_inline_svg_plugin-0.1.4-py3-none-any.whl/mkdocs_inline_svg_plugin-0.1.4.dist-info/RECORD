@@ -1,0 +1,10 @@
+inline_svg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inline_svg/__version__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+inline_svg/config.py,sha256=qDzCQasgRpruYCY4hzHOjoU26KMrY4r28Kym-9JsgTY,1240
+inline_svg/plugin.py,sha256=g4UsahQ8CQTZuZ821SSfBl1nNl3-3Lmo6rPzyO66_2M,1271
+inline_svg/util.py,sha256=ae6jc0dchZU2teaSkay1-106BhAZCLEDt7FkebEW6Hk,6213
+mkdocs_inline_svg_plugin-0.1.4.dist-info/METADATA,sha256=WM6lnkJQ449MntakmL-v5ftKTpXnRHOQxupAHIPFEmY,2529
+mkdocs_inline_svg_plugin-0.1.4.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+mkdocs_inline_svg_plugin-0.1.4.dist-info/entry_points.txt,sha256=HYAdkcW42PHUeLlBft0iledCSYu_oBJHAQA8CozCSrU,64
+mkdocs_inline_svg_plugin-0.1.4.dist-info/licenses/LICENSE.txt,sha256=uJeQUytIFq3EFkyQRDyhdu5xLKQA9K2y054kUxGnuTs,1095
+mkdocs_inline_svg_plugin-0.1.4.dist-info/RECORD,,
