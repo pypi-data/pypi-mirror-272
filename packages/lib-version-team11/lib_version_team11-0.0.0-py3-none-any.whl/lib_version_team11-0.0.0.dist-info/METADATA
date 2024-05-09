@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lib-version-team11
+Version: 0.0.0
+Summary: A version-aware library that can be asked for the version of the library.
+Author: team_11
+Author-email: E.Sipols@student.tudelft.nl
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: setuptools (>=60.0.0,<61.0.0)
+Requires-Dist: setuptools_scm (>=6.3.2,<7.0.0)
+Description-Content-Type: text/markdown
+
+# lib-version
+A version-aware library that can can be asked for the version of the library.
+
