@@ -1,0 +1,27 @@
+graft docs
+graft licenses
+graft src
+graft type_stubs
+
+include *.md
+include *.py
+include *.pyi
+include *.rst
+include *.txt
+include *.yaml
+include *.yml
+include changelog/README.rst
+include CITATION.cff
+include noxfile.py
+include pyproject.toml
+include tox.ini
+
+global-exclude _build build _version.py
+
+global-exclude *.o
+global-exclude *.py[cod]
+
+prune docs/api
+
+# Only for editable installs
+prune src/plasmapy/_dev
