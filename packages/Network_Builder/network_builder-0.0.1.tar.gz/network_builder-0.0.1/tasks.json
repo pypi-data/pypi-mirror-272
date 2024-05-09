@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "taskname": "Task Name 1",
+            "taskdescription": "Task without argument",
+            "target": "Device_Name_1",
+            "command": "command_of_your_choice",
+            "arguments": []
+        },
+        {
+            "taskname": "Task Name 2",
+            "taskdescription": "Task with argument",
+            "target": "Device_Name_2",
+            "command": "command_of_your_choice_with_argument",
+            "arguments": [
+                "argument_1",
+                "argument_2"
+            ]
+        }
+    ]
+}

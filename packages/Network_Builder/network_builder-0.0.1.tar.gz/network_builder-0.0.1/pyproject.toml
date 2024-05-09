@@ -1,0 +1,28 @@
+[project]
+name = "Network_Builder"
+version = "0.0.1"
+description = "Infrastructure as code network builder"
+authors = [
+    { name = "Levy-Y", email = "21.hagymasi.levente.gyula@mechwart.com" }
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "netmiko"
+]
+
+[project.urls]
+Homepage = "https://github.com/Levy-Y/Network-Builder/"
+Repository = "https://github.com/Levy-Y/Network-Builder/"
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+
+[tool.flit.module]
+name = "network_builder"
+
+[tool.flit.sdist]
+include = ["src/network_builder/__init__.py"]
