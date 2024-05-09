@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "metaflow-dbt"
+version = "0.0.1"
+description = ""
+authors = ["Outerbounds"]
+license = "Apache Software License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+metaflow = "^2.10.9"
+dbt-core = "^1.7.0"
+pyyaml = "^6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
