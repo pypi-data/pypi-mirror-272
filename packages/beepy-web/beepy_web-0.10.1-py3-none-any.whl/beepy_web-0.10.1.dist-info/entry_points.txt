@@ -1,0 +1,2 @@
+[console_scripts]
+beepy = beepy.__main__:main
