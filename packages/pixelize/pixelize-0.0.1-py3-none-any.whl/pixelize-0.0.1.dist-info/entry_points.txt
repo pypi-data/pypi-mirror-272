@@ -1,0 +1,3 @@
+[console_scripts]
+pixelize=pixelize.cli:entrypoint
+
