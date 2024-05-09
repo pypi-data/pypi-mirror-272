@@ -1,0 +1,13 @@
+# typical python exclusions
+
+__pycache__
+*.pyc
+
+# build related exclusions
+
+dist/*
+
+# custom exclusions
+
+devel/*
+**/script_*
