@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+WS_Helper_DRO.egg-info/PKG-INFO
+WS_Helper_DRO.egg-info/SOURCES.txt
+WS_Helper_DRO.egg-info/dependency_links.txt
+WS_Helper_DRO.egg-info/top_level.txt

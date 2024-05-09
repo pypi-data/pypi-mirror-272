@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: WS_Helper_DRO
+Version: 0.0.1
+Summary: DRO helper for Water Space Dungeon
+Home-page: https://github.com/yourname/yourproject
+Author: The Urban Penguin
+Author-email: vjoe.ao@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+####################################################
+DRO helper for Water Space Dungeon is a discord bot
+with a static data base with answers of Water Space
+Dungeon for all days of the year
+####################################################
