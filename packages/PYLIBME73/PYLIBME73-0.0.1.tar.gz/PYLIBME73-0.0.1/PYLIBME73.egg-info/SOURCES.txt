@@ -1,0 +1,4 @@
+PYLIBME73.egg-info/PKG-INFO
+PYLIBME73.egg-info/SOURCES.txt
+PYLIBME73.egg-info/dependency_links.txt
+PYLIBME73.egg-info/top_level.txt
