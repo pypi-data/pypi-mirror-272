@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minq"
+version = "0.0.1"
+description = "Tiny quantum gate library based on NumPy"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+classifiers = ["Topic :: Scientific/Engineering :: Mathematics"]
+keywords = ["quantum", "computing", "circuit", "gate", "numpy"]
+dependencies = [
+  "numpy >= 1.26, < 2",
+]
+
+[project.urls]
+Homepage = "https://github.com/fwcd/minq"
+Repository = "https://github.com/fwcd/minq"
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.pyright]
+include = ["minq"]
