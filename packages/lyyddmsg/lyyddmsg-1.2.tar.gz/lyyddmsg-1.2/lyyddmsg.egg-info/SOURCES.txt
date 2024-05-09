@@ -1,0 +1,8 @@
+LICENSE
+README.md
+lyyddmsg.py
+setup.py
+lyyddmsg.egg-info/PKG-INFO
+lyyddmsg.egg-info/SOURCES.txt
+lyyddmsg.egg-info/dependency_links.txt
+lyyddmsg.egg-info/top_level.txt
