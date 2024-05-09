@@ -1,0 +1,3 @@
+[console_scripts]
+paper-agent-cli=paper_agent:client
+
