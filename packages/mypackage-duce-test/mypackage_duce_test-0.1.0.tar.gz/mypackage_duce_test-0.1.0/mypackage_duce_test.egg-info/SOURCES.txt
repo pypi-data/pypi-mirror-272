@@ -1,0 +1,10 @@
+setup.py
+mypackage/__init__.py
+mypackage/__main__.py
+mypackage/mymodule.py
+mypackage/mysubpackage/__init__.py
+mypackage/mysubpackage/mymoduleinsubpackage.py
+mypackage_duce_test.egg-info/PKG-INFO
+mypackage_duce_test.egg-info/SOURCES.txt
+mypackage_duce_test.egg-info/dependency_links.txt
+mypackage_duce_test.egg-info/top_level.txt
