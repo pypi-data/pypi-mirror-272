@@ -1,0 +1,22 @@
+[build-system]
+requires = [
+    "setuptools==69.2.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "levo"
+version = "1.0.0"
+authors = [
+  { name="Levo", email="support@levo.ai" },
+]
+description = "A subset of APIs of Levo's Test Framework, for usage with Python authenticator scripts."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://www.levo.ai"
