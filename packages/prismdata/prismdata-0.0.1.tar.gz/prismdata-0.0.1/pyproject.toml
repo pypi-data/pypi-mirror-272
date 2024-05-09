@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/prismdata"]
+
+[project]
+name = "prismdata"
+dynamic = ["version"]
+description = 'A Python Package to donwload PRISM data programmatically'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Saswata Nandi", email = "iamsaswata@yahoo.com" },
+]
+maintainers = [
+  { name = "Saswata Nandi", email = "iamsaswata@yahoo.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Atmospheric Science",
+  "Topic :: Scientific/Engineering :: Hydrology",
+]
+dependencies = [
+  "python-dateutil >= 2.9.0",
+  "requests >= 2.31.0",
+  "rioxarray >= 0.15.5",
+  "rasterio >= 1.3",
+  "xarray >= 2022.3.0",
+  "pyproj >= 3.3",
+  "scipy >= 1.13.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/iamsaswata/prismdata"
+Documentation = "https://prismdata.readthedocs.io"
+Issues = "https://github.com/iamsaswata/prismdata/issues"
+Source = "https://github.com/iamsaswata/prismdata"
+
+[tool.hatch.version]
+path = "src/prismdata/__about__.py"
