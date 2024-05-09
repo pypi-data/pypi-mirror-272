@@ -1,0 +1,21 @@
+[project]
+name = "rknntools"
+version = "0.0.3"
+authors = [
+  { name="yuyun", email="15515722313@163.com"},
+]
+description = "A utility toolkit for converting RKNN2 models, potentially used during the model transformation process."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+        "onnx>=1.13.1",
+    ]
+
+[project.urls]
+"Homepage" = "https://github.com/yuyun2000"
