@@ -1,0 +1,4 @@
+odoo14-addon-energy_communities
+odoo14-addon-mass-mailing-list-dynamic==14.0.1.0.1.dev4
+odoo14-addon-mass_mailing_partner
+odoo<14.1dev,>=14.0a
