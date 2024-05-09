@@ -1,0 +1,6 @@
+pygolomb/__init__.py,sha256=VNJj-u6HInvT2LZlXajCpVg8xop_l9UKXKRqGiKu4dc,166
+pygolomb/golomb.py,sha256=d6-_o8NctCkPbcIBxmKxPeP4mWAfr6yJJM0B6DNv2kk,2809
+pygolomb-0.1.0.dist-info/COPYING,sha256=kWM9xAKOYmM_TUATqsJTWAHlV8xpCN99jr3MgyTz8Rw,7632
+pygolomb-0.1.0.dist-info/METADATA,sha256=LtAKc6kZ_cB8-z_c1--TppvFo3j3JnwfMmF8mBqBsdg,623
+pygolomb-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pygolomb-0.1.0.dist-info/RECORD,,
