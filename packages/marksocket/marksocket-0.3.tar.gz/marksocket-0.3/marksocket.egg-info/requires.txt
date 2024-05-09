@@ -1,0 +1,7 @@
+markdown>=3.4.1
+
+[highlights]
+Pygments>=2.14.0
+
+[mermaid]
+markdown-mermaid>=0.1
