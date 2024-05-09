@@ -1,0 +1,62 @@
+Metadata-Version: 2.3
+Name: confhub
+Version: 0.0.2a0
+Summary: Configuration add-on to Dynaconf
+Project-URL: Repository, https://github.com/morington/confhub/
+Author-email: Adam Morington <morington.mail@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: cfg,confhub,config,configuration,dynaconf,setting,settings
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Requires-Dist: dynaconf>=3.2.5
+Requires-Dist: pytest>=8.1.1
+Requires-Dist: structlog>=24.1.0
+Requires-Dist: yarl>=1.9.4
+Description-Content-Type: text/markdown
+
+# ConfHub
+
+**Данный модуль позволяет загружать и обрабатывать конфигурационные файлы различных форматов:**
+- `.toml`
+- `.yaml`
+- `.json`
+- `.ini`
+- `.py`
+- `.env`
+
+### !! В конфигурации определена настройка логов с помощью `structlog` и моей настройки процессоров !!
+
+# Основные возможности:
+
+- *Парсинг файлов конфигурации и объединение данных в единый словарь*
+- *Автоматическое создание URL-адресов для сервисов по их настройкам*
+- *Поддержка работы с переменными окружения (.env файлы)*
+- *Возможность задания приоритетных настроек для разработки*
+- *Использование модуля позволяет упростить доступ к конфигурационным данным в коде проекта, а также автоматизировать ряд рутинных задач, связанных с конфигурацией.*
+
+# Установка
+
+**Просто добавьте папку `confhub` в ваш проект и вы уже можете использовать его возможности.**
+
+# Использование
+
+```python
+from confhub.reader import ReaderConf
+
+reader = ReaderConf('tests/settings.yml', 'tests/.secrets.yml', env='tests/.env', dev=True)
+reader.create_service_urls()
+configuration = reader.data
+
+assert configuration.get('postgresql_url') == 'postgresql+asyncpg://morington:password@127.0.0.1:5432/test_database'
+# True
+```
