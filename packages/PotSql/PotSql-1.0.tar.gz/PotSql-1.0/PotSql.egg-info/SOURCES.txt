@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+PotSql/__init__.py
+PotSql/mysql.py
+PotSql.egg-info/PKG-INFO
+PotSql.egg-info/SOURCES.txt
+PotSql.egg-info/dependency_links.txt
+PotSql.egg-info/requires.txt
+PotSql.egg-info/top_level.txt
