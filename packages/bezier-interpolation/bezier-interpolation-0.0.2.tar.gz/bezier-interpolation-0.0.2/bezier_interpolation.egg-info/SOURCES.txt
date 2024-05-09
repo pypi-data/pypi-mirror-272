@@ -1,0 +1,10 @@
+README.md
+setup.py
+bezier_interpolation/__init__.py
+bezier_interpolation/cubic_interpolation.py
+bezier_interpolation/quadratic_interpolation.py
+bezier_interpolation.egg-info/PKG-INFO
+bezier_interpolation.egg-info/SOURCES.txt
+bezier_interpolation.egg-info/dependency_links.txt
+bezier_interpolation.egg-info/requires.txt
+bezier_interpolation.egg-info/top_level.txt
