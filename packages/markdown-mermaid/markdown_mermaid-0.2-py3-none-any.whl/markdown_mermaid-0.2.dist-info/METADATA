@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: markdown-mermaid
+Version: 0.2
+Author: rauaap
+Project-URL: Homepage, https://github.com/rauaap/markdown-mermaid
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: markdown >=3.4.1
+
+# markdown-mermaid
+
+Mermaid extension for [Python-Markdown](https://github.com/Python-Markdown/markdown). Replaces mermaid tagged code blocks with div elements to be rendered by the Mermaid JavaScript library. The JavaScript itself that is required for rendering of the graphs is not inserted. The library can be acquired from a [CDN](https://www.jsdelivr.com/package/npm/mermaid) or [npm](https://www.npmjs.com/package/mermaid) for example.
+
+## Installation
+
+```bash
+pip install markdown-mermaid
+```
+
+## Example
+
+This would be replaced:<br>
+````
+```mermaid
+a -> b
+```
+````
+
+With this:
+```
+<div class="mermaid">
+a -> b
+</div>
+```
+
