@@ -1,0 +1,7 @@
+irisml/tasks/create_yolov9_detection_model/__init__.py,sha256=l8pLAWh0O801PVGfvDOP5l0A4bV_Jw88rowPIvMzm9c,110
+irisml/tasks/create_yolov9_detection_model/create_yolov9_detection_model.py,sha256=vGp-6k1JqK8h6pIemU2Tkq3smi0oox3vM1F3Cbw0d1c,4130
+irisml_tasks_yolov9-0.0.2.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+irisml_tasks_yolov9-0.0.2.dist-info/METADATA,sha256=aIB8r9pn6jg9mdVnA-oxb166nOBSWBncL11gxwr7kLQ,2125
+irisml_tasks_yolov9-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+irisml_tasks_yolov9-0.0.2.dist-info/top_level.txt,sha256=-O6mZvBaJ0q2Xuea9BVCfU8n5tO5UO5aLoPn_Eos3Ao,7
+irisml_tasks_yolov9-0.0.2.dist-info/RECORD,,
