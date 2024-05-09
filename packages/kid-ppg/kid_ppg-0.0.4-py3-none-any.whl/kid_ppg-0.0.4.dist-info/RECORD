@@ -1,0 +1,14 @@
+kid_ppg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kid_ppg/adaptive_linear_model.py,sha256=uqJRWAiDP9yooxqbo7rPjB_4Z1NIvTTQCUmQtTcRc_U,6337
+kid_ppg/kid_ppg.py,sha256=awDs-uD4A-vkGjax1yPlN9Ay0E0EIg6N3KZgd4_RrVM,8753
+kid_ppg/preprocessing.py,sha256=jhD6Jx6fVtCszWNwPA2eoyoaDqVZ7aLSS_pBylw2TIA,2318
+kid_ppg/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kid_ppg/demo/demo_utils.py,sha256=nmBK__6HZebyPeF-qrHMvWbB5QRxtYBm1-5n4oUn-dA,884
+kid_ppg/demo/demo_data/PPGDalia_S6_stairs.pkl,sha256=wAePYspbFLw0UcL2O4TegTqsLma0JP7iSXsRgMeA4kw,1766723
+kid_ppg/demo/demo_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kid_ppg/model_weights/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kid_ppg/model_weights/kid_ppg_weights.h5,sha256=XS_h-61sCfO0VKAOQtfL7zVY0vCxSPuhf2Y7kyLGkFQ,4671496
+kid_ppg-0.0.4.dist-info/METADATA,sha256=tUrYdXMbzCVFndfDM6ggT1fEskyRJ4bkUpa5NQKFg9M,1889
+kid_ppg-0.0.4.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+kid_ppg-0.0.4.dist-info/licenses/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+kid_ppg-0.0.4.dist-info/RECORD,,
