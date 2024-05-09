@@ -1,0 +1,11 @@
+torch
+transformers[torch]
+scikit-learn
+datasets
+
+[dev]
+check-manifest
+pytest
+
+[test]
+coverage
