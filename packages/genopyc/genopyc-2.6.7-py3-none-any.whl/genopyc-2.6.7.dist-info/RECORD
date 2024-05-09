@@ -1,0 +1,11 @@
+genopyc/__init__.py,sha256=ce78J6IqDKQo8BYBrTizHSOTuZzCOeBW8XWiBR7xJgc,1421
+genopyc/__version__.py,sha256=YlkJI7HN9TSf9KUgF_hGPUZNSOXfQb3OXePrbbmbkcc,21
+genopyc/data/HUMAN_9606_idmapping.dat.gz,sha256=qE2lVN5fxkackFXCYcnOsAwccOdRJmJffXN9L82XRT4,37625041
+genopyc/data/Homo_sapiens.gene_info.gz,sha256=qLP7Z9W8mWTn2ehcyP9lQzX6sM-h_Nv5VXh4RB4xfYg,4169335
+genopyc/data/hippie_interactome.sif,sha256=iqdnCWTnTXIs43-jMLNijQ2PJWd7CRSVMHnh8miE1vs,1302100
+genopyc/data/uberon_dict.pickle,sha256=UEBNF7TzOiRQmg70WCtdVsIqmxGe-sf320tT9qfHXWM,842237
+genopyc-2.6.7.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+genopyc-2.6.7.dist-info/METADATA,sha256=NzbWm_bDuaiPOS3DycN7Nx2ZwvpJk8mhVn0rRP6laIs,1338
+genopyc-2.6.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+genopyc-2.6.7.dist-info/top_level.txt,sha256=Wo4uco8QIcmZcoQJmxDYvrDatX_GrmASBAr5wSeBevA,8
+genopyc-2.6.7.dist-info/RECORD,,
