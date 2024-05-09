@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: urdf-mesh-inertia
+Version: 0.2.0
+Summary: Compute inertial parameters for a mesh using pymeshlab and return the URDF inertial tag for links.
+Home-page: https://github.com/eriol/urdf-mesh-inertia
+License: BSD-3-Clause
+Author: Daniele Tricoli
+Author-email: eriol@mornie.org
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: pymeshlab (>=2023.12.post1,<2024.0)
+Requires-Dist: typer (>=0.12.3,<0.13.0)
+Project-URL: Repository, https://github.com/eriol/urdf-mesh-inertia
+Description-Content-Type: text/markdown
+
+# urdf-mesh-inertia
+
+Compute inertial parameters for a mesh using pymeshlab and return the URDF
+inertial tag for links.
+
+
+## Installation
+
+### Using pipx
+
+The best way to install urdf-mesh-inertia is using [pipx](https://pypa.github.io/pipx/):
+```console
+$ pipx install urdf-mesh-inertia
+```
+
+### Using pip
+
+*When using pip it's suggested to work inside a virtualenv.*
+
+```console
+$ python -m pip install urdf-mesh-inertia
+```
+
+### From source
+
+urdf-mesh-inertia uses [Poetry](https://python-poetry.org) as dependency
+management and packaging tool, you need to install it first.
+
+Then:
+
+1. Clone this repository.
+2. From the root of the repository run:
+   ```console
+   $ poetry build
+   ```
+3. Install using pipx or pip (it's better to use pipx):
+   ```console
+   $ pipx install dist/urdf_mesh_inertia-0.1.0-py3-none-any.whl
+   ```
+
+## Usage
+
+```console
+ Usage: urdf-mesh-inertia [OPTIONS] MESH_PATH MASS
+
+ Compute inertial parameters for a mesh.
+ Calculation is made using pymeshlab and the URDF inertial tag for links is
+ returned.
+
+╭─ Arguments ──────────────────────────────────────────────────────────────────╮
+│ *    mesh_path      PATH   Path of the mesh. [default: None] [required]      │
+│ *    mass           FLOAT  Mass of the mesh in kg. [default: None]           │
+│                            [required]                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ --precision        INTEGER  Rounding at specified decimal digit.             │
+│                             [default: None]                                  │
+│ --help                      Show this message and exit.                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+```
+
+For example:
+
+```console
+$ urdf-mesh-inertia --precision 8 ~/devel/ros/darwin_description/meshes/head_coll.stl 0.158
+```
+
+Will give us:
+
+```xml
+<inertial>
+  <origin xyz="0.0025258 -0.0244761 6.7e-07"/>
+  <mass value="0.158"/>
+  <inertia ixx="0.0001567" ixy="2.494e-05" ixz="-0.0" iyy="0.00016806" iyz="0.0" izz="0.00017144"/>
+</inertial>
+```
+
+`--precision` round at the specified decimal position. If you don't want
+rounding run the command without it.
+
