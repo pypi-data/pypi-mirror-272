@@ -1,0 +1,84 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skilleter_thingy"
+
+# Version must be incremented to install updated Thingy
+
+version = "0.0.38"
+
+authors = [
+    {name="John Skilleter", email="john@skilleter.org.uk"},
+]
+
+description = "A collection of useful utilities, mainly aimed at making Git more friendly"
+
+readme = "README.md"
+
+requires-python = ">=3.6"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "imagehash",
+    "inotify",
+    "pillow",
+    "psutil",
+    "pyaml",
+    "pygit2",
+    "python-dateutil",
+    "requests",
+]
+
+[project.urls]
+Home = "https://skilleter.org.uk"
+
+[project.scripts]
+addpath = "src:addpath.addpath"
+borger = "src:borger.borger"
+console_colours = "src:console_colours.console_colours"
+diskspacecheck = "src:diskspacecheck.diskspacecheck"
+docker-purge = "src:docker_purge.docker_purge"
+ffind = "src:ffind.ffind"
+ggit = "src:ggit.ggit"
+ggrep = "src:ggrep.ggrep"
+git-br = "src:git_br.git_br"
+git-ca = "src:git_ca.git_ca"
+git-cleanup = "src:git_cleanup.git_cleanup"
+git-co = "src:git_co.git_co"
+git-common = "src:git_common.git_common"
+git-hold = "src:git_hold.git_hold"
+git-mr = "src:git_mr.git_mr"
+git-parent = "src:git_parent.git_parent"
+git-review = "src:git_review.git_review"
+git-update = "src:git_update.git_update"
+git-wt = "src:git_wt.git_wt"
+gitcmp-helper = "src:gitcmp_helper.gitcmp_helper"
+gitprompt = "src:gitprompt.gitprompt"
+gl = "src:gl.gl"
+gphotosync = "src:gphotosync.gphotosync"
+linecount = "src:linecount.linecount"
+moviemover = "src:moviemover.moviemover"
+photodupe = "src:photodupe.photodupe"
+phototidier = "src:phototidier.phototidier"
+py-audit = "src:py_audit.py_audit"
+readable = "src:readable.readable"
+remdir = "src:remdir.remdir"
+rmdupe = "src:rmdupe.rmdupe"
+rpylint = "src:rpylint.rpylint"
+s3-sync = "src:s3_sync.s3_sync"
+splitpics = "src:splitpics.splitpics"
+strreplace = "src:strreplace.strreplace"
+sysmon = "src:sysmon.sysmon"
+tfm = "src:tfm.tfm"
+tfparse = "src:tfparse.tfparse"
+trimpath = "src:trimpath.trimpath"
+window-rename = "src:window_rename.window_rename"
+xchmod = "src:xchmod.xchmod"
+yamlcheck = "src:yamlcheck.yamlcheck"
