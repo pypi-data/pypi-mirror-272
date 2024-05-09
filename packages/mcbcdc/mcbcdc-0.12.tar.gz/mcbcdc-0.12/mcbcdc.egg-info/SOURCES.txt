@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+file/__init__.py
+file/file2.py
+file/../data/facebook.txt
+file/../data/hadoop.txt
+file/../data/heart.txt
+file/../data/hive.txt
+file/../data/tableau.txt
+file/../data/web.txt
+file/../data/web1.txt
+mcbcdc.egg-info/PKG-INFO
+mcbcdc.egg-info/SOURCES.txt
+mcbcdc.egg-info/dependency_links.txt
+mcbcdc.egg-info/top_level.txt
