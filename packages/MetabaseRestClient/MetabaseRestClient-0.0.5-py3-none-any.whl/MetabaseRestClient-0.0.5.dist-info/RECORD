@@ -1,0 +1,11 @@
+metabase/__init__.py,sha256=PR3I3VGGQHfGrgSwVSARSYhUDRGfqSscbSd2MifAOlA,151
+metabase/exception.py,sha256=1cIuwHF5OqLsnnrNFYuNTGB17AK5XC6LnG6KwEZejno,323
+metabase/serializer.py,sha256=uegt6yMJZdMz8wSrUwiFGXNTopqWN8Azn5MNEFKGgmA,499
+metabase/service/__init__.py,sha256=iQZF15q8zC81k7XU8ud7WcXhvghLNbsNdUYDRIHIFUs,46
+metabase/service/http_service.py,sha256=xWQuSop3a_Ee4uZaBCMN171Hx7bKDhgR9KE7qhiuKB8,1031
+metabase/service/metabase_service.py,sha256=itUo31VWE0bEwMmqRCpwFHpjRudfTTeT4-uu-n5MUNQ,2081
+MetabaseRestClient-0.0.5.dist-info/LICENSE,sha256=kMDUYTNnummGMZiwFP-gcNFZ2zLkL7HnTQG4WZHlBCc,1071
+MetabaseRestClient-0.0.5.dist-info/METADATA,sha256=lnsohb9j3qYfnipjN0MMtRfOlPuxMRizk0kHo9U5LBw,2049
+MetabaseRestClient-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+MetabaseRestClient-0.0.5.dist-info/top_level.txt,sha256=tO4V0v-dWTj1IhdX-Q8l1JyogJLeVc-YE2dcrZPhL9M,9
+MetabaseRestClient-0.0.5.dist-info/RECORD,,
