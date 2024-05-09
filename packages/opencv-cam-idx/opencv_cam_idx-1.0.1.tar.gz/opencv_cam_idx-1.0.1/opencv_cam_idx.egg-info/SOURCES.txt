@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+opencv_cam_idx/__init__.py
+opencv_cam_idx/finder.py
+opencv_cam_idx/moniker.py
+opencv_cam_idx/py.typed
+opencv_cam_idx.egg-info/PKG-INFO
+opencv_cam_idx.egg-info/SOURCES.txt
+opencv_cam_idx.egg-info/dependency_links.txt
+opencv_cam_idx.egg-info/requires.txt
+opencv_cam_idx.egg-info/top_level.txt
