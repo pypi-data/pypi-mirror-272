@@ -1,0 +1,13 @@
+ascender/app.py,sha256=e09mvu7g40zep_TdZG5KV32vOiGBqFjD0LvPcvUNekA,146
+ascender/commands/projects.py,sha256=le6But49vMgxjZoUekVCZJ0JTVGIhSmbUQrq7Ss7Kpo,3239
+ascender/commands/runner.py,sha256=Y4FtcjCT54glovyvUHreblEaQpBj2OAhTmniczbatGU,1840
+ascender/launch.py,sha256=P2vee0v6ZS2ojHutlGysrxrBJ81YImf5uCL0eMC9Kbk,132
+ascender/logic/projects.py,sha256=N__IX2L9nCG57aQJPsGgEuwftY_AWMVKxfAel9LxXKM,7792
+ascender/logic/runner.py,sha256=47vjIAd4EBlDeHHC1ljH3DNxEubWS4v4vyq3J01atcY,2573
+ascender/logic/versions.py,sha256=MOBq6rU4P8EdzNETMpKjdlnZnZhgqoKwBaOTB6abG7U,2630
+ascender/settings.py,sha256=SUDm28mdVoUazthL8xREwVNHRff6vn3LQ8HXxxaEAqo,179
+ascender-0.2.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+ascender-0.2.0.dist-info/METADATA,sha256=IlQJIxe67fD92E1iNLXgfioESLXy9Hp7z7AShLDXNs0,1821
+ascender-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ascender-0.2.0.dist-info/entry_points.txt,sha256=kNbG-56s4ro4Jc2RqryEVfXl7ydoJqoix6YzShxTKTA,52
+ascender-0.2.0.dist-info/RECORD,,
