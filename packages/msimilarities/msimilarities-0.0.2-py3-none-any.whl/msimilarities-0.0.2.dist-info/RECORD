@@ -1,0 +1,16 @@
+msimilarities/__init__.py,sha256=XHq3YovmZ_qp9GI2aIvxUCRr_LIK_RiO2EGROvw6tXY,816
+msimilarities/bert_similarity.py,sha256=nSlCDqvhAMKQSacDPlqMxoCSFUl-a1Bv_FsA0mpuG2o,9726
+msimilarities/ensemble_similarity.py,sha256=1LMUTtSaVoh0m2HHSPWx0O66sv_VAIa4-YsfCIR7KKY,7512
+msimilarities/fast_bert_similarity.py,sha256=YogTfJ_HgeqU-a5_ZArWBEwF4xAm2lJ5f8xl0GLn2Rw,9767
+msimilarities/literal_similarity.py,sha256=CSdqJpfkJPhT8xYsaoLqT4x0ff02jJ4slnwh6KzSz4g,40081
+msimilarities/similarity.py,sha256=LeyJ9XIdLm0LlpG6BFYF60vR5vGVbnEc5EC2f5t9LWM,2550
+msimilarities/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msimilarities/utils/distance.py,sha256=OOEUKlNrbpTR7oHancmRK_FrdbQtdzADN1qYkojmYPs,6930
+msimilarities/utils/rank_bm25.py,sha256=rW6_HLRTihKe-M2fWS-S3oOpROsAcjXqXDBNAADR8jA,5524
+msimilarities/utils/tfidf.py,sha256=64pBLW9j0f--nPPMV2ZOSZxdnZh-fJ7SF5D1Fza_lXE,2413
+msimilarities/utils/util.py,sha256=UFkyEfnQAXTQLR345yb0cuIQJiMN9SUpNxjeOt0mESk,12495
+msimilarities-0.0.2.dist-info/LICENSE,sha256=Bv8K6IAZRIWoOJkByL5VSKRXYSww14N9PGkLQujOeYc,1067
+msimilarities-0.0.2.dist-info/METADATA,sha256=B0vpm341tiBq-337-AZd1P_cSuRr3l_jpmmS7psNxks,1065
+msimilarities-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+msimilarities-0.0.2.dist-info/top_level.txt,sha256=nm0tC4PhywhmkivVntfx_aBK17acWmJxzAFvEWUNfCQ,14
+msimilarities-0.0.2.dist-info/RECORD,,

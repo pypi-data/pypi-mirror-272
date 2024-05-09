@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: msimilarities
+Version: 0.0.2
+Summary: Similarities is a toolkit for compute similarity scores between two sets of strings.
+Home-page: https://github.com/lvyufeng/msimilarities
+Author: Lvyufeng
+Author-email: lvyufeng@cqu.edu.cn
+License: Apache License 2.0
+Keywords: msimilarities,Chinese Text Similarity Calculation Tool,similarity,word2vec
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ms2vec
+Requires-Dist: jieba >=0.39
+Requires-Dist: loguru
+Requires-Dist: Pillow
+Requires-Dist: fire
+Requires-Dist: autofaiss
+Requires-Dist: mindnlp
+
+# similarities-mindspore
