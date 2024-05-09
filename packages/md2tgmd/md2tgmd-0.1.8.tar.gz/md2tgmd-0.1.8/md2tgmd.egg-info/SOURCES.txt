@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+md2tgmd.egg-info/PKG-INFO
+md2tgmd.egg-info/SOURCES.txt
+md2tgmd.egg-info/dependency_links.txt
+md2tgmd.egg-info/top_level.txt
