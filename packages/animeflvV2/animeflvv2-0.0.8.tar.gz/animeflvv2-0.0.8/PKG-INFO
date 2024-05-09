@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: animeflvV2
+Version: 0.0.8
+Summary: Api para ver anime de AnimeFLV
+Home-page: 
+Author: 
+Author-email: 
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# AnimeFLV API
+
+
+> AnimeFLV is a python custom API for [animeflv.net](https://animeflv.net) a Spanish anime content website.
+
+## Installation
+For install with pip:
+```bash
+$ pip install animeflvV2
+```
+
+## API Documentation
+
+#### Create animeflv api instance:
+```python
+>>> from animeflvV2 import AnimeFLV
+>>> with AnimeFLV() as api:
+>>>     # Do anything with api object
+>>>    ...
+```
+
+#### Features
+- [X] Get download links by episodes
+- [X] Search
+- [X] Get Video Servers
+- [X] Get Anime Info
+- [X] Get new releases (animes and episodes)
+
+## License
+[MIT](./LICENSE)
+
+## Authors
++ [Julian Morera](https://github.com/JulianMorera07)
