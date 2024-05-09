@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/TrailPy/__init__.py
+src/TrailPy/mats.py
+src/TrailPy.egg-info/PKG-INFO
+src/TrailPy.egg-info/SOURCES.txt
+src/TrailPy.egg-info/dependency_links.txt
+src/TrailPy.egg-info/requires.txt
+src/TrailPy.egg-info/top_level.txt
+test/test_RCFA_1.py
+test/testfile2.py

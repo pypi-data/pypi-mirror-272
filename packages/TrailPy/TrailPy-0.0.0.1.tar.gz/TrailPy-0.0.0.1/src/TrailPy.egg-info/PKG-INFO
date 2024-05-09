@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: TrailPy
+Version: 0.0.0.1
+Summary: TRIAL
+Author: Tabish Izhar
+Author-email: tizhar@iul.ac.in
+License: GNU LESSER GENERAL PUBLIC LICENSE v2.1 or later (GNU LGPLv2.1)
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+"HELLO WORKING"
