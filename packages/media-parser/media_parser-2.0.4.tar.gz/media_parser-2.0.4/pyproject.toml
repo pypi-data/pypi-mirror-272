@@ -1,0 +1,103 @@
+[tool.poetry]
+name = "media-parser"
+version = "2.0.4"
+description = "API for parsing media from social networks"
+authors = ["Jag_k <me@jagk.dev>"]
+maintainers = ["Jag_k <me@jagk.dev>"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: FastAPI",
+    "Framework :: Pydantic",
+    "Framework :: Pydantic :: 1",
+    "Natural Language :: English",
+    "Natural Language :: Russian",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+homepage = "https://github.com/jag-k/media-parser#readme"
+repository = "https://github.com/jag-k/media-parser"
+documentation = "https://jag-k.github.io/media-parser"
+readme = "README.md"
+license = "MIT"
+keywords = ["media-parser", "poetry", "tiktok", "youtube", "reddit", "twitter"]
+packages = [
+    {include = "media_parser"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = "^3.9.5"
+contextvars = "^2.4"
+pydantic = "^2"
+jsonref = "^1.1.0"
+pytube = "^15.0.0"
+motor = "^3.3.1"
+async-lru = "^2.0.2"
+pyyaml = "^6.0.1"
+httpx = "^0.27.0"
+pydantic-settings = "^2.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+pre-commit = "*"
+motor-types = "^1.0.0b2"
+ruff-lsp = "*"
+
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "7.1.1"
+furo = "^2023.7.26"
+sphinxext-opengraph = "^0.8.2"
+sphinx-copybutton = "^0.5.2"
+sphinx-inline-tabs = "^2023.4.21"
+myst-parser = "^2.0.0"
+#sphinxcontrib-openapi = {git = "https://github.com/david-i-berry/sphinxcontrib-openapi.git"}
+#swagger-plugin-for-sphinx = "^3.2.0"
+#sphinxcontrib-redoc = "^1.6.0"
+#sphinx-autodoc2 = {git = "https://github.com/jag-k/sphinx-autodoc2.git"}
+#astroid = "2.15.8"  # sphinx-autodoc2 deps
+sphinx-autodoc2 = {git = "https://github.com/jag-k/sphinx-autodoc2.git"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+src = ["media_parser"]
+
+[tool.ruff.lint]
+select = [
+    "E", # pyflakes
+    "F", # pycodestyle errors
+    "W", # pycodestyle warnings
+    "UP", # pyupgrade
+    "I", # isort
+    "C4", # flake8-comprehensions
+    "N", # pep8-naming
+    "ASYNC", # flake8-async
+    "S", # flake8-bandit
+    "INT", # flake8-gettext
+    "PTH", # flake8-use-pathlib
+    "FLY", # flynt
+    "RUF", # ruff-specific rules
+]
+
+[tool.ruff.lint.flake8-quotes]
+docstring-quotes = "double"
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["E402", "F401", "F403", "F405", "F811", "N999"]
+"__main__.py" = ["E402", "F401", "F403", "F405", "F811", "N999"]
+"docs/conf.py" = ["E402"]
