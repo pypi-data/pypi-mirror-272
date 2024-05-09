@@ -1,0 +1,2 @@
+[console_scripts]
+dp = bashgpt.main:main
