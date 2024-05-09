@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: meme-checkr
+Version: 1.0.0
+Summary: a hello world example
+Home-page: https://github.com/jermwatt/meme_checkr
+Author: Jeremy Watt
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: ffmpeg-python
+Requires-Dist: moviepy
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: pyaml
+Requires-Dist: pydub
+Requires-Dist: pypdf
+Requires-Dist: pytest
+Requires-Dist: pytest-subtests
+Requires-Dist: python-docx
+Requires-Dist: python-dotenv
+Requires-Dist: python-pptx
+Requires-Dist: requests
+Provides-Extra: linting
+Requires-Dist: pylint; extra == "linting"
+Requires-Dist: mypy; extra == "linting"
+Requires-Dist: typing-extensions; extra == "linting"
+Requires-Dist: ruff; extra == "linting"
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-xdist; extra == "testing"
+
+# checkr
