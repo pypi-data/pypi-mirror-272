@@ -1,0 +1,10 @@
+fastfit/__init__.py,sha256=MQGfx-a9J-XwoggSTomEYfA2ryX5dMqTUZNP5NarUmk,130
+fastfit/modeling.py,sha256=9L6wKAj9igTatswfYg5VSnMpLapVH3AYM4DyyW_I1Kk,30997
+fastfit/train.py,sha256=nzOI_ntQgNt41zCo8VEQxfTIrmt3YdZ0QZiLrwYMS6c,41944
+fastfit/utils.py,sha256=ydlhGb_0KZy24CdUUMrbVfPHUsB9gVufNoAoqW1AUTI,671
+fast_fit-1.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fast_fit-1.2.1.dist-info/METADATA,sha256=NZKHe9_ox7LxNzrmZwGN34SbLMOgO1UfmutMM-7Yyh8,15157
+fast_fit-1.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fast_fit-1.2.1.dist-info/entry_points.txt,sha256=1OC15k4qV8qS-T7_DhgIu2lupXn1EAvwBVbJQyMQLvY,53
+fast_fit-1.2.1.dist-info/top_level.txt,sha256=C96qqRUlYRntom-uwJwjHnJV_LPX6VhTGCV1PmVihdw,8
+fast_fit-1.2.1.dist-info/RECORD,,
