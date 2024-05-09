@@ -1,0 +1,3 @@
+[console_scripts]
+hello-world-cli = meme_checkr.main:main
+

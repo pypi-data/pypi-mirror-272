@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: meme_checkr
+Version: 1.0.1
+Summary: a hello world example
+Home-page: https://github.com/jermwatt/meme_checkr
+Author: Jeremy Watt
+License: UNKNOWN
+Description: # checkr
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: linting
+Provides-Extra: testing

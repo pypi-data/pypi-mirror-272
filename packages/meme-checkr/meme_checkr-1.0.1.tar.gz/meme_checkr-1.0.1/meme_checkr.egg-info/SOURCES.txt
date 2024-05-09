@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+meme_checkr/__init__.py
+meme_checkr/main.py
+meme_checkr.egg-info/PKG-INFO
+meme_checkr.egg-info/SOURCES.txt
+meme_checkr.egg-info/dependency_links.txt
+meme_checkr.egg-info/entry_points.txt
+meme_checkr.egg-info/requires.txt
+meme_checkr.egg-info/top_level.txt
