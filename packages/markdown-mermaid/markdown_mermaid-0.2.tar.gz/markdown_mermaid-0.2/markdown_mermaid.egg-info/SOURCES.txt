@@ -1,0 +1,9 @@
+LICENSE
+markdown_mermaid.py
+pyproject.toml
+readme.md
+markdown_mermaid.egg-info/PKG-INFO
+markdown_mermaid.egg-info/SOURCES.txt
+markdown_mermaid.egg-info/dependency_links.txt
+markdown_mermaid.egg-info/requires.txt
+markdown_mermaid.egg-info/top_level.txt
