@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: zacks
+Version: 1.0.2
+Summary: A simple web scraper for extracting data from Zacks Investment Research
+Author-email: Alon Leshem <aleshem20@gmail.com>
+Keywords: zacks,scraper,data extraction
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: requests
+Requires-Dist: alive-progress
+Requires-Dist: argparse
+
+# Zacks
+An unofficial package that extracts portfolio information from Zacks. The only current implementation is `experts_view()`
+
+## Usage
+```python
+from zacks import experts_view
+
+experts_view()
+```
