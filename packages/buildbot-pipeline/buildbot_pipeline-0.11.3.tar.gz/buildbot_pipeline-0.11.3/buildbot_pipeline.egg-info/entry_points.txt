@@ -1,0 +1,5 @@
+
+        [buildbot.www]
+        file-store = buildbot_pipeline.file_store:ep
+        bb-pipeline = buildbot_pipeline.web:ep
+    
