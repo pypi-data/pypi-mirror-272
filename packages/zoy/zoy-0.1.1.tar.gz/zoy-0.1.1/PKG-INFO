@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: zoy
+Version: 0.1.1
+Summary: Count lines of python code in projects
+License: MIT
+Author: Billy
+Author-email: billydevbusiness@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+## Zoy
+
+Utility to count lines of python code, scripts, directories, etc. in projects.
+
+```bash
+$ python -m zoy path/to/project
+Project Structure: 
+📂 test
+  📄 test_zoy.py
+📂 zoy
+  📄 zoy.py
+  📄 __init__.py
+  📄 __main__.py
+
+=========================================
+
+Total Python files: 4
+Total lines in Python files: 65
+Total directories: 2
+```
+
+### Installation
+
+```bash
+$ pip install zoy
+```
