@@ -1,0 +1,14 @@
+lzss.cpython-39-darwin.so,sha256=HxiKXfphayVjQWTPMZjHCaCjegaHTb38RsV_j-RTR10,52328
+include/py3c.h,sha256=qwLsldehUJmYBYeqKtYv37RGIF8H7YyTK30yi8nAdtU,1265
+include/py3c/capsulethunk.h,sha256=ZLlNN53QG0zwA5uA4wHNILKpRP6UzQqQw7AFGItdC4o,3777
+include/py3c/fileshim.h,sha256=EXg3O1t36_ut8ir9v3OS0wIFJXoCDx4T8vIJSmk5JS0,1127
+include/py3c/comparison.h,sha256=LFy5gzcg0wnJqqWfPEFtrpRy7pj2jWo_x8zfSkHRd7I,1859
+include/py3c/py3shims.h,sha256=hQ2I1rUwjOKB7u7Ko31zxQfFENg8UUj2lmDGwUkBCJQ,1093
+include/py3c/tpflags.h,sha256=wF8H7hVHSc_6P1eyW8TPrg6vsPPXg_z5S_GlPfWnpWc,1962
+include/py3c/compat.h,sha256=DBJhW3pLOfDsX4WGM98xii7TRVLQx2Sy2c8e31f7t9g,4105
+pylzss-0.3.8.dist-info/RECORD,,
+pylzss-0.3.8.dist-info/WHEEL,sha256=t3aNIuHimB-eyeerOmc50nLML0b4_R6yjydcdcJkGHg,108
+pylzss-0.3.8.dist-info/COPYING.LESSER,sha256=6or154nLLU6bELzjh0mCreFjt0m2v72zLi3yHE0QbeE,7650
+pylzss-0.3.8.dist-info/COPYING,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+pylzss-0.3.8.dist-info/top_level.txt,sha256=8qM2l8CEuXDAKfrIa2zyjnx7cA0oGUDooCA0cBgRUG0,13
+pylzss-0.3.8.dist-info/METADATA,sha256=MAeWIPmq0BGrH3w5EvnWqfyY6DHoo9j_ZGWs6NMEpbA,1404
