@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: CryDBkit
+Version: 0.0.1
+Summary: ToolKit for building your own Crystal Database
+Home-page: https://github.com/WPEM
+Author: CaoBin
+Author-email: binjacobcao@gmail.com
+Maintainer: CaoBin
+Maintainer-email: binjacobcao@gmail.com
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Requires-Dist: subprocess
+Requires-Dist: zipfile
+Requires-Dist: wget
+Requires-Dist: pkg-resources
+Requires-Dist: ase
+
+ToolKit for building your own Crystal Database. 
+For assistance, please contact me at binjacobcao@gmail.com. Cao Bin, HKUST, China."
