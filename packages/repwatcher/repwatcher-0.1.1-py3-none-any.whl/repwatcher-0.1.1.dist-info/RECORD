@@ -1,0 +1,11 @@
+repwatcher/__init__.py,sha256=eJZzM12zt24k60ZVVBpVwL6OvR6XsMyvhV7acWb5pwU,204
+repwatcher/__main__.py,sha256=TktgQMA9JvZjE12qKsxC5jg-uwwke2ZxfK79fVpxXMw,75
+repwatcher/cli.py,sha256=LzuViopf2Qmyy7ZujSa5LMTck0fogp-HDHS9Puvw0Vs,816
+repwatcher/config.py,sha256=ZuMtP6XsaR5-KKB-7nyAOHtQZO_CQjPdUaWkYQrUZ0M,1356
+repwatcher/repwatcher.py,sha256=FxwYuzt6Gc1eKZ8JBdyexTflVFr1sPHxzlXxvRLuaJ4,2488
+repwatcher-0.1.1.dist-info/LICENSE,sha256=FC94Amk3YzCR1iNOcuvCHTnnb7oarJD4l5nm1mUNPqM,1073
+repwatcher-0.1.1.dist-info/METADATA,sha256=59sLpTvrqsx2fCIDCkeCmvVd2QxcH0hz0coCsZfHRmk,2017
+repwatcher-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+repwatcher-0.1.1.dist-info/entry_points.txt,sha256=QuNofWN2jEU4rqQIbd581z2qbujCjJzijUHwmkhSFII,51
+repwatcher-0.1.1.dist-info/top_level.txt,sha256=UW-XL1IGd26_zXWypf-pD1Io8oatzeA6lRW-ZYNe4xU,11
+repwatcher-0.1.1.dist-info/RECORD,,
