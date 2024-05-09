@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "disrepair"
+version = "1.0.0"
+description = "Check and update out-of-date Python packages in requirements files"
+authors = ["David Bell <dave@evad.io>"]
+
+license = "GPL3"
+readme = "README.md"
+homepage = "https://github.com/divad/disrepair"
+repository = "https://github.com/divad/disrepair"
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = ">=8.0"
+requests = ">=2.0"
+packaging = ">=21.0"
+pypi-simple = ">=1.5.0"
+requirements-parser = ">=0.9.0"
+rich = ">=12.0"
+setuptools = ">=60"
+
+[tool.poetry.scripts]
+disrepair = 'disrepair:cmd.cli'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
