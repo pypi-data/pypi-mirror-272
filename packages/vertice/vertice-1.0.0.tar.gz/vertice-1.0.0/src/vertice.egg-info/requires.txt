@@ -1,0 +1,5 @@
+reportlab
+py7zr
+rarfile
+matplotlib
+numpy
