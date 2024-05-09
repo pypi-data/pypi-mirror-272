@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sparklestock/Stock.py
+sparklestock/__init__.py
+sparklestock/__version__.py
+sparklestock.egg-info/PKG-INFO
+sparklestock.egg-info/SOURCES.txt
+sparklestock.egg-info/dependency_links.txt
+sparklestock.egg-info/requires.txt
+sparklestock.egg-info/top_level.txt
