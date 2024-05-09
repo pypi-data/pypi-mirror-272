@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: zkagi
+Version: 0.1.0
+Summary: ZkAGI
+Author-email: Lulzx <wiserishabh@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# zkagi-sdk
