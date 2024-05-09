@@ -1,0 +1,14 @@
+lzss.cp39-win_amd64.pyd,sha256=FICTM6GZb6rDRqj-Bodav4qmkMx972FSi7hZe5dvK2I,14336
+include/py3c.h,sha256=J2JXrFoR2X5JMkAx4jO1hkvVZhSJrtryWQEwHQxZ5Zc,1299
+include/py3c/capsulethunk.h,sha256=s5qppAaG_cY_2RU5yKubouSp3alxilhpGzzoFyZ5Mrk,3918
+include/py3c/comparison.h,sha256=7muokzVZ_c3C-pdC3oVkshcLqqIT5pObkdb_krW-w7Q,1904
+include/py3c/compat.h,sha256=f4psc-k5B7hFtaWP6-IAZtRZgIc2iNCqxp732JpJ_us,4244
+include/py3c/fileshim.h,sha256=FytNEgMJZlCMvPFCBgCJhVKcsrCh4WcADrQDM4vnBB8,1176
+include/py3c/py3shims.h,sha256=u_7VeNBfMEGMU59oGLQtkkCWCTBs1KtqpQeeVVksuqg,1137
+include/py3c/tpflags.h,sha256=pYuuIAjq7oyV5CzPmfrGfOjpj8cWlKvX_EaCpp8uV3c,2014
+pylzss-0.3.8.dist-info/COPYING,sha256=s9Hq5_Uk_J3dSFYqRlLv0rzYSOOLA_BeOIvM6UPnPfI,35819
+pylzss-0.3.8.dist-info/COPYING.LESSER,sha256=LPNKwDiu5awG-TPd0dqYJuC7k4PBPY4LCI_O0LSpW1s,7814
+pylzss-0.3.8.dist-info/METADATA,sha256=-oPqb7bp3iMFJwDpCRdTjv6lAiU8HP_ahf3aM-_UIi4,1447
+pylzss-0.3.8.dist-info/WHEEL,sha256=Z6c-bE0pUM47a70GvqO_SvH_XXU0lm62gEAKtoNJ08A,100
+pylzss-0.3.8.dist-info/top_level.txt,sha256=8qM2l8CEuXDAKfrIa2zyjnx7cA0oGUDooCA0cBgRUG0,13
+pylzss-0.3.8.dist-info/RECORD,,
