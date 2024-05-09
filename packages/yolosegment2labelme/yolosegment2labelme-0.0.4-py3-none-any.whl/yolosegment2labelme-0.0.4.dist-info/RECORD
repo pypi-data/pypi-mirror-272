@@ -1,0 +1,9 @@
+yolosegment2labelme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yolosegment2labelme/polygon_saver.py,sha256=7E5wdBTOQ1orxPs-FEwDwOts_zZJk8cRc0oz5Ob50tk,3150
+yolosegment2labelme/yolosegment2labelme.py,sha256=CiLQ3_6XyID_evZmpbrz7Gv9eGUiB8yTNIdYpXD_NrI,1028
+yolosegment2labelme-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+yolosegment2labelme-0.0.4.dist-info/METADATA,sha256=QeKpoFZJKZ_q1cmu9LMpjb-6bxvwLkCieqYkVAfPfUs,6382
+yolosegment2labelme-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+yolosegment2labelme-0.0.4.dist-info/entry_points.txt,sha256=hBpxSDJYWJuucmxhSlK1O9l32AJvM24EUlNthqr3MNU,85
+yolosegment2labelme-0.0.4.dist-info/top_level.txt,sha256=HVVlS5KTGLTeWZd09cNjzKKcV5xzRuSpcsH0SUSJ-gI,20
+yolosegment2labelme-0.0.4.dist-info/RECORD,,
