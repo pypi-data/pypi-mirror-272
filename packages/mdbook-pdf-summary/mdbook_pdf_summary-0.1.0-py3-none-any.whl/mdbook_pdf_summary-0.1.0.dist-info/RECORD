@@ -1,0 +1,9 @@
+mdbook_pdf_summary/__init__.py,sha256=PVEb4e2sNcXYeOo4e1Z2hubo3k2xTmUq6c1k-ys01TE,89
+mdbook_pdf_summary/check_title.py,sha256=vfFg9903Pj9dPvzdW8PokTfCgIp3FRV0_qJcRKxPD-w,1862
+mdbook_pdf_summary/mdbook_pdf_summary.py,sha256=aEDl2m1MUNQjZhCkipLewp35AfP7L1Nd7FzjDYdwvqY,4390
+mdbook_pdf_summary/parse_section.py,sha256=izyG4YMzD5zxNwvu4J-M3wMIHM-HLh_7sFhebM7JSNo,2327
+mdbook_pdf_summary-0.1.0.dist-info/METADATA,sha256=zYKV8Ro6DLj5Zeixl0K-iyu7tRdVfsOMvb-cc3KZCqY,2247
+mdbook_pdf_summary-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mdbook_pdf_summary-0.1.0.dist-info/entry_points.txt,sha256=T5VQvT03_CxwweJMY5JTni69gfizpN_FxiPWWU8KWSI,82
+mdbook_pdf_summary-0.1.0.dist-info/top_level.txt,sha256=7ogRuq_Anj6NB53TZbDFAlyjiHzruWF2Ndqj4DWe2sQ,19
+mdbook_pdf_summary-0.1.0.dist-info/RECORD,,
