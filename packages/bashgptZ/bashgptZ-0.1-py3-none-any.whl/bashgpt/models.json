@@ -1,0 +1,134 @@
+[
+    {
+        "name": "gpt-4-turbo",
+        "shortcut": "4",
+        "provider": "openai",
+        "vision_enabled": true
+    },
+    {
+        "name": "gpt-4-1106-preview",
+        "shortcut": "1106",
+        "provider": "openai",
+        "vision_enabled": false
+    },
+    {
+        "name": "gpt-3.5-turbo",
+        "shortcut": "3.5",
+        "provider": "openai",
+        "vision_enabled": false
+    },
+    {
+        "name": "gpt-3.5-turbo-16k",
+        "shortcut": "16k",
+        "provider": "openai",
+        "vision_enabled": false
+    },
+    {
+        "name": "gpt-4",
+        "shortcut": "old4",
+        "provider": "openai",
+        "vision_enabled": false
+    },
+    {
+        "name": "gpt-4-32k",
+        "shortcut": "32k",
+        "provider": "openai",
+        "vision_enabled": false
+    },
+    {
+        "name": "gpt-3.5-turbo-0301",
+        "shortcut": "0301",
+        "provider": "openai",
+        "vision_enabled": false
+    },
+    {
+        "name": "mistral-small-latest",
+        "shortcut": "small",
+        "provider": "mistral",
+        "vision_enabled": false
+    },
+    {
+        "name": "mistral-medium-latest",
+        "shortcut": "medium",
+        "provider": "mistral",
+        "vision_enabled": false
+    },
+    {
+        "name": "mistral-large-latest",
+        "shortcut": "large",
+        "provider": "mistral",
+        "vision_enabled": false
+    },
+    {
+        "name": "Qwen/Qwen1.5-72B-Chat",
+        "shortcut": "qwen",
+        "provider": "together",
+        "vision_enabled": false
+    },
+    {
+        "name": "microsoft/WizardLM-2-8x22B",
+        "shortcut": "wiz",
+        "provider": "together",
+        "vision_enabled": false
+    },
+    {
+        "name": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+        "shortcut": "nh2",
+        "provider": "together",
+        "vision_enabled": false
+    },
+    {
+        "name": "mixtral-8x7b-32768",
+        "shortcut": "mix",
+        "provider": "groq",
+        "vision_enabled": false
+    },
+    {
+        "name": "llama3-70b-8192",
+        "shortcut": "llama",
+        "provider": "groq",
+        "vision_enabled": false
+    },
+    {
+        "name": "llama3-8b-8192",
+        "shortcut": "llama8",
+        "provider": "groq",
+        "vision_enabled": false
+    },
+    {
+        "name": "gemma-7b-it",
+        "shortcut": "gemma",
+        "provider": "groq",
+        "vision_enabled": false
+    },
+    {
+        "name": "google/gemini-pro-1.5",
+        "shortcut": "gemini",
+        "provider": "openrouter",
+        "vision_enabled": true
+    },
+    {
+        "name": "claude-3-opus-20240229",
+        "shortcut": "opus",
+        "provider": "anthropic",
+        "vision_enabled": true
+    },
+    {
+        "name": "claude-3-sonnet-20240229",
+        "shortcut": "sonnet",
+        "provider": "anthropic",
+        "vision_enabled": true
+    },
+    {
+        "name": "anthropic/claude-3-haiku:beta",
+        "shortcut": "haiku",
+        "provider": "openrouter",
+        "vision_enabled": true
+    },
+    {
+        "name": "cohere/command-r-plus",
+        "shortcut": "cohere",
+        "provider": "openrouter",
+        "vision_enabled": false
+    }
+]
