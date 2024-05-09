@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: marksocket
+Version: 0.3
+Author: rauaap
+Project-URL: Homepage, https://github.com/rauaap/marksocket
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: markdown >=3.4.1
+Provides-Extra: highlights
+Requires-Dist: Pygments >=2.14.0 ; extra == 'highlights'
+Provides-Extra: mermaid
+Requires-Dist: markdown-mermaid >=0.1 ; extra == 'mermaid'
+
