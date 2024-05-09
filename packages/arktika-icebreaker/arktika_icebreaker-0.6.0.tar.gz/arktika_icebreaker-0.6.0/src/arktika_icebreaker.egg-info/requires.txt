@@ -1,0 +1,14 @@
+
+[cli]
+ruff==0.*
+
+[dev]
+build==1.*
+twine==4.*
+hypothesis==6.*
+pytest==7.*
+pytest-asyncio==0.*
+
+[testing]
+ruff==0.*
+mypy==1.*
