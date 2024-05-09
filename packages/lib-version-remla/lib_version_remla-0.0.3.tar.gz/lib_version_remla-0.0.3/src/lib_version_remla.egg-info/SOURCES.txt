@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/lib_version_remla/__init__.py
+src/lib_version_remla/return_version.py
+src/lib_version_remla.egg-info/PKG-INFO
+src/lib_version_remla.egg-info/SOURCES.txt
+src/lib_version_remla.egg-info/dependency_links.txt
+src/lib_version_remla.egg-info/top_level.txt
