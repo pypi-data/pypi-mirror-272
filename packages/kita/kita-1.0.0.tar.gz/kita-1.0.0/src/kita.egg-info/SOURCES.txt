@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kita/__init__.py
+src/kita/advanced.py
+src/kita/basic.py
+src/kita/complex.py
+src/kita/statistics.py
+src/kita/vectors.py
+src/kita.egg-info/PKG-INFO
+src/kita.egg-info/SOURCES.txt
+src/kita.egg-info/dependency_links.txt
+src/kita.egg-info/top_level.txt
