@@ -1,0 +1,17 @@
+mrchef/__init__.py,sha256=vCgMeyu_rEM00h0PtRTga3Yu183Gwv9xTo-9I2uv5GY,56
+mrchef/__main__.py,sha256=0o8UWN16TO157BoOAJxxXeI_3D40PIMN28MlTCyJCQc,104
+mrchef/cli.py,sha256=FDL_vmgwLQoEgEkH_cLOyttFVvmsdySQPRUoaSnH6AQ,6187
+mrchef/lib.py,sha256=mDC081YLPvfgIYjjoDHQNWqzvzXqgdcumr3tbwGbH5U,38665
+mrchef/nix/fetchMeal.nix,sha256=IQTgrMvzxEwzRiDanISYhuLV6QA7pQB77amTMMli0KU,3395
+mrchef/nix/mkSingleMealDrvArgs.nix,sha256=PiCkU5Xt1ZukrN_sIM3-MJr_L4BetPafLG90uNeZ1ys,787
+mrchef/nix/mkWarmSrc.nix,sha256=BSSF3Jv450fxcDDfl1oHB39NQp3lDz3z5Rnci52pVyc,1584
+mrchef/nix/mkPureWarmupHook/builder.py,sha256=7TWNyffN2uTTcDoT9MaDd61Z-7-046bbyA21QnnFCyk,2756
+mrchef/nix/mkPureWarmupHook/default.nix,sha256=hte1mI2o6dWJSFPPZJWAImv6FLMpKhsds86Kpep1tww,2403
+mrchef/nix/modules/dream2nix/mrchef/default.nix,sha256=B-qRhahYU9lHEav_r3lFPWHOpL-6AxPKRhtToHuue3Y,2276
+mrchef/nix/modules/dream2nix/mrchef/x86_64-linux.lock,sha256=Zq9oruUHv3vWT4ItiLCjlj-AsGEXhlt-u0GfNDj-Hqc,9273
+mrchef-0.10.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mrchef-0.10.0.dist-info/METADATA,sha256=YA_m5zZCBtfrRt0UoHypB7oBOW6ozCIy-jJA-4jgbD8,47808
+mrchef-0.10.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mrchef-0.10.0.dist-info/entry_points.txt,sha256=0iaL2UlYTHrgAmgDi_sky4TvmlmF9Q4ouxWXvXxT7u4,49
+mrchef-0.10.0.dist-info/top_level.txt,sha256=up2fOmkuBf-pqFcD9SX3UeDb509zqBfVYYB8y-bdgkQ,7
+mrchef-0.10.0.dist-info/RECORD,,
