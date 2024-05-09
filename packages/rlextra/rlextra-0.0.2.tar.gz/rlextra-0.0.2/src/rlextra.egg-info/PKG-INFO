@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rlextra
+Version: 0.0.2
+Summary: anti name squatting version of rlextra package
+Home-page: http://www.reportlab.com/
+Author: Smeaton, Robinson, Becker
+Author-email: info@reportlab.com
+License: BSD license (see license.txt for details), Copyright (c) 2000-2023, ReportLab Inc.
+Description: anti name squatting version of rlextra package
+Platform: UNKNOWN
