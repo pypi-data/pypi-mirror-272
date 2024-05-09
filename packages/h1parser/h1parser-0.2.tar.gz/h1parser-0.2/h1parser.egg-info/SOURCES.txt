@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+h1parser/__init__.py
+h1parser/parse_header.py
+h1parser.egg-info/PKG-INFO
+h1parser.egg-info/SOURCES.txt
+h1parser.egg-info/dependency_links.txt
+h1parser.egg-info/requires.txt
+h1parser.egg-info/top_level.txt
