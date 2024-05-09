@@ -1,0 +1,13 @@
+langchain_elasticsearch/__init__.py,sha256=D8vn98rirwvcp-_SyNMg1UwKc2SnGQ0lYg48i9tIVkQ,705
+langchain_elasticsearch/_utilities.py,sha256=PfJJTP9Pa6WIlt2h6V13MQWwMsxchNRaQus52F-lguk,4075
+langchain_elasticsearch/cache.py,sha256=27WtXtrv1eLYzgLWlJ7yaPGzIUqlv5-s-C56JgSHAtY,7748
+langchain_elasticsearch/chat_history.py,sha256=kJUJmHwH14pYIQ4aNmZnlYueXzTxGApzRURrdQEKOvM,5417
+langchain_elasticsearch/client.py,sha256=tNKFzqjGFvcKgvwM3tJfku31xEFYzf2AIr4rtQUoKB4,1094
+langchain_elasticsearch/embeddings.py,sha256=VMRosOHIl0CglWgdE6m6nwpf5Qs9jY5P5yHpb_2496s,7862
+langchain_elasticsearch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_elasticsearch/retrievers.py,sha256=QzekEd24uhLVv6mLOiG1AyKl5aQ93fYk3j3u0PHjo0w,4764
+langchain_elasticsearch/vectorstores.py,sha256=v1xcpPEyCH4h5Q625CvcRX6D7cNC7CpZM3SYtTw-V-A,49930
+gigachain_elasticsearch-0.1.3.dist-info/LICENSE,sha256=2btS8uNUDWD_UNjw9ba6ZJt_00aUjEw9CGyK-xIHY8c,1072
+gigachain_elasticsearch-0.1.3.dist-info/METADATA,sha256=NcbealYeW_NtKlhdh6Y4jmF7_Aqms0Mt7EkoayodCBM,6691
+gigachain_elasticsearch-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gigachain_elasticsearch-0.1.3.dist-info/RECORD,,
