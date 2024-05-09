@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+plastics/__init__.py
+plastics.egg-info/PKG-INFO
+plastics.egg-info/SOURCES.txt
+plastics.egg-info/dependency_links.txt
+plastics.egg-info/requires.txt
+plastics.egg-info/top_level.txt
