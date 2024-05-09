@@ -1,0 +1,9 @@
+dean_utils/__init__.py,sha256=sZ_1Z-Coi-aClZYLgHIsV8N9gFtJqnQ1Qmih3w02fbw,405
+dean_utils/polars_extras.py,sha256=jr1jO9NI-MmEEeHqQ7AL8uMYM8wW1Ou65dbJntZkbz4,6695
+dean_utils/utils/az_utils.py,sha256=ROTWYHPTrSZka5O_5mEMOngNFsMXliHEGoNcFFWaM3o,10368
+dean_utils/utils/email_utility.py,sha256=hI5im0KzeFKwlSY6yFcXhjtK8TW87VJPFnbnUSu2N3M,2122
+dean_utils-0.0.17.dist-info/LICENSE,sha256=cFy34JtTdajZ8NRDfoM2--e9sem7P3KTbmsV-GQByzE,1071
+dean_utils-0.0.17.dist-info/METADATA,sha256=54Deo1pZyEGvJiQbNn1fNie7zVE0U9zhQ9ZhBpvHRkI,799
+dean_utils-0.0.17.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dean_utils-0.0.17.dist-info/top_level.txt,sha256=VjNW9m7k-mhdbFl4d_BkozuoKysfxBgh4BRtk6BbcZQ,11
+dean_utils-0.0.17.dist-info/RECORD,,
