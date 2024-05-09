@@ -1,0 +1,23 @@
+[project]
+name = "nokey"
+version = "0.4.0"
+authors = [
+  { name="Spyder Rex", email="billyjohnsonauthor@gmail.com" },
+]
+description = "A python package for accessing APIs that require no key."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+	"requests",
+	"xmltodict==0.13.0"
+]
+[project.urls]
+Homepage = "https://github.com/SpyderRex/nokey"
+Issues = "https://github.com/Spyder/nokey/issues"
+
+
