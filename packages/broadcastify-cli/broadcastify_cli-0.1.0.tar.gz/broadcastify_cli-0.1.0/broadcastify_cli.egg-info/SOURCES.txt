@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+broadcastify_cli/__init__.py
+broadcastify_cli/broadcastify_cli.py
+broadcastify_cli.egg-info/PKG-INFO
+broadcastify_cli.egg-info/SOURCES.txt
+broadcastify_cli.egg-info/dependency_links.txt
+broadcastify_cli.egg-info/entry_points.txt
+broadcastify_cli.egg-info/requires.txt
+broadcastify_cli.egg-info/top_level.txt
+tests/test_transcription_api.py
