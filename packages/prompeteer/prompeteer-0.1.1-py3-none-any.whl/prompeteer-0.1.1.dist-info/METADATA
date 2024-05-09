@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: prompeteer
+Version: 0.1.1
+Summary: Prompt Development and Evaluation tool
+Author: Yoaz Menda
+Author-email: yoazmenda@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: boto3
+Requires-Dist: tqdm
+Requires-Dist: openai ==0.28.0
+
