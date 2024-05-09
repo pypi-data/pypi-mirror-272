@@ -1,0 +1,14 @@
+miner_ai_beta/loader/__init__.py,sha256=VUwpdsHUih_LslAViti8cUaVvx9O_ZxlEolF13L8Jm8,353
+miner_ai_beta/loader/docs.py,sha256=ptSk977uWma94f2W_G5J0qXKZibwqEuVQU7tEtQlFF0,1759
+miner_ai_beta/loader/excels.py,sha256=rubjRw4VFVL32tNPNqanvimcaYMvvrGsdrQ-zf_7aEg,1934
+miner_ai_beta/loader/git.py,sha256=ETN_Pyq5T-yee-rdLcaDSz5gD4133VsUnfsgVAEii0g,1958
+miner_ai_beta/loader/images.py,sha256=Dm4OFxPMAm7tbnDuMYQ-_XypuBxdX97YBLjCiheepLY,3109
+miner_ai_beta/loader/pdfs.py,sha256=-bleqYB0Iv-Ze6OGqigsWfHcdV5QDyv6QwXvzAir0a8,3906
+miner_ai_beta/loader/ppts.py,sha256=Okoq1sIYaLn3p8gTylQ2qON2lo-mW--BeU8smzkY1oQ,1762
+miner_ai_beta/loader/tubes.py,sha256=JLgAaBOn-EDXTzca63_6VmBcjWkSF7fxivLmPUvl-o8,1849
+miner_ai_beta/loader/union.py,sha256=w82qqpGZ9cJYIsGf1tgBCIDoP7VaGBvXkSjAoaPxl9k,361
+miner_ai_beta/loader/web_pages.py,sha256=wLYga2SORLuGE30Wen8zTqYlqfgtrWGyBXaLaVxzQXk,1873
+miner_ai_beta-0.1.20.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+miner_ai_beta-0.1.20.dist-info/METADATA,sha256=Dj0Pt_GwUXwuNG8QVgxTE8TKgALhb_bdwQ5OhDoj5iU,5026
+miner_ai_beta-0.1.20.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+miner_ai_beta-0.1.20.dist-info/RECORD,,
