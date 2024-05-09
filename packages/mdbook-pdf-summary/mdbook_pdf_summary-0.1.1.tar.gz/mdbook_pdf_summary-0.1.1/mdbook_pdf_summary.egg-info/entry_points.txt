@@ -1,0 +1,2 @@
+[console_scripts]
+mdbook-pdf-summary = mdbook_pdf_summary.mdbook_pdf_summary:main
