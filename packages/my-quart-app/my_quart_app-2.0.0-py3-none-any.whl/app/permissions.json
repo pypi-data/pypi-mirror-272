@@ -1,0 +1,23 @@
+{
+    "Bulk Communication Requests": {
+        "speedpost_upload_activation": {
+            "meta_data": {
+                "name": "Speedpost Upload Activation",
+                "description": "Bulk Speedpost Upload"
+            },
+            "read": {
+                "get_batch_data": [
+                    "POST"
+                ]
+            },
+            "write": {
+                "batch_operation": [
+                    "POST"
+                ],
+                "save_batch_response": [
+                    "POST"
+                ]
+            }
+        }
+    }
+}
