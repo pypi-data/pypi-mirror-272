@@ -1,0 +1,20 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zacks"
+version = "1.0.0"
+description = "A simple web scraper for extracting data from Zacks Investment Research"
+readme = {file = "README.md", content-type = "text/markdown"}
+authors = [{name = "Alon Leshem", email = "aleshem20@gmail.com"}]
+keywords = ["zacks", "scraper", "data extraction"]
+dependencies = [
+    "bs4",
+    "requests",
+    "alive-progress",
+    "argparse",
+]
+requires-python = ">=3.6"
