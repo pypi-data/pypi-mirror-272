@@ -1,0 +1,7 @@
+setup.py
+cc_report.egg-info/PKG-INFO
+cc_report.egg-info/SOURCES.txt
+cc_report.egg-info/dependency_links.txt
+cc_report.egg-info/requires.txt
+cc_report.egg-info/top_level.txt
+templates/__init__.py
