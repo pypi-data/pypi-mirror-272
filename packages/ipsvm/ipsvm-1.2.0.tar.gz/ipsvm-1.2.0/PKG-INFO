@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ipsvm
+Version: 1.2.0
+Summary: Machine learning algorithm for detection of interplanetary shock waves
+Home-page: https://bitbucket.org/raysofspace/ipsvm
+Author: Rays of Space Oy
+Author-email: info@raysofspace.com
+License: MIT
