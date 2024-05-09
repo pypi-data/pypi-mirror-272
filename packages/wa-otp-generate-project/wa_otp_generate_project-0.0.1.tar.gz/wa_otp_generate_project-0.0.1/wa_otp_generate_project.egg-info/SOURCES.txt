@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+otp_generate/__init__.py
+otp_generate/main.py
+wa_otp_generate_project.egg-info/PKG-INFO
+wa_otp_generate_project.egg-info/SOURCES.txt
+wa_otp_generate_project.egg-info/dependency_links.txt
+wa_otp_generate_project.egg-info/requires.txt
+wa_otp_generate_project.egg-info/top_level.txt

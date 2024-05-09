@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wa_otp_generate_project
+Version: 0.0.1
+Summary: A simple otp generate package
+Home-page: https://github.com/MariMuthu15/otp-generate-package
+Author: Marimuthu
+Author-email: mahimari555@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# wa-otp-generate
+Send OTP to WHATSAPP
