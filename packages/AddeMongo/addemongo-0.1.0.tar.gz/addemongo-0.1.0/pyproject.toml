@@ -1,0 +1,54 @@
+[project]
+name = "AddeMongo"
+version = "0.1.0"
+description = "Private mongo repository for Addebitare company"
+dependencies = [
+    "pymongo>=4.7.1",
+    "motor>=3.4.0",
+    "pydantic>=2.7.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+github = "https://github.com/biellSilva/addemongo"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+test = "pytest"
+test-watch = "ptw"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest-watch>=4.2.0",
+    "pytest>=8.2.0",
+    "motor-types>=1.0.0b4",
+    "pytest-asyncio>=0.23.6",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.pytest.ini_options]
+console_output_style = "progress"
+testpaths = [
+    "tests",
+]
+python_classes = [
+    "*Suite",
+]
+python_files = [
+    "test_*.py",
+]
+python_functions = [
+    "test_*",
+]
