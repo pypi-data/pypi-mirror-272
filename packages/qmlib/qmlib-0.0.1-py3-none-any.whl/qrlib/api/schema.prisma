@@ -1,0 +1,17 @@
+// schema.prisma
+generator db {
+  provider             = "prisma-client-py"
+  interface            = "sync"
+  // interface            = "asyncio"
+  recursive_type_depth = 5
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DB_URL")
+}
+
+model Channel {
+  id    BigInt @id
+  total Int    @default(0)
+}
