@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atas_client/CoreATASApi.py,sha256=wFx16hEZD6jrskYiOOg7HkwrDVGKWZjCbdUZKDeoqHk,3846
+atas_client/HttpUtil.py,sha256=-LUZSlr2HJ81svzBd1drQ82aVfzJvJZ4EKIpdZKYtHw,1353
+atas_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atas_client/atas_client.py,sha256=qSRDvkuW4-RF0SEE_McSAb_ikJB57m-Jsb_8I7xIpMc,1741
+atas_client-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+atas_client-1.0.0.dist-info/METADATA,sha256=LCBYveyHMEu3om1L6dGyHCnGnv7Th0artY59o_V6gpI,1702
+atas_client-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+atas_client-1.0.0.dist-info/top_level.txt,sha256=2RtNnPNilyUMaV4GgfdqSRuzEyWZn10Z87ETXxiljJY,21
+atas_client-1.0.0.dist-info/RECORD,,
