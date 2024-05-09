@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: encrypted-json-field
+Version: 1.1.4
+Summary: Encrypted JSON field supports automatic encryption/ decryption of JSON fields with padding to conceal start and end of value.
+Author-email: El Majidi <elm.majidi@gmail.com>
+Project-URL: Homepage, https://github.com/MurphyAdam/encrypted-json-field
+Project-URL: Bug Tracker, https://github.com/MurphyAdam/encrypted-json-field/issues
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pycryptodome ==3.20.0
+Requires-Dist: Django >=4.2
+
+# Encrypted JSON Field
+
+Encrypted JSON field supports automatic encryption/ decryption of JSON fields with padding to conceal start and end of value.
+
+## Setup
+
+Nothing really to setup, just import the field and get to work.
+You could, however, setup an optional variable in your django settings named `ENCRYPTED_JSON_FIELD_SECRET` (It should be 16 chars minimum) which will be used to encrypt/ decrypt
+the data of your fields. The default behaviour uses the first 16 characters of `SECRET_KEY` (Block size).
+
+### Example:
+
+```py
+from encrypted_json_field import EncryptedJSONField
+from django.db import models
+
+
+class Company(models.Model):
+    name = models.CharField(max_length=32)
+    config = EncryptedJSONField(blank=True)
+
+```
+
+### Support
+This supports Python >= 3.8 and Django >= 4.2.
+If you need to support other versions, please create an issue.
