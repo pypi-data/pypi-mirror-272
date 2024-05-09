@@ -1,0 +1,17 @@
+duckcuts/.DS_Store,sha256=J0XN9pax3jul8lom7eIJkwMHjvv_UVH-acqH7XhRY8g,6148
+duckcuts/__about__.py,sha256=wygrEW3brUgbks4JvwNjcujOADEl2PWkdIF9d8vyM3c,23
+duckcuts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckcuts/entry_points.py,sha256=eVGyQVZaw0mptKBs3zmI2fzXiA5jw-OaQnhU1jBAMn0,94
+duckcuts/main.css,sha256=pAADKhOQUvzBg6L80ufvV51bHSeBQ4NjYWEmMb86FrM,970
+duckcuts/main.py,sha256=vvflqKnOWDxVQVWZr86zXVJ2VlQxjmvMTdxwg2RUHzI,4998
+duckcuts/data/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+duckcuts/data/terminal.json,sha256=gqYlnFg6sdHIVHH_qqtGVIrM2EMBfWo50hukr9wVjMk,987
+duckcuts/data/vim-multiple-files.json,sha256=2_qImDhOykwA3xOKeRZX_Ml9w48hO2zVVg8V7QyQYGA,2669
+duckcuts/data/vim-operators.json,sha256=wlBzTJXacbTdjsUAPx7F39HNhFMM9uL21bUDOIJ4FJw,1951
+duckcuts/data/vim-search-replace.json,sha256=XuPpv7oVrxYj8P-D1BWlBxLjHZ3dKFKdEDCouAPPOS0,1121
+duckcuts/data/vim-text-objects.json,sha256=TCu5UpdNdChwPtHyEGmTdPHzz2XY_uqFqsWlqYxoJTw,2019
+duckcuts/data/vim.json,sha256=jqeynSHF191wEBeeXWZsSMlzcQ75hqIjCnxi3pCmPYg,4660
+duckcuts-1.0.11.dist-info/METADATA,sha256=pKVN-G5r-qwTIc8HacyZVyjxM2caB5B9AueLfJppKY4,1472
+duckcuts-1.0.11.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+duckcuts-1.0.11.dist-info/entry_points.txt,sha256=G2GMJVuGQBQGN-yNngItEridpRYY6p0WIust5kylo7I,60
+duckcuts-1.0.11.dist-info/RECORD,,
