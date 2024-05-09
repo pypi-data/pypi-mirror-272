@@ -1,0 +1,31 @@
+# Changelog
+---
+
+# v0.0.5.*a
+- Fixing bugs with loading environment variables
+- Adding a `scheme` parameter for services to the configuration
+- Updated development mode loading for logger
+
+---
+
+# v0.0.4a
+- Fixing bugs with loading environment variables
+- Adding a `scheme` parameter for services to the configuration
+
+---
+
+# v0.0.3.*a
+- Instructions for installation and use are written in README.md
+- Fixing bugs with console scripts
+
+---
+
+# v0.0.2a
+- Adaptation for the library
+- A command has been created to generate configuration files.
+
+---
+
+# v0.0.1a
+- A test version was developed and tested on several projects.
+- Preparation and testing continues for the creation of the boot package.
