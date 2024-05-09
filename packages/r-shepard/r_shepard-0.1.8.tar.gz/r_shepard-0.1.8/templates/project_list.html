@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="header-line">
+        <h1>Projects</h1>
+        {% if user.is_staff %}
+            <a role="button" href="{% url 'admin:api_project_add' %}">Add</a>
+        {% endif %}
+    </div>
+    <p>Below is an overview of all projects currently deployed via R-Shepard</p>
+    <div class="project-list">
+        {% for project in projects %}
+            <article class="project-card">
+                <div class="header-line">
+                    <h4>{{ project.name }}</h4>
+                    <a role="button" href="{% url 'project_detail' pk=project.pk %}">Open</a>
+                </div>
+                {% if project.description %}
+                    <p>{{ project.description }}</p>
+                {% else %}
+                    <p>No description provided.</p>
+                {% endif %}
+            </article>
+        {% empty %}
+            <li class="info-pill">No projects available.</li>
+        {% endfor %}
+    </div>
+    {% if user.is_staff %}
+        <hr>
+        <a class="secondary" role="button" href="{% url 'admin:index' %}">Go to admin area</a>
+    {% endif %}
+{% endblock %}
