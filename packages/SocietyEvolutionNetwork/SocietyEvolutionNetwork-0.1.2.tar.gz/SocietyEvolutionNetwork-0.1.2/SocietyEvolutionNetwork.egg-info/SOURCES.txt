@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+SocietyEvolutionNetwork/__init__.py
+SocietyEvolutionNetwork/__version__.py
+SocietyEvolutionNetwork/core.py
+SocietyEvolutionNetwork.egg-info/PKG-INFO
+SocietyEvolutionNetwork.egg-info/SOURCES.txt
+SocietyEvolutionNetwork.egg-info/dependency_links.txt
+SocietyEvolutionNetwork.egg-info/top_level.txt
