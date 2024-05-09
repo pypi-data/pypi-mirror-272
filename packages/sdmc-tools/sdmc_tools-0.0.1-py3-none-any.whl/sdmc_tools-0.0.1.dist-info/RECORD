@@ -1,0 +1,16 @@
+sdmc_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdmc_tools/constants.py,sha256=1KOixa9WpjF8hMTP3zi1bZpVIph43WTLmOqaNcS4AHI,3197
+sdmc_tools/data_dictionary_TEMPLATE.xlsx,sha256=7toLhT8-RZzJWUVeABSdO7reeiKalunuQqJtWWx178s,12964
+sdmc_tools/data_dictionary_nonstandard_vars.xlsx,sha256=1enTUUt7T1t5QhNpSnX1LD5Uc07JOQRGWpORIbaae3Y,10205
+sdmc_tools/generate_README.py,sha256=Mfg9OaiuV6gCd0R2TQVTDoQMkL4XyTiHdFXPp_didpo,6643
+sdmc_tools/generate_dict.py,sha256=LwdS4mqi-5Da8NSLxpGOoNZQgbJUGaRKidpCKmTkvOw,5889
+sdmc_tools/process.py,sha256=sY_IMOvvqbGJi75ySGZRsQwD9rZxt0i4zdf1g9_vuQs,9226
+sdmc_tools/readme_template.md,sha256=BoJILdd-3flqT0O6iOqgoeB-AbV0tcQfiHp1DfVbo7E,1248
+sdmc_tools/regenerate_README.py,sha256=xpR9qF_suE5QLdHaEcEjyssi2mzE1-SZ3pDfBFj7FBs,788
+sdmc_tools/utilities.py,sha256=NHCkY4gAHZCbwOcqQ6KYZkWHmbqPZVX4Mmp7kWhkMuY,313
+sdmc_tools-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sdmc_tools-0.0.1.dist-info/METADATA,sha256=eqXGMcmK8w_tSfzjzJPcroGwMQ3I_juy-z-orUiFfY4,597
+sdmc_tools-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sdmc_tools-0.0.1.dist-info/entry_points.txt,sha256=nS745wpDka9H5f8RusjyRx45ZJw4ssfgmQuUtdlHpS8,181
+sdmc_tools-0.0.1.dist-info/top_level.txt,sha256=59H2BtzfZx5_VWQq_T8AG-jcksTAiAxdh7tUPCRdcxQ,11
+sdmc_tools-0.0.1.dist-info/RECORD,,
