@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: ncsatranscriptor
+Version: 0.0.1
+Summary: A simple string transcriptor for a code interview
+Home-page: https://bitbucket.org/uiuc-code/prescreen-transcriptor/
+Author: Henry D, Priest
+Author-email: Henry Priest <hd.priest@outlook.com>
+Project-URL: Homepage, https://bitbucket.org/uiuc-code/prescreen-transcriptor/
+Project-URL: Issues, https://bitbucket.org/uiuc-code/prescreen-transcriptor/jira
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Provides-Extra: test
+
+# README #
+
+
+### What is this repository for? ###
+
+* This repository contains a single package and calling script which answers a pre-screening code question for NCSA's Senior Research Software Engineer position 
+* Version 0.0.1
+* Question - as written:
+>    4. Write a program in any programming language to do the following:
+        <br>a. Replace all the vowels in the string “National Center for Supercomputing Applications” by their corresponding order number in alphabetical sequence (a with 1, e with 5, etc).
+        <br>b. Print the resulting string.
+        <br>c. Print the total number of consonants in the given string.
+* I have treated part C as, when referring to the "given" string, referring to this string: “National Center for Supercomputing Applications”
+
+### Set-up, Installation, Execution ###
+
+* Summary of set up
+  * This repository can be installed via local command lines by executing this command from the root of the repository:
+ >python -m pip install .
+* Configuration
+  * the simple package ncsatranscriptor must be installed prior to running the transcribe-string.py script
+* Dependencies
+  * Python 3.12
+* How to run tests
+  * From the root directory of the respository:
+ >python .\src\ncsatranscriptor\tests\test_ncsatranscriptor.py
+* Get guidance on code execution
+ >python .\bin\transcribe-string.py --help
+
+* Execute the script to generate the required output by question 4, above:
+ >python .\bin\transcribe-string.py -s "National Center for Supercomputing Applications" -m basic
+  
+
+
+
+
+
+### Author ###
+
+* Henry Priest - contact hd.priest@outlook.com
+
+### Links ###
+
+https://bitbucket.org/uiuc-code/prescreen-transcriptor/

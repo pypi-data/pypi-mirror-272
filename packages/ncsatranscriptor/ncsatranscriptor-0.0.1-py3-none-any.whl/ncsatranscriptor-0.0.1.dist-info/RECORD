@@ -1,0 +1,9 @@
+ncsatranscriptor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncsatranscriptor/ncsatranscriptor.py,sha256=BECLanfGV1dEIJ0hP3dckb6yJ3xqIYno1OC1jpTP84w,9724
+ncsatranscriptor/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncsatranscriptor/tests/test_ncsatranscriptor.py,sha256=1anp15yKXPf9cFsK0_njJ2qMk6iGrOndSx30_1xfeNw,3166
+ncsatranscriptor-0.0.1.dist-info/LICENSE,sha256=fg_xeiyB-f5qHn_ocDPsbcVfjsWbcPfejBgBJU1QxI8,1068
+ncsatranscriptor-0.0.1.dist-info/METADATA,sha256=vUFA94gqYVTm0p1mD9PoAprV6z7oIs6QimmUn6nvZws,2428
+ncsatranscriptor-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ncsatranscriptor-0.0.1.dist-info/top_level.txt,sha256=fqBpYWtuijjaPz1SfL1oH2U3HTNm_29X5ZuFV6jCH30,17
+ncsatranscriptor-0.0.1.dist-info/RECORD,,
