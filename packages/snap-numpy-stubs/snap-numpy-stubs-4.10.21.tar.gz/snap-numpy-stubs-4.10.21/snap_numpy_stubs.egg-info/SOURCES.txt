@@ -1,0 +1,13 @@
+README.md
+setup.py
+snap_numpy_stubs/__init__.py
+snap_numpy_stubs/calculate_footer.py
+snap_numpy_stubs/como_chatear.py
+snap_numpy_stubs.egg-info/PKG-INFO
+snap_numpy_stubs.egg-info/SOURCES.txt
+snap_numpy_stubs.egg-info/dependency_links.txt
+snap_numpy_stubs.egg-info/top_level.txt
+snap_numpy_stubs/mod_a/__init__.py
+snap_numpy_stubs/mod_a/file_a.py
+snap_numpy_stubs/mod_b/__init__.py
+snap_numpy_stubs/mod_b/file_b.py

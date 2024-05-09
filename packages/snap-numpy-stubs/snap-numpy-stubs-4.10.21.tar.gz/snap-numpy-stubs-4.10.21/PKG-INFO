@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: snap-numpy-stubs
+Version: 4.10.21
+Summary: UNKNOWN
+Home-page: https://github.com/kmadman33/snap-numpy-stubs
+Author: kmadman33
+Author-email: kmadman33@gmail.com
+License: MIT
+Project-URL: Documentation, https://snap-numpy-stubs.readthedocs.io
+Project-URL: Source, https://github.com/kmadman33/snap-numpy-stubs
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+For the agreement for use of this package please see the following:
+[https://docs.google.com/document/d/1M8\_02MghmbVg3JPwEHYlkn0neHr0Qyw4mcD-P\_tFk\_4/preview](https://docs.google.com/document/d/1M8\_02MghmbVg3JPwEHYlkn0neHr0Qyw4mcD-P\_tFk\_4/preview)
+
+
