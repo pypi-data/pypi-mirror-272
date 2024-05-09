@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+cruel/__init__.py
+cruel.egg-info/PKG-INFO
+cruel.egg-info/SOURCES.txt
+cruel.egg-info/dependency_links.txt
+cruel.egg-info/requires.txt
+cruel.egg-info/top_level.txt
+cruel/utils/__init__.py
+cruel/utils/req.py
