@@ -1,0 +1,7 @@
+xlrd
+xlwt
+xlutils
+openpyxl
+os
+re
+tempfile
