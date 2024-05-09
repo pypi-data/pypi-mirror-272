@@ -1,0 +1,10 @@
+pysu/__init__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+pysu/__main__.py,sha256=PHq9gn7xCEYs8zzfqyh2W2ageP-HSMrIFtWMU1H1CA0,378
+pysu/cli.py,sha256=uClH80uQ6MxSGwvZiyqz1C8VbojcKdGOUELIPSgk560,3025
+pysu-1.0.1.dist-info/AUTHORS.rst,sha256=uH2GzWgBWds0h7QhO0oP5SDLAYe-ux_TWOgC4M4K_k8,70
+pysu-1.0.1.dist-info/LICENSE,sha256=0Ul2JuBKVQSFkA-y7KExQcTVEo2c4-mg4lvGn8IWslc,1337
+pysu-1.0.1.dist-info/METADATA,sha256=B0AXb2TVpfwGJj5He-MUMzAuz4GqfmV-DTc1gNqfTRk,2789
+pysu-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pysu-1.0.1.dist-info/entry_points.txt,sha256=Su1Kvn9sW0ZFnIFA3tk1bNAxtkRvOWg7zzS5WrJrNRE,39
+pysu-1.0.1.dist-info/top_level.txt,sha256=SNPKNzrZQeC0HXrY3Me-UlhfakjIwh8pvHu4r0VPaBM,5
+pysu-1.0.1.dist-info/RECORD,,
