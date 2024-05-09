@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/pynocapai/__init__.py
+src/pynocapai/__version__.py
+src/pynocapai/nocaptchaai.py
+src/pynocapai.egg-info/PKG-INFO
+src/pynocapai.egg-info/SOURCES.txt
+src/pynocapai.egg-info/dependency_links.txt
+src/pynocapai.egg-info/requires.txt
+src/pynocapai.egg-info/top_level.txt
