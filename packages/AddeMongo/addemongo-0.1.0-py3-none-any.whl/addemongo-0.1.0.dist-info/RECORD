@@ -1,0 +1,16 @@
+addemongo-0.1.0.dist-info/METADATA,sha256=Ll7Q9qJCNR3FZuv-uUfLmywJyPOr6j3wGIGx76we1WY,466
+addemongo-0.1.0.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+addemongo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addemongo/_base_client.py,sha256=YQqrCGZb37iPMaBptYjSZWoetr09NxNhNMb-XSGuXIw,1246
+addemongo/_motor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addemongo/_motor/_client.py,sha256=skv7a7gTBtXRwbQCQPK6fZxa7afCrNA02VthrGw4oL8,5137
+addemongo/_pymongo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addemongo/_pymongo/_client.py,sha256=0wn558O43JIZSolptK12mct55m6YD0QbhWzneQukmuA,4998
+addemongo/_types.py,sha256=Mqf363rgHXz05vPlbuXwyi3weYl7CnOyYK1Eu3ZV-I4,279
+addemongo/builders/__init__.py,sha256=Tsizy-TZVlr9p_o4rJmmcOcuLI9wgIoJXFRaMyvEBXM,130
+addemongo/builders/aggregation.py,sha256=-shmTk3d3U0b3Q8yw1n8WfY0Debj7O07WLKm7PILmrA,3180
+addemongo/builders/query.py,sha256=RSNx3KQucREoGps4R4KMryskgvyD9ZEjT38ZXeUHXIo,4261
+addemongo/connection.py,sha256=80zWB4epoozeGIIa0cdv2MFaOZC7xXzl1dQyuhISkaE,1365
+addemongo/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addemongo/models/pagination.py,sha256=iT6yVJ2ASys80PTbmicsKnCrXKWmXiFfurxDpEE9644,203
+addemongo-0.1.0.dist-info/RECORD,,
