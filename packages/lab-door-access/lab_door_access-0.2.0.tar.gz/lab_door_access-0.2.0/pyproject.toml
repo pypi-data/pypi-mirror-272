@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "lab-door-access"
+version = "0.2.0"
+description = "System app to control the door access"
+authors = ["R. D."]
+license = "Apache License Version 2.0"
+readme = "README.md"
+packages = [{include = "door_access"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Software Development :: Embedded Systems",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10, ^3.11"
+evdev = "^1.7.0"
+requests = "^2.31.0"
+pyyaml = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+# [tool.poetry.scripts]
+# your-script = "your_package.module:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
