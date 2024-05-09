@@ -1,0 +1,10 @@
+pydantic
+arrow
+websocket-client
+requests
+python-magic
+click
+
+[test]
+pytest
+pytest-cov
