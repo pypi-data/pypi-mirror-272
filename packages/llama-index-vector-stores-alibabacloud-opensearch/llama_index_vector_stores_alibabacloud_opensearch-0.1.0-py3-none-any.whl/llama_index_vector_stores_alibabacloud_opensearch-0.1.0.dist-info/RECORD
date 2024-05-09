@@ -1,0 +1,5 @@
+llama_index/vector_stores/alibabacloud_opensearch/__init__.py,sha256=yRk2AKzw39YHTnL9NzfPp7cFW4fjNzeH-fjV_nNBuTo,213
+llama_index/vector_stores/alibabacloud_opensearch/base.py,sha256=L_R0J626sARWe3G1-nw3EQWfvVAmqlKbISSnQbv2vzo,14175
+llama_index_vector_stores_alibabacloud_opensearch-0.1.0.dist-info/METADATA,sha256=OUrM8WHiTxu571Mb25Wa2eLJg5rcmRnOFLO6oIKxiOY,1717
+llama_index_vector_stores_alibabacloud_opensearch-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_vector_stores_alibabacloud_opensearch-0.1.0.dist-info/RECORD,,
