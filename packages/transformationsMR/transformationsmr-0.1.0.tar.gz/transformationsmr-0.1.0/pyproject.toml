@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "transformationsMR"
+version = "0.1.0"
+description = "Common data transformation library used for machine learning. Includes 2D matrix transpose, time series windowing and cross-correlation functions."
+authors = ["Martynas Remeika <martynas.remeika.a@gmail.com>"]
+license = "Turing College"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
