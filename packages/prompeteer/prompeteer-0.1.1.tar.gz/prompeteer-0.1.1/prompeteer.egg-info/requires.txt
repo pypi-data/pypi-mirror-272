@@ -1,0 +1,6 @@
+python-dotenv
+requests
+pyyaml
+boto3
+tqdm
+openai==0.28.0
