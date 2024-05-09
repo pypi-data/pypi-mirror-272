@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mysnippet
+Version: 0.6.16
+Summary: mysnippet
+Home-page: http://none.com
+Author: neo
+Author-email: none@none.com
+Requires-Dist: binaryornot
+Requires-Dist: chardet
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: Jinja2
+Requires-Dist: jinja2-time
+Requires-Dist: MarkupSafe
+Requires-Dist: pyperclip
+Requires-Dist: slugify
+Requires-Dist: paramiko
+Requires-Dist: scp
+Requires-Dist: cython
+Requires-Dist: pandas
+Requires-Dist: pymysql
+Requires-Dist: pytest
+Requires-Dist: wheel
+Requires-Dist: twine
+Requires-Dist: loguru
+

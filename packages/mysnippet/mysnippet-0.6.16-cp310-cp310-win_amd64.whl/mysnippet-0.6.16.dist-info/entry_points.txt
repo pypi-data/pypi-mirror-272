@@ -1,0 +1,2 @@
+[console_scripts]
+mysnippet = mysnippet.cli:cli
