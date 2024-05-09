@@ -1,0 +1,160 @@
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:foo>=bar.and.bis>bas ! should have spaces around
+DEBUG:root:foo>=bar.and.bis>bas ! should have spaces around
+DEBUG:root:foo>=bar.and.bis>bas ! should have spaces around
+DEBUG:root:foo>= ar.and. is> as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo>=bar.and.bis>bas ! should have spaces around
+INFO:root:foo>=bar.and.bis>bas ! should have spaces around
+INFO:root:foo>=bar.and.bis>bas ! should have spaces around
+INFO:root:foo>= ar.and. is> as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+INFO:root:foo >= ar .and. is > as ! should have spaces around
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.cache:pickle loaded: /home/ccc/anaconda3/envs/py39/lib/python3.9/site-packages/pyparsing/__init__.py
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.cache:pickle loaded: /home/ccc/anaconda3/envs/py39/lib/python3.9/site-packages/pyparsing/core.py
+DEBUG:parso.cache:pickle loaded: /home/ccc/anaconda3/envs/py39/lib/python3.9/abc.py
+DEBUG:parso.cache:pickle loaded: /home/ccc/anaconda3/envs/py39/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/3/abc.pyi
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end

@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/home/ccc/anaconda3/envs/py39/bin/python",
+    "python.linting.flake8Enabled": false,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.enabled": true
+}
