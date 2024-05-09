@@ -1,0 +1,13 @@
+pisa/__init__.py,sha256=cXIrb3zW6TEyd7idI7jT7-BHorm9UL4xdLK9O2M7UXI,32
+pisa/__main__.py,sha256=v9rnB9TrgsyaUdYUOFMEf6JzG6Dxlt26367AbyMPzKw,2087
+pisa/config.py,sha256=2eIKBM4lbkWEBYHWyw0Oce1L0g5ZDQscSh5riOKeGCM,298
+pisa/dispatcher/cluster_conf.py,sha256=3P1gCeOeFFxDIR8-QF1rmC2CBWQEEZxXO15kI_cVmyE,1912
+pisa/dispatcher/dispatcher.py,sha256=aTijSOs21T9Q-jyMErt14ihTNuzOxOFLH9QHCSCrMWI,2682
+pisa/dispatcher/task_list.py,sha256=UYtiyOBpvo1aPERhgjDv8tYSTZZdXpG0ekGnGKkDDsE,4192
+pisa/ssh/ssh.py,sha256=487RBApfRSPSL9AqAs6EAQ-0x-l9tQtJpibs-NoVeqw,2090
+pisa_ssh-0.1.1.dist-info/LICENSE,sha256=F9HuQjp6DUHPw5R7hxNKIH07GQ-G6PXqOmwkcdjkQm4,1075
+pisa_ssh-0.1.1.dist-info/METADATA,sha256=qbtiYOQDaod08VjPARxIY4k1ALpWCuGg3kzE61AKbmo,2523
+pisa_ssh-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pisa_ssh-0.1.1.dist-info/entry_points.txt,sha256=4tg_gyFxUjD41bG8tS__KPHQkbmjpSwRZ4qDdBV8mgM,44
+pisa_ssh-0.1.1.dist-info/top_level.txt,sha256=miIJQAwMoHd9CBDMhpT55g1k-1Fh12V37uJqANesyUA,5
+pisa_ssh-0.1.1.dist-info/RECORD,,
