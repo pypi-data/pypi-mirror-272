@@ -1,0 +1,126 @@
+from dataclasses import dataclass
+from ...types import common_data_types as cdt, cosemClassID as classID
+
+
+class ClassId(cdt.LongUnsigned):
+    """ Class ID type """
+    DEFAULT = 1
+
+    def validate(self):
+        pass
+        # if not int(self) in classID.get_all_id():
+        #     raise ValueError(F'Unknown DLMS class with ID {int(self)}')
+
+
+@dataclass(frozen=True)
+class ClassIDCDT:
+    DATA = ClassId(int(classID.DATA))
+    REGISTER = ClassId(int(classID.REGISTER))
+    EXT_REGISTER = ClassId(int(classID.EXT_REGISTER))
+    DEMAND_REGISTER = ClassId(int(classID.DEMAND_REGISTER))
+    REGISTER_ACTIVATION = ClassId(int(classID.REGISTER_ACTIVATION))
+    PROFILE_GENERIC = ClassId(int(classID.PROFILE_GENERIC))
+    CLOCK = ClassId(int(classID.CLOCK))
+    SCRIPT_TABLE = ClassId(int(classID.SCRIPT_TABLE))
+    SCHEDULE = ClassId(int(classID.SCHEDULE))
+    SPECIAL_DAYS_TABLE = ClassId(int(classID.SPECIAL_DAYS_TABLE))
+    ASSOCIATION_SN_CLASS = ClassId(int(classID.ASSOCIATION_SN))
+    ASSOCIATION_LN_CLASS = ClassId(int(classID.ASSOCIATION_LN))
+    SAP_ASSIGNMENT = ClassId(int(classID.SAP_ASSIGNMENT))
+    IMAGE_TRANSFER = ClassId(int(classID.IMAGE_TRANSFER))
+    IEC_LOCAL_PORT_SETUP = ClassId(int(classID.IEC_LOCAL_PORT_SETUP))
+    ACTIVITY_CALENDAR = ClassId(int(classID.ACTIVITY_CALENDAR))
+    REGISTER_MONITOR = ClassId(int(classID.REGISTER_MONITOR))
+    SINGLE_ACTION_SCHEDULE = ClassId(int(classID.SINGLE_ACTION_SCHEDULE))
+    IEC_HDLC_SETUP = ClassId(int(classID.IEC_HDLC_SETUP))
+    IEC_TWISTED_PAIR__1__SETUP = ClassId(int(classID.IEC_TWISTED_PAIR_1_SETUP))
+    M_BUS_SLAVE_PORT_SETUP = ClassId(int(classID.M_BUS_SLAVE_PORT_SETUP))
+    UTILITY_TABLES = ClassId(int(classID.UTILITY_TABLES))
+    MODEM_CONFIGURATION = ClassId(int(classID.MODEM_CONFIGURATION))
+    AUTO_ANSWER = ClassId(int(classID.AUTO_ANSWER))
+    AUTO_CONNECT = ClassId(int(classID.AUTO_CONNECT))
+    COSEM_DATA_PROTECTION = ClassId(int(classID.COSEM_DATA_PROTECTION))
+    PUSH_SETUP = ClassId(int(classID.PUSH_SETUP))
+    TCP_UDP_SETUP = ClassId(int(classID.TCP_UDP_SETUP))
+    IPV4_SETUP = ClassId(int(classID.IPV4_SETUP))
+    PRIME_NB_OFDM_PLC_MAC_ADDRESS_SETUP = ClassId(int(classID.PRIME_NB_OFDM_PLC_MAC_ADDRESS_SETUP))
+    PPP_SETUP = ClassId(int(classID.PPP_SETUP))
+    GPRS_MODEM_SETUP = ClassId(int(classID.GPRS_MODEM_SETUP))
+    SMTP_SETUP = ClassId(int(classID.SMTP_SETUP))
+    GSM_DIAGNOSTIC = ClassId(int(classID.GSM_DIAGNOSTIC))
+    IPV6_SETUP = ClassId(int(classID.IPV6_SETUP))
+    S_FSK_PHY_MAC_SET_UP = ClassId(int(classID.S_FSK_PHY_MAC_SET_UP))
+    S_FSK_ACTIVE_INITIATOR = ClassId(int(classID.S_FSK_ACTIVE_INITIATOR))
+    S_FSK_MAC_SYNCHRONIZATION_TIMEOUTS = ClassId(int(classID.S_FSK_MAC_SYNCHRONIZATION_TIMEOUTS))
+    S_FSK_MAC_COUNTERS = ClassId(int(classID.S_FSK_MAC_COUNTERS))
+    IEC_61334_4_32_LLC_SETUP = ClassId(int(classID.IEC_61334_4_32_LLC_SETUP))
+    S_FSK_REPORTING_SYSTEM_LIST = ClassId(int(classID.S_FSK_REPORTING_SYSTEM_LIST))
+    ISO_IEC_8802_2_LLC_TYPE_1_SETUP = ClassId(int(classID.ISO_IEC_8802_2_LLC_TYPE_1_SETUP))
+    ISO_IEC_8802_2_LLC_TYPE_2_SETUP = ClassId(int(classID.ISO_IEC_8802_2_LLC_TYPE_2_SETUP))
+    ISO_IEC_8802_2_LLC_TYPE_3_SETUP = ClassId(int(classID.ISO_IEC_8802_2_LLC_TYPE_3_SETUP))
+    REGISTER_TABLE = ClassId(int(classID.REGISTER_TABLE))
+    COMPACT_DATA = ClassId(int(classID.COMPACT_DATA))
+    STATUS_MAPPING = ClassId(int(classID.STATUS_MAPPING))
+    SECURITY_SETUP = ClassId(int(classID.SECURITY_SETUP))
+    PARAMETER_MONITOR = ClassId(int(classID.PARAMETER_MONITOR))
+    SENSOR_MANAGER_INTERFACE_CLASS = ClassId(int(classID.SENSOR_MANAGER_INTERFACE_CLASS))
+    ARBITRATOR = ClassId(int(classID.ARBITRATOR))
+    DISCONNECT_CONTROL = ClassId(int(classID.DISCONNECT_CONTROL))
+    LIMITER = ClassId(int(classID.LIMITER))
+    M_BUS_CLIENT = ClassId(int(classID.M_BUS_CLIENT))
+    WIRELESS_MODE_Q_CHANNEL = ClassId(int(classID.WIRELESS_MODE_Q_CHANNEL))
+    M_BUS_MASTER_PORT_SETUP = ClassId(int(classID.M_BUS_MASTER_PORT_SETUP))
+    DLMS_COSEM_SERVER_M_BUS_PORT_SETUP = ClassId(int(classID.DLMS_COSEM_SERVER_M_BUS_PORT_SETUP))
+    M_BUS_DIAGNOSTIC = ClassId(int(classID.M_BUS_DIAGNOSTIC))
+    _61334_4_32_LLC_SSCS_SETUP = ClassId(int(classID._61334_4_32_LLC_SSCS_SETUP))
+    PRIME_NB_OFDM_PLC_PHYSICAL_LAYER_COUNTERS = ClassId(int(classID.PRIME_NB_OFDM_PLC_PHYSICAL_LAYER_COUNTERS))
+    PRIME_NB_OFDM_PLC_MAC_SETUP = ClassId(int(classID.PRIME_NB_OFDM_PLC_MAC_SETUP))
+    PRIME_NB_OFDM_PLC_MAC_FUNCTIONAL_PARAMETERS = ClassId(int(classID.PRIME_NB_OFDM_PLC_MAC_FUNCTIONAL_PARAMETERS))
+    PRIME_NB_OFDM_PLC_MAC_COUNTERS = ClassId(int(classID.PRIME_NB_OFDM_PLC_MAC_COUNTERS))
+    PRIME_NB_OFDM_PLC_MAC_NETWORK_ADMINISTRATION_DATA = ClassId(int(classID.PRIME_NB_OFDM_PLC_MAC_NETWORK_ADMINISTRATION_DATA))
+    PRIME_NB_OFDM_PLC_APPLICATION_IDENTIFICATION = ClassId(int(classID.PRIME_NB_OFDM_PLC_APPLICATION_IDENTIFICATION))
+    G3_PLC_MAC_LAYER_COUNTERS = ClassId(int(classID.G3_PLC_MAC_LAYER_COUNTERS))
+    G3_PLC_MAC_SETUP = ClassId(int(classID.G3_PLC_MAC_SETUP))
+    G3_PLC_MAC_6LOWPAN_ADAPTATION_LAYER_SETUP = ClassId(int(classID.G3_PLC_MAC_6LOWPAN_ADAPTATION_LAYER_SETUP))
+    WI_SUN_SETUP = ClassId(int(classID.WI_SUN_SETUP))
+    WI_SUN_DIAGNOSTIC = ClassId(int(classID.WI_SUN_DIAGNOSTIC))
+    RPL_DIAGNOSTIC = ClassId(int(classID.RPL_DIAGNOSTIC))
+    MPL_DIAGNOSTIC = ClassId(int(classID.MPL_DIAGNOSTIC))
+    NTP_SETUP = ClassId(int(classID.NTP_SETUP))
+    ZIGBEE_SAS_STARTUP = ClassId(int(classID.ZIGBEE_SAS_STARTUP))
+    ZIGBEE_SAS_JOIN = ClassId(int(classID.ZIGBEE_SAS_JOIN))
+    ZIGBEE_SAS_APS_FRAGMENTATION = ClassId(int(classID.ZIGBEE_SAS_APS_FRAGMENTATION))
+    ZIGBEE_NETWORK_CONTROL = ClassId(int(classID.ZIGBEE_NETWORK_CONTROL))
+    ZIGBEE_TUNNEL_SETUP = ClassId(int(classID.ZIGBEE_TUNNEL_SETUP))
+    ACCOUNT = ClassId(int(classID.ACCOUNT))
+    CREDIT_INTERFACE_CLASS = ClassId(int(classID.CREDIT_INTERFACE_CLASS))
+    CHARGE = ClassId(int(classID.CHARGE))
+    TOKEN_GATEWAY = ClassId(int(classID.TOKEN_GATEWAY))
+    FUNCTION_CONTROL = ClassId(int(classID.FUNCTION_CONTROL))
+    ARRAY_MANAGER = ClassId(int(classID.ARRAY_MANAGER))
+    COMMUNICATION_PORT_PROTECTION = ClassId(int(classID.COMMUNICATION_PORT_PROTECTION))
+    SCHC_LPWAN_SETUP = ClassId(int(classID.SCHC_LPWAN_SETUP))
+    SCHC_LPWAN_DIAGNOSTIC = ClassId(int(classID.SCHC_LPWAN_DIAGNOSTIC))
+    LoRaWAN_SETUP = ClassId(int(classID.LoRaWAN_SETUP))
+    LoRaWAN_DIAGNOSTIC = ClassId(int(classID.LoRaWAN_DIAGNOSTIC))
+    ISO_IEC14908_IDENTIFICATION = ClassId(int(classID.ISO_IEC14908_IDENTIFICATION))
+    ISO_IEC14908_PROTOCOL_SETUP = ClassId(int(classID.ISO_IEC14908_PROTOCOL_SETUP))
+    ISO_IEC14908_PROTOCOL_STATUS = ClassId(int(classID.ISO_IEC14908_PROTOCOL_STATUS))
+    ISO_IEC14908_PROTOCOL_DIAGNOSTIC = ClassId(int(classID.ISO_IEC14908_PROTOCOL_DIAGNOSTIC))
+    HS_PLC_ISO_IEC_12139_1_MAC_SETUP = ClassId(int(classID.HS_PLC_ISO_IEC_12139_1_MAC_SETUP))
+    HS_PLC_ISO_IEC_12139_1_CPAS_SETUP = ClassId(int(classID.HS_PLC_ISO_IEC_12139_1_CPAS_SETUP))
+    HS_PLC_ISO_IEC_12139_1_IP_SSAS_SETUP = ClassId(int(classID.HS_PLC_ISO_IEC_12139_1_IP_SSAS_SETUP))
+    HS_PLC_ISO_IEC_12139_1_HDLC_SSAS_SETUP = ClassId(int(classID.HS_PLC_ISO_IEC_12139_1_HDLC_SSAS_SETUP))
+    LTE_MONITORING = ClassId(int(classID.LTE_MONITORING))
+
+    @classmethod
+    def get_all_id(cls) -> tuple[int]:
+        """return all id container in build-in <int>"""
+        return tuple(map(int, filter(lambda it: isinstance(it, ClassId), cls.__dict__.values())))
+
+
+class ServerSAP(cdt.LongUnsigned):
+
+    def validate(self):
+        if int.from_bytes(self.contents, 'big') > 0x3FFF:
+            raise ValueError(F'The range for the server_SAP is 0x000…0x3FFF, but got {self.contents.hex()}')
