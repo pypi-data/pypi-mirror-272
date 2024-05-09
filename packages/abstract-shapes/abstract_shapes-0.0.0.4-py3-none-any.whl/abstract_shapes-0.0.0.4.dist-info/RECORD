@@ -1,0 +1,11 @@
+abstract_shapes/__init__.py,sha256=7YoWW-jmseSxkteucyfv2lv4fok3lVgFWl_qRikqG6U,120
+abstract_shapes/abstractShapeManager.py,sha256=9AT1h6kb6qL43bfEH6MLrnZfjAUNS65Ay5l99MMfJgI,2565
+abstract_shapes/cardinalDirections.py,sha256=ZLDmKswXyzKK9J6dO1rbFP3mYfS-jHiMReT4noIq9QA,3664
+abstract_shapes/direction.py,sha256=wOqjLY39zPhz4MzKagYMRRHFIQELkW2BUwRZhfpyGjc,5311
+abstract_shapes/fileAssociations.py,sha256=bstikvt2F1Bg1ItLzM-sy-AUPt0u_K5L65Vg6O74tAw,2297
+abstract_shapes/file_associations.py,sha256=F39meYIc8M35NKi-ZxvjvOFSzsC23iryKFfyDKQYS34,3409
+abstract_shapes/transform.py,sha256=JCGibQSOiiImTn_HchL2WaDUh2FahQFIVN7s1CWIDLs,3377
+abstract_shapes-0.0.0.4.dist-info/METADATA,sha256=APqjqGiRH62K7vETbCTHV-WD19v2r-5Dui4NF1eAX7Q,548
+abstract_shapes-0.0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+abstract_shapes-0.0.0.4.dist-info/top_level.txt,sha256=lc36odRgiOJjeORZQeefkymbuQGk45j-a0sV7l4nZv0,16
+abstract_shapes-0.0.0.4.dist-info/RECORD,,
