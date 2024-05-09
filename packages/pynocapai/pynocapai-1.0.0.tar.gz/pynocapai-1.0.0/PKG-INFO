@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pynocapai
+Version: 1.0.0
+Summary: Unofficial python library to use service Nocaptcnaai
+Home-page: https://github.com/akasakaid/pynocapai
+Author: AkasakaID
+Author-email: akasakaid.gov@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Pynocapai
+
+Unofficial Library for nocaptchaai
+
+# Installation
+
+```
+pip install pynocapai
+```
+
+# Available Method
+
+## hcaptcha_token
+
+get solve token for hcaptcha
+
+```
+from pynocapai import NocaptchaAi
+
+sitekey="a5f74b19-9e45-40e0-b45d-47ff91b7a6c2"
+site_url="accounts.hcaptcha.com"
+user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0"
+
+ai = NocaptchaAi('<apikey>')
+status,solve = ai.hcaptcha_token(sitekey=sitekey,site_url=site_url,user_agent=user_agent)
+
+if status:
+    print(solve)
+else:
+    print(solve)
+```
