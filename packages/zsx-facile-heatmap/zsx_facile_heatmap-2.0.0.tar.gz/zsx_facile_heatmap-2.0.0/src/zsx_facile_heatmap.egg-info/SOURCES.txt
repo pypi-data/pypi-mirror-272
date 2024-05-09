@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+example_facile_heatmap.ipynb
+pyproject.toml
+src/zsx_facile_heatmap.py
+src/zsx_facile_heatmap.egg-info/PKG-INFO
+src/zsx_facile_heatmap.egg-info/SOURCES.txt
+src/zsx_facile_heatmap.egg-info/dependency_links.txt
+src/zsx_facile_heatmap.egg-info/top_level.txt
