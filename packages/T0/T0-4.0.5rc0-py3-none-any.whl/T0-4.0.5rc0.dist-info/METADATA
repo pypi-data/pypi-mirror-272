@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: T0
+Version: 4.0.5rc0
+Summary: This package contains the code that is involved in the Tier 0 agent when its deployed
+Home-page: https://github.com/dmwm/T0
+Author: Dirk Hufnagel
+Author-email: Dirk.Hufnagel@cern.ch
+Maintainer: WMCore
+Maintainer-email: ms.unmerged@cern.ch
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Database
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: pyOpenSSL ~=18.0.0
+Requires-Dist: setuptools >=69.5.1
+Requires-Dist: wmagent >=2.3.0.2
+
