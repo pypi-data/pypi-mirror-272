@@ -1,0 +1,203 @@
+<div align="center">
+    <img src="https://www.viewai.ca/_next/image?url=%2Fcompany-images%2Flogo-no-background.png&w=128&q=75" alt="Lenster Logo" height="100" width="100">
+    <h1>xAI</h1>
+    <strong>Understand Models. Build Responsibly.</strong>
+</div>
+<br>
+
+
+# Get Started with ViewAI
+
+xAI is an open-source package to explain blackbox systems. xAI helps you understand your model's global behavior, or understand the reasons behind individual predictions..
+
+Interpretability plays a crucial role in various aspects of machine learning and AI, facilitating deeper understanding and trust between the models and their users. Here are several similar key areas where interpretability is vital:
+
+- **Model Validation** - Can I verify that the model is working as intended?
+- **Model Optimization** - What adjustments can make the model perform better?
+- **Bias Detection** - Is there any unintended bias in the model’s predictions?
+- **Decision Making Support** - How can the model’s outputs be used to support decision making?
+- **Compliance and Transparency** - How transparent is the model in terms of meeting regulatory and ethical standards?
+- **Risk Management** - What risks are associated with deploying this model, and how can they be mitigated?
+- **Stakeholder Communication** - How can complex model behaviors be explained to non-technical stakeholders?
+- **Troubleshooting and Diagnostics** - What went wrong with the model, and how can it be fixed?
+- **Ethical Assurance** - Does the model operate in an ethically sound manner without compromising human values?
+- **Model Scalability** - How does the model scale with increased data or complexity, and what impacts do these changes have?
+
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Quick Start Guide](#quick-start-guide)
+3. [API Reference](#api-reference)
+4. [Contributing](#contributors)
+5. [Support and Contact](#support)
+6. [License](#license)
+
+## Installation
+
+Before you can start using ViewAI, you need to ensure that you have Python installed on your machine. ViewAI is compatible with Python versions 3.8 and above. You can install ViewAI using pip:
+
+```bash
+pip install viewai
+```
+
+Alternatively, if you have cloned the repository, you can install it directly using:
+
+```bash
+python setup.py install
+```
+
+## Quick Start Guide
+
+To get started with ViewAI, you need to prepare your data and select a model for analysis. Here's a simple example using a Random Forest Classifier on titanic dataset:
+
+
+```python
+from xai import *
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.decomposition import PCA
+from sklearn.pipeline import Pipeline
+from config import Config
+
+df = pd.read_csv("../train.csv")
+df = df.dropna(inplace=False)
+df = df.drop(["PassengerId", "Name", "Ticket", "Cabin"], axis=1)
+X = df.drop(["Survived"], axis=1)
+y = df["Survived"]
+
+# We have to transform categorical variables to use sklearn models
+X = pd.get_dummies(X, prefix_sep='.').astype(float)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=RANDOM_SEED)
+
+#Blackbox system can include preprocessing, not just a classifier!
+pca = PCA()
+rf = RandomForestClassifier(random_state=RANDOM_SEED)
+
+blackbox_model = Pipeline([('pca', pca), ('rf', rf)])
+blackbox_model.fit(X_train, y_train)
+
+config = Config()
+
+xai = XAI()
+xai.run(
+    X=X_train,
+    Y=y_train,
+    model=blackbox_model,
+)
+
+```
+Understand the model
+
+```
+xai.explain_global()
+```
+
+Understand individual predictions
+
+```
+xai.explain_local(X_test[:2], y_test[:2])
+```
+
+# API Reference
+
+#### Methods
+
+##### `configure(self)`
+- **Description**: Sets up the initial configuration by loading the configuration settings.
+- **Returns**: None.
+
+##### `run(self, df=None, X=None, Y=None, model=None, target=None)`
+- **Description**: Executes the XAI pipeline including data description, metrics calculation, SHAP values computation, and exports global explanations.
+- **Parameters**:
+  - `df` (pd.DataFrame, optional): The complete dataframe including target.
+  - `X` (pd.DataFrame, optional): Feature data.
+  - `Y` (pd.Series, optional): Target data.
+  - `model` (any): Trained model object.
+  - `target` (str, optional): Target column name.
+- **Returns**: None.
+
+##### `_describe(self)`
+- **Description**: Logs data characteristics and manages data preprocessing.
+- **Returns**: None.
+
+##### `_calculate_shap_values(self)`
+- **Description**: Calculates SHAP values using the provided model to explain feature contributions.
+- **Returns**: None.
+
+##### `_export_global_explanation(self)`
+- **Description**: Generates and exports global explanation visuals and plots.
+- **Returns**: None.
+
+##### `_export_feature_importance(self)`
+- **Description**: Calculates and exports feature importance based on mean SHAP values.
+- **Returns**: None.
+
+##### `_calculate_metrics(self)`
+- **Description**: Computes various performance metrics for the model and generates appropriate visualizations for classification or regression tasks.
+- **Returns**: None.
+
+##### `explain_global(self)`
+- **Description**: Triggers global explanation procedures.
+- **Returns**: None.
+
+##### `explain_local(self, X, y=None, name=None, **kwargs)`
+- **Description**: Provides local explanations for individual predictions using LIME.
+- **Parameters**:
+  - `X` (pd.DataFrame): Data points for which local explanations are to be generated.
+  - `y` (pd.Series, optional): Actual labels for the data points, if applicable.
+  - `name` (str, optional): An identifier for the local explanation session.
+  - `**kwargs`: Additional keyword arguments for local explanation methods.
+- **Returns**: None.
+
+
+<!-- ROADMAP -->
+See the [open issues](https://github.com/shivam017arora/SeoGPT/issues) for a full list of proposed features (and known issues).
+
+<!-- CONTRIBUTING -->
+
+## Documentation
+
+For more detailed information about setup, features, and tutorials, visit our [Documentation](https://docs.viewai.ca/).
+
+
+## Contributors
+
+We love contributors! Feel free to contribute to this project but please read the [Contributing Guidelines](CONTRIBUTING.md) before opening an issue or PR so you understand the branching strategy and local development environment.
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Acknowledgements
+
+View AI XAI library is built on top of many great open-source projects. We are grateful to the developers of these projects for their contributions to the open-source community.
+
+[interpretml](https://github.com/interpretml/interpret) |
+[plotly](https://github.com/plotly/plotly.py) |
+[dash](https://github.com/plotly/dash) |
+[scikit-learn](https://github.com/scikit-learn/scikit-learn) |
+[lime](https://github.com/marcotcr/lime) |
+[shap](https://github.com/slundberg/shap) |
+[salib](https://github.com/SALib/SALib) |
+[skope-rules](https://github.com/scikit-learn-contrib/skope-rules) |
+[treeinterpreter](https://github.com/andosa/treeinterpreter) |
+[gevent](https://github.com/gevent/gevent) |
+[joblib](https://github.com/joblib/joblib) |
+[pytest](https://github.com/pytest-dev/pytest) |
+[jupyter](https://github.com/jupyter/notebook)
+
+
+## Support
+
+For support questions, please file an issue on GitHub or contact our support team at [support@viewai.ca](mailto:support@viewai.ca).
+
+## License
+
+ViewAI is available under the [MIT License](LICENSE.txt).
