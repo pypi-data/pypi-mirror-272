@@ -1,0 +1,6 @@
+README.md
+setup.py
+MicsStructure.egg-info/PKG-INFO
+MicsStructure.egg-info/SOURCES.txt
+MicsStructure.egg-info/dependency_links.txt
+MicsStructure.egg-info/top_level.txt
