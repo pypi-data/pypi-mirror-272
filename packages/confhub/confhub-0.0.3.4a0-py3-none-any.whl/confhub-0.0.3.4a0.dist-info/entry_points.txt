@@ -1,0 +1,2 @@
+[console_scripts]
+confhub = confhub:main
