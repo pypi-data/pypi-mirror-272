@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: djulcac-django-accounts
+Version: 0.0.1
+Summary: Accounts manager for django
+Author-email: Danny Julca Carhuaz <djulcac@uni.pe>
+Project-URL: Homepage, https://github.com/djulcac/django-accounts
+Project-URL: Issues, https://github.com/djulcac/django-accounts/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DJANGO-ACCOUNTS
+
+## Packaging
+
+Based on this [documentation](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+
+Generating distribution archives
+
+    python3 -m pip install --upgrade build
+    python3 -m build
+
+Uploading the distribution archives
+
+    python3 -m pip install --upgrade twine
+    python3 -m twine upload dist/*

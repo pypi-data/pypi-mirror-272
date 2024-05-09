@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/django_accounts/__init__.py
+src/djulcac_django_accounts.egg-info/PKG-INFO
+src/djulcac_django_accounts.egg-info/SOURCES.txt
+src/djulcac_django_accounts.egg-info/dependency_links.txt
+src/djulcac_django_accounts.egg-info/top_level.txt
