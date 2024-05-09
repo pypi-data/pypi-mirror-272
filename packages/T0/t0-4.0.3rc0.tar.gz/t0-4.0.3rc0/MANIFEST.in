@@ -1,0 +1,4 @@
+include bin/tier0-mod-config
+include etc/Tier0Config.py
+include requirements.txt
+include LICENSE
