@@ -1,0 +1,6 @@
+joblib
+pyarrow
+requests
+torch
+transformers
+typer
