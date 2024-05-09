@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: securecom
+Version: 0.1
+Summary: Un package pour une communication sécurisée
+Author: Votre Nom
+Author-email: votre.email@example.com
+Requires-Dist: cryptography
+
