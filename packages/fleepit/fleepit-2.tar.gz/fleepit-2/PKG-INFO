@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: fleepit
+Version: 2
+Summary: keyboard layout switcher based on xclip & other things
+Home-page: https://git.pegasko.art/bitrate16/fleepit
+Author-email: pegasko@pegasko.art
+License: AGPL 3.0
+Keywords: keyboard layout shortcut layout-switcher
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+
+# fleepit
+
+Keyboard layout switcher based on xclip / etc for X11 & wayland
+
+# Install
+
+1. Install required packages:
+  * X11: `xclip`, `xdotool`
+
+2. install module: `pip install fleepit`
+
+# Usage
+
+Sample usage for KDE:
+* Add custom program shortcut in settings
+* Fill something like `fleepit --mode x11 --langset qwerty-en-ru`
+* Set some shortcut, for example `CTRL+` `
+
+# Support
+
+Current list of language convertations:
+* QWERTY: EN <> RU
