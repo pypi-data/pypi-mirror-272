@@ -1,0 +1,7 @@
+README.md
+setup.py
+imagej.egg-info/PKG-INFO
+imagej.egg-info/SOURCES.txt
+imagej.egg-info/dependency_links.txt
+imagej.egg-info/requires.txt
+imagej.egg-info/top_level.txt
