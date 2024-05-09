@@ -1,0 +1,3 @@
+[console_scripts]
+piszkespipe = piszkespipe:piszkespipe_from_commandline
+
