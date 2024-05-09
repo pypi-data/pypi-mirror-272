@@ -1,0 +1,7 @@
+auxilium
+requests
+pandas
+geopandas
+contextily
+matplotlib
+bs4
