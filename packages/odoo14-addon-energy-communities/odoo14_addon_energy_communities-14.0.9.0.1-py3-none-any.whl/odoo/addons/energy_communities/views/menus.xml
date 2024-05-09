@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+     Copyright 2022 Som Energia & Coopdevs
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <menuitem
+    id="ce_root_menu"
+    name="Energy Communities"
+    sequence="10"
+    groups="group_admin"
+    web_icon="energy_communities,static/description/icon.png"
+  />
+    <menuitem id="ce_config_menu" name="Configuration" parent="ce_root_menu" />
+
+        <menuitem
+    id="ce_config_sources_menu"
+    name="Source types"
+    parent="ce_config_menu"
+    action="ce_utm_sources_action"
+  />
+    <menuitem id="ce_users_menu" name="Users" parent="ce_root_menu" />
+        <menuitem
+    id="ce_create_user_wizard"
+    name="Create user"
+    parent="ce_users_menu"
+    action="action_open_assign_admin_wizard"
+    groups="group_admin"
+  />
+</odoo>
