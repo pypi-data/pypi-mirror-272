@@ -1,0 +1,8 @@
+pytest_regression/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_regression/plugin.py,sha256=5BS553pgt-zJzzovmFJHGOHVSdjoYXn-6vei-HyoGZE,1748
+pytest_batch_regression-0.1.5.dist-info/LICENSE,sha256=VCrd4Z5d8wrDpOct1T6KJ6eFWDSCRDwhW7_SqnhPkto,520
+pytest_batch_regression-0.1.5.dist-info/METADATA,sha256=GfL6bhnFkSrQKG-k2Bej3Gs9PpAd9pv_3IQs8SuAPCQ,921
+pytest_batch_regression-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytest_batch_regression-0.1.5.dist-info/entry_points.txt,sha256=saPkPN0iCTGuxMMfg2q3jh3pwkY7wOhe8DziGTfPJFk,56
+pytest_batch_regression-0.1.5.dist-info/top_level.txt,sha256=PtI3RrpXziSVh3WUFiIkgcfjI_GepzFhCfMiCRzJmBQ,18
+pytest_batch_regression-0.1.5.dist-info/RECORD,,
