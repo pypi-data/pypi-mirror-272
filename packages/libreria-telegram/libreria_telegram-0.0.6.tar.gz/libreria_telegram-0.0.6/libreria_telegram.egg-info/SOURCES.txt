@@ -1,0 +1,8 @@
+setup.py
+libreria_telegram/__init__.py
+libreria_telegram/funciones.py
+libreria_telegram.egg-info/PKG-INFO
+libreria_telegram.egg-info/SOURCES.txt
+libreria_telegram.egg-info/dependency_links.txt
+libreria_telegram.egg-info/requires.txt
+libreria_telegram.egg-info/top_level.txt

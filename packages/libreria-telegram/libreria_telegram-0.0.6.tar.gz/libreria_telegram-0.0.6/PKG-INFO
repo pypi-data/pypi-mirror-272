@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: libreria_telegram
+Version: 0.0.6
+Summary: Librería para enviar mensajes a telegram
+Home-page: https://github.com
+Author: Oscar Becerril
+Author-email: homerj.31@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
