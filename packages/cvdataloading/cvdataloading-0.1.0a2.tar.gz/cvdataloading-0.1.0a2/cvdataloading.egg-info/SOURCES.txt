@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cvdataloading/__init__.py
+cvdataloading/_utils.py
+cvdataloading/cvdata.py
+cvdataloading/data_items.py
+cvdataloading/processing.py
+cvdataloading/transforms.py
+cvdataloading.egg-info/PKG-INFO
+cvdataloading.egg-info/SOURCES.txt
+cvdataloading.egg-info/dependency_links.txt
+cvdataloading.egg-info/requires.txt
+cvdataloading.egg-info/top_level.txt
