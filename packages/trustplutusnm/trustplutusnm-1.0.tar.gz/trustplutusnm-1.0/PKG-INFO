@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: trustplutusnm
+Version: 1.0
+Summary: Name match for fund names from ICRA and MILES
+License: OSI Approved :: GNU General Public License v3 (GPLv3)
+Author: Rolf Lobo
+Requires-Python: ==3.10.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: loga (>=1.0.0,<2.0.0)
+Requires-Dist: numpy (==2.0.3)
+Requires-Dist: openpyxl (==3.1.2)
+Requires-Dist: pandas (==1.25.2)
+Requires-Dist: rapidfuzz (==3.9.0)
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
