@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xc_enc
+Version: 1.0.0
+Summary: Encrypt files.
+Project-URL: Repository, https://github.com/xcFelix/xc_enc
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography==42.0.7
+Requires-Dist: tomlkit==0.12.4
+
+# xc_enc
+Encrypting files.
+
+```python
+pip install xc_enc
+xc_enc --help
+```
+
+

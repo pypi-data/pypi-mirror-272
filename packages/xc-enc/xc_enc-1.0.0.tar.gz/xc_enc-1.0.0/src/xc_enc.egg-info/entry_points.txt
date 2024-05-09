@@ -1,0 +1,2 @@
+[console_scripts]
+xc_enc = xc_enc:main
