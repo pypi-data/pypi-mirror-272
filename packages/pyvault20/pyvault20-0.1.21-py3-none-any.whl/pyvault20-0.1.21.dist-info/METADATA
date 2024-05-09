@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyvault20
+Version: 0.1.21
+Summary: Vault encryption tool.
+Home-page: https://github.com/thecodeforge/pyvault
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pychacha
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: rsa
+
+# pyvault
+Remote-triggered encryption vault
