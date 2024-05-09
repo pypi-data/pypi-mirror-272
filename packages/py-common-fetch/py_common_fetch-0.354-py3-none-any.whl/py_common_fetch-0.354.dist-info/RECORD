@@ -1,0 +1,12 @@
+.DS_Store,sha256=G4GYyZLZ3u9EoUfitj7gYO0uF0tTYbdtmGTJD2nDtGw,8196
+aniachi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aniachi/stringUtils.py,sha256=KPYK8xTOY4nvF74KpuR20QT07Wx_CaONfiRBAyh1JsU,4500
+aniachi/systemUtils.py,sha256=sVSHa1DlgcuUqK8CsuvlJzfuOoUoa62snox4wEMGGEA,11165
+aniachi/timeUtils.py,sha256=pWRZbNxX2Aow17QyZnEdQsxoox7OzjVSTXyrS2CFcGs,1291
+py_common_fetch-0.354.data/scripts/stringUtils.py,sha256=KPYK8xTOY4nvF74KpuR20QT07Wx_CaONfiRBAyh1JsU,4500
+py_common_fetch-0.354.data/scripts/systemUtils.py,sha256=sVSHa1DlgcuUqK8CsuvlJzfuOoUoa62snox4wEMGGEA,11165
+py_common_fetch-0.354.data/scripts/timeUtils.py,sha256=pWRZbNxX2Aow17QyZnEdQsxoox7OzjVSTXyrS2CFcGs,1291
+py_common_fetch-0.354.dist-info/METADATA,sha256=7lkUG0c5xzkQlrrdCzuNv7E7hWl02E-Ns5YJQMuJMDc,1705
+py_common_fetch-0.354.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+py_common_fetch-0.354.dist-info/top_level.txt,sha256=o42-SSQEqQ5_ENVsCZ12wP2Lj6jAf7SyVhuehy0DluQ,8
+py_common_fetch-0.354.dist-info/RECORD,,
