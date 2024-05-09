@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fast_norm_cuda/__init__.py
+fast_norm_cuda/fast_norm.cpp
+fast_norm_cuda/fast_norm.hpp
+fast_norm_cuda/fast_norm.py
+fast_norm_cuda/fast_norm_cuda.cu
+fast_norm_cuda.egg-info/PKG-INFO
+fast_norm_cuda.egg-info/SOURCES.txt
+fast_norm_cuda.egg-info/dependency_links.txt
+fast_norm_cuda.egg-info/top_level.txt
