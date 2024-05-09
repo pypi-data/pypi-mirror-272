@@ -1,0 +1,2 @@
+[console_scripts]
+compressedcrack = compressedcrack:main
