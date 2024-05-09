@@ -1,0 +1,10 @@
+rest_framework_proxy/__init__.py,sha256=bYN93DTWr8alkTnO3wj31CU5gqTshxIcsbXUcJcUAc8,22
+rest_framework_proxy/adapters.py,sha256=vWk0yMwHpoYDwg0P-2exUdU1cq06E7oDaSfRQcf-VtY,2054
+rest_framework_proxy/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_proxy/settings.py,sha256=cYf8TJUuXVgEGf-Cm9lZRraBUzosRc11ep0dwjXAVDM,842
+rest_framework_proxy/utils.py,sha256=XkRvQANGAMJX-ExDHu9cpW1D8lI7H42seeKDrdN7070,2051
+rest_framework_proxy/views.py,sha256=-becJBoczKpuJr6Wx0m9XmiwYNBzVoyonlyBQiSuWqA,7881
+django_rest_framework_proxy_iara-1.6.0.dist-info/METADATA,sha256=Ex_BobWP-tNi2mUpIukSjkYlWSeBqmTApYKiqzm4MmI,1166
+django_rest_framework_proxy_iara-1.6.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_rest_framework_proxy_iara-1.6.0.dist-info/top_level.txt,sha256=U6ilxQfELaZq55oCeMN3KiJVBhZW6bmUdTgibidGwgY,21
+django_rest_framework_proxy_iara-1.6.0.dist-info/RECORD,,
