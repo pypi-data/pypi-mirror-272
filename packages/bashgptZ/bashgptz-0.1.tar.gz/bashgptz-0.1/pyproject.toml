@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bashgptZ"
+version = "0.1"
+authors = [
+    # Add your name and email here if desired
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "openai>=1.12.0",
+    "anthropic>=0.19.1",
+    "PyAudio>=0.2.13",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/bashgpt"
+"Bug Tracker" = "https://github.com/yourusername/bashgpt/issues"
+
+[tool.setuptools]
+packages = ["bashgpt"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+bashgpt = [
+    "models.json",
+    "modes.json",
+    "defaults.json"
+]
+
+
+[project.scripts]
+dp = "bashgpt.main:main"
+
