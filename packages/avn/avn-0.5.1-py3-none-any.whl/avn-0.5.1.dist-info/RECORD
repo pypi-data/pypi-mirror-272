@@ -1,0 +1,14 @@
+avn/8D_trained_embedding_model.pth,sha256=KcvxhllCFYP2Xd4cbNWdm6bajVHt8eFIvTQPWcAqH4I,3137433
+avn/__init__.py,sha256=BqGeiyMAGF7dI70222DXvGRubWR9fvjWbmr6MvIHrHg,25
+avn/acoustics.py,sha256=dn0r9f71QLP168MFXRLQFiWA4nbk8e-q94nhZ9MpIfI,54839
+avn/avn.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+avn/dataloading.py,sha256=aQVaNjSY97H-affL9IWG0vFZobi076g1WMgzJU669YQ,7886
+avn/plotting.py,sha256=9qjH2RQ9nkoSKDoTqNH3dBjHMe8ZMN6bUToP8-9_hbE,15007
+avn/segmentation.py,sha256=HBJsq2byOlOEAEPfPU5iog0J8gwDqbx-aiLRFhYF2Gk,83974
+avn/similarity.py,sha256=DCgn5QnHcT0eyBsi9OqTWt1KLJE04JBkJ67naspf33A,17139
+avn/syntax.py,sha256=nOAdDF-S0yCgZ5RAk5rVNWmvEOFEby5_ZdxkiASNlAQ,90291
+avn/timing.py,sha256=nN6N2PxLylIQ_Bhnd8gu-DTmLI7nCkTK1-YvFysqZ14,34081
+avn-0.5.1.dist-info/LICENSE,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+avn-0.5.1.dist-info/METADATA,sha256=ljq1ZClkyLmiZ-taYzkbYh9Aom3Au5bIVmiFgvGTRTY,2258
+avn-0.5.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+avn-0.5.1.dist-info/RECORD,,
