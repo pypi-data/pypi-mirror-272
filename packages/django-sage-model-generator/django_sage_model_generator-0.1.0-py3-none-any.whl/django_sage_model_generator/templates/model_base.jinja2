@@ -1,0 +1,29 @@
+from django.db import models
+from django.utils.translation import gettext_lazy as _
+
+{% for enum_name in enum_names %}
+from helpers.choices import {{ standard(enum_name) }}
+{% endfor %}
+
+{% for table in tables %}
+class {{ table.name|capitalize }}(models.Model):
+{% for column in table.columns %}
+    {% if (table.name + column.name) in specific_relationships %}
+    {{ column.name }} = models.{{ column.type }})
+    {% else %}
+    {{ column.name }} = models.{{ column.type }}( _('{{column.name.capitalize() }}'){% if column.pk %} ,primary_key=True{% endif %}{% if column.not_null == True %},null=False{% endif %}{% if column.unique and not column.pk %}, unique=True{% endif %},help_text={% if column.note %} _('{{ column.note|replace("\n", "\\n")|e }}'){% else %} _('...') {% endif %} ,db_comment={% if column.comment %} _('{{ column.comment|replace("\n", "\\n")|e }}'){% else %} _('...') {% endif %}{% if column.default.text == 'now()' %}, auto_now=True{% endif %}{% if column.default != None and column.default.text != 'now()' %},default={{ column.default }}{% endif %} {% if column.max_length %} ,max_length={{column.max_length}} {% endif %} {% if column.type == "ImageField" %} ,uplod_to='uploads/' {% endif %})
+    {% endif %}
+{% endfor %}
+    class Meta:
+        db_table = '{{ table.name }}'
+        {% if table.indexes %}
+        indexes = [
+            {% for index in table.indexes %}
+            {% if ''.join(index.subject_names) != 'id' %}
+            models.Index(fields=['{{''.join(index.subject_names) }}'], name='{{''.join(index.subject_names)}}_idx'),
+            {% endif %}
+            {% endfor %}
+        ]
+        {% endif %}
+
+{% endfor %}
