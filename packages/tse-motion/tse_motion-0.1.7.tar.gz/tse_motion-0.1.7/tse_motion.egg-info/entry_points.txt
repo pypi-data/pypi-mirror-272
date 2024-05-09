@@ -1,0 +1,2 @@
+[console_scripts]
+rate-artifact = tse_rating.artifact_rating:main
