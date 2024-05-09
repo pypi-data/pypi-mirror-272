@@ -1,0 +1,11 @@
+requests
+platformdirs
+watchdog
+rich
+typer
+
+[dev]
+pyright
+ruff
+build
+twine
