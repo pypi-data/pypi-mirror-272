@@ -1,0 +1,13 @@
+README.md
+setup.py
+emotion_detection/__init__.py
+emotion_detection/detect_reseller.py
+emotion_detection/reorder.py
+emotion_detection.egg-info/PKG-INFO
+emotion_detection.egg-info/SOURCES.txt
+emotion_detection.egg-info/dependency_links.txt
+emotion_detection.egg-info/top_level.txt
+emotion_detection/mod_a/__init__.py
+emotion_detection/mod_a/file_a.py
+emotion_detection/mod_b/__init__.py
+emotion_detection/mod_b/file_b.py

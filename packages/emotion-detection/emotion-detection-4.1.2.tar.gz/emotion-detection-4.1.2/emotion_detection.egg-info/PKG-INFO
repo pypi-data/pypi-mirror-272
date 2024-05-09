@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: emotion-detection
+Version: 4.1.2
+Summary: UNKNOWN
+Home-page: https://github.com/yarnqueen921/emotion-detection
+Author: yarnqueen921
+Author-email: yarnqueen921@yahoo.com
+License: MIT
+Project-URL: Documentation, https://emotion-detection.readthedocs.io
+Project-URL: Source, https://github.com/yarnqueen921/emotion-detection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+For the agreement for use of this package please see the following:
+[https://docs.google.com/document/d/1M8\_02MghmbVg3JPwEHYlkn0neHr0Qyw4mcD-P\_tFk\_4/preview](https://docs.google.com/document/d/1M8\_02MghmbVg3JPwEHYlkn0neHr0Qyw4mcD-P\_tFk\_4/preview).
+
+
