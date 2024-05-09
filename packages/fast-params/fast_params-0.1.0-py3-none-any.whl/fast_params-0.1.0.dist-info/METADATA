@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: fast-params
+Version: 0.1.0
+Summary: 
+Author: Chongchen Chen
+Author-email: chenkovsky@qq.com
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: starlette (>=0.37.0)
+Description-Content-Type: text/markdown
+
+# Fast Params
+
+Support Rails style QueryParams and FormData for Starlette and FastAPI
+
+## Install
+
+```bash
+pip install fast-params
+```
+
+## Usage
+
+
+```python
+from fast_params import ParamParser
+from starlette.datastructures import MultiDict
+
+def test_parse_simple():
+    parser = ParamParser()
+    params = MultiDict({
+        "a": 1,
+        "b": 2
+    })
+    expect = {
+        "a": 1,
+        "b": 2
+    }
+    assert parser(params) == expect
+
+def test_array():
+    parser = ParamParser()
+    params = MultiDict([
+        ("a", 1),
+        ("b[]", 2),
+        ("c[d]", 3),
+        ("c[f]", 4),
+        ("f[d][]", 5),
+        ("f[d][]", 6),
+    ])
+    expect = {
+        "a": 1,
+        "b": [2],
+        "c": {
+            "d": 3,
+            "f": 4
+        },
+        "f": {
+            "d": [5, 6]
+        }
+    }
+    assert parser(params) == expect
+```
+
