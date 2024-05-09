@@ -1,0 +1,11 @@
+kita/__init__.py,sha256=m932-ynYOIG42dUddyi3w3EY1WKgbgJm-mnHdamOiHg,910
+kita/advanced.py,sha256=3M2Pk8B1XkybJcY4JbdAtPg8cmwWREuXNtzgWMvvK38,757
+kita/basic.py,sha256=fcsWHfoR0W9Oy83m_V9yLvCIANth4AX-j3teS5qUZGs,1846
+kita/complex.py,sha256=BIXdgHOJzmeoPVJ3uhQefQqtt4Ox-0K-DSMrvD9yWj4,234
+kita/statistics.py,sha256=7liiZ6jA_kbHUiD7nS2a0nunlB9Ia6Y3yf_ue13T7bI,870
+kita/vectors.py,sha256=krOX_raEUy-Hwvp2-z-W4Aj9xZok6Omcpb2S6EtHpf0,783
+kita-1.0.0.dist-info/LICENSE,sha256=zV1-NkYqOxOUKntgAzpUviJ00tnyt6QasMi1199ae9A,1064
+kita-1.0.0.dist-info/METADATA,sha256=TAeflBKnHfzcAN9GOdbomErSDaGXeFkOOdae8XQYiBg,1241
+kita-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kita-1.0.0.dist-info/top_level.txt,sha256=8xKg1hF0WMqtq5u_VTrfwBg8rebDongVNczDLF9Kaqw,5
+kita-1.0.0.dist-info/RECORD,,
