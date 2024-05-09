@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry-core>=1.5.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry]
+name = "lib-version-team11"
+version = "0.0.1"
+description = "A version-aware library that can be asked for the version of the library."
+authors = ["team_11 <E.Sipols@student.tudelft.nl>"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+setuptools = "^60.0.0"
+setuptools_scm = "^6.3.2"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "dirty-tag"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = 'git'
+style = 'pep440'
