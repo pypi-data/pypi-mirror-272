@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fleepit
+Version: 1
+Summary: keyboard layout switcher based on xclip & other things
+Home-page: https://git.pegasko.art/bitrate16/fleepit
+Author-email: pegasko@pegasko.art
+License: AGPL 3.0
+Keywords: keyboard layout shortcut layout-switcher
+License-File: LICENSE
+License-File: NOTICE
