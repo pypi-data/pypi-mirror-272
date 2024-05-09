@@ -1,0 +1,23 @@
+.idea
+*pyc
+__pycache__
+output
+/venv
+old_README.md
+
+# tests
+/syndirella/tests/one_step_warren_A71EV2A/
+/syndirella/tests/reactants_filtering
+/syndirella/tests/reactants_filtering_w_labels
+
+#any output folder
+*/output/
+iris/
+/exps/original/
+
+#mac os files
+*.DS_Store
+
+/nbs/
+
+
