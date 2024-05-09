@@ -1,0 +1,5 @@
+module_process/__init__.py,sha256=KVvJyBWg9wG76GBRsFuDkJesfJSzLz7nlk1P8o2IK0M,33
+module_process/main.py,sha256=2JZ9WoHr4P8l5-cDj3vUHZ_wqGnS3ORoqX2IHe0AZyI,4660
+module_process-0.1.0.dist-info/METADATA,sha256=E_aFUHNZ7SSwhRY_mhK1AYUp7pQKEzEWOhvCrC0Ud54,444
+module_process-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+module_process-0.1.0.dist-info/RECORD,,
