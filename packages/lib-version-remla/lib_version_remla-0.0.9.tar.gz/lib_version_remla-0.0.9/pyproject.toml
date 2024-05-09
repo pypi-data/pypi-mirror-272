@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "lib_version_remla"
+version = "0.0.9"
+description = "A small package which returns its own version."
+authors = ["Jan <j2000.vdm@gmail.com>"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project]
+name = "lib_version_remla"
+version = "0.0.4"
+description = "A small package which returns its own version."
+authors = [
+    { name = "Jan", email="j2000.vdm@gmail.com" },
+]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.11"
+
+[project.urls]
+Homepage = "https://github.com/remla24-team10/lib-version"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+twine = ">=5.0.0"
+
+[tool.build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[build-system]
+requires = ["poetry-core>=1.8.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = 'git'
+style = 'pep440'
