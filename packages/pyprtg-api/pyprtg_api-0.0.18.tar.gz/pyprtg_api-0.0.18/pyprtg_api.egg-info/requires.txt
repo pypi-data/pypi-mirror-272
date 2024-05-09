@@ -1,0 +1,4 @@
+certifi<2025,>=2024.2.2
+requests<3,>=2.31.0
+tenacity<9,>=8.2.2
+urllib3<3,>=2.2.1
