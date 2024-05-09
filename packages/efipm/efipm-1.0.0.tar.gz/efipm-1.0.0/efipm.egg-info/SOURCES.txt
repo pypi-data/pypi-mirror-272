@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+efipm.egg-info/PKG-INFO
+efipm.egg-info/SOURCES.txt
+efipm.egg-info/dependency_links.txt
+efipm.egg-info/top_level.txt
+ipm/__init__.py
+ipm/__main__.py
+ipm/__version__.py
+ipm/common.py
+ipm/manage.py
