@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: discordautochat
+Version: 1.4
+Summary: Just script to auto sending messages to discord channel
+Home-page: https://github.com/rizkychi/discordautochat
+Download-URL: https://github.com/rizkychi/discordautochat/archive/v_01.tar.gz
+Author: rizkychi
+Author-email: rizkynhae@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/rizkychi/discordautochat/
+Project-URL: Funding, https://www.paypal.me/rizkychi
+Project-URL: Say Thanks!, https://www.paypal.me/rizkychi
+Project-URL: Source, https://github.com/rizkychi/discordautochat/
+Project-URL: Tracker, https://github.com/rizkychi/discordautochat/issues
+Keywords: discord,auto,bot,message,chat
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: validators
+Requires-Dist: beautifulsoup4
+Requires-Dist: numpy
+
+# discordautochat

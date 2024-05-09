@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+discordautochat/__init__.py
+discordautochat/main.py
+discordautochat.egg-info/PKG-INFO
+discordautochat.egg-info/SOURCES.txt
+discordautochat.egg-info/dependency_links.txt
+discordautochat.egg-info/requires.txt
+discordautochat.egg-info/top_level.txt
