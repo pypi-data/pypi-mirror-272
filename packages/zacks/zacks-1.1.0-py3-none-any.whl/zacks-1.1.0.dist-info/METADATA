@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: zacks
+Version: 1.1.0
+Summary: A simple web scraper for extracting data from Zacks Investment Research
+Author-email: Alon Leshem <aleshem20@gmail.com>
+Keywords: zacks,scraper,data extraction
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: selenium
+Requires-Dist: alive-progress
+Requires-Dist: argparse
+
+# Zacks
+An unofficial package that extracts portfolio information from Zacks. The only current implementation is `experts_view()`
+
+## Installation
+First, make sure to install [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.34.0) for your OS. The default place Zacks will look is `$USER_HOME/chromedriver` but you can change where it points using the -c flag.
+
+If Firefox is installed through snap, you need to use firefox.geckodriver by running
+```bash
+ln -s $(whereis firefox.geckodriver | awk '{print $2}') geckodriver
+```
+## Usage
+```python
+from zacks import experts_view
+
+experts_view()
+```
