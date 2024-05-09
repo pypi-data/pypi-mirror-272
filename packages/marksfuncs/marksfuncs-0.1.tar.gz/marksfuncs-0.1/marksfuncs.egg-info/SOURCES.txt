@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+marksfuncs/__init__.py
+marksfuncs/functions.py
+marksfuncs.egg-info/PKG-INFO
+marksfuncs.egg-info/SOURCES.txt
+marksfuncs.egg-info/dependency_links.txt
+marksfuncs.egg-info/requires.txt
+marksfuncs.egg-info/top_level.txt
