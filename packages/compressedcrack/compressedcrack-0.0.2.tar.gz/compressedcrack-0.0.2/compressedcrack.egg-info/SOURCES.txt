@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+compressedcrack/__init__.py
+compressedcrack/main.py
+compressedcrack.egg-info/PKG-INFO
+compressedcrack.egg-info/SOURCES.txt
+compressedcrack.egg-info/dependency_links.txt
+compressedcrack.egg-info/entry_points.txt
+compressedcrack.egg-info/requires.txt
+compressedcrack.egg-info/top_level.txt
