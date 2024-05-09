@@ -1,0 +1,14 @@
+package <pk><group_id></group_id>.<artifact_id></artifact_id></pk>.use_cases.<sc>args[0]</sc>.implementations;
+
+import com.cae.use_cases.correlations.UseCaseExecutionCorrelation;
+import lombok.RequiredArgsConstructor;
+
+
+@RequiredArgsConstructor
+public class <pc>args[0]</pc>UseCaseImplementation extends <pc>args[0]</pc>UseCase {
+
+    @Override
+    protected void applyInternalLogic(UseCaseExecutionCorrelation useCaseExecutionCorrelation) {
+
+    }
+}
