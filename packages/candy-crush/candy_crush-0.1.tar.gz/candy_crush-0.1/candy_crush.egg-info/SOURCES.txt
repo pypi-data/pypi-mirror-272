@@ -1,0 +1,7 @@
+README.md
+setup.py
+candy_crush.egg-info/PKG-INFO
+candy_crush.egg-info/SOURCES.txt
+candy_crush.egg-info/dependency_links.txt
+candy_crush.egg-info/requires.txt
+candy_crush.egg-info/top_level.txt
