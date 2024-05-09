@@ -1,0 +1,4 @@
+Created infra.py.
+Created templates/nginx/proxy_params.j2.
+Created templates/nginx/web.j2.
+Created lib/modules/mycloud.py.
