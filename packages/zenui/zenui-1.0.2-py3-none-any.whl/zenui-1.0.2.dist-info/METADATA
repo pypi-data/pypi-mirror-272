@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zenui
+Version: 1.0.2
+Summary: ZenUI is python framework that brings python zen into the UI world. Build scalable, stateful component-based, interactive SPA with nothing but TailwindCSS and pure Python, no HTML, no CSS, no JS. 
+Author: Ahmed Rakan
+Author-email: ar.aldhafeeri11@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ZenUI 
+
+ZenUI is mini, light weight, super fast python framework that brings python zen into the UI world. Build scalable, stateful component-based, interactive SPA with nothing but TailwindCSS and pure Python, no HTML, no CSS, no JS, but you could use js, css, html if you want !
+
+## Quick Example : 
+
+```Python
+	    
+```
