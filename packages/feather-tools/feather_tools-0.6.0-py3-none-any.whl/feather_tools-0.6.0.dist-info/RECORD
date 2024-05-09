@@ -1,0 +1,17 @@
+feather_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feather_tools/f2csv,sha256=CyRVTMgOQ9KnKFkKMDrwBHgCRQLGu2WEc2uKy18JiJg,6164
+feather_tools/fless,sha256=O4n7vD2Hu-E5BDHDOOER_9vj8g_RRhUT4WAUS7MVQo8,2727
+feather_tools/ftail,sha256=uAAtQCvH0totVDiclISYVBxlzV_W4BXedwUHKsIWMPU,2941
+feather_tools/ftools_workhorse.py,sha256=f6C3lj9TEeERR-rhEaG4XM7kNrVrNYNVrPG1ATR6kf4,21004
+feather_tools/fwc,sha256=EAWocc7a0obnXJBTgT8XftV9d-okXGPnb4qL2pHj6jA,2230
+feather_tools/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feather_tools/test/f2csv_copy.py,sha256=CyRVTMgOQ9KnKFkKMDrwBHgCRQLGu2WEc2uKy18JiJg,6164
+feather_tools/test/fless_copy.py,sha256=O4n7vD2Hu-E5BDHDOOER_9vj8g_RRhUT4WAUS7MVQo8,2727
+feather_tools/test/ftail_copy.py,sha256=uAAtQCvH0totVDiclISYVBxlzV_W4BXedwUHKsIWMPU,2941
+feather_tools/test/fwc_copy.py,sha256=EAWocc7a0obnXJBTgT8XftV9d-okXGPnb4qL2pHj6jA,2230
+feather_tools/test/simple_feather.feather,sha256=uWI-U8cHxFlv-kvVxbVUch1n-k1_0q8t-sxCkdCcKR8,2698
+feather_tools/test/test_ftools_workhorse.py,sha256=L_9obdnkXQgevlw7GSLkpQFDsxFVDsgTA3l8f6liCng,27584
+feather_tools-0.6.0.dist-info/METADATA,sha256=L19Hq1MtU5p3g3pYC0NzkYnfw0kPThK6t1PN6T-vK2w,3612
+feather_tools-0.6.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+feather_tools-0.6.0.dist-info/top_level.txt,sha256=-Qq0oLNZJoAtubGL-9xk3TF2XtguFZ8EFh39bjJHnwc,14
+feather_tools-0.6.0.dist-info/RECORD,,
