@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyBeastxAPI.egg-info/PKG-INFO
+pyBeastxAPI.egg-info/SOURCES.txt
+pyBeastxAPI.egg-info/dependency_links.txt
+pyBeastxAPI.egg-info/requires.txt
+pyBeastxAPI.egg-info/top_level.txt
