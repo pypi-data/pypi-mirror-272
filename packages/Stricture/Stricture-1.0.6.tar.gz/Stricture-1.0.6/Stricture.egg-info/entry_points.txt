@@ -1,0 +1,2 @@
+[console_scripts]
+stricture = stricture.cli:main
