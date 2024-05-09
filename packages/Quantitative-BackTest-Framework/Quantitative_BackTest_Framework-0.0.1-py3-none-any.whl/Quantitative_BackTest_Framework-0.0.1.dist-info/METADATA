@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Quantitative-BackTest-Framework
+Version: 0.0.1
+Summary: A project for backtest quantitative trading strategy
+Home-page: https://github.com/TonnyTang09/Quantitative-BackTest-Framework
+Author: TonnyTang
+Author-email: e1127294@u.nus.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: openpyxl (==3.0.10)
+Requires-Dist: pandas (==2.2.2)
+Requires-Dist: plotly (==5.9.0)
+Requires-Dist: setuptools (==67.8.0)
+
+# Quantitative-BackTest-Framework
