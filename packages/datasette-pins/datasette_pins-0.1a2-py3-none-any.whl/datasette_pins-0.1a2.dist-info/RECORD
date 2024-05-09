@@ -1,0 +1,12 @@
+datasette_pins/__init__.py,sha256=dBGqTpG3ja3fSlIu7FiTqQY12R7jpTe4wFw8xIjH04Q,13613
+datasette_pins/internal_migrations.py,sha256=D-nSCbTFVDkUHwl-KZBCw6aZBoM-hRLw7niMmbnZirA,840
+datasette_pins/static/home/index.min.css,sha256=TAST1Amm1PAJ-G8tb3y-VbW0zOsdf8L9Yz4NhJJ2PIE,1184
+datasette_pins/static/home/index.min.js,sha256=Je20jIBbErq_ULzncjjOaGg3ecx1t0zxNpNcCG3BVng,27670
+datasette_pins/static/reorder_view/index.min.js,sha256=pd9OTm365UEnXFkffmCJznuGFtcLbeFRctglgsCvQiU,104607
+datasette_pins/templates/reorder_view.html,sha256=A1CvfY-U8Q1zoKPY-rRfBWhSYJAfm-1B9jvjZ1_DHr8,383
+datasette_pins-0.1a2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_pins-0.1a2.dist-info/METADATA,sha256=TrqaK3bRHVrnqFDLg1M6mwwVchcrdIhd2UCf-dggrtM,2985
+datasette_pins-0.1a2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+datasette_pins-0.1a2.dist-info/entry_points.txt,sha256=33Wxv1zVvC_k8mdCyS9S8BmVOkXaK1vgSa46QkfL9tA,34
+datasette_pins-0.1a2.dist-info/top_level.txt,sha256=7q2_3s4HUag7q4etl4QEU0l3ILIYg4SE6wMafXw6R30,15
+datasette_pins-0.1a2.dist-info/RECORD,,
