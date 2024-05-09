@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyyolov9"
+version = "0.0.2"
+dependencies = [
+  "numpy",
+  "opencv-python-headless",
+  "Pillow",
+  "psutil",
+  "pyyaml",
+  "torch",
+  "torchvision",
+  "tqdm"
+]
+readme = "README.md"
+classifiers = [
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"
+]
+
+[project.urls]
+Repository = "https://github.com/shonohs/pyyolov9"
+
+[tool.ruff]
+line-length = 200
+exclude = [".eggs", ".git", ".venv", ".vscode"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "UP", "TID252"]

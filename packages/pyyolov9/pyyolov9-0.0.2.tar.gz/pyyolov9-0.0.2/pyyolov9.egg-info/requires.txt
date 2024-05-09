@@ -1,0 +1,8 @@
+numpy
+opencv-python-headless
+Pillow
+psutil
+pyyaml
+torch
+torchvision
+tqdm
