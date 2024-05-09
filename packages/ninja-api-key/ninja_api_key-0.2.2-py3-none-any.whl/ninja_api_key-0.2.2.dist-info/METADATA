@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: ninja-api-key
+Version: 0.2.2
+Summary: Easy to use API key authentication for Django Ninja REST Framework
+Keywords: django,rest,ninja,auth,apikey
+Author-email: Lucas Rangel Cezimbra <lucas@cezimbra.tec.br>, Maximilian Wassink <wassink.maximilian@protonmail.com>
+Requires-Python: >=3.6.2
+Description-Content-Type: text/markdown
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: django
+Requires-Dist: django-ninja
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: pytest-django ; extra == "test"
+Requires-Dist: black ; extra == "test"
+Requires-Dist: isort ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Requires-Dist: flake8-bugbear ; extra == "test"
+Requires-Dist: flake8-bandit ; extra == "test"
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: django-stubs ; extra == "test"
+Project-URL: Source, https://github.com/lucasrcezimbra/ninja-api-key
+Provides-Extra: test
+
+<div align="center">
+    <h3>Django Ninja APIKey</h3>
+    <em>Easy to use API key authentication for Django Ninja REST Framework</em>
+</div>
+<br>
+<div align="center">
+    <p>
+        <a href="https://github.com/mawassk/django-ninja-apikey/actions/workflows/build.yml?query=branch%3Amain++" target="_blank">
+            <img src="https://github.com/mawassk/django-ninja-apikey/workflows/build/badge.svg?branch=main" alt="build">
+        </a>
+        <a href="https://codecov.io/gh/mawassk/django-ninja-apikey" target="_blank">
+            <img src="https://img.shields.io/codecov/c/github/mawassk/django-ninja-apikey?color=%2334D058" alt="coverage">
+        </a>
+        <a href="https://pypi.org/project/django-ninja-apikey/">
+            <img src="https://img.shields.io/pypi/v/django-ninja-apikey?color=%2334D058&label=pypi%20package" alt="pypi">
+        </a>
+        <a href="https://github.com/psf/black" target="_blank">
+            <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="black">
+        </a>
+    </p>
+</div>
+
+---
+
+This is an unofficial [Django](https://github.com/django/django) app which makes it **easy** to manage API keys for the [Django Ninja REST Framework](https://github.com/vitalik/django-ninja).
+
+**Key Features:**
+- **Easy** integration in your projects
+- Well integrated in the **admin interface**
+- **Secure** API keys due to hashing
+- Works with the **standard** user model
+
+## Installation
+
+```
+pip install django-ninja-apikey
+```
+
+## Usage
+Add `ninja_apikey` to your installed apps in your django project:
+```Python
+# settings.py
+
+INSTALLED_APPS = [
+    # ...
+    "ninja_apikey",
+]
+```
+Run the included migrations:
+```
+python manage.py migrate
+```
+Secure an api endpoint with the API keys:
+```Python
+# api.py
+
+from ninja import NinjaAPI
+from ninja_apikey.security import APIKeyAuth
+
+#  ...
+
+auth = APIKeyAuth()
+api = NinjaAPI()
+
+# ...
+
+@api.get("/secure_endpoint", auth=auth)
+def secure_endpoint(request):
+    return f"Hello, {request.user}!"
+```
+Or secure your whole api (or a specific [router](https://django-ninja.rest-framework.com/tutorial/routers/)) with the API keys:
+```Python
+# api.py
+
+from ninja import NinjaAPI
+from ninja_apikey.security import APIKeyAuth
+
+#  ...
+
+api = NinjaAPI(auth=APIKeyAuth())
+
+# ...
+
+@api.get("/secure_endpoint")
+def secure_endpoint(request):
+    return f"Hello, {request.user}!"
+```
+You can create now API keys from django's admin interface.
+
+## License
+This project is licensed under the terms of the MIT license.
+
