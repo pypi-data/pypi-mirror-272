@@ -1,0 +1,3 @@
+[console_scripts]
+blat=blat_cli.cli:cli
+
