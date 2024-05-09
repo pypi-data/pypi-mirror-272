@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: textbr
+Version: 0.1.0
+Summary: A package with basic helpful functions for text-based games which can be imported like so 'from textbr import *'
+Author: Foundation Scott
+Author-email: foundationscott.vercel.app@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
