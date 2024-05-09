@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/skilleter_thingy.egg-info/PKG-INFO
+src/skilleter_thingy.egg-info/SOURCES.txt
+src/skilleter_thingy.egg-info/dependency_links.txt
+src/skilleter_thingy.egg-info/entry_points.txt
+src/skilleter_thingy.egg-info/requires.txt
+src/skilleter_thingy.egg-info/top_level.txt
