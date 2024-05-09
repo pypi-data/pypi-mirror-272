@@ -1,0 +1,15 @@
+README.md
+setup.py
+RViT/__init__.py
+RViT.egg-info/PKG-INFO
+RViT.egg-info/SOURCES.txt
+RViT.egg-info/dependency_links.txt
+RViT.egg-info/requires.txt
+RViT.egg-info/top_level.txt
+rvit/__init__.py
+rvit/registered_vision_transformer.py
+rvit.egg-info/PKG-INFO
+rvit.egg-info/SOURCES.txt
+rvit.egg-info/dependency_links.txt
+rvit.egg-info/requires.txt
+rvit.egg-info/top_level.txt
