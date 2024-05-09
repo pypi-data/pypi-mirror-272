@@ -1,0 +1,7 @@
+README.md
+setup.py
+logistic_regression_model_trainer.egg-info/PKG-INFO
+logistic_regression_model_trainer.egg-info/SOURCES.txt
+logistic_regression_model_trainer.egg-info/dependency_links.txt
+logistic_regression_model_trainer.egg-info/requires.txt
+logistic_regression_model_trainer.egg-info/top_level.txt
