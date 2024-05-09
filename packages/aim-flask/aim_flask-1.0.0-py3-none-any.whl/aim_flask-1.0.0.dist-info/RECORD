@@ -1,0 +1,6 @@
+app/__init__.py,sha256=ImyfwpPhwFlTUSOTS7smCCp2jiTFYLPULsZwxuQIjjI,40
+app/routes.py,sha256=XBBeVRtpJ4zDkmcWRMXBlCdx-ndEgLqXBYGwPHkFeVc,43
+aim_flask-1.0.0.dist-info/METADATA,sha256=aZNvvrQx2xvEZ4-7RsrL9_RhRLQVibCZFzDUK-PcWPc,907
+aim_flask-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+aim_flask-1.0.0.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+aim_flask-1.0.0.dist-info/RECORD,,
