@@ -1,0 +1,12 @@
+pixelize/__init__.py,sha256=DqMgfEm_15N_lP_Z1uPt5a1YQbNZPQWRLIbXKRsZrHM,366
+pixelize/__main__.py,sha256=ojUHSsf5619f3yyNjKlLHgFRIRR9DHVwnk69goKTOdc,362
+pixelize/cli.py,sha256=n2_UAxB_9dP3hx90e526p6RfI2IKrOfsSz8CbiA3HkM,4182
+pixelize/core.py,sha256=8jqyTUXFhoW1gBZERlO0gKkwekkNqvqod-beXxbTE_w,440
+pixelize/pixelize.py,sha256=PfBzshK5V4bQ7vJ0FnJo2RCWYdtDPXYIDvEJPAYrLrk,5409
+pixelize/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixelize/utils.py,sha256=t6P-XzE_X7yWuPRHu2UGLdEJlmBVblpoMu75WpsR5bQ,843
+pixelize-0.0.2.dist-info/LICENSE,sha256=kYRz570GVPktzhJxWtaencsrsjdKSetpe5WISlDrvnY,1093
+pixelize-0.0.2.dist-info/METADATA,sha256=NHcionYHgdcS8zTgiS1jq34rDIk9K3Qb3zpojXDD2bs,8256
+pixelize-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pixelize-0.0.2.dist-info/entry_points.txt,sha256=NV54BVDzTGwcS1fX6glkP-aDr-Eq4zHasudzCu-uE0c,52
+pixelize-0.0.2.dist-info/RECORD,,
