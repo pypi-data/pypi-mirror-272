@@ -1,0 +1,46 @@
+import pandas as pd
+
+data=pd.read_csv("Admission_Predict.csv")
+
+from sklearn.preprocessing import Binarizer
+
+limit=Binarizer(threshold=0.75)
+
+data["Chance of Admit "]=limit.transform(data[["Chance of Admit "]])
+
+inputdata=data.drop(["Chance of Admit "],axis=1)
+
+inputdata
+
+outputdata=data["Chance of Admit "]
+
+outputdata
+
+outputdata.astype(int)
+
+from sklearn.model_selection import train_test_split
+
+xtrain,ytrain,xtest,ytest=train_test_split(inputdata,outputdata,random_state=0,test_size=0.25)
+
+xtrain
+
+ytrain
+
+from sklearn.tree import DecisionTreeClassifier
+
+classifier=DecisionTreeClassifier()
+
+classifier.fit(xtrain,xtest)
+
+predicted=classifier.predict(ytrain)
+
+predicted
+
+from sklearn.metrics import ConfusionMatrixDisplay,classification_report
+
+ConfusionMatrixDisplay.from_predictions(ytest,predicted)
+
+print(classification_report(ytest,predicted))
+
+pd.DataFrame({"actual":ytest,"predicted":predicted})
+

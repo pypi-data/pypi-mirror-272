@@ -1,0 +1,449 @@
+------------- Daa 1 A --------------
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Scanner;
+
+class Item {
+    public int weight, value;
+
+    public Item(int weight, int value) {
+        this.weight = weight;
+        this.value = value;
+    }
+}
+
+public class FractionalKnapsack {
+    public static double getMaxValue(int capacity, Item[] items) {
+        Arrays.sort(items, Comparator.comparingDouble((Item item) -> (double) item.value / item.weight).reversed());
+
+        double totalValue = 0;
+
+        for (Item item : items) {
+            int currentWeight = Math.min(item.weight, capacity);
+            totalValue += (double) currentWeight / item.weight * item.value;
+            capacity -= currentWeight;
+
+            if (capacity == 0) {
+                break;
+            }
+        }
+
+        return totalValue;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the capacity of the knapsack: ");
+        int capacity = scanner.nextInt();
+
+        System.out.print("Enter the number of items: ");
+        int numItems = scanner.nextInt();
+
+        Item[] items = new Item[numItems];
+
+        System.out.println("Enter the weight and value of each item:");
+
+        for (int i = 0; i < numItems; i++) {
+            System.out.print("Item " + (i + 1) + " - Weight: ");
+            int weight = scanner.nextInt();
+
+            System.out.print("Item " + (i + 1) + " - Value: ");
+            int value = scanner.nextInt();
+
+            items[i] = new Item(weight, value);
+        }
+
+        double maxValue = getMaxValue(capacity, items);
+        System.out.println("Maximum value in Knapsack = " + maxValue);
+
+        scanner.close();
+    }
+}
+
+
+
+------------ Daa 1 B ---------------
+
+import java.util.Scanner;
+
+public class ZeroOneKnapsack {
+
+    public static int knapsack(int capacity, int[] weights, int[] values, int numItems) {
+        int[][] dp = new int[numItems + 1][capacity + 1];
+
+        for (int i = 0; i <= numItems; i++) {
+            for (int w = 0; w <= capacity; w++) {
+                if (i == 0 || w == 0) {
+                    dp[i][w] = 0;
+                } else if (weights[i - 1] <= w) {
+                    dp[i][w] = Math.max(values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w]);
+                } else {
+                    dp[i][w] = dp[i - 1][w];
+                }
+            }
+        }
+
+        return dp[numItems][capacity];
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the capacity of the knapsack: ");
+        int capacity = scanner.nextInt();
+
+        System.out.print("Enter the number of items: ");
+        int numItems = scanner.nextInt();
+
+        int[] weights = new int[numItems];
+        int[] values = new int[numItems];
+
+        System.out.println("Enter the weight and value of each item:");
+
+        for (int i = 0; i < numItems; i++) {
+            System.out.print("Item " + (i + 1) + " - Weight: ");
+            weights[i] = scanner.nextInt();
+
+            System.out.print("Item " + (i + 1) + " - Value: ");
+            values[i] = scanner.nextInt();
+        }
+
+        int maxValue = knapsack(capacity, weights, values, numItems);
+        System.out.println("Maximum value in Knapsack = " + maxValue);
+
+        scanner.close();
+    }
+}
+
+
+-------------- Daa 2 ---------------------------------
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+class Edge {
+    int source, destination, weight;
+
+    public Edge(int source, int destination, int weight) {
+        this.source = source;
+        this.destination = destination;
+        this.weight = weight;
+    }
+}
+
+public class BellmanFordAlgorithm {
+
+    public static void bellmanFord(int[] distance, Edge[] edges, int vertices, int source) {
+        Arrays.fill(distance, Integer.MAX_VALUE);
+        distance[source] = 0;
+
+        for (int i = 1; i < vertices; i++) {
+            for (Edge edge : edges) {
+                if (distance[edge.source] != Integer.MAX_VALUE && distance[edge.source] + edge.weight < distance[edge.destination]) {
+                    distance[edge.destination] = distance[edge.source] + edge.weight;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of vertices: ");
+        int vertices = scanner.nextInt();
+
+        System.out.print("Enter the number of edges: ");
+        int edgesCount = scanner.nextInt();
+
+        Edge[] edgeArray = new Edge[edgesCount];
+
+        System.out.println("Enter the edges (source destination weight):");
+
+        for (int i = 0; i < edgesCount; i++) {
+            System.out.print("Edge " + (i + 1) + ": ");
+            int source = scanner.nextInt();
+            int destination = scanner.nextInt();
+            int weight = scanner.nextInt();
+
+            edgeArray[i] = new Edge(source, destination, weight);
+        }
+
+        System.out.print("Enter the source vertex: ");
+        int source = scanner.nextInt();
+
+        int[] distance = new int[vertices];
+
+        long startTime = System.nanoTime();
+        bellmanFord(distance, edgeArray, vertices, source);
+        long endTime = System.nanoTime();
+
+        System.out.println("Shortest distances from source " + source + " are:");
+
+        for (int i = 0; i < vertices; i++) {
+            System.out.println("To " + i + ": " + distance[i]);
+        }
+
+        long elapsedTime = endTime - startTime;
+        System.out.println("Execution time: " + elapsedTime + " nanoseconds");
+
+        scanner.close();
+    }
+}
+
+
+----------------- Daa 3 ------------------------
+
+import java.util.Scanner;
+
+public class NQueens {
+
+    public static void printSolution(int[][] board) {
+        int n = board.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print((board[i][j] == 1) ? "Q " : ". ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    public static boolean isSafe(int[][] board, int row, int col) {
+        int n = board.length;
+
+        // Check in the current row on the left side
+        for (int i = 0; i < col; i++) {
+            if (board[row][i] == 1) {
+                return false;
+            }
+        }
+
+        // Check upper diagonal on the left side
+        for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
+            if (board[i][j] == 1) {
+                return false;
+            }
+        }
+
+        // Check lower diagonal on the left side
+        for (int i = row, j = col; i < n && j >= 0; i++, j--) {
+            if (board[i][j] == 1) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static boolean solveNQueensUtil(int[][] board, int col) {
+        int n = board.length;
+
+        if (col == n) {
+            // All queens are placed, print the solution
+            printSolution(board);
+            return true;
+        }
+
+        boolean res = false;
+        for (int i = 0; i < n; i++) {
+            if (isSafe(board, i, col)) {
+                board[i][col] = 1; // Place queen
+
+                // Recur to place rest of the queens
+                res = solveNQueensUtil(board, col + 1) || res;
+
+                // If placing queen in the current position doesn't lead to a solution,
+                // then backtrack and remove the queen from the current position
+                board[i][col] = 0;
+            }
+        }
+
+        return res;
+    }
+
+    public static void solveNQueens(int n) {
+        int[][] board = new int[n][n];
+
+        if (!solveNQueensUtil(board, 0)) {
+            System.out.println("Solution does not exist");
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the size of the chessboard (N): ");
+        int n = scanner.nextInt();
+
+        solveNQueens(n);
+
+        scanner.close();
+    }
+}
+
+
+------------ Daa 4 ------------------------
+
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class TSP {
+
+    static class Graph {
+        int[][] adjacencyMatrix;
+        int vertexCount;
+
+        public Graph(int[][] adjacencyMatrix) {
+            this.adjacencyMatrix = adjacencyMatrix.clone();
+            this.vertexCount = adjacencyMatrix.length;
+        }
+    }
+
+    static class MinHeapNode implements Comparable<MinHeapNode> {
+        int lowerBound, level;
+        int[] path;
+
+        public MinHeapNode(int level, int[] path, int lowerBound) {
+            this.level = level;
+            this.path = Arrays.copyOf(path, path.length);
+            this.lowerBound = lowerBound;
+        }
+
+        @Override
+        public int compareTo(MinHeapNode o) {
+            return Integer.compare(this.lowerBound, o.lowerBound);
+        }
+    }
+
+    public static int tspBranchAndBound(Graph graph) {
+        int n = graph.vertexCount;
+
+        int[] path = new int[n + 1];
+        boolean[] visited = new boolean[n];
+        visited[0] = true;
+
+        path[0] = 0;
+
+        MinHeapNode rootNode = new MinHeapNode(0, path, 0);
+        MinHeapNode currentNode;
+
+        int finalPath[] = new int[n + 1];
+        int finalCost = Integer.MAX_VALUE;
+
+        while (true) {
+            currentNode = rootNode;
+
+            while (currentNode.level != n - 1) {
+                int currentLevel = currentNode.level;
+
+                for (int i = 0; i < n; i++) {
+                    if (!visited[i]) {
+                        int lowerBound = currentNode.lowerBound + graph.adjacencyMatrix[currentNode.path[currentLevel]][i];
+
+                        MinHeapNode newNode = new MinHeapNode(currentLevel + 1, currentNode.path, lowerBound);
+                        newNode.path[currentLevel + 1] = i;
+
+                        if (currentNode.lowerBound < finalCost) {
+                            rootHeapify(newNode);
+                        }
+                    }
+                }
+
+                currentNode = removeMin();
+                visited[currentNode.path[currentNode.level]] = true;
+            }
+
+            currentNode.level++;
+            currentNode.path[currentNode.level] = currentNode.path[0];
+            currentNode.lowerBound += graph.adjacencyMatrix[currentNode.path[currentNode.level - 1]][currentNode.path[currentNode.level]];
+
+            if (currentNode.lowerBound < finalCost) {
+                finalCost = currentNode.lowerBound;
+                System.arraycopy(currentNode.path, 0, finalPath, 0, n + 1);
+            }
+
+            if (currentNode.lowerBound >= finalCost) {
+                break;
+            }
+        }
+
+        System.out.println("Optimal Tour Path: " + Arrays.toString(finalPath));
+        System.out.println("Optimal Tour Cost: " + finalCost);
+
+        return finalCost;
+    }
+
+    static MinHeapNode[] minHeap;
+    static int heapSize;
+
+    public static void rootHeapify(MinHeapNode node) {
+        minHeap[++heapSize] = node;
+        int current = heapSize;
+
+        while (current > 1 && minHeap[current].compareTo(minHeap[current / 2]) < 0) {
+            swap(current, current / 2);
+            current /= 2;
+        }
+    }
+
+    public static MinHeapNode removeMin() {
+        MinHeapNode minNode = minHeap[1];
+        minHeap[1] = minHeap[heapSize--];
+        heapify(1);
+        return minNode;
+    }
+
+    public static void heapify(int pos) {
+        int smallest = pos;
+        int left = 2 * pos;
+        int right = 2 * pos + 1;
+
+        if (left <= heapSize && minHeap[left].compareTo(minHeap[smallest]) < 0) {
+            smallest = left;
+        }
+
+        if (right <= heapSize && minHeap[right].compareTo(minHeap[smallest]) < 0) {
+            smallest = right;
+        }
+
+        if (smallest != pos) {
+            swap(pos, smallest);
+            heapify(smallest);
+        }
+    }
+
+    public static void swap(int i, int j) {
+        MinHeapNode temp = minHeap[i];
+        minHeap[i] = minHeap[j];
+        minHeap[j] = temp;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of cities: ");
+        int n = scanner.nextInt();
+
+        int[][] adjacencyMatrix = new int[n][n];
+
+        System.out.println("Enter the distances between cities (row by row):");
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                adjacencyMatrix[i][j] = scanner.nextInt();
+            }
+        }
+
+        Graph graph = new Graph(adjacencyMatrix);
+
+        minHeap = new MinHeapNode[10000];
+        heapSize = 0;
+
+        int minCost = tspBranchAndBound(graph);
+
+        scanner.close();
+    }
+}
+

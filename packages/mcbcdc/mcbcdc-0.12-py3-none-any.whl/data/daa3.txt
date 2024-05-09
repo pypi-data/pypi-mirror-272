@@ -1,0 +1,87 @@
+import java.util.Scanner;
+
+public class NQueens {
+
+    public static void printSolution(int[][] board) {
+        int n = board.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print((board[i][j] == 1) ? "Q " : ". ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    public static boolean isSafe(int[][] board, int row, int col) {
+        int n = board.length;
+
+        // Check in the current row on the left side
+        for (int i = 0; i < col; i++) {
+            if (board[row][i] == 1) {
+                return false;
+            }
+        }
+
+        // Check upper diagonal on the left side
+        for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
+            if (board[i][j] == 1) {
+                return false;
+            }
+        }
+
+        // Check lower diagonal on the left side
+        for (int i = row, j = col; i < n && j >= 0; i++, j--) {
+            if (board[i][j] == 1) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static boolean solveNQueensUtil(int[][] board, int col) {
+        int n = board.length;
+
+        if (col == n) {
+            // All queens are placed, print the solution
+            printSolution(board);
+            return true;
+        }
+
+        boolean res = false;
+        for (int i = 0; i < n; i++) {
+            if (isSafe(board, i, col)) {
+                board[i][col] = 1; // Place queen
+
+                // Recur to place rest of the queens
+                res = solveNQueensUtil(board, col + 1) || res;
+
+                // If placing queen in the current position doesn't lead to a solution,
+                // then backtrack and remove the queen from the current position
+                board[i][col] = 0;
+            }
+        }
+
+        return res;
+    }
+
+    public static void solveNQueens(int n) {
+        int[][] board = new int[n][n];
+
+        if (!solveNQueensUtil(board, 0)) {
+            System.out.println("Solution does not exist");
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the size of the chessboard (N): ");
+        int n = scanner.nextInt();
+
+        solveNQueens(n);
+
+        scanner.close();
+    }
+}

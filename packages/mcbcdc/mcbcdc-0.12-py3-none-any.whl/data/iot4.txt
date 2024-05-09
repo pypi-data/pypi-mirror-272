@@ -1,0 +1,67 @@
+int redPin[] = {12, 9, 6, 3};
+int greenPin[] = {10, 7, 4, 1};
+int currentRoad = 0;
+
+void setup() {
+  pinMode(redPin[0], OUTPUT);
+  pinMode(greenPin[0], OUTPUT);
+  pinMode(redPin[1], OUTPUT);
+  pinMode(greenPin[1], OUTPUT);
+  pinMode(redPin[2], OUTPUT);
+  pinMode(greenPin[2], OUTPUT);
+  pinMode(redPin[3], OUTPUT);
+  pinMode(greenPin[3], OUTPUT);
+}
+
+void loop() {
+  // Road 1: Green, Others: Red
+  digitalWrite(redPin[0], LOW);
+  digitalWrite(greenPin[0], HIGH);
+  
+  delay(21000);
+  
+  // Road 1: Red, Others: Green
+  digitalWrite(greenPin[0], LOW);
+  digitalWrite(redPin[0], HIGH);
+  
+  delay(250);
+
+  // Road 2: Green, Others: Red
+  digitalWrite(redPin[1], LOW);
+  digitalWrite(greenPin[1], HIGH);
+  
+  delay(21000);
+  
+  // Road 2: Red, Others: Green
+  digitalWrite(greenPin[1], LOW);
+  digitalWrite(redPin[1], HIGH);
+  
+  delay(250);
+
+  // Road 3: Green, Others: Red
+  digitalWrite(redPin[2], LOW);
+  digitalWrite(greenPin[2], HIGH);
+  
+  delay(21000);
+  
+  // Road 3: Red, Others: Green
+  digitalWrite(greenPin[2], LOW);
+  digitalWrite(redPin[2], HIGH);
+  
+  delay(250);
+
+  // Road 4: Green, Others: Red
+  digitalWrite(redPin[3], LOW);
+  digitalWrite(greenPin[3], HIGH);
+  
+  delay(21000);
+  
+  // Road 4: Red, Others: Green
+  digitalWrite(greenPin[3], LOW);
+  digitalWrite(redPin[3], HIGH);
+  
+  delay(250);
+  
+  // Cycle to the next road
+  currentRoad = (currentRoad + 1) % 4;
+}

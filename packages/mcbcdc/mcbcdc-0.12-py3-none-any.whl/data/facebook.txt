@@ -1,0 +1,90 @@
+import pandas as pd
+
+
+#Read dataset
+df=pd.read_csv("Datasets/facebook (3).csv",sep=";");
+
+
+df
+
+#2 1: Subsets
+
+#1 : create data subsets
+#Select columns by name
+
+df[["Type","Category"]]
+
+
+#Select columns and rows by index
+df2=df.iloc[3:6,1:8]
+df2
+
+
+#Select rows by index
+df.loc[1:5]
+
+
+#select column by numbers
+df1=df.iloc[:,1:8]
+df1
+
+
+#Select rows by condition
+df[df['Type']=='Photo']
+
+
+#3 2: Sort data
+#Sort using single column
+df1.sort_values(by="Post Month",ascending=False)
+
+
+#Sort using two column
+df1.sort_values(by=['Post Month','Post Hour'],ascending=False)
+
+
+#4 3: Merge data
+# Meging subsets :outer
+df3=df.iloc[0:5,0:2]
+df4=df.iloc[0:5,1:3]
+pd.merge(df3,df4,on='Type',how='outer')
+
+
+# Meging subsets :left
+pd.merge(df3,df4,on='Type',how='left')
+
+
+# Meging subsets :right
+pd.merge(df3,df4,on='Type',how='right')
+
+
+# Meging subsets :inner
+pd.merge(df3,df4,on='Type',how='inner')
+
+
+# Using concat
+pd.concat([df3,df4],axis=0,ignore_index=True)
+
+
+# Meging subsets :inner
+pd.merge(df3,df4,on='Type',how='inner')
+
+
+#5 4 : Transpose
+#transpose
+df3.transpose()
+
+
+#6 5 : shape and reshape
+# Finding shape
+df3.shape
+
+
+#reshaping using pivot
+df5=df.iloc[:3,:3];
+df5.pivot(index='Type',columns='Category')
+
+
+#reshaping data using melt
+df6=df.iloc[0:2,:4]
+df6.melt(id_vars='Type')
+

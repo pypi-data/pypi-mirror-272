@@ -1,0 +1,42 @@
+#include <Servo.h>
+
+Servo servo1;
+
+int trigPin = 4;
+int echoPin = 2;
+long distance;
+long duration;
+
+void setup() 
+{
+  Serial.begin(115200);
+  servo1.attach(9); 
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+}
+
+void loop()
+{
+  ultra_sonic();
+  servo1.write(90);
+
+  if (distance <= 10)
+  {
+    servo1.write(270);
+    Serial.print("Object detected at ");
+    Serial.print(distance);
+    Serial.println(" cm");
+    delay(1000); // Print only once every second to avoid continuous output
+  }
+}
+
+void ultra_sonic()
+{
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  duration = pulseIn(echoPin, HIGH);
+  distance = duration * 0.034 / 2;
+}

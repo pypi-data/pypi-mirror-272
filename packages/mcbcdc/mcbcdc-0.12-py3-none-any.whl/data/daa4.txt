@@ -1,0 +1,160 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class TSP {
+
+    static class Graph {
+        int[][] adjacencyMatrix;
+        int vertexCount;
+
+        public Graph(int[][] adjacencyMatrix) {
+            this.adjacencyMatrix = adjacencyMatrix.clone();
+            this.vertexCount = adjacencyMatrix.length;
+        }
+    }
+
+    static class MinHeapNode implements Comparable<MinHeapNode> {
+        int lowerBound, level;
+        int[] path;
+
+        public MinHeapNode(int level, int[] path, int lowerBound) {
+            this.level = level;
+            this.path = Arrays.copyOf(path, path.length);
+            this.lowerBound = lowerBound;
+        }
+
+        @Override
+        public int compareTo(MinHeapNode o) {
+            return Integer.compare(this.lowerBound, o.lowerBound);
+        }
+    }
+
+    public static int tspBranchAndBound(Graph graph) {
+        int n = graph.vertexCount;
+
+        int[] path = new int[n + 1];
+        boolean[] visited = new boolean[n];
+        visited[0] = true;
+
+        path[0] = 0;
+
+        MinHeapNode rootNode = new MinHeapNode(0, path, 0);
+        MinHeapNode currentNode;
+
+        int finalPath[] = new int[n + 1];
+        int finalCost = Integer.MAX_VALUE;
+
+        while (true) {
+            currentNode = rootNode;
+
+            while (currentNode.level != n - 1) {
+                int currentLevel = currentNode.level;
+
+                for (int i = 0; i < n; i++) {
+                    if (!visited[i]) {
+                        int lowerBound = currentNode.lowerBound + graph.adjacencyMatrix[currentNode.path[currentLevel]][i];
+
+                        MinHeapNode newNode = new MinHeapNode(currentLevel + 1, currentNode.path, lowerBound);
+                        newNode.path[currentLevel + 1] = i;
+
+                        if (currentNode.lowerBound < finalCost) {
+                            rootHeapify(newNode);
+                        }
+                    }
+                }
+
+                currentNode = removeMin();
+                visited[currentNode.path[currentNode.level]] = true;
+            }
+
+            currentNode.level++;
+            currentNode.path[currentNode.level] = currentNode.path[0];
+            currentNode.lowerBound += graph.adjacencyMatrix[currentNode.path[currentNode.level - 1]][currentNode.path[currentNode.level]];
+
+            if (currentNode.lowerBound < finalCost) {
+                finalCost = currentNode.lowerBound;
+                System.arraycopy(currentNode.path, 0, finalPath, 0, n + 1);
+            }
+
+            if (currentNode.lowerBound >= finalCost) {
+                break;
+            }
+        }
+
+        System.out.println("Optimal Tour Path: " + Arrays.toString(finalPath));
+        System.out.println("Optimal Tour Cost: " + finalCost);
+
+        return finalCost;
+    }
+
+    static MinHeapNode[] minHeap;
+    static int heapSize;
+
+    public static void rootHeapify(MinHeapNode node) {
+        minHeap[++heapSize] = node;
+        int current = heapSize;
+
+        while (current > 1 && minHeap[current].compareTo(minHeap[current / 2]) < 0) {
+            swap(current, current / 2);
+            current /= 2;
+        }
+    }
+
+    public static MinHeapNode removeMin() {
+        MinHeapNode minNode = minHeap[1];
+        minHeap[1] = minHeap[heapSize--];
+        heapify(1);
+        return minNode;
+    }
+
+    public static void heapify(int pos) {
+        int smallest = pos;
+        int left = 2 * pos;
+        int right = 2 * pos + 1;
+
+        if (left <= heapSize && minHeap[left].compareTo(minHeap[smallest]) < 0) {
+            smallest = left;
+        }
+
+        if (right <= heapSize && minHeap[right].compareTo(minHeap[smallest]) < 0) {
+            smallest = right;
+        }
+
+        if (smallest != pos) {
+            swap(pos, smallest);
+            heapify(smallest);
+        }
+    }
+
+    public static void swap(int i, int j) {
+        MinHeapNode temp = minHeap[i];
+        minHeap[i] = minHeap[j];
+        minHeap[j] = temp;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of cities: ");
+        int n = scanner.nextInt();
+
+        int[][] adjacencyMatrix = new int[n][n];
+
+        System.out.println("Enter the distances between cities (row by row):");
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                adjacencyMatrix[i][j] = scanner.nextInt();
+            }
+        }
+
+        Graph graph = new Graph(adjacencyMatrix);
+
+        minHeap = new MinHeapNode[10000];
+        heapSize = 0;
+
+        int minCost = tspBranchAndBound(graph);
+
+        scanner.close();
+    }
+}

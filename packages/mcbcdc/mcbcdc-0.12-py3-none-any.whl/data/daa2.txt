@@ -1,0 +1,71 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+class Edge {
+    int source, destination, weight;
+
+    public Edge(int source, int destination, int weight) {
+        this.source = source;
+        this.destination = destination;
+        this.weight = weight;
+    }
+}
+
+public class BellmanFordAlgorithm {
+
+    public static void bellmanFord(int[] distance, Edge[] edges, int vertices, int source) {
+        Arrays.fill(distance, Integer.MAX_VALUE);
+        distance[source] = 0;
+
+        for (int i = 1; i < vertices; i++) {
+            for (Edge edge : edges) {
+                if (distance[edge.source] != Integer.MAX_VALUE && distance[edge.source] + edge.weight < distance[edge.destination]) {
+                    distance[edge.destination] = distance[edge.source] + edge.weight;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of vertices: ");
+        int vertices = scanner.nextInt();
+
+        System.out.print("Enter the number of edges: ");
+        int edgesCount = scanner.nextInt();
+
+        Edge[] edgeArray = new Edge[edgesCount];
+
+        System.out.println("Enter the edges (source destination weight):");
+
+        for (int i = 0; i < edgesCount; i++) {
+            System.out.print("Edge " + (i + 1) + ": ");
+            int source = scanner.nextInt();
+            int destination = scanner.nextInt();
+            int weight = scanner.nextInt();
+
+            edgeArray[i] = new Edge(source, destination, weight);
+        }
+
+        System.out.print("Enter the source vertex: ");
+        int source = scanner.nextInt();
+
+        int[] distance = new int[vertices];
+
+        long startTime = System.nanoTime();
+        bellmanFord(distance, edgeArray, vertices, source);
+        long endTime = System.nanoTime();
+
+        System.out.println("Shortest distances from source " + source + " are:");
+
+        for (int i = 0; i < vertices; i++) {
+            System.out.println("To " + i + ": " + distance[i]);
+        }
+
+        long elapsedTime = endTime - startTime;
+        System.out.println("Execution time: " + elapsedTime + " nanoseconds");
+
+        scanner.close();
+    }
+}

@@ -1,0 +1,199 @@
+Forest Fire
+
+
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+data=pd.read_csv("Datasets/forestfire.csv")
+data
+
+
+#2 Matplot Lib
+
+#Scatter plot
+plt.scatter(data["X"], data["Y"],color="lightblue")
+plt.xlabel('X')
+plt.ylabel('Y')
+plt.title('X Vs Y')
+
+
+
+# Histogram
+plt.figure(figsize=(10, 6))
+plt.hist(data['temp'], bins=10, color='skyblue', edgecolor='black')
+plt.xlabel('Temperature')
+plt.ylabel('Frequency')
+plt.title('Distribution of Temperature')
+plt.show()
+
+
+
+# Line Graph
+x=data.iloc[:10,:]
+plt.figure(figsize=(10, 6))
+plt.plot(x['temp'], label='Temperatue', linestyle='-', color='green')
+plt.xlabel('Sample')
+plt.ylabel('Temperature')
+plt.title('Temperature over Samples')
+plt.legend()
+plt.show()
+
+
+
+#Box plot
+plt.figure(figsize=(10, 6))
+plt.boxplot([data['FFMC'], data['DMC'], data['DC']], labels=['FFMC', 'DMC','DC'])
+plt.title('Variation in Fire Weather Indices by Month')
+plt.xlabel('Fire Weather Indices')
+plt.ylabel('Values')
+plt.grid(True)
+plt.show()
+
+
+
+
+# Count occurrences of each month
+month_counts = {}
+for month in data['month'][:15]:
+	if month not in month_counts:
+		month_counts[month] = 0
+	month_counts[month] += 1
+
+# Extracting the keys and values for plotting
+months = list(month_counts.keys())
+counts = list(month_counts.values())
+
+# Plotting
+plt.figure(figsize=(8, 8))
+plt.pie(counts, labels=months, autopct='%1.1f%%', startangle=140)
+plt.axis('equal') # Equal aspect ratio ensures that pie is drawn as a circle.
+plt.title('Occurrences of Months')
+plt.show()
+
+
+#3 Seaborn
+
+#scatter plot
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=data, x='month', y='FFMC', hue='month', palette='viridis',s=100)
+plt.title('FFMC Distribution Across Months')
+plt.xlabel('Month')
+plt.ylabel('FFMC')
+plt.show()
+
+
+
+# Create a boxplot using Seaborn
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=data, x='month', y='FFMC', palette='Set3')
+plt.title('FFMC Distribution Across Months')
+plt.xlabel('Month')
+plt.ylabel('FFMC')
+plt.show()
+
+
+
+# Create a violin plot using Seaborn
+plt.figure(figsize=(10, 6))
+sns.violinplot(data=data, x='day', y='DC', palette='Set2')
+plt.title('DC Distribution Across Days')
+plt.xlabel('Day')
+plt.ylabel('DC')
+plt.show()
+
+
+
+# Create a point plot using Seaborn
+plt.figure(figsize=(10, 6))
+sns.pointplot(data=data, x='month', y='DC', color='blue',errorbar=None)
+plt.title('DC Variation Across Months')
+plt.xlabel('Month')
+plt.ylabel('DC')
+plt.show()
+
+
+
+# Create a line plot using Seaborn
+plt.figure(figsize=(10, 6))
+sns.lineplot(data=data, x='month', y='FFMC', marker='o', color='green')
+plt.title('FFMC Trend Across Months')
+plt.xlabel('Month')
+plt.ylabel('FFMC')
+plt.show()
+
+
+---------------------------------------------------
+
+
+
+#4 Reading Dataset : Air Quality
+
+
+df=pd.read_csv("Datasets/airquality.csv")
+df
+
+
+
+#4.1 Matplolib
+
+# Convert 'Date' column to datetime
+df['Date'] = pd.to_datetime(df['Date'][:10], format='%d-%m-%Y')
+
+# Plot 1: Time series plot of AQI
+plt.figure(figsize=(15, 6))
+plt.plot(df['Date'][:10], df['AQI'][:10], marker='o', color='b')
+plt.title('Time Series Plot of AQI')
+plt.xlabel('Date')
+plt.ylabel('AQI')
+plt.grid(True)
+plt.show()
+
+
+
+# Plot 2: Distribution of PM2.5 and PM10
+plt.figure(figsize=(10, 6))
+sns.histplot(data=df[['PM2.5', 'PM10']], kde=True)
+plt.title('Distribution of PM2.5 and PM10')
+plt.xlabel('Concentration')
+plt.ylabel('Frequency')
+plt.legend(['PM2.5', 'PM10'])
+plt.show()
+
+
+
+plt.figure(figsize=(12, 8))
+corr = df[['PM2.5', 'PM10', 'NO', 'NO2', 'NOx', 'NH3', 'CO', 'SO2', 'O3','Benzene', 'Toluene', 'Xylene']].corr()
+sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title('Correlation Heatmap of Air Pollutants')
+plt.show()
+
+
+
+
+#5 Seaborn
+
+#bar plot
+df1=df.iloc[:25,:]
+sns.barplot(x='AQI_Bucket',y='AQI',data=df1,palette='viridis')
+plt.title("AQI Vs AQI_Bucket")
+
+
+
+df1=df.iloc[:25,:]
+sns.lineplot(x='CO',y='AQI',data=df1)
+plt.title("CO Vs AQI")
+
+
+#joint plot
+df1 = df.iloc[:10, :]
+sns.set(style='whitegrid')
+sns.jointplot(x='PM2.5', y='NO2', data=df1, ratio=15)
+plt.title("PM2.5 Vs NO2")
+plt.show()
+
+
+
+
