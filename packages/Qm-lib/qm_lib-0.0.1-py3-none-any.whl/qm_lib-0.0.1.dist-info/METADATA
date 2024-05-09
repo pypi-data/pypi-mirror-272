@@ -1,0 +1,35 @@
+Metadata-Version: 2.3
+Name: Qm-lib
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://gitee.com/xiatian0716/Qm-lib
+Project-URL: Bug Tracker, https://gitee.com/xiatian0716/Qm-lib/issues
+Author-email: xiatian0716 <819337877@qq.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# 参考库
+
+## RealmsPlayerlistBot
+[如何使用prisma](https://github.com/AstreaTSS/RealmsPlayerlistBot)
+
+## RuoYi-Vue-FastAPI
+[如何使用fastapi](https://gitee.com/insistence2022/RuoYi-Vue-FastAPI)
+
+## prisma-fastapi
+这个包含了一个最基础的带jwt的框架
+[prisma-fastapi](https://github.com/prisma-korea/prisma-fastapi)
+
+## elytra-ms
+[如何打包](https://github.com/Astrea-Stellarium-Labs/elytra-ms)
+
+https://blog.csdn.net/Trb601012/article/details/135770544
+pip install --upgrade build
+pip install hatchling
+python -m build
+http://xpgh.stoneartifact.cn:4173/guide/15.PyPI%E4%B8%8A%E4%BC%A0wheel.html
+twine upload -r pypi dist/*
