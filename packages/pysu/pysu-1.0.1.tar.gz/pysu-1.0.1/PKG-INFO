@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: pysu
+Version: 1.0.1
+Summary: Simple Python-based setuid+setgid+setgroups+exec. A port of https://github.com/tianon/gosu
+Home-page: https://github.com/ionelmc/python-su
+Author: Ionel Cristian Mărieș
+Author-email: contact@ionelmc.ro
+License: BSD-2-Clause
+Project-URL: Changelog, https://github.com/ionelmc/python-su/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/ionelmc/python-su/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+========
+Overview
+========
+
+
+
+Simple Python-based setuid+setgid+setgroups+exec. A port of https://github.com/tianon/gosu
+
+* Free software: BSD 2-Clause License
+
+Installation
+============
+
+::
+
+    pip install pysu
+
+You can also install the in-development version with::
+
+    pip install https://github.com/ionelmc/python-su/archive/master.zip
+
+
+Documentation
+=============
+
+Usage: pysu [-h] user[:group] command
+
+Change user and exec command.
+
+positional arguments:
+  user
+  command
+
+optional arguments:
+  -h, --help  show this help message and exit
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+1.0.1 (2024-05-08)
+------------------
+
+* Removed debug print.
+
+1.0.0 (2024-04-12)
+------------------
+
+* Dropped support for old Pythons. Minium supported version is 3.8.
+* Improved error handling and reporting.
+* Increased compatibility with `gosu <https://github.com/tianon/gosu>`_.
+
+0.2.0 (2016-05-06)
+------------------
+
+* Allow using ":group" as argument, just like ``gosu`` (it will use the current user, but with the given group).
+
+0.1.0 (2016-04-19)
+------------------
+
+* First release on PyPI.
