@@ -1,0 +1,11 @@
+ipsvm/__init__.py,sha256=ZQjBvKKn-YR1xvDutxtQ2y2WZybfVk4TarDT5cmyah8,25
+ipsvm/config.py,sha256=AnxEmrvIgFIpX5IMjfIKEGeVLS29WlnSSuU88PNiS6o,1002
+ipsvm/data.py,sha256=hE-VJc5A2gak-wT0LZr28_Oot3XTOTp18zjtjFja1XQ,39002
+ipsvm/default.json,sha256=KlZBTeM10Vp0SyP9LCSKuHILw2vh01LshyN5ebpnB7g,5369
+ipsvm/ipsvm.py,sha256=5B0SIZQ9bx91feocFbeSozfbiBTNVqpbCJmDYoOFpyM,21654
+ipsvm/predictor.pkl,sha256=HgSOkG8c3RePKNTURqOd2yczXSiIabA49GrRUqeV5Wg,145841
+ipsvm/shock.py,sha256=6jY8sENhiKW4jUDaJollDRW92KmRoBjr4pL0DdU-UzI,6612
+ipsvm-1.2.1.dist-info/METADATA,sha256=INpYCaIzjQ7-MeIxwAC4oPTPCEUPR6xzhA6phcpS8to,547
+ipsvm-1.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ipsvm-1.2.1.dist-info/top_level.txt,sha256=qFBeAz6rgfgqtzMA81QkoNwWZd-SRIxD51H2439PcAM,6
+ipsvm-1.2.1.dist-info/RECORD,,
