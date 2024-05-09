@@ -1,0 +1,2 @@
+[console_scripts]
+broadcastify-cli = broadcastify_cli.broadcastify_cli:cli
