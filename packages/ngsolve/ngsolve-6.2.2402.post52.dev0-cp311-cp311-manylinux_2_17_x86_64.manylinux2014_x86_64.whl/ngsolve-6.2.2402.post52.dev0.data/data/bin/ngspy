@@ -1,0 +1,2 @@
+#! /usr/bin/bash
+LD_PRELOAD=$LD_PRELOAD::::::/usr/lib64/libgomp.so.1 /opt/_internal/cpython-3.11.9/bin/python $*
