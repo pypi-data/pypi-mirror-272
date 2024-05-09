@@ -1,0 +1,14 @@
+v1.2 (see MR !23)
+
+- Updated treatment of magnetic field using Hillas parameterization for effective magnetic path length of electrons
+- Add the option to set starting grammage in addition to initial distance
+- Add azimuth angle distribution of photons on detection plane
+- Change of variable names in output file (breaking change!)
+
+
+v1.1.1
+- Added downward going shower compatibility, the NKG lateral distribution... (see MR !18)
+- Added input-file cl option and 2D histogram profile (see MR !17) 
+
+Bug fixes:
+- Downward going showers now stop at detector level (see MR !19)
