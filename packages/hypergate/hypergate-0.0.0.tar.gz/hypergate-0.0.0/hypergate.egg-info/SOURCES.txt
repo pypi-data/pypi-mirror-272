@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+hypergate/__init__.py
+hypergate.egg-info/PKG-INFO
+hypergate.egg-info/SOURCES.txt
+hypergate.egg-info/dependency_links.txt
+hypergate.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+[project]
+name = "hypergate"
+authors = [
+    {name = "Matthias Schuff", email = "matthias.schuff@dlr.de"},
+]
+version = "0.0.0"
+description = "Coming soon"
