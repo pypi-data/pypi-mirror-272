@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: testtesttestcommandline
+Version: 0.0.3
+Summary: A command-line tool to crack password-protected compressed files using brute force.
+Author-email: Minh Thanh <thanhdoantranminh@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2017 - 2024 Doan Tran Minh Thanh
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/mnismt/CompressedCrack
+Project-URL: Bug Tracker, https://github.com/mnismt/CompressedCrack/issues
+Keywords: brute force,password cracking,compressed files
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: patool >=2.2.0
+
+# CompressedCrack
+
+![Banner](./assets/banner.png)
+
+CompressedCrack is a command-line tool that utilizes the brute-force method to crack any password-protected compressed file. It generates password combinations based on user-defined character sets and length range, and attempts to extract the archive using each generated password until the correct password is found.
+
+## Features
+
+- Supports various compressed file formats (e.g., zip, rar, 7z) using `patoolib` library.
+- Allows customization of character sets (letters, numbers, special characters).
+- Configurable minimum and maximum password lengths.
+- Displays the found password, total number of attempts, and execution time.
+- Verbose mode for detailed output during the cracking process.
+
+## Requirements
+
+- Python 3.x
+- `patoolib` library
+
+To install the required library, run the following command:
+
+```
+pip install patoolib
+```
+
+## Usage
+
+```
+main.py [-h] [--min-length MIN_LENGTH] [--max-length MAX_LENGTH] [--verbose] file_path
+
+Crack password-protected archives using brute force.
+
+positional arguments:
+  file_path             Path to the compressed file.
+
+options:
+  -h, --help            show this help message and exit
+  --min-length MIN_LENGTH
+                        Minimum password length.
+  --max-length MAX_LENGTH
+                        Maximum password length.
+  --verbose             Increase output verbosity.
+
+```
+
+### Customizing Character Sets
+
+When the script is started, the user will be asked for selecting character sets, including letters, numbers and special characters.
+
+Default character sets:
+
+- Letters: `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
+- Numbers: `0123456789`
+- Special characters: `!@#$%^&\*()-\_+=~[]{}|\:;"'<>,.?\`
+
+If no character types are selected, the script will use the combination of all default character sets.
+
+## Examples
+
+Crack a password-protected file `archive.zip` with a minimum password length of 3 characters, maximum password length of 5 characters, verbose output, and the custom character set is `abcdef12345`:
+
+```
+python main.py --min-length 3 --max-length 5 --verbose archive.zip
+```
+
+![Example](./assets/example.gif)
