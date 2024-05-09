@@ -1,0 +1,23 @@
+__all__: Final[tuple[str]] = ("Edge",)
+
+from typing import Final
+
+from nrw.datastructures._vertex import Vertex
+
+class Edge:
+    __slots__: Final[tuple[str, str, str]] = ("_vertices", "_weight", "_mark")
+    __hash__ = None  # type: ignore[assignment]
+
+    def __init__(self, vertex: Vertex, another_vertex: Vertex, weight: int) -> None: ...
+    @property
+    def vertices(self) -> tuple[Vertex, Vertex]: ...
+    @property
+    def weight(self) -> int: ...
+    @weight.setter
+    def weight(self, new_weight: int) -> None: ...
+    @property
+    def mark(self) -> bool: ...
+    @mark.setter
+    def mark(self, new_mark: bool) -> None: ...
+    @property
+    def is_marked(self) -> bool: ...
