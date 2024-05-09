@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+picdiffbox/__init__.py
+picdiffbox/picdiffbox.py
+picdiffbox.egg-info/PKG-INFO
+picdiffbox.egg-info/SOURCES.txt
+picdiffbox.egg-info/dependency_links.txt
+picdiffbox.egg-info/requires.txt
+picdiffbox.egg-info/top_level.txt
+tests/test_compare.py
