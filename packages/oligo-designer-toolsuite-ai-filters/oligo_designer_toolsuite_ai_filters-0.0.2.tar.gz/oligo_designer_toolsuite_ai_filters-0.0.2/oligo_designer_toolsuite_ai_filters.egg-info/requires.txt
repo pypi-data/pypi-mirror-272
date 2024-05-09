@@ -1,0 +1,3 @@
+torch
+oligo-designer-toolsuite
+seaborn
