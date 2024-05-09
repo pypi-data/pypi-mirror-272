@@ -1,0 +1,3 @@
+[hklpy2.solver]
+hkl_soleil = hklpy2.backends.hkl_soleil:HklSolver
+no_op = hklpy2.backends.no_op:NoOpSolver
