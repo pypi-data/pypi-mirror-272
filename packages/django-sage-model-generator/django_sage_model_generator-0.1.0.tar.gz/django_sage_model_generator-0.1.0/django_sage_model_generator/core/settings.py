@@ -1,0 +1,2 @@
+TEMPLATE_MODEL_PREFIX = "model_"
+TEMPLATE_ENUM_PREFIX = "enum_"

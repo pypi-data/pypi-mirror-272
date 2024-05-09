@@ -1,0 +1,9 @@
+from django.db import models
+from django.utils.translation import gettext as _
+
+{% for enum_name, enum_values in enums.items() %}
+class {{standard(enum_name) }}(models.TextChoices):
+{% for value in enum_values %}
+    {{ value|replace(' ', '_')|upper }} = ('{{ value.lower() }}', _('{{ value }}'))
+{% endfor %}
+{% endfor %}
