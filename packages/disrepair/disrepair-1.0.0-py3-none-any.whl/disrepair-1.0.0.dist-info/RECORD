@@ -1,0 +1,12 @@
+LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+disrepair/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+disrepair/__main__.py,sha256=4F4kHeLi9ckUCrdK4-uqTVDhDinewJh4ZOXbvSacfJM,59
+disrepair/check.py,sha256=c9WzNlnqYj3x7OkIkLhGJzqERLWse9KH0guwqG_nkPI,12814
+disrepair/cmd.py,sha256=bSKoFQ1cfV-kqmazR9Vj-4V-Wt2L6c-68TD4lPbPD3A,2081
+disrepair/options.py,sha256=nGDYcVrD-t12wQZNyNZTBx-4Hv9bNAQPLWvnlBl7Vpk,369
+disrepair/reqfile.py,sha256=l2nPfWPlJROE8Z64IQf7Tezfd6YrY8qWDLYdkxzqYU8,3902
+disrepair-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+disrepair-1.0.0.dist-info/METADATA,sha256=ngcn1Adv5U3LAzuzS-zaR1aofJ3vXViHMzSi48R0svE,1888
+disrepair-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+disrepair-1.0.0.dist-info/entry_points.txt,sha256=rCbaLJ7tzitOfsHH6RxQxJFysO_qRNStTn4xuB776nM,47
+disrepair-1.0.0.dist-info/RECORD,,
