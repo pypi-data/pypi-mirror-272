@@ -1,0 +1,3 @@
+[console_scripts]
+csdb=csdb.console:csdb
+
