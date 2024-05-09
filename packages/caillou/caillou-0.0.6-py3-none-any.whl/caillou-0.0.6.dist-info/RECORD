@@ -1,0 +1,13 @@
+caillou/__init__.py,sha256=EWsuDmesFyo_H3cq15h7fFeJDcln9d09M5XAmH5Yb1Q,2071
+caillou/__main__.py,sha256=EHovA5Z4pP3JIGQLwGXor7MFr2Yi5Zj98_sKZg69ixI,256
+caillou/apps/__init__.py,sha256=XQKUn3kMmOJWNYWkKe-z_NehiXNKiAIWoKz11Ml-MUA,25
+caillou/apps/translator/__main__.py,sha256=v5tMHct08zZiGGpIcoLe5mD1IeTIt98_Lv9TATxeguE,3544
+caillou/apps/translator/languages.json,sha256=urEt0uj-zF70kedcRTANWD-2KQ_FOvB5euGj_6LlStk,15743
+caillou/apps/translator/styles.tcss,sha256=md09QGWOk3GBw44_hKCRTt2B9bTU7crpNC8zF6vMAiI,292
+caillou/config.py,sha256=uhd3wJWtdkCSvsXDtA0dVn-_w8pikcOPUOSMNCsE_wU,1957
+caillou/translate.py,sha256=rLn6y5lFHECd-TB0LQ5giOC-PifZsU4VOEK7-Z5yHAA,1689
+caillou-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+caillou-0.0.6.dist-info/METADATA,sha256=uI2ILk-FrTefM_t7ZM4G4xJLg_HzqrqB7YyPwiOhoaQ,1685
+caillou-0.0.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+caillou-0.0.6.dist-info/entry_points.txt,sha256=wM8bpx5q9aVcvwpMOx0WN7muwT3f8UfrS9-XnN1VgL0,49
+caillou-0.0.6.dist-info/RECORD,,
