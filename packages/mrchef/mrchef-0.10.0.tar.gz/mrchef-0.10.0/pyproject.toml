@@ -1,0 +1,100 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mrchef"
+version = "0.10.0"
+description = "Metarepo Chef"
+authors = [
+  { name = "Moduon", email = "info@moduon.team" },
+  { name = "Jairo Llopis", email = "jairo@moduon.team" },
+]
+maintainers = [{ name = "Moduon", email = "info@moduon.team" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">= 3.10"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Version Control :: Git",
+]
+dependencies = [
+  "coloredlogs >= 15.0.1",
+  "decorator >= 5.1.1",
+  "git-autoshare >= 1.0.0-beta.6",
+  "git-find-repos >= 2.1.0",
+  "mergedeep >= 1.3.4",
+  "plumbum >= 1.7.2",
+  "requests >= 2.27.1",
+  "rtoml >= 0.9",
+  "tomlkit >= 0.12.1",
+  "xdg >= 5.1.1",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/moduon/mrchef"
+Documentation = "https://gitlab.com/moduon/mrchef/-/blob/main/README.md"
+Repository = "https://gitlab.com/moduon/mrchef"
+Changelog = "https://gitlab.com/moduon/mrchef/-/blob/main/CHANGELOG.md"
+
+[project.scripts]
+mrchef = "mrchef.cli:MrChef.run"
+
+[project.optional-dependencies]
+dev = ["pytest >= 7.2.1", "pytest-xdist >= 3.2.1"]
+
+[tool.setuptools.packages.find]
+include = ["mrchef"]
+
+[tool.pytest.ini_options]
+addopts = "-n auto -ra"
+testpaths = ["tests"]
+markers = ["impure: tests that depend on network access or external sources"]
+
+[tool.commitizen]
+annotated_tag = true
+changelog_incremental = true
+major_version_zero = true
+tag_format = "v$version"
+update_changelog_on_bump = true
+version = "0.10.0"
+version_files = ["mrchef/__init__.py", "pyproject.toml"]
+
+[tool.ruff]
+extend-include = ['*.ipynb']
+
+[tool.ruff.lint]
+extend-ignore = ['B028', 'B904', 'D105', 'D107', 'E501']
+extend-select = [
+  'ARG',
+  'B',
+  'C90',
+  'D',
+  'E',
+  'F',
+  'FA',
+  'I',
+  'PERF',
+  'PGH',
+  'UP',
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+
+[tool.ruff.lint.per-file-ignores]
+'__init__.py' = ['F401']
+'tests/**' = ['D']
+
+'cli.py' = [
+  # plumbum adds semicolon at the end of command help when reusing its docstring
+  'D415',
+  # CLI methods are public but their docstring is not necessary
+  'D102',
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = 'google'
