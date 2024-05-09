@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.cfg
+setup.py
+techspark/__init__.py
+techspark/techspark.py
+techspark.egg-info/PKG-INFO
+techspark.egg-info/SOURCES.txt
+techspark.egg-info/dependency_links.txt
+techspark.egg-info/top_level.txt
