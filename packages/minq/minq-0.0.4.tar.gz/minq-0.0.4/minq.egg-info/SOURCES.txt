@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+minq/__init__.py
+minq/gates.py
+minq/ops.py
+minq/utils.py
+minq.egg-info/PKG-INFO
+minq.egg-info/SOURCES.txt
+minq.egg-info/dependency_links.txt
+minq.egg-info/requires.txt
+minq.egg-info/top_level.txt
