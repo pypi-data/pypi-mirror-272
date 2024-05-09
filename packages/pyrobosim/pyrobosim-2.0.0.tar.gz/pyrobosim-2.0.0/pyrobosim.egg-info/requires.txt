@@ -1,0 +1,11 @@
+adjustText
+astar
+matplotlib
+numpy
+pycollada
+PySide6
+PyYAML
+shapely>=2.0.1
+scipy
+transforms3d
+trimesh
