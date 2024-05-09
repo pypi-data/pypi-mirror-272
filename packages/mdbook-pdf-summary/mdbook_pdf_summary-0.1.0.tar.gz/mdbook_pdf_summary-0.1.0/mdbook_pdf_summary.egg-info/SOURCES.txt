@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+mdbook_pdf_summary/__init__.py
+mdbook_pdf_summary/check_title.py
+mdbook_pdf_summary/mdbook_pdf_summary.py
+mdbook_pdf_summary/parse_section.py
+mdbook_pdf_summary.egg-info/PKG-INFO
+mdbook_pdf_summary.egg-info/SOURCES.txt
+mdbook_pdf_summary.egg-info/dependency_links.txt
+mdbook_pdf_summary.egg-info/entry_points.txt
+mdbook_pdf_summary.egg-info/requires.txt
+mdbook_pdf_summary.egg-info/top_level.txt
+test/test_check_title.py
+test/test_parse_section.py
