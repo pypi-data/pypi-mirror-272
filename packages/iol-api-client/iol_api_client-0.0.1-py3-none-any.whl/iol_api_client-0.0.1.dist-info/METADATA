@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: iol-api-client
+Version: 0.0.1
+Summary: Consumo de datos de la API de Invertir Online
+Author-email: Emmanuel Paiva <hello@paivae.com>
+Project-URL: Homepage, https://github.com/paivae/IOL-client-python
+Project-URL: Issues, https://github.com/paivae/IOL-client-python/issues
+Keywords: Argentina,api,client,data,Education,Financial and Insurance Industry
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# IOL-client-python
