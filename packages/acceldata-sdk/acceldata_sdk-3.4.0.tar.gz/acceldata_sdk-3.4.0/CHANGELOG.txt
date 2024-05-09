@@ -1,0 +1,8 @@
+Version Log
+==========
+
+3.4.0 (08/05/2024)
+-------------------
+- Incorporated fix for control plane version compatibility check based apis to handle patch version
+- Disable version compatibility check by default
+
