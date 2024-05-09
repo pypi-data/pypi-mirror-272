@@ -1,0 +1,87 @@
+Metadata-Version: 2.3
+Name: fids
+Version: 0.1.0
+Summary: fake bids dataset generator
+Author: Remi Gau
+Maintainer-email: Remi Gau <remi.gau@gmail.com>
+License: GNU GPL 3
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.8
+Requires-Dist: nibabel
+Requires-Dist: numpy
+Requires-Dist: pybids
+Provides-Extra: dev
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: furo; extra == 'dev'
+Requires-Dist: myst-parser; extra == 'dev'
+Requires-Dist: numpydoc; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: ruamel-yaml; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinx-copybutton; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: furo; extra == 'doc'
+Requires-Dist: myst-parser; extra == 'doc'
+Requires-Dist: numpydoc; extra == 'doc'
+Requires-Dist: ruamel-yaml; extra == 'doc'
+Requires-Dist: sphinx; extra == 'doc'
+Requires-Dist: sphinx-copybutton; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Description-Content-Type: text/markdown
+
+# FIDS
+
+> Is to the Brain imaging data structure (BIDS) what the facon is to bacon.
+
+
+## Install
+
+```
+pip install .
+```
+
+## Usage
+
+```python
+from pathfile import Path
+from fids.fids import create_fake_bids_dataset
+
+subjects = ["foo", 2, "01"]
+sessions = [1, "mri"]
+datatypes = ["anat", "func"]
+
+create_fake_bids_dataset(
+    output_dir=Path.cwd() / "sourcedata" / "fids",
+    dataset_type="raw",
+    subjects=subjects,
+    sessions=sessions,
+    datatypes=datatypes,
+    tasks=["rest"],
+)
+```
+
+## Similar projects
+
+- [f-ake-mriprep](https://github.com/djarecka/fmriprep-fake)
+- [nilearn's data_gen utils](https://github.com/nilearn/nilearn/blob/91218eb8548574621fe5a1eca6d8a889b12a826f/nilearn/_utils/data_gen.py#L858)
