@@ -1,0 +1,13 @@
+README.md
+setup.py
+bradescoPixCTS/__init__.py
+bradescoPixCTS/accessToken.py
+bradescoPixCTS/bradescoPixCTS.py
+bradescoPixCTS/environment.py
+bradescoPixCTS/payload.py
+bradescoPixCTS/requestApi.py
+bradescoPixCTS/statusCode.py
+bradescoPixCTS.egg-info/PKG-INFO
+bradescoPixCTS.egg-info/SOURCES.txt
+bradescoPixCTS.egg-info/dependency_links.txt
+bradescoPixCTS.egg-info/top_level.txt
