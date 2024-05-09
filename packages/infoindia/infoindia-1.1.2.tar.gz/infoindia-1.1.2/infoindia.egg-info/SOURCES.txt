@@ -1,0 +1,9 @@
+README.md
+setup.py
+infoindia/__init__.py
+infoindia/infoindia.py
+infoindia.egg-info/PKG-INFO
+infoindia.egg-info/SOURCES.txt
+infoindia.egg-info/dependency_links.txt
+infoindia.egg-info/requires.txt
+infoindia.egg-info/top_level.txt
