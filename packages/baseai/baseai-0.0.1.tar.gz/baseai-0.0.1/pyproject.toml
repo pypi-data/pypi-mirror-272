@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "baseai"
+version = "0.0.1"
+description = "Tame the LLMs interface"
+authors = ["Ahmad Awais <me@AhmadAwais.com>"]
+readme = "README.md"
+license = "Proprietary"
+homepage = "https://baseai.dev/"
+keywords = ["llm", "baseai"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
