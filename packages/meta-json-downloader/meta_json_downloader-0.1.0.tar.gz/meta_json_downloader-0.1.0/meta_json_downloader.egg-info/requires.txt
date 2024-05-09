@@ -1,0 +1,3 @@
+PyYAML
+python-dotenv
+ceotr-git-manager>=1.2.1

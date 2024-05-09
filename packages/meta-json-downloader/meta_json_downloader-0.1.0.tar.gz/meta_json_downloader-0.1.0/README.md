@@ -1,0 +1,61 @@
+# Meta Json Downloader
+
+## Introduction
+
+The `meta_json_downloader` is a Python library designed to simplify the downloading of files from
+the [meta_json_files](https://gitlab.oceantrack.org/ceotr-public/meta_json_files)
+GitLab repository. It can also be used to fetch other type of file stored in a GitLab repository. In general, a user
+initializes the downloader with user credentials from environment variables, sets a download output directory, and
+downloads a list of specified files by the relative file path from the target repository. Each file's download status is
+logged by the progress callback.
+
+## Prerequisite
+
+First, to use the library, you need to have a Gitlab access token. Go to
+the [Personal Access Tokens](https://gitlab.oceantrack.org/-/user_settings/personal_access_tokens) page to activate the
+token. Then, create a `.env` file to fill in your `USERNAME` and `ACCESS_TOKEN` information for retrieving files using
+the Gitlab APIs.
+
+## Usage
+
+See [`downloader_example.py`](./downloader_example.py) for more details.
+
+## Testing
+
+The `MetaFileDownloader` comes with a comprehensive test suite. To run the unit tests, navigate to the project directory
+and run:
+
+```shell
+pytest
+```
+
+To see the coverage report, navigate to the project directory and run:
+
+```shell
+ coverage run -m pytest
+ coverage report
+```
+
+## Main files
+
+- `MetaFileDownloader.py`: This is the core module that provides functionality to download files from a GitLab
+  repository. It handles the setup of authentication, repository access, and file retrieval processes. The
+  class `MetaFileDownloader` allows users to specify the repository path, branch, and file location within the
+  repository.
+
+- `test_MetaFileDownloader.py`: Contains unit tests for the `MetaFileDownloader` module. It currently covers 100%
+  functionalities according to the `coverage report`.
+
+- `downloader_example.py`: An example script that demonstrates how to use the `MetaFileDownloader`.
+
+- `.gitlab-ci.yml`: The GitLab CI configuration file which defines the pipeline for continuous integration. It includes
+  stages for building the project, running tests, and deploying the code, ensuring that every update to the master
+  branch is automatically tested and the package be uploaded to PyPI.
+
+- `requirements.txt`: Lists all the Python packages that need to be installed to run the project successfully. This file
+  is used by pip to install all the dependencies.
+
+- `environment.yml`: Lists all the Python packages for conda use.
+
+- `setup.py`: This script is used for package distribution. It defines the package metadata (like name, version, and
+  dependencies) and allows the module to be installed via `pip` or `setup.py install` command. 
