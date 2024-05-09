@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: django-rest-framework-proxy-iara
+Version: 1.6.0
+Summary: Django Rest Framework Proxy allows easy proxying of incoming REST requests
+Home-page: http://github.com/eofs/django-rest-framework-proxy/
+Author: Tomi Pajunen
+Author-email: tomi@madlab.fi
+License: BSD
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Dist: django>=1.8
+Requires-Dist: djangorestframework>=3.1.0
+Requires-Dist: requests>=1.1.0
