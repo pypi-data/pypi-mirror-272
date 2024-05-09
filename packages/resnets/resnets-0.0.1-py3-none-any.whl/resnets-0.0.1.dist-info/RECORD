@@ -1,0 +1,8 @@
+resnets/__init__.py,sha256=HdSF4yuoNwwwVxOC5W1TiCKRKUSXNwXkxGDUGx9luEo,205
+resnets/jax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resnets/pytorch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resnets/tensorflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resnets-0.0.1.dist-info/METADATA,sha256=5IqWtyU4XdXGaAkCOHR2gtUq3R08Swaxx0RLMDhYs_k,4088
+resnets-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+resnets-0.0.1.dist-info/licenses/LICENSE,sha256=Gr5dhPy5OpSGvV5fqmcxjKM3-3QNcKaxjdrXD1hqO8s,1096
+resnets-0.0.1.dist-info/RECORD,,
