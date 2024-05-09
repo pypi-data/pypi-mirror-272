@@ -1,0 +1,33 @@
+from movva_tools.models.user_models import RapidProUser
+from movva_tools.exceptions import ObjectDoesNotExistException
+from movva_tools.services.base_service import BaseService
+
+
+class UserService(BaseService):
+
+    def __init__(
+        self,
+        _user=None, _host=None, _port=None, _db_name=None, _password=None,
+        db_connection=None
+    ) -> None:
+
+        super().__init__(
+            _user=_user, _password=_password,
+            _host=_host, _port=_port,
+            _db_name=_db_name,
+            db_connection=db_connection
+        )
+
+        # model table entities
+        self.user = RapidProUser
+
+    def get_default_user(self, default_user_id):
+
+        default_user = self.db_connection.session.query(self.user).filter_by(
+            id=default_user_id
+        ).first()
+
+        if default_user:
+            return default_user
+        else:
+            raise ObjectDoesNotExistException(dababase_object=self.user)
