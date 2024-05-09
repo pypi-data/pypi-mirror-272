@@ -1,0 +1,13 @@
+pypoman/__init__.py,sha256=GyoYOAZOLIpgo2Y-YJaSgg0CRa4oGOcIpmQwiUwV2ys,1085
+pypoman/bretl.py,sha256=N5Ka3esvgOeLjKrbsB7ua_DiEw0p9icPjr2gVosf83o,8832
+pypoman/duality.py,sha256=bQ_21OkV_uq-Sxym_Nzfy57lViXul-of-D3cJtpA5-w,4155
+pypoman/intersection.py,sha256=KlI5-mJ95e64QlZIjkQaABFCOlty-UiT8cni_xKucz0,4671
+pypoman/lp.py,sha256=ey3LAdJwEAilAS5W-1_a8SFX8U_yIQ8wjszz1ld_Sqw,2562
+pypoman/misc.py,sha256=j76ibWuVgmdh58sKVVpPKYJObmoGi2ISLDumWPPLMSo,525
+pypoman/polygon.py,sha256=XxjhVh6kMDDUzGe6A6ZFLbJqZhzQdYoxo5DVwTN19OE,4961
+pypoman/polyhedron.py,sha256=IXFy5GwhwqwIOuBxEaLusUIIQLfdt1okQMH1LRmZqdc,1545
+pypoman/projection.py,sha256=9N5BfbkcXCbHk3SOhmjKRzfhDEpJCMDziVD6OR6gJS0,8212
+pypoman-1.1.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+pypoman-1.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+pypoman-1.1.0.dist-info/METADATA,sha256=EEj4K-n6Gu4mdonFtbWLEF4BqCcjPSFUjmR-nNf4cZA,6314
+pypoman-1.1.0.dist-info/RECORD,,
