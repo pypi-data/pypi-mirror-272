@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: yaowei_pylib
+Version: 0.1.3
+Summary: A simple description
+Home-page: https://github.com/yaoweiipsy/pylib
+Author: Yaowei
+Author-email: yaoweiu@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: boto3
+
+# PyLib
+
+A simple library to calculate averages of lists.
+
+## Installation
+
+Run the following command to install:
+
+```bash
+pip install pylib
