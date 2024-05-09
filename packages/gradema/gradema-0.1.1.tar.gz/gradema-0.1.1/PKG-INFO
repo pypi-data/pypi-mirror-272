@@ -1,0 +1,151 @@
+Metadata-Version: 2.1
+Name: gradema
+Version: 0.1.1
+Summary: The utility you need to easily configure auto-grading
+Home-page: https://gradema.readthedocs.io
+License: MIT
+Author: Lavender Shannon
+Author-email: retrodaredevil@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: editorconfig (>=0.12.4,<0.13.0)
+Requires-Dist: python-magic (>=0.4.27,<0.5.0)
+Requires-Dist: rich (==13.7.1)
+Project-URL: Repository, https://gitlab.com/classroomcode/gradema/gradema
+Description-Content-Type: text/markdown
+
+# Gradema
+
+The utility you need to easily configure auto-grading.
+
+https://pypi.org/project/gradema/
+
+https://gradema.readthedocs.io
+
+Python 3.10 required.
+
+## Intro
+
+Gradema is a grading framework written in Python that enables you to write autograders for assignments in Python, Rust,
+or add your own support for a language!
+You specify the sections of your assignment in a declarative way, and Gradema will create an interactive and easy to understand environment for running your tests!
+
+## Features
+
+* Weight different sections of the assignment differently.
+  * Conveniently weight each section as you see fit, explicitly assign points, make sections evenly weighted, or even define ungraded sections!
+* Windows support
+  * As long as you include `setup_venv.bat` and `grade.bat` files, students should have an easy time working on assignments on Windows machines. Make sure to look at [Windows Considerations](https://gradema.readthedocs.io/en/latest/develop/assignment/windows.html) when making assignments.
+* Easy to understand
+  * The structure of Gradema is easy to understand and is easily extendable! Languages are not tightly coupled to the Gradema framework and adding a new language is easy!
+* [Published on PyPI](https://pypi.org/project/gradema/)!
+  * Because Gradema is published on PyPI, you can pin the Gradema version you want to use and the number of files you need in a student assignment repository is minimal.
+* Indented output
+  * The output should be easier to follow compared to grade.sh
+* `--grade` and `--debug` flags so you aren't prompted everytime you run the autograder
+
+## Example Assignments
+
+## Example Main
+
+This is an example of a `autograder/__main__.py` for a Python assignment.
+
+```python
+# autograder/__main__.py
+import sys
+from pathlib import Path
+from gradema.test import *
+from gradema.section import *
+from gradema.grader.console import run_grader
+from gradema.test.argument import OUTPUT_FILE
+
+def main(args: list[str]) -> int:
+    test_directory = Path("autograder/test/")
+    section = Section.pointed(
+        100,
+        "Binary Convert Programming Assignment",
+        [
+            Section.evenly_weighted(
+                "Unit Tests",
+                [
+                    Section.evenly_weighted("Convert 1 Pytest", create_python_pytest("autograder/test/unit/test_convert_1.py::test_convert_1")),
+                    Section.evenly_weighted("Convert 5 Pytest", create_python_pytest("autograder/test/unit/test_convert_5.py::test_convert_5")),
+                ],
+            ),
+            Section.evenly_weighted(
+                "Standard Input/Output Tests",
+                [
+                    Section.evenly_weighted(
+                        "Convert 7 Stdio",
+                        create_python_traditional_stdio_test(
+                            "submission",
+                            "convert_7",
+                            test_directory / "stdio/inputs/decimal_7.txt",
+                            test_directory / "stdio/goals/binary_7.txt",
+                        ),
+                    ),
+                ],
+            ),
+            Section.evenly_weighted(
+                "Args Tests",
+                [
+                    Section.evenly_weighted(
+                        "Convert 19 Arg",
+                        create_python_traditional_arg_test(
+                            "submission",
+                            "convert_19_arg",
+                            [str(test_directory / "stdio/inputs/decimal_19.txt"), OUTPUT_FILE],
+                            test_directory / "stdio/goals/binary_19.txt",
+                        ),
+                    ),
+                ],
+            ),
+            Section.pointed(
+                15,
+                "Other Checks",
+                [
+                    Section.evenly_weighted("Formatting", create_python_format_check()),
+                    Section.evenly_weighted("Type Checking", create_python_type_check()),
+                ],
+            ),
+        ],
+    )
+    return run_grader(args, section)
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))
+```
+
+
+## Goals of Gradema
+
+* This should be a thin wrapper around shell commands which actually run tests. This allows people to debug the smaller components themselves. The autograder should be a tool to help people understand these components, rather than a black box.
+  * We need to be able to run `pudb -m ...` and have it launch right into the user's code
+
+
+## TODO
+
+* Mark specific sections as required
+  * Would allow us to stop execution if the "compile" step files
+  * Would allow us to run individual tests (the compile step needs to be run no matter what section you want to run)
+* Use [py2cfg](https://pypi.org/project/py2cfg/) to produce control flow graphs
+* Text diff (currently you can only view the diff in HTML)
+* Do C++ example - lowest priority
+* Fuzzy diff support
+* Add timeout parameter to the `subprocess.run` calls
+  * This is a much better option than prefixing all commands with `timeout 15`
+* Implement grader hashing functionality like grade.sh has
+
+
+## Future Ideas
+
+Gradema is developed in a way to make it easy to change things and swap out implementations.
+The TestReporter and GradeReporter classes can have many different implementations.
+The current implementation prints text to the console,
+but a future implementation could write text to a ReStructuredText file, which could then be converted to HTML.
+How cool would it be to view the output neatly formatted in your web browser?
+
