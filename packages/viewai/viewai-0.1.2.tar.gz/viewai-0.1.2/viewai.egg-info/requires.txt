@@ -1,0 +1,17 @@
+pandas
+scikit-learn
+plotly
+numpy
+matplotlib
+fuzzywuzzy
+textblob
+missingpy
+interpret
+interpret-core
+tabulate
+MarkupSafe
+Jinja2
+itsdangerous
+orjson
+requests
+imbalanced-learn
