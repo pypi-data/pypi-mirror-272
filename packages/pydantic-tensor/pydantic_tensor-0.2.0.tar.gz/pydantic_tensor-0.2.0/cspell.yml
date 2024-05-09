@@ -1,0 +1,18 @@
+language: en
+words:
+  - pydantic
+  - dtype
+  - dtypes
+  - frombuffer
+  - postprocess
+  - ndarray
+  - itemsize
+  - dedupe
+  - sctype
+  - AACA
+  - AAIA
+  - AACA
+dictionaries:
+  - python
+  - cpp
+useGitignore: true
