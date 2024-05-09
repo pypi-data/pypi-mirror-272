@@ -1,0 +1,4 @@
+osgeo
+shapely
+abstract_pandas
+osgeo
