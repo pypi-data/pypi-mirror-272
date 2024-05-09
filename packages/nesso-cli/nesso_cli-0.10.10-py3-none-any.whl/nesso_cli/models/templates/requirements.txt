@@ -1,0 +1,1 @@
+nesso_cli[{{ db_type }}] @ git+https://${DBT_ENV_SECRET_GITHUB_TOKEN}@github.com/dyvenia/nesso-cli.git@{{ nesso_cli_version }}
