@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: lib_version_remla
+Version: 0.0.7
+Summary: A small package which returns its own version.
+Author: Jan
+Author-email: j2000.vdm@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: twine (>=5.0.0)
+Description-Content-Type: text/markdown
+
+# lib-version
+This is a package that returns the version of itself. 
+
+### Building the package locally
+1. ```poetry install```
+2. ```poetry shell```
+3. ```poetry build```
+<!-- 3. ```python3 -m build```
+To upload to PyPi you need to have access to the API key, which is stored in the team channel -->
+1. ```python3 -m twine upload --repository pypi dist/*``` 
+
+### Updating the package via workflow
+After pushing an update you can tag it with the following command to trigger the workflow.
+1. ```git tag v0.0.n```
+2. ```git push origin --tags ```
+
+### Importing the package
+1. Install with: ```pip install lib-version-remla```
