@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+2.6.2
+-----
+
+* change back to old ways forward
+* fix forward\_list
+* add test for battery()
+* feat(shell): Add battery function (#113)
+* update forward to drain the extra output
+* add host:tport:serial test case
+* fix adb reverse
+* support multi display, disable framebuffer function
+* fix framebuffer raize ValueError when read size not match
+* little update
