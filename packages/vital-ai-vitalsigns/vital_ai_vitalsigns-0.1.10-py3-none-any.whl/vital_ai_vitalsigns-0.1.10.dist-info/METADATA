@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: vital-ai-vitalsigns
+Version: 0.1.10
+Summary: VitalSigns knowledge graph bindings
+Home-page: https://github.com/vital-ai/vital-vitalsigns-python
+Author: Marc Hadfield
+Author-email: marc@vital.ai
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sentence-transformers ==2.7.0
+Requires-Dist: docarray ==0.40.0
+Requires-Dist: rdflib ==7.0.0
+Requires-Dist: jina >=3.20.0
+Requires-Dist: PyYAML
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: hnswlib
+
+# vital-vitalsigns-python
