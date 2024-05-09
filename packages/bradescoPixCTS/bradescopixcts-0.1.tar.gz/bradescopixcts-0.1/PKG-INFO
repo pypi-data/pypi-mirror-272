@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: bradescoPixCTS
+Version: 0.1
+Summary: SDK Bradesco PIX V8
+Home-page: https://pypi.org/user/monetizze/
+Author: Monetizze
+Author-email: payments@monetizze.com.br
+License: MIT License
+Keywords: bradesco
+Description-Content-Type: text/markdown
+
+# API Bradesco PIX Recebimento V8 - Python
+
+## Recursos
+
+* [x] Criação de token.
+* [x] Gerar cobrança.
+* [x] Consultar cobrança.
+* [x] Devolução.
+* [x] Consultar devolução.
+* [x] Cadastrar Webhook.
+* [x] Consultar Webhook.
+* [x] Excluir Webhook.
+
+## Instalação
+```bash
+pip install bradescoPixCTS
+```
+
+## Exemplos
+
+```python
+from bradescoPixCTS import *
+
+# Credenciais
+client_id = "client_id"
+client_secret = "client_secret"
+private_key_path = "./private_key.pem"
+public_key_path = "./public_key.pem"
+chave = "client_pix_key"
+environment = Environment(sandbox=True)
+
+# Criar token (validade de 60 minutos)
+access_token = AccessToken(client_id, client_secret, public_key_path, private_key_path, environment)
+
+# Criar cobrança: Se o txid não for informado a API cria um txid único
+bradesco_pix = BradescoPixCTS(access_token)
+bradesco_pix.charge(payload, txid)
+
+# Consultar PIX: Pode buscar pelo txid ou e2eid
+bradesco_pix = BradescoPixCTS(access_token)
+bradesco_pix.getCharge(txid)
+
+# Solicitar devolução: O id é a referencia da devolução é deve ser único
+bradesco_pix = BradescoPixCTS(access_token)
+bradesco_pix.refund(payload, e2eid, id)
+
+# Consultar devolução
+bradesco_pix = BradescoPixCTS(access_token)
+bradesco_pix.getRefund(e2eid, id)
+
+# Cadastrar Webhook
+bradesco_pix = BradescoPixCTS(access_token)
+bradesco_pix.webhook(payload, chave)
+
+# Consultar Webhook
+bradesco_pix = BradescoPixCTS(access_token)
+bradesco_pix.getWebhook(chave)
+
+# Excluir Webhook
+bradesco_pix = BradescoPixCTS(access_token)
+bradesco_pix.deleteWebhook(chave)
+
+```
+
+## Manual
+
+[Bradesco PIX Recebimento V8](./API_Pix_Recebimento _V8.pdf)
