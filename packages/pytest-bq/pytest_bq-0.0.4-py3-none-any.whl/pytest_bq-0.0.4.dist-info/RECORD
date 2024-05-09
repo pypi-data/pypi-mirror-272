@@ -1,0 +1,15 @@
+pytest_bq/__init__.py,sha256=38LcQB0sjtuPDUsB660dCtkwxmS0WKo9euCS-kJh2yE,47
+pytest_bq/config.py,sha256=v662JA_Q-Xq6RwfZjc2u7S6wVq_9455m5L1mmDOdorE,1103
+pytest_bq/plugin.py,sha256=rv7VX5HDI6F-hRmOVD1G9wgPfCmKHNiPgV-9oIUQ5jA,1718
+pytest_bq/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_bq/executor/__init__.py,sha256=dS7HUEU_QzSTRX2Bk09fk7jEIh5K-MzuZXsyNlrQ2Bg,65
+pytest_bq/executor/process.py,sha256=aNEHRdF2_8llEh0z-G3w9TpCezZwB76l_3ecyDA8FGQ,2466
+pytest_bq/factories/__init__.py,sha256=ldzKaRg73Ynk_0AscCewvOdTtlqJdTVVxUU4SgqDrvM,27
+pytest_bq/factories/client.py,sha256=BaD0ZmeZirl5_BfKtWuXja4g9-lBw0HcTFsLI-vff_c,1451
+pytest_bq/factories/proc.py,sha256=0SGWoIluUqhCADtimSAL9cl9l-szXi3r6ELgFNENMJQ,2471
+pytest_bq-0.0.4.dist-info/LICENSE,sha256=pHxPCVALhdQfR9TO0_VjIC8W_pYtyG_kIFDaJDGERMY,1054
+pytest_bq-0.0.4.dist-info/METADATA,sha256=ZkRvPNM3tvPoPjSbCsSx8wAW9nyVTvpjGaCTsI3K2Nw,4735
+pytest_bq-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytest_bq-0.0.4.dist-info/entry_points.txt,sha256=ETW1CXQ7hAXFGwXynwgh0RVKByGb_unZ43vl3HiSTj8,40
+pytest_bq-0.0.4.dist-info/top_level.txt,sha256=SP8Z-1SbyWIu9a7F44VhG31-eqxDQLQfPuq2e_w9aw4,10
+pytest_bq-0.0.4.dist-info/RECORD,,
