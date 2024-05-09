@@ -1,0 +1,82 @@
+[build-system]
+requires = ["hatchling","hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qmlib"
+version = "0.0.1"
+authors = [
+  { name="xiatian0716", email="819337877@qq.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitee.com/xiatian0716/Qm-lib"
+"Bug Tracker" = "https://gitee.com/xiatian0716/Qm-lib/issues"
+
+[tool.hatch.build]
+include = ["qrlib/**/*"]
+
+[project.optional-dependencies]
+
+standard = [
+    "fastapi-cli >=0.0.2",
+    # For the test client
+    "httpx >=0.23.0",
+    # For templates
+    "jinja2 >=2.11.2",
+    # For forms and file uploads
+    "python-multipart >=0.0.7",
+    # For UJSONResponse
+    "ujson >=4.0.1,!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0",
+    # For ORJSONResponse
+    "orjson >=3.2.1",
+    # To validate email fields
+    "email_validator >=2.0.0",
+    # Uvicorn with uvloop
+    "uvicorn[standard] >=0.12.0",
+    # TODO: this should be part of some pydantic optional extra dependencies
+    # # Settings management
+    # "pydantic-settings >=2.0.0",
+    # # Extra Pydantic data types
+    # "pydantic-extra-types >=2.0.0",
+]
+
+all = [
+    "fastapi-cli >=0.0.2",
+    # # For the test client
+    "httpx >=0.23.0",
+    # For templates
+    "jinja2 >=2.11.2",
+    # For forms and file uploads
+    "python-multipart >=0.0.7",
+    # For Starlette's SessionMiddleware, not commonly used with FastAPI
+    "itsdangerous >=1.1.0",
+    # For Starlette's schema generation, would not be used with FastAPI
+    "pyyaml >=5.3.1",
+    # For UJSONResponse
+    "ujson >=4.0.1,!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0",
+    # For ORJSONResponse
+    "orjson >=3.2.1",
+    # To validate email fields
+    "email_validator >=2.0.0",
+    # Uvicorn with uvloop
+    "uvicorn[standard] >=0.12.0",
+    # Settings management
+    "pydantic-settings >=2.0.0",
+    # Extra Pydantic data types
+    "pydantic-extra-types >=2.0.0",
+]
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+[project.scripts]
+api = "qrlib.scripts.run_api:main"

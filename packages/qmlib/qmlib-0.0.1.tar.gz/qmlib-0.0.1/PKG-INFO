@@ -1,0 +1,57 @@
+Metadata-Version: 2.3
+Name: qmlib
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://gitee.com/xiatian0716/Qm-lib
+Project-URL: Bug Tracker, https://gitee.com/xiatian0716/Qm-lib/issues
+Author-email: xiatian0716 <819337877@qq.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Provides-Extra: all
+Requires-Dist: email-validator>=2.0.0; extra == 'all'
+Requires-Dist: fastapi-cli>=0.0.2; extra == 'all'
+Requires-Dist: httpx>=0.23.0; extra == 'all'
+Requires-Dist: itsdangerous>=1.1.0; extra == 'all'
+Requires-Dist: jinja2>=2.11.2; extra == 'all'
+Requires-Dist: orjson>=3.2.1; extra == 'all'
+Requires-Dist: pydantic-extra-types>=2.0.0; extra == 'all'
+Requires-Dist: pydantic-settings>=2.0.0; extra == 'all'
+Requires-Dist: python-multipart>=0.0.7; extra == 'all'
+Requires-Dist: pyyaml>=5.3.1; extra == 'all'
+Requires-Dist: ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,>=4.0.1; extra == 'all'
+Requires-Dist: uvicorn[standard]>=0.12.0; extra == 'all'
+Provides-Extra: standard
+Requires-Dist: email-validator>=2.0.0; extra == 'standard'
+Requires-Dist: fastapi-cli>=0.0.2; extra == 'standard'
+Requires-Dist: httpx>=0.23.0; extra == 'standard'
+Requires-Dist: jinja2>=2.11.2; extra == 'standard'
+Requires-Dist: orjson>=3.2.1; extra == 'standard'
+Requires-Dist: python-multipart>=0.0.7; extra == 'standard'
+Requires-Dist: ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,>=4.0.1; extra == 'standard'
+Requires-Dist: uvicorn[standard]>=0.12.0; extra == 'standard'
+Description-Content-Type: text/markdown
+
+# 参考库
+
+## RealmsPlayerlistBot
+[如何使用prisma](https://github.com/AstreaTSS/RealmsPlayerlistBot)
+
+## RuoYi-Vue-FastAPI
+[如何使用fastapi](https://gitee.com/insistence2022/RuoYi-Vue-FastAPI)
+
+## prisma-fastapi
+这个包含了一个最基础的带jwt的框架
+[prisma-fastapi](https://github.com/prisma-korea/prisma-fastapi)
+
+## elytra-ms
+[如何打包](https://github.com/Astrea-Stellarium-Labs/elytra-ms)
+
+https://blog.csdn.net/Trb601012/article/details/135770544
+pip install --upgrade build
+pip install hatchling
+python -m build
+http://xpgh.stoneartifact.cn:4173/guide/15.PyPI%E4%B8%8A%E4%BC%A0wheel.html
+twine upload -r pypi dist/*
