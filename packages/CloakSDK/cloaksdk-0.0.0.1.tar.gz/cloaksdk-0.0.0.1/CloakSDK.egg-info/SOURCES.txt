@@ -1,0 +1,5 @@
+setup.py
+CloakSDK.egg-info/PKG-INFO
+CloakSDK.egg-info/SOURCES.txt
+CloakSDK.egg-info/dependency_links.txt
+CloakSDK.egg-info/top_level.txt
