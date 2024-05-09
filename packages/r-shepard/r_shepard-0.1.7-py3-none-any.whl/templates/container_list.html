@@ -1,0 +1,98 @@
+{% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+      <li {% if message.tags %}class="{{ message.tags|lower }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+<div class="container-list" id="container-list">
+  {% for container in project.containers.all %}
+    <article class="container-card">
+      <div class="grid">
+        <h3 class="container-title">{{ container.container_id }}</h3>
+        {% if container.local_url and container.is_running %}
+          <a class="open-button" href="{{ container.local_url }}" target="_blank">Open</a>
+        {% endif %}
+        {% if container.tailscale_serve_url and container.is_running %}
+          <a class="open-button"
+             href="{{ container.tailscale_serve_url }}"
+             target="_blank">Open</a>
+        {% endif %}
+      </div>
+      <div class="grid">
+        <code>
+          <strong>{{ container.image }}</strong>:{{ container.tag }}
+        </code>
+      </div>
+      <div class="grid">
+        <code class="info-pill"><strong>{{ container.ram }}GB</strong> RAM</code>
+        <code class="info-pill"><strong>{{ container.cpus }}</strong> CPUs</code>
+      </div>
+      <hr>
+      {% if container.is_running %}
+        <button hx-post="{% url 'stop_container' project.pk container.pk %}"
+                hx-trigger="click"
+                hx-target="#container-list"
+                hx-indicator="#loading-stop-{{ container.pk }}"
+                hx-swap="outerHTML"
+                class="action-button secondary"
+                type="submit">
+          <span class="button-content">Stop</span>
+          <span id="loading-stop-{{ container.pk }}"
+                class="htmx-indicator lds-dual-ring"></span>
+        </button>
+      {% else %}
+        <button hx-post="{% url 'start_container' project.pk container.pk %}"
+                hx-trigger="click"
+                hx-target="#container-list"
+                hx-indicator="#loading-start-{{ container.pk }}"
+                hx-swap="outerHTML"
+                class="action-button primary"
+                type="submit">
+          <span class="button-content">Start</span>
+          <span id="loading-start-{{ container.pk }}"
+                class="htmx-indicator lds-dual-ring"></span>
+        </button>
+      {% endif %}
+      {% if not container.tailscale_serve_url and container.is_running %}
+        <button hx-post="{% url 'serve_container' project.pk container.pk %}"
+                hx-trigger="click"
+                hx-target="#container-list"
+                hx-indicator="#loading-serve-{{ container.pk }}"
+                hx-swap="outerHTML"
+                class="action-button primary"
+                type="submit">
+          <span class="button-content">Serve</span>
+          <span id="loading-serve-{{ container.pk }}"
+                class="htmx-indicator lds-dual-ring"></span>
+        </button>
+      {% endif %}
+      {% if container.tailscale_serve_url and container.is_running %}
+        <button hx-post="{% url 'stop_serve_container' project.pk container.pk %}"
+                hx-trigger="click"
+                hx-target="#container-list"
+                hx-indicator="#loading-stop-serve-{{ container.pk }}"
+                hx-swap="outerHTML"
+                class="action-button secondary"
+                type="submit">
+          <span class="button-content">Stop serve</span>
+          <span id="loading-stop-serve-{{ container.pk }}"
+                class="htmx-indicator lds-dual-ring"></span>
+        </button>
+      {% endif %}
+      <button hx-post="{% url 'delete_container' project.pk container.pk %}"
+              hx-trigger="click"
+              hx-target="#container-list"
+              hx-indicator="#loading-delete-{{ container.pk }}"
+              hx-swap="outerHTML"
+              class="action-button delete-button"
+              type="submit">
+        <span class="button-content">Delete</span>
+        <span id="loading-delete-{{ container.pk }}"
+              class="htmx-indicator lds-dual-ring"></span>
+      </button>
+    </article>
+  {% empty %}
+    <p>No containers have been created yet...</p>
+  {% endfor %}
+</div>
