@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+IOL/__init__.py
+iol_api_client.egg-info/PKG-INFO
+iol_api_client.egg-info/SOURCES.txt
+iol_api_client.egg-info/dependency_links.txt
+iol_api_client.egg-info/top_level.txt

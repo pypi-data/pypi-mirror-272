@@ -1,0 +1,26 @@
+[project]
+name = "iol-api-client"
+version = "0.0.1"
+authors = [
+  { name="Emmanuel Paiva", email="hello@paivae.com"},
+]
+description = "Consumo de datos de la API de Invertir Online"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+  "Argentina",
+  "api",
+  "client",
+  "data",
+  "Education",
+  "Financial and Insurance Industry"
+]
+
+[project.urls]
+Homepage = "https://github.com/paivae/IOL-client-python"
+Issues = "https://github.com/paivae/IOL-client-python/issues"
