@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: opencv-cam-idx
+Version: 1.0.1
+Summary: Find opencv camera index in windows using win32 api
+Author-email: Pradish Bijukchhe <pradish@sandbox.com.np>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/sandbox-pokhara/opencv-cam-idx
+Project-URL: Issues, https://github.com/sandbox-pokhara/opencv-cam-idx/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: comtypes
+
+# opencv-cam-idx
+
+Find opencv camera index in windows using win32 api
+
+## Installation
+
+You can install the package via pip:
+
+```
+pip install opencv-cam-idx
+```
+
+## Usage
+
+```python
+from opencv_cam_idx.finder import find_cameras
+
+find_cameras()
+
+# Camera(
+#     idx=0,
+#     friendly_name='USB Video',
+#     device_path='\\\\?\\usb#vid_534d&pid_2109&mi_00#7&11fabc89&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global',
+#     description='',
+# )
+# Camera(
+#     idx=1,
+#     friendly_name='Integrated Webcam',
+#     device_path='\\\\?\\usb#vid_1bcf&pid_28b0&mi_00#6&3443eee2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global',
+#     description='',
+# )
+```
+
+## License
+
+This project is licensed under the terms of the MIT license.
