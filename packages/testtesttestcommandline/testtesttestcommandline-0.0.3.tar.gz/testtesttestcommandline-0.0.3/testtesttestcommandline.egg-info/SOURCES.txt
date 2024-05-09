@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+testtesttestcommandline.egg-info/PKG-INFO
+testtesttestcommandline.egg-info/SOURCES.txt
+testtesttestcommandline.egg-info/dependency_links.txt
+testtesttestcommandline.egg-info/entry_points.txt
+testtesttestcommandline.egg-info/requires.txt
+testtesttestcommandline.egg-info/top_level.txt
