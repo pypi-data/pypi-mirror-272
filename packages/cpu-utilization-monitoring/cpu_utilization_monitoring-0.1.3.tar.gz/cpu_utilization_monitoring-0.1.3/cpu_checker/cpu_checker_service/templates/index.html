@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="{% static "styles.css" %}">
+<html>
+<head>
+  <title>Динамическое обновление таблицы</title>
+</head>
+<body>
+  <h1>Таблица с данными</h1>
+  <table id="data-table">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">id</th>
+        <th onclick="sortTable(1)">Утилизация CPU, %</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div id="aggregate-data">
+    <h2>Минимальное значение: <span id="min-value"></span></h2>
+    <h2>Максимальное значение: <span id="max-value"></span></h2>
+    <h2>Среднее значение: <span id="avg-value"></span></h2>
+  </div>
+  <script src="{% static "script2.js" %}"></script>
+</body>
+</html>
