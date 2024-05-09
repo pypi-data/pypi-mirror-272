@@ -1,0 +1,3 @@
+[console_scripts]
+urdf-mesh-inertia=urdf_mesh_inertia.__main__:run
+
