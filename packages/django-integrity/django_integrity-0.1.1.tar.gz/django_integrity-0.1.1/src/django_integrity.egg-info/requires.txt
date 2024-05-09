@@ -1,0 +1,16 @@
+
+[dev]
+dj-database-url
+django-stubs
+environs
+pytest
+pytest-django
+tox
+mypy
+mypy-json-report
+ruff
+rich
+typer
+
+[dev:python_version < "3.11"]
+tomli>=1.1.0
