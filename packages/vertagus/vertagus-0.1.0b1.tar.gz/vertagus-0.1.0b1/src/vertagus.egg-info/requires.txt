@@ -1,0 +1,12 @@
+click
+GitPython
+tomli
+packaging
+
+[dev]
+pytest
+pytest-cov
+
+[qa]
+pytest
+pytest-cov
