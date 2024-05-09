@@ -1,0 +1,15 @@
+erp_apis/config.py,sha256=tXtGQtsW-Wdbhh2X1AKyGx_X8B_ShMvdVF4rOXf8zDg,403
+erp_apis/erpRequest.py,sha256=RDCcdYiW7doHGZBoIRG97WSXg7suuIKoZSlgy9FMCMQ,3577
+erp_apis/apis/__init__.py,sha256=L6HaO-zN2-mMbaZUFJ8YFFgFScFE4aizJCVPed8CluY,143
+erp_apis/apis/afterSales.py,sha256=biTQql3R1JgOS4fluuOT76F40Fu3KA8KggmLYrE68as,2587
+erp_apis/apis/goods.py,sha256=3HplLv-feqNMiV46ANuzhRfL9RDiOovF8RAAvNydmdI,1538
+erp_apis/apis/inventory.py,sha256=ktCBMrKRdHKSOKZIgCCWan0cTYNKm-ddpFNe1hkxgGk,1013
+erp_apis/apis/order.py,sha256=ybUJ8i1oSsu9TfP4HE99HFk8sbiO8qWy4f8ssdBFzM0,4346
+erp_apis/apis/test.py,sha256=ZrR-jcO6S6xGulPVMoVdAr7RAAyuuCux9UhGto2viZc,2091
+erp_apis/apis/user.py,sha256=vosgBp1QNesLIRMQyafe9y9PDFJyIjpPdmiE1jvVzOA,1139
+erp_apis/utils/__init__.py,sha256=4OS0q-GbgI0b14i4ErUYKUo-t1jzw8wSvtJZu3nXSMM,141
+erp_apis/utils/util.py,sha256=xkmwXqGWbh7Qz_rRtXk5BclnvQz8PgMaS73UpR-Fm4s,2063
+erp_apis-1.0.8.dist-info/METADATA,sha256=7CqHa7TXkoBoLldT-L-MESKiUAJzcD_Vma36fdKt264,1580
+erp_apis-1.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+erp_apis-1.0.8.dist-info/top_level.txt,sha256=vqDQIzqoC9jLUmJwUdHu1qRTGhYD1SxQ5BsetWAnMrs,38
+erp_apis-1.0.8.dist-info/RECORD,,
