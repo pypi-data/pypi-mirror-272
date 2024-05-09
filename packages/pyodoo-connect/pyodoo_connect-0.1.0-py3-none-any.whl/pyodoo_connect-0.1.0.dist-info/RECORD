@@ -1,0 +1,11 @@
+pyodoo_connect/__init__.py,sha256=aNQaDIIvvlqoGREW_gziw0r7RVI-CWxk2u9YeQikwA4,95
+pyodoo_connect/odoo.py,sha256=1JDVo8CYdKVnL4Nw-1LWfMRzUA8Hq2SkOEMlhDGpnoQ,5731
+pyodoo_connect/proxies.py,sha256=HAEakbOgzaC8v-dG_f0KZVOVr6jJz55owKQ_DRkKGqQ,2774
+pyodoo_connect/tools.py,sha256=L9vjv0cVuVcKIKBEhnjjSor92StHJG_RCvA0ZUXFqMs,2847
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_odoo.py,sha256=b9gfLydLwi_dmwZOKkQh3xqppiap0zJ3N_SWATP4PCs,2693
+pyodoo_connect-0.1.0.dist-info/LICENSE,sha256=QcIOaKpEXnkEPhCjlUFmHLN3w-IC7zUufnPCb0n9qHc,1066
+pyodoo_connect-0.1.0.dist-info/METADATA,sha256=QogJcmzsb_YznQkXp9OEYBqK1PCSjTXypfL0UeJ4cXo,4941
+pyodoo_connect-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyodoo_connect-0.1.0.dist-info/top_level.txt,sha256=7fWbKsCW1CxRaOpsyCZsWR7RCA7ehOkipACm72e5G4A,21
+pyodoo_connect-0.1.0.dist-info/RECORD,,
