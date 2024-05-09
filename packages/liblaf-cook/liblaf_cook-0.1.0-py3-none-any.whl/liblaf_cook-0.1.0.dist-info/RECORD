@@ -1,0 +1,10 @@
+cook/__init__.py,sha256=BJKqz5Tomsb4Y-qrk2UDhtZh0PzPwdmIhLVFJx6hPsg,47
+cook/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cook/_typing.py,sha256=c2oy3_xudvH8uEJ_DtDEHV2u7ms6ZKVgbvfaS9l9cXM,664
+cook/menu.py,sha256=ZiNM6KATT8fjfZrjgQqmqT2am3Gntp1gPopGcpkQkBo,3991
+cook/recipe.py,sha256=jpdX1xR-Unsa-hs1T3ek84s_z-X5KG5dBDLjria0t6w,1121
+cook/ninja/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cook/ninja/syntax.py,sha256=xlxVn2yh0y6WVwXAP6ySkDYWfHnkkB7TmnZ-olrEeFg,8171
+liblaf_cook-0.1.0.dist-info/METADATA,sha256=oQg0rFjB8W37cWmTfB2Monmat-rc_cZDh7ELVuPruIc,314
+liblaf_cook-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+liblaf_cook-0.1.0.dist-info/RECORD,,
