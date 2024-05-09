@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "gradema"
+version = "0.1.0"
+description = "The utility you need to easily configure auto-grading"
+authors = ["Lavender Shannon <retrodaredevil@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+homepage = "https://gradema.readthedocs.io"
+repository = "https://gitlab.com/classroomcode/gradema/gradema"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "13.7.1"
+editorconfig = "^0.12.4"
+python-magic = "^0.4.27"
+# We choose to not include mypy, pudb, pytest, or black here
+#   because those should be explicitly dependeded on in the assignment repository
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+pudb = "^2024.1"
+pytest = "8.1.1"
+black = "^24.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+# https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html#configuration-format
+line-length = 180
