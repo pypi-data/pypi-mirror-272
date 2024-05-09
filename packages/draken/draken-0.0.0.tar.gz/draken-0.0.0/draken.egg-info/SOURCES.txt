@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+draken.egg-info/PKG-INFO
+draken.egg-info/SOURCES.txt
+draken.egg-info/dependency_links.txt
+draken.egg-info/requires.txt
+draken.egg-info/top_level.txt

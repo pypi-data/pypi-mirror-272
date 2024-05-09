@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: draken
+Version: 0.0.0
+Summary: External Index
+Home-page: https://github.com/mabel-dev/draken/
+Author: notset
+Author-email: justin.joyce@joocer.com
+Maintainer: @joocer
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+
+# Draken
+
+External Index for Opteryx
