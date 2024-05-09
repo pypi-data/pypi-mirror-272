@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/feather_tools/__init__.py
+src/feather_tools/ftools_workhorse.py
+src/feather_tools.egg-info/PKG-INFO
+src/feather_tools.egg-info/SOURCES.txt
+src/feather_tools.egg-info/dependency_links.txt
+src/feather_tools.egg-info/requires.txt
+src/feather_tools.egg-info/top_level.txt
+src/feather_tools/test/__init__.py
+src/feather_tools/test/f2csv_copy.py
+src/feather_tools/test/fless_copy.py
+src/feather_tools/test/ftail_copy.py
+src/feather_tools/test/fwc_copy.py
+src/feather_tools/test/test_ftools_workhorse.py
