@@ -1,0 +1,10 @@
+Version Log
+==========
+
+3.4.0 (08/05/2024)
+-------------------
+- Acceldata airflow sdk - Wrapper on apache airflow
+- Acceldata airflow sdk provides support for observability of airflow dags in ADOC catalog. With the use of acceldata airflow SDK, user can e2e observability on airflow dag run in ADOC UI.
+
+
+
