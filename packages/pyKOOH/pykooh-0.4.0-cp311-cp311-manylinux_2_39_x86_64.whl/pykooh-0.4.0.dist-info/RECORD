@@ -1,0 +1,9 @@
+pykooh/__init__.py,sha256=IckIjBLqIt5C3MfP9--7ichw2nhet_jv_nmkDuX2GxM,3470
+pykooh/smooth_cython.pyx,sha256=ANAsSfpEzM9ifQjb8wNoakbV_6cTmhfXZb9tNYr9HOE,1311
+pykooh/smooth_numba.py,sha256=3PCpVLolrPFVXmuVoR1TRiv_HHrbzuZA5ZRAgs2czUE,1050
+pykooh/smoothing.c,sha256=Dv9tX6hXA-STbaHyIsEhAz3TQb3GrzwSMnvgcxg5BR4,1830
+pykooh/smoothing.h,sha256=vmeP4kk6m-L71jA6OgPK8erzDze8Zhymm6X-vKJLbLU,173
+pykooh-0.4.0.dist-info/METADATA,sha256=zx8dpQZ7sDnw9MUjYQN-UEvXwB6CcQLXoF5QKN-Paog,2772
+pykooh-0.4.0.dist-info/WHEEL,sha256=Rv5t5r3xAOmiescPAYBWNmbBa2shN6MaSqHLr0hUfuc,109
+pykooh-0.4.0.dist-info/licenses/LICENSE,sha256=r6pGD7cng5dulOP81PRv9Vt4-aBAHDhJSgDVyDODbXU,1070
+pykooh-0.4.0.dist-info/RECORD,,
