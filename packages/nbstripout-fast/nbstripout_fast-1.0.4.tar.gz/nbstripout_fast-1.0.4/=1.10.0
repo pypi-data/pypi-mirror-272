@@ -1,0 +1,124 @@
+Collecting setuptools
+  Downloading setuptools-69.5.1-py3-none-any.whl.metadata (6.2 kB)
+Collecting wheel
+  Downloading wheel-0.43.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting twine
+  Downloading twine-5.0.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting maturin
+  Downloading maturin-1.5.1-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.musllinux_1_1_x86_64.whl.metadata (18 kB)
+Collecting build
+  Downloading build-1.2.1-py3-none-any.whl.metadata (4.3 kB)
+Collecting pkginfo
+  Downloading pkginfo-1.10.0-py3-none-any.whl.metadata (11 kB)
+Collecting readme-renderer>=35.0 (from twine)
+  Downloading readme_renderer-43.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting requests>=2.20 (from twine)
+  Downloading requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting requests-toolbelt!=0.9.0,>=0.8.0 (from twine)
+  Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+Collecting urllib3>=1.26.0 (from twine)
+  Downloading urllib3-2.2.1-py3-none-any.whl.metadata (6.4 kB)
+Collecting importlib-metadata>=3.6 (from twine)
+  Downloading importlib_metadata-7.1.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting keyring>=15.1 (from twine)
+  Downloading keyring-25.2.0-py3-none-any.whl.metadata (20 kB)
+Collecting rfc3986>=1.4.0 (from twine)
+  Downloading rfc3986-2.0.0-py2.py3-none-any.whl.metadata (6.6 kB)
+Collecting rich>=12.0.0 (from twine)
+  Downloading rich-13.7.1-py3-none-any.whl.metadata (18 kB)
+Collecting packaging>=19.1 (from build)
+  Downloading packaging-24.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting pyproject_hooks (from build)
+  Downloading pyproject_hooks-1.1.0-py3-none-any.whl.metadata (1.3 kB)
+Collecting zipp>=0.5 (from importlib-metadata>=3.6->twine)
+  Downloading zipp-3.18.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting jaraco.classes (from keyring>=15.1->twine)
+  Downloading jaraco.classes-3.4.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting jaraco.functools (from keyring>=15.1->twine)
+  Downloading jaraco.functools-4.0.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting jaraco.context (from keyring>=15.1->twine)
+  Downloading jaraco.context-5.3.0-py3-none-any.whl.metadata (4.0 kB)
+Collecting SecretStorage>=3.2 (from keyring>=15.1->twine)
+  Downloading SecretStorage-3.3.3-py3-none-any.whl.metadata (4.0 kB)
+Collecting jeepney>=0.4.2 (from keyring>=15.1->twine)
+  Downloading jeepney-0.8.0-py3-none-any.whl.metadata (1.3 kB)
+Collecting nh3>=0.2.14 (from readme-renderer>=35.0->twine)
+  Downloading nh3-0.2.17-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.7 kB)
+Collecting docutils>=0.13.1 (from readme-renderer>=35.0->twine)
+  Downloading docutils-0.21.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting Pygments>=2.5.1 (from readme-renderer>=35.0->twine)
+  Downloading pygments-2.18.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting charset-normalizer<4,>=2 (from requests>=2.20->twine)
+  Downloading charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (33 kB)
+Collecting idna<4,>=2.5 (from requests>=2.20->twine)
+  Downloading idna-3.7-py3-none-any.whl.metadata (9.9 kB)
+Collecting certifi>=2017.4.17 (from requests>=2.20->twine)
+  Downloading certifi-2024.2.2-py3-none-any.whl.metadata (2.2 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=12.0.0->twine)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=12.0.0->twine)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting cryptography>=2.0 (from SecretStorage>=3.2->keyring>=15.1->twine)
+  Downloading cryptography-42.0.7-cp39-abi3-manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+Collecting more-itertools (from jaraco.classes->keyring>=15.1->twine)
+  Downloading more_itertools-10.2.0-py3-none-any.whl.metadata (34 kB)
+Collecting cffi>=1.12 (from cryptography>=2.0->SecretStorage>=3.2->keyring>=15.1->twine)
+  Downloading cffi-1.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting pycparser (from cffi>=1.12->cryptography>=2.0->SecretStorage>=3.2->keyring>=15.1->twine)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Downloading setuptools-69.5.1-py3-none-any.whl (894 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 894.6/894.6 kB 57.1 MB/s eta 0:00:00
+Downloading wheel-0.43.0-py3-none-any.whl (65 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.8/65.8 kB 19.8 MB/s eta 0:00:00
+Downloading twine-5.0.0-py3-none-any.whl (37 kB)
+Downloading maturin-1.5.1-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.musllinux_1_1_x86_64.whl (10.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.3/10.3 MB 126.2 MB/s eta 0:00:00
+Downloading build-1.2.1-py3-none-any.whl (21 kB)
+Downloading pkginfo-1.10.0-py3-none-any.whl (30 kB)
+Downloading importlib_metadata-7.1.0-py3-none-any.whl (24 kB)
+Downloading keyring-25.2.0-py3-none-any.whl (38 kB)
+Downloading packaging-24.0-py3-none-any.whl (53 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.5/53.5 kB 19.2 MB/s eta 0:00:00
+Downloading readme_renderer-43.0-py3-none-any.whl (13 kB)
+Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 15.1 MB/s eta 0:00:00
+Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.5/54.5 kB 18.4 MB/s eta 0:00:00
+Downloading rfc3986-2.0.0-py2.py3-none-any.whl (31 kB)
+Downloading rich-13.7.1-py3-none-any.whl (240 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 240.7/240.7 kB 47.4 MB/s eta 0:00:00
+Downloading urllib3-2.2.1-py3-none-any.whl (121 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.1/121.1 kB 35.3 MB/s eta 0:00:00
+Downloading pyproject_hooks-1.1.0-py3-none-any.whl (9.2 kB)
+Downloading certifi-2024.2.2-py3-none-any.whl (163 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.8/163.8 kB 39.0 MB/s eta 0:00:00
+Downloading charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (141 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 141.9/141.9 kB 31.9 MB/s eta 0:00:00
+Downloading docutils-0.21.2-py3-none-any.whl (587 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 587.4/587.4 kB 73.7 MB/s eta 0:00:00
+Downloading idna-3.7-py3-none-any.whl (66 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.8/66.8 kB 16.1 MB/s eta 0:00:00
+Downloading jeepney-0.8.0-py3-none-any.whl (48 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.4/48.4 kB 13.4 MB/s eta 0:00:00
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 29.5 MB/s eta 0:00:00
+Downloading nh3-0.2.17-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (777 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 777.1/777.1 kB 89.9 MB/s eta 0:00:00
+Downloading pygments-2.18.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 69.2 MB/s eta 0:00:00
+Downloading SecretStorage-3.3.3-py3-none-any.whl (15 kB)
+Downloading zipp-3.18.1-py3-none-any.whl (8.2 kB)
+Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+Downloading jaraco.context-5.3.0-py3-none-any.whl (6.5 kB)
+Downloading jaraco.functools-4.0.1-py3-none-any.whl (9.8 kB)
+Downloading cryptography-42.0.7-cp39-abi3-manylinux_2_28_x86_64.whl (3.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 91.8 MB/s eta 0:00:00
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading more_itertools-10.2.0-py3-none-any.whl (57 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.0/57.0 kB 18.1 MB/s eta 0:00:00
+Downloading cffi-1.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (477 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 477.6/477.6 kB 57.6 MB/s eta 0:00:00
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 37.5 MB/s eta 0:00:00
+Installing collected packages: nh3, zipp, wheel, urllib3, setuptools, rfc3986, pyproject_hooks, Pygments, pycparser, pkginfo, packaging, more-itertools, mdurl, maturin, jeepney, jaraco.context, idna, docutils, charset-normalizer, certifi, requests, readme-renderer, markdown-it-py, jaraco.functools, jaraco.classes, importlib-metadata, cffi, build, rich, requests-toolbelt, cryptography, SecretStorage, keyring, twine
+Successfully installed Pygments-2.18.0 SecretStorage-3.3.3 build-1.2.1 certifi-2024.2.2 cffi-1.16.0 charset-normalizer-3.3.2 cryptography-42.0.7 docutils-0.21.2 idna-3.7 importlib-metadata-7.1.0 jaraco.classes-3.4.0 jaraco.context-5.3.0 jaraco.functools-4.0.1 jeepney-0.8.0 keyring-25.2.0 markdown-it-py-3.0.0 maturin-1.5.1 mdurl-0.1.2 more-itertools-10.2.0 nh3-0.2.17 packaging-24.0 pkginfo-1.10.0 pycparser-2.22 pyproject_hooks-1.1.0 readme-renderer-43.0 requests-2.31.0 requests-toolbelt-1.0.0 rfc3986-2.0.0 rich-13.7.1 setuptools-69.5.1 twine-5.0.0 urllib3-2.2.1 wheel-0.43.0 zipp-3.18.1
