@@ -1,0 +1,16 @@
+-r ./requirements.txt
+-r ./requirements_rtfd.txt
+codacy-coverage
+cryptography
+
+cython
+ipykernel
+jupyter_client
+nbconvert
+nbformat
+obspy
+pre-commit
+pytest>=4.6
+pytest-cov
+wheel
+yapf
