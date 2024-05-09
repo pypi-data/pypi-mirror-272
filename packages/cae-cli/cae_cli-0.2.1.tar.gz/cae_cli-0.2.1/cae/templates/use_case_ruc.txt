@@ -1,0 +1,8 @@
+package <pk><group_id></group_id>.<artifact_id></artifact_id></pk>.use_cases.<sc>args[0]</sc>;
+
+import com.cae.use_cases.authorization.annotations.ProtectedUseCase;
+import com.cae.use_cases.specifics.runnables.RunnableUseCase;
+
+
+@ProtectedUseCase(scope = {"delete:users"})
+public abstract class <pc>args[0]</pc>UseCase extends RunnableUseCase { }
