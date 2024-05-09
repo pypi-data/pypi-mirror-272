@@ -1,0 +1,13 @@
+simple_kfp_task/__init__.py,sha256=P_F0iWmWBhllgyu_ReYU034j2q2TEsJRIWxvnAYOg8Y,59
+simple_kfp_task/cli.py,sha256=BXkUIL7sV6Rlf4Wtx8tS05dzjq5yB5JnHBI7ikyu9YA,2666
+simple_kfp_task/deploykf.py,sha256=nZPRcgp4EAUc2Oy97hv7C8kfLIUi62LNbIA6zlHDd9A,10854
+simple_kfp_task/git_helper.py,sha256=8dNlUBKdWb0VEDPDMoPo1Qga8EfZu4icRLszizBI2nc,5077
+simple_kfp_task/pipeline.py,sha256=hEHxeCkYLljOpvIzpnL3GlS_twDYf2tHcvGwVVwUcWQ,8746
+simple_kfp_task/task.py,sha256=C4iraEamj-MKx9h66UJtJhfWbKXEPeK0IVSNhWc_7sY,7484
+simple_kfp_task/utils.py,sha256=Ni1UXLWqEgBwkWB-HgY98B_qcyKfwa4lLtapyeQiPf4,1155
+simple_kfp_task-0.0.9.dist-info/LICENSE,sha256=9jUo_5GY-2Lita-1NHaBGElqSC6yb-iCP6Gs99veeB4,1077
+simple_kfp_task-0.0.9.dist-info/METADATA,sha256=atnv9Ocom4tHPTMR6rv0TzCWJgDVP4Aiil0TTwE3-dU,862
+simple_kfp_task-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+simple_kfp_task-0.0.9.dist-info/entry_points.txt,sha256=H5i8fLAGxW8NSJ3tcPp7NIfwp5fEbzc8p3xteo1MBb0,61
+simple_kfp_task-0.0.9.dist-info/top_level.txt,sha256=8-BqAlQafLkvUKpRmEnnJJuAb-OVPARXSMyKe9_tY4Q,16
+simple_kfp_task-0.0.9.dist-info/RECORD,,
