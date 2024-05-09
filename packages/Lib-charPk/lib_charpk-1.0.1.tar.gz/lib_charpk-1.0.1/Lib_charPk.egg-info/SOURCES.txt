@@ -1,0 +1,10 @@
+README.md
+setup.py
+Lib_charPk/__init__.py
+Lib_charPk/pokemon.csv
+Lib_charPk/random_pokemon.py
+Lib_charPk.egg-info/PKG-INFO
+Lib_charPk.egg-info/SOURCES.txt
+Lib_charPk.egg-info/dependency_links.txt
+Lib_charPk.egg-info/requires.txt
+Lib_charPk.egg-info/top_level.txt
