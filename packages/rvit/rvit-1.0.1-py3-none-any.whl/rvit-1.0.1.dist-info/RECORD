@@ -1,0 +1,7 @@
+RViT/__init__.py,sha256=0QkM5kODbjAV-TM_GgXC_9wv-H7n_ERhVhX12JxwzOQ,74
+RViT/r_vision_transformer.py,sha256=YnGSv_hLLBa_hEeNqRFtbHM0C5yJ2x3D7jNf13KhIhw,3740
+RViT/registered_vision_transformer.py,sha256=YnGSv_hLLBa_hEeNqRFtbHM0C5yJ2x3D7jNf13KhIhw,3740
+rvit-1.0.1.dist-info/METADATA,sha256=eXSQYeMf_s41ARqFKpeAD2MAn2xVI5DfgO1dMrRE1SA,1195
+rvit-1.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+rvit-1.0.1.dist-info/top_level.txt,sha256=Axakvob2wPA-3hEv11HCctSLxRuTHjL6MH-o_8XSiyY,5
+rvit-1.0.1.dist-info/RECORD,,
