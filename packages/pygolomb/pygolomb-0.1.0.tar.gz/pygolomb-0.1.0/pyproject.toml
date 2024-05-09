@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pygolomb"
+version = "0.1.0"
+description = ""
+authors = ["alxwnth <alxwnth@posteo.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+# [tool.poetry.group.dev.dependencies]
+# black = "^24.4.2"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.0"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

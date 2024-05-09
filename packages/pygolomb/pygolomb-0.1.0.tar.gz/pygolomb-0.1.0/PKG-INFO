@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pygolomb
+Version: 0.1.0
+Summary: 
+Author: alxwnth
+Author-email: alxwnth@posteo.me
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# PyGolomb
+
+> Python library to test binary sequences with Golomb’s randomness postulates.
+
+## Installing
+
+## Running
+
+Creating venv and installing dependencies.
+
+```
+python3 -m venv .venv
+. .venv/bin/activate
+poetry install
+```
+
+## Testing
+
+```
+. .venv/bin/activate
+pytest
+```
+
+To check test coverage:
+
+```
+pytest --cov=pygolomb tests/
+```
+
