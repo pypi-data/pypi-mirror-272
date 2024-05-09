@@ -1,0 +1,9 @@
+awscli
+fiona
+pandas
+pystac
+python-dotenv
+requests
+requests
+sqlalchemy
+wget
