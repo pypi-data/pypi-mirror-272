@@ -1,0 +1,41 @@
+CHANGES
+=======
+
+v2.2.2
+------
+
+* Simplify implementation
+* Attach serde suffix to functional decorators
+* Add codecov badge
+* Add codecov.yml
+* Add codecov to the CI
+
+v2.2.1
+------
+
+* move cacheable
+* remove Protocol. Not strictly needed and requires python38 to use
+
+v2.2.0
+------
+
+* refactor: use the pandas testing functions for df and series assertions
+
+v2.1.0
+------
+
+* test: fix test
+* style: black
+* test: should probably test this stuff
+* feat: serde subclassses need a file extension
+* feat: add file extension in functional reader
+
+v2.0.3
+------
+
+* Allow preexisting directories in the cache path
+
+v2.0.2
+------
+
+* Commit code
