@@ -1,0 +1,73 @@
+# SDK voxline - Python Development Kit
+
+## voxline-pdk
+
+Realizar la conexión con conecta por medio de Python.
+
+## Installation
+
+Usar el administrador de paquetes [pip](https://pip.pypa.io/en/stable/) para instalar voxline.
+
+```bash
+pip install voxline-pdk
+```
+
+## Usage
+
+### CODE
+
+```python
+# Importar la libreria
+from voxline import Voxline
+
+vox = Voxline(tenant='tenant_1', apiKey='12312', local=True)
+value = vox.forms.getOne(1)
+print(value)
+```
+
+### OUTPUT
+
+```Json
+{ value1: {'id': 1, 'name': 'Form Tenant 1', 'structure': {}, 'createdAt': '2023-06-18T02:48:04.286Z', 'updatedAt': '2023-06-18T02:48:04.286Z', 'deletedAt': None }
+{ value2: {} }
+{ value3: [{'id': 1, 'name': 'Form Tenant 1', 'structure': {}, 'createdAt': '2023-06-18T02:48:04.286Z', 'updatedAt': '2023-06-18T02:48:04.286Z', 'deletedAt': None}]}
+```
+
+# Development
+
+## Install Dependencies
+
+```bash
+pip install -r requirements
+```
+
+## Build
+
+Construir el archivo .tar.gz y el archivo wheels para instalar con pip
+
+```bash
+python setup.py sdist bdist_wheel
+```
+
+with pipenv
+
+```bash
+pipenv run build
+```
+
+## Local Install
+
+```bash
+ pip install dist/voxline-0.1.1-py3-none-any.whl
+```
+
+## Publish package
+
+```bash
+$HOME/.pypirc >
+[pypi]
+    username = __init__
+    password = pypi-
+
+python3 -m twine upload --repository pypi dist/* --verbose
+```
