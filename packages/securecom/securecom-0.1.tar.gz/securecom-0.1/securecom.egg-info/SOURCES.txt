@@ -1,0 +1,6 @@
+setup.py
+securecom.egg-info/PKG-INFO
+securecom.egg-info/SOURCES.txt
+securecom.egg-info/dependency_links.txt
+securecom.egg-info/requires.txt
+securecom.egg-info/top_level.txt
