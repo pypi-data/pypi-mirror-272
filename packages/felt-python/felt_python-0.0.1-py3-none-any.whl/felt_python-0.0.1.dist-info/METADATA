@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: felt-python
+Version: 0.0.1
+Summary: The official Felt API client library
+Project-URL: Homepage, https://github.com/felt/felt-python
+Project-URL: Issues, https://github.com/felt/felt-python/issues
+Project-URL: Documentation, https://felt-1.gitbook.io/developer-docs
+Author-email: Álvaro Arredondo <alvaro@felt.com>, Chris Loer <chris@felt.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: geopandas
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: uritemplate
+Description-Content-Type: text/markdown
+
+# felt-python
+
+(WIP)
+
+The official Python client for the Felt API
+===========================================
+
+**felt-python** is a Python client for the Felt API. It provides convenient wrappers for
+common operations like creating, deleting and updating maps and data layers.
+
+This client is especially useful at simplifying certain operations like uploading and
+refreshing files and (Geo)DataFrames or updating layer styles and element properties.
