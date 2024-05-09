@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/spatium/__init__.py
+src/spatium/__init__.pyi
+src/spatium/_spatium.pyi
+src/spatium/_spatium.pyx
+src/spatium.egg-info/PKG-INFO
+src/spatium.egg-info/SOURCES.txt
+src/spatium.egg-info/dependency_links.txt
+src/spatium.egg-info/top_level.txt
