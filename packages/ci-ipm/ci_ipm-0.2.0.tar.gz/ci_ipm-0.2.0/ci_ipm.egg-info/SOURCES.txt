@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+ci_ipm.egg-info/PKG-INFO
+ci_ipm.egg-info/SOURCES.txt
+ci_ipm.egg-info/dependency_links.txt
+ci_ipm.egg-info/entry_points.txt
+ci_ipm.egg-info/requires.txt
+ci_ipm.egg-info/top_level.txt
+ipm/__init__.py
+ipm/__main__.py
+ipm/__version__.py
+ipm/common.py
+ipm/manage.py
