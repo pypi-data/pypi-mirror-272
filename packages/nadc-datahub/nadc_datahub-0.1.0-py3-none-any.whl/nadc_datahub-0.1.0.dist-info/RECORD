@@ -1,0 +1,6 @@
+nadc_datahub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nadc_datahub/dataset.py,sha256=tyL1EAKDW4K-qg3st5XrogRANq7C3lEJ5Ajnt08HN3k,631
+nadc_datahub/ep_tdic.py,sha256=b4cROr-ECgjWSsMVn1FTfewqeLj2KqHYTG-BN4cF080,3224
+nadc_datahub-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nadc_datahub-0.1.0.dist-info/METADATA,sha256=_SMB8I9BAKtHxnuob25E-N_srYY6B_BdDdR0EcOgws8,478
+nadc_datahub-0.1.0.dist-info/RECORD,,
