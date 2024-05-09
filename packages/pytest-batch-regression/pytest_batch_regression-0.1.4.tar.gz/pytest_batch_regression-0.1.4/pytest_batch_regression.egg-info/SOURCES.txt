@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pytest_batch_regression.egg-info/PKG-INFO
+pytest_batch_regression.egg-info/SOURCES.txt
+pytest_batch_regression.egg-info/dependency_links.txt
+pytest_batch_regression.egg-info/entry_points.txt
+pytest_batch_regression.egg-info/requires.txt
+pytest_batch_regression.egg-info/top_level.txt
+pytest_regression/__init__.py
+pytest_regression/plugin.py
