@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+modularity_encoding/__init__.py
+modularity_encoding/functions.py
+modularity_encoding.egg-info/PKG-INFO
+modularity_encoding.egg-info/SOURCES.txt
+modularity_encoding.egg-info/dependency_links.txt
+modularity_encoding.egg-info/requires.txt
+modularity_encoding.egg-info/top_level.txt
