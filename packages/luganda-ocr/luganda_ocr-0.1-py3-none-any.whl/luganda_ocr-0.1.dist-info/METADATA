@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: luganda-ocr
+Version: 0.1
+Summary: An OCR package for Luganda language
+Author: Beijuka Bruno
+Author-email: lugandaocr@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (<3.0.0,>=2.14.0)
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# Luganda OCR
+
+Luganda OCR is a Python package for optical character recognition (OCR) of Luganda language text. It provides functionalities to preprocess images, load a pre-trained model, and make predictions on text extracted from images.
+
+## Installation
+
+You can install Luganda OCR using pip:
+
+```bash
+pip install luganda_ocr
+
+Usage
+
+Here's a simple example of how to use Luganda OCR to make predictions on a folder of images:
+### Command-line Interface
+import luganda_ocr
+
+# Define paths and parameters
+MODEL_PATH = "luganda_ocr/models/sentenceModel.h5"
+IMAGE_FOLDER = "path/to/images"
+OUTPUT_FILE = "predictions.txt"
+
+# Load pre-trained model
+pred_model = luganda_ocr.load_pretrained_model(MODEL_PATH)
+
+# Make batch predictions
+predictions = luganda_ocr.batch_prediction(pred_model, IMAGE_FOLDER)
+
+# Save predictions to a file
+luganda_ocr.save_predictions(predictions, OUTPUT_FILE)
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+vbnet
+
+
+Replace `"path/to/sentenceModel.h5"`, `"path/to/images"`, and `"predictions.txt"` with actual paths and filenames relevant to your project.
+
+This README provides a brief overview of your package, installation instructions, usage examples, links to documentation and source code, and information about contributing and licensing. Feel free to customize it further to suit your project's needs!
+
+
+
