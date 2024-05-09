@@ -1,0 +1,2 @@
+[fandango.plugin]
+fandanGO-aria = fGOaria
