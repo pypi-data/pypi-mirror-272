@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyBeastxAPI
+Version: 0.0.1
+Summary: this packge will help to generate telegram api keys
+Author: BeastX
+Author-email: atronpay7@gmail.com
+Keywords: tgapihash,tgapi,telegram api,api hash,pybeastx
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: lxml
+Requires-Dist: requests
+Requires-Dist: fake-useragent
+Requires-Dist: tqdm
+
+A package to creates telegram api keys
