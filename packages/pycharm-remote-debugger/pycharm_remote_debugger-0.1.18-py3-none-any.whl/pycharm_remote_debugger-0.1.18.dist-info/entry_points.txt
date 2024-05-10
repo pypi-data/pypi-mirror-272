@@ -1,0 +1,2 @@
+[console_scripts]
+remote_debugger = pycharm_remote_debugger.__main__:main
