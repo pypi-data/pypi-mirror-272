@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+antiphthisicz/__init__.py
+antiphthisicz/main.py
+antiphthisicz.egg-info/PKG-INFO
+antiphthisicz.egg-info/SOURCES.txt
+antiphthisicz.egg-info/dependency_links.txt
+antiphthisicz.egg-info/requires.txt
+antiphthisicz.egg-info/top_level.txt
