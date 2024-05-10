@@ -1,0 +1,3 @@
+include src/adeft/nlp/stopwords.json
+graft src/adeft/gui/ground/static
+graft src/adeft/gui/ground/templates
