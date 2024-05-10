@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: Tamilnumbers
+Version: 1.0.0
+Summary: A package for converting Hindu-Arabic numerals to Tamil numerals.
+Home-page: https://github.com/velkadamban/Tamil-numbers-converter/
+Author: Velkadamban
+Author-email: velkadamban@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# TamilNumbers
+
+TamilNumbers is a Python package for converting Hindu-Arabic numerals to Tamil numerals.
+
+## Installation
+
+You can install TamilNumbers using pip:
+
+pip install Tamilnumbers
+
+### Import functions
+
+1)	from Tamilnumbers import tamilnum
+
+	tamilnum => It will display Modern Tamil Numbers (Ex: 123 => à¯§à¯¨à¯©)
+
+
+2)	from Tamilnumbers import tamilnum_traditional
+
+	tamilnum => It will display Traditional Tamil Numbers (Ex: 123 => à¯±à¯¨à¯°à¯©)
+
+#### Tamil Numerals
+
+0	à¯¦
+1	à¯§
+2	à¯¨
+3	à¯©
+4	à¯ª
+5	à¯«
+6	à¯¬	
+7	à¯­	
+8	à¯®	
+9	à¯¯	
+10	à¯°
+100	à¯±
+1000 à¯²
+
+

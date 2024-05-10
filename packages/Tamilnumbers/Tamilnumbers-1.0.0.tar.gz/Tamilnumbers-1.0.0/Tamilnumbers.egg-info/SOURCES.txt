@@ -1,0 +1,8 @@
+README.md
+setup.py
+Tamilnumbers/Tamilnumbers.py
+Tamilnumbers/__init__.py
+Tamilnumbers.egg-info/PKG-INFO
+Tamilnumbers.egg-info/SOURCES.txt
+Tamilnumbers.egg-info/dependency_links.txt
+Tamilnumbers.egg-info/top_level.txt
