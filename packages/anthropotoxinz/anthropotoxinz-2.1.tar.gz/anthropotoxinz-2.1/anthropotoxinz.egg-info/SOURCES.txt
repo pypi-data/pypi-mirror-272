@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anthropotoxinz/__init__.py
+anthropotoxinz/main.py
+anthropotoxinz.egg-info/PKG-INFO
+anthropotoxinz.egg-info/SOURCES.txt
+anthropotoxinz.egg-info/dependency_links.txt
+anthropotoxinz.egg-info/requires.txt
+anthropotoxinz.egg-info/top_level.txt
