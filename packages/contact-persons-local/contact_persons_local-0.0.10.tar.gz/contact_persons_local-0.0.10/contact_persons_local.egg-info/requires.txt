@@ -1,0 +1,7 @@
+PyMySQL>=1.0.2
+pytest>=7.4.0
+mysql-connector>=2.2.9
+logzio-python-handler>=4.1.0
+person-local>=0.0.52
+python-sdk-remote>=0.0.27
+language-remote
