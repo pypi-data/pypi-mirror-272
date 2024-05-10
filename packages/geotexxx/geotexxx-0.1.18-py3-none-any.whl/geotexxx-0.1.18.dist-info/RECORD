@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gefxml_reader.py,sha256=khwYmPEDj_ioH_UZasz1iHCM_HqythCoAMb6TIWWR6Y,593
+tests/borehole-files/test_borehole.gef,sha256=DsUM9O5QQueWdnORAwDApJzc3WnojAofVpwDCFSfdPQ,7674
+tests/borehole-files/test_borehole.xml,sha256=X9OyEJIzZossn6ilmHzDFZfitcXN2mUQbUpVsG-dmhI,49912
+geotexxx-0.1.18.dist-info/LICENSE.txt,sha256=2oKhau9hrDsuvnKcFGL2s0fq3vfJ5ssoyUiuz3JAVvs,13799
+geotexxx-0.1.18.dist-info/METADATA,sha256=MUXZyxAghLthk7PY6vEK0V0LXe5VGj8LiLqHw8-0_zM,1834
+geotexxx-0.1.18.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+geotexxx-0.1.18.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+geotexxx-0.1.18.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+geotexxx-0.1.18.dist-info/RECORD,,
