@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: cancel-contexts
+Version: 0.1.0
+Summary: Realisation for canceling contexts (cancelled tokens) for Python
+Home-page: https://github.com/alpden550/cancel-contexts
+License: MIT
+Keywords: python,python3,cancel token,cancel context
+Author: Denis Novikov
+Author-email: alpden550@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: ruff (>=0.4.3,<0.5.0)
+Project-URL: Repository, https://github.com/alpden550/cancel-contexts
+Description-Content-Type: text/markdown
+
+# Cancel-contexts
+
+This is a simple implementation of cancel-contexts (cancel tokens is C#) in Python. It is inspired by the Go programming language's context package.
+
+## Installation
+
+```bash 
+poetry add cancel-contexts
+```
+
+or
+
+```bash
+pip install cancel-contexts
+```
+
+
+## Usage
+
+```python
+from cancel_contexts import CancelContext
+
+ctx = CancelContext()
+print(ctx.cancelled) # False
+print(bool(ctx)) # True
+
+ctx.cancel()
+print(ctx.cancelled) # True
+print(bool(ctx)) # False
+```
+
+```python
+from cancel_contexts import CancelContext
+
+ctx = CancelContext()
+counter = 0
+while ctx:
+    counter += 1
+    if counter == 10:
+        ctx.cancel()
+
+print(ctx.cancelled) # True
+```
+
