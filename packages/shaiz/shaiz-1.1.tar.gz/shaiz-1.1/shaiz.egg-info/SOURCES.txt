@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+shaiz/__init__.py
+shaiz/main.py
+shaiz.egg-info/PKG-INFO
+shaiz.egg-info/SOURCES.txt
+shaiz.egg-info/dependency_links.txt
+shaiz.egg-info/requires.txt
+shaiz.egg-info/top_level.txt
