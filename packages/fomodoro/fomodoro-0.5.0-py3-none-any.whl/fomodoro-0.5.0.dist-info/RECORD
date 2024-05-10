@@ -1,0 +1,14 @@
+fomodoro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fomodoro/bell.wav,sha256=vd6GueTVMYmR51lY1PBL_tDkERa0f6xWD8bO8wf-4fs,34142
+fomodoro/info.json,sha256=i5W8yuxl488fjQ7L8DI58DFhcehkBJPpXQT1HM97_0A,113
+fomodoro/main.py,sha256=GNQMdH9xu-3LxDSDjdULu17sDl6nxXQXM76ORgjo0OU,1371
+fomodoro/stats.py,sha256=3IgMtNtQm4VOUJ2Ga6Jyx6a5lULzIYyizW1YDfZc-Kc,5670
+fomodoro/stopwatch.py,sha256=4IXqCpeg3cRNohp77FdqiQrFq6PJUoVGw7XJyXnv6pQ,2505
+fomodoro/timer.py,sha256=EfVRh7PnQAFyd64D__ZtBL79puGFXyhzUKeSAR8X4AA,2840
+fomodoro/utils.py,sha256=_ptnJAYdx4e0WCkY97boIGbrfgveJlNklf_8_X17A7c,722
+fomodoro-0.5.0.dist-info/LICENSE,sha256=QnG1zX3QyXRGG8ockXyl0DI8VZcg0FXSkmHi1u0IOcw,11353
+fomodoro-0.5.0.dist-info/METADATA,sha256=EhcN9xO1pN5ZEgLjverOAhVsqd7EeonFLQLHizieyao,459
+fomodoro-0.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fomodoro-0.5.0.dist-info/entry_points.txt,sha256=wUfYp9wJJ8WqqN0zF08sOncU2FjmjUcF98v5_IQoaa4,95
+fomodoro-0.5.0.dist-info/top_level.txt,sha256=i_pbMUuWasjH5sLV2P0KqLUjEm-11wKc09dc7ZxfjG0,9
+fomodoro-0.5.0.dist-info/RECORD,,
