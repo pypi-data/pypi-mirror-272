@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pydglab
+Version: 0.1.0
+Summary: A Third-party DGLAB Python Driver
+Home-page: https://github.com/shilapi/DGLAB-python-driver
+License: GNU GPLv3
+Author: Shilapi
+Author-email: pi@lapiw.icu
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bitstring (>=4.2.1,<5.0.0)
+Requires-Dist: bleak (>=0.22.1,<0.23.0)
+Project-URL: Repository, https://github.com/shilapi/DGLAB-python-driver
+Description-Content-Type: text/markdown
+
+# DGLAB-python-driver
+ PyDGLAB - A Third-party DGLAB Python Driver
+ 
+ **注意：目前这仍然是一个未完成的模块，请在使用前自行斟酌。**
+ 
+ **CAUTION: This module is still under development. Think before use.**
+
+ Check demo.py for more info.
