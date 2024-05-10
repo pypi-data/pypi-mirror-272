@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+color_bar_example.ipynb
+pyproject.toml
+src/zsx_color_bar.py
+src/zsx_color_bar.egg-info/PKG-INFO
+src/zsx_color_bar.egg-info/SOURCES.txt
+src/zsx_color_bar.egg-info/dependency_links.txt
+src/zsx_color_bar.egg-info/top_level.txt
