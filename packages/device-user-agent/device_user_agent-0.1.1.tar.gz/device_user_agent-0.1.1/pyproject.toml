@@ -1,0 +1,38 @@
+[project]
+name = "device-user-agent"
+version = "0.1.1"
+description = "Parses user agent string built with the device_user-agent flutter package."
+authors = [
+    { name = "Sarbagya Dhaubanjar", email = "sarbagyastha@gmail.com" },
+]
+dependencies = [
+    "pydantic>=2.7.1",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://acmesoftware.com"
+Repository = "https://github.com/AcmeSoftwareLLC/device_user_agent/tree/main/parser/python"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "file"
+path = "src/device_user_agent/__init__.py"
