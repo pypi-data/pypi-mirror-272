@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: plist-tracker
+Version: 0.1.2
+Summary: A tool to visually track changes in macOS config files.
+Author: Oleg Tarasov
+Author-email: me@olegtarasov.email
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: textual (>=0.58.1,<0.59.0)
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+plist-tracker=plist_tracker.cli:main
+
