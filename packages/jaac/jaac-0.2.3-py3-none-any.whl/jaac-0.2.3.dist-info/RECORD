@@ -1,0 +1,11 @@
+jaac/__init__.py,sha256=9F8MKkANiV2K6xImNL5he7EUtWaE_Wsw4WsGwolrP_I,3127
+jaac/documents/cv.tex.template.example,sha256=IvoEnW0BbdUt3jgX0bmFIjzJRf6tIE0g-EQ512MSRc8,10236
+jaac/documents/jaac.config.toml.example,sha256=h24UN_N9okeYTIG3fZcjzafmB9odgl3wiZ0HBPoLTMg,4475
+jaac/documents/letter.tex.template.example,sha256=_jTAqbwO1NGaGISFuLp6vwj42PnlBgO0dq6nP8Jpzmw,598
+jaac/documents/profile.txt.example,sha256=gyxmNjvFlH33mNjrn_GTwLsAPNEl0wPXRyhNr4THCP4,3430
+jaac/llm.py,sha256=3baak9bDT-fQirrEt51ZY1jBlwLJipR4imIyVo-nV-E,568
+jaac/pdf.py,sha256=tpsbg3D5ilpy0_-PH0Ci-XB8pVQWoDcIcOHVm-iljik,1926
+jaac-0.2.3.dist-info/METADATA,sha256=gDWQ3vGyXxlEnAaBlSEsGAzeF-eE1zadwLWf_uR1xV8,4084
+jaac-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jaac-0.2.3.dist-info/entry_points.txt,sha256=71TMsy6FEeMzPtqbBPKdEOSXuMBYddwUhi3v7JarRyI,33
+jaac-0.2.3.dist-info/RECORD,,
