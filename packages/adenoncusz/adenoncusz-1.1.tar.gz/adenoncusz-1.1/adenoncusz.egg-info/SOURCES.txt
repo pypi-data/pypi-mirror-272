@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+adenoncusz/__init__.py
+adenoncusz/main.py
+adenoncusz.egg-info/PKG-INFO
+adenoncusz.egg-info/SOURCES.txt
+adenoncusz.egg-info/dependency_links.txt
+adenoncusz.egg-info/requires.txt
+adenoncusz.egg-info/top_level.txt
