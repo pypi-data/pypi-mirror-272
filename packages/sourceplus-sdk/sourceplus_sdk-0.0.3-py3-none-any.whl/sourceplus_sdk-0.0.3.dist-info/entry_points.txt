@@ -1,0 +1,2 @@
+[console_scripts]
+sourceplus = sourceplus_sdk:run
