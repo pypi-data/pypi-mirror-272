@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["audio_recorder_streamlit"]
+
+[project]
+name = "audio-recorder-streamlit"
+version = "0.0.9"
+authors = [
+    {name = "Johan Leduc", email = "johan.leduc90@gmail.com"},
+]
+description = ""
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = [
+    "streamlit >= 0.63,<1.30",
+    "altair<5",
+]
+requires-python = ">=3.8"
+keywords = ["streamlit", "audio", "input"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Source = "https://github.com/Joooohan/audio-recorder-streamlit"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+_.env_file = ".env"
+npm-build = {shell = "cd audio_recorder_streamlit/frontend && npm run build"}
+
+dev = {shell="RELEASE= streamlit run audio_recorder_streamlit/example.py"}
+dev-backend = {shell="cd audio_recorder_streamlit/frontend && npm start"}
+
+start-component = {shell="streamlit run audio_recorder_streamlit/example.py"}
+start = {composite = ["npm-build", "start-component"]}
+
+deploy-test = {composite= ["npm-build", "pdm publish --username __token__ --password ${PYPI_TEST_IDENTITY} --repository testpypi"]}
+deploy = {composite= ["npm-build", "pdm publish --username __token__ --password ${PYPI_IDENTITY}"]}
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "watchdog>=4.0.0",
+    "setuptools>=69.5.1",
+    "wheel>=0.43.0",
+    "twine>=5.0.0",
+    "flake8>=5.0.4",
+    "black>=24.4.2",
+    "isort>=5.13.2",
+]
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79
