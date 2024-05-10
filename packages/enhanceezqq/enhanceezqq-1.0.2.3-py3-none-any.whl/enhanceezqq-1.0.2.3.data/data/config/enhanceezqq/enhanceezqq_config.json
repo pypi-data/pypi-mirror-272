@@ -1,0 +1,18 @@
+{
+	"debug_switch":"FALSE",
+	"initial_realtime_flag_switch":"FALSE",
+	"system_default_seconds":5,
+	"specialshowstartconfig":"\u001b[1;31;40m",
+	"specialshowendconfig":"\u001b[0m",
+	"database": 
+	{
+		"ip_address":"192.168.31.237",
+		"port": 3306,
+		"database_name":"enhanceezqq.db",
+		"database_type": "sqlite",
+		"type_comment": "sqlite or mysql",
+		"user_name":"admin",
+		"password":"30028b684f025758ced1447add1eec57",
+		"select_limit": 10000
+	}
+}
