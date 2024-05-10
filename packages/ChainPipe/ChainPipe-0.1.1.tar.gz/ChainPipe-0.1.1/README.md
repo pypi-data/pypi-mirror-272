@@ -1,0 +1,104 @@
+# ChainPipe
+
+ChainPipe is a Python package designed to facilitate efficient and modular handling of operations in a chain or pipeline manner. It provides two primary classes, `Chain` and `Pipeline`, which allow for sequential and independent operation executions respectively, with enhanced capabilities for logging and timing.
+
+## Features
+
+- **Chain**: Manage a sequence of operations where the output of one operation is the input to the next.
+- **Pipeline**: Execute a sequence of independent operations.
+- **Timer**: Utility for timing operations, useful for performance analysis.
+- **Logger**: Enhanced logging capabilities to track operation execution and errors.
+
+## Installation
+
+Install ChainPipe using pip:
+
+'pip install ChainPipe'
+
+Or, if you want to install from source:
+
+'git clone https://github.com/ayman3000/ChainPipe.git
+cd ChainPipe
+python setup.py install'
+
+## Usage
+
+Below are quick examples on how to use the `Chain` and `Pipeline` classes:
+
+### Chain Example
+
+```python
+from chainpipe.chain import Chain
+
+def multiply_by_two(x):
+    return x * 2
+
+def add_five(x):
+    return x + 5
+
+chain = Chain() | multiply_by_two | add_five
+result = chain.execute(3)
+print("Result:", result)
+```
+
+### Additional Chain Example Using `add_operation`
+
+```python
+from chainpipe.chain import Chain
+
+def multiply_by_three(x):
+    return x * 3
+
+def subtract_two(x):
+    return x - 2
+
+chain = Chain()
+chain.add_operation(multiply_by_three)
+chain.add_operation(subtract_two)
+result = chain.execute(4)
+print("Result:", result)
+```
+
+### Pipeline Example
+
+```python
+from chainpipe.pipeline import Pipeline
+
+def initialize_system():
+    print("System initialized")
+
+def perform_checks():
+    print("Checks performed")
+
+pipeline = Pipeline() | initialize_system | perform_checks
+pipeline.execute()
+```
+
+### Additional Pipeline Example Using `add_operation`
+
+```python
+from chainpipe.pipeline import Pipeline
+
+def load_configuration():
+    print("Configuration loaded")
+
+def start_services():
+    print("Services started")
+
+pipeline = Pipeline()
+pipeline.add_operation(load_configuration)
+pipeline.add_operation(start_services)
+pipeline.execute()
+```
+
+## Contributing
+
+Contributions are welcome! Please read the CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Contact
+
+For any questions or feedback, please reach out to ayman3000@gmail.com.
