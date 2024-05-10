@@ -1,0 +1,6 @@
+README.md
+setup.py
+SQLParserDataPipeline.egg-info/PKG-INFO
+SQLParserDataPipeline.egg-info/SOURCES.txt
+SQLParserDataPipeline.egg-info/dependency_links.txt
+SQLParserDataPipeline.egg-info/top_level.txt
