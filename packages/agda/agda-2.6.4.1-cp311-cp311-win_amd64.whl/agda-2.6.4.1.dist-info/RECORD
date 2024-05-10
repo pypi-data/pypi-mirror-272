@@ -1,0 +1,16 @@
+agda/Binding.hs,sha256=0JDEK_o8s37Qt4id6dK1xeB_wLTjiDZDJfNyUuUZCrE,1518
+agda/__init__.py,sha256=9Reb12eopUxhCopsiJz4TpNKZH901DPZBgKDuknownU,488
+agda/__main__.py,sha256=wCkgVrn0-P2rnC6RvJDmYZ1DS5E4qf6xI2j18sqKgNU,353
+agda/_binding.cp311-win_amd64.pyd,sha256=QYpM_YYIB7zOjgwtCsMHp_ObuuuQm1108EdLNy-mwZA,122355712
+agda/_binding.py,sha256=6f4Z0L1t0gM_KYnA3hscHGIe1xVqnLt7bxph-_HpC2o,598
+agda/_binding.pyi,sha256=W9jMJ-Sbbu6jaisVc9ShuBQjGpOeU4-DQU8MZ63JvUY,284
+agda/binding.def,sha256=1LCHNMrMeviho0mKw0r4-Kf9GrPIty34P12yAUyuovw,28
+agda/binding.i,sha256=yK1OdXeu9MmOKEBf28xErqxySTbL0M3pEqJ65CfVca8,1324
+agda/mode/__init__.py,sha256=Vdavf9OhKeqlhQCLLQA_joSkro43v9a5T-2xXNup8Bw,291
+agda/mode/__main__.py,sha256=J9zP_lu9CSLUiyZ5pWOn9b7D-NOPi4pOS9hYzipMrj4,368
+agda-2.6.4.1.dist-info/LICENSE,sha256=Rixi_PXAnLnj0OCXlKynIqt9PWhoheCU3htCRCJhcGQ,1075
+agda-2.6.4.1.dist-info/METADATA,sha256=YFGFDVp1ubP-KuZyaHQvjXvwaNRcB-U6WEFhm2_uTms,4050
+agda-2.6.4.1.dist-info/WHEEL,sha256=nSybvzWlmdJnHiUQSY-d7V1ycwEVUTqXiTvr2eshg44,102
+agda-2.6.4.1.dist-info/entry_points.txt,sha256=ZB9dqP6YQG11A8Z3WcgsbE0E47h7gawFlf-U08ovnqg,80
+agda-2.6.4.1.dist-info/top_level.txt,sha256=88XvtZ_oCo0WpIgK7LXBbbTuYah6mUZ3iqg0WClwRIA,5
+agda-2.6.4.1.dist-info/RECORD,,
