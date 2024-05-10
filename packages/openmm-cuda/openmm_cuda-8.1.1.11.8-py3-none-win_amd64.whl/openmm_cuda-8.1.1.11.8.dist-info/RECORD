@@ -1,0 +1,8 @@
+OpenMM.libs/lib/plugins/OpenMMAmoebaCUDA.dll,sha256=n8y3nGIJXtaFDJHw1Ab2SlTDjyIAfyspxjV-fwTWURA,1075712
+OpenMM.libs/lib/plugins/OpenMMCUDA.dll,sha256=PeQMRRfCWJJSLXy4SgIUfI98aweT8hlZm-WXQv9gZfw,1737216
+OpenMM.libs/lib/plugins/OpenMMDrudeCUDA.dll,sha256=8QPopLEZuSCYj_E915-22YeV2uKXW1qWmauWyI7rDJk,108032
+OpenMM.libs/lib/plugins/OpenMMRPMDCUDA.dll,sha256=TcPMVQ4eePlktZJ1Uqt3GBhSFkAwui5UyX14-7KM-T0,124416
+openmm_cuda-8.1.1.11.8.dist-info/METADATA,sha256=9d8Tu54lfQU_CKx9oPas4u4iXRIBlaU1R_dlxiTtYvw,96
+openmm_cuda-8.1.1.11.8.dist-info/RECORD,,
+openmm_cuda-8.1.1.11.8.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+openmm_cuda-8.1.1.11.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
