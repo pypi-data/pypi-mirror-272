@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+racesz/__init__.py
+racesz/main.py
+racesz.egg-info/PKG-INFO
+racesz.egg-info/SOURCES.txt
+racesz.egg-info/dependency_links.txt
+racesz.egg-info/requires.txt
+racesz.egg-info/top_level.txt
