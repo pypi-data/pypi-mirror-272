@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: create_flask_package
+Version: 0.1.1
+Author: Nasir iqbal
+Requires-Dist: Flask
+Requires-Dist: Flask-SQLAlchemy
+Requires-Dist: Flask-CORS
+Requires-Dist: Flask-Login
+Requires-Dist: Flask-Session
