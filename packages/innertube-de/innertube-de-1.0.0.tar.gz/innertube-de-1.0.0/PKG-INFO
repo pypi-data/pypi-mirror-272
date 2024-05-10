@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: innertube-de
+Version: 1.0.0
+Summary: InnerTube Data Extractor
+Home-page: https://github.com/g3nsy/innertube-de
+Author: g3nsy
+Author-email: g3nsydev@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+# innertube-de (InnerTube Data Extractor)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://en.wikipedia.org/wiki/MIT_License)
+
+innertube-de is a python tool for extracting, organizing and classifying data provided by InnerTube, Google's private API.
+The extraction process returns a Container object containing all relevant information.
+Regardless of the InnerTube client (WEB, WEB_REMIX, etc...) the extraction is performed using a single method.
+See also https://github.com/tombulled/innertube as an example of an InnerTube client.
+### Installation
+```shell
+pip install innertube-de
+```
+
+### Usage
+
+```python 
+# from https://github.com/tombulled/innertube
+from innertube.clients import InnerTube
+from innertube_de import InnerTubeDE, SongItem, AlbumItem
+
+client = InnerTube("WEB_REMIX")  # YouTube Music client
+extractor = InnerTubeDE(include_all_urls=False)  # InnerTube data extractor 
+
+unclear_data = client.search("Rioji Ikeda")
+clear_data = extractor.extract(unclear_data)
+
+# the item at the top of the results
+print("header:", clear_data.header)
+
+# multimedia content is organized inside the shelves
+for shelf in clear_data:
+    print("shelf name:", shelf.title)
+    print("shelf endpoint:", shelf.endpoint)
+    for item in shelf:
+
+        # common attributes
+        print("name:",           item.title)
+        print("endpoint:",       item.endpoint)
+        print("description:",    item.description)
+        print("thumbnail_urls:", item.thumbnail_urls)
+
+        # Depending on the type of items, additional information is present.
+        if isinstance(item, SongItem):
+            print("artist items:",  item.artist_items)
+            print("album_item:",    item.album_item)
+            print("explicit:",      item.explicit)
+            print("length:",        item.length)
+            print("reproductions:", item.reproductions)
+
+        # ...
+
+        elif isinstance(item, AlbumItem):
+            print("tracks num:",   item.tracks_num)
+            print("release year:", item.release_year)
+            # ...
+```
+
+### Support
+The following methods are currently supported and tested:
+
+|                              | YouTube | YouTubeMusic | YouTubeKids | YouTubeStudio |
+|------------------------------|---------|--------------|-------------|---------------|
+| search                       | &check; | &check;      |             |               |
+| browse                       | &check; | &check;      |             |               |
+| next                         | &check; | &check;      |             |               |
+| player                       | &check; | &check;      |             |               |
+| guide                        |         |              |             |               |
+| config                       |         |              |             |               |
+| get_transcript               |         |              |             |               |
+| music/get_search_suggestions |         |              |             |               |
+| music/get_queue              |         |              |             |               |
+
+
+### JSON support
+Each data structure is natively serializable and deserializable.
+Here is an example of a json file obtained by serializing a YouTubeMusicVideoItem object.
+```json
+{
+    "type": "YouTubeMusicVideo", 
+    "name": "Ryoji Ikeda: music for strings | Ensemble Modern", 
+    "endpoint": {
+        "params": null,
+        "type": "watchEndpoint",
+        "video_id": "HxIVpcO4kHc",
+        "playlist_id": null,
+        "index": null
+    },
+    "thumbnail_urls": [
+        {
+            "url": "https://i.ytimg.com/vi/HxIVpcO4kHc/sdde...",
+            "width": 400,
+            "height": 225
+        }
+    ],
+    "description": null,
+    "views": 761,
+    "length": {
+        "hour": 0,
+        "minute": 4,
+        "second": 11
+    },
+    "artist_items": [
+        {
+            "type": "Artist",
+            "name": "Ensemble Modern",
+            "endpoint": {
+                "params": null,
+                "type": "browseEndpoint",
+                "browse_id": "UCmS-vBA6ufbf-C8DnAWF34g"
+            },
+            "thumbnail_urls": null,
+            "description": null,
+            "subscribers": null
+        }
+    ]
+}
+```
+
+## Disclaimer
+innertube-de heavily relies on data provided by InnerTube. The reliability and functionality of this code may vary over time, as they are subject to any changes or updates made by InnerTube's data structure or API. 
+It's recommended to stay updated with any releases or announcements related to innertube-de.
