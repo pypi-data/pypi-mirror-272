@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+antimodernlyz/__init__.py
+antimodernlyz/main.py
+antimodernlyz.egg-info/PKG-INFO
+antimodernlyz.egg-info/SOURCES.txt
+antimodernlyz.egg-info/dependency_links.txt
+antimodernlyz.egg-info/requires.txt
+antimodernlyz.egg-info/top_level.txt
