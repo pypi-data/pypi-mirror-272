@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry.scripts]
+aim = "aim_flask:print_version"
+
+[tool.poetry]
+name = "aim_flask"
+version = "1.0.3"
+description = "Front-end Development Framework for UI/UX designers and Front-end developers."
+authors = ["Joe Mayami <pr.mayami@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+    
