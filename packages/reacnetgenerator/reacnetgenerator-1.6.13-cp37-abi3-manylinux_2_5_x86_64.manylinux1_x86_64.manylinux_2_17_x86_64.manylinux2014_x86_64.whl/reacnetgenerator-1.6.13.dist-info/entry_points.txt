@@ -1,0 +1,6 @@
+[console_scripts]
+reacnetgenerator = reacnetgenerator.commandline:_commandline
+
+[gui_scripts]
+reacnetgeneratorgui = reacnetgenerator.gui:gui
+
