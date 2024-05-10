@@ -1,0 +1,8 @@
+README.md
+setup.py
+cugdt/Tiff.py
+cugdt/__init__.py
+cugdt.egg-info/PKG-INFO
+cugdt.egg-info/SOURCES.txt
+cugdt.egg-info/dependency_links.txt
+cugdt.egg-info/top_level.txt
