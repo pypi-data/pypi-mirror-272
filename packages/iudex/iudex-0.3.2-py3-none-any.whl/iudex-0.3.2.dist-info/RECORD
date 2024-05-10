@@ -1,0 +1,15 @@
+iudex/__init__.py,sha256=H8I2yFBOns2-A4bWr90k3JgbZJ7kJg4HzybrvQqrE-M,54
+iudex/chat.py,sha256=BdXd4FUgkHkc0-ZLDtndHVIz6hMc3BIuQGawfVzI5cY,7348
+iudex/client.py,sha256=NNADYtUNNHn857Mz1WtMccRyYnacyEiVgx-td8MmNWs,7295
+iudex/functions.py,sha256=RfP0xK0uwqS9Fim_eZIrmS8DVSlABK_QuX1qpuM-K0o,1653
+iudex/instrumentation/README.md,sha256=U5ZT-nO8tQR8zSAQoiptBUF2qZkToA2JgMGZQvCBMyo,1429
+iudex/instrumentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iudex/instrumentation/fastapi_instrumentation.py,sha256=MvZDEPtHKCjFklwOdJ70E-Kmg6MbpySmOCaEmlTRB5A,1605
+iudex/instrumentation/lambda_instrumentation.py,sha256=obcRBgIYPkmAki7j6Ow-OKjvbOeX7FdQs3z8iiRg8qA,1532
+iudex/resource.py,sha256=warziwy5rCAblphvf7EyV-eolLJBtz5mjNEeg4ST8GQ,236
+iudex/types/function.py,sha256=Z8I1CaGnPH4vvQnfL4ZW5j0gmkeoKWOKxbc2oNEe3HY,4349
+iudex/utils.py,sha256=yk45NNJkEKnCtsUMK7zQCHi9GMPBGJmoVTn1V0YRmmY,137
+iudex-0.3.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+iudex-0.3.2.dist-info/METADATA,sha256=eTOwm-Q6p_JY6FyyFzR1DuWvRHs0zLIBdNzVmFXp8HY,9119
+iudex-0.3.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+iudex-0.3.2.dist-info/RECORD,,
