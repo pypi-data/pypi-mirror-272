@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ljsmartlab
+Version: 0.1
+Summary: A simple test library for Python
+Author: Your Name
+Keywords: testing,example
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+This libray create for ljsmartlab
