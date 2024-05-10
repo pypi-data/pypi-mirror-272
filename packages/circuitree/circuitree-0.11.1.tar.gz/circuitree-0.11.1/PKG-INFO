@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: circuitree
+Version: 0.11.1
+Summary: Genetic circuit design using Monte Carlo tree search
+License: GPLv3
+Author: pranav-bhamidipati
+Author-email: pbhamidi@usc.edu
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: distributed
+Requires-Dist: celery[redis] (>=5.3.1,<6.0.0); extra == "distributed"
+Requires-Dist: gevent (>=23.9.1,<24.0.0); extra == "distributed"
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: numpy (>=1.23.0,<2.0.0)
+Requires-Dist: pandas (>=2.0.0,<3.0.0)
+Requires-Dist: scipy (>=1.11.3,<2.0.0); python_version >= "3.10" and python_version < "3.13"
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+<img src="https://raw.githubusercontent.com/pranav-bhamidipati/circuitree/main/logo.png" width="300">
+</h1><br>
+
+Biochemical circuit design using Monte Carlo tree search
+
+## Installation
+
+```pip install circuitree```
+
+## Getting Started
+
+[Getting started tutorial](https://githubtocolab.com/pranav-bhamidipati/circuitree-tutorial/blob/main/src/tutorial-1-getting-started.ipynb). 
+
+See the [`circuitree-tutorial`](https://github.com/pranav-bhamidipati/circuitree-tutorial) repo for additional tutorials and example scripts.
+
+## Documentation
+
+API docs coming soon
+
+
+© 2024 Pranav Bhamidipati
+Logo © 2024 Inna-Marie Strazhnik 
+
