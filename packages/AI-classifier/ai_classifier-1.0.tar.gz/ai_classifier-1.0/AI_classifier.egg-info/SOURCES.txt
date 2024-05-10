@@ -1,0 +1,8 @@
+README.md
+setup.py
+AI_classifier.egg-info/PKG-INFO
+AI_classifier.egg-info/SOURCES.txt
+AI_classifier.egg-info/dependency_links.txt
+AI_classifier.egg-info/top_level.txt
+AI_text_classifier/__init__.py
+AI_text_classifier/classifier.py
