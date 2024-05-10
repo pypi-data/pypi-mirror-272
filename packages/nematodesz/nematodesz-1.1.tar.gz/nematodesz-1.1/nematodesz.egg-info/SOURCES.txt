@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nematodesz/__init__.py
+nematodesz/main.py
+nematodesz.egg-info/PKG-INFO
+nematodesz.egg-info/SOURCES.txt
+nematodesz.egg-info/dependency_links.txt
+nematodesz.egg-info/requires.txt
+nematodesz.egg-info/top_level.txt
