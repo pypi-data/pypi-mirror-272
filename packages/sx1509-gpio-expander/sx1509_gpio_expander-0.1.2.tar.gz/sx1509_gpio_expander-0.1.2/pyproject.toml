@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sx1509_gpio_expander"
+version = "0.1.2"
+authors = [
+  { name="Tim Schumann", email="gerb008701@gmail.com" },
+]
+description = "A package to control the SX1509 GPIO expander"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/T-N-S/SX1509_gpio_expander_package"
