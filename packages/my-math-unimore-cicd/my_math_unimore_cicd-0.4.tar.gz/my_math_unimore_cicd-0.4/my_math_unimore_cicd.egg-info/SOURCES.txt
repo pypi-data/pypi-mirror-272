@@ -1,0 +1,14 @@
+README.md
+__init__.py
+ciccio.py
+setup.py
+test_unimore_math.py
+my_math/__init__.py
+my_math/unimore_math.py
+my_math_unimore_cicd.egg-info/PKG-INFO
+my_math_unimore_cicd.egg-info/SOURCES.txt
+my_math_unimore_cicd.egg-info/dependency_links.txt
+my_math_unimore_cicd.egg-info/requires.txt
+my_math_unimore_cicd.egg-info/top_level.txt
+pippo/__init__.py
+pippo/peppia.py
