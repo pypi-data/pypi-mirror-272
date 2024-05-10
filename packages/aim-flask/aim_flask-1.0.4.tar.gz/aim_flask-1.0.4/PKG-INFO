@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: aim_flask
+Version: 1.0.4
+Summary: Front-end Development Framework for UI/UX designers and Front-end developers.
+Author: Joe Mayami
+Author-email: pr.mayami@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
