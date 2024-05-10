@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+geddsz/__init__.py
+geddsz/main.py
+geddsz.egg-info/PKG-INFO
+geddsz.egg-info/SOURCES.txt
+geddsz.egg-info/dependency_links.txt
+geddsz.egg-info/requires.txt
+geddsz.egg-info/top_level.txt
