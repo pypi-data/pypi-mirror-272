@@ -1,0 +1,7 @@
+setup.py
+unimore_math1/__init__.py
+unimore_math1/my_math.py
+unimore_math1.egg-info/PKG-INFO
+unimore_math1.egg-info/SOURCES.txt
+unimore_math1.egg-info/dependency_links.txt
+unimore_math1.egg-info/top_level.txt
