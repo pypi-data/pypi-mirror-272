@@ -1,0 +1,12 @@
+moschitta_serialization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moschitta_serialization/base_serializer.py,sha256=zVeByaLvFN-Kua3zZfYWPPBdQ__UXvxDTt1JulRxX8k,735
+moschitta_serialization/json_serializer.py,sha256=SvB4wW4j6Wh6YU_qlb2CKvaXX1GoVRNjU635N-s3XjE,746
+moschitta_serialization/msgpack_serializer.py,sha256=-3BW9fcWlQJPbDPbT_h-JFfo6g1Eoc2fQU8zy7DPAEU,794
+moschitta_serialization/protobuf_serializer.py,sha256=6NZU8e9UE0aN-TR509GUnpYgBqgYHg1sjGAGrJKHiRI,994
+moschitta_serialization/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moschitta_serialization/yaml_serializer.py,sha256=Ui5qC7bcynVvk5rUsYx_tQGfIing_Gt1oGWrQdiCCeo,762
+moschitta_serialization-0.1.0.dist-info/LICENSE,sha256=cXM67JOZ8Cqoz6P0PeKDsH8ZOFL7l8CpPeMmkw96poo,1096
+moschitta_serialization-0.1.0.dist-info/METADATA,sha256=TTOKRDd9S2b_y9QKdUV3ju64PwQQT1qzz8t1H5Ee3_s,3898
+moschitta_serialization-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+moschitta_serialization-0.1.0.dist-info/entry_points.txt,sha256=O681gU_8CAAJUup3xNH17tqyc4sn4gNKYTKcjPkj06Q,58
+moschitta_serialization-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+compile-protos=pythoncompile_protos.py
+
