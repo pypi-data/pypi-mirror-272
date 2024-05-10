@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+phosphomolybdicz/__init__.py
+phosphomolybdicz/main.py
+phosphomolybdicz.egg-info/PKG-INFO
+phosphomolybdicz.egg-info/SOURCES.txt
+phosphomolybdicz.egg-info/dependency_links.txt
+phosphomolybdicz.egg-info/requires.txt
+phosphomolybdicz.egg-info/top_level.txt
