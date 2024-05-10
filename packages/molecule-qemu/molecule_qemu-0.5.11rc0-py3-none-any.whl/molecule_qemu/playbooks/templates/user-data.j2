@@ -1,0 +1,23 @@
+#cloud-config
+
+ssh_pwauth: false
+users:
+  - name: root
+    ssh_authorized_keys:
+      - {{ ssh_keypair.public_key }}
+  {% if item.network_ssh_user != 'root' -%}
+  - name: {{ item.network_ssh_user }}
+    groups:
+      - admin
+      - users
+      {% if ansible_os_family == 'Debian' -%}
+      - sudo
+      {% elif ansible_os_family == 'RedHat' -%}
+      - wheel
+      {%- endif +%}
+    shell: /bin/bash
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    lock_passwd: true
+    ssh_authorized_keys:
+      - {{ ssh_keypair.public_key }}
+  {% endif %}
