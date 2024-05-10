@@ -1,0 +1,8 @@
+README.md
+setup.py
+anabih_python_test.egg-info/PKG-INFO
+anabih_python_test.egg-info/SOURCES.txt
+anabih_python_test.egg-info/dependency_links.txt
+anabih_python_test.egg-info/top_level.txt
+my_package/__init__.py
+my_package/greetings.py

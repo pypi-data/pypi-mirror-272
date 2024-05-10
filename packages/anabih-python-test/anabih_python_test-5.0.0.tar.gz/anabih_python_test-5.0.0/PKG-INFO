@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: anabih_python_test
+Version: 5.0.0
+Summary: Python test
+Home-page: https://github.com/anabih/python-test
+Author: Ahmed Nabih
+Author-email: anabih2000@yahoo.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+python-test project
