@@ -1,0 +1,13 @@
+poetry_stale_dependencies/__init__.py,sha256=hv-8mUblvM21H19e47qHtRKAnED66LaRWHs0t1bAyhU,86
+poetry_stale_dependencies/_version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+poetry_stale_dependencies/config.py,sha256=c2dYPAcgWt7Td1Grgqexi2BnH8WkZt077T2Drxch-uc,3494
+poetry_stale_dependencies/inspections.py,sha256=QU8EdU8IvWaI5gSCTBtrZ4BfPe_EK27-hrZZld5f16c,3807
+poetry_stale_dependencies/lock_spec.py,sha256=fhUu1IYalsRrL7d-K9EF9bbiQ08Bnqt6W9b2RArhzI4,2494
+poetry_stale_dependencies/plugin.py,sha256=1puNUGNp0I1R-e2KKepcDxP-VQ1ArKIdKMMuSkGP5Kc,3528
+poetry_stale_dependencies/remote.py,sha256=TQWN2JP01xGMVClun7QpZvScOzkb0yti0pNFs2W9_jY,6555
+poetry_stale_dependencies/util.py,sha256=8YAjhF3nlSCTMA9d5lbRVmC0Z_RZp1aLF6oSvpMMMS4,315
+poetry_stale_dependencies-0.1.1.dist-info/LICENSE,sha256=o_ptfjQWh8e5BW-QgEJrqqgXIJix5n_tAYhuT-pscJk,2049
+poetry_stale_dependencies-0.1.1.dist-info/METADATA,sha256=clIDr5y-PZcRxkT5VOKKnrTu48nblVNflAAf7EksWks,514
+poetry_stale_dependencies-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+poetry_stale_dependencies-0.1.1.dist-info/entry_points.txt,sha256=Lmha7YVxV8PJfn1f59yGiGwvqKu29U4jixQMUF-qOmI,105
+poetry_stale_dependencies-0.1.1.dist-info/RECORD,,
