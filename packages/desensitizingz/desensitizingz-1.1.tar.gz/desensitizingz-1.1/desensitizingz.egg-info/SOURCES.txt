@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+desensitizingz/__init__.py
+desensitizingz/main.py
+desensitizingz.egg-info/PKG-INFO
+desensitizingz.egg-info/SOURCES.txt
+desensitizingz.egg-info/dependency_links.txt
+desensitizingz.egg-info/requires.txt
+desensitizingz.egg-info/top_level.txt
