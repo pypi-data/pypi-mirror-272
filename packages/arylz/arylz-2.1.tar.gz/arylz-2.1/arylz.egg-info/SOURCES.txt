@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+arylz/__init__.py
+arylz/main.py
+arylz.egg-info/PKG-INFO
+arylz.egg-info/SOURCES.txt
+arylz.egg-info/dependency_links.txt
+arylz.egg-info/requires.txt
+arylz.egg-info/top_level.txt
