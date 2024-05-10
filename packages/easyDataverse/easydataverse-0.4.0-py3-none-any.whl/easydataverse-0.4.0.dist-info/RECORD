@@ -1,0 +1,13 @@
+easyDataverse/__init__.py,sha256=OVaeGhn9VGYlVSUYgyek09gN208gCkZdhKn8TlbME04,155
+easyDataverse/base.py,sha256=NdtIBbmZ5LZ3jl2bP6KZ3bpnmJHoHRDQUpm_OxnRdQk,13437
+easyDataverse/classgen.py,sha256=-RrUfPNzMBSqjIt5sZbLv_eJOjMtVtSlSwVvzMnoUBg,11339
+easyDataverse/connect.py,sha256=ItE5dCeJVgdogpE6sU-Js0gjzhKtoaoE54mCFl0YyzA,1867
+easyDataverse/dataset.py,sha256=-5Za_rEaQnxoKqxj5V03Fh2Wht241xUrmyt3ceco2YU,12760
+easyDataverse/dataverse.py,sha256=0YKg8AhKJO6qBDSHURvdw8RvC8vDPOBwxpoqKslLQoA,18696
+easyDataverse/downloader.py,sha256=P6P4e36fHBsIL-DAjtFKpuNBb06Z9u2yy6mdmJWlPfQ,5958
+easyDataverse/uploader.py,sha256=qwlWlpwD8ToombJ54mgCN9JnIPVQWnJtzNH4qe0MN70,4402
+easyDataverse/utils.py,sha256=1uYBv3IQS67zqdCGL72mQmZTxWrz8OfbOIQ4bNFt3_g,174
+easydataverse-0.4.0.dist-info/LICENSE,sha256=-3dThqRPkVc2gcMK0irtszjURi0vgyLZF-OH6bm7EM8,1066
+easydataverse-0.4.0.dist-info/METADATA,sha256=i6w2fFxUzbjVl6hrsdEGpkkXXEYTdgdoAkyURAwlt-Q,5027
+easydataverse-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+easydataverse-0.4.0.dist-info/RECORD,,
