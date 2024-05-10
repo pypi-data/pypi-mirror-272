@@ -1,0 +1,9 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playpty/__init__.py,sha256=aI5kPcRuuHXVSuEgg9cyyTnjxvrxFJLKxpLXfXFXusY,23
+playpty/playpty.py,sha256=I6xufnmlYhQhZOITO8a-d8It5HKohX6vrw_rZjfyivY,3863
+playpty-0.1.0.dist-info/LICENSE,sha256=J30-axtfqJECJ0fwRRG9lG7fcleIqsOXiMJ3UdnC6Xc,1070
+playpty-0.1.0.dist-info/METADATA,sha256=rVA6Q9_XMeescMKN3kNxILeq_374X7ocQ7RFLUAEs2s,2210
+playpty-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+playpty-0.1.0.dist-info/entry_points.txt,sha256=b7ZOpUS2YwIKA-7riaMxSiGU0TZbX4K97_OsdG7Z7Mg,41
+playpty-0.1.0.dist-info/top_level.txt,sha256=wZjT61TQ8I7Z7BuupPsPI7L-cmi0pIRyn8a2cwKjG7M,17
+playpty-0.1.0.dist-info/RECORD,,
