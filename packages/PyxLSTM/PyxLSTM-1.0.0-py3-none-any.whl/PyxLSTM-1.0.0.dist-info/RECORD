@@ -1,0 +1,10 @@
+xLSTM/__init__.py,sha256=4gu-nWVgf-ASHD5XvDmy7hx_z9Pt2Z_pCAMiLdsvn24,157
+xLSTM/block.py,sha256=Exgf37qJ4MKGQ8w2aLE0nar2Bs8_OZhdcv56zKyjF84,2496
+xLSTM/mlstm.py,sha256=18JGXVyx55QWFxNl3Nx9TGKRUxI_Boi85pcO9PuJpgk,3648
+xLSTM/model.py,sha256=mOgMlTmn1TH5P0f2UrdYSW2n7viA_v-DzHgfQ9ZYWg8,1874
+xLSTM/slstm.py,sha256=HqNZlQIKieziPysbHhQBMLg9UTU297K5zbwNjBD6pZc,2760
+PyxLSTM-1.0.0.dist-info/LICENSE,sha256=oK5QJGDoAuKor8Qtts0o08XQgkWuU-DGsTbOdLUUOJI,1071
+PyxLSTM-1.0.0.dist-info/METADATA,sha256=7WtpX_Di6WVprUcrkNh9Ym_v82ysg4T9-kDILSFCRFQ,12220
+PyxLSTM-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+PyxLSTM-1.0.0.dist-info/top_level.txt,sha256=BzqxYFcfRYT__2fVfscRjhLLcRCoZyCJRWIgzxM-IWg,6
+PyxLSTM-1.0.0.dist-info/RECORD,,
