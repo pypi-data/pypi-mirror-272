@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hfive"
+version = "0.1.2"
+description = "A simple TUI for viewing HDF5 files."
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [{ name = "Flavio Lorez", email = "florez@ethz.ch" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["HDF5", "terminal", "user interface", "bamboost"]
+dependencies = [
+    "urwid",
+    "h5py",
+    "numpy",
+]
+requires-python = ">=3.7"
+
+[project.entry-points.console_scripts]
+hfive = "hfive.main:main"
+
+[project.urls]
+repository = "https://gitlab.com/zrlf/hfive"
+changelog = "https://gitlab.com/zrlf/hfive/-/tree/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+include = ["hfive", "hfive.*"]
+
+[tool.black]
+line-length = 100
