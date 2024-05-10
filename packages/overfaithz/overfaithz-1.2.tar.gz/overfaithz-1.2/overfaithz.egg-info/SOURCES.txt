@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+overfaithz/__init__.py
+overfaithz/main.py
+overfaithz.egg-info/PKG-INFO
+overfaithz.egg-info/SOURCES.txt
+overfaithz.egg-info/dependency_links.txt
+overfaithz.egg-info/requires.txt
+overfaithz.egg-info/top_level.txt
