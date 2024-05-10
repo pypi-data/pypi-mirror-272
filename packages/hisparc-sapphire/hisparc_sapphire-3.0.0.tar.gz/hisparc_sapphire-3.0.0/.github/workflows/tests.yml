@@ -1,0 +1,62 @@
+name: Run tests
+
+on:
+  push:
+
+defaults:
+  run:
+    shell: bash -l {0}
+
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [
+            '3.9',
+            '3.10',
+            '3.11',
+            '3.12',
+        ]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+          auto-update-conda: true
+      - run: conda install --quiet --yes astropy numpy scipy pytables numba
+      - run: pip install -e .[dev]
+      - run: make unittests
+      - run: coverage report
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install ruff
+      - run: make linttest
+
+  docs:
+    if: github.ref == 'refs/heads/master'
+    needs: [tests, lint]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          python-version: '3.11'
+          auto-update-conda: true
+      - run: conda install --quiet --yes astropy numpy scipy pytables numba
+      - run: pip install -e .[dev]
+      - run: pip install Sphinx
+      - run: make doctest
+      - uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: doc/_build/html
+          publish_branch: gh-pages
+          force_orphan: true
