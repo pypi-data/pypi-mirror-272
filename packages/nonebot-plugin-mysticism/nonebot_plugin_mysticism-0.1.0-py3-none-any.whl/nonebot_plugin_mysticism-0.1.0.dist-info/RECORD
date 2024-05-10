@@ -1,0 +1,15 @@
+nonebot_plugin_mysticism/__init__.py,sha256=Wu4Do43XV_JVg0ZCgHY-r2Hs29NLUAKDMBu_594QnAo,470
+nonebot_plugin_mysticism/config.py,sha256=8a9o54oreOaCAtA-qSuGgTF71MzsO4isFHGrVaxITHM,158
+nonebot_plugin_mysticism/rule.py,sha256=-9INmk5PakQv8eyvH2ox6HHPiqocD3rF9i36GLSBtI4,702
+nonebot_plugin_mysticism/tarot.py,sha256=zY0_vSEoMQhQjlNSZcpoBBlAXivR0Eqs3Y_ZmSLtkVA,5325
+nonebot_plugin_mysticism/tarot_formations.yaml,sha256=dfbAAHK7u7FWRDpwNQKo-BLnKRzgZo2ESmm69hzGyX4,3649
+nonebot_plugin_mysticism/tarot_theme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot_plugin_mysticism/tarot_theme/bilibili.yaml,sha256=9CNsQzatST496mPbZ8koFG6TUlA4YhKiaf3H4fo8-BI,3327
+nonebot_plugin_mysticism/tarot_theme/blue_archive.yaml,sha256=c9QJu1sg7kRGySQod3hw5DpakbT11I-THvXCor9fuuE,774
+nonebot_plugin_mysticism/tarot_theme/waite.yaml,sha256=n6D9gYKIZpRGWjhP-YYX_sEW2XFAVRcRs0z1307lFwU,2176
+nonebot_plugin_mysticism/tarot_uitls.py,sha256=36a9Ihjl_dj85GvV7sCOllRfSxO-IutC5AH51KIbMeA,11064
+nonebot_plugin_mysticism/utils.py,sha256=0mhC-trsG8aoPPAixvJEVvz6g3a4IDKip6U0oRsYUlo,959
+nonebot_plugin_mysticism-0.1.0.dist-info/LICENSE,sha256=-tI4IJP9zNDSuDwxilSvL8wJTlM7Y-dOdpYZex5odpU,11332
+nonebot_plugin_mysticism-0.1.0.dist-info/METADATA,sha256=ZUjva--sZcdoj5Lv_vw0iGhawtlMOsd1DtWJOmlbMGg,3208
+nonebot_plugin_mysticism-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nonebot_plugin_mysticism-0.1.0.dist-info/RECORD,,
