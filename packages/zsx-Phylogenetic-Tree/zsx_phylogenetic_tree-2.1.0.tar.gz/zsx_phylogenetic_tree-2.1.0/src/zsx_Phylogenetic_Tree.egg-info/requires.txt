@@ -1,0 +1,4 @@
+zsx-some-tools>=2.0.0
+zsx-ring-plot
+platform
+pandas
