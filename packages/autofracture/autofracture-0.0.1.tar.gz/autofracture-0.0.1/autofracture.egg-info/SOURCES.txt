@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+autofracture/__init__.py
+autofracture/__version__.py
+autofracture/mzc.py
+autofracture.egg-info/PKG-INFO
+autofracture.egg-info/SOURCES.txt
+autofracture.egg-info/dependency_links.txt
+autofracture.egg-info/requires.txt
+autofracture.egg-info/top_level.txt
