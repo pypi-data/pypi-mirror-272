@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+siberiaz/__init__.py
+siberiaz/main.py
+siberiaz.egg-info/PKG-INFO
+siberiaz.egg-info/SOURCES.txt
+siberiaz.egg-info/dependency_links.txt
+siberiaz.egg-info/requires.txt
+siberiaz.egg-info/top_level.txt
