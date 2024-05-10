@@ -1,0 +1,11 @@
+roboreg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roboreg/detector.py,sha256=8qQJth92fAGCTwEKqrTlrnuFtqfiQ2vSmy-dIjZXGUk,1723
+roboreg/hydra_icp.py,sha256=K8TeK8x7Ngj7Zam00HFnG5UYCv3P68_Lp2elNt1r8uc,11266
+roboreg/o3d_robot.py,sha256=SBTbIa3fuJdR_PXqufbZHrVYLRNgx-Ov0dvs0gQvZrM,6332
+roboreg/segmentor.py,sha256=Tmo_cG4_yvm_CXVlRYCcED3OHNP9XaVu8V7hvQPulY8,908
+roboreg/util.py,sha256=cPBzdDNqs0-DFABi074mttn_iaOIXQHWakwenV6EzOI,4479
+roboreg-0.0.0.dist-info/LICENSE,sha256=NxH5Y8BdC-gNU-WSMwim3uMbID2iNDXJz7fHtuTdXhk,19346
+roboreg-0.0.0.dist-info/METADATA,sha256=Uz7ChMSD6JgtpD1wA_Cmzn39mJZkJPJqmWVxrrfcG4o,74
+roboreg-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+roboreg-0.0.0.dist-info/top_level.txt,sha256=1cWc6gfQdMPKXWttF-c0LCDToXT0sQpJ1lfJ2mfQbo8,8
+roboreg-0.0.0.dist-info/RECORD,,
