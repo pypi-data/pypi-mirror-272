@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pygolomb"
+version = "0.1.1"
+description = "A small Python library to test binary sequences with Golomb's randomness postulates."
+authors = ["alxwnth <alxwnth@posteo.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.0"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
