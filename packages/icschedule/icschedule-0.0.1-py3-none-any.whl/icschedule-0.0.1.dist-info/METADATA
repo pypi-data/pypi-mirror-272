@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: icschedule
+Version: 0.0.1
+Summary: A utility to interface with HPC job schedulers.
+Author-email: "James Grogan, Irish Centre for High End Computing" <james.grogan@ichec.ie>
+Project-URL: Repository, https://git.ichec.ie/performance/toolshed/icschedule
+Project-URL: Homepage, https://git.ichec.ie/performance/toolshed/icschedule
+Keywords: Slurm,HPC,tasks,MPI
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-sugar ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+
+# icschedule
+
+This project is part of a collection of tools to support running HPC jobs at ICHEC. It provides utilities for working with job schedulers, e.g. Slurm and includes a basic scheduler and collection of mocks to help with submission script prototyping.
+
+# Tests
+
+In a Python virtual environment do:
+
+```sh
+pip install .'[test]'
+```
+
+## Unit Tests
+
+```sh
+pytest
+```
+
+## Linting and Static Analysis
+
+```sh
+black src test
+mypy src test
+```
+
+## All Tests
+
+Requires `tox`:
+
+```sh
+tox
+```
+
