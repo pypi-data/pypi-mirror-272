@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+atticizingz/__init__.py
+atticizingz/main.py
+atticizingz.egg-info/PKG-INFO
+atticizingz.egg-info/SOURCES.txt
+atticizingz.egg-info/dependency_links.txt
+atticizingz.egg-info/requires.txt
+atticizingz.egg-info/top_level.txt
