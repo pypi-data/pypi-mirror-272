@@ -1,0 +1,13 @@
+autoimport-1.5.0.dist-info/METADATA,sha256=dfUNwvotJuih-aRefNZw8ubrMjQOk6Gk_B2xZ22EYL0,2656
+autoimport-1.5.0.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+autoimport-1.5.0.dist-info/entry_points.txt,sha256=_h93mf0LG10mXci-AU4khRzq94qgf2ZsjRr8vmuUm0w,63
+autoimport-1.5.0.dist-info/licenses/LICENSE,sha256=NryOPosgwdBO1_7xGaHC6Wu50ARO-vhQAdZLOIVJ7Ew,35150
+autoimport/__init__.py,sha256=FL63vfmvlUNeHSOK2fCD-CG57BdversSavH82wO2zY0,346
+autoimport/__main__.py,sha256=Ab0HoGHAnkvzWiBPb3rjPBzQu5BHRo9m5SdFYzgzaUI,333
+autoimport/entrypoints/__init__.py,sha256=QT-q6lI9wN7Dhst6Yl7nM1bf4lw9GpQ-g0niktH4EAY,971
+autoimport/entrypoints/cli.py,sha256=OOxfjp1BX7Z_gkxDgsvVqEziN9lD7eeNQeIvzkqqWxQ,3241
+autoimport/model.py,sha256=U4A8b1bI2YfJC1RTkva4SlX2Ez1eQDAhhrWJav-k55c,20128
+autoimport/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoimport/services.py,sha256=jSDmGVnYx8ockMBA7I5hdWuZgmHCzXbmo-Uj1DTSCzU,2473
+autoimport/version.py,sha256=Mw4y6S5P0XSZAoigoNOmoXVIyrorUpNzrviZ4AiFPu4,644
+autoimport-1.5.0.dist-info/RECORD,,
