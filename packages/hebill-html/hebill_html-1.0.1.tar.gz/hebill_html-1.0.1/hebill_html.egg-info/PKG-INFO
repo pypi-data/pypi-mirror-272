@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hebill_html
+Version: 1.0.1
+Summary: python生成HTML代码
+Requires-Python: >=3.12
+Description-Content-Type: text/plain
+
+## 说明
+使用python生成HTML代码
+
+## 使用
