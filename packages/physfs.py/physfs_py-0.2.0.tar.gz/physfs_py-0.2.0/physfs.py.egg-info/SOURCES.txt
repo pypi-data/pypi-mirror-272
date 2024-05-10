@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+physfs.py.egg-info/PKG-INFO
+physfs.py.egg-info/SOURCES.txt
+physfs.py.egg-info/dependency_links.txt
+physfs.py.egg-info/not-zip-safe
+physfs.py.egg-info/requires.txt
+physfs.py.egg-info/top_level.txt
+tests/test.py
