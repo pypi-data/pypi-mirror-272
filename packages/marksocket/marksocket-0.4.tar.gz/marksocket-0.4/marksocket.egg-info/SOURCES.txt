@@ -1,0 +1,10 @@
+LICENSE
+marksocket.py
+pyproject.toml
+readme.md
+marksocket.egg-info/PKG-INFO
+marksocket.egg-info/SOURCES.txt
+marksocket.egg-info/dependency_links.txt
+marksocket.egg-info/entry_points.txt
+marksocket.egg-info/requires.txt
+marksocket.egg-info/top_level.txt
