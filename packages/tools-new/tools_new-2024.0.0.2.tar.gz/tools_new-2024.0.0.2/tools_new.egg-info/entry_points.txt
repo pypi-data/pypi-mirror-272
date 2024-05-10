@@ -1,0 +1,3 @@
+[console_scripts]
+tools_new = tools_py.main:main
+
