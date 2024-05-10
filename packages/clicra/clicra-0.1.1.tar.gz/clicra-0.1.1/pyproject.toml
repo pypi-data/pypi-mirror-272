@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+    "setuptools >=61",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name ="clicra"
+dependencies = [
+    "ollama >= 0.1.9",
+    "pyperclip >= 1.8.2",
+    "termcolor >= 2.4.0",
+    "setuptools >= 61",
+]
+requires-python = ">=3.10"
+authors = [
+    {name = "Toshihiro Kamiya", email = "kamiya@mbj.nifty.com"}
+]
+description = "A LLM command-line crafter"
+readme = "README.md"
+license = {text = "MIT LICENSE"}
+keywords = ["cli-tool", "LLM"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: POSIX :: Linux",
+]
+version = "0.1.1"
+
+[project.scripts]
+clicra = "clicra:main"
+
+[project.urls]
+Souce = "https://github.com/tos-kamiya/clicra"
+
+[tool.setuptools]
+packages = ["clicra"]
