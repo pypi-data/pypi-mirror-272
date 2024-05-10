@@ -1,0 +1,15 @@
+CHANGES
+=======
+
+0.2
+---
+
+* skip endpoint discovery
+
+0.1
+---
+
+* updates to object attributes, addition of functional tests
+* add offer/lease/node/event apis
+* Initial commit for esisdk resource class
+* Initial commit
