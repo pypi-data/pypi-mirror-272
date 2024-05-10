@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ezlogtools
+Version: 0.0.1
+Summary: A small package to deal with logging stuff
+Author: Dragon-KK
+Project-URL: Homepage, https://github.com/Dragon-KK/ezlogtools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: colorama>=0.4.6
