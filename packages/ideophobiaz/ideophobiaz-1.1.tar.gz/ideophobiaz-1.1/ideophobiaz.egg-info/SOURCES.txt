@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ideophobiaz/__init__.py
+ideophobiaz/main.py
+ideophobiaz.egg-info/PKG-INFO
+ideophobiaz.egg-info/SOURCES.txt
+ideophobiaz.egg-info/dependency_links.txt
+ideophobiaz.egg-info/requires.txt
+ideophobiaz.egg-info/top_level.txt
