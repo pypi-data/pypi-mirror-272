@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+erthlyz/__init__.py
+erthlyz/main.py
+erthlyz.egg-info/PKG-INFO
+erthlyz.egg-info/SOURCES.txt
+erthlyz.egg-info/dependency_links.txt
+erthlyz.egg-info/requires.txt
+erthlyz.egg-info/top_level.txt
