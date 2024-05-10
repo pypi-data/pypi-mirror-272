@@ -1,0 +1,41 @@
+sudo su hduser
+system password
+cd
+cd usr/local/hive/bin or cd usr/local/hive
+start_dfs.sh
+start_yarn.sh
+jps
+cd bin
+./hive
+
+create table pass(Name string, Number string);
+desc pass;
+
+insert into pass values(Sakshi, 9909098);
+
+select *from pass
+
+alter table pass add column age int;
+alter table pass drop column age
+
+select * from pass join info on pass.name == info.name
+
+LOAD DATA INPATH 'path_to_csv_file' INTO TABLE your_hive_table_name;
+
+show databases;
+show tables;
+
+select count(dat), dat from schedule group by dat;
+select avg(csal) from pass;
+
+CREATE INDEX cidx ON TABLE cust(cname) AS
+'org.apache.hadoop.hive.ql.index.compact.CompactIndexHandler' WITH DEFERRED REBUILD;
+
+CREATE EXTERNAL TABLE hbase_table_3(key string, value string,value1 string,value2
+string) STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' WITH
+SERDEPROPERTIES ("hbase.columns.mapping" = ":key,personal data:addr,personal
+data:name,personal data:ph") TBLPROPERTIES ("hbase.table.name" = "cust");
+
+exit;
+stop_all.sh
+jps

@@ -1,0 +1,138 @@
+Assignment 1(A)Dashboard
+
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      color: #343a40; /* Text color */
+    }
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #343a40;
+      padding-top: 20px;
+    }
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .card {
+      width: 30%;
+      background-color: #f8f9fa; /* Card background color */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+      background-color: #ffffff; /* Table background color */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #dee2e6;
+    }
+    th {
+      background-color: #343a40;
+      color: #ffffff;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: #343a40; /* Text color */
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #343a40; /* Text color */
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="sidebar">
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Dashboard</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Products</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Orders</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Users</a>
+    </li>
+  </ul>
+</div>
+
+<div class="content">
+  <div class="card">
+    <h5 class="card-title">Total Products</h5>
+    <p class="card-text">500</p>
+  </div>
+  <div class="card">
+    <h5 class="card-title">Total Orders</h5>
+    <p class="card-text">1000</p>
+  </div>
+  <div class="card">
+    <h5 class="card-title">Total Users</h5>
+    <p class="card-text">200</p>
+  </div>
+</div>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Customer Name</th>
+      <th>Product</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>John Doe</td>
+      <td>Product A</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jane Smith</td>
+      <td>Product B</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Michael Johnson</td>
+      <td>Product C</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

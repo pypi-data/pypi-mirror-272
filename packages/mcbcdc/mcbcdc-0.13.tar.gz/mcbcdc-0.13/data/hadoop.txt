@@ -1,0 +1,114 @@
+Step-1 - analyzelogs folder consists of 3 java programs and one csv input file, make hduser as
+its owner
+<acutal hadoop user name must be given in command>
+student@student-HP-Pro-3330-MT:/home$ sudo su hduser3
+[sudo] password for student:
+hduser3@student-HP-Pro-3330-MT:/home/student$ cd
+hduser3@student-HP-Pro-3330-MT:~$ pwd
+/home/hduser3
+hduser3@student-HP-Pro-3330-MT:~$ ls
+ana Desktop Downloads input2000 Pictures Templates
+analyzelogs Documents examples.desktop Music Public Videos
+<acutal folder name of analyzelogs must be given in command>
+hduser3@student-HP-Pro-3330-MT:~$ sudo chown -R hduser3 analyzelogs/
+hduser3@student-HP-Pro-3330-MT:~$ cd analyzelogs/
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ ls
+access_log_short.csv Manifest.txt
+access_log_short.txt SalesCountry
+analyzelogs.jar SalesCountryDriver.java
+examples.desktop SalesCountryReducer.java
+hadoop-mapreduce-example-file.txt SalesMapper.java
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ pwd
+/home/hduser3/analyzelogs
+
+Step-2 - add read mode for all files in analyzelogs
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ sudo chmod +r *.*
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ pwd
+/home/hduser3/analyzelogs
+
+Step-3 - export classpath for hadoop integration
+<Actual path must be checked before running aommand>
+
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ export
+CLASSPATH="$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-core-
+2.9.0.jar:$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-common-
+2.9.0.jar:$HADOOP_HOME/share/hadoop/common/hadoop-common-
+2.9.0.jar:~/analyzelogs/SalesCountry/*:$HADOOP_HOME/lib/*"
+
+Step-4 - compile all 3 java programs to create class & jar files
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ javac -d . SalesMapper.java
+SalesCountryReducer.java SalesCountryDriver.java
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ ls
+access_log_short.csv Manifest.txt
+access_log_short.txt SalesCountry
+analyzelogs.jar SalesCountryDriver.java
+examples.desktop SalesCountryReducer.java
+hadoop-mapreduce-example-file.txt SalesMapper.java
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ cd SalesCountry/
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs/SalesCountry$ ls
+SalesCountryDriver.class SalesCountryReducer.class SalesMapper.class
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs/SalesCountry$ cd ..
+
+Step-5 - Edit Manifest file with startup main class name
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ sudo gedit Manifest.txt
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ ls
+access_log_short.csv Manifest.txt~
+access_log_short.txt SalesCountry
+analyzelogs.jar SalesCountryDriver.java
+examples.desktop SalesCountryReducer.java
+hadoop-mapreduce-example-file.txt SalesMapper.java
+Manifest.txt
+
+Step-6 - edit Manifest file with startup main class name
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ jar -cfm analyzelogs.jar Manifest.txt
+SalesCountry/*.class
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ cd
+
+Step-7 - start dfs and yarn of hadoop
+hduser3@student-HP-Pro-3330-MT:~$ start-dfs.sh
+
+19/02/02 13:57:15 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your
+platform... using builtin-java classes where applicable
+Starting namenodes on [localhost]
+localhost: namenode running as process 3661. Stop it first.
+localhost: datanode running as process 3840. Stop it first.
+Starting secondary namenodes [0.0.0.0]
+0.0.0.0: secondarynamenode running as process 4051. Stop it first.
+3
+19/02/02 13:57:19 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your
+platform... using builtin-java classes where applicable
+
+hduser3@student-HP-Pro-3330-MT:~$ start-yarn.sh
+starting yarn daemons
+resourcemanager running as process 4228. Stop it first.
+localhost: nodemanager running as process 4367. Stop it first.
+
+hduser3@student-HP-Pro-3330-MT:~$ jps
+5705 Jps
+4051 SecondaryNameNode
+3661 NameNode
+4228 ResourceManager
+4367 NodeManager
+3840 DataNode
+hduser3@student-HP-Pro-3330-MT:~$ cd analyzelogs/
+
+Step-8 - make input folder
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ sudo mkdir ~/input2000
+
+Step-9 – copy input csv file to input folder
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$sudo cp access_log_short.csv ~/input2000
+
+Step-10 - put input folder on hdfs
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ $HADOOP_HOME/bin/hdfs -put
+~/input2000 /
+
+Step-11- run jar for the input to generate output folder
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ $HADOOP_HOME/bin/hadoop jar
+analyzelogs.jar /input2000 /output2000
+
+Step-12 – cat the output of log files counts
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ $HADOOP_HOME/bin/hdfs dfs -cat
+/output2000/part-00000
+
+hduser3@student-HP-Pro-3330-MT:~/analyzelogs$ cd
+hduser3@student-HP-Pro-3330-MT:~$ stop-all.sh

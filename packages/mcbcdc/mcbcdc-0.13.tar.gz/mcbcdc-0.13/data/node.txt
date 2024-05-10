@@ -1,0 +1,54 @@
+
+Assignment 3(a)Node
+
+1.Commands
+
+
+npm --version
+
+node -- version
+
+npm init -y
+
+npm install express
+
+Now create a file app.js and then its code after that create an index.html file and its code again come to terminal and type
+
+node app.js
+
+2.index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome !!!</title>
+    <style>
+        body {
+             background-color: rgba(234, 170, 241, 0.174);
+            }
+        img{
+            height:500 ;
+            width:500 ;
+           }
+      
+        </style></head>
+<body>
+  
+    <h1 style="color:rgb(155, 154, 106);"> <center>Welcome To Online Shopping System</center></h1>
+   <center><img src="shopping_image.jpg" alt="image"  width="460" height="345" class="center"></center>
+</body>
+</html>
+
+
+3.app.js
+
+const express = require ('express');
+const app = express();
+app.use(express.static('public'));
+app.listen(3000,() => {
+    console.log('Application is started');
+})
+

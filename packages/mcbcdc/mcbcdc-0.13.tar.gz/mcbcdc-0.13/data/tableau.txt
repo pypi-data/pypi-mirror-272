@@ -1,0 +1,50 @@
+** Tableau :- adult
+
+* Sheet 1:- histogram
+colums = age
+select histogram
+detail= captial-gain,loss
+
+
+
+sheet 2:- Tree Map
+colume = capital-gain
+detail=capital-loss, occupation
+select = tree map
+
+
+sheet 3 :- pie chart
+colume = capital-gain
+select = pie chat
+detail = relationship,Marital-status
+
+sheet 4 :- stacked bars
+colume = occuption
+rows = capital-loss
+color = marital-status
+select = stacked bars
+
+
+sheet 5 :- maps
+colums = longitude
+row = latitude 
+detail = native-country,captial-gain
+select = maps
+
+
+sheet 6 :- packed bubbles
+columns = marital-status
+rows = captial-gain
+select = packed bubbles
+
+
+sheet 7 :- heat maps
+columes = income
+rows = captial-gain , gender
+select = heat maps
+
+
+sheet 8 :- side-by-side bars
+columns = gender , marital-status
+rows = age
+select = side-by-side bars
