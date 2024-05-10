@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+emdaz/__init__.py
+emdaz/main.py
+emdaz.egg-info/PKG-INFO
+emdaz.egg-info/SOURCES.txt
+emdaz.egg-info/dependency_links.txt
+emdaz.egg-info/requires.txt
+emdaz.egg-info/top_level.txt
