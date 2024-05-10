@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+organonymicz/__init__.py
+organonymicz/main.py
+organonymicz.egg-info/PKG-INFO
+organonymicz.egg-info/SOURCES.txt
+organonymicz.egg-info/dependency_links.txt
+organonymicz.egg-info/requires.txt
+organonymicz.egg-info/top_level.txt
