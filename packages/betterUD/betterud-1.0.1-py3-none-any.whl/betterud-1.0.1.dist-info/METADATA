@@ -1,0 +1,103 @@
+Metadata-Version: 2.3
+Name: betterUD
+Version: 1.0.1
+Summary: A better solution to parse definitions from Urban Dictionary for python
+Project-URL: Git, https://github.com/k0fNet/betterud
+Author-email: k0fNet <k0fNet@protonmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+
+
+# betterUD
+
+A better solution to parse definitions from Urban Dictionary for python
+
+
+## Installation
+
+Install betterUD with pip
+
+```bash
+  pip install betterud
+```
+
+Note: requests are required to run the library, so ensure you've installed it:
+
+```bash
+  pip install requests
+```
+## Usage
+The library contains two main classes SearchUD and Word. SearchUD has only one function .start() and is used to search words' definitions through Urban Dictionary's API. Returns a list of Word's objects.
+
+Word has arguments .definition, .permalink, .thumbs_up, .author, .word, .defid, .current_vote, .written_on, .example, .thumbs_down:
+
+```python
+import betterud
+
+definitions = SearchUD('word').start()
+print(definitions[0].definition)
+
+Output:
+
+A versatile [declaration], originating (more or less) in hip-hop culture.
+
+"Word" has no single meaning, but is used to convey a casual sense of affirmation, [acknowledgement], agreement, or to indicate that something has impressed you favorably.
+
+Its usage among young blacks has been parodied [ad nauseam] among clueless suburban whites.
+```
+
+Also, Word has a function .bracketless(). This function is used to remove brackets from object's definition and return object itself.
+
+```python
+import betterud
+
+definitions = SearchUD('word').start()
+print(definitions[0].bracketless().definition)
+
+Output:
+
+A versatile declaration, originating (more or less) in hip-hop culture.
+
+"Word" has no single meaning, but is used to convey a casual sense of affirmation, acknowledgement, agreement, or to indicate that something has impressed you favorably.
+
+Its usage among young blacks has been parodied ad nauseam among clueless suburban whites.
+```
+If SearchUD didn't get any arguments, it'd return definitions for random words from Urban Dictionary:
+
+```python
+import betterud
+
+definitions = SearchUD().start()
+print(definitions[0].word)
+
+Output:
+
+Came
+```
+
+If SearchUD didn't find a definition, it'd return an empty array:
+
+```python
+import betterud
+
+definitions = SearchUD('iswearitdoesntexiststhere').start()
+print(definitions)
+
+Output:
+
+[]
+```
+
+
+## Credits
+
+Special thanks to atbuy, the creator of python_urbandict as I used his library to understand basics
