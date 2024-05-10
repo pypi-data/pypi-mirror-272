@@ -1,0 +1,8 @@
+setup.py
+mockpac/__init__.py
+mockpac/main.py
+mocpac.egg-info/PKG-INFO
+mocpac.egg-info/SOURCES.txt
+mocpac.egg-info/dependency_links.txt
+mocpac.egg-info/requires.txt
+mocpac.egg-info/top_level.txt
