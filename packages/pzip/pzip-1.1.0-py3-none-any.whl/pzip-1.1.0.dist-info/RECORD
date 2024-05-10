@@ -1,0 +1,10 @@
+pzip/__init__.py,sha256=UMfEKwDKQ5lYZWE4K85p2pRYckQL3H4NX3CiqqAQmO4,881
+pzip/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+pzip/base.py,sha256=VviNWVycDQVGL9hT9dFLlzAkxFXZO0VnTBgHvvyfsiE,8055
+pzip/cli.py,sha256=mNcr9WWUplCxHQUvTpFRn4vEE83eusEpb9FcSeXx6Ps,9216
+pzip/reader.py,sha256=BhIYjuGBleCH6aE8R8mAUVpgOiqpv_c4Uj1bf4MgQ6k,8903
+pzip/writer.py,sha256=27Z7pIPvBX0jk2wstPsM2qMIcepGR43aM-x7IlHMK0M,4672
+pzip-1.1.0.dist-info/METADATA,sha256=6ZEFVWBEumsm0rAirWOQJ9UlD0fdtisimO37nA6bGL4,3990
+pzip-1.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pzip-1.1.0.dist-info/licenses/LICENSE,sha256=4YI5PXzUeEwe50j26VGnsnmXciguSTgEAP5V2LO5ybc,1094
+pzip-1.1.0.dist-info/RECORD,,
