@@ -1,0 +1,13 @@
+borneo_python_client/__init__.py,sha256=DxsJq42a0KfQv9zzLrqT0JVpoXrR-IDIYFGuJe4g1Gc,55
+borneo_python_client/auth.py,sha256=lTnWcT2caoxBw-p0OQQjhF3GZJFZlfj2wi0Zmi7fKME,949
+borneo_python_client/client.py,sha256=AKmuTVmOYrZOVi-TnDat6z7rYZTrERpItRh_LsCskBM,123987
+borneo_python_client/config.py,sha256=GWB_0VbFFXCY7-7QfHmbcWHqQKekWXfJ6jkitFFrkE4,17027
+borneo_python_client/deserialize.py,sha256=KJHRmmt5R2Qxgsn5bIgLCgmKF2LXjzGqZNDOtqWSCTw,288886
+borneo_python_client/errors.py,sha256=sN2KCOYljaDU8dHJP4hk7stq2uFyfViZE4U7OLAl38M,2582
+borneo_python_client/models.py,sha256=mi_tcVprrYe7xoT3itsXo6CtwyhR9hSSotxS6UawXnc,178704
+borneo_python_client/serialize.py,sha256=nAnCHUCB-0q_-J_-NDSBnfwpLM5vYW-SoB9014Bjluk,136564
+borneo_python_client-3.10.0.dist-info/LICENSE,sha256=YFtKKeCu7dM-6OiDm9AdsNisCIsaPYRf0L_VSjrjHQQ,11370
+borneo_python_client-3.10.0.dist-info/METADATA,sha256=Fn9_zD_oODsOZVHbxUpdBVL6f6XVzTB9P0xBoVvcgDw,2024
+borneo_python_client-3.10.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+borneo_python_client-3.10.0.dist-info/top_level.txt,sha256=eW5KjKnVqoryKYa_GPdy4-N3U-SSKFYFiLbwcVp0YCo,21
+borneo_python_client-3.10.0.dist-info/RECORD,,
