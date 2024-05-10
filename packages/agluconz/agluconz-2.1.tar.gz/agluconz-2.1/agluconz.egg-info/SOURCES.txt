@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+agluconz/__init__.py
+agluconz/main.py
+agluconz.egg-info/PKG-INFO
+agluconz.egg-info/SOURCES.txt
+agluconz.egg-info/dependency_links.txt
+agluconz.egg-info/requires.txt
+agluconz.egg-info/top_level.txt
