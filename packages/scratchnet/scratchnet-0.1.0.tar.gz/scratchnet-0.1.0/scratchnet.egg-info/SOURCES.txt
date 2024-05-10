@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+scratchnet/__init__.py
+scratchnet/logger.py
+scratchnet/packet.py
+scratchnet/server.py
+scratchnet.egg-info/PKG-INFO
+scratchnet.egg-info/SOURCES.txt
+scratchnet.egg-info/dependency_links.txt
+scratchnet.egg-info/requires.txt
+scratchnet.egg-info/top_level.txt

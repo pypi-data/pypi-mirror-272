@@ -1,0 +1,4 @@
+scratchconnect
+profanity
+requests
+colorama
