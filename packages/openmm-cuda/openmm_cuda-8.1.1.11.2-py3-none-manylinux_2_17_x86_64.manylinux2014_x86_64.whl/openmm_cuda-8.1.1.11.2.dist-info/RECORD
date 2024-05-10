@@ -1,0 +1,8 @@
+openmm_cuda-8.1.1.11.2.dist-info/METADATA,sha256=BoJqWhKV-k7B_4Hs5_IxHzPxNnLUHyt28ey4xAQPBOg,91
+openmm_cuda-8.1.1.11.2.dist-info/RECORD,,
+openmm_cuda-8.1.1.11.2.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+openmm_cuda-8.1.1.11.2.dist-info/WHEEL,sha256=g1ePU1SMu9FWm6Y86MioArP3ySuX3DoG2o8rTF9mlGo,163
+OpenMM.libs/lib/plugins/libOpenMMCUDA.so,sha256=Doto2EqpHd4CxAL8ybd19P-O2u6e_e7HnxbCPd_3XlU,2722817
+OpenMM.libs/lib/plugins/libOpenMMAmoebaCUDA.so,sha256=ZCDbGYJPMuPFLpM--liY7ntEhKqCL5wISeAb6gIgq_Y,1090929
+OpenMM.libs/lib/plugins/libOpenMMDrudeCUDA.so,sha256=7Ud3Fr5ZK-p0dfAPzIhwIVTCo-YdGMXKGMxQtn_bRk0,118841
+OpenMM.libs/lib/plugins/libOpenMMRPMDCUDA.so,sha256=QkVbgCEtFHBcCTYrqbFMztcSBaQzBsz7K8Szl5apXBI,133569
