@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+emperessz/__init__.py
+emperessz/main.py
+emperessz.egg-info/PKG-INFO
+emperessz.egg-info/SOURCES.txt
+emperessz.egg-info/dependency_links.txt
+emperessz.egg-info/requires.txt
+emperessz.egg-info/top_level.txt
