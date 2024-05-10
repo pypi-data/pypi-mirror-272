@@ -1,0 +1,16 @@
+czo/__init__.py,sha256=rlkHwKt_nu3J32T--Wbaloo4VJsr0dARJxizj03uR7E,287
+czo/_date.py,sha256=q0m-28vdGKVVZfxClZp_d1a0_53noseuR7Muta7WmoE,8919
+czo/_faker.py,sha256=n1QiX3c5BcmajEToQ-hlLrnv38ol3vJnMXEgdF1qlts,12058
+czo/_net.py,sha256=0BFc74p2RmxKrDLUDCOo4kGkjOZ_wfgdpTb4kHay2zU,8419
+czo/_path.py,sha256=pv_HmLnWeZCsEo_yXgPR_bn8P-wz0DAwYdi0xZJWDB8,6339
+czo/_rand.py,sha256=0WaTbM4TZUU1wmUbM3PfKImj3FZoZfAHtS2xevG72hA,8119
+czo/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+czo/data/_country.py,sha256=05_Cfz4Jti8QwQN8ZHQlFAk6HjUnaAp_jo4oAisKPHY,14519
+czo/data/_housing.py,sha256=PykG3_QoOqZjSEGyMxJN0SJroSOyEQrLJ4MTS7zGSoA,16493
+czo/data/_internal_utils.py,sha256=MAOTAgkkxRfOOCYG_7cjHayYkuIiaOdHtamkM1e0Et4,154755
+czo/utils/__init__.py,sha256=ntm-KfgA-H7_Qtb3Wk5EZ2vrp0mmdO-KeoXVVCPubQc,22
+czo/utils/__meta.py,sha256=I1k64dxGbNrVzFh3RzP7XVu5hSZAY1C-8rX0No4jx5U,176
+czo-0.1.9.dist-info/METADATA,sha256=SEPlH971AfIa4ZO3Nq6NQWamvyktIOGvxkSvKv6cl-k,582
+czo-0.1.9.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+czo-0.1.9.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+czo-0.1.9.dist-info/RECORD,,
