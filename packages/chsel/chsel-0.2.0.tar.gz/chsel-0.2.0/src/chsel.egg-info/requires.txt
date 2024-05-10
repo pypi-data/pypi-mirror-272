@@ -1,0 +1,12 @@
+cma
+torch
+numpy
+matplotlib
+arm-pytorch-utilities
+pytorch-kinematics
+pytorch-volumetric
+cma
+ribs[all]
+
+[test]
+pytest
