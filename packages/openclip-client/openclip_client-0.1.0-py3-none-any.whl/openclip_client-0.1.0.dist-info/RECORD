@@ -1,0 +1,14 @@
+openclip_client_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openclip_client_python/client-channels-input-20240509_145746_797.csv,sha256=EDvMgri36FpTkrwLC2DsUXeuBrXMbJQ_hWf-JPOa7mI,182
+openclip_client_python/client-channels-input-20240509_145836_900.csv,sha256=RhAwv914MoSb6OYopYBu-dkar2qsx4dpetHtMCUiXk0,23856
+openclip_client_python/client-channels-output-20240509_145746_797.csv,sha256=LZzpQhXd5B7kNR0XyU_sUStgAs7cpFqUhdsI35mRjbM,286
+openclip_client_python/client-channels-output-20240509_145836_900.csv,sha256=t2z8JhWyMrPo_n3iFIRYhtwIN8pIucgGwbOYxYCekyk,45304
+openclip_client_python/client-final-20240509_145746_795.csv,sha256=BO35Sj4sLpFDwmLpTZcgPe0cGoIyrRjoshrH5BRK_YA,138
+openclip_client_python/client-final-20240509_145836_898.csv,sha256=FsrwaqpRsQ6mt487TuFH3u6LYAzXQATSCMtvLrmfMh8,27536
+openclip_client_python/client_python.py,sha256=6nSOmXU_qE2UJUfvWZadYUkl7UWyBZUOhqQYqronNuQ,6425
+openclip_client_python/client_python_middleware.py,sha256=6SFSSMFFTW7D9umumPuc7Xn8bR-pVPMsbKCgo8C1Myk,7378
+openclip_client/client_common.py,sha256=yI1UUtUqlqVevF8-7NyNUr2QKLjqwE3577FuoXyNGQo,13389
+openclip_client-0.1.0.dist-info/METADATA,sha256=S7CurZRCM6QTxIPyRsJO0VMm7oK_id6ctMlLa3Dj6jk,1019
+openclip_client-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+openclip_client-0.1.0.dist-info/entry_points.txt,sha256=mtdafXcDtoX3iX1WXLRQJUnnQyT2wvih8-z1v8IALl4,84
+openclip_client-0.1.0.dist-info/RECORD,,
