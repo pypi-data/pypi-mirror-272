@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: fair-mobil-uwb
+Version: 0.1.0
+Summary: {'Copy of the fair-mobil python package found here: https://pypi.org/project/fair-mobil/to create a new package containing all changes necessary for fairness research.'}
+Home-page: UNKNOWN
+Author: Michael Schwartz
+Author-email: mjschwa@uw.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
