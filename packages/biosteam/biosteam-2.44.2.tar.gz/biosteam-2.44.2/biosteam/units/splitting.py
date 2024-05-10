@@ -1,0 +1,399 @@
+# -*- coding: utf-8 -*-
+# BioSTEAM: The Biorefinery Simulation and Techno-Economic Analysis Modules
+# Copyright (C) 2020-2023, Yoel Cortes-Pena <yoelcortes@gmail.com>
+# 
+# This module is under the UIUC open-source license. See 
+# github.com/BioSTEAMDevelopmentGroup/biosteam/blob/master/LICENSE.txt
+# for license details.
+"""
+This module contains unit operations for splitting flows.
+
+.. contents:: :local:
+    
+.. autoclass:: biosteam.units.splitting.Splitter
+.. autoclass:: biosteam.units.splitting.PhaseSplitter 
+.. autoclass:: biosteam.units.splitting.MockSplitter
+.. autoclass:: biosteam.units.splitting.ReversedSplitter
+
+"""
+from .. import Unit
+from thermosteam._graphics import splitter_graphics
+from thermosteam import separations
+import biosteam as bst
+import numpy as np
+
+__all__ = ('Splitter', 'PhaseSplitter', 'FakeSplitter', 'MockSplitter',
+           'ReversedSplitter', 'Separator')
+
+class Splitter(Unit):
+    """
+    Create a splitter that separates mixed streams based on splits.
+
+    Parameters
+    ----------
+    ins : 
+        Inlet fluid to be split.
+    outs : 
+        * [0] Split stream
+        * [1] Remainder stream    
+    split : Should be one of the following
+        * [float] The fraction of net feed in the 0th outlet stream
+        * [array_like] Componentwise split of feed to 0th outlet stream
+        * [dict] ID-split pairs of feed to 0th outlet stream
+    order=None : Iterable[str], defaults to biosteam.settings.chemicals.IDs
+        Chemical order of split.
+    
+    Examples
+    --------
+    Create a Splitter object with an ID, a feed stream, two outlet streams,
+    and an overall split:
+        
+    >>> from biosteam import units, settings, Stream
+    >>> settings.set_thermo(['Water', 'Ethanol'], cache=True)
+    >>> feed = Stream('feed', Water=20, Ethanol=10, T=340)
+    >>> S1 = units.Splitter('S1', ins=feed, outs=('top', 'bot'), split=0.1)
+    >>> S1.simulate()
+    >>> S1.show()
+    Splitter: S1
+    ins...
+    [0] feed
+        phase: 'l', T: 340 K, P: 101325 Pa
+        flow (kmol/hr): Water    20
+                        Ethanol  10
+    outs...
+    [0] top
+        phase: 'l', T: 340 K, P: 101325 Pa
+        flow (kmol/hr): Water    2
+                        Ethanol  1
+    [1] bot
+        phase: 'l', T: 340 K, P: 101325 Pa
+        flow (kmol/hr): Water    18
+                        Ethanol  9
+      
+    Create a Splitter object, but this time with a componentwise split
+    using a dictionary:
+    
+    >>> S1 = units.Splitter('S1', ins=feed, outs=('top', 'bot'),
+    ...                     split={'Water': 0.1, 'Ethanol': 0.99})
+    >>> S1.simulate()
+    >>> S1.show()
+    Splitter: S1
+    ins...
+    [0] feed
+        phase: 'l', T: 340 K, P: 101325 Pa
+        flow (kmol/hr): Water    20
+                        Ethanol  10
+    outs...
+    [0] top
+        phase: 'l', T: 340 K, P: 101325 Pa
+        flow (kmol/hr): Water    2
+                        Ethanol  9.9
+    [1] bot
+        phase: 'l', T: 340 K, P: 101325 Pa
+        flow (kmol/hr): Water    18
+                        Ethanol  0.1
+                           
+    Create a Splitter object using componentwise split, but this time specify the order:
+    
+    >>> S1 = units.Splitter('S1', ins=feed, outs=('top', 'bot'),
+    ...                     order=('Ethanol', 'Water'),
+    ...                     split=(0.99, 0.10))
+    >>> S1.simulate()
+    >>> S1.show()
+    Splitter: S1
+    ins...
+    [0] feed
+        phase: 'l', T: 340 K, P: 101325 Pa
+        flow (kmol/hr): Water    20
+                        Ethanol  10
+    outs...
+    [0] top
+        phase: 'l', T: 340 K, P: 101325 Pa
+        flow (kmol/hr): Water    2
+                        Ethanol  9.9
+    [1] bot
+        phase: 'l', T: 340 K, P: 101325 Pa
+        flow (kmol/hr): Water    18
+                        Ethanol  0.1
+
+    Splits can also be altered after creating the splitter:
+        
+    >>> S1.split = 0.5
+    >>> S1.isplit.show()
+    SplitIndexer:
+     Water    0.5
+     Ethanol  0.5
+     
+    >>> S1.isplit['Water'] = 1.0
+    >>> S1.isplit.show()
+    SplitIndexer:
+     Water    1
+     Ethanol  0.5
+     
+    >>> S1.split = [0.9, 0.8]
+    >>> S1.isplit.show()
+    SplitIndexer:
+     Water    0.9
+     Ethanol  0.8
+
+    """
+    _N_outs = 2
+    _graphics = splitter_graphics
+    
+    @property
+    def isplit(self):
+        """[ChemicalIndexer] Componentwise split of feed to 0th outlet stream."""
+        return self._isplit
+    @property
+    def split(self):
+        """[SparseArray] Componentwise split of feed to 0th outlet stream."""
+        return self._isplit.data
+    @split.setter
+    def split(self, values):
+        split = self.split
+        if split is not values:
+            split[:] = values
+    
+    def _init(self, split, order=None):
+        self._isplit = self.thermo.chemicals.isplit(split, order)
+        
+    def _run(self):
+        feed = self._ins[0]
+        isplit = self._isplit
+        if isplit.chemicals is not feed.chemicals: self._reset_thermo(feed._thermo)
+        feed.split_to(*self.outs, isplit.data)
+
+class PhaseSplitter(Unit):
+    """
+    Create a PhaseSplitter object that splits the feed to outlets by phase.
+    
+    Parameters
+    ----------
+    ins : 
+        Feed.
+    outs : 
+        Outlets.
+        
+    Notes
+    -----
+    Phases allocate to outlets in alphabetical order. For example,
+    if the feed.phases is 'gls' (i.e. gas, liquid, and solid), the phases
+    of the outlets will be 'g', 'l', and 's'.
+        
+    Examples
+    --------
+    >>> import biosteam as bst
+    >>> bst.settings.set_thermo(['Water', 'Ethanol'], cache=True)
+    >>> feed = bst.Stream('feed', Water=10, Ethanol=10)
+    >>> feed.vle(V=0.5, P=101325)
+    >>> s1 = bst.Stream('s1')
+    >>> s2 = bst.Stream('s2')
+    >>> PS = bst.PhaseSplitter('PS', feed, [s1, s2])
+    >>> PS.simulate()
+    >>> PS.show()
+    PhaseSplitter: PS
+    ins...
+    [0] feed
+        phases: ('g', 'l'), T: 353.94 K, P: 101325 Pa
+        flow (kmol/hr): (g) Water    3.87
+                            Ethanol  6.13
+                        (l) Water    6.13
+                            Ethanol  3.87
+    outs...
+    [0] s1
+        phase: 'g', T: 353.94 K, P: 101325 Pa
+        flow (kmol/hr): Water    3.87
+                        Ethanol  6.13
+    [1] s2
+        phase: 'l', T: 353.94 K, P: 101325 Pa
+        flow (kmol/hr): Water    6.13
+                        Ethanol  3.87
+    
+    """
+    _N_ins = 1
+    _N_outs = 2
+    _graphics = splitter_graphics
+    
+    def _run(self):
+        separations.phase_split(*self.ins, self.outs)
+
+
+class MockSplitter(Unit):
+    """
+    Create a MockSplitter object that does nothing when simulated.
+    """
+    _graphics = Splitter._graphics
+    _N_ins = 1
+    _N_outs = 2
+    _outs_size_is_fixed = False
+    
+    def _run(self): pass
+
+MockSplitter.line = 'Splitter'
+FakeSplitter = MockSplitter    
+
+class ReversedSplitter(Unit):
+    """
+    Create a splitter that, when simulated, sets the inlet stream based 
+    on outlet streams. Must have only one input stream. The outlet streams will
+    have the same temperature, pressure and phase as the inlet.
+    
+    """
+    _graphics = Splitter._graphics
+    _N_ins = 1
+    _N_outs = 2
+    _outs_size_is_fixed = False
+    power_utility = None
+    heat_utilities = ()
+    results = None
+    
+    def _run(self):
+        inlet, = self.ins
+        outlets = self.outs
+        reversed_split(inlet, outlets)
+
+
+def reversed_split(inlet, outlets):
+    inlet.mol[:] = sum([i.mol for i in outlets])
+    T = inlet.T
+    P = inlet.P
+    phase = inlet.phase
+    for out in outlets:
+        out.T = T
+        out.P = P
+        out.phase = phase 
+
+
+class Separator(Unit):
+    _N_ins = 1
+    _N_outs = 2
+    _ins_size_is_fixed = False
+    
+    @property
+    def isplit(self):
+        """[ChemicalIndexer] Componentwise split of feed to 0th outlet stream."""
+        return self._isplit
+    @property
+    def split(self):
+        """[SparseArray] Componentwise split of feed to 0th outlet stream."""
+        return self._isplit.data
+    @split.setter
+    def split(self, values):
+        split = self.split
+        if split is not values:
+            split[:] = values
+    
+    def _init(self, split, order=None, T=None, P=None, phases=None):
+        self._isplit = self.thermo.chemicals.isplit(split, order)
+        self.T_specification = self.T = T
+        self.P = P
+        self.phases = phases
+        
+    def _run(self):
+        ins = self._ins
+        top, bottom = self._outs
+        top.mix_from(ins)
+        top.split_to(*self.outs, self._isplit.data)
+        if self.T_specification:
+            top.T = bottom.T = self.T_specification
+        if self.phases:
+            top.phase, bottom.phase = self.phases
+        if self.P:
+            top.P = bottom.P = self.P
+        
+    def _create_material_balance_equations(self):
+        inlets = self.ins
+        top, bottom = self.outs
+        equations = []
+        ones = np.ones(self.chemicals.size)
+        minus_ones = -ones
+        zeros = np.zeros(self.chemicals.size)
+        fresh_inlets = [i for i in inlets if i.isfeed() and not i.equations]
+        process_inlets = [i for i in inlets if not i.isfeed() or i.equations]
+        
+        # Overall flows
+        eq_overall = {}
+        for i in self.outs: 
+            eq_overall[i] = ones
+        for i in process_inlets:
+            if i in eq_overall: del eq_overall[i]
+            else: eq_overall[i] = minus_ones
+        equations.append(
+            (eq_overall, sum([i.mol for i in fresh_inlets], zeros))
+        )
+        
+        # Top and bottom flows
+        eq_outs = {}
+        split = self.split
+        for i in process_inlets: eq_outs[i] = split
+        rhs = sum([split * i.mol for i in fresh_inlets], zeros)
+        eq_outs[top] = minus_ones
+        equations.append(
+            (eq_outs, rhs)
+        )
+        return equations
+    
+    def _create_energy_departure_equations(self, temperature_only=False):
+        # Ll: C1dT1 - Ce2*dT2 - Cr0*dT0 - hv2*L2*dB2 = Q1 - H_out + H_in
+        # gl: hV1*L1*dB1 - hv2*L2*dB2 - Ce2*dT2 - Cr0*dT0 = Q1 + H_in - H_out
+        if self.T_specification: return []
+        if temperature_only:
+            coeff = {self: sum([i.C for i in self.outs])}
+            for i in self.ins:
+                source = i.source
+                if not source: continue
+                if (getattr(source, 'T_specification', None) is None
+                    and getattr(source, 'B_specification', None) is None):
+                    coeff[source] = -i.C
+                else:
+                    continue
+        else:
+            coeff = {self: sum([i.C for i in self.outs])}
+            for i in self.ins:
+                source = i.source
+                if not source: continue
+                if source.phases == ('g', 'l'):
+                    if i.phase != 'g': continue
+                    if getattr(source, 'B_specification', None) is not None: continue
+                    if hasattr(source, 'partition'):    
+                        vapor, liquid = source.partition.outs
+                        split = (1 - source.top_split) if vapor.imol is i.imol else source.top_split
+                        if vapor.isempty():
+                            liquid.phase = 'g'
+                            coeff[source] = liquid.H * split
+                            liquid.phase = 'l'
+                        else:
+                            coeff[source] = -vapor.h * liquid.F_mol * split
+                    elif isinstance(source, bst.MultiStageEquilibrium):
+                        vapor, liquid = source.outs
+                        if vapor.isempty():
+                            liquid.phase = 'g'
+                            coeff[source] = liquid.H
+                            liquid.phase = 'l'
+                        else:
+                            coeff[source] = -vapor.h * liquid.F_mol
+                elif getattr(source, 'T_specification', None) is None: 
+                    coeff[source] = -i.C
+                else:
+                    continue
+        return [(coeff, self.H_in - self.H_out + sum([i.Q for i in self.stages]))]
+    
+    def _create_linear_equations(self, variable):
+        # list[dict[Unit|Stream, float]]
+        if variable == 'material':
+            return self._create_material_balance_equations()
+        elif variable == 'energy':
+            eqs = self._create_energy_departure_equations()
+        elif variable == 'temperature':
+            eqs = self._create_energy_departure_equations(temperature_only=True)
+        elif variable == 'equilibrium':
+            eqs = []
+        else:
+            eqs = []
+        return eqs
+    
+    def _update_decoupled_variable(self, variable, value):
+        if variable in ('energy', 'temperature'):
+            self.T = T = self.T + value
+            for i in self.outs: i.T = T
+    
