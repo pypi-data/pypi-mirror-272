@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: idac_sdk
+Version: 0.7.3
+Summary: Python 3 SDK for iDAC
+Home-page: https://www-github.cisco.com/GDE-Content-Engineering/idac-sdk-python
+Author: Cisco GDE CAT
+Author-email: cat-dev-support@cisco.com
+License: MIT
+Keywords: idac sdk
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Requires-Dist: asyncclick>=8.0.3.2
+Requires-Dist: httpx>=0.22.0
+Requires-Dist: xmltodict>=0.12.0
+Requires-Dist: pydantic<2.0.0,>=1.9.0
+Requires-Dist: deepmerge>=1.0.1
+Requires-Dist: PyYAML>=5.4.1
+Requires-Dist: jsonpath-ng>=1.5.3
+
+# Python3 SDK for iDAC
+
+Docs are available [here](https://www-github.cisco.com/pages/GDE-Content-Engineering/idac-sdk-python/)
