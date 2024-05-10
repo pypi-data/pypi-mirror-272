@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+annotationz/__init__.py
+annotationz/main.py
+annotationz.egg-info/PKG-INFO
+annotationz.egg-info/SOURCES.txt
+annotationz.egg-info/dependency_links.txt
+annotationz.egg-info/requires.txt
+annotationz.egg-info/top_level.txt
