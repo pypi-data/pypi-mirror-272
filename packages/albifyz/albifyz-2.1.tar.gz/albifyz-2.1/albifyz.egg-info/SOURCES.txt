@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+albifyz/__init__.py
+albifyz/main.py
+albifyz.egg-info/PKG-INFO
+albifyz.egg-info/SOURCES.txt
+albifyz.egg-info/dependency_links.txt
+albifyz.egg-info/requires.txt
+albifyz.egg-info/top_level.txt
