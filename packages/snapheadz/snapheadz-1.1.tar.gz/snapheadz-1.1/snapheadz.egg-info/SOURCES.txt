@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+snapheadz/__init__.py
+snapheadz/main.py
+snapheadz.egg-info/PKG-INFO
+snapheadz.egg-info/SOURCES.txt
+snapheadz.egg-info/dependency_links.txt
+snapheadz.egg-info/requires.txt
+snapheadz.egg-info/top_level.txt
