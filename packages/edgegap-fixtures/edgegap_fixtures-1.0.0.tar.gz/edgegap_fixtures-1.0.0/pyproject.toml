@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "edgegap-fixtures"
+version = "1.0.0"
+description = "The Edgegap Fixtures library includes various tools and helpers for interacting with Pytest Fixtures"
+authors = ["Bastien Roy <bastien@edgegap.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+edgegap-consul = "^1.7.0"
+sqlmodel = "^0.0.18"
+pytest = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
