@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+resquanderz/__init__.py
+resquanderz/main.py
+resquanderz.egg-info/PKG-INFO
+resquanderz.egg-info/SOURCES.txt
+resquanderz.egg-info/dependency_links.txt
+resquanderz.egg-info/requires.txt
+resquanderz.egg-info/top_level.txt
