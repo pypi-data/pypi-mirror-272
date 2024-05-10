@@ -1,0 +1,13 @@
+django_cache_pydantic/__init__.py,sha256=8HtFWxJurwTVFM8f0nQ8UYpFeYN5YzcJZvmvFt1nbTs,38
+django_cache_pydantic/apps.py,sha256=OX-_JNGAINw6fAzUjOpXuC3N7-7sjUh-S_IeHw-UyCY,191
+django_cache_pydantic/base.py,sha256=I8tZZyS9XAvRa0spophSpUhIRIQFFDWg9xn1ubE48u8,2453
+django_cache_pydantic/conf.py,sha256=4BdkivC_0A_NEEPzL_R1gNS8IE-GPPsEkTJpwswxPHc,525
+django_cache_pydantic/defaults.py,sha256=I_3p1EN7oUmY-S9MbQbVjrulkLfNYMaOp1E5lKEZDOo,83
+django_cache_pydantic/manager.py,sha256=Ur3fSOTYZqQ2fseWHsStQSpqT6T7_MnkNfGHdRN9Eec,1991
+django_cache_pydantic/options.py,sha256=_tjAZ68Be2uqJ3Tk1MFY5Rln5XB7HUEQlL92kPDEkSI,1588
+django_cache_pydantic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cache_pydantic-0.1.0.dist-info/LICENSE,sha256=129wyxQG-PfyXJsmPZ1I4bhs6wfTMe4szux0zqxg9u8,1090
+django_cache_pydantic-0.1.0.dist-info/METADATA,sha256=tcewPuIB1orny-NCeKRUHIRzbi6edXr0fJr8kVXvwjU,4738
+django_cache_pydantic-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_cache_pydantic-0.1.0.dist-info/top_level.txt,sha256=wdSEbmEZfclRm1TTLgS9KbcnpVgDbKLXvHMnEL-WsSY,22
+django_cache_pydantic-0.1.0.dist-info/RECORD,,
