@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+culicinesz/__init__.py
+culicinesz/main.py
+culicinesz.egg-info/PKG-INFO
+culicinesz.egg-info/SOURCES.txt
+culicinesz.egg-info/dependency_links.txt
+culicinesz.egg-info/requires.txt
+culicinesz.egg-info/top_level.txt
