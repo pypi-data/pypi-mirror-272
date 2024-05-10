@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cryptomathtrade
+Version: 0.7.0
+Summary: 
+Author: T_X
+Author-email: treider.xylioner@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.9.1,<4.0.0)
+Requires-Dist: pycryptodome (>=3.20.0,<4.0.0)
+Requires-Dist: pydantic (>=2.5,<3.0)
+Requires-Dist: pytest (>=8.1.1,<9.0.0)
+Requires-Dist: pytest-asyncio (>=0.23.6,<0.24.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Description-Content-Type: text/markdown
+
+# CryptoMathTrade
+tools for trades
+
+docs: https://trader-xylioner.notion.site/Docs-e7ecdbbc46064894ae05b9f71e686b54
+
+| exchange | Market | AsyncMarket | WSMarket | Spot | AsyncSpot | WSSpot | Account | AsyncAccount | WSAccount |
+|----------|--------|-------------|----------|------|-----------|--------|---------|--------------|-----------|
+| ascendex | ❌      | ❌           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+| binance  | ✅      | ✅           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+| bingx    | ✅      | ✅           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+| bitget   | ✅      | ✅           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+| bitmart  | ✅      | ✅           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+| gate     | ✅      | ✅           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+| htx      | ✅      | ✅           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+| kucoin   | ✅      | ✅           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+| mexc     | ✅      | ✅           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+| okx      | ✅      | ✅           | ❌        | ❌    | ❌         | ❌      | ❌       | ❌            | ❌         |
+
