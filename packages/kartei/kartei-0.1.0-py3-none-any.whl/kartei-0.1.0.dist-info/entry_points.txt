@@ -1,0 +1,3 @@
+[console_scripts]
+kartei=kartei:main
+
