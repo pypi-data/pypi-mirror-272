@@ -1,0 +1,10 @@
+dreamhack/__init__.py,sha256=9QpfjWDye2l7TgiNwFjBOGMt4H7mBeyav--pDg5Sz2k,198
+dreamhack/colorcodes.py,sha256=qzU8Yt1Q-W7UquQXhUFYYzSnguhUCfA0N2BdjFTSL1A,865
+dreamhack/encryption.py,sha256=sln1dQ90e4b_NoobuHxCyzekfgYOl2CUnjsA1lxVRGo,26
+dreamhack/logging.py,sha256=qmO4Zbyng09nGqIV_3I3lsH2X_Kwr8ps7m5BUgh7Vww,23
+dreamhack/windows.py,sha256=nyVSHk-A3NkoVEuL0byhXsudDD5VCS4nTNxeoQvm8gk,923
+dreamhack/zipfiles.py,sha256=R8k9ctYsqxWAJ6RQ9rhRRcTJwh15_BonjSCsO6lkFD8,863
+dreamhack-1.0.1.dist-info/METADATA,sha256=ksuM9oZFxbUC_yLsf4su-eSNPw5gG50rgvGuwlrLkDQ,667
+dreamhack-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dreamhack-1.0.1.dist-info/top_level.txt,sha256=acbZmC35Jed-LGmXSOrJK4Wx6dq8e3Aehhyv6VnnLl8,10
+dreamhack-1.0.1.dist-info/RECORD,,
