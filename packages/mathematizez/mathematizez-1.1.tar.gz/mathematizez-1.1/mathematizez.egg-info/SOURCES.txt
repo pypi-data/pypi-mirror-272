@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mathematizez/__init__.py
+mathematizez/main.py
+mathematizez.egg-info/PKG-INFO
+mathematizez.egg-info/SOURCES.txt
+mathematizez.egg-info/dependency_links.txt
+mathematizez.egg-info/requires.txt
+mathematizez.egg-info/top_level.txt
