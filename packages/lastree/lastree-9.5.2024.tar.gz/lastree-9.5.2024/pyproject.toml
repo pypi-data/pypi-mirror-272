@@ -1,0 +1,32 @@
+[build-system]
+requires = ['setuptools>=61.0']
+build-backend = 'setuptools.build_meta'
+[project]
+name= "lastree"
+dynamic = ["version"]
+authors = [{name="Jiawei Li", email="Jiaweiliwork@outlook.com"}]
+description = "A tool box to use for process sfm point cloud of the tree and get the tree structure"
+readme = 'README.md'
+dependencies = ["numpy", "pandas"]
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+
+]
+
+[project.urls]
+Homepage = "https://github.com/jldz9/point_cloud_tree_detection_ex"
+Issues = "https://github.com/jldz9/point_cloud_tree_detection_ex/issues"
+[project.scripts]
+lastree = 'lastree.main:main_cli'
+[tool.setuptools.packages.find]
+where = ['src']
+[tool.setuptools.exclude-package-data]
+'*' = ['*.pyc']
+'lastree.test' = ['test.py']
+[tool.setuptools.package-data]
+"lastree.defaults" = ['CONFIG']
+[tool.setuptools.dynamic]
+version = {attr = "lastree._version.__version__"}
