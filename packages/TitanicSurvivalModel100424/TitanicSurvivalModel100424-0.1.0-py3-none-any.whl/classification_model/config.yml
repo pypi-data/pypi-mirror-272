@@ -1,0 +1,53 @@
+# Package Overview
+package_name: classification_model
+
+# Data Files
+training_data_file: titanic_train.csv
+test_data_file: test.csv
+
+pipeline_name: classification_model
+pipeline_save_file: classification_model_output_v
+
+# Variables
+target: Survived
+
+features:
+  - Age
+  - Fare
+  - Sex
+  - Cabin
+  - Embarked
+  - Title
+  - Parch
+  - SibSp
+  - Pclass
+
+# set train/test split
+test_size: 0.2
+
+# to set the random seed
+random_state: 0
+
+# The inverse of regularization strength in logistic regression
+# Default value of C = 1.0
+C: 1.0
+
+categorical_vars: 
+  - Cabin
+  - Embarked
+  - Title
+  - Sex
+
+numerical_vars: 
+  - Age
+  - SibSp
+  - Pclass
+  - Parch
+  - Fare
+
+cabin:
+  - Cabin
+
+to_drop:
+  - Name
+  - Ticket
