@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/protein_design_tools.egg-info/PKG-INFO
+src/protein_design_tools.egg-info/SOURCES.txt
+src/protein_design_tools.egg-info/dependency_links.txt
+src/protein_design_tools.egg-info/requires.txt
+src/protein_design_tools.egg-info/top_level.txt
+tests/test_protein_structure_utils.py
