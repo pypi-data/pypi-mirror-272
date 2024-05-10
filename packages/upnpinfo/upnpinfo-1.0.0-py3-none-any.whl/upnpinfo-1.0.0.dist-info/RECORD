@@ -1,0 +1,9 @@
+upnpinfo/__init__.py,sha256=-y9y3xLofp76HdugZCz6lvqxC_mqa1XzhFAbxwwBtaY,148
+upnpinfo/cli.py,sha256=L7_Z4qcKG63Z4884uWwoD_8pkxe10pu9rjjjnB2dfhs,7619
+upnpinfo/upnp.py,sha256=KM9iFlDCsXpdSvbdL2HpYkX2ISlsLzEr79vB3U8VWis,1946
+upnpinfo-1.0.0.dist-info/LICENSE,sha256=BQH44HUhhnztVMecVvD1ljuYq0tdbLFJRyR0jHYkrYY,1067
+upnpinfo-1.0.0.dist-info/METADATA,sha256=WYN10vagOEpO9CgE18Q8kO8zBO24xdKasndXETg65No,3165
+upnpinfo-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+upnpinfo-1.0.0.dist-info/entry_points.txt,sha256=4GCyA-sJVqg_DjG_b4JPGfsViOOWu-cHkBduQ3XY5lk,42
+upnpinfo-1.0.0.dist-info/top_level.txt,sha256=xH3JQRooLMiAAr_kskivdtmvrdqBHFiXS1oE_bVCamY,9
+upnpinfo-1.0.0.dist-info/RECORD,,
