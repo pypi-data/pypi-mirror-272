@@ -1,0 +1,5 @@
+cryptography
+tqdm
+setuptools
+pyuac
+requests
