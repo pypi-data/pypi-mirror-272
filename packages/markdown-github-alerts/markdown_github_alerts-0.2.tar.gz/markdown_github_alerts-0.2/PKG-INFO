@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: markdown-github-alerts
+Version: 0.2
+Author: rauaap
+Project-URL: Homepage, https://github.com/rauaap/markdown-alerts
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+License-File: LICENSE
+Requires-Dist: markdown>=3.4.1

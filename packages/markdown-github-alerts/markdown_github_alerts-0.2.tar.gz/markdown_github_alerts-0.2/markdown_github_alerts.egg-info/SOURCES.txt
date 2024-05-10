@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+markdown_github_alerts/__init__.py
+markdown_github_alerts/icons.py
+markdown_github_alerts.egg-info/PKG-INFO
+markdown_github_alerts.egg-info/SOURCES.txt
+markdown_github_alerts.egg-info/dependency_links.txt
+markdown_github_alerts.egg-info/requires.txt
+markdown_github_alerts.egg-info/top_level.txt
