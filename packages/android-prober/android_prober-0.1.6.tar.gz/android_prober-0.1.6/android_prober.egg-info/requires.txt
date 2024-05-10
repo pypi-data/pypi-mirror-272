@@ -1,0 +1,6 @@
+flask
+kivy
+oscpy
+plyer
+swagger-gen
+pyjnius==1.6.1
