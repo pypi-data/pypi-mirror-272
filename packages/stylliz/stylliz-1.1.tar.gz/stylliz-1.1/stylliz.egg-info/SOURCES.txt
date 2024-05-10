@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stylliz/__init__.py
+stylliz/main.py
+stylliz.egg-info/PKG-INFO
+stylliz.egg-info/SOURCES.txt
+stylliz.egg-info/dependency_links.txt
+stylliz.egg-info/requires.txt
+stylliz.egg-info/top_level.txt
