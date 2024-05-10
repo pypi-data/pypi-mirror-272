@@ -1,0 +1,8 @@
+dfa/__init__.py,sha256=LhtF9GU-pwkQnKHTqd1DG6emFIjT3_mSpomkx0K1GgY,230
+dfa/dfa.py,sha256=NJcU-gVXwbri28x8P93lUg7Jwwm60kRsPqMlo0_Btoc,11108
+dfa/draw.py,sha256=vxbJXUoz2R1ofAQ-tdGI6Q8Zv3ts48ejoTQD5uxhmw8,649
+dfa/utils.py,sha256=vmSWWuYZSreTVXnRYOCj5p5pnaWx1-57hOLe6vKj7SY,6752
+dfa-4.7.1.dist-info/LICENSE,sha256=TsIcmtcb4ejYUV6d6hxHqCVHR1c-hWgWfv03ZBk9Xto,1082
+dfa-4.7.1.dist-info/METADATA,sha256=6717vCQfTTmhuJTo9XKA7Zvu5oDEX5sJv49CDinSD1k,8629
+dfa-4.7.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dfa-4.7.1.dist-info/RECORD,,
