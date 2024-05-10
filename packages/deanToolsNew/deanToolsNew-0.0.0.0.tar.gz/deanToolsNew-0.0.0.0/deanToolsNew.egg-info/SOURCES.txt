@@ -1,0 +1,8 @@
+setup.py
+deanToolsNew.egg-info/PKG-INFO
+deanToolsNew.egg-info/SOURCES.txt
+deanToolsNew.egg-info/dependency_links.txt
+deanToolsNew.egg-info/entry_points.txt
+deanToolsNew.egg-info/requires.txt
+deanToolsNew.egg-info/top_level.txt
+deanUtils/__init__.py
