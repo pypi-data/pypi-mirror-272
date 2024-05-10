@@ -1,0 +1,8 @@
+biopython
+pandas
+requests
+scipy
+openpyxl
+tqdm
+cryptography
+dna-features-viewer
