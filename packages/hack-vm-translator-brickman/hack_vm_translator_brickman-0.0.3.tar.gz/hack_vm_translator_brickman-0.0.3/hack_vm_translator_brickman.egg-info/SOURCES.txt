@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+hack_vm_translator_brickman/__init__.py
+hack_vm_translator_brickman/atomic_commands.py
+hack_vm_translator_brickman/translator.py
+hack_vm_translator_brickman/virtual_commands.py
+hack_vm_translator_brickman.egg-info/PKG-INFO
+hack_vm_translator_brickman.egg-info/SOURCES.txt
+hack_vm_translator_brickman.egg-info/dependency_links.txt
+hack_vm_translator_brickman.egg-info/top_level.txt
+tests/test_vm.py
