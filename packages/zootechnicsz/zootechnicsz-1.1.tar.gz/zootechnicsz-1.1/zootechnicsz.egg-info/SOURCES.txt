@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+zootechnicsz/__init__.py
+zootechnicsz/main.py
+zootechnicsz.egg-info/PKG-INFO
+zootechnicsz.egg-info/SOURCES.txt
+zootechnicsz.egg-info/dependency_links.txt
+zootechnicsz.egg-info/requires.txt
+zootechnicsz.egg-info/top_level.txt
