@@ -1,0 +1,9 @@
+README.md
+setup.py
+first_glance/__init__.py
+first_glance/report.py
+first_glance.egg-info/PKG-INFO
+first_glance.egg-info/SOURCES.txt
+first_glance.egg-info/dependency_links.txt
+first_glance.egg-info/requires.txt
+first_glance.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: first-glance
+Version: 1.0.0
+Summary: Quick plotting and examination for early analysis of data
+Home-page: https://github.com/Kanustu/analysis_reporting
+Author: Jordan Kanius
+Author-email: Kaniusjordan@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: seaborn
+
+Python package used for early inital analysis with the ability to return plots(boxplots, histograms and heatmap)    and also return dataframe with a count of nulls, column datatype, and descriptive stats for each column within the data
