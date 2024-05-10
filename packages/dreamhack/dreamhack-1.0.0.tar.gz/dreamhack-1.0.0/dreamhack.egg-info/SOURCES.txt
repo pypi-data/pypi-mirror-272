@@ -1,0 +1,12 @@
+setup.py
+dreamhack/__init__.py
+dreamhack/colorcodes.py
+dreamhack/encryption.py
+dreamhack/logging.py
+dreamhack/windows.py
+dreamhack/zipfiles.py
+dreamhack.egg-info/PKG-INFO
+dreamhack.egg-info/SOURCES.txt
+dreamhack.egg-info/dependency_links.txt
+dreamhack.egg-info/requires.txt
+dreamhack.egg-info/top_level.txt

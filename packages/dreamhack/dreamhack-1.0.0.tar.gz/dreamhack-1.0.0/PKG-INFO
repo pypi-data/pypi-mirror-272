@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dreamhack
+Version: 1.0.0
+Summary: The ultimate PyPi package for cyber-security and many other things.
+Author: Jack Burr
+Author-email: BurrJ22@Outlook.com
+Keywords: python,windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: cryptography
+Requires-Dist: tqdm
+Requires-Dist: setuptools
+
+The ultimate PyPi package for cyber-security, encryption, and many other things to simplify your code and make more advanced programs.
+
+RELEASE NOTES:
+v1.0.0:
+- Initial release
+- NOTE: Encryption and logging are both empty for this first version.
+- v1.0.1 coming very soon.
