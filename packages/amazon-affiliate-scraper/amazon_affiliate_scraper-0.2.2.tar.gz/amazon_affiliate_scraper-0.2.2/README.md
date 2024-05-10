@@ -1,0 +1,29 @@
+# Amazon Affiliate - Scraper Tool
+
+## Quickstart
+
+### Creating Affiliate URL:
+
+```py
+from amazon_affiliate import AmazonAffiliate
+import json
+
+def get_amazon_cookies() -> list[dict]:
+    with open("www.amazon.com.br.cookies (2).json", "r") as file:
+        cookies = json.load(file)
+        return cookies
+
+def main() -> None:
+    amazon_affiliate = AmazonAffiliate(
+        cookies = get_amazon_cookies(),
+        origin_url = "https://www.amazon.com.br/",
+        headless = False
+    )
+
+    affiliate_url = amazon_affiliate.create_affiliate_url("https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/?_encoding=UTF8&pd_rd_w=z10q4&content-id=amzn1.sym.52e74d21-088e-4a9d-888d-8b14bf95d4ae&pf_rd_p=52e74d21-088e-4a9d-888d-8b14bf95d4ae&pf_rd_r=6360ZE14T1KEYVFYZMBQ&pd_rd_wg=1fQsD&pd_rd_r=58179dcd-f33a-44a6-9b15-0fd56b159876&ref_=pd_gw_crs_zg_bs_16209062011")
+
+    print(affiliate_url)
+
+if __name__ == "__main__":
+    main()
+```
