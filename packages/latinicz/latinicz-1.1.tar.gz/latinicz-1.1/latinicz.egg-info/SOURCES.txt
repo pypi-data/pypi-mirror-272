@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+latinicz/__init__.py
+latinicz/main.py
+latinicz.egg-info/PKG-INFO
+latinicz.egg-info/SOURCES.txt
+latinicz.egg-info/dependency_links.txt
+latinicz.egg-info/requires.txt
+latinicz.egg-info/top_level.txt
