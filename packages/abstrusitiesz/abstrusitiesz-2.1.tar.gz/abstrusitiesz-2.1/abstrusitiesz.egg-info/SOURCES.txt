@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+abstrusitiesz/__init__.py
+abstrusitiesz/main.py
+abstrusitiesz.egg-info/PKG-INFO
+abstrusitiesz.egg-info/SOURCES.txt
+abstrusitiesz.egg-info/dependency_links.txt
+abstrusitiesz.egg-info/requires.txt
+abstrusitiesz.egg-info/top_level.txt
