@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anankasticz/__init__.py
+anankasticz/main.py
+anankasticz.egg-info/PKG-INFO
+anankasticz.egg-info/SOURCES.txt
+anankasticz.egg-info/dependency_links.txt
+anankasticz.egg-info/requires.txt
+anankasticz.egg-info/top_level.txt
