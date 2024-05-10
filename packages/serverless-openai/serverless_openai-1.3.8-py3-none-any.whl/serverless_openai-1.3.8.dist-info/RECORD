@@ -1,0 +1,7 @@
+serverless_openai/__init__.py,sha256=qq2kVbsHxvWSHQ8zQzRkhKOl7_u3I7kGihCCr1EHZKU,19
+serverless_openai/apis.py,sha256=KINRT-Ucak_f6QI46-0xePBlgx8QNbTYoC62ai93lOg,18412
+serverless_openai/helpers.py,sha256=3FKFoG5if8TpVXvFs0soV-vRKF_Vztf6pbrrw8PxoRg,8145
+serverless_openai-1.3.8.dist-info/METADATA,sha256=urfDim9IT8DiRoMl4Kb7M1SFGb5oA0cvVoDwC-sR4u4,909
+serverless_openai-1.3.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+serverless_openai-1.3.8.dist-info/top_level.txt,sha256=rkmgof-xx1rOG2m4Zp0PJoQFexPAM6QtDEthJVe7nbU,18
+serverless_openai-1.3.8.dist-info/RECORD,,
