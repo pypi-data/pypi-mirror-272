@@ -1,0 +1,3 @@
+[console_scripts]
+name-that-fucking-film=name_that_fucking_film.main:main
+
