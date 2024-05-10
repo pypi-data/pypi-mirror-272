@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+purulencyz/__init__.py
+purulencyz/main.py
+purulencyz.egg-info/PKG-INFO
+purulencyz.egg-info/SOURCES.txt
+purulencyz.egg-info/dependency_links.txt
+purulencyz.egg-info/requires.txt
+purulencyz.egg-info/top_level.txt
