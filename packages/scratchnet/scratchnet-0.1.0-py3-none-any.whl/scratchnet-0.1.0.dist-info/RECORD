@@ -1,0 +1,9 @@
+scratchnet/__init__.py,sha256=7npwwHuAdkrnQH-tVxftlmBKYGgJIv-GYD1ywJYYGKg,59
+scratchnet/logger.py,sha256=oBX8y08-AUD0eP3gXMVEEmHlXHaqTTZBTJNncmOfwj4,282
+scratchnet/packet.py,sha256=QP_lK-XdfuoebqQoJjSPcaP09nEqY4ebEoZlvUsFP8o,4260
+scratchnet/server.py,sha256=5sqkWFk2Lgw2CdY189TnLGV6Ln7JO7gRSQEhI7aMRVw,2488
+scratchnet-0.1.0.dist-info/LICENSE.txt,sha256=NhStUFr3zIOGoOe2efje9dpRLSOQlWS9XzZkHHLR3Sg,1085
+scratchnet-0.1.0.dist-info/METADATA,sha256=OvcmXH-X91kwiTccRf-gofkFdApTOnlzj1Chr_CFSmQ,861
+scratchnet-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scratchnet-0.1.0.dist-info/top_level.txt,sha256=_OkqYAI_teyBy5U6VcVCwTIaKfF02BNlcUJywYvWzrI,11
+scratchnet-0.1.0.dist-info/RECORD,,
