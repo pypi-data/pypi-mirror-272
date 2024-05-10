@@ -1,0 +1,11 @@
+pyserrf/CV.py,sha256=eT8lN-o41lPWQEBZe3kiMpWDGcMJ_queaTgbU2TJmsM,4442
+pyserrf/__init__.py,sha256=C3yUQV_LJTjQn0zWslCseJnMDoSGdjTYwZWHAal2m24,70
+pyserrf/cross_validation.py,sha256=ukRtkfESMb7i9858BU6_T9ZDNqPo_rJ9-9dH9Sd2DGA,4457
+pyserrf/read_data.py,sha256=oOUzs2pzNvmkWbIS7W-WLSfnXQ6hOUNyyPDngN5cXNU,4304
+pyserrf/run.py,sha256=UoSLnvLGpj-Gp6AvMadsvm1qdHj1bn2jwLFBsAQOq1g,343
+pyserrf/serrf.py,sha256=dzplDuAZdQ4pC2jpyuw89A56UveKrFTuA-jBlDfzzJM,18453
+pyserrf/test2.py,sha256=IAoEcjzLhli2fXfitXdp74Rb0LqadnQbeNyQbNgnKbA,169
+pyserrf/utils.py,sha256=Z9vMt8Q7k24SNf_VNTJ-TjYwQNRuq3PME0OpXWo434I,6689
+pyserrf-0.1.5.dist-info/METADATA,sha256=AgHd3LaYDV7kEDoHP3Egv-K-IV2bO5dYL_hDh15j_E8,1430
+pyserrf-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyserrf-0.1.5.dist-info/RECORD,,
