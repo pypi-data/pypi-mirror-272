@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sulfureousz/__init__.py
+sulfureousz/main.py
+sulfureousz.egg-info/PKG-INFO
+sulfureousz.egg-info/SOURCES.txt
+sulfureousz.egg-info/dependency_links.txt
+sulfureousz.egg-info/requires.txt
+sulfureousz.egg-info/top_level.txt
