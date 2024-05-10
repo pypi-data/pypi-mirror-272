@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+optimistz/__init__.py
+optimistz/main.py
+optimistz.egg-info/PKG-INFO
+optimistz.egg-info/SOURCES.txt
+optimistz.egg-info/dependency_links.txt
+optimistz.egg-info/requires.txt
+optimistz.egg-info/top_level.txt
