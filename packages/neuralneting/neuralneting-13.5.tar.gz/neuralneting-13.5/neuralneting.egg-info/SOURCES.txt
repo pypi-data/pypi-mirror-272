@@ -1,0 +1,16 @@
+setup.py
+neuralnet/A1.py
+neuralnet/A2.py
+neuralnet/A3.py
+neuralnet/A4.py
+neuralnet/A5.py
+neuralnet/A8.py
+neuralnet/B1.py
+neuralnet/B4.py
+neuralnet/C2.py
+neuralnet/C4.py
+neuralnet/__init__.py
+neuralneting.egg-info/PKG-INFO
+neuralneting.egg-info/SOURCES.txt
+neuralneting.egg-info/dependency_links.txt
+neuralneting.egg-info/top_level.txt
