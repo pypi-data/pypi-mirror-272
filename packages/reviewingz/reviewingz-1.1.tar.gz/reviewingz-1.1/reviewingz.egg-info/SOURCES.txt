@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reviewingz/__init__.py
+reviewingz/main.py
+reviewingz.egg-info/PKG-INFO
+reviewingz.egg-info/SOURCES.txt
+reviewingz.egg-info/dependency_links.txt
+reviewingz.egg-info/requires.txt
+reviewingz.egg-info/top_level.txt
