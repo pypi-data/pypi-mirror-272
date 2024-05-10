@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+abandoningz/__init__.py
+abandoningz/main.py
+abandoningz.egg-info/PKG-INFO
+abandoningz.egg-info/SOURCES.txt
+abandoningz.egg-info/dependency_links.txt
+abandoningz.egg-info/requires.txt
+abandoningz.egg-info/top_level.txt
