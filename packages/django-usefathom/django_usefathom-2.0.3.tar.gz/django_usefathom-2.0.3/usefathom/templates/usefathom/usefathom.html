@@ -1,0 +1,14 @@
+{% if FATHOM_SITE_ID %}
+<!-- Fathom - beautiful, simple website analytics -->
+<script src="https://cdn.usefathom.com/script.js" data-site="{{ FATHOM_SITE_ID }}" defer></script>
+{% if fathom_events %}
+<script type="text/javascript">
+window.addEventListener('load', () => {
+  {% for event, value in fathom_events.items %}
+  fathom.trackEvent('{{ event }}'{% if value is not None %}, { _value: {{ value }}}{% endif %});
+  {% endfor %}
+});
+</script>
+{% endif %}
+<!-- / Fathom -->
+{% endif %}

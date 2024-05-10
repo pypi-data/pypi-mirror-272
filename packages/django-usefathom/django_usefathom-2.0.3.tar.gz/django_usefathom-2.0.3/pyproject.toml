@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "django-usefathom"
+version = "2.0.3"
+description = "A Django app to integrate Fathom Analytics into your project"
+authors = ["Paul Chubatyy <xobb@citylance.biz>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/paulchubatyy/django-usefathom"
+packages = [
+    { include = "usefathom" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+docutils = "0.21.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
