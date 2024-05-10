@@ -1,0 +1,3 @@
+[console_scripts]
+aim=aim_flask:print_version
+
