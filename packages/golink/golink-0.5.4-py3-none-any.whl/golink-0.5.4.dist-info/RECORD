@@ -1,0 +1,9 @@
+golink/__init__.py,sha256=OLs9kl_Agi01P9ZbZ3krBC0ozz9rE76dx6jHB5j5bTU,100
+golink/cli.py,sha256=KC3LvtizhdQPd-10tTYNa4-ZubCl91SJeXsSylssQqg,7928
+golink/script.js,sha256=0LT7Xa2o_T9O4euvRaC_BvVoGK_1qSpZAyMp0qM-aHA,1988
+golink/style.css,sha256=Pqs-XK0p9NoWPdOB0sgRKDTgxvUJQOEOUR-fXEz6WxA,3361
+golink/utils.py,sha256=EQXKqms6-Kz5BFrQHAaWUZII8RyYVZl5P7yBI2VTRDc,7729
+golink-0.5.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+golink-0.5.4.dist-info/METADATA,sha256=dGbELhJlxUg5g6aZh_kyM-gojhKjus-Nf6MR6jBCCt8,3555
+golink-0.5.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+golink-0.5.4.dist-info/RECORD,,
