@@ -1,0 +1,4 @@
+vital-ai-vitalsigns>=0.1.10
+vital-ai-domain>=0.1.4
+six
+pyyaml
