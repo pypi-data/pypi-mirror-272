@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+kgraphgen/__init__.py
+kgraphgen.egg-info/PKG-INFO
+kgraphgen.egg-info/SOURCES.txt
+kgraphgen.egg-info/dependency_links.txt
+kgraphgen.egg-info/requires.txt
+kgraphgen.egg-info/top_level.txt
