@@ -1,0 +1,14 @@
+ircbot/__init__.py,sha256=hinH-Ot3mIyfXzNENZmBnVMh3C1krLi3XcKDOT5UMhg,293
+ircbot/client.py,sha256=Hbuvm6bsaHyb0uSQ0ISOjXh6-NhD78VP5RSMRAb1yPQ,55214
+ircbot/dcc.py,sha256=byudVLo_vQCLjPp7b-qoC_LwhVq6bChDcNO1SA3Sks4,5384
+ircbot/format.py,sha256=OjTb_GCwh7kZJPmIxrrmplccUBrVAk58UFJtzPFvWV8,5807
+ircbot/hooks.py,sha256=Y7pLcMCOkn7b_lDTECSyJQEFcCFSVgMBIsjXE6iKFpA,18557
+ircbot/message.py,sha256=KixV2FYkKfGQEHFv3vNsRNsZBVoh9hHBiYmpLBcRLlc,1822
+ircbot/shortest_prefix.py,sha256=e6YrSLX1z2JpT97I3bayIeXsHyDhE8SWUWeQ65rdwEI,1972
+ircbot/sqlitedb.py,sha256=yNDuc6r68Tg1ocfkBMv-X8VNSHqwjGoQXplptwDe3eQ,11380
+ircbot/utils.py,sha256=80mmxHd6W3HJCA1yshD6oSV5-cBZRPZUcJirDpbU7jE,1426
+re_ircbot-2.0.13.dev0.dist-info/LICENSE,sha256=Qm7ktbkXnmLz5oA-NukPbL6WlcTDcZv-g8T5sFxQRAQ,1072
+re_ircbot-2.0.13.dev0.dist-info/METADATA,sha256=MN4f9nsYwFn151bjWEniC6aKrSFPIlBaSjodQQkUKW0,14102
+re_ircbot-2.0.13.dev0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+re_ircbot-2.0.13.dev0.dist-info/top_level.txt,sha256=zCXxlszfMnlTW8Y_GXLPbE2b_rAYCmcEuW0UttOxrv8,7
+re_ircbot-2.0.13.dev0.dist-info/RECORD,,
