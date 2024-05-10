@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prespontaneouslyz/__init__.py
+prespontaneouslyz/main.py
+prespontaneouslyz.egg-info/PKG-INFO
+prespontaneouslyz.egg-info/SOURCES.txt
+prespontaneouslyz.egg-info/dependency_links.txt
+prespontaneouslyz.egg-info/requires.txt
+prespontaneouslyz.egg-info/top_level.txt
