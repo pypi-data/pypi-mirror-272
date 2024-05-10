@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: language_toolkit
+Version: 0.7.0
+Summary: A toolkit for working with Natural Language Processing projects.
+Author: Athena AIML Contributors
+Requires-Python: ==3.8.*
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click
+Requires-Dist: dill
+Requires-Dist: drain3
+Requires-Dist: joblib
+Requires-Dist: jupyterlab
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: pydantic
+Requires-Dist: rich
+Requires-Dist: ruff
+Requires-Dist: scikit-learn
+Requires-Dist: snorkel
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+
