@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+junkboardz/__init__.py
+junkboardz/main.py
+junkboardz.egg-info/PKG-INFO
+junkboardz.egg-info/SOURCES.txt
+junkboardz.egg-info/dependency_links.txt
+junkboardz.egg-info/requires.txt
+junkboardz.egg-info/top_level.txt
