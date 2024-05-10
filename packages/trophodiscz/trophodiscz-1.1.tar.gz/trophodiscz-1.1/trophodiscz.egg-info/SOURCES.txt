@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+trophodiscz/__init__.py
+trophodiscz/main.py
+trophodiscz.egg-info/PKG-INFO
+trophodiscz.egg-info/SOURCES.txt
+trophodiscz.egg-info/dependency_links.txt
+trophodiscz.egg-info/requires.txt
+trophodiscz.egg-info/top_level.txt
