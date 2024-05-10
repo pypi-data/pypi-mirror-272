@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: hangul
+Version: 0.0.2
+Summary: A Python port of the es-hangul JavaScript library.
+Project-URL: Homepage, https://github.com/isnbh0/hangul
+Project-URL: Issues, https://github.com/isnbh0/hangul/issues
+Author-email: John Choi <isnbh0@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# hangul
+
+A port of [es-hangul](https://github.com/toss/es-hangul) into Python.
+
