@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/zsx_Hic_plot.py
+src/zsx_Hic_plot.egg-info/PKG-INFO
+src/zsx_Hic_plot.egg-info/SOURCES.txt
+src/zsx_Hic_plot.egg-info/dependency_links.txt
+src/zsx_Hic_plot.egg-info/requires.txt
+src/zsx_Hic_plot.egg-info/top_level.txt

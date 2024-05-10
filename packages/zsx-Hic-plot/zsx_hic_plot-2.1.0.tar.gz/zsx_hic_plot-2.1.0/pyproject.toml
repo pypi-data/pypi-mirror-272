@@ -1,0 +1,19 @@
+[project]
+name = "zsx_Hic_plot"
+version = "2.1.0"
+authors = [
+  { name="Zhang Senxin", email="sxzhang997@qq.com" },
+]
+dependencies = ['zsx-some-tools>=2.0.0', 'zsx-facile-heatmap', 'zsx-color-bar', 'zsx-HMM']
+description = "Facile & flexible heatmap plotting"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ZhangSenxin/plot_packages"
+"Bug Tracker" = "https://github.com/ZhangSenxin/plot_packages/issues"
