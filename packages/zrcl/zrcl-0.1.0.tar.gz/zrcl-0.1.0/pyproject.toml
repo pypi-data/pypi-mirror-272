@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "zrcl"
+version = "0.1.0"
+description = ""
+authors = ["ZackaryW <36378555+ZackaryW@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "zrcl4", from = "src" },
+    { include = "zrcl3_utils", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12, <4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = ">=23.1,<25.0"
+pygetwindow = ">=0.0.9"
+readchar=">=4.0.6"
+pytest="8.2.0"
+click=">=8.1.7"
+toml = ">=0.10.2"
+easyocr = ">=1.7.1"
+pyautogui = ">=0.9.54"
+pandas = ">=2.2.2"
+thefuzz = ">=0.22.1"
+orjson = ">=3.10.3"
+pywin32 = ">=306"
+marisa-trie = ">=1.1.1"
+py7zr = ">=0.21.0"
+
+
+screeninfo = "^0.8.1"
+[tool.poetry.group.docs.dependencies]
+sphinx = ">=7.2.6"
+sphinx-autobuild = ">=2024.2.4"
+sphinx-copybutton = ">=0.5.2"
+furo = ">=2024.1.29"
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+
