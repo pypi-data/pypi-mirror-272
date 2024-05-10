@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+arthrotropicz/__init__.py
+arthrotropicz/main.py
+arthrotropicz.egg-info/PKG-INFO
+arthrotropicz.egg-info/SOURCES.txt
+arthrotropicz.egg-info/dependency_links.txt
+arthrotropicz.egg-info/requires.txt
+arthrotropicz.egg-info/top_level.txt
