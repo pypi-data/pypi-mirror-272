@@ -1,0 +1,7 @@
+pyproject.toml
+src/tp_sql/main.py
+src/tp_sql.egg-info/PKG-INFO
+src/tp_sql.egg-info/SOURCES.txt
+src/tp_sql.egg-info/dependency_links.txt
+src/tp_sql.egg-info/requires.txt
+src/tp_sql.egg-info/top_level.txt
