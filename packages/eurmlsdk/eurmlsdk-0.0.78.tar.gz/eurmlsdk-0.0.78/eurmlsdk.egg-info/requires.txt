@@ -1,0 +1,6 @@
+boto3
+paramiko
+python-dotenv
+tensorflow==2.13.1
+tqdm
+ultralytics
