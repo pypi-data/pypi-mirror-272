@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: tinyfit
+Version: 0.0.2
+Summary: A small regression library
+Project-URL: Homepage, https://github.com/mornevwyk/tinyfit
+Project-URL: Documentation, https://github.com/mornevwyk/tinyfit
+Project-URL: Repository, https://github.com/mornevwyk/tinyfit
+Project-URL: Issues, https://github.com/mornevwyk/tinyfit/issues
+Project-URL: Changelog, https://github.com/mornevwyk/tinyfit
+Author-email: Morne van Wyk <morn.vanwyk@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# tinyfit
+python regression library
