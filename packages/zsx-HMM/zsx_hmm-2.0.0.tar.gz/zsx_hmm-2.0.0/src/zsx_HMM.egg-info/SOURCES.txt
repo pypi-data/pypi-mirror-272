@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/zsx_HMM.py
+src/zsx_HMM.egg-info/PKG-INFO
+src/zsx_HMM.egg-info/SOURCES.txt
+src/zsx_HMM.egg-info/dependency_links.txt
+src/zsx_HMM.egg-info/top_level.txt

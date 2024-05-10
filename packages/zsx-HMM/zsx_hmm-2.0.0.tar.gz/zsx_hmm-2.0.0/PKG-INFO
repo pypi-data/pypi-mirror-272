@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zsx_HMM
+Version: 2.0.0
+Summary: Facile & flexible heatmap plotting
+Author-email: Zhang Senxin <sxzhang997@qq.com>
+Project-URL: Homepage, https://github.com/ZhangSenxin/plot_packages
+Project-URL: Bug Tracker, https://github.com/ZhangSenxin/plot_packages/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Don't Read Me!
