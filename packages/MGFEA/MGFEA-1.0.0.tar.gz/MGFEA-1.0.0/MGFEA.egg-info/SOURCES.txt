@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+MGFEA/ModelPlot.py
+MGFEA/__init__.py
+MGFEA/model.py
+MGFEA/multiGraphFEA.py
+MGFEA/preprocess.py
+MGFEA/train.py
+MGFEA.egg-info/PKG-INFO
+MGFEA.egg-info/SOURCES.txt
+MGFEA.egg-info/dependency_links.txt
+MGFEA.egg-info/requires.txt
+MGFEA.egg-info/top_level.txt
