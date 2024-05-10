@@ -1,0 +1,131 @@
+Metadata-Version: 2.3
+Name: ariadne-lambda
+Version: 0.3.1
+Summary: This package extends the Ariadne library by adding a GraphQL HTTP handler designed for use in AWS Lambda environments.
+Project-URL: Documentation, https://github.com/mirumee/ariadne-lambda#readme
+Project-URL: Issues, https://github.com/mirumee/ariadne-lambda/issues
+Project-URL: Source, https://github.com/mirumee/ariadne-lambda
+Author-email: Mirumee Software <it@mirumee.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, Mirumee Labs
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: ariadne<0.24.0,>=0.23.0
+Requires-Dist: aws-lambda-powertools<3.0.0,>=2.35.1
+Requires-Dist: jmespath
+Requires-Dist: pydantic<3.0.0,>=2.4.0
+Description-Content-Type: text/markdown
+
+# Ariadne AWS Lambda Extension
+
+This package extends the Ariadne library by adding a GraphQL HTTP handler designed for use in AWS Lambda environments. It enables easy integration of GraphQL services with AWS serverless infrastructure, making it straightforward to deploy GraphQL APIs without worrying about the underlying server management.
+
+## Introduction
+
+This project provides an extension to the Ariadne GraphQL library, specifically tailored for deploying GraphQL APIs on AWS Lambda. It simplifies handling GraphQL requests by providing a custom HTTP handler that seamlessly integrates with the AWS Lambda and API Gateway, allowing developers to focus on their GraphQL schema and resolvers instead of server and infrastructure management.
+
+## Installation
+
+To install the extension, use pip:
+
+```bash
+pip install ariadne-lambda
+```
+
+## Quick Start
+
+Here's a basic example of how to use the extension in your AWS Lambda function:
+
+```python
+from typing import Any
+
+from ariadne import QueryType, gql, make_executable_schema
+from ariadne_lambda.graphql import GraphQLLambda
+from asgiref.sync import async_to_sync
+from aws_lambda_powertools.utilities.typing import LambdaContext
+
+type_defs = gql(
+    """
+    type Query {
+        hello: String!
+    }
+"""
+)
+query = QueryType()
+
+
+@query.field("hello")
+def resolve_hello(_, info):
+    request = info.context["request"]
+    user_agent = request.headers.get("user-agent", "guest")
+    return "Hello, %s!" % user_agent
+
+
+schema = make_executable_schema(type_defs, query)
+graphql_app = GraphQLLambda(schema=schema)
+
+
+def graphql_http_handler(event: dict[str, Any], context: LambdaContext):
+    return async_to_sync(graphql_app)(event, context)
+```
+
+## Documentation
+
+For full documentation on Ariadne, visit [Ariadne's Documentation](https://ariadnegraphql.org/docs/). For details on AWS Lambda, refer to the [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html).
+
+## Features
+
+- Easy integration with AWS Lambda and API Gateway.
+- Support for GraphQL queries and mutations.
+- Customizable context and error handling.
+- Seamless extension of the Ariadne library for serverless applications.
+
+## Contributing
+
+We welcome all contributions to Ariadne! If you've found a bug or issue, feel free to use [GitHub issues](https://github.com/mirumee/ariadne-lambda/issues). If you have any questions or feedback, don't hesitate to catch us on [GitHub discussions](https://github.com/mirumee/ariadne/discussions/).
+
+For guidance and instructions, please see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Also make sure you follow [@AriadneGraphQL](https://twitter.com/AriadneGraphQL) on Twitter for latest updates, news and random musings!
+
+**Crafted with ❤️ by [Mirumee Software](http://mirumee.com)**
+hello@mirumee.com
