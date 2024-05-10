@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+contubernialz/__init__.py
+contubernialz/main.py
+contubernialz.egg-info/PKG-INFO
+contubernialz.egg-info/SOURCES.txt
+contubernialz.egg-info/dependency_links.txt
+contubernialz.egg-info/requires.txt
+contubernialz.egg-info/top_level.txt
