@@ -1,0 +1,11 @@
+query GetActiveDeploymentsFull {
+  deployment(where: {deployed: {_eq: true}}) {
+    id
+    deploy_id
+    engine_config
+    deployed
+    node_selector
+    created_at
+    updated_at
+  }
+}
