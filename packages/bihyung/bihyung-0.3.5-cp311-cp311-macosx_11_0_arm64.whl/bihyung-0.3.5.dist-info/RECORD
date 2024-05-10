@@ -1,0 +1,8 @@
+bihyung-0.3.5.dist-info/METADATA,sha256=VFMtTBa8kQ8UCru307ZAj7945k4P5K34lWmURgpZyPA,479
+bihyung-0.3.5.dist-info/WHEEL,sha256=VDwrPQtzDuffEE5m5yHKwmmjpDZ_O8uqexNrjjw47eg,104
+bihyung/ggml-metal.metal,sha256=-d6WWqJiF2GNPiQykeNzB-ePch6ZQDADv1sbCfI6nBE,250406
+bihyung/__init__.py,sha256=Z6G2Q8KDMwUjXm-xykQ51zXNVvEfQ_5gSWJdX2qKgns,461
+bihyung/server,sha256=cgCzkPbNY29RZWZ5yoOUfj5PSUxtTXxe9YTMWTQACVI,3375336
+bihyung/ggml-common.h,sha256=rMZhFrhn9rDYWvG5F4YAm6DZ9saBaSr9XTCrSPI_PTE,133178
+bihyung/bihyung.cpython-311-darwin.so,sha256=LXn1MgZ_2fHfb3nXx4Dzu1ykWz914gGrKxTPALRhG_M,4635872
+bihyung-0.3.5.dist-info/RECORD,,
