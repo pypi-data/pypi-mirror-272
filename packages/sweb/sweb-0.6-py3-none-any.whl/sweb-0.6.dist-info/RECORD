@@ -1,0 +1,12 @@
+sweb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sweb/app.py,sha256=MI4Gce9isD7QLomLljVmA5Qih8FZq81wvLThMovi0k4,3643
+sweb/asset_manager.py,sha256=-FBmBL5p_cqRhFpHkHSuu69QfmojTcp5msh6-Rznr7U,449
+sweb/data_loader.py,sha256=oU0zRwK1nsQYiWP6IgCkCB2-wRI2Bvezm-GHgPKX9PE,832
+sweb/style_processor.py,sha256=sLYEE486gP0H1RBMW80zhW37FdWrzR_nPoq_y7ConAE,1466
+sweb/template_processor.py,sha256=P5iBynPdiU_4nagLHSXnG22dnkYKV6g8NJdUwG_t7Zo,1317
+sweb-0.6.dist-info/LICENSE,sha256=iIu56XBHGbZcqW7M891D0bs6MkuXMty-M7TR2P5x-mI,1072
+sweb-0.6.dist-info/METADATA,sha256=WmeDWLu2tqy5nvTg8mjR7XOyKp2KUNUhqy9_-9Z-OmU,5787
+sweb-0.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sweb-0.6.dist-info/entry_points.txt,sha256=5PTHjqrC8St2hkAO7tmwzHZM36eH7nmZEU7eKTcFc1Q,39
+sweb-0.6.dist-info/top_level.txt,sha256=cWlDkA64wIeiPesXOX12isxQbH-eGXh_UZ6xuuxsCKw,5
+sweb-0.6.dist-info/RECORD,,
