@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+acetylacetonez/__init__.py
+acetylacetonez/main.py
+acetylacetonez.egg-info/PKG-INFO
+acetylacetonez.egg-info/SOURCES.txt
+acetylacetonez.egg-info/dependency_links.txt
+acetylacetonez.egg-info/requires.txt
+acetylacetonez.egg-info/top_level.txt
