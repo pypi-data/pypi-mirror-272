@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: metabotk
+Version: 0.1.3
+Summary: Python toolkit for working with metabolomics data
+Author: matteobolner
+Author-email: matteo.bolner2@unibo.it
+Requires-Python: >=3.10,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boruta-py-versioned (>=0.1.0,<0.2.0)
+Requires-Dist: coverage (>=7.4.4,<8.0.0)
+Requires-Dist: dill (>=0.3.8,<0.4.0)
+Requires-Dist: pandas (>=2.2.1,<3.0.0)
+Requires-Dist: pyserrf (>=0.1.5,<0.2.0)
+Requires-Dist: pytest (>=8.1.1,<9.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: scikit-learn (>=1.4.2,<2.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Requires-Dist: sphinx-rtd-theme (>=2.0.0,<3.0.0)
+Requires-Dist: statsmodels (>=0.14.1,<0.15.0)
+Description-Content-Type: text/markdown
+
+# MetabolomicsToolKit
+IN PROGRESS - Python toolkit to work with metabolomics data
+
+https://metabolomics-toolkit.readthedocs.io/en/latest/
+
