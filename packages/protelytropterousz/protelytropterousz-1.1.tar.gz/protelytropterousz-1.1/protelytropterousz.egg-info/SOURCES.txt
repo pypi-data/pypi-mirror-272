@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+protelytropterousz/__init__.py
+protelytropterousz/main.py
+protelytropterousz.egg-info/PKG-INFO
+protelytropterousz.egg-info/SOURCES.txt
+protelytropterousz.egg-info/dependency_links.txt
+protelytropterousz.egg-info/requires.txt
+protelytropterousz.egg-info/top_level.txt
