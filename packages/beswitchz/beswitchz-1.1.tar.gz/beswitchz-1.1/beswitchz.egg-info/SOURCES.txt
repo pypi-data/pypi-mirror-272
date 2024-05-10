@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+beswitchz/__init__.py
+beswitchz/main.py
+beswitchz.egg-info/PKG-INFO
+beswitchz.egg-info/SOURCES.txt
+beswitchz.egg-info/dependency_links.txt
+beswitchz.egg-info/requires.txt
+beswitchz.egg-info/top_level.txt
