@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: proper
+Version: 0.2
+Summary: A web framework optimized for programmer happiness
+Author-email: Juan-Pablo Scaletti <juanpablo@jpscaletti.com>
+License: Copyright (c) 2019 Juan-Pablo Scaletti
+        
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+        
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: homepage, https://proper.scaletti.dev/
+Project-URL: repository, https://github.com/jpsca/proper
+Project-URL: documentation, https://proper.scaletti.dev/
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: inflection>=0.5.1
+Requires-Dist: isort>=5.0
+Requires-Dist: itsdangerous>=1.1
+Requires-Dist: jinjax>=0.30
+Requires-Dist: mailshake
+Requires-Dist: markupsafe>=2.0
+Requires-Dist: passlib>=1.7
+Requires-Dist: peewee>=3.15
+Requires-Dist: peewee-migrate<2,>=1.12.1
+Requires-Dist: proper-cli>=1.2
+Requires-Dist: tomlkit>=0.12.4
+Requires-Dist: traceback-with-variables==2.0.4
+Requires-Dist: uwsgi>=2.0
+Provides-Extra: dev
+Requires-Dist: ipdb>=0.13; extra == "dev"
+Requires-Dist: pyright>=1.1; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: ruff>=0.2.0; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest>=7.2; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: tox; extra == "test"
+Requires-Dist: image-processing-egg; extra == "test"
+Requires-Dist: poyo; extra == "test"
+
+> :warning: WARNING: This is a work in progress. It doesn't have documentation. Do NOT use it.
+
+# Proper
+
+A web framework optimized for programmer happiness.
+
+
+### Requirements
+
+- Python 3.10+
+
+
+### Installation
+
+	pip install proper
+
+
+## Design principles
+
+- "Convention over configuration".
+
+- No globals.
+	When you need a shared object, pass it arround.
+
+- Optimize for the 95%.
+	Don't compromise the usability of the common cases to keep consistency
+	with the edge cases.
+
+- Code redability is important.
+
+- App-code over framework-code
+	Because app code is infintely configurable without dirty hacks.
+
+- "Everyone is an adult here".
+	Run with scissors if you must.
+
+- Regular WSGI is great.
+
+
+# Sources of inspirations
+
+## From Elixir/Phoenix
+
+### App-code over framework-code.
+
+You can make it clean and straightforward or you can make it configurable.
+But if you put the code in the application, thanks to a standarized project skeleton,
+you can have both!
+
+
+## From Ruby/Rails
+
+### Convention over configuration.
+
+### Optimize for developer happiness.
+
+### The application code must be beatiful.
+
+- Empty class-based views that works!
+- Class-based views allows several tricks that make the experience much better:
+	- A configurable and plugganle render and view functions.
+	- Class based views a-la Django, but simpler and completely obvious because is your application code (see (App-code over framework-code)
+	- Saving context varaibles in your view instance looks much cleaner that building a dictionary and manually calling render and the end of each view.
+
+
+![Visualization of the codebase](./diagram.svg)

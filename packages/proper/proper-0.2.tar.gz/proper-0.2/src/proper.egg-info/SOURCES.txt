@@ -1,0 +1,160 @@
+MIT-LICENSE
+README.md
+pyproject.toml
+src/blueprints/app/wsgi.tt.py
+src/blueprints/app/[[ app_name ]]/__init__.py
+src/blueprints/app/[[ app_name ]]/app.py
+src/blueprints/app/[[ app_name ]]/routes.py
+src/blueprints/app/[[ app_name ]]/cl/__init__.tt.py
+src/blueprints/app/[[ app_name ]]/config/__init__.py
+src/blueprints/app/[[ app_name ]]/config/app.tt.py
+src/blueprints/app/[[ app_name ]]/config/database.tt.py
+src/blueprints/app/[[ app_name ]]/config/session.py
+src/blueprints/app/[[ app_name ]]/config/storage.py
+src/blueprints/app/[[ app_name ]]/initializers/1_app.tt.py
+src/blueprints/app/[[ app_name ]]/initializers/2_database.py
+src/blueprints/app/[[ app_name ]]/initializers/__init__.py
+src/blueprints/app/[[ app_name ]]/initializers/error_handlers.py
+src/blueprints/app/[[ app_name ]]/mailers/__init__.py
+src/blueprints/app/[[ app_name ]]/mailers/mailer.py
+src/blueprints/app/[[ app_name ]]/models/__init__.py
+src/blueprints/app/[[ app_name ]]/models/base.py
+src/blueprints/app/[[ app_name ]]/models/concerns/__init__.py
+src/blueprints/app/[[ app_name ]]/models/concerns/timestamped.tt.py
+src/blueprints/app/[[ app_name ]]/views/__init__.py
+src/blueprints/app/[[ app_name ]]/views/app.tt.py
+src/blueprints/app/[[ app_name ]]/views/page.py
+src/blueprints/app/[[ app_name ]]/views/concerns/__init__.py
+src/blueprints/app/[[ app_name ]]/views/concerns/db_connection.tt.py
+src/blueprints/app/[[ app_name ]]/views/concerns/security_headers.py
+src/blueprints/app/tests/conftest.py
+src/blueprints/auth/routes.tt.py
+src/blueprints/auth/[[ app_name ]]/app.append.py
+src/blueprints/auth/[[ app_name ]]/cl/__init__.append.py
+src/blueprints/auth/[[ app_name ]]/cl/auth.tt.py
+src/blueprints/auth/[[ app_name ]]/config/app.append.py
+src/blueprints/auth/[[ app_name ]]/config/auth.py
+src/blueprints/auth/[[ app_name ]]/mailers/auth.py
+src/blueprints/auth/[[ app_name ]]/models/__init__.append.py
+src/blueprints/auth/[[ app_name ]]/models/user.py
+src/blueprints/auth/[[ app_name ]]/models/concerns/authenticable.tt.py
+src/blueprints/auth/[[ app_name ]]/views/app.append.py
+src/blueprints/auth/[[ app_name ]]/views/app.prepend.py
+src/blueprints/auth/[[ app_name ]]/views/concerns/load_user.tt.py
+src/blueprints/auth/[[ app_name ]]/views/concerns/require_login.tt.py
+src/blueprints/auth/[[ app_name ]]/views/password/__init__.py
+src/blueprints/auth/[[ app_name ]]/views/password/forms.py
+src/blueprints/auth/[[ app_name ]]/views/password/pwned.py
+src/blueprints/auth/[[ app_name ]]/views/password/reset.tt.py
+src/blueprints/auth/[[ app_name ]]/views/password/validators.tt.py
+src/blueprints/auth/[[ app_name ]]/views/session/__init__.py
+src/blueprints/auth/[[ app_name ]]/views/session/forms.tt.py
+src/blueprints/auth/[[ app_name ]]/views/session/session.tt.py
+src/blueprints/i18n/[[ app_name ]]/initializers/i18n.py
+src/blueprints/i18n/[[ app_name ]]/views/app.prepend.py
+src/blueprints/i18n/[[ app_name ]]/views/concerns/set_locale.tt.py
+src/blueprints/model/[[ app_name ]]/models/[[ singular_snake ]].tt.py
+src/blueprints/model/[[ app_name ]]/models/__init__.append.py
+src/blueprints/resource/routes.tt.py
+src/blueprints/resource/[[ app_name ]]/views/[[ view_snake ]]/[[ view_snake ]].tt.py
+src/blueprints/resource/[[ app_name ]]/views/[[ view_snake ]]/__init__.tt.py
+src/blueprints/resource/[[ app_name ]]/views/[[ view_snake ]]/forms.tt.py
+src/blueprints/storage/routes.tt.py
+src/blueprints/storage/[[ app_name ]]/config/app.append.py
+src/blueprints/storage/[[ app_name ]]/config/storage.py
+src/blueprints/storage/[[ app_name ]]/models/__init__.append.py
+src/blueprints/storage/[[ app_name ]]/models/attachment.py
+src/blueprints/storage/[[ app_name ]]/views/storage.tt.py
+src/blueprints/view/routes.tt.py
+src/blueprints/view/[[ app_name ]]/views/[[ plural_snake ]].tt.py
+src/proper/__init__.py
+src/proper/constants.py
+src/proper/current.py
+src/proper/errors.py
+src/proper/py.typed
+src/proper/status.py
+src/proper/types.py
+src/proper/view.py
+src/proper.egg-info/PKG-INFO
+src/proper.egg-info/SOURCES.txt
+src/proper.egg-info/dependency_links.txt
+src/proper.egg-info/entry_points.txt
+src/proper.egg-info/requires.txt
+src/proper.egg-info/top_level.txt
+src/proper/auth/__init__.py
+src/proper/auth/auth.py
+src/proper/auth/install.py
+src/proper/cache/__init__.py
+src/proper/cache/base.py
+src/proper/cache/sqlite_cache.py
+src/proper/cl/__init__.py
+src/proper/cl/app_cl.py
+src/proper/cl/db_cl.py
+src/proper/cl/proper_cl.py
+src/proper/concerns/__init__.py
+src/proper/concerns/request_forgery_protection.py
+src/proper/concerns/session.py
+src/proper/core/__init__.py
+src/proper/core/app.py
+src/proper/core/app_test.py
+src/proper/core/config.py
+src/proper/core/error_handlers.py
+src/proper/core/pipeline/__init__.py
+src/proper/core/pipeline/dispatch.py
+src/proper/core/pipeline/head.py
+src/proper/core/pipeline/match.py
+src/proper/core/pipeline/method_override.py
+src/proper/core/pipeline/redirect.py
+src/proper/generators/__init__.py
+src/proper/generators/app.py
+src/proper/generators/model.py
+src/proper/generators/resource.py
+src/proper/generators/view.py
+src/proper/helpers/__init__.py
+src/proper/helpers/digestor.py
+src/proper/helpers/dotdict.py
+src/proper/helpers/http.py
+src/proper/helpers/jsonplus.py
+src/proper/helpers/mixins.py
+src/proper/helpers/multidict.py
+src/proper/helpers/proxy.py
+src/proper/helpers/render.py
+src/proper/helpers/server.py
+src/proper/helpers/utils.py
+src/proper/i18n/__init__.py
+src/proper/i18n/i18n.py
+src/proper/i18n/install.py
+src/proper/i18n/plural_rules.py
+src/proper/i18n/reader.py
+src/proper/request/__init__.py
+src/proper/request/forwarded.py
+src/proper/request/headers.py
+src/proper/request/make_env.py
+src/proper/request/multipart.py
+src/proper/request/parse_form.py
+src/proper/request/request.py
+src/proper/response/__init__.py
+src/proper/response/cookies.py
+src/proper/response/file_wrapper.py
+src/proper/response/flash_dict.py
+src/proper/response/headers.py
+src/proper/response/response.py
+src/proper/router/__init__.py
+src/proper/router/resource.py
+src/proper/router/route.py
+src/proper/router/router.py
+src/proper/router/scope.py
+src/proper/router/static.py
+src/proper/storage/__init__.py
+src/proper/storage/attachment.py
+src/proper/storage/install.py
+src/proper/storage/storage.py
+src/proper/storage/types.py
+src/proper/storage/services/__init__.py
+src/proper/storage/services/disk.py
+src/proper/storage/services/service.py
+tests/test_e2e_errors.py
+tests/test_e2e_hello.py
+tests/test_e2e_middleware.py
+tests/test_e2e_response.py
+tests/test_e2e_router.py
