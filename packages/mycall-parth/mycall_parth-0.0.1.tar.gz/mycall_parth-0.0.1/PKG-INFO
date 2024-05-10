@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mycall_parth
+Version: 0.0.1
+Summary: A simple calculator utility library
+Author: parth
+Requires-Python: >=3.6
