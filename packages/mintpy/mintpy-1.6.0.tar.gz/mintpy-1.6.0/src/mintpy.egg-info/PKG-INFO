@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mintpy
+Version: 1.6.0
+Summary: Miami INsar Time-series software in PYthon
+Author-email: Zhang Yunjun <yunjunz@outlook.com>, Heresh Fattahi <hersh.fattahi@gmail.com>
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/insarlab/MintPy
+Project-URL: Documentation, https://mintpy.readthedocs.io/
+Project-URL: Issues, https://github.com/insarlab/MintPy/issues
+Keywords: InSAR,deformation,time-series,volcano,tectonics,geodesy,geophysics,remote-sensing
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: argcomplete
+Requires-Dist: cartopy
+Requires-Dist: cvxopt
+Requires-Dist: dask>=1.0
+Requires-Dist: dask-jobqueue>=0.3
+Requires-Dist: h5py
+Requires-Dist: joblib
+Requires-Dist: lxml
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pyaps3>=0.3
+Requires-Dist: pykml>=0.2
+Requires-Dist: pyproj
+Requires-Dist: pyresample
+Requires-Dist: pysolid
+Requires-Dist: rich
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: utm
+Provides-Extra: test
+Requires-Dist: gdal>=3; extra == "test"
+Requires-Dist: isce2; extra == "test"
+Requires-Dist: pre-commit; extra == "test"
+Requires-Dist: pyfftw; extra == "test"
+Requires-Dist: setuptools_scm; extra == "test"
