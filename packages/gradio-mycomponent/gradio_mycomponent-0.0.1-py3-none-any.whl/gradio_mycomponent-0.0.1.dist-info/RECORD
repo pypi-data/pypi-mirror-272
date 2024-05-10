@@ -1,0 +1,10 @@
+gradio_mycomponent/__init__.py,sha256=G9T4WRezWOBm7pTnGcFQBXG91LZRCArvmEDi1ZRU7Qw,65
+gradio_mycomponent/mycomponent.py,sha256=6tljbHu5wa_i5Foy5KpdvJxtkc7fiyayHuAAIJcKBOM,4236
+gradio_mycomponent/mycomponent.pyi,sha256=AtqZPRpvrmnju1y1XpA9Rd4keMfhUr2mIxifqC70wPQ,19536
+gradio_mycomponent/templates/component/index.js,sha256=R_b31cB-GaftZTRNTwW9kwaqluf3t2r-LJvxmERyjlI,65493
+gradio_mycomponent/templates/component/style.css,sha256=pg5fdlj4Z25AkduoWTFbteY0AXbYdaX-pDA6c2FDUkk,13650
+gradio_mycomponent/templates/example/index.js,sha256=OS9nWHtrMBcPa-vuGta3RE8gDLSp0_43pHlFTZPPASA,2315
+gradio_mycomponent/templates/example/style.css,sha256=-DHk5asz3SWFNLQlCnYuMN4b4gTf_srMmlu5x_xU_Pw,147
+gradio_mycomponent-0.0.1.dist-info/METADATA,sha256=ttNDaoDHyDjVKEH7pXmDJmAZvbnyutxxa3KxhqnHVbk,7574
+gradio_mycomponent-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+gradio_mycomponent-0.0.1.dist-info/RECORD,,
