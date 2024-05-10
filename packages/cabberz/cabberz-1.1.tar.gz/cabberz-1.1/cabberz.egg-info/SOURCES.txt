@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cabberz/__init__.py
+cabberz/main.py
+cabberz.egg-info/PKG-INFO
+cabberz.egg-info/SOURCES.txt
+cabberz.egg-info/dependency_links.txt
+cabberz.egg-info/requires.txt
+cabberz.egg-info/top_level.txt
