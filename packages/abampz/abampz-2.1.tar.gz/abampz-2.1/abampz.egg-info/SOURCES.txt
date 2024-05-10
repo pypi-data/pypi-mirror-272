@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+abampz/__init__.py
+abampz/main.py
+abampz.egg-info/PKG-INFO
+abampz.egg-info/SOURCES.txt
+abampz.egg-info/dependency_links.txt
+abampz.egg-info/requires.txt
+abampz.egg-info/top_level.txt
