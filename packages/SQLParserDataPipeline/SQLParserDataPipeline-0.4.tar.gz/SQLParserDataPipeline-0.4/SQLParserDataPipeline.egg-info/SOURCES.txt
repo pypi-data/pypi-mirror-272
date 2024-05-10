@@ -1,0 +1,10 @@
+README.md
+setup.py
+Library/From.py
+Library/Select.py
+Library/Unnest.py
+Library/__init__.py
+SQLParserDataPipeline.egg-info/PKG-INFO
+SQLParserDataPipeline.egg-info/SOURCES.txt
+SQLParserDataPipeline.egg-info/dependency_links.txt
+SQLParserDataPipeline.egg-info/top_level.txt
