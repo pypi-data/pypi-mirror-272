@@ -1,0 +1,12 @@
+wakeonlan/__init__.py,sha256=WJ_rEsa864IixN2dl6XjsQWluyV3gXelZvmDyMPvd7s,321
+wakeonlan/__main__.py,sha256=_C0eT_8qJ9XkdPxoM5I912Wz-yk-zkatW84Uh_6ToFM,254
+wakeonlan/autocomplete.ps1,sha256=bVG-t2ginJEgrdHNniscbnCdYqEYK_uxTeEqxaEjZz0,1069
+wakeonlan/autocomplete.sh,sha256=b765MnrQVa-5jENsa3nitUVDBSIkWJL-RRv0lhoSS6E,1931
+wakeonlan/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wakeonlan/wakeonlan.py,sha256=nrAzK_vy5JgsjxnCOCm2DSdi_cCMaonABbX4jRPvCXc,12010
+eg.wakeonlan-1.2.dist-info/LICENSE.txt,sha256=R3iUVKmWn9F7vfEekXoQ08Gj6AS02pE7JfDUeEg9o0A,1493
+eg.wakeonlan-1.2.dist-info/METADATA,sha256=TrevOdtlEDJ07mqUu3-bwYRs749uQ5n_iyUNskFecU8,5534
+eg.wakeonlan-1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+eg.wakeonlan-1.2.dist-info/entry_points.txt,sha256=HMzcOZGx0DeA_AyduhaImRSF3U_Hb05mwV-2KxaKKqw,55
+eg.wakeonlan-1.2.dist-info/top_level.txt,sha256=X0ULaudw5IjWv_gbNL8gmehMyu1jomfowGiwpITKM3o,10
+eg.wakeonlan-1.2.dist-info/RECORD,,

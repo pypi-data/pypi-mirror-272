@@ -1,0 +1,2 @@
+[console_scripts]
+wakeonlan = wakeonlan.wakeonlan:main
