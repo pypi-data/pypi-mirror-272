@@ -1,0 +1,1 @@
+export GWTM_API_TOKEN="X8yASL3YVhZhgeOYSf0cIinjjLvE0Wl00Eb-Rw"
