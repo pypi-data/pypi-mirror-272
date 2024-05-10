@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fresnez/__init__.py
+fresnez/main.py
+fresnez.egg-info/PKG-INFO
+fresnez.egg-info/SOURCES.txt
+fresnez.egg-info/dependency_links.txt
+fresnez.egg-info/requires.txt
+fresnez.egg-info/top_level.txt
