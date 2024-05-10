@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/VBScrambler/VBScrambler.py
+src/VBScrambler.egg-info/PKG-INFO
+src/VBScrambler.egg-info/SOURCES.txt
+src/VBScrambler.egg-info/dependency_links.txt
+src/VBScrambler.egg-info/top_level.txt
