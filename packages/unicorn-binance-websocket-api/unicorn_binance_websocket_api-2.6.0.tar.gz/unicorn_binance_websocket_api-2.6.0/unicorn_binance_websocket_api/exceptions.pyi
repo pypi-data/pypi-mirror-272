@@ -1,0 +1,16 @@
+from _typeshed import Incomplete
+
+class Socks5ProxyConnectionError(Exception): ...
+class UnknownExchange(Exception): ...
+
+class StreamIsCrashing(Exception):
+    message: Incomplete
+    def __init__(self, stream_id: Incomplete | None = None, reason: Incomplete | None = None) -> None: ...
+
+class StreamIsRestarting(Exception):
+    message: Incomplete
+    def __init__(self, stream_id: Incomplete | None = None, reason: Incomplete | None = None) -> None: ...
+
+class StreamIsStopping(Exception):
+    message: Incomplete
+    def __init__(self, stream_id: Incomplete | None = None, reason: Incomplete | None = None) -> None: ...
