@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: esercitazione_cicd
+Version: 0.1
+Summary: Esercitazione di CI/CD
+Author: Adam Taoufiq
+Author-email: adamtaoufiq01@gmail.com
+Requires-Dist: pytest
+
+a longer description

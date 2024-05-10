@@ -1,0 +1,9 @@
+README.md
+setup.py
+esercitazione_cicd.egg-info/PKG-INFO
+esercitazione_cicd.egg-info/SOURCES.txt
+esercitazione_cicd.egg-info/dependency_links.txt
+esercitazione_cicd.egg-info/requires.txt
+esercitazione_cicd.egg-info/top_level.txt
+math_lab/__init__.py
+math_lab/calc.py
