@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: rrprettier2
+Version: 1.0.0
+Summary: My awesome Python project
+Author: RadoTheProgrammer
+Author-email: rado@arazakar.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# RRPrettier
+
+A tool to prettify data of python objects
+
+A simple example in python:
+
+```python
+import rrprettier
+data={
+"name": "John Doe",
+"age": 56,
+"city": "New york",
+"isStudent": False,
+"courses": ["Math", "Science", "English"],
+"address": {
+    "street": "123 Main St",
+    "zipCode": "10001"
+}
+}
+rrprettier.pprint(data)
+```
+
