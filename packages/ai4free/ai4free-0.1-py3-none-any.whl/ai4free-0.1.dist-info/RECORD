@@ -1,0 +1,17 @@
+ai4free/Blackbox.py,sha256=2SxNL_MqqRVJIH34r_hUokSvodnIbeQ6MjNqkIVpjLA,16349
+ai4free/Cohere.py,sha256=nAnB9TF-3MP_rtznp2irAglY9IghCmOeaiHsEhTH-i4,8277
+ai4free/KOBOLDAI.py,sha256=L_3f0N4MKzyqiumO0v8rpp3U2uDK93YM-CUfdjKzLxQ,15388
+ai4free/OpenGPT.py,sha256=nZTwCSqABtYQ54FL8_LVkqcTSiARHlcplQra2AfW2OY,18500
+ai4free/Openai.py,sha256=hndJPLDC7ow8njezBHzh1VWMowqhE_t3qkIrCfebjPk,20211
+ai4free/Phind.py,sha256=mqEsMNZsICCRoQ2Wr0F4TMpn7lovHrL97GCmkOlNWpw,19512
+ai4free/__init__.py,sha256=X07VRS5uuvKtUKcQiziJk3LDdKV0EA4w-buuI2l1P2Q,319
+ai4free/groq.py,sha256=u0_uq3YAATmYPwy8WlDMZgrBKlb3vWeDobdfnBKwtzI,20824
+ai4free/leo.py,sha256=KOb8bCNxF2sCEQL5neBZJhaON-7lSpEnGczHtvSjPFg,20051
+ai4free/reka.py,sha256=0pLr8k4bTQYj5h92CM2cjgnPMzzXW0Lgg_-tzE8fvf0,8482
+ai4free/yep.py,sha256=LnXJ5oZ_EXjKjYAIRxGqxgOgN6WQ8lE6q8l9emp0dgU,19935
+ai4free/you.py,sha256=h25aBt6c7XhzkC6ewLIfFZA_DiE_pjmuHgkVWsWW2E0,7580
+ai4free-0.1.dist-info/LICENSE.md,sha256=mRVwJuT4SXC5O93BFdsfWBjlXjGn2Np90Zm5SocUzM0,3150
+ai4free-0.1.dist-info/METADATA,sha256=Dnsl-iXFN4-UAhKvzx9dSXBxQoU5DJGA6nzSOihvqbU,10610
+ai4free-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ai4free-0.1.dist-info/top_level.txt,sha256=vFPtHY2XUhn3vI57uQoUrWhm_bLWvps-1bNPBwfMkaQ,8
+ai4free-0.1.dist-info/RECORD,,
