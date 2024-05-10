@@ -1,0 +1,11 @@
+pydantic
+arrow
+websocket-client
+requests
+python-magic
+click
+deepmerge
+
+[test]
+pytest
+pytest-cov
