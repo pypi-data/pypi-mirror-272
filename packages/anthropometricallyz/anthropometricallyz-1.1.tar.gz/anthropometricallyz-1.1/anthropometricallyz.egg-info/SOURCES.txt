@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anthropometricallyz/__init__.py
+anthropometricallyz/main.py
+anthropometricallyz.egg-info/PKG-INFO
+anthropometricallyz.egg-info/SOURCES.txt
+anthropometricallyz.egg-info/dependency_links.txt
+anthropometricallyz.egg-info/requires.txt
+anthropometricallyz.egg-info/top_level.txt
