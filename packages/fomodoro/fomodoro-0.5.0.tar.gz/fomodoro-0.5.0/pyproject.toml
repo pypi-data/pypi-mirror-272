@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fomodoro"
+version = "0.5.0"
+authors = [{name = "LuisanaMTDev", email = "luisanamartineztorres25@gmail.com"}]
+description = "Stopwatch and timer to work and study with Flowtime technique."
+requires-python = ">=3.11"
+dependencies = [
+    "windows-curses>=2.3",
+    "click>=8.1",
+    "rich>=13.7"
+]
+readme= "README.md"
+
+[project.scripts]
+fomodoro = "fomodoro.main:FOMODORO"
+fomodoro-stats = "fomodoro.stats:show_stats"
+
+[tool.setuptools]
+packages = ["fomodoro"]
+include-package-data = true

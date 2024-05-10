@@ -1,0 +1,3 @@
+[console_scripts]
+fomodoro = fomodoro.main:FOMODORO
+fomodoro-stats = fomodoro.stats:show_stats
