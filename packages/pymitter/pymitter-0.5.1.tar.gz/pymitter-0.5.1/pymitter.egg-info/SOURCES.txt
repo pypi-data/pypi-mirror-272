@@ -1,0 +1,13 @@
+.flake8
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+requirements_dev.txt
+pymitter/__init__.py
+pymitter.egg-info/PKG-INFO
+pymitter.egg-info/SOURCES.txt
+pymitter.egg-info/dependency_links.txt
+pymitter.egg-info/requires.txt
+pymitter.egg-info/top_level.txt
