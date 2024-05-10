@@ -1,0 +1,4 @@
+graft src/python/T0Tools/bin
+graft src/python/T0Tools/etc
+include requirements.txt
+include LICENSE
