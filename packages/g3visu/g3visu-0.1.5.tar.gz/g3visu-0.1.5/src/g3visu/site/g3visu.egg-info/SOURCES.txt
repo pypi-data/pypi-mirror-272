@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+src/g3visu/site/g3visu.egg-info/PKG-INFO
+src/g3visu/site/g3visu.egg-info/SOURCES.txt
+src/g3visu/site/g3visu.egg-info/dependency_links.txt
+src/g3visu/site/g3visu.egg-info/entry_points.txt
+src/g3visu/site/g3visu.egg-info/requires.txt
+src/g3visu/site/g3visu.egg-info/top_level.txt
+src/g3visu/site/g3visu.egg-info/PKG-INFO
+src/g3visu/site/g3visu.egg-info/SOURCES.txt
+src/g3visu/site/g3visu.egg-info/dependency_links.txt
+src/g3visu/site/g3visu.egg-info/entry_points.txt
+src/g3visu/site/g3visu.egg-info/requires.txt
+src/g3visu/site/g3visu.egg-info/top_level.txt
