@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: mixentropy
+Version: 0.0.1
+Summary: Tools for estimating entropy of mixture distribution and more.
+Author-email: Grizxly <grizxlyzx@gamil.com>
+Maintainer-email: Grizxly <grizxlyzx@gamil.com>
+License: MIT License
+        
+        Copyright (c) 2024 grizxlyzx
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Repository, https://github.com/grizxlyzx/MixEntroPY
+Keywords: machine learning,deep learning,entropy
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.20.0
+Provides-Extra: pth
+Requires-Dist: torch >=2.0.0 ; extra == 'pth'
+
+# MixEntroPY
+
+Numpy & PyTorch vectorized implementation of various differential entropy estimators for ML & DL.
+
+## About The Project
+
+Information theory-inspired machine learning methods are gaining increasing interest, with estimation of the entropy as well as mutual information of random variables serving as their cornerstone.
+
+To estimate the Shannon entropy of a _discrete_ random variable, given its probability distribution, one can simply apply the definition of Shannon entropy $H(x)=-\sum_i p(x_i)\log p(x_i)$ to obtain an accurate result.
+
+But when it comes to estimate differential entropy, $h(x)=-\int p(x)\log p(x)dx$, from data points sampled from datasets or models, often there is no prior knowledge about the underlying distribution.
+
+In such cases, we could make an assumption of the unknown distribution and expect the assumed distribution to have a closed-form expression for its entropy calculation, e.g., multivariate Gaussian.
+
+_Kernel Density Estimation(KDE)_ is one of commonly used methods to approximate probability density of a distribution, However, while a single kernel may have a closed-form expression for its entropy, the mixture of these kernels typically does not.
+
+_**This project offers several entropy estimators for these mixture distributions, (mainly focus on mixture of Gaussian and mixture of uniform), implemented with both Numpy and PyTorch.**_
+
+Most of the estimators are **differentiable**, making them suitable for optimization purposes.
+
+_Please see Github https://github.com/grizxlyzx/MixEntroPY for more information._
