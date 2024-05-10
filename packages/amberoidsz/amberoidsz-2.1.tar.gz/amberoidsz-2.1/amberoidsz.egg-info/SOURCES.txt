@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+amberoidsz/__init__.py
+amberoidsz/main.py
+amberoidsz.egg-info/PKG-INFO
+amberoidsz.egg-info/SOURCES.txt
+amberoidsz.egg-info/dependency_links.txt
+amberoidsz.egg-info/requires.txt
+amberoidsz.egg-info/top_level.txt
