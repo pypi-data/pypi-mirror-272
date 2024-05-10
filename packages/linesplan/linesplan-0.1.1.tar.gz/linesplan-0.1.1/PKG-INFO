@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: linesplan
+Version: 0.1.1
+Summary: Ship Linesplan and Hydrostatics
+License: GPLv3
+Author: Jaap Versteegh
+Author-email: j.r.versteegh@gmail.com
+Requires-Python: ==3.11.*
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bpy (>=4.1.0,<5.0.0)
+Requires-Dist: ezdxf (>=1.3.0,<2.0.0)
+Requires-Dist: kiwisolver (>=1.4.5,<2.0.0)
+Requires-Dist: matplotlib (>=3.8.4,<4.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pyparsing (>=3.1.2,<4.0.0)
+Requires-Dist: scipy (>=1.13.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+Linesplan
+=========
+
