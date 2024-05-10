@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+alucoz/__init__.py
+alucoz/main.py
+alucoz.egg-info/PKG-INFO
+alucoz.egg-info/SOURCES.txt
+alucoz.egg-info/dependency_links.txt
+alucoz.egg-info/requires.txt
+alucoz.egg-info/top_level.txt
