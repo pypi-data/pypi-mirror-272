@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anacleticumz/__init__.py
+anacleticumz/main.py
+anacleticumz.egg-info/PKG-INFO
+anacleticumz.egg-info/SOURCES.txt
+anacleticumz.egg-info/dependency_links.txt
+anacleticumz.egg-info/requires.txt
+anacleticumz.egg-info/top_level.txt
