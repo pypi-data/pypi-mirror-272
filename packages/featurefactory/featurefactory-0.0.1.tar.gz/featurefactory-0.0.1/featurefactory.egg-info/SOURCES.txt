@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+featurefactory/__init__.py
+featurefactory/_modidx.py
+featurefactory/core.py
+featurefactory.egg-info/PKG-INFO
+featurefactory.egg-info/SOURCES.txt
+featurefactory.egg-info/dependency_links.txt
+featurefactory.egg-info/entry_points.txt
+featurefactory.egg-info/not-zip-safe
+featurefactory.egg-info/requires.txt
+featurefactory.egg-info/top_level.txt
