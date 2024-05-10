@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+somersetsz/__init__.py
+somersetsz/main.py
+somersetsz.egg-info/PKG-INFO
+somersetsz.egg-info/SOURCES.txt
+somersetsz.egg-info/dependency_links.txt
+somersetsz.egg-info/requires.txt
+somersetsz.egg-info/top_level.txt
