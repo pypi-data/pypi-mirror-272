@@ -1,0 +1,6 @@
+cffi>=1.0.0
+pysnmp-lextudio<6,>=4
+setuptools
+
+[:python_version >= "3.12"]
+pyasyncore
