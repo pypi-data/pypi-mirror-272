@@ -1,0 +1,8 @@
+README.md
+setup.py
+pkg_tool_lib.egg-info/PKG-INFO
+pkg_tool_lib.egg-info/SOURCES.txt
+pkg_tool_lib.egg-info/dependency_links.txt
+pkg_tool_lib.egg-info/top_level.txt
+pkglib/__init__.py
+pkglib/module.py
