@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+abiogenistz/__init__.py
+abiogenistz/main.py
+abiogenistz.egg-info/PKG-INFO
+abiogenistz.egg-info/SOURCES.txt
+abiogenistz.egg-info/dependency_links.txt
+abiogenistz.egg-info/requires.txt
+abiogenistz.egg-info/top_level.txt
