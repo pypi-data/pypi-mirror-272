@@ -1,0 +1,10 @@
+LICENSE
+README.txt
+setup.py
+PubChem_Prospector/__init__.py
+PubChem_Prospector/prospector.py
+PubChem_Prospector.egg-info/PKG-INFO
+PubChem_Prospector.egg-info/SOURCES.txt
+PubChem_Prospector.egg-info/dependency_links.txt
+PubChem_Prospector.egg-info/requires.txt
+PubChem_Prospector.egg-info/top_level.txt
