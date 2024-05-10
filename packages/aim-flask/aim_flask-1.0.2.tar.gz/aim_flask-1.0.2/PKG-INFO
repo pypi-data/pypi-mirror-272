@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aim_flask
+Version: 1.0.2
+Summary: A CLI tool for setting up and managing AIM environments
+Home-page: https://github.com/MrMayami/AIM
+Author: Joe Mayami
+Author-email: pr.mayami@gmail.com
+Project-URL: GitHub, https://github.com/MrMayami/AIM
+Keywords: AIM Flask
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+
+# AIM
+ Front-end Development Framework for UI/UX designers and Front-end developers.
