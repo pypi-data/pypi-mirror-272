@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+individuumz/__init__.py
+individuumz/main.py
+individuumz.egg-info/PKG-INFO
+individuumz.egg-info/SOURCES.txt
+individuumz.egg-info/dependency_links.txt
+individuumz.egg-info/requires.txt
+individuumz.egg-info/top_level.txt
