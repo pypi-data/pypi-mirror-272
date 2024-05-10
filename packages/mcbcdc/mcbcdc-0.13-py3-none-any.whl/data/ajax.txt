@@ -1,0 +1,192 @@
+Assignment 1(B)AJAX
+
+1.index.html
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" id="name" name="name">
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" id="phoneno" name="phoneno" placeholder="Enter your number">
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" onclick="saveData()" value="Register">
+        </div>
+
+      </form>
+
+      <a href="data-list.html">Show Users</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+2.data.html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Data List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>User Data List</h1>
+    </div>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Phone No</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Loop through the saved data and create a row for each user -->
+            <script>
+                var users = JSON.parse(localStorage.getItem("userslist")) || [];
+                for (var i = 0; i < users.length; i++) {
+                    document.write("<tr>");
+                    document.write("<td>" + users[i].name + "</td>");
+                    document.write("<td>" + users[i].email + "</td>");
+                    document.write("<td>" + users[i].password + "</td>");
+                    //document.write("<td>" + users[i].password + "</td>");
+                    document.write("<td>" + users[i].phoneno + "</td>");
+                    document.write("</tr>");
+                }
+            </script>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
+
+3.script.js
+function saveData() {
+  // Get form input values
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+  var phoneno = document.getElementById("phoneno").value;
+
+  // Create an object to hold the data
+  var user = {
+    name: name,
+    email: email,
+    password: password,
+    phoneno: phoneno,
+  };
+
+  // Make an AJAX POST request to save the data
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "save-data.php");
+  xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+  xhr.send(JSON.stringify(user));
+
+  // Save the data to local storage
+  var users = JSON.parse(localStorage.getItem("userslist")) || [];
+  users.push(user);
+  localStorage.setItem("userslist", JSON.stringify(users));
+
+  //  function showData(){
+  // Redirect to the data list page
+  //}
+  //localStorage.clear();
+}
+
+4.style.css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container .title {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.content input {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 15px;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.content input:focus,
+.content input:valid {
+  border-color: #9b59b6;
+}
+
+.button input {
+  width: 100%;
+  height: 45px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button input:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}

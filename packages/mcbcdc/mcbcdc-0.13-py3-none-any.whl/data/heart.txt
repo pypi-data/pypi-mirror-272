@@ -1,0 +1,143 @@
+# Heart Dis
+
+import pandas as pd
+import numpy as np
+
+
+df=pd.read_csv("Datasets/2B_HeartDis.txt")
+df
+
+
+#2 1: Data Cleaning
+#finding missing values
+df.isnull().sum()
+
+
+# Replacing missing values with mean
+df.fillna(df.mean(), inplace=True)
+df
+
+
+# Dropping duplicate rows
+df.drop_duplicates(inplace=True)
+df
+
+
+#3 2: Data integration
+# Merging on outer join
+sub1=df.iloc[:3,:3]
+sub2=df.iloc[:3,2:5]
+finalData=pd.merge(sub1,sub2,on="cp",how="outer")
+finalData
+
+
+
+# Merging on inner join
+finalData=pd.merge(sub1,sub2,on="cp",how="inner")
+finalData
+
+
+# Merging on left join
+finalData=pd.merge(sub1,sub2,on="cp",how="left")
+finalData
+
+
+# Merging on right join
+finalData=pd.merge(sub1,sub2,on="cp",how="right")
+finalData
+
+
+
+#concatenating along column
+finalData=pd.concat([sub1,sub2],axis=0,ignore_index=True)
+finalData
+
+
+finalData=pd.concat([sub1,sub2],axis=1,ignore_index=True)
+finalData
+
+
+#4 3: Data Transformation
+#finding square root
+result=np.sqrt(df['age'])
+result
+
+
+#finding cube root
+result=np.cbrt(df['age'])
+result
+
+
+#finding square
+result=np.square(df['age'])
+result
+
+
+#finding cube
+result=np.power(df['age'],3)
+result
+
+
+#finding natural log
+result=np.log(df['age'])
+result
+
+
+#finding log 10
+result=np.log10(df['age'])
+result
+
+
+#5 4: Error Correction
+#correcting caa
+wrong_data=df['caa']>3
+df.loc[wrong_data,'caa']=0
+
+
+#correcting fba
+for index, row in df.iterrows():
+	if (row['fba'] != 1) or (row['fba'] != 0):
+		row['fba']=0
+
+
+#correcting exnq
+for index, row in df.iterrows():
+	if (row['exnq'] != 1) or (row['exnq'] != 0):
+		row['exnq']=1
+
+
+
+#correcting alp
+for index, row in df.iterrows():
+	if (row['alp'] < 1) or (row['alp'] > 3):
+		row['alp']=1
+
+
+#6 5: Data Model Building
+from sklearn.naive_bayes import GaussianNB
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+
+newdata=pd.read_csv("Datasets/heart.csv")
+
+
+newdata.replace('?',0,inplace=True)
+
+
+x=newdata.drop('output',axis=1)
+y=newdata['output']
+
+
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=42)
+
+
+classifier=GaussianNB()
+classifier.fit(x_train,y_train)
+
+
+pred=classifier.predict(x_test)
+
+
+accuracy=accuracy_score(y_test,pred)
+accuracy

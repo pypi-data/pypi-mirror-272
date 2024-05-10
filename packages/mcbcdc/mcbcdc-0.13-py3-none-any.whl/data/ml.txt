@@ -1,0 +1,217 @@
+----------- ML 1 -----------
+
+import pandas as pd
+
+data = pd.read_csv("heart.csv")
+
+data.shape
+
+data.isnull().sum()
+
+data.dtypes
+
+(data == 0).sum()
+
+data["Age"].mean()
+
+ndata=data[["Age","Sex","ChestPain","RestBP","Chol"]]
+ndata
+
+from sklearn.model_selection import train_test_split
+
+train,test=train_test_split(ndata,random_state=0,test_size=0.25)
+
+import numpy as np
+
+atucal=list(np.ones(45))+list(np.zeros(55))
+
+predicated=list(np.ones(40))+list(np.zeros(52))+list(np.ones(8))
+
+from sklearn.metrics import ConfusionMatrixDisplay
+
+ConfusionMatrixDisplay.from_predictions(actual,predicated)
+
+from sklearn.metrics import classification_report
+
+print(classification_report(actual,predicated))
+
+
+
+
+------------- ML 2 -------------------
+
+import pandas as pd
+
+data=pd.read_csv("Temperatures.csv")
+
+data
+
+x_train=data[["YEAR"]]
+
+y_train=data[["ANNUAL"]]
+
+from sklearn.linear_model import LinearRegression
+
+model=LinearRegression()
+
+model.fit(x_train,y_train)
+
+predicted=model.predict(x_train)
+
+from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score
+
+mean_squared_error(y_train,predicted)
+
+mean_absolute_error(y_train,predicted)
+
+r2_score(y_train,predicted)
+
+import matplotlib.pyplot as plt
+
+plt.scatter(x_train,y_train,label="Actual",color="g")
+plt.plot(x_train,predicted,label="Predicted",color="red")
+plt.xlabel("YEAR")
+plt.ylabel("Temp")
+plt.title("Annual temp record")
+plt.legend()
+
+
+----------- ML 3 ------------------
+
+import pandas as pd
+
+data=pd.read_csv("Admission_Predict.csv")
+
+from sklearn.preprocessing import Binarizer
+
+limit=Binarizer(threshold=0.75)
+
+data["Chance of Admit "]=limit.transform(data[["Chance of Admit "]])
+
+inputdata=data.drop(["Chance of Admit "],axis=1)
+
+inputdata
+
+outputdata=data["Chance of Admit "]
+
+outputdata
+
+outputdata.astype(int)
+
+from sklearn.model_selection import train_test_split
+
+xtrain,ytrain,xtest,ytest=train_test_split(inputdata,outputdata,random_state=0,test_size=0.25)
+
+xtrain
+
+ytrain
+
+from sklearn.tree import DecisionTreeClassifier
+
+classifier=DecisionTreeClassifier()
+
+classifier.fit(xtrain,xtest)
+
+predicted=classifier.predict(ytrain)
+
+predicted
+
+from sklearn.metrics import ConfusionMatrixDisplay,classification_report
+
+ConfusionMatrixDisplay.from_predictions(ytest,predicted)
+
+print(classification_report(ytest,predicted))
+
+pd.DataFrame({"actual":ytest,"predicted":predicted})
+
+
+
+---------- ML 4 -----------
+
+import pandas as pd
+
+
+import warnings
+warnings.filterwarnings('ignore')
+
+
+import matplotlib.pyplot as plt
+
+
+data=pd.read_csv("Mall_Customers.csv")
+
+
+data
+
+
+ndata=data[["Annual Income (k$)","Spending Score (1-100)"]]
+
+
+ndata
+
+
+plt.scatter( ndata["Annual Income (k$)"],ndata["Spending Score (1-100)"])
+
+
+from  sklearn.cluster import KMeans,AgglomerativeClustering 
+
+
+km=KMeans(n_clusters=4)
+
+
+
+km.fit_predict(ndata)
+
+
+km.inertia_
+
+
+sse=[]
+for k in range(1,16):
+    km=KMeans(n_clusters=k)
+    km.fit_predict(ndata)
+    sse.append(km.inertia_)
+
+
+plt.plot(range(1,16),sse,marker='.')
+plt.xlabel("value of k")
+plt.ylabel("value of sse")
+
+
+
+km=KMeans(n_clusters=5)
+km.fit_predict(ndata)
+
+
+km.inertia_
+
+
+labels=km.predict(ndata)
+
+
+plt.scatter( ndata["Annual Income (k$)"],ndata["Spending Score (1-100)"],c=labels)
+
+
+plt.subplot(1,2,1)
+plt.scatter( ndata["Annual Income (k$)"],ndata["Spending Score (1-100)"])
+plt.subplot(1,2,2)
+plt.scatter( ndata["Annual Income (k$)"],ndata["Spending Score (1-100)"],c=labels)
+
+
+
+ag=AgglomerativeClustering(n_clusters=5)
+
+
+ag.fit_predict(ndata)
+
+
+alabels=ag.fit_predict(ndata)
+
+
+plt.subplot(1,2,1)
+plt.scatter( ndata["Annual Income (k$)"],ndata["Spending Score (1-100)"],c=labels)
+plt.subplot(1,2,2)
+plt.scatter( ndata["Annual Income (k$)"],ndata["Spending Score (1-100)"],c=alabels)
+
+
+

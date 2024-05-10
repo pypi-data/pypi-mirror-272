@@ -1,0 +1,249 @@
+Assignment 3(B)Mongo
+
+server.js 
+
+// server.js
+require('dotenv').config();
+const express = require('express');
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+const User = require('./models/user');
+const path = require('path');
+
+const app = express();
+app.use(bodyParser.json());
+
+// Serve static files from the public directory
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Connect to MongoDB database
+mongoose.connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}).then(() => {
+    console.log("Connected to MongoDB database");
+}).catch((error) => {
+    console.error("Error connecting to MongoDB database:", error);
+});
+
+// Create a new user
+app.post('/api/users', async (req, res) => {
+    try {
+        const user = new User(req.body);
+        await user.save();
+        res.status(201).send(user);
+    } catch (error) {
+        res.status(400).send(error);
+    }
+});
+
+// Read all users
+app.get('/api/users', async (req, res) => {
+    try {
+        const users = await User.find({});
+        res.send(users);
+    } catch (error) {
+        res.status(500).send(error);
+    }
+});
+
+// Update a user by ID
+app.patch('/api/users/:id', async (req, res) => {
+    try {
+        const user = await User.findByIdAndUpdate(req.params.id, req.body, { new: true });
+        if (!user) {
+            return res.status(404).send();
+        }
+        res.send(user);
+    } catch (error) {
+        res.status(400).send(error);
+    }
+});
+
+// Delete a user by ID
+app.delete('/api/users/:id', async (req, res) => {
+    try {
+        const user = await User.findByIdAndDelete(req.params.id);
+        if (!user) {
+            return res.status(404).send();
+        }
+        res.send(user);
+    } catch (error) {
+        res.status(500).send(error);
+    }
+});
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+});
+
+
+models/user.js
+
+// models/user.js
+const mongoose = require('mongoose');
+
+const userSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    email: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    age: {
+        type: Number,
+        required: true
+    }
+});
+
+const User = mongoose.model('User', userSchema);
+
+module.exports = User;
+
+public/index.html
+
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Management System</title>
+</head>
+<body>
+  <h2>User Management System</h2>
+  <form id="userForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+    <button type="submit">Add User</button>
+  </form>
+
+  <div id="userList"></div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
+
+public/script.js
+
+// public/script.js
+document.getElementById("userForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+  
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var age = document.getElementById("age").value;
+  
+    // Send an HTTP POST request to the server to add a new user
+    fetch('/api/users', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ name: name, email: email, age: age })
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('User added successfully:', data);
+      alert('User added successfully!');
+      displayUsers(); // Refresh the user list after adding a new user
+    })
+    .catch(error => {
+      console.error('Error adding user:', error);
+      alert('Error adding user. Please try again.');
+    });
+  });
+  
+  // Function to display all users
+  function displayUsers() {
+    fetch('/api/users')
+    .then(response => response.json())
+    .then(users => {
+      var userList = document.getElementById("userList");
+      userList.innerHTML = ''; // Clear previous content
+      users.forEach(user => {
+        var userItem = document.createElement("div");
+        userItem.textContent = `Name: ${user.name}, Email: ${user.email}, Age: ${user.age}`;
+        
+        // Create update button
+        var updateButton = document.createElement("button");
+        updateButton.textContent = "Update";
+        updateButton.onclick = function() {
+          updateUser(user._id, user.name, user.email, user.age);
+        };
+  
+        // Create delete button
+        var deleteButton = document.createElement("button");
+        deleteButton.textContent = "Delete";
+        deleteButton.onclick = function() {
+          deleteUser(user._id);
+        };
+  
+        userItem.appendChild(updateButton);
+        userItem.appendChild(deleteButton);
+  
+        userList.appendChild(userItem);
+      });
+    })
+    .catch(error => {
+      console.error('Error fetching users:', error);
+      alert('Error fetching users. Please try again.');
+    });
+  }
+  
+  // Function to update a user
+  function updateUser(userId, name, email, age) {
+    var newName = prompt("Enter new name:", name);
+    var newEmail = prompt("Enter new email:", email);
+    var newAge = prompt("Enter new age:", age);
+  
+    if (newName && newEmail && newAge) {
+      fetch(`/api/users/${userId}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name: newName, email: newEmail, age: newAge })
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('User updated successfully:', data);
+        alert('User updated successfully!');
+        displayUsers(); // Refresh the user list after updating the user
+      })
+      .catch(error => {
+        console.error('Error updating user:', error);
+        alert('Error updating user. Please try again.');
+      });
+    }
+  }
+  
+  // Function to delete a user
+  function deleteUser(userId) {
+    if (confirm("Are you sure you want to delete this user?")) {
+      fetch(`/api/users/${userId}`, {
+        method: 'DELETE'
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('User deleted successfully:', data);
+        alert('User deleted successfully!');
+        displayUsers(); // Refresh the user list after deleting the user
+      })
+      .catch(error => {
+        console.error('Error deleting user:', error);
+        alert('Error deleting user. Please try again.');
+      });
+    }
+  }
+  
+  // Initial call to display all users when the page loads
+  displayUsers();

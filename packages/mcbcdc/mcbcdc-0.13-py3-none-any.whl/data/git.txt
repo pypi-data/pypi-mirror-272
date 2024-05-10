@@ -1,0 +1,21 @@
+git init
+git add .
+git commit -m "first commit"
+git remote add origin <repo_link>
+git push origin master
+
+git clone <repository_url>
+
+
+git push origin <branch_name>
+git pull origin <branch_name>
+
+git status
+git log
+git branch <branch_name>
+git checkout <branch_name>
+git merge <branch_name>
+
+git fetch <remote_name>
+git reset HEAD <file_name>
+git checkout -- <file_name>

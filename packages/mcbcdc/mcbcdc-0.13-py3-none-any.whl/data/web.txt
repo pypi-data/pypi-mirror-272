@@ -1,0 +1,15 @@
+import requests, bs4
+
+req = requests.get('https://www.amazon.com/Xiaomi-Redmi-9C-Unlocked-International/dp/B08FCF43S2/ref=slsr_d_dpds_fsdp4star_fa_xcat_cheapdynam_d_sccl_2_3/137-2839569-5014930?pd_rd_w=NtXf1&content-id=amzn1.sym.97982461-5444-416f-a4ee-edf7adedb7ec&pf_rd_p=97982461-5444-416f-a4ee-edf7adedb7ec&pf_rd_r=XN43MHZP7TC6KS9HJ1VK&pd_rd_wg=GyLBT&pd_rd_r=bc3031b1-ac54-441d-8853-cf23b7e21d59&pd_rd_i=B08FCF43S2&th=1')
+soup= bs4.BeautifulSoup(req.text)
+
+reviews= soup.findAll('div',{'class':'a-row a-spacing-small review-data'});
+for i in reviews:
+  print(i.get_text(), '\n\n')
+
+rating = soup.find('span',{ 'class':'a-size-base a-nowrap'}).get_text();
+print(rating)
+
+customer = soup.findAll('div',{'class':'a-profile-content'});
+for i in customer:
+  print(i.get_text())

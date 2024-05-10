@@ -1,0 +1,61 @@
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Scanner;
+
+class Item {
+    public int weight, value;
+
+    public Item(int weight, int value) {
+        this.weight = weight;
+        this.value = value;
+    }
+}
+
+public class FractionalKnapsack {
+    public static double getMaxValue(int capacity, Item[] items) {
+        Arrays.sort(items, Comparator.comparingDouble((Item item) -> (double) item.value / item.weight).reversed());
+
+        double totalValue = 0;
+
+        for (Item item : items) {
+            int currentWeight = Math.min(item.weight, capacity);
+            totalValue += (double) currentWeight / item.weight * item.value;
+            capacity -= currentWeight;
+
+            if (capacity == 0) {
+                break;
+            }
+        }
+
+        return totalValue;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the capacity of the knapsack: ");
+        int capacity = scanner.nextInt();
+
+        System.out.print("Enter the number of items: ");
+        int numItems = scanner.nextInt();
+
+        Item[] items = new Item[numItems];
+
+        System.out.println("Enter the weight and value of each item:");
+
+        for (int i = 0; i < numItems; i++) {
+            System.out.print("Item " + (i + 1) + " - Weight: ");
+            int weight = scanner.nextInt();
+
+            System.out.print("Item " + (i + 1) + " - Value: ");
+            int value = scanner.nextInt();
+
+            items[i] = new Item(weight, value);
+        }
+
+        double maxValue = getMaxValue(capacity, items);
+        System.out.println("Maximum value in Knapsack = " + maxValue);
+
+        scanner.close();
+    }
+}

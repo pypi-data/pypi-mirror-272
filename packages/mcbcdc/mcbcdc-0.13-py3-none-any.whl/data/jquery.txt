@@ -1,0 +1,163 @@
+Assignment 4 jQuery mobile
+
+1.api.js
+
+// api.js
+
+// Fetch book data based on search query
+function searchBooks(query) {
+    const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}`;
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        // Process the fetched data (e.g., display results on the page)
+        console.log(data);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  }
+
+  // Handle search button click event
+  document.getElementById('searchButton').addEventListener('click', () => {
+    const searchInput = document.getElementById('searchInput');
+    const query = searchInput.value;
+
+    if (query) {
+      searchBooks(query);
+    }
+  });
+
+2.index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KK Wagh Institute of Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<style>
+  .ui-navbar {
+    background-color: #1eb243;
+    color: #02600d;
+  }
+  .scroll-down {
+    text-align: center;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<div data-role="page" id="home">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h1>KK Wagh Institute of Engineering</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home" class="ui-btn-active">Home</a></li>
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+    <h2>Welcome to KK Wagh Institute of Engineering!</h2>
+    <p>Located in Nashik, Maharashtra, KK Wagh Institute of Engineering is a premier engineering institute offering various undergraduate and postgraduate programs in engineering and technology.</p>
+    <h3>About Us</h3>
+    <p>The institute was established in 1984 with a vision to provide quality education and produce skilled engineers.</p>
+    <h3>Facilities</h3>
+    <ul>
+      <li>State-of-the-art laboratories</li>
+      <li>Well-equipped classrooms</li>
+      <li>Library with a vast collection of books</li>
+      <li>Sports facilities</li>
+    </ul>
+    <h3>Admissions</h3>
+    <p>We offer admissions based on entrance exams and merit.</p>
+    <div class="scroll-down">
+      <a href="#departments" data-role="button" data-icon="arrow-d" data-iconpos="right">Scroll Down</a>
+    </div>
+  </div>
+  <div data-role="footer" style="text-align: center" data-theme="b">
+    <h4>KK Wagh Institute of Engineering - Nashik</h4>
+  </div>
+</div>
+
+<div data-role="page" id="departments">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h1>Departments</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#departments" class="ui-btn-active">Departments</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+    <h2>Departments at KK Wagh Institute of Engineering</h2>
+    <ul data-role="listview" data-inset="true">
+      <li>Computer Science and Engineering</li>
+      <li>Electronics and Telecommunication Engineering</li>
+      <li>Mechanical Engineering</li>
+      <li>Civil Engineering</li>
+      <li>Electrical Engineering</li>
+      <li>Information Technology</li>
+    </ul>
+  </div>
+  <div data-role="footer" style="text-align: center" data-theme="b">
+    <h4>KK Wagh Institute of Engineering - Nashik</h4>
+  </div>
+</div>
+
+<div data-role="page" id="about">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h1>About</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#about" class="ui-btn-active">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+    <h2>About KK Wagh Institute of Engineering</h2>
+    <p>The KK Wagh Institute of Engineering is committed to providing quality education and fostering a conducive environment for students to develop their skills and knowledge in engineering and technology.</p>
+  </div>
+  <div data-role="footer" style="text-align: center" data-theme="b">
+    <h4>KK Wagh Institute of Engineering - Nashik</h4>
+  </div>
+</div>
+
+<div data-role="page" id="contact">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h1>Contact</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+    <h2>Contact KK Wagh Institute of Engineering</h2>
+    <p>Address: ABC Road, Nashik, Maharashtra, India</p>
+    <p>Email: info@kkwagh.edu</p>
+    <p>Phone: +91 1234567890</p>
+  </div>
+  <div data-role="footer" style="text-align: center" data-theme="b">
+    <h4>KK Wagh Institute of Engineering - Nashik</h4>
+  </div>
+</div>
+</body>
+</html>
+
