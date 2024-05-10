@@ -1,0 +1,11 @@
+mlx_embedding_models/embedding.py,sha256=2CIZAsWOJ5iXQM-svUuDQecA9xj7VPBC2v7k8RVOCTM,12558
+mlx_embedding_models/load_utils.py,sha256=gltBpwbYwUpnutBEajGwBp_pQACl_fWD_AlIJCxEHxs,4879
+mlx_embedding_models/model.py,sha256=ODRDU6EaSpa_HAt9Q6MBQ2GGx3Lvop1fSz8IIx44g-Q,6337
+mlx_embedding_models/nomic_model.py,sha256=NRM-YDBRomGqd0a0APfLpCUgJzU3aA1Mc4_726rJDds,8065
+mlx_embedding_models/registry.py,sha256=EyEChjJQC9xps1d1jPRRmgmPrCbSrMqeym_AxkaQ3aw,3574
+mlx_embedding_models/test_mteb.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlx_embedding_models-0.0.9.dist-info/LICENSE,sha256=CJpF_GwYKDRGDtddKp_x-98oH0quI5VsMrYclI7G-40,1066
+mlx_embedding_models-0.0.9.dist-info/METADATA,sha256=rVtjP8Ox9IhltT9h-HnyWNRNQBITrYKlEMJtej9Ky38,1023
+mlx_embedding_models-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mlx_embedding_models-0.0.9.dist-info/top_level.txt,sha256=OqkYuiPS95QFVEzqS4IU8_fgnvbJc2FEsmpFDHbt-ns,21
+mlx_embedding_models-0.0.9.dist-info/RECORD,,
