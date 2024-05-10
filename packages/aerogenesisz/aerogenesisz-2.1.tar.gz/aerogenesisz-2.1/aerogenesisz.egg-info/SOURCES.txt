@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aerogenesisz/__init__.py
+aerogenesisz/main.py
+aerogenesisz.egg-info/PKG-INFO
+aerogenesisz.egg-info/SOURCES.txt
+aerogenesisz.egg-info/dependency_links.txt
+aerogenesisz.egg-info/requires.txt
+aerogenesisz.egg-info/top_level.txt
