@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "runner-v1"
+version = "0.0.0"
+description = "script runner"
+authors = ["kagemeka <kagemeka1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = true
+packages = [{ include = "runner" }]
+include = ["runner.toml"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+toml = "0.10.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "8.2.0"
+ruff = "0.4.4"
+
+
+[tool.poetry.scripts]
+run = "runner.__main__:cli"
