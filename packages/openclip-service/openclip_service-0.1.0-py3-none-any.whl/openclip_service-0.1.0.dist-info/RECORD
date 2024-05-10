@@ -1,0 +1,7 @@
+openclip_service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openclip_service/clip_worker.py,sha256=R8PBjoM_929mEUPZDXcm4C-Bh2wQtEB3i6IgE5zAY-U,10933
+openclip_service/service.py,sha256=zzNiX1RymIYCkO4T9uNmhULlWjDyHBZRai36aZcbLx0,9077
+openclip_service-0.1.0.dist-info/METADATA,sha256=WniN-AQMldeF4umPfnii69yXm_na34nGjl8dop02Nb8,1170
+openclip_service-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+openclip_service-0.1.0.dist-info/entry_points.txt,sha256=BesgZftV0h3Cglxu5zYrnPKSRXwZSRtfkDJDoDbN-7A,66
+openclip_service-0.1.0.dist-info/RECORD,,

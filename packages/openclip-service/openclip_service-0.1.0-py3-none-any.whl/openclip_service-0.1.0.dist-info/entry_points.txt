@@ -1,0 +1,3 @@
+[console_scripts]
+openclip_service=openclip_service.service:main
+
