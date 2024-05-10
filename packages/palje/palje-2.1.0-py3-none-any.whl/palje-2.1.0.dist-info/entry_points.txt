@@ -1,0 +1,2 @@
+[console_scripts]
+palje = palje.__main__:main

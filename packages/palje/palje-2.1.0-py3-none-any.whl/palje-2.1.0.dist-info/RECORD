@@ -1,0 +1,13 @@
+palje/__init__.py,sha256=p9MBmsdR1dkfxDNT_vLYuaLIbq6vTLRYuRAJKjWontc,131
+palje/__main__.py,sha256=ztpnkCM0ovCXVyvgvSUO6fq18wSPJIlr3figpa5WFUI,10422
+palje/confluence_rest.py,sha256=WvEAxBUpMiGYuAozbqLtxoPLJD-QHRo0KqV5XqRn7Ws,7152
+palje/mssql_database.py,sha256=h4DMmR8aKe6mBbOu4ugL3w_qVOeNruG86dOK1tjLqmA,10947
+palje/storage_format.py,sha256=K3fbZslt-BHmSdsnDKV7C8m0PmQ1HRpW1AxLN7yN8Y4,4256
+palje/version.py,sha256=RNKDW89EC1jx19YzwFi-xpYjE252Ld4fuY3bcovr8-s,427
+palje/queries/database_queries.ini,sha256=oZnh7P02rfiNDQFCcgqG5jNPWbdDhQPa4A-CJ_eRTRk,10126
+palje-2.1.0.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+palje-2.1.0.dist-info/METADATA,sha256=_D1kwmgyunbN8wjeT9y5kqgCmjVQs9HAc14gRajK6BY,23307
+palje-2.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+palje-2.1.0.dist-info/entry_points.txt,sha256=oeN2UDXpBFxr2Irspa8WJO3L-HVeoYQb7OFdYr5z6kg,46
+palje-2.1.0.dist-info/top_level.txt,sha256=n64ANesnvcj7pdU1ifEXOLLWMzNK4jiK4Arx76WooIA,6
+palje-2.1.0.dist-info/RECORD,,
