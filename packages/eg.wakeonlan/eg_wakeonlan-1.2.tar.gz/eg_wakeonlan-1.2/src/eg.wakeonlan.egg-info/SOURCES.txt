@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+src/eg.wakeonlan.egg-info/PKG-INFO
+src/eg.wakeonlan.egg-info/SOURCES.txt
+src/eg.wakeonlan.egg-info/dependency_links.txt
+src/eg.wakeonlan.egg-info/entry_points.txt
+src/eg.wakeonlan.egg-info/top_level.txt
+src/wakeonlan/__init__.py
+src/wakeonlan/__main__.py
+src/wakeonlan/autocomplete.ps1
+src/wakeonlan/autocomplete.sh
+src/wakeonlan/py.typed
+src/wakeonlan/wakeonlan.py
