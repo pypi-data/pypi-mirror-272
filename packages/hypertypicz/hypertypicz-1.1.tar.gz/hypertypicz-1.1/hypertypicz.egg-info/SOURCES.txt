@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hypertypicz/__init__.py
+hypertypicz/main.py
+hypertypicz.egg-info/PKG-INFO
+hypertypicz.egg-info/SOURCES.txt
+hypertypicz.egg-info/dependency_links.txt
+hypertypicz.egg-info/requires.txt
+hypertypicz.egg-info/top_level.txt
