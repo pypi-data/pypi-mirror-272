@@ -1,0 +1,11 @@
+libphysfs.so.1,sha256=U1TYzRaYlQlJz40xgaPOsadj43lOIQoD4eWsMG0cpwA,213920
+libphysfs.so.3.3.0,sha256=U1TYzRaYlQlJz40xgaPOsadj43lOIQoD4eWsMG0cpwA,213920
+libphysfs.so,sha256=U1TYzRaYlQlJz40xgaPOsadj43lOIQoD4eWsMG0cpwA,213920
+physfs.cpython-310-i386-linux-gnu.so,sha256=B0ME2U3G2dBSpiS34CQxFH-76WAwwZtgWpFsuAphiTQ,431469
+physfs.py-0.2.0.dist-info/LICENSE,sha256=SBNiCMUPOkN74CrKaGEJk1CNXzPemZ76Qsm106kwI1E,2182
+physfs.py-0.2.0.dist-info/METADATA,sha256=27ux97mahs1AUIAv6XBQ93U8HY_GZjdlB61wtGNhSik,2651
+physfs.py-0.2.0.dist-info/RECORD,,
+physfs.py-0.2.0.dist-info/top_level.txt,sha256=8AnjvZx2gMZqQEfl6ZGLarWJjUeDN9Qms8FJEpmfabY,7
+physfs.py-0.2.0.dist-info/WHEEL,sha256=XkEQ0Am0ZUm37-apNU2HgKrWa5q1iFrxTgVeYF-58Uk,111
+physfs.py.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+physfs.py.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
