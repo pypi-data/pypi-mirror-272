@@ -1,0 +1,16 @@
+chinese_calendar>=1.9.0
+Cython>=3.0.10
+ctpwrapper>=6.6.9
+Flask>=1.1.1
+Flask_Bootstrap>=3.3.7.1
+Flask_Compress>=1.12
+matplotlib>=3.8.4
+nest_asyncio>=1.5.5
+numpy>=1.21.6
+pandas>=2.2.2
+python_dateutil>=2.8.2
+qdsdk>=0.0.5
+quantstats>=0.0.59
+redis>=5.0.4
+scipy>=1.13.0
+passlib>=1.7.4
