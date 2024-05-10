@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/pysnipeit/Classes.py
+src/pysnipeit/__init__.py
+src/pysnipeit/accessories.py
+src/pysnipeit/assets.py
+src/pysnipeit/licenses.py
+src/pysnipeit/user.py
+src/pysnipeit.egg-info/PKG-INFO
+src/pysnipeit.egg-info/SOURCES.txt
+src/pysnipeit.egg-info/dependency_links.txt
+src/pysnipeit.egg-info/requires.txt
+src/pysnipeit.egg-info/top_level.txt

@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pysnipeit
+Version: 0.0.1
+Summary: an implementation of the Snipe-IT api for python
+Author-email: Anthany Martin <4kmartin@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: returns
+Requires-Dist: requests
+
+pySnipeIt is a wrapper for [Snipe-It](https://snipeitapp.com/)'s REST API. It aims to have 1:1 compatibility with that api.
+
+
+# Installation
+
+This library aims to be released on PyPI in the near future. However, until then you will need to install the library manually:
+
+```bash
+$ git clone git@github.com:4kmartin/pysnipeit.git
+$ cd pysnipeit
+$ pip install .
+```
+# Examples 
+
+to get a user by their ID:
+
+```python
+from pysnipeit import SnipeItConnection, get_user_by_id
+from returns.result import Success,Failure
+from dotenv import dotenv_values
+
+secrets = dotenv_values('.env')
+
+conn = SnipeItConnection()
+conn.connect(secrets['URL'],secrets['API'])
+
+user = get_user_by_id(conn, 1)
+match user:
+    case Success(usr):
+        print(usr.name)
+    case Failure(why):
+        print(f"This attempt failed to get a User\n{why}")
+```
