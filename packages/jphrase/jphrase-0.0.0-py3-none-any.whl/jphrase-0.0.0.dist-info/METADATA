@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jphrase
+Version: 0.0.0
+Summary: A Japanese phrase tokenizer
+Home-page: https://github.com/jiroshimaya/jphrase
+Author: shimajiroxyz
+Author-email: shimaya.jiro@irl.sys.es.osaka-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mecab-python3
+Requires-Dist: ipadic
+
+# japanese-phrase-tokenizer
