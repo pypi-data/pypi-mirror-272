@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+verticilsz/__init__.py
+verticilsz/main.py
+verticilsz.egg-info/PKG-INFO
+verticilsz.egg-info/SOURCES.txt
+verticilsz.egg-info/dependency_links.txt
+verticilsz.egg-info/requires.txt
+verticilsz.egg-info/top_level.txt
