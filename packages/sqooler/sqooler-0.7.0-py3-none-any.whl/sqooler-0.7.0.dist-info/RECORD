@@ -1,0 +1,16 @@
+sqooler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqooler/cli.py,sha256=P_eU2cluTAEjLqiChfE4GnancYMQjRsMKHQzxGJO6nQ,810
+sqooler/schemes.py,sha256=i9XpJYv-x4rMnThQN-vSX1F7WZ4Bb4Pur4zczlGz5ys,12206
+sqooler/security.py,sha256=25T7o4Y3duJ0Vg1Kj4L1orUmOTKz35C0ZYO_2-eczwY,8775
+sqooler/spoolers.py,sha256=g501udd-9G5DpCGsGvYTfG5pW93s7Fe3AdJnO0_DRjo,27991
+sqooler/storage_providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqooler/storage_providers/base.py,sha256=8wAA0-nii0DXbgYtUTVia5KIjfOvCUWz3CEH71w7hWQ,30402
+sqooler/storage_providers/dropbox.py,sha256=8wnv35CrO7flqzweGychd3mEujLukF2JGANmgcCwsyY,30431
+sqooler/storage_providers/local.py,sha256=r5Cbw2z7jOyR5zDnbV6zVe5Ihv1R-MfB-1V9KYFRd6A,25852
+sqooler/storage_providers/mongodb.py,sha256=WpZ8lhxo_Sgi4ycXCdy3W2Ht9NmNp0e1nejryT1jIY8,31201
+sqooler/utils.py,sha256=CNXjp3OzKkfN4UwAnyGvv0pVwLQ-UegRngmPqw2W3RQ,6672
+sqooler-0.7.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+sqooler-0.7.0.dist-info/METADATA,sha256=EDwytI-8ueV4-ezb9GtXNZrS9g8f3rKn22jEeAQyu5s,4965
+sqooler-0.7.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sqooler-0.7.0.dist-info/entry_points.txt,sha256=8wXaE2fJ_ZEPcVS0I_Pr_4uTd_OBHgWRfGpCcu0HTIQ,62
+sqooler-0.7.0.dist-info/RECORD,,
