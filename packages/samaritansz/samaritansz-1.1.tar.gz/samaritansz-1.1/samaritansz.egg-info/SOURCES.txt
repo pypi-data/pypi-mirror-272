@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+samaritansz/__init__.py
+samaritansz/main.py
+samaritansz.egg-info/PKG-INFO
+samaritansz.egg-info/SOURCES.txt
+samaritansz.egg-info/dependency_links.txt
+samaritansz.egg-info/requires.txt
+samaritansz.egg-info/top_level.txt
