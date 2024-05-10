@@ -1,0 +1,229 @@
+#!/bin/bash
+service_proxy=$1
+product_version=$2
+os_version=$3
+depot_fqdn=$4
+zone_name=$5
+domain_name=$6
+
+set_repo()
+{   
+    echo "INFO: Setup depot repo."
+    local depot=/etc/yum.repos.d/depot.repo 
+    if [ -f $depot ]; then
+        return
+    fi
+    rm /etc/yum.repos.d/*
+    cat > /etc/yum.repos.d/depot.repo << EOF
+[BaseOS]
+name=BaseOS
+baseurl=http://$depot_fqdn/$product_version/$os_version/BaseOS
+proxy=http://$service_proxy:3128
+enabled=1
+gpgcheck=0
+priority=9
+[AppStream]
+name=AppStream
+baseurl=http://$depot_fqdn/$product_version/$os_version/AppStream
+proxy=http://$service_proxy:3128
+enabled=1
+gpgcheck=0
+priority=9
+[grafana]
+name=grafana
+baseurl=http://$depot_fqdn/$product_version/$os_version/grafana
+proxy=http://$service_proxy:3128
+enabled=1
+gpgcheck=0
+priority=9
+
+EOF
+}
+
+set_cert()
+{
+    local cert=/etc/pki/ca-trust/source/anchors/client.pem
+
+    echo "INFO: Check client cert."
+    if [ -f $cert ]; then
+        return
+    fi
+    echo "INFO: Setup client cert."
+    export http_proxy=http://$service_proxy:3128
+    curl  http://$depot_fqdn/cert/client/client.pem -o $cert
+    unset http_proxy
+    update-ca-trust
+}
+
+set_haproxy()
+{
+    echo "INFO: Install Haproxy"
+    dnf install -y haproxy
+    sudo sed -i -e "s/SELINUX=enforcing/SELINUX=disabled/g"  /etc/selinux/config
+    sudo setenforce 0
+    export http_proxy=http://$service_proxy:3128
+    curl http://$depot_fqdn/cert/$zone_name/$zone_name.pem -o /etc/haproxy/zone.pem
+    unset http_proxy
+    cat > /etc/haproxy/haproxy.cfg <<EOF
+global
+    daemon
+    log         /dev/log local0
+    user        haproxy
+    group       haproxy
+    tune.ssl.default-dh-param 4096
+
+defaults
+    log         global
+    option      redispatch
+    retries     3
+    maxconn     10000
+    timeout     connect  5s
+    timeout     client  60s
+    timeout     server  60s
+
+listen portal
+    bind 0.0.0.0:3000 ssl crt /etc/haproxy/zone.pem
+    mode http
+    http-request deny if { path -i -m sub server-status }
+    option httplog
+    capture request header origin len 128
+    acl status_40x status eq 403:405
+    acl cors capture.req.hdr(0) -m found
+    http-response set-status 200 if status_40x cors METH_OPTIONS
+    http-response set-header Access-Control-Allow-Origin "*" if cors
+    http-response set-header Access-Control-Allow-Headers "*" if cors
+    http-response set-header Access-Control-Expose-Headers "*" if cors
+    http-response set-header Access-Control-Allow-Methods "*" if cors
+    server localhost 127.0.0.1:3001 check inter 2000 rise 2 fall 5
+EOF
+    sudo systemctl enable haproxy
+    sudo systemctl start haproxy
+}
+
+set_grafana()
+{
+    echo "INFO: Install Grafana."
+
+    # Create necessary directories
+    mkdir -p /etc/grafana/
+    mkdir -p /var/lib/grafana/
+    mkdir -p /var/log/grafana/
+
+    # Install wget if not already installed
+    dnf install -y wget
+
+    # Download Grafana configuration and other files
+    export http_proxy=http://$service_proxy:3128
+    wget --reject-regex '.*\.html*' -r -np $depot_fqdn/$product_version/$os_version/monitor/ui/
+    find $depot_fqdn -name "index.html*" -type f -delete
+    unset http_proxy
+
+    # Copy the downloaded files to the appropriate directories
+    cp -r $depot_fqdn/$product_version/$os_version/monitor/ui/* /etc/grafana/
+    rm -rf $depot_fqdn
+
+    # Set the ownership for Grafana directories
+    chown -R 472:0 /etc/grafana/
+    chown -R 472:0 /var/lib/grafana/
+    chown -R 472:0 /var/log/grafana/
+
+    # Set the correct permissions for Grafana configuration files and directories
+    # chmod 644 /etc/grafana/grafana.ini
+    # chmod 755 /etc/grafana/
+    # chmod 755 /var/lib/grafana/
+    # chmod 755 /var/log/grafana/
+
+    # Install and Run Grafana
+    sudo dnf install -y grafana unzip
+    export http_proxy=http://$service_proxy:3128
+    curl  http://$depot_fqdn/$product_version/$os_version/monitor/ui/alexanderzobnin-zabbix-app-4.4.4.linux_amd64.zip \
+    -o alexanderzobnin-zabbix-app-4.4.4.linux_amd64.zip
+    unzip alexanderzobnin-zabbix-app-4.4.4.linux_amd64.zip -d /var/lib/grafana/plugins/
+    curl  http://$depot_fqdn/$product_version/$os_version/cert/$zone_name/$zone_name.crt \
+    -o /etc/grafana/localhost.crt
+    curl  http://$depot_fqdn/$product_version/$os_version/cert/$zone_name/$zone_name.key \
+    -o /etc/grafana/localhost.key
+    unset http_proxy
+    sudo sed -i -e "s/;domain = localhost/domain = $domain_name/g"  /etc/grafana/grafana.ini
+    sudo sed -i -e "s/;disable_sanitize_html = false/disable_sanitize_html = true/g" /etc/grafana/grafana.ini
+    sudo sed -i -e "s/;http_addr =/http_addr = 127.0.0.1/g" /etc/grafana/grafana.ini
+    sudo sed -i -e "s/;http_port = 3000/http_port = 3001/g" /etc/grafana/grafana.ini
+    sudo sed -i -e "s/protocol = https/protocol = http/g" /etc/grafana/grafana.ini
+    sudo cat > /usr/share/grafana/public/dashboards/home.json <<EOF
+{
+  "links": [],
+  "panels": [
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 3,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "title": "",
+      "transparent": false,
+      "type": "welcome"
+    },
+    {
+      "datasource": null,
+      "folderId": 0,
+      "gridPos": {
+        "h": 15,
+        "w": 24,
+        "x": 0,
+        "y": 4
+      },
+      "id": 3,
+      "links": [],
+      "options": {
+        "showStarred": true,
+        "showRecentlyViewed": true,
+        "showSearch": false,
+        "showHeadings": true,
+        "folderId": 0,
+        "maxItems": 30,
+        "tags": [],
+        "query": ""
+      },
+      "title": "Dashboards",
+      "type": "dashlist"
+    }
+  ],
+  "schemaVersion": 22,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "editable": false,
+  "timepicker": {
+    "hidden": true,
+    "refresh_intervals": ["5s", "10s", "30s", "1m", "5m", "15m", "30m", "1h", "2h", "1d"],
+    "time_options": ["5m", "15m", "1h", "6h", "12h", "24h", "2d", "7d", "30d"],
+    "type": "timepicker"
+  },
+  "timezone": "browser",
+  "title": "Home"
+}
+EOF
+   sudo cat >> /etc/grafana/grafana.ini <<EOF
+
+[news]
+news_feed_enabled = false
+EOF
+
+    sudo systemctl enable grafana-server
+    sudo systemctl start grafana-server
+}
+
+set_repo
+set_cert
+set_grafana
+set_haproxy
+echo "Configure Grafana done, please disable the Alerting by manual."
+
