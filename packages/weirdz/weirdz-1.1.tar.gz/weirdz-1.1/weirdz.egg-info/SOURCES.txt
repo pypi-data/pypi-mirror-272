@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+weirdz/__init__.py
+weirdz/main.py
+weirdz.egg-info/PKG-INFO
+weirdz.egg-info/SOURCES.txt
+weirdz.egg-info/dependency_links.txt
+weirdz.egg-info/requires.txt
+weirdz.egg-info/top_level.txt
