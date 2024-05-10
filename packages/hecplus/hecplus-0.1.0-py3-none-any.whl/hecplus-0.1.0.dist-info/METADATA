@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hecplus
+Version: 0.1.0
+Summary: Helper functions for data science applications.
+Author: Prashana Bajracharya
+Author-email: pajracharya713@gmail.com
+Keywords: hec,hecras,hechms
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dsplus >=0.4.9
+Requires-Dist: pandas >=2.0
+Requires-Dist: h5py >=3.10.0
+Requires-Dist: pydsstools >=2.3.1
+
+Helper functions for working with Hydrologic Engineering Center (HEC) softwares
+
+The current version of this package only works with HEC-HMS and HEC-RAS. This package is still in the beta stage. Please expect frequent updates to fix bugs and add functionalities.
+
+# Installation
+
+```bash
+pip install hecplus
+```
