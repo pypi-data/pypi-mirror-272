@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+flyde/pyflyde.egg-info/PKG-INFO
+flyde/pyflyde.egg-info/SOURCES.txt
+flyde/pyflyde.egg-info/dependency_links.txt
+flyde/pyflyde.egg-info/requires.txt
+flyde/pyflyde.egg-info/top_level.txt
+tests/test_flow.py
+tests/test_io.py
+tests/test_node.py
+tests/test_stdlib.py
