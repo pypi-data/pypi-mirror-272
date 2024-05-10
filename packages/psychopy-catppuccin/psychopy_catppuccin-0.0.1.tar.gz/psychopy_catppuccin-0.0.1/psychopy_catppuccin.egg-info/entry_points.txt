@@ -1,0 +1,2 @@
+[psychopy.app.themes.colors.app]
+CatppuccinLatteAppColors = psychopy_catppuccin.themes.catppuccin_latte:CatppuccinLatteAppColors

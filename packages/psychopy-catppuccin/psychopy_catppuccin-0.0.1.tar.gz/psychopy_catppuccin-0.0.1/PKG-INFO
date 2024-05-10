@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: psychopy-catppuccin
+Version: 0.0.1
+Summary: Catppuccin themes for PsychoPy
+Author-email: Todd Parsons <todd.e.parsons@gmail.com>
+License: MIT
+Project-URL: homepage, https://github.com/psychopy/psychopy-catppuccin
+Project-URL: changelog, https://github.com/psychopy/psychopy-catppuccin/blob/main/CHANGELOG.md
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Requires-Dist: psychopy; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: furo; extra == "docs"
+Provides-Extra: tests
+Requires-Dist: psychopy; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+
+Implementation of the Catppuccin themes for PsychoPy.
