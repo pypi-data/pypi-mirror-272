@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: openmm-cuda
+Version: 8.1.1.12
+Requires-Dist: openmm ==8.1.1
+
