@@ -1,0 +1,27 @@
+[project]
+name = "zynapse"
+version = "0.1.2"
+description = "ZkAGI SDK"
+authors = [
+    { name = "Lulzx", email = "wiserishabh@gmail.com" }
+]
+dependencies = [
+    "ezkl>=10.4.2",
+    "fabric>=3.2.2",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = ["ruff>=0.4.2", "uv>=0.1.39" ]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["zynapse"]
