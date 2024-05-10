@@ -1,0 +1,7 @@
+fileformats/extras/medimage_fsl/__init__.py,sha256=kJjYZ8Nox4xo9gQJZez6lJp7uBlo0_mVM-ZUGnBbItM,386
+fileformats/extras/medimage_fsl/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+fileformats/extras/medimage_fsl/tests/test_generate_sample_data.py,sha256=8kEB2-7HjUbSLVzMZi1Ej-hxv1XeGwjAOTopAM27lRA,210
+fileformats_medimage_fsl_extras-0.1.0.dist-info/METADATA,sha256=vOBU4wG7MrZsZbc45QkxndoYRAdEKYQobIq65Nv3NI0,3449
+fileformats_medimage_fsl_extras-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+fileformats_medimage_fsl_extras-0.1.0.dist-info/licenses/LICENSE,sha256=1UwTTk2FSa_OpgWlBMDqe_u6T0NNnRbBx3oGHHgxzpo,588
+fileformats_medimage_fsl_extras-0.1.0.dist-info/RECORD,,
