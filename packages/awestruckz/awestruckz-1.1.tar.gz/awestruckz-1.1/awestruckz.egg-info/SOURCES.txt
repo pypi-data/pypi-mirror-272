@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+awestruckz/__init__.py
+awestruckz/main.py
+awestruckz.egg-info/PKG-INFO
+awestruckz.egg-info/SOURCES.txt
+awestruckz.egg-info/dependency_links.txt
+awestruckz.egg-info/requires.txt
+awestruckz.egg-info/top_level.txt
