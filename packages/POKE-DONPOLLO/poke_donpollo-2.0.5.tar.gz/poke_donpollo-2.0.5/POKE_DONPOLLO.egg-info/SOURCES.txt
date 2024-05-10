@@ -1,0 +1,10 @@
+README.md
+setup.py
+POKE_DONPOLLO/__init__.py
+POKE_DONPOLLO/pokemon.csv
+POKE_DONPOLLO/ramdom_pokemon.py
+POKE_DONPOLLO.egg-info/PKG-INFO
+POKE_DONPOLLO.egg-info/SOURCES.txt
+POKE_DONPOLLO.egg-info/dependency_links.txt
+POKE_DONPOLLO.egg-info/requires.txt
+POKE_DONPOLLO.egg-info/top_level.txt
