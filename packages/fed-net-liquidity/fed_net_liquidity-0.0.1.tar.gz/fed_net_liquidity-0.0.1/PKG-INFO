@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: fed_net_liquidity
+Version: 0.0.1
+Summary: Library for calculating Fed Net Liquidity
+Project-URL: Homepage, https://github.com/dharmatech/fed_net_liquidity.py
+Project-URL: Issues, https://github.com/dharmatech/fed_net_liquidity.py/issues
+Author-email: Eduardo Cavazos <wayo.cavazos@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: pandas
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# fed_net_liquidity.py
+
+Library for calculating Fed Net Liquidity
+
+    Fed Net Liquidity = WALCL - RRP - TGA
+
+Where:
+
+    WALCL = Federal Reserve balance sheet assets
+
+pypi package:
+
+https://pypi.org/project/newyorkfed-pandas/
