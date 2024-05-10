@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+dotgitignore.egg-info/PKG-INFO
+dotgitignore.egg-info/SOURCES.txt
+dotgitignore.egg-info/dependency_links.txt
+dotgitignore.egg-info/requires.txt
+dotgitignore.egg-info/top_level.txt
