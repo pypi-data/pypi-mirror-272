@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "shopee-affiliate-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Marcuth <example@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "shopee_affiliate" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.20.0"
+webdriver-manager = "^4.0.1"
+pydantic = "^2.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+twine = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
