@@ -1,0 +1,3 @@
+[console_scripts]
+docopt-parser=docopt_parser.__main__:main
+
