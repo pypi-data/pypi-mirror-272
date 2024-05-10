@@ -1,0 +1,9 @@
+kickstart_flask_app/__init__.py,sha256=s5njtyFDBW63FlR2sJ5wrLqfdwxHHCUQPUrwCzjdWvY,161
+kickstart_flask_app/core.py,sha256=15ok__bikg3pm26fZaz3798M9UFYz2mCzn-ficc4Z94,7527
+kickstart_flask_app/templates.py,sha256=jOx-W9GBj4RWZrgzUkor2lVH9rTLT34Y-BR1GcMzp4U,7506
+kickstart_flask_app-1.2.0.dist-info/LICENSE,sha256=bFJkHOcBAGRFjhVUsjjaHJUGUV5P7F2ZkxX9pqHUisI,1064
+kickstart_flask_app-1.2.0.dist-info/METADATA,sha256=_rT7Si-q87DAVt-wXFlLbGgpb7BJ5xhEuyiNf4epLqM,1692
+kickstart_flask_app-1.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kickstart_flask_app-1.2.0.dist-info/entry_points.txt,sha256=_vi1VLJT4dyh6K7M7KHKTqUBAb3w5ATJ22h6j-ld7AE,68
+kickstart_flask_app-1.2.0.dist-info/top_level.txt,sha256=U0mCcgPaq1SGChWutOp7lWNN9mclTE_2qVw2lQM5aq8,20
+kickstart_flask_app-1.2.0.dist-info/RECORD,,
