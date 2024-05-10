@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+comidz/__init__.py
+comidz/main.py
+comidz.egg-info/PKG-INFO
+comidz.egg-info/SOURCES.txt
+comidz.egg-info/dependency_links.txt
+comidz.egg-info/requires.txt
+comidz.egg-info/top_level.txt
