@@ -1,0 +1,3 @@
+[console_scripts]
+monviso = monviso_reloaded.__main__:main
+
