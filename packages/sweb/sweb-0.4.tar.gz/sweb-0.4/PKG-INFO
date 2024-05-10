@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sweb
+Version: 0.4
+Summary: SWEB is a static site generator that processes templates, styles, and assets to build
+Author: Jeremy LECERF
+Author-email: redpist.com@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pybars3
+Requires-Dist: libsass
+
+# SWEB - Static Website Generator
+
+## TL;DR
+
+SWEB is a static website generator that processes templates, styles, and assets to build
