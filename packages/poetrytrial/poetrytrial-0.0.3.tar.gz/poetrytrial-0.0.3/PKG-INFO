@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: poetrytrial
+Version: 0.0.3
+Summary: Poetry test run
+Author: Emmanuel Colas
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: kPal (>=2.1.1,<3.0.0)
+Requires-Dist: numpy (>=1.21,<2.0)
