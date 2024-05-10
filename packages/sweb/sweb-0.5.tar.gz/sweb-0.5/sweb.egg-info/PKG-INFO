@@ -1,0 +1,223 @@
+Metadata-Version: 2.1
+Name: sweb
+Version: 0.5
+Summary: SWEB is a static website generator that processes templates, styles, and assets
+Author: Jeremy LECERF
+Author-email: redpist.com@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pybars3
+Requires-Dist: libsass
+
+# SWEB - Static Website Generator
+
+## TL;DR
+
+SWEB is a static website generator that processes templates, styles, and assets.
+
+
+It uses data from JSON files to generate a static website with HTML, CSS, and media files. The project is organized into several folders, each serving a specific role in the generation of the website.
+
+## A SWEB project overview
+
+A sweb project is organized into several source folders, each serving a specific role in the generation of the static website.
+Below is an overview of the folders and their purposes:
+
+```
+sweb-project/
+  app/         # Contains your SWEB project files.
+    data/      # Contains JSON files with the data used to populate the templates.
+    templates/ # Holds the handlebar template files used to generate the HTML pages of the website.
+    styles/    # Stores CSS/SASS/SCSS files that define the visual appearance of the website.
+    assets/    # Includes media files like images, videos, and other static files that need to be copied as-is.
+  dist/      # The output directory where the generated website is saved.
+```
+
+## Quick Start
+
+```bash
+# Step 1: Install SWEB using pip
+pip install sweb
+
+# Step 2: Create a new SWEB project named 'my-project'
+sweb new my-project
+
+# Step 3: Change directory to the newly created project
+cd my-project
+
+# Step 4: Generate the website using SWEB
+sweb
+
+# Step 5: Open the generated website's index page in the default web browser
+open dist/index.html
+```
+
+
+
+## Folders details
+
+## Data
+
+### Path
+```
+app/data/
+```
+
+### Purpose
+
+This directory stores JSON files which are essential for providing the content that gets inserted into the templates.
+
+For Example: index.json, about.json, which might contain structured data for different parts of the site.
+
+### Data access
+
+Data are accessible from the handlebar templates using the `{{filename.key_path}}` variable.
+
+#### Example
+If the data file is `menu.json` and the data is structured as follows:
+
+```json
+{
+  "items": [ "Home", "About", "Contact" ]
+}
+```
+Then the data can be accessed in the template using `{{menu.items}}` which would output `["Home", "About", "Contact"]`
+
+### Subdirectories
+
+You can have subdirectories in the `data/` folder, and the data will be accessible using the subdirectory name as the first part of the key path.
+
+
+#### Example
+If you have a file `data/subdir/about.json` with the following data:
+```json
+{
+  "title": "About Us",
+  "description": "We are a team of developers passionate about creating amazing websites."
+}
+```
+Then the data can be accessed in the template using `{{subdir.about.title}}` which would output `About Us`.
+
+
+## Templates
+
+### Path
+```
+app/templates/
+```
+
+### Purpose
+
+Contains [handlebar](https://handlebarsjs.com/) template files which are the blueprints for the website. These templates are processed to insert data from the data directory and generate the HTML files in the dist directory.
+
+#### Example
+
+If you have a file data/index.json with the following content:
+```json
+{
+  "title": "my-project",
+  "description": "A sweb project."
+}
+```
+
+You could have a file `templates/index.hbs` with the following content:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{index.title}}</title>
+    <link rel='stylesheet' href='styles/style.css'>
+  </head>
+  <body>
+    <h1>Hello, world to {{index.description}}!</h1>
+  </body>
+</html>
+```
+
+it would generate the following HTML file in the `dist/` folder: `dist/index.html`
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my-project</title>
+    <link rel='stylesheet' href='styles/style.css'>
+  </head>
+  <body>
+    <h1>Hello, world to A sweb project.!</h1>
+  </body>
+</html>
+```
+
+
+
+## Styles
+
+### Path
+
+```
+app/styles/
+```
+
+### Purpose
+
+Stores CSS & [SASS/SCSS](https://sass-lang.com/) style sheets that control the look and feel of the website. These stylesheets are compiled and saved in the `dist/styles/` folder.
+
+### Example
+
+The following `style.scss` file in the `app/styles/` folder:
+```scss
+body {
+  h1 {
+    color: red;
+  }
+}
+```
+
+would generate the following CSS file `dist/styles/style.css`:
+```css
+body h1 {
+  color: red;
+}
+```
+
+
+
+
+## assets
+
+## Path
+```
+app/assets/
+```
+
+### Purpose
+
+Holds static files like images, fonts, and other media which are copied directly into the output directory without modification. These files are important for the multimedia elements of the site.
+
+### Example
+
+If you have an image `app/assets/logo.png`, it would be copied to `dist/assets/logo.png` without any changes.
+
+
+## How SWEB works?
+
+To generate a website, SWEB:
+1. Load the JSON data from the `app/data/` folder,
+2. Generate the html from the handlebar templates in the `app/templates/` folder and save the result in the `dist/` folder,
+3. Compile The CSS/SASS/SCSS files in the `app/styles/` folder and save the result the `dist/styles/` folder,
+4. The media files in the `app/assets/` folder are copied as-is to the `dist/assets/` folder.
+5. The `dist/` folder now contains a fully functional static website.
+
