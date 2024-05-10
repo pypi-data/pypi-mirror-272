@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Glam-Array
+Version: 0.1.0
+Summary: A custom-made package for multi-type arrays
+Home-page: https://github.com/yourusername/mypackage
+Author: Glammy
+Author-email: mrmcfiddler@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# MultiTypeArray
+
+MultiTypeArray is a Python library that provides a custom array data structure capable of storing elements of different data types. Unlike Python's built-in list, which can store elements of different types, MultiTypeArray offers additional methods and functionality specific to multi-type arrays.
+
+## Features
+
+- Store elements of different data types (integers, floats, strings, etc.) in the same array.
+- Append, insert, remove, and pop elements from the array.
+- Access elements using indexing and slicing.
+- Iterate over the array.
+- Extend the array with elements from an iterable.
+- Find the index of an element in the array.
+- Count the occurrences of an element in the array.
+- Reverse the order of elements in the array.
+- Sort the array using a custom key function and order (ascending or descending).
+
+## Installation
+
+You can install MultiTypeArray using pip:
+
+```
+pip install multitypearray
+```
