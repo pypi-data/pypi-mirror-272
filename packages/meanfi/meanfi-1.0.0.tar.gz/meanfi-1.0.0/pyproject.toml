@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "meanfi"
+dynamic = ["version"]
+authors = [
+  {name="MeanFi developers"},
+]
+description = "Package to perform self-consistent mean-field calculations on tight-binding systems"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "kwant>=1.4",
+    "packaging>=22.0",  # For version parsing
+]
+[tool.hatch.version]
+source = "vcs"
+[tool.hatch.build.hooks.vcs]
+version-file = "meanfi/_version.py"
+
+[project.urls]
+"Documentation" = "https://meanfi.readthedocs.io/en/latest/"
+"Repository" = "https://gitlab.kwant-project.org/qt/meanfi"
+"Bug Tracker" = "https://gitlab.kwant-project.org/qt/meanfi/-/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["meanfi"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "meanfi",
+  "README.md",
+  "LICENSE",
+  "pyproject.toml",
+  "AUTHORS.md",
+]
+
+[tool.codespell]
+skip = "*.ipynb"
+ignore-words-list = "multline, ket, bra, braket, nwo"
