@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zrcl
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: ZackaryW
+Author-email: 36378555+ZackaryW@users.noreply.github.com
+Requires-Python: >=3.12,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# zrcl
+ 
+
