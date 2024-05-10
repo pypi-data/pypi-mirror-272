@@ -1,0 +1,9 @@
+pydynamics/__init__.py,sha256=_Jtzb4EZnPcvkh9OXWwjyPHV2X2sxsLBMuP2YMM3j-E,20
+pydynamics/client.py,sha256=OPKV9du-CL_2wbie3jX7UVp0Lz4vpTGRIzIWTX-CsVQ,4947
+pydynamics/querybuilder.py,sha256=iate6wAiO1d4FZFd4UKwvsjQaMhEQa2Esx7jxmPBX58,7564
+pydynamics/token.py,sha256=UgTw8ItCqaRfXX-8dS9MlwLSeJKod-4XQNVI1ad34Tk,3763
+pydynamics-0.0.10.dist-info/LICENSE,sha256=E7UlELRD0dgVbjoSXbHEOa9rSZdfhgMKra5Ff2cwth8,1067
+pydynamics-0.0.10.dist-info/METADATA,sha256=GgCvhHdTKupKCbNixqO3vPT1vOkCTciQT0MWfZbVutU,2815
+pydynamics-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pydynamics-0.0.10.dist-info/top_level.txt,sha256=ZyhdekZlZBf8NL9g0eGj5ZP5-V3Edk-3WzCqQk2rXXA,11
+pydynamics-0.0.10.dist-info/RECORD,,
