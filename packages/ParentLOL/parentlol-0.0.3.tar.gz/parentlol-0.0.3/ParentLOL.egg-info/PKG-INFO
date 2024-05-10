@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ParentLOL
+Version: 0.0.3
+Summary: Printing with Ease.
+Home-page: https://github.com/parentrb
+Author: parent
+Author-email: parent@parent.lol
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: colorama
+Requires-Dist: datetime
