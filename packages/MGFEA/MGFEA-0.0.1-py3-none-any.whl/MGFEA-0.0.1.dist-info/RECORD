@@ -1,0 +1,11 @@
+MGFEA/ModelPlot.py,sha256=v0oNsEs-pOR20fFNSMsoxuSiZGw4mkiUaCyOlbePNgg,351
+MGFEA/__init__.py,sha256=BZn4pTJaStxEe-722U0ZGnAue0vWFCheb_YQ0hsUzSM,13
+MGFEA/model.py,sha256=74RACT5ng0yiAwOHXVBOcSkqKSM4P7qD5BTFCS3ES7s,5776
+MGFEA/multiGraphFEA.py,sha256=FEcUjTRd42AyFOgWzhBQmEDcxJ3fktg48zgo3KH_FUA,15592
+MGFEA/preprocess.py,sha256=o3EqldhMx7NUGyRxHr4MFUGhszWCncqQu5XHAJKLsdo,6145
+MGFEA/train.py,sha256=aOVHEV0zWAZkj-yOjbSHMfO5LXTgKbXpt67eUM3peOI,5770
+MGFEA-0.0.1.dist-info/LICENSE,sha256=fe1dtt-oC7OTiB-dwE2Rseqi_s9lM1TrRyDZMOz6B78,1069
+MGFEA-0.0.1.dist-info/METADATA,sha256=Kl6u-MuJ8XSL43cm-jmEJZXQGacs5I76NF4nP0zX-Z4,567
+MGFEA-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+MGFEA-0.0.1.dist-info/top_level.txt,sha256=Tno_WH1a9pCVsl1tnZpi03_eZPvY879akgxMgZuhY0g,6
+MGFEA-0.0.1.dist-info/RECORD,,

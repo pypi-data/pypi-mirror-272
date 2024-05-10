@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: MGFEA
+Version: 0.0.1
+Summary: A package for single cell flux prediction
+Home-page: https://github.com/sunwenzhi-cibr/MGFEA/
+Author: luojiaxu
+Author-email: 925009185@qq.com
+License: MIT Licence
+Keywords: pip,MGFEA
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: scipy
+Requires-Dist: scanpy
+
+A deep learning framework for metabolic flux prediction based on single cell transcriptome
