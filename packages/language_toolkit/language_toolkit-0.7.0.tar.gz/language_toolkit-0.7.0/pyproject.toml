@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "language_toolkit"
+version = "0.7.0"
+description = "A toolkit for working with Natural Language Processing projects."
+authors = ["Athena AIML Contributors"]
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+# Dependencies
+
+[tool.poetry.dependencies]
+python = "3.8.*"
+pydantic = "*"
+scikit-learn = "*"
+pandas = "*"
+numpy = "*"
+tqdm = "*"
+pyarrow = "*"
+click = "*"
+dill = "*"
+drain3 = "*"
+joblib = "*"
+jupyterlab = "*"
+loguru = "*"
+rich = "*"
+snorkel = "*"
+ruff = "*"
+
+[tool.poetry.group.testing.dependencies]
+pytest = "*"
+
+
+# Optional Dependencies
+
+[tool.poetry.group.documentation]
+optional = true
+
+[tool.poetry.group.documentation.dependencies]
+sphinx = "*"
+sphinxcontrib-katex = "*"
+sphinx-copybutton = "*"
+myst-parser = "*"
+pydata-sphinx-theme = "*"
