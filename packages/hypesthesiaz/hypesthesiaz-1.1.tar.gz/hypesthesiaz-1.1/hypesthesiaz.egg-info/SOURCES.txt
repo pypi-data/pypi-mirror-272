@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hypesthesiaz/__init__.py
+hypesthesiaz/main.py
+hypesthesiaz.egg-info/PKG-INFO
+hypesthesiaz.egg-info/SOURCES.txt
+hypesthesiaz.egg-info/dependency_links.txt
+hypesthesiaz.egg-info/requires.txt
+hypesthesiaz.egg-info/top_level.txt
