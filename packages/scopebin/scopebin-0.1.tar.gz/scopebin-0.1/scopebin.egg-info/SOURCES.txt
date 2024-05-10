@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+scopebin/__init__.py
+scopebin/io.py
+scopebin.egg-info/PKG-INFO
+scopebin.egg-info/SOURCES.txt
+scopebin.egg-info/dependency_links.txt
+scopebin.egg-info/not-zip-safe
+scopebin.egg-info/top_level.txt
