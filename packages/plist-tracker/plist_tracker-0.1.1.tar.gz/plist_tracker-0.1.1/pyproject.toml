@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "plist-tracker"
+version = "0.1.1"
+description = "A tool to visually track changes in macOS config files."
+authors = ["Oleg Tarasov <me@olegtarasov.email>"]
+readme = "README.md"
+packages = [{include = "plist_tracker"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textual = "^0.58.1"
+
+[tool.poetry.scripts]
+plist-tracker = "plist_tracker.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
