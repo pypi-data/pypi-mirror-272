@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fabaz/__init__.py
+fabaz/main.py
+fabaz.egg-info/PKG-INFO
+fabaz.egg-info/SOURCES.txt
+fabaz.egg-info/dependency_links.txt
+fabaz.egg-info/requires.txt
+fabaz.egg-info/top_level.txt
