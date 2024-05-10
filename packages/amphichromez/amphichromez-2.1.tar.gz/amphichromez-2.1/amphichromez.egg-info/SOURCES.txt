@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+amphichromez/__init__.py
+amphichromez/main.py
+amphichromez.egg-info/PKG-INFO
+amphichromez.egg-info/SOURCES.txt
+amphichromez.egg-info/dependency_links.txt
+amphichromez.egg-info/requires.txt
+amphichromez.egg-info/top_level.txt
