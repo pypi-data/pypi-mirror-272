@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dermatologyz/__init__.py
+dermatologyz/main.py
+dermatologyz.egg-info/PKG-INFO
+dermatologyz.egg-info/SOURCES.txt
+dermatologyz.egg-info/dependency_links.txt
+dermatologyz.egg-info/requires.txt
+dermatologyz.egg-info/top_level.txt
