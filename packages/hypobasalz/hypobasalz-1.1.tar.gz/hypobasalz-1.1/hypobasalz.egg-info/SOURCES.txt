@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hypobasalz/__init__.py
+hypobasalz/main.py
+hypobasalz.egg-info/PKG-INFO
+hypobasalz.egg-info/SOURCES.txt
+hypobasalz.egg-info/dependency_links.txt
+hypobasalz.egg-info/requires.txt
+hypobasalz.egg-info/top_level.txt
