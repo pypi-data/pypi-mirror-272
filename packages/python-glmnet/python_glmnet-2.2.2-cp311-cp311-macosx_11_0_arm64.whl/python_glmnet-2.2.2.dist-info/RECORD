@@ -1,0 +1,16 @@
+_glmnet.cpython-311-darwin.so,sha256=1Bn0F-Dm7d7LpHEWGGTtdmvOI9-eXB4tCZPCz6-qwiA,666640
+python_glmnet-2.2.2.dist-info/RECORD,,
+python_glmnet-2.2.2.dist-info/LICENSE,sha256=0nIwvDXvwUMK6HxtEhuofCr3YdN6eGR3dabMOkscWEY,18396
+python_glmnet-2.2.2.dist-info/WHEEL,sha256=sieEctgmsyAnWfDYOiunmkigyyjGmYuUaApm_YItwoI,110
+python_glmnet-2.2.2.dist-info/top_level.txt,sha256=g2wHSyK5jVtLNKpfk-7fNv7JxxDaD9fUtB5djc3ozDI,15
+python_glmnet-2.2.2.dist-info/METADATA,sha256=thvDPne919D0P8FXt1yMifad6O1u7KRwUQICIQHqF7Q,3639
+glmnet/util.py,sha256=dWr1IyHU-GxOPsZIC7IA4FU7RFY3b-45ChBgJvDBJsE,6961
+glmnet/logistic.py,sha256=gm6hxkZpkn6MbWAos-3rgVG-KiQIS8cmUgmpik4TC2w,23592
+glmnet/linear.py,sha256=Sm7KZZEWMTcz4kN1iYmAZ54aA3zJqO59p8TYWWcDxaY,17642
+glmnet/__init__.py,sha256=BDU4WfHrP9-NP9A2lQuVYHQfzgusjl8GVwyifr7HBJQ,186
+glmnet/doc.py,sha256=pcGuWqNOrmgz0DNbdahBnpg6Zir-70UVZfhIXaK7TPI,11502
+glmnet/errors.py,sha256=HfK5wTqvFiPK4TqRyhzybgd8nVNIjoBtHiYwJsbj4FM,2232
+glmnet/scorer.py,sha256=04Yizacf69tCX7XVl6X3sUUy6MUkOQStIdX9T-0WLKE,12633
+glmnet/.dylibs/libgfortran.5.dylib,sha256=JR2aHDcVsbZkMSrHQkrM8ls4wy22In3cvmYknT1uZLI,1882352
+glmnet/.dylibs/libquadmath.0.dylib,sha256=zEMaZrPm1BBnDDhkW8ASznFO-yUDL6h6W6dVEtA0qFg,363296
+glmnet/.dylibs/libgcc_s.1.1.dylib,sha256=XyVRYkKf16cOGDI7bz5pxkg3wR8TJScHQrox5ENS0eY,182480
