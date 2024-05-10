@@ -1,0 +1,6 @@
+pyproject.toml
+zense/__init__.py
+zense.egg-info/PKG-INFO
+zense.egg-info/SOURCES.txt
+zense.egg-info/dependency_links.txt
+zense.egg-info/top_level.txt
