@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: blockchain-python
+Version: 1.0
+Summary: Description of your package
+Author: Your Name
+Author-email: your@email.com
+Classifier: Programming Language :: Python :: 3
+
+Long description of your package
