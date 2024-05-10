@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: aimrun
+Version: 0.2.0
+Summary: A simple way of integrating aim into MLOps frameworks.
+Project-URL: Homepage, https://github.com/schneiderkamplab/aimrun
+Project-URL: Bug Tracker, https://github.com/schneiderkamplab/aimrun/issues
+Author: Peter Schneider-Kamp, Jacob Nielsen
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: accelerate
+Requires-Dist: aim
+Description-Content-Type: text/markdown
+
+# aimrun
+simple interface for integrating aim into MLOps frameworks
