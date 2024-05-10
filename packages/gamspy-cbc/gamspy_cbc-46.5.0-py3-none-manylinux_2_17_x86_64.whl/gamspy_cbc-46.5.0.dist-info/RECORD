@@ -1,0 +1,10 @@
+gamspy_cbc/__init__.py,sha256=-QiBB800j5iMPirp4sL4KwoEYDXZx0_L3ykpGaydS0k,369
+gamspy_cbc/libcbccclib64.so,sha256=sqoJpp4NtwytaztC_-DjCkeqkpRwpYfSZt-YdidTZv8,8088864
+gamspy_cbc/libiomp5.so,sha256=5NMX2LGFYqa4a6sY73e2gWFIgCE1G2r7gCzbvz-pYfM,2711592
+gamspy_cbc/libmkl_gams.so,sha256=rLH2zpfF_GtF_216odsiaB9lCF9x6FwKsfL8rijjVPA,85886616
+gamspy_cbc/optcbc.def,sha256=qTlrTal5NBbISIl4G_mWcVnfxngw_RKmRzOHwNV8CdE,17701
+gamspy_cbc/version.py,sha256=XIdA4Cvl0eCbv31_g7hR2M0oeouzY6KRnEe6VcwZIX4,22
+gamspy_cbc-46.5.0.dist-info/METADATA,sha256=c1x45ExOSdwblqFlRLt9MXYnPD312NEPdVQ-Njr5lhk,56
+gamspy_cbc-46.5.0.dist-info/WHEEL,sha256=EyChNuwWclgJLf8btn5REviYd5IxRGn2tIXp4VelYwc,116
+gamspy_cbc-46.5.0.dist-info/top_level.txt,sha256=IcTgSB0GiKn1AAeyYp_UDQixhnMIDBuufgKjfrBEqt4,11
+gamspy_cbc-46.5.0.dist-info/RECORD,,
