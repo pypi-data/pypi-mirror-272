@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dextrogyratoryz/__init__.py
+dextrogyratoryz/main.py
+dextrogyratoryz.egg-info/PKG-INFO
+dextrogyratoryz.egg-info/SOURCES.txt
+dextrogyratoryz.egg-info/dependency_links.txt
+dextrogyratoryz.egg-info/requires.txt
+dextrogyratoryz.egg-info/top_level.txt
