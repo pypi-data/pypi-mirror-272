@@ -1,0 +1,8 @@
+bidsarray/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bidsarray/component.py,sha256=uzS63dLAZqM3bSugqJgLphgj49Q2D6quSbCaZACE1FQ,4415
+bidsarray/consensus.py,sha256=5OFh36Ux_WpbQqp-YZgnBsdhG7-C1OYE3Q-QZLurWqI,2231
+bidsarray/run.py,sha256=J0c_ZmUaWsgs52T10BD-b_G1b7DugUw08DhIr9S9xas,4607
+bidsarray-0.1.1.dist-info/METADATA,sha256=IuXIY18ic3jHhuUnBP64ot0mcK2b9-cBpgtpm7v_6D8,10926
+bidsarray-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bidsarray-0.1.1.dist-info/entry_points.txt,sha256=VIXzS9j2qa8ixwq2-NCY6LkQXPDKGSyEIRbqnUCmTAQ,51
+bidsarray-0.1.1.dist-info/RECORD,,
