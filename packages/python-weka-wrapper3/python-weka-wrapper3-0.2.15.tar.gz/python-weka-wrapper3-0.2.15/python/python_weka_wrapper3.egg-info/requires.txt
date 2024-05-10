@@ -1,0 +1,15 @@
+python-javabridge@ git+https://github.com/CellProfiler/python-javabridge.git
+cython<3.0.0,>=0.29.25
+numpy>=1.20.1
+packaging
+configurable-objects
+simple-data-flow
+simple-range
+
+[graphs]
+pygraphviz
+pillow
+lxml
+
+[plots]
+matplotlib
