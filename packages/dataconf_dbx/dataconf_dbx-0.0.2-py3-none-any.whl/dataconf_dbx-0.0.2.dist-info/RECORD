@@ -1,0 +1,9 @@
+dataconf_dbx/__init__.py,sha256=H0RGhjatwRpQJUWyuNQ77FG63P5CPzE7NHoRLAs_-Js,45
+dataconf_dbx/exceptions.py,sha256=arSPASPlOs3yPTfHS3KgvafXXNjUH1mp7e2UXtZ4VWA,528
+dataconf_dbx/main.py,sha256=4xPyKiv-8UMddvXw5tG0RT3SfbdMMfiTgUwFH12qmlE,2784
+dataconf_dbx/mocks/dbutils.py,sha256=LZ2J9gcNscUOPzw86pKmqOSAQ9ULXpcFlMktRLBbcHY,322
+dataconf_dbx/utils.py,sha256=zFU6wNQdICvr-7xsDZqFAbageyDLI3MrSlcaJMLkdJk,272
+dataconf_dbx-0.0.2.dist-info/LICENSE,sha256=GA4y8MuO8epY3flakoM56oqzdemyY1SngLUQej8r2JM,1070
+dataconf_dbx-0.0.2.dist-info/METADATA,sha256=XtF536AOX9fuNmds-xT7l5r2b2TKsZZHuOss9qflb-0,3453
+dataconf_dbx-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dataconf_dbx-0.0.2.dist-info/RECORD,,
