@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "poetrytrial"
+version = "0.0.1"
+authors = [ "Emmanuel Colas"]
+description = "Poetry test run"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.21"
+
