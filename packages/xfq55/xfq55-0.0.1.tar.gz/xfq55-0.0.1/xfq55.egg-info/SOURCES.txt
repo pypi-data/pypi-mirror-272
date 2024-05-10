@@ -1,0 +1,8 @@
+README.md
+setup.py
+xfq5/__init__.py
+xfq55.egg-info/PKG-INFO
+xfq55.egg-info/SOURCES.txt
+xfq55.egg-info/dependency_links.txt
+xfq55.egg-info/requires.txt
+xfq55.egg-info/top_level.txt

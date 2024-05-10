@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xfq55
+Version: 0.0.1
+Summary: A simple exe to show stock infos
+Home-page: https://github.com/zcber1/xfq5
+Author: zcber1
+Author-email: 2952964393z@gmail.com
+Project-URL: Source, https://github.com/zcber1/xfq5
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# xfq5
+
+stock info realtime
+
+一个简单的小程序，用来实时显示中国A股的股票信息。
