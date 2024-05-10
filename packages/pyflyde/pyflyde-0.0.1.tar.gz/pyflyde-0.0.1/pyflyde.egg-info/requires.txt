@@ -1,0 +1,7 @@
+pyyaml
+
+[dev]
+build
+black
+coverage
+flake8
