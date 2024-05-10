@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+araucanianz/__init__.py
+araucanianz/main.py
+araucanianz.egg-info/PKG-INFO
+araucanianz.egg-info/SOURCES.txt
+araucanianz.egg-info/dependency_links.txt
+araucanianz.egg-info/requires.txt
+araucanianz.egg-info/top_level.txt
