@@ -1,0 +1,16 @@
+Nexus/__init__.py,sha256=kiqMg6bIiW0r2o6dH39qzWa0jvjZm7EDKU9QQQ8bXJw,1585
+Nexus/exceptions.py,sha256=5YhZWql-v8k095-jMofZ69AO7YH_cFfENbxy8vaix4k,922
+Nexus/models.py,sha256=tyFk1E4FdNExHr-i1Ip30LPPuUzj7QlWFn_Uox-rI1E,4303
+Nexus/scraper.py,sha256=5uGpyVqf_Voxy1hnNm10OKOCvUnMzkUXQdHc0oVLpuA,4116
+Nexus/scrapers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Nexus/scrapers/annatar.py,sha256=_4LSCOml-3yJAJaf3qRhx2beGEtEfVX53zcwYfqVF0k,2718
+Nexus/scrapers/apibay.py,sha256=bY5qiJ9eUECKVsC5H7Ctr9tSnqapIspIcXMXHSVzgsE,1758
+Nexus/scrapers/jackett.py,sha256=6bPhyTr2raJSL7DcYPI2og_J-B3thE_1qa2WWHE0oHw,2757
+Nexus/scrapers/orionoid.py,sha256=PpTCQL84687TLGYIZTkLdRyZrFw1faEivMi06fdWJLE,5245
+Nexus/scrapers/prowlarr.py,sha256=3fbW2OUE5kE4-sGcnTDYSuCA-miei4GiaPv89F7KlX0,3782
+Nexus/scrapers/torbox.py,sha256=tVk8tX2ywKTnnRVBWH1MgEeH6_s_o06w__6c5v7Fo8c,2185
+Nexus/scrapers/torrentio.py,sha256=wRlhPQOL8mwN36ffaODQev5Lsqqh7qukPkAyUVOfZKY,2572
+nexus_scraper-0.2.3.dist-info/LICENSE,sha256=KF4Y3RwVy_opOAzXPsmAS_664IjFS-bNOz0cp2XCU3A,1063
+nexus_scraper-0.2.3.dist-info/METADATA,sha256=P02bqKCoXrAxEOdGUnMZBQv3PRA_M8vyRWSh1ZoplM8,620
+nexus_scraper-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nexus_scraper-0.2.3.dist-info/RECORD,,
