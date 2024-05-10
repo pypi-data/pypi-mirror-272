@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tiny_progress_bar/test_tiny_progress_bar.py
+tiny_progress_bar/tiny_progress_bar.py
+tiny_progress_bar.egg-info/PKG-INFO
+tiny_progress_bar.egg-info/SOURCES.txt
+tiny_progress_bar.egg-info/dependency_links.txt
+tiny_progress_bar.egg-info/top_level.txt

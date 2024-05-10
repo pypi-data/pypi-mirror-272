@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tiny-progress-bar
+Version: 0.1.1
+Summary: Simple progress bar for Python 3
+Home-page: https://github.com/aklin2/tiny_progress_bar
+Download-URL: https://github.com/aklin2/tiny_progress_bar/archive/refs/tags/v0.1.1.tar.gz
+Author: Alan Lin
+Author-email: lin.alan.k@gmail.com
+License: GPL-3.0
+Keywords: progress,progress bar,tiny_progress_bar,loading,loading bar,loading_bar
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
