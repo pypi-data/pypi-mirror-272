@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cloudacious"
+version = "0.0.3"
+description = ""
+authors = ["SurfingDoggo <git@surfingdoggo.com>"]
+readme = "README.md"
+homepage = "https://cloudacious.io"
+repository = "https://gitlab.com/money-marathon/cloudacious/cloudacious"
+packages = [{include = "cloudacious", from = "src"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
