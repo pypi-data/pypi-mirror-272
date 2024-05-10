@@ -1,0 +1,2 @@
+[console_scripts]
+create-flask-project = flask_project_creator.__init__:create_project
