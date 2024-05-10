@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ambrosianz/__init__.py
+ambrosianz/main.py
+ambrosianz.egg-info/PKG-INFO
+ambrosianz.egg-info/SOURCES.txt
+ambrosianz.egg-info/dependency_links.txt
+ambrosianz.egg-info/requires.txt
+ambrosianz.egg-info/top_level.txt
