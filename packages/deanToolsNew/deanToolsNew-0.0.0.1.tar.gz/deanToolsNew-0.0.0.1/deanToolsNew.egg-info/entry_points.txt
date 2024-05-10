@@ -1,0 +1,3 @@
+[console_scripts]
+deanToolsNew = tools_py.main:main
+
