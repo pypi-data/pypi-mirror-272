@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lovemakingz/__init__.py
+lovemakingz/main.py
+lovemakingz.egg-info/PKG-INFO
+lovemakingz.egg-info/SOURCES.txt
+lovemakingz.egg-info/dependency_links.txt
+lovemakingz.egg-info/requires.txt
+lovemakingz.egg-info/top_level.txt
