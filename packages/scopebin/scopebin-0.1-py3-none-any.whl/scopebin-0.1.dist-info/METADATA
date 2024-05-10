@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: scopebin
+Version: 0.1
+Summary: A package for viewing and analyzing microscope images in Python.
+Home-page: https://github.com/omidalam/scopebin
+Author: FOmid Gholamalamdari
+Author-email: omid.gholamalamdari@mcgill.ca
+License: GPL-3.0 license
+License-File: LICENSE
+
