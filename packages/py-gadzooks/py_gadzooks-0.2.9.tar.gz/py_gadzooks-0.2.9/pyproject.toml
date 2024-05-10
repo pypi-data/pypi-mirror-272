@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py-gadzooks"
+dynamic = ["version"]
+description = "A collection of code maintenance tools for Python projects, intended to be used within git hooks."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Jeremy Silver", email = "jeremys@nessiness.com" },
+]
+classifiers = [
+  "Programming Language :: Python"
+]
+dependencies = [
+  "radon",
+]
+
+[project.urls]
+Documentation = "https://github.com/jeremander/gadzooks#readme"
+Issues = "https://github.com/jeremander/gadzooks/issues"
+Source = "https://github.com/jeremander/gadzooks"
+
+[project.scripts]
+gadzooks = "gadzooks.main:main"
+
+[tool.hatch.version]
+path = "gadzooks/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "gadzooks"
+]
+
+[tool.hatch.build.targets.wheel]
+include = [
+  "gadzooks"
+]
+
+[tool.yapf]
+# NOTE: we'd like to disable vertical whitespace adjustment,
+# but there appears to be no way to do that
+based_on_style = "pep8"
+blank_lines_between_top_level_imports_and_variables = 2
+coalesce_brackets = true
+column_limit = 10000
+dedent_closing_brackets = true
+space_between_ending_comma_and_closing_bracket = false
+spaces_around_power_operator = true
+split_all_top_level_comma_separated_values = true
