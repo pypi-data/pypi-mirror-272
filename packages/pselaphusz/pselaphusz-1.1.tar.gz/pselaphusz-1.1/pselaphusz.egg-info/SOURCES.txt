@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pselaphusz/__init__.py
+pselaphusz/main.py
+pselaphusz.egg-info/PKG-INFO
+pselaphusz.egg-info/SOURCES.txt
+pselaphusz.egg-info/dependency_links.txt
+pselaphusz.egg-info/requires.txt
+pselaphusz.egg-info/top_level.txt
