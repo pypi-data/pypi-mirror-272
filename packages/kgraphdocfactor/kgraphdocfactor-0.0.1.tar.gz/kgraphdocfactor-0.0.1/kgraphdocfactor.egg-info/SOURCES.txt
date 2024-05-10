@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+kgraphdocfactor/__init__.py
+kgraphdocfactor.egg-info/PKG-INFO
+kgraphdocfactor.egg-info/SOURCES.txt
+kgraphdocfactor.egg-info/dependency_links.txt
+kgraphdocfactor.egg-info/requires.txt
+kgraphdocfactor.egg-info/top_level.txt
