@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: upnpinfo
+Version: 1.0.0
+Summary: Retrieve UPnP device information from the local network
+Author: Mike Joblin
+License: MIT License
+        
+        Copyright (c) 2024 Mike Joblin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/mjoblin/upnpinfo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich>=13.4.2
+Requires-Dist: upnpclient<2,>=1.0.3
+Requires-Dist: click>=8.1.7
+Provides-Extra: dev
+Requires-Dist: black[d]; extra == "dev"
+
+# upnpinfo
+
+`upnpinfo` is a commandline tool for retrieving UPnP device information from the local network.
+It's a simple CLI wrapper around [upnpclient](https://github.com/flyte/upnpclient).
+
+## Installation
+
+`upnpinfo` requires Python 3.8 or higher.
+
+```sh
+pip install upnpinfo
+```
+
+## Features
+
+### Discover UPnP devices
+
+By default, `upnpclient` will perform UPnP discovery on the local network and display a summary
+table showing all discovered devices.
+
+![Discovery](https://github.com/mjoblin/upnpinfo/raw/main/media/upnpinfo_discovery.png)
+
+### Display detailed information on a single device
+
+Use the `--device` flag to view detailed information on a single device, including the device's
+services and actions. The provided device can be a UPnP friendly name, a unique UDN, or a UPnP
+location URL.
+
+![Device](https://github.com/mjoblin/upnpinfo/raw/main/media/upnpinfo_device.png)
+
+### JSON output
+
+Output can be optionally generated in JSON format.
+
+![JSON output](https://github.com/mjoblin/upnpinfo/raw/main/media/upnpinfo_json.png)
+
+### Help information
+
+The following flags are supported.
+
+![Help](https://github.com/mjoblin/upnpinfo/raw/main/media/upnpinfo_help.png)
+
+## Ideas
+
+It would be cool if `upnpinfo` had an interactive mode, allowing for browsing of devices and
+device services, and supporting manual action invocation.
