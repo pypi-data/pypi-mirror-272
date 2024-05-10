@@ -1,0 +1,10 @@
+pyyaml
+
+[dev]
+setuptools
+build
+black
+coverage
+flake8
+mypy
+twine
