@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+overreadingz/__init__.py
+overreadingz/main.py
+overreadingz.egg-info/PKG-INFO
+overreadingz.egg-info/SOURCES.txt
+overreadingz.egg-info/dependency_links.txt
+overreadingz.egg-info/requires.txt
+overreadingz.egg-info/top_level.txt
