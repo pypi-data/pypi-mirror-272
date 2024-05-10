@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+imparityz/__init__.py
+imparityz/main.py
+imparityz.egg-info/PKG-INFO
+imparityz.egg-info/SOURCES.txt
+imparityz.egg-info/dependency_links.txt
+imparityz.egg-info/requires.txt
+imparityz.egg-info/top_level.txt
