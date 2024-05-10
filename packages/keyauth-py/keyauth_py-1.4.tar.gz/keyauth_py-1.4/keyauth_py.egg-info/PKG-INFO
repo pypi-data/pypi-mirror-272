@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: keyauth-py
+Version: 1.4
+Summary: Key Authorization
+Home-page: https://github.com/Herels2/keyauth-py
+Author: Sterrist
+Author-email: griodred@gmail.com
+Requires-Dist: requests

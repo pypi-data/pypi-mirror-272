@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+keyauth-py/__init__.py
+keyauth-py/keyauth.py
+keyauth_py.egg-info/PKG-INFO
+keyauth_py.egg-info/SOURCES.txt
+keyauth_py.egg-info/dependency_links.txt
+keyauth_py.egg-info/requires.txt
+keyauth_py.egg-info/top_level.txt
