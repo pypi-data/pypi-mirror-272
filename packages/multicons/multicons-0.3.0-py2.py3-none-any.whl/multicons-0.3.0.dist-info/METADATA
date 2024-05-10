@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: multicons
+Version: 0.3.0
+Summary: MultiCons (Multiple Consensuses) algorithm
+Home-page: https://github.com/SergioSim/multicons
+Author: SergioSim
+Author-email: sergio.simonian@etu.univ-cotedazur.fr
+License: MIT
+Keywords: MultiCons,Multiple Consensuses,Consensus clustering
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: graphviz >=0.20
+Requires-Dist: numpy >=1.24.0
+Requires-Dist: pandas >=2.0.0
+Requires-Dist: pyfim >=6.28
+Requires-Dist: scikit-learn >=1.2.0
+Provides-Extra: ci
+Requires-Dist: twine ==5.0.0 ; extra == 'ci'
+Provides-Extra: dev
+Requires-Dist: bandit ==1.7.8 ; extra == 'dev'
+Requires-Dist: black ==24.4.2 ; extra == 'dev'
+Requires-Dist: flake8 ==7.0.0 ; extra == 'dev'
+Requires-Dist: fuzzy-c-means ==1.7.2 ; extra == 'dev'
+Requires-Dist: isort ==5.13.2 ; extra == 'dev'
+Requires-Dist: jupyterlab ==4.1.8 ; extra == 'dev'
+Requires-Dist: jupytext ==1.16.2 ; extra == 'dev'
+Requires-Dist: kmedoids ==0.5.1 ; extra == 'dev'
+Requires-Dist: matplotlib ==3.8.4 ; extra == 'dev'
+Requires-Dist: mkdocs ==1.6.0 ; extra == 'dev'
+Requires-Dist: mkdocs-jupyter ==0.24.7 ; extra == 'dev'
+Requires-Dist: mkdocs-material ==9.5.21 ; extra == 'dev'
+Requires-Dist: mkdocstrings[python] ==0.25.1 ; extra == 'dev'
+Requires-Dist: pylint ==3.1.0 ; extra == 'dev'
+Requires-Dist: pytest ==8.2.0 ; extra == 'dev'
+Requires-Dist: pytest-cov ==5.0.0 ; extra == 'dev'
+
+# MultiCons
+
+This python package provides an implementation of the MultiCons (Multiple Consensus)
+algorithm.
+
+MultiCons is a consensus clustering method that uses the frequent closed itemset mining
+technique to find similarities in the base clustering solutions.
+
+The implementation aims to follow the original description of the MultiCons method from
+the references below.
+
+## Installation
+
+MultiCons is available on the Python Package Index (PyPI). It's installable using `pip`:
+
+```bash
+pip install multicons
+```
+
+## Documentation
+
+To get started, check out some examples or look up the reference API, please visit our
+[documentation page](https://sergiosim.github.io/multicons/).
+
+## References
+
+Atheer A. "A closed patterns-based approach to the consensus clustering problem".
+Other [cs.OH]. Université Côte d’Azur, 2016. English. <NNT : 2016AZUR4111>. <tel-01478626>
+Retrieved from [tel.archives-ouvertes.fr](https://tel.archives-ouvertes.fr/tel-01478626)
+
+Atheer A., Pasquier N., Precioso F. "Using Closed Patterns to Solve the Consensus Clustering Problem".
+International Journal of Software Engineering and Knowledge Engineering 2016 26:09n10, 1379-1397
