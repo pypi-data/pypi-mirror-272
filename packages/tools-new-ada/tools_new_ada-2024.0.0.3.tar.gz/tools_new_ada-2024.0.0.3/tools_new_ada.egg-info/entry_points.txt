@@ -1,0 +1,3 @@
+[console_scripts]
+tools_new_ada = tools_py.main:main
+
