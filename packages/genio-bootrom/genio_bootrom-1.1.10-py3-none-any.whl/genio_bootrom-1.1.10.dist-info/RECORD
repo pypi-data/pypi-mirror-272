@@ -1,0 +1,15 @@
+aiot_bootrom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiot_bootrom/bootrom.py,sha256=jTRxahjJ-_tGoBgoQbxklQyFwy7DgrVUTJp4XCptr_s,582
+aiot_bootrom/bin/bootrom-tool,sha256=Vvxm2vUx9C1coSfy99kdWNCE_qOdNSQTAbdKSZqonbk,18712
+aiot_bootrom/bin/bootrom-tool.exe,sha256=1g5yWDgD6yA783QGnIl_EsxCKPZW_bN35yc_miIbu90,53248
+aiot_bootrom/bin/aarch64/linux/bootrom-tool,sha256=4foEwMeua96xT_dwGqTAyDyaRmCp9GO2LKEcEG9aGLs,18472
+aiot_bootrom/bin/amd64/linux/bootrom-tool,sha256=Vvxm2vUx9C1coSfy99kdWNCE_qOdNSQTAbdKSZqonbk,18712
+aiot_bootrom/bin/amd64/windows/bootrom-tool.exe,sha256=1g5yWDgD6yA783QGnIl_EsxCKPZW_bN35yc_miIbu90,53248
+aiot_bootrom/bin/x86_64/linux/bootrom-tool,sha256=Vvxm2vUx9C1coSfy99kdWNCE_qOdNSQTAbdKSZqonbk,18712
+aiot_bootrom/bin/x86_64/windows/bootrom-tool.exe,sha256=rnmrVz2pHJVXqjNQ8ajSTchgoLa1DMOWJ9SuhW5etv4,29696
+genio_bootrom-1.1.10.dist-info/LICENSE,sha256=6g4Fy_3vs1oHJZ5JlibWDFz78RmsVyAP0-jM9QLPyLw,25160
+genio_bootrom-1.1.10.dist-info/METADATA,sha256=5fubtThvlmSj2_QXSUGJl0v_gtVvg5rDeMjoedIamWU,550
+genio_bootrom-1.1.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+genio_bootrom-1.1.10.dist-info/entry_points.txt,sha256=kCS-vZ5RZtwflaGZjCBjBwotODGCLfvkwGObD_o5D1M,101
+genio_bootrom-1.1.10.dist-info/top_level.txt,sha256=GfyLfW5fC5LtqHnID8unKIbDXpDXLx4liUJjk5NRYi0,13
+genio_bootrom-1.1.10.dist-info/RECORD,,
