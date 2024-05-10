@@ -1,0 +1,2 @@
+[nbdev]
+featurefactory = featurefactory._modidx:d
