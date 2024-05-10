@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pyRobotiqGripper &mdash; pyRobotiqGripper 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Usage" href="usage.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            pyRobotiqGripper
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">pyRobotiqGripper</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">pyRobotiqGripper</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="pyrobotiqgripper">
+<h1>pyRobotiqGripper<a class="headerlink" href="#pyrobotiqgripper" title="Link to this heading"></a></h1>
+<p>Python Driver for Robotiq Grippers via Modbus RTU</p>
+<p>pyRobotiqGripper is a Python library designed to facilitate control of Robotiq grippers using Modbus RTU communication via serial port.
+It is compatible with 2F85, 2F140, and Hande.</p>
+<p>Documentation: <a class="reference external" href="https://pyrobotiqgripper.readthedocs.io/en/latest/">pyRobotiqGripper Documentation</a></p>
+<section id="disclaimer">
+<h2>Disclaimer<a class="headerlink" href="#disclaimer" title="Link to this heading"></a></h2>
+<p>This library can be seen as a starting point for a Robotiq integration project.
+You are responsible for what you do with this library.
+The author takes no responsibility for any malfunction.</p>
+<p>Note: This library is not maintained by Robotiq.</p>
+</section>
+<section id="how-to-install">
+<h2>How to Install<a class="headerlink" href="#how-to-install" title="Link to this heading"></a></h2>
+<p>(To come soon) Install the pyRobotiqGripper python package using PIP.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>pyRobotiqGripper
+</pre></div>
+</div>
+</section>
+<section id="typical-usage">
+<h2>Typical Usage<a class="headerlink" href="#typical-usage" title="Link to this heading"></a></h2>
+<p>Import the pyRobotiqGripper module.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pyRobotiqGripper</span>
+</pre></div>
+</div>
+<p>Create a Robotiq gripper object.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">gripper</span> <span class="o">=</span> <span class="n">pyRobotiqGripper</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>By default, the serial port on which the gripper is connected is automatically detected. However, you can manually specify the serial port name if you want to. Refer to the API documentation for more information.
+You can now activate the gripper and eventually calibrate the gripper if you want to control the opening in mm instead of bit.</p>
+<p>Note: During activation, the gripper is going to fully open and close. Do not disturb this process. Do not place an object inside the gripper.</p>
+<p>Note: The gripper finger position varies from 0 to 255. It is coded on 8 bits.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">gripper</span><span class="o">.</span><span class="n">activate</span><span class="p">()</span>
+<span class="n">gripper</span><span class="o">.</span><span class="n">calibrate</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">40</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>You can now do whatever you want with the gripper: open, close, get position feedback, etc.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">gripper</span><span class="o">.</span><span class="n">open</span><span class="p">()</span>
+<span class="n">gripper</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="n">gripper</span><span class="o">.</span><span class="n">goTo</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">position_in_bit</span> <span class="o">=</span> <span class="n">gripper</span><span class="o">.</span><span class="n">getPosition</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">position_in_bit</span><span class="p">)</span>
+<span class="n">gripper</span><span class="o">.</span><span class="n">goTomm</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
+<span class="n">position_in_mm</span> <span class="o">=</span> <span class="n">gripper</span><span class="o">.</span><span class="n">getPositionmm</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">position_in_mm</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>You can print the current status of gripper registers using printInfo.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">gripper</span><span class="o">.</span><span class="n">printInfo</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#installation">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api.html#pyRobotiqGripper.RobotiqGripper"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="usage.html" class="btn btn-neutral float-right" title="Usage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Benoit CASTETS.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

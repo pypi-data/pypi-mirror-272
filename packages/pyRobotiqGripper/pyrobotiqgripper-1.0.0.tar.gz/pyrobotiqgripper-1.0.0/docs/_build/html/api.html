@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API &mdash; pyRobotiqGripper 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Usage" href="usage.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            pyRobotiqGripper
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.activate"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.activate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.calibrate"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.calibrate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.close"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.close()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.getPosition"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.getPosition()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.getPositionmm"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.getPositionmm()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.goTo"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.goTo()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.goTomm"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.goTomm()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.isActivated"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.isActivated()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.isCalibrated"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.isCalibrated()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.open"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.open()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.printInfo"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.printInfo()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.readAll"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.readAll()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.reset"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.reset()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pyRobotiqGripper.RobotiqGripper.resetActivate"><code class="docutils literal notranslate"><span class="pre">RobotiqGripper.resetActivate()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pyRobotiqGripper</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">API</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/api.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="api">
+<span id="id1"></span><h1>API<a class="headerlink" href="#api" title="Link to this heading"></a></h1>
+<p id="module-pyRobotiqGripper">pyRobotiqGripper: Python Driver for Robotiq Grippers via Modbus RTU</p>
+<p>pyRobotiqGripper is a Python library designed to facilitate control of Robotiqgrippers using Modbus RTU communication via serial port.</p>
+<p>This module provides documentation in two formats:</p>
+<ul class="simple">
+<li><p>Docstrings: Embedded within the code for easy access.</p></li>
+<li><p>Online Documentation: Extensive documentation available at    &lt;<a class="reference external" href="https://pyrobotiqgripper.readthedocs.io/en/latest/">https://pyrobotiqgripper.readthedocs.io/en/latest/</a>&gt;.</p></li>
+</ul>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyRobotiqGripper.</span></span><span class="sig-name descname"><span class="pre">RobotiqGripper</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">portname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">slaveAddress</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">9</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Instrument</span></code></p>
+<p>Object control Robotiq grippers (2F85, 2F140 or hande).</p>
+<p>Suppose that the gripper is connected via the USB/RS485 adapter to the PC    executing this code.</p>
+<p>Modbus RTU function code supported by robotiq gripper</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Description</p></th>
+<th class="head"><p>Modbus function code</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Read registers</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Write registers</p></td>
+<td><p>16</p></td>
+</tr>
+<tr class="row-even"><td><p>Master read &amp; write multiple registers</p></td>
+<td><p>23</p></td>
+</tr>
+</tbody>
+</table>
+<p>For more information for gripper communication please check gripper manual
+on Robotiq website.
+<a class="reference external" href="https://robotiq.com/support/2f-85-2f-140">https://robotiq.com/support/2f-85-2f-140</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This object cannot be use to control epick, 3F or powerpick.</p>
+</div>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.activate">
+<span class="sig-name descname"><span class="pre">activate</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.activate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.activate" title="Link to this definition"></a></dt>
+<dd><p>If not already activated, activate the gripper.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When you execute this function the gripper is going to fully open            and close. During this operation the gripper must be able to freely            move. Do not place object inside the gripper.</p>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.calibrate">
+<span class="sig-name descname"><span class="pre">calibrate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">closemm</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">openmm</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.calibrate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.calibrate" title="Link to this definition"></a></dt>
+<dd><p>Calibrate the gripper for mm positionning.</p>
+<p>Once the calibration is done it is possible to control the gripper in        mm.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><ul class="simple">
+<li><p>closemm (float): Distance between the fingers when the gripper is            fully closed.</p></li>
+<li><p>openmm (float): Distance between the fingers when the gripper is            fully open.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">speed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">255</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">255</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.close"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.close" title="Link to this definition"></a></dt>
+<dd><p>Close the gripper.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><ul class="simple">
+<li><p>speed (int, optional): Gripper speed between 0 and 255.            Default is 255.</p></li>
+<li><p>force (int, optional): Gripper force between 0 and 255.            Default is 255.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.getPosition">
+<span class="sig-name descname"><span class="pre">getPosition</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.getPosition"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.getPosition" title="Link to this definition"></a></dt>
+<dd><p>Return the position of the gripper in bits</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><ul class="simple">
+<li><p>int: Position of the gripper in bits.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.getPositionmm">
+<span class="sig-name descname"><span class="pre">getPositionmm</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.getPositionmm"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.getPositionmm" title="Link to this definition"></a></dt>
+<dd><p>Return the position of the gripper in mm.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>float: Current gripper position in mm</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Calibration is needed to use this function.</p>
+<p>Execute the function calibrate at least 1 time before using this function.</p>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.goTo">
+<span class="sig-name descname"><span class="pre">goTo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">speed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">255</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">255</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.goTo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.goTo" title="Link to this definition"></a></dt>
+<dd><p>Go to the position with determined speed and force.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><ul class="simple">
+<li><p>position (int): Position of the gripper. Integer between 0 and 255.            0 being the open position and 255 being the close position.</p></li>
+<li><p>speed (int): Gripper speed between 0 and 255</p></li>
+<li><p>force (int): Gripper force between 0 and 255</p></li>
+</ul>
+</dd>
+<dt>Returns:</dt><dd><ul class="simple">
+<li><p>objectDetected (bool): True if object detected</p></li>
+<li><p>position (int): End position of the gripper in bits</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.goTomm">
+<span class="sig-name descname"><span class="pre">goTomm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">positionmm</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">speed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">255</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">255</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.goTomm"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.goTomm" title="Link to this definition"></a></dt>
+<dd><p>Go to the requested opening expressed in mm</p>
+<dl class="simple">
+<dt>Args:</dt><dd><ul class="simple">
+<li><p>positionmm (float): Gripper opening in mm.</p></li>
+<li><p>speed (int, optional): Gripper speed between 0 and 255.            Default is 255.</p></li>
+<li><p>force (int, optional): Gripper force between 0 and 255.            Default is 255.</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Calibration is needed to use this function.</p>
+<p>Execute the function calibrate at least 1 time before using this function.</p>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.isActivated">
+<span class="sig-name descname"><span class="pre">isActivated</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.isActivated"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.isActivated" title="Link to this definition"></a></dt>
+<dd><p>Tells if the gripper is activated</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: True if the gripper is activated. False otherwise.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.isCalibrated">
+<span class="sig-name descname"><span class="pre">isCalibrated</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.isCalibrated"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.isCalibrated" title="Link to this definition"></a></dt>
+<dd><p>Return if the gripper is qualibrated</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: True if the gripper is calibrated. False otherwise.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.open">
+<span class="sig-name descname"><span class="pre">open</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">speed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">255</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">255</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.open"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.open" title="Link to this definition"></a></dt>
+<dd><p>Open the gripper</p>
+<dl class="simple">
+<dt>Args:</dt><dd><ul class="simple">
+<li><p>speed (int, optional): Gripper speed between 0 and 255.            Default is 255.</p></li>
+<li><p>force (int, optional): Gripper force between 0 and 255.            Default is 255.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.printInfo">
+<span class="sig-name descname"><span class="pre">printInfo</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.printInfo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.printInfo" title="Link to this definition"></a></dt>
+<dd><p>Print gripper register info in the python terminal</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.readAll">
+<span class="sig-name descname"><span class="pre">readAll</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.readAll"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.readAll" title="Link to this definition"></a></dt>
+<dd><p>Retrieve gripper output register information and save it in the            parameter dictionary.</p>
+<p>The dictionary keys are as follows:</p>
+<ul class="simple">
+<li><p>gOBJ: Object detection status. This built-in feature provides            information on possible object pick-up. Ignore if gGTO == 0.</p></li>
+<li><p>gSTA: Gripper status. Returns the current status and motion of the            gripper fingers.</p></li>
+<li><p>gGTO: Action status. Echo of the rGTO bit (go-to bit).</p></li>
+<li><p>gACT: Activation status. Echo of the rACT bit (activation bit).</p></li>
+<li><p>kFLT: See your optional controller manual for input registers and            status.</p></li>
+<li><p>gFLT: Fault status. Returns general error messages useful for            troubleshooting. A fault LED (red) is present on the gripper            chassis. The LED can be blue, red, or both, and can be solid            or blinking.</p></li>
+<li><p>gPR: Echo of the requested position for the gripper. Value between            0x00 and 0xFF.</p></li>
+<li><p>gPO: Actual position of the gripper obtained via the encoders.            Value between 0x00 and 0xFF.</p></li>
+<li><p>gCU: The current is read instantaneously from the motor drive. Value            between 0x00 and 0xFF. Approximate current equivalent is 10 times            the value read in mA.</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.reset" title="Link to this definition"></a></dt>
+<dd><p>Reset the gripper (clear previous activation if any)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyRobotiqGripper.RobotiqGripper.resetActivate">
+<span class="sig-name descname"><span class="pre">resetActivate</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyRobotiqGripper.html#RobotiqGripper.resetActivate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyRobotiqGripper.RobotiqGripper.resetActivate" title="Link to this definition"></a></dt>
+<dd><p>Reset the gripper (clear previous activation if any) and activat        the gripper. During this operation the gripper will open and close.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="usage.html" class="btn btn-neutral float-left" title="Usage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Benoit CASTETS.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

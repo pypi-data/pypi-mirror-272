@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pyRobotiqGripper &mdash; pyRobotiqGripper 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            pyRobotiqGripper
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">pyRobotiqGripper</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Module code</a></li>
+      <li class="breadcrumb-item active">pyRobotiqGripper</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for pyRobotiqGripper</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;pyRobotiqGripper: Python Driver for Robotiq Grippers via Modbus RTU</span>
+
+<span class="sd">pyRobotiqGripper is a Python library designed to facilitate control of Robotiq\</span>
+<span class="sd">grippers using Modbus RTU communication via serial port.</span>
+
+<span class="sd">This module provides documentation in two formats:</span>
+
+<span class="sd">- Docstrings: Embedded within the code for easy access.</span>
+<span class="sd">- Online Documentation: Extensive documentation available at\</span>
+<span class="sd">    &lt;https://pyrobotiqgripper.readthedocs.io/en/latest/&gt;.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="c1">#General information</span>
+<span class="n">__author__</span>  <span class="o">=</span> <span class="s2">&quot;Benoit CASTETS&quot;</span>
+<span class="n">__email__</span>   <span class="o">=</span> <span class="s2">&quot;opensourceeng@robotiq.com&quot;</span>
+<span class="n">__license__</span> <span class="o">=</span> <span class="s2">&quot;Apache License, Version 2.0&quot;</span>
+<span class="n">__url__</span> <span class="o">=</span> <span class="s2">&quot;https://github.com/castetsb/pyRobotiqGripper&quot;</span>
+<span class="n">__version__</span> <span class="o">=</span> <span class="s2">&quot;1.0.0&quot;</span>
+
+<span class="c1">#Iport libraries</span>
+<span class="kn">import</span> <span class="nn">minimalmodbus</span> <span class="k">as</span> <span class="nn">mm</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">serial</span>
+<span class="kn">import</span> <span class="nn">serial.tools.list_ports</span>
+
+<span class="c1">#Constants</span>
+<span class="n">BAUDRATE</span><span class="o">=</span><span class="mi">115200</span>
+<span class="n">BYTESIZE</span><span class="o">=</span><span class="mi">8</span>
+<span class="n">PARITY</span><span class="o">=</span><span class="s2">&quot;N&quot;</span>
+<span class="n">STOPBITS</span><span class="o">=</span><span class="mi">1</span>
+<span class="n">TIMEOUT</span><span class="o">=</span><span class="mf">0.2</span>
+<span class="n">AUTO_DETECTION</span><span class="o">=</span><span class="s2">&quot;auto&quot;</span>
+
+<div class="viewcode-block" id="RobotiqGripper">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper">[docs]</a>
+<span class="k">class</span> <span class="nc">RobotiqGripper</span><span class="p">(</span> <span class="n">mm</span><span class="o">.</span><span class="n">Instrument</span> <span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Object control Robotiq grippers (2F85, 2F140 or hande).</span>
+
+<span class="sd">    Suppose that the gripper is connected via the USB/RS485 adapter to the PC\</span>
+<span class="sd">    executing this code.</span>
+
+<span class="sd">    Modbus RTU function code supported by robotiq gripper</span>
+
+<span class="sd">    =======================================  ====================</span>
+<span class="sd">    Description                              Modbus function code</span>
+<span class="sd">    =======================================  ====================</span>
+<span class="sd">    Read registers                           4</span>
+<span class="sd">    Write registers                          16</span>
+<span class="sd">    Master read &amp; write multiple registers   23</span>
+<span class="sd">    =======================================  ====================</span>
+<span class="sd">    </span>
+<span class="sd">    For more information for gripper communication please check gripper manual</span>
+<span class="sd">    on Robotiq website.</span>
+<span class="sd">    https://robotiq.com/support/2f-85-2f-140</span>
+
+<span class="sd">    .. note::</span>
+<span class="sd">        This object cannot be use to control epick, 3F or powerpick.</span>
+<span class="sd">    &quot;&quot;&quot;</span>    
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">portname</span><span class="o">=</span><span class="n">AUTO_DETECTION</span><span class="p">,</span><span class="n">slaveAddress</span><span class="o">=</span><span class="mi">9</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create a RobotiqGripper object whic can be use to control Robotiq\</span>
+<span class="sd">        grippers using modbus RTU protocol USB/RS485 connection.</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            - portname (str, optional): The serial port name, for example\</span>
+<span class="sd">                /dev/ttyUSB0 (Linux), /dev/tty.usbserial (OS X) or COM4\</span>
+<span class="sd">                (Windows). It is necesary to allowpermission to access this\</span>
+<span class="sd">                connection using the bash comman sudo chmod 666 /dev/ttyUSB0.\</span>
+<span class="sd">                By default the portname is set to &quot;auto&quot;. In this case the\</span>
+<span class="sd">                connection is done with the first gripper found as connected\</span>
+<span class="sd">                to the PC.</span>
+<span class="sd">            - slaveaddress (int, optional): Address of the gripper (integer)\</span>
+<span class="sd">                usually 9.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1">#Gripper salve address</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">slaveAddress</span><span class="o">=</span><span class="n">slaveAddress</span>
+
+        <span class="c1">#Port on which is connected the gripper</span>
+        <span class="k">if</span> <span class="n">portname</span> <span class="o">==</span> <span class="s2">&quot;auto&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">portname</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_autoConnect</span><span class="p">()</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">portname</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;No gripper detected&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">portname</span><span class="o">=</span><span class="n">portname</span>
+        
+        <span class="c1">#Create a pyserial object to connect to the gripper</span>
+        <span class="n">ser</span><span class="o">=</span><span class="n">serial</span><span class="o">.</span><span class="n">Serial</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">portname</span><span class="p">,</span>
+                          <span class="n">BAUDRATE</span><span class="p">,</span>
+                          <span class="n">BYTESIZE</span><span class="p">,</span>
+                          <span class="n">PARITY</span><span class="p">,</span>
+                          <span class="n">STOPBITS</span><span class="p">,</span>
+                          <span class="n">TIMEOUT</span><span class="p">)</span>
+
+        <span class="c1">#Create the object using parent class contructor</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">ser</span><span class="p">,</span>
+                         <span class="bp">self</span><span class="o">.</span><span class="n">slaveAddress</span><span class="p">,</span>
+                         <span class="n">mm</span><span class="o">.</span><span class="n">MODE_RTU</span><span class="p">,</span>
+                         <span class="n">close_port_after_each_call</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                         <span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+        
+        <span class="c1">#Attribute to monitore if the gripper is processing an action</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">processing</span><span class="o">=</span><span class="kc">False</span>
+        
+        <span class="c1">#Maximum allowed time to perform and action</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timeOut</span><span class="o">=</span><span class="mi">10</span>
+        
+        <span class="c1">#Dictionnary where are stored description of each register state</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="o">=</span><span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_buildRegisterDic</span><span class="p">()</span>
+        
+
+        <span class="c1">#Dictionnary where are stored register values retrived from the gripper</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="o">=</span><span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">readAll</span><span class="p">()</span>
+        
+        <span class="c1">#Attributes to store open and close distance state information</span>
+        
+        <span class="c1">#Distance between the fingers when gripper is closed</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">closemm</span><span class="o">=</span><span class="kc">None</span>
+        <span class="c1">#Position in bit when gripper is closed</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">closebit</span><span class="o">=</span><span class="kc">None</span>
+        
+        <span class="c1">#Distance between the fingers when gripper is open</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">openmm</span><span class="o">=</span><span class="kc">None</span>
+        <span class="c1">#Position in bit when gripper is open</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">openbit</span><span class="o">=</span><span class="kc">None</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">_aCoef</span><span class="o">=</span><span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_bCoef</span><span class="o">=</span><span class="kc">None</span>
+    
+    <span class="k">def</span> <span class="nf">_autoConnect</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Return the name of the port on which is connected the gripper</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ports</span><span class="o">=</span><span class="n">serial</span><span class="o">.</span><span class="n">tools</span><span class="o">.</span><span class="n">list_ports</span><span class="o">.</span><span class="n">comports</span><span class="p">()</span>
+        <span class="n">portName</span><span class="o">=</span><span class="kc">None</span>
+
+        <span class="k">for</span> <span class="n">port</span> <span class="ow">in</span> <span class="n">ports</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="c1"># Try opening the port</span>
+                <span class="n">ser</span> <span class="o">=</span> <span class="n">serial</span><span class="o">.</span><span class="n">Serial</span><span class="p">(</span><span class="n">port</span><span class="o">.</span><span class="n">device</span><span class="p">,</span><span class="n">BAUDRATE</span><span class="p">,</span><span class="n">BYTESIZE</span><span class="p">,</span><span class="n">PARITY</span><span class="p">,</span><span class="n">STOPBITS</span><span class="p">,</span><span class="n">TIMEOUT</span><span class="p">)</span>
+
+                <span class="n">device</span><span class="o">=</span><span class="n">mm</span><span class="o">.</span><span class="n">Instrument</span><span class="p">(</span><span class="n">ser</span><span class="p">,</span><span class="bp">self</span><span class="o">.</span><span class="n">slaveAddress</span><span class="p">,</span><span class="n">mm</span><span class="o">.</span><span class="n">MODE_RTU</span><span class="p">,</span><span class="n">close_port_after_each_call</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+                <span class="c1">#Try to write the position 100</span>
+                <span class="n">device</span><span class="o">.</span><span class="n">write_registers</span><span class="p">(</span><span class="mi">1000</span><span class="p">,[</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
+
+                <span class="c1">#Try to read the position request eco</span>
+                <span class="n">registers</span><span class="o">=</span><span class="n">device</span><span class="o">.</span><span class="n">read_registers</span><span class="p">(</span><span class="mi">2000</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+                <span class="n">posRequestEchoReg3</span><span class="o">=</span><span class="n">registers</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&amp;</span> <span class="mb">0b0000000011111111</span>
+
+                <span class="c1">#Check if position request eco reflect the requested position</span>
+                <span class="k">if</span> <span class="n">posRequestEchoReg3</span> <span class="o">!=</span> <span class="mi">100</span><span class="p">:</span>
+                    <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Not a gripper&quot;</span><span class="p">)</span>
+                <span class="n">portName</span><span class="o">=</span><span class="n">port</span><span class="o">.</span><span class="n">device</span>
+                <span class="k">del</span> <span class="n">device</span>
+
+                <span class="n">ser</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>  <span class="c1"># Close the port</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="k">pass</span>  <span class="c1"># Skip if port cannot be opened</span>
+    
+        <span class="c1"># If no suitable port is found</span>
+        <span class="k">return</span> <span class="n">portName</span>
+
+    <span class="k">def</span> <span class="nf">_buildRegisterDic</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Build a dictionnary with comment to explain each register variable.</span>
+
+<span class="sd">        Dictionnary key are variable names. Dictionnary value are dictionnary\</span>
+<span class="sd">        with comments about each statut of the variable (key=variable value,\</span>
+<span class="sd">        value=comment)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1">######################################################################</span>
+        <span class="c1">#input register variable</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s2">&quot;gOBJ&quot;</span><span class="p">:{},</span><span class="s2">&quot;gSTA&quot;</span><span class="p">:{},</span><span class="s2">&quot;gGTO&quot;</span><span class="p">:{},</span><span class="s2">&quot;gACT&quot;</span><span class="p">:{},</span>
+                                <span class="s2">&quot;kFLT&quot;</span><span class="p">:{},</span><span class="s2">&quot;gFLT&quot;</span><span class="p">:{},</span><span class="s2">&quot;gPR&quot;</span><span class="p">:{},</span><span class="s2">&quot;gPO&quot;</span><span class="p">:{},</span><span class="s2">&quot;gCU&quot;</span><span class="p">:{}})</span>
+        
+        <span class="c1">#gOBJ</span>
+        <span class="n">gOBJdic</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="s2">&quot;gOBJ&quot;</span><span class="p">]</span>
+        
+        <span class="n">gOBJdic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Fingers are in motion towards requested position. No</span><span class="se">\</span>
+<span class="s2">            object detected.&quot;</span>
+        <span class="n">gOBJdic</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Fingers have stopped due to a contact while opening before</span><span class="se">\</span>
+<span class="s2">            requested position. Object detected opening.&quot;</span>
+        <span class="n">gOBJdic</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Fingers have stopped due to a contact while closing before</span><span class="se">\</span>
+<span class="s2">            requested position. Object detected closing.&quot;</span>
+        <span class="n">gOBJdic</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Fingers are at requested position. No object detected or</span><span class="se">\</span>
+<span class="s2">            object has been loss / dropped.&quot;</span>
+        
+        <span class="c1">#gSTA</span>
+        <span class="n">gSTAdic</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="s2">&quot;gSTA&quot;</span><span class="p">]</span>
+        
+        <span class="n">gSTAdic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Gripper is in reset ( or automatic release ) state. See</span><span class="se">\</span>
+<span class="s2">            Fault Status if Gripper is activated.&quot;</span>
+        <span class="n">gSTAdic</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Activation in progress.&quot;</span>
+        <span class="n">gSTAdic</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Activation is completed.&quot;</span>
+        
+        <span class="c1">#gGTO</span>
+        <span class="n">gGTOdic</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="s2">&quot;gGTO&quot;</span><span class="p">]</span>
+        
+        <span class="n">gGTOdic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Stopped (or performing activation / automatic release).&quot;</span>
+        <span class="n">gGTOdic</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Go to Position Request.&quot;</span>
+        <span class="n">gGTOdic</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Unknown status&quot;</span>
+        <span class="n">gGTOdic</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Unknown status&quot;</span>
+        
+        <span class="c1">#gACT</span>
+        <span class="n">gACTdic</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="s2">&quot;gACT&quot;</span><span class="p">]</span>
+        
+        <span class="n">gACTdic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Gripper reset.&quot;</span>
+        <span class="n">gACTdic</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Gripper activation.&quot;</span>
+        
+        <span class="c1">#kFLT</span>
+        <span class="n">kFLTdic</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="s2">&quot;kFLT&quot;</span><span class="p">]</span>
+        <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+        <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">256</span><span class="p">:</span>
+            <span class="n">kFLTdic</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">i</span>
+            <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+        
+        <span class="c1">#See your optional Controller Manual (input registers &amp; status).</span>
+        
+        <span class="c1">#gFLT</span>
+        <span class="n">gFLTdic</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="s2">&quot;gFLT&quot;</span><span class="p">]</span>
+        <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+        <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">256</span><span class="p">:</span>
+            <span class="n">gFLTdic</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">i</span>
+            <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;No fault (LED is blue)&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Priority faults (LED is blue). Action delayed, activation</span><span class="se">\</span>
+<span class="s2">            (reactivation) must be completed prior to perfmoring the action.&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Priority faults (LED is blue). The activation bit must be</span><span class="se">\</span>
+<span class="s2">            set prior to action.&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Minor faults (LED continuous red). Maximum operating</span><span class="se">\</span>
+<span class="s2">            temperature exceeded, wait for cool-down.&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">9</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Minor faults (LED continuous red). No communication during</span><span class="se">\</span>
+<span class="s2">            at least 1 second.&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">10</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Major faults (LED blinking red/blue) - Reset is required</span><span class="se">\</span>
+<span class="s2">            (rising edge on activation bit rACT needed). Under minimum</span><span class="se">\</span>
+<span class="s2">            operating voltage.&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">11</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Major faults (LED blinking red/blue) - Reset is required</span><span class="se">\</span>
+<span class="s2">            (rising edge on activation bit rACT needed). Automatic release in</span><span class="se">\</span>
+<span class="s2">            progress.&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">12</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Major faults (LED blinking red/blue) - Reset is required</span><span class="se">\</span>
+<span class="s2">            (rising edge on activation bit rACT needed). Internal fault;</span><span class="se">\</span>
+<span class="s2">            contact support@robotiq.com.&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">13</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Major faults (LED blinking red/blue) - Reset is required</span><span class="se">\</span>
+<span class="s2">            (rising edge on activation bit rACT needed). Activation fault,</span><span class="se">\</span>
+<span class="s2">            verify that no interference or other error occurred.&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">14</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Major faults (LED blinking red/blue) - Reset is required</span><span class="se">\</span>
+<span class="s2">            (rising edge on activation bit rACT needed). Overcurrent triggered.&quot;</span>
+        <span class="n">gFLTdic</span><span class="p">[</span><span class="mi">15</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Major faults (LED blinking red/blue) - Reset is required</span><span class="se">\</span>
+<span class="s2">            (rising edge on activation bit rACT needed). Automatic release</span><span class="se">\</span>
+<span class="s2">            completed.&quot;</span>
+        
+        <span class="c1">#gPR</span>
+        <span class="n">gPRdic</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="s2">&quot;gPR&quot;</span><span class="p">]</span>
+        
+        <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+        <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">256</span><span class="p">:</span>
+            <span class="n">gPRdic</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Echo of the requested position for the Gripper:</span><span class="se">\</span>
+<span class="s2">                </span><span class="si">{}</span><span class="s2">/255&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+        
+        <span class="c1">#gPO</span>
+        <span class="n">gPOdic</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="s2">&quot;gPO&quot;</span><span class="p">]</span>
+        <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+        <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">256</span><span class="p">:</span>
+            <span class="n">gPOdic</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;Actual position of the Gripper obtained via the encoders:</span><span class="se">\</span>
+<span class="s2">                </span><span class="si">{}</span><span class="s2">/255&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+        
+        <span class="c1">#gCU</span>
+        <span class="n">gCUdic</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="s2">&quot;gCU&quot;</span><span class="p">]</span>
+        <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+        <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">256</span><span class="p">:</span>
+            <span class="n">current</span><span class="o">=</span><span class="n">i</span><span class="o">*</span><span class="mi">10</span>
+            <span class="n">gCUdic</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="s2">&quot;The current is read instantaneously from the motor</span><span class="se">\</span>
+<span class="s2">                drive, approximate current: </span><span class="si">{}</span><span class="s2"> mA&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>
+            <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+    
+    
+        <span class="c1">######################################################################</span>
+        <span class="c1">#output register variable</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s2">&quot;rARD&quot;</span><span class="p">:{},</span>
+                                 <span class="s2">&quot;rATR&quot;</span><span class="p">:{},</span>
+                                 <span class="s2">&quot;rGTO&quot;</span><span class="p">:{},</span>
+                                 <span class="s2">&quot;rACT&quot;</span><span class="p">:{},</span>
+                                 <span class="s2">&quot;rPR&quot;</span><span class="p">:{},</span>
+                                <span class="s2">&quot;rFR&quot;</span><span class="p">:{},</span>
+                                <span class="s2">&quot;rSP&quot;</span><span class="p">:{}})</span>
+        
+        <span class="c1">######################################################################</span>
+     
+<div class="viewcode-block" id="RobotiqGripper.readAll">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.readAll">[docs]</a>
+    <span class="k">def</span> <span class="nf">readAll</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Retrieve gripper output register information and save it in the\</span>
+<span class="sd">            parameter dictionary.</span>
+
+<span class="sd">        The dictionary keys are as follows:</span>
+
+<span class="sd">        - gOBJ: Object detection status. This built-in feature provides\</span>
+<span class="sd">            information on possible object pick-up. Ignore if gGTO == 0.</span>
+<span class="sd">        - gSTA: Gripper status. Returns the current status and motion of the\</span>
+<span class="sd">            gripper fingers.</span>
+<span class="sd">        - gGTO: Action status. Echo of the rGTO bit (go-to bit).</span>
+<span class="sd">        - gACT: Activation status. Echo of the rACT bit (activation bit).</span>
+<span class="sd">        - kFLT: See your optional controller manual for input registers and\</span>
+<span class="sd">            status.</span>
+<span class="sd">        - gFLT: Fault status. Returns general error messages useful for\</span>
+<span class="sd">            troubleshooting. A fault LED (red) is present on the gripper\</span>
+<span class="sd">            chassis. The LED can be blue, red, or both, and can be solid\</span>
+<span class="sd">            or blinking.</span>
+<span class="sd">        - gPR: Echo of the requested position for the gripper. Value between\</span>
+<span class="sd">            0x00 and 0xFF.</span>
+<span class="sd">        - gPO: Actual position of the gripper obtained via the encoders.\</span>
+<span class="sd">            Value between 0x00 and 0xFF.</span>
+<span class="sd">        - gCU: The current is read instantaneously from the motor drive. Value\</span>
+<span class="sd">            between 0x00 and 0xFF. Approximate current equivalent is 10 times\</span>
+<span class="sd">            the value read in mA.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1">#Clear parameter dictionnary data</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="o">=</span><span class="p">{}</span>
+        
+        <span class="c1">#Read 3 16bits registers starting from register 2000</span>
+        <span class="n">registers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">read_registers</span><span class="p">(</span><span class="mi">2000</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+        
+        <span class="c1">#########################################</span>
+        <span class="c1">#Register 2000</span>
+        <span class="c1">#First Byte: gripperStatus</span>
+        <span class="c1">#Second Byte: RESERVED</span>
+        
+        <span class="c1">#First Byte: gripperStatus</span>
+        <span class="n">gripperStatusReg0</span><span class="o">=</span><span class="p">(</span><span class="n">registers</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;&gt;</span> <span class="mi">8</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mb">0b11111111</span> <span class="c1">#xxxxxxxx00000000</span>
+        <span class="c1">#########################################</span>
+        <span class="c1">#Object detection</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gOBJ&quot;</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">gripperStatusReg0</span> <span class="o">&gt;&gt;</span> <span class="mi">6</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mb">0b11</span> <span class="c1">#xx000000</span>
+        <span class="c1">#Gripper status</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gSTA&quot;</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">gripperStatusReg0</span> <span class="o">&gt;&gt;</span> <span class="mi">4</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mb">0b11</span> <span class="c1">#00xx0000</span>
+        <span class="c1">#Action status. echo of rGTO (go to bit)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gGTO&quot;</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">gripperStatusReg0</span> <span class="o">&gt;&gt;</span> <span class="mi">3</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mb">0b1</span> <span class="c1">#0000x000</span>
+        <span class="c1">#Activation status</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gACT&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">gripperStatusReg0</span> <span class="o">&amp;</span> <span class="mb">0b00000001</span> <span class="c1">#0000000x</span>
+        
+        <span class="c1">#########################################</span>
+        <span class="c1">#Register 2001</span>
+        <span class="c1">#First Byte: Fault status</span>
+        <span class="c1">#Second Byte: Pos request echo</span>
+        
+        <span class="c1">#First Byte: fault status</span>
+        <span class="n">faultStatusReg2</span><span class="o">=</span> <span class="p">(</span><span class="n">registers</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;&gt;</span><span class="mi">8</span><span class="p">)</span>  <span class="o">&amp;</span> <span class="mb">0b11111111</span> <span class="c1">#xxxxxxxx00000000</span>
+        <span class="c1">#########################################</span>
+        <span class="c1">#Universal controler</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;kFLT&quot;</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">faultStatusReg2</span> <span class="o">&gt;&gt;</span> <span class="mi">4</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mb">0b1111</span> <span class="c1">#xxxx0000</span>
+        <span class="c1">#Fault</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gFLT&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">faultStatusReg2</span> <span class="o">&amp;</span> <span class="mb">0b00001111</span> <span class="c1">#0000xxxx</span>
+        
+        
+        <span class="c1">#########################################</span>
+        <span class="c1">#Second Byte: Pos request echo</span>
+        <span class="n">posRequestEchoReg3</span><span class="o">=</span><span class="n">registers</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&amp;</span> <span class="mb">0b11111111</span> <span class="c1">#00000000xxxxxxxx</span>
+        <span class="c1">#########################################</span>
+        <span class="c1">#Echo of request position</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gPR&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">posRequestEchoReg3</span>
+        
+        <span class="c1">#########################################</span>
+        <span class="c1">#Register 2002</span>
+        <span class="c1">#First Byte: Position</span>
+        <span class="c1">#Second Byte: Current</span>
+        
+        <span class="c1">#First Byte: Position</span>
+        <span class="n">positionReg4</span><span class="o">=</span><span class="p">(</span><span class="n">registers</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">&gt;&gt;</span> <span class="mi">8</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mb">0b11111111</span> <span class="c1">#xxxxxxxx00000000</span>
+
+        <span class="c1">#########################################</span>
+        <span class="c1">#Actual position of the gripper</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gPO&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">positionReg4</span>
+        
+        <span class="c1">#########################################</span>
+        <span class="c1">#Second Byte: Current</span>
+        <span class="n">currentReg5</span><span class="o">=</span><span class="n">registers</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">&amp;</span> <span class="mb">0b0000000011111111</span> <span class="c1">#00000000xxxxxxxx</span>
+        <span class="c1">#########################################</span>
+        <span class="c1">#Current</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gCU&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">currentReg5</span></div>
+
+    
+<div class="viewcode-block" id="RobotiqGripper.reset">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.reset">[docs]</a>
+    <span class="k">def</span> <span class="nf">reset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Reset the gripper (clear previous activation if any)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1">#Reset the gripper</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">write_registers</span><span class="p">(</span><span class="mi">1000</span><span class="p">,[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span></div>
+
+    
+<div class="viewcode-block" id="RobotiqGripper.activate">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.activate">[docs]</a>
+    <span class="k">def</span> <span class="nf">activate</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;If not already activated, activate the gripper.</span>
+
+<span class="sd">        .. warning::</span>
+<span class="sd">            When you execute this function the gripper is going to fully open\</span>
+<span class="sd">            and close. During this operation the gripper must be able to freely\</span>
+<span class="sd">            move. Do not place object inside the gripper.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1">#Turn the variable which indicate that the gripper is processing</span>
+        <span class="c1">#an action to True</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">processing</span><span class="o">=</span><span class="kc">True</span>
+
+        <span class="c1">#Activate the gripper</span>
+        <span class="c1">#rACT=1 Activate Gripper (must stay on after activation routine is</span>
+        <span class="c1">#completed).</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">write_registers</span><span class="p">(</span><span class="mi">1000</span><span class="p">,[</span><span class="mb">0b0000000100000000</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
+
+        <span class="c1">#Waiting for activation to complete</span>
+        <span class="n">activationStartTime</span><span class="o">=</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="n">activationCompleted</span><span class="o">=</span><span class="kc">False</span>
+        <span class="n">activationTime</span><span class="o">=</span><span class="mi">0</span>
+        
+        <span class="k">while</span> <span class="p">(</span><span class="ow">not</span> <span class="n">activationCompleted</span><span class="p">)</span> <span class="ow">and</span> <span class="n">activationTime</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">timeOut</span><span class="p">:</span>
+            <span class="n">activationTime</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">activationStartTime</span>
+            
+            <span class="bp">self</span><span class="o">.</span><span class="n">readAll</span><span class="p">()</span>
+            <span class="n">gSTA</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gSTA&quot;</span><span class="p">]</span>
+
+            <span class="k">if</span> <span class="n">gSTA</span><span class="o">==</span><span class="mi">3</span><span class="p">:</span>
+                <span class="n">activationCompleted</span><span class="o">=</span><span class="kc">True</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Activation completed. Activation time : &quot;</span>
+                      <span class="p">,</span> <span class="n">activationTime</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">activationTime</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">timeOut</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Activation did not complete without timeout.&quot;</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">processing</span><span class="o">=</span><span class="kc">False</span></div>
+
+    
+<div class="viewcode-block" id="RobotiqGripper.resetActivate">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.resetActivate">[docs]</a>
+    <span class="k">def</span> <span class="nf">resetActivate</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Reset the gripper (clear previous activation if any) and activat\</span>
+<span class="sd">        the gripper. During this operation the gripper will open and close.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1">#Reset the gripper</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+        <span class="c1">#Activate the gripper</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">activate</span><span class="p">()</span></div>
+
+    
+<div class="viewcode-block" id="RobotiqGripper.goTo">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.goTo">[docs]</a>
+    <span class="k">def</span> <span class="nf">goTo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">position</span><span class="p">,</span><span class="n">speed</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span><span class="n">force</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Go to the position with determined speed and force.</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            - position (int): Position of the gripper. Integer between 0 and 255.\</span>
+<span class="sd">            0 being the open position and 255 being the close position.</span>
+<span class="sd">            - speed (int): Gripper speed between 0 and 255</span>
+<span class="sd">            - force (int): Gripper force between 0 and 255</span>
+<span class="sd">        </span>
+<span class="sd">        Returns:</span>
+<span class="sd">            - objectDetected (bool): True if object detected</span>
+<span class="sd">            - position (int): End position of the gripper in bits</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">position</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">position</span><span class="p">)</span>
+        <span class="n">speed</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">speed</span><span class="p">)</span>
+        <span class="n">force</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">force</span><span class="p">)</span>
+        
+        
+        <span class="c1">#Check if the grippre is activated</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">isActivated</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span> <span class="p">(</span><span class="s2">&quot;Gripper must be activated before requesting</span><span class="se">\</span>
+<span class="s2">                             an action.&quot;</span><span class="p">)</span>
+
+        <span class="c1">#Check input value</span>
+        <span class="k">if</span> <span class="n">position</span><span class="o">&gt;</span><span class="mi">255</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Position value cannot exceed 255&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">position</span><span class="o">&lt;</span><span class="mi">0</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Position value cannot be under 0&quot;</span><span class="p">)</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">processing</span><span class="o">=</span><span class="kc">True</span>
+        
+
+        <span class="c1">#rARD(5) rATR(4) rGTO(3) rACT(0)</span>
+        <span class="c1">#gACT=1 (Gripper activation.) and gGTO=1 (Go to Position Request.)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">write_registers</span><span class="p">(</span><span class="mi">1000</span><span class="p">,[</span><span class="mb">0b0000100100000000</span><span class="p">,</span>
+                                    <span class="n">position</span><span class="p">,</span>
+                                    <span class="n">speed</span> <span class="o">*</span> <span class="mb">0b100000000</span> <span class="o">+</span> <span class="n">force</span><span class="p">])</span>
+        
+        <span class="c1">#Waiting for activation to complete</span>
+        <span class="n">motionStartTime</span><span class="o">=</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="n">motionCompleted</span><span class="o">=</span><span class="kc">False</span>
+        <span class="n">motionTime</span><span class="o">=</span><span class="mi">0</span>
+        <span class="n">objectDetected</span><span class="o">=</span><span class="kc">False</span>
+
+        <span class="k">while</span> <span class="p">(</span><span class="ow">not</span> <span class="n">objectDetected</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="ow">not</span> <span class="n">motionCompleted</span><span class="p">)</span>\
+            <span class="ow">and</span> <span class="p">(</span><span class="n">motionTime</span><span class="o">&lt;</span><span class="bp">self</span><span class="o">.</span><span class="n">timeOut</span><span class="p">):</span>
+
+            <span class="n">motionTime</span><span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span><span class="o">-</span> <span class="n">motionStartTime</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">readAll</span><span class="p">()</span>
+            <span class="c1">#Object detection status, is a built-in feature that provides</span>
+            <span class="c1">#information on possible object pick-up. Ignore if gGTO == 0.</span>
+            <span class="n">gOBJ</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gOBJ&quot;</span><span class="p">]</span>
+
+            
+            <span class="k">if</span> <span class="n">gOBJ</span><span class="o">==</span><span class="mi">1</span> <span class="ow">or</span> <span class="n">gOBJ</span><span class="o">==</span><span class="mi">2</span><span class="p">:</span> 
+                <span class="c1">#Fingers have stopped due to a contact</span>
+                <span class="n">objectDetected</span><span class="o">=</span><span class="kc">True</span>
+            
+            <span class="k">elif</span> <span class="n">gOBJ</span><span class="o">==</span><span class="mi">3</span><span class="p">:</span>
+                <span class="c1">#Fingers are at requested position.</span>
+                <span class="n">objectDetected</span><span class="o">=</span><span class="kc">False</span>
+                <span class="n">motionCompleted</span><span class="o">=</span><span class="kc">True</span>
+        
+        <span class="k">if</span> <span class="n">motionTime</span><span class="o">&gt;</span><span class="bp">self</span><span class="o">.</span><span class="n">timeOut</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Gripper never reach its requested position and</span><span class="se">\</span>
+<span class="s2">                            no object have been detected&quot;</span><span class="p">)</span>
+        
+        <span class="n">position</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gPO&quot;</span><span class="p">]</span>
+
+        <span class="k">return</span> <span class="n">position</span><span class="p">,</span> <span class="n">objectDetected</span></div>
+
+        
+<div class="viewcode-block" id="RobotiqGripper.close">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.close">[docs]</a>
+    <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">speed</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span><span class="n">force</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Close the gripper.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            - speed (int, optional): Gripper speed between 0 and 255.\</span>
+<span class="sd">            Default is 255.</span>
+<span class="sd">            - force (int, optional): Gripper force between 0 and 255.\</span>
+<span class="sd">            Default is 255.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">goTo</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="n">speed</span><span class="p">,</span><span class="n">force</span><span class="p">)</span></div>
+
+    
+<div class="viewcode-block" id="RobotiqGripper.open">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.open">[docs]</a>
+    <span class="k">def</span> <span class="nf">open</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">speed</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span><span class="n">force</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Open the gripper</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            - speed (int, optional): Gripper speed between 0 and 255.\</span>
+<span class="sd">            Default is 255.</span>
+<span class="sd">            - force (int, optional): Gripper force between 0 and 255.\</span>
+<span class="sd">            Default is 255.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">goTo</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">force</span><span class="p">,</span><span class="n">speed</span><span class="p">)</span></div>
+
+    
+<div class="viewcode-block" id="RobotiqGripper.goTomm">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.goTomm">[docs]</a>
+    <span class="k">def</span> <span class="nf">goTomm</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">positionmm</span><span class="p">,</span><span class="n">speed</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span><span class="n">force</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Go to the requested opening expressed in mm</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            - positionmm (float): Gripper opening in mm.</span>
+<span class="sd">            - speed (int, optional): Gripper speed between 0 and 255.\</span>
+<span class="sd">            Default is 255.</span>
+<span class="sd">            - force (int, optional): Gripper force between 0 and 255.\</span>
+<span class="sd">            Default is 255.</span>
+<span class="sd">        </span>
+<span class="sd">        .. note::</span>
+<span class="sd">            Calibration is needed to use this function.\n</span>
+<span class="sd">            Execute the function calibrate at least 1 time before using this function.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">isCalibrated</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;The gripper must be calibrated before been requested to go to a position in mm&quot;</span><span class="p">)</span>
+
+        <span class="k">if</span>  <span class="n">positionmm</span><span class="o">&gt;</span><span class="bp">self</span><span class="o">.</span><span class="n">openmm</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;The maximum opening is </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">openmm</span><span class="p">))</span>
+        
+        <span class="n">position</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_mmToBit</span><span class="p">(</span><span class="n">positionmm</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">goTo</span><span class="p">(</span><span class="n">position</span><span class="p">,</span><span class="n">speed</span><span class="p">,</span><span class="n">force</span><span class="p">)</span></div>
+
+        
+<div class="viewcode-block" id="RobotiqGripper.getPosition">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.getPosition">[docs]</a>
+    <span class="k">def</span> <span class="nf">getPosition</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Return the position of the gripper in bits</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            - int: Position of the gripper in bits.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">readAll</span><span class="p">()</span>
+
+        <span class="n">position</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gPO&quot;</span><span class="p">]</span>
+
+        <span class="k">return</span> <span class="n">position</span></div>
+
+    
+    <span class="k">def</span> <span class="nf">_mmToBit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">mm</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Convert a mm gripper opening in bit opening.</span>
+
+<span class="sd">        .. note::</span>
+<span class="sd">            Calibration is needed to use this function.\n</span>
+<span class="sd">            Execute the function calibrate at least 1 time before using this function.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">bit</span><span class="o">=</span><span class="p">(</span><span class="n">mm</span><span class="o">-</span><span class="bp">self</span><span class="o">.</span><span class="n">_bCoef</span><span class="p">)</span><span class="o">/</span><span class="bp">self</span><span class="o">.</span><span class="n">_aCoef</span>
+        
+        <span class="k">return</span> <span class="n">bit</span>
+        
+    <span class="k">def</span> <span class="nf">_bitTomm</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">bit</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Convert a bit gripper opening in mm opening.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            float: Gripper position converted in mm</span>
+<span class="sd">        </span>
+<span class="sd">        .. note::</span>
+<span class="sd">            Calibration is needed to use this function.\n</span>
+<span class="sd">            Execute the function calibrate at least 1 time before using this function.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">mm</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_aCoef</span><span class="o">*</span><span class="n">bit</span><span class="o">+</span><span class="bp">self</span><span class="o">.</span><span class="n">_bCoef</span>
+        
+        <span class="k">return</span> <span class="n">mm</span>
+    
+<div class="viewcode-block" id="RobotiqGripper.getPositionmm">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.getPositionmm">[docs]</a>
+    <span class="k">def</span> <span class="nf">getPositionmm</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Return the position of the gripper in mm.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            float: Current gripper position in mm</span>
+<span class="sd">        </span>
+<span class="sd">        .. note::</span>
+<span class="sd">            Calibration is needed to use this function.\n</span>
+<span class="sd">            Execute the function calibrate at least 1 time before using this function.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">position</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">getPosition</span><span class="p">()</span>
+        
+        <span class="n">positionmm</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_bitTomm</span><span class="p">(</span><span class="n">position</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">positionmm</span></div>
+
+    
+<div class="viewcode-block" id="RobotiqGripper.calibrate">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.calibrate">[docs]</a>
+    <span class="k">def</span> <span class="nf">calibrate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">closemm</span><span class="p">,</span><span class="n">openmm</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Calibrate the gripper for mm positionning.</span>
+<span class="sd">        </span>
+<span class="sd">        Once the calibration is done it is possible to control the gripper in\</span>
+<span class="sd">        mm.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            - closemm (float): Distance between the fingers when the gripper is\</span>
+<span class="sd">            fully closed.</span>
+<span class="sd">            - openmm (float): Distance between the fingers when the gripper is\</span>
+<span class="sd">            fully open.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">closemm</span><span class="o">=</span><span class="n">closemm</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">openmm</span><span class="o">=</span><span class="n">openmm</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">openGripper</span><span class="p">()</span>
+        <span class="c1">#get open bit</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">openbit</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">getPosition</span><span class="p">()</span>
+        <span class="n">obit</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">openbit</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">closeGripper</span><span class="p">()</span>
+        <span class="c1">#get close bit</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">closebit</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">getPosition</span><span class="p">()</span>
+        <span class="n">cbit</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">closebit</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">_aCoef</span><span class="o">=</span><span class="p">(</span><span class="n">closemm</span><span class="o">-</span><span class="n">openmm</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">cbit</span><span class="o">-</span><span class="n">obit</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_bCoef</span><span class="o">=</span><span class="p">(</span><span class="n">openmm</span><span class="o">*</span><span class="n">cbit</span><span class="o">-</span><span class="n">obit</span><span class="o">*</span><span class="n">closemm</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">cbit</span><span class="o">-</span><span class="n">obit</span><span class="p">)</span></div>
+
+    
+<div class="viewcode-block" id="RobotiqGripper.printInfo">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.printInfo">[docs]</a>
+    <span class="k">def</span> <span class="nf">printInfo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Print gripper register info in the python terminal</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">readAll</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span><span class="n">value</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> : </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">key</span><span class="p">,</span><span class="n">value</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">registerDic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">value</span><span class="p">])</span></div>
+
+
+<div class="viewcode-block" id="RobotiqGripper.isActivated">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.isActivated">[docs]</a>
+    <span class="k">def</span> <span class="nf">isActivated</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Tells if the gripper is activated</span>
+<span class="sd">        </span>
+<span class="sd">        Returns:</span>
+<span class="sd">            bool: True if the gripper is activated. False otherwise.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">readAll</span><span class="p">()</span>
+        <span class="n">is_activated</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">paramDic</span><span class="p">[</span><span class="s2">&quot;gSTA&quot;</span><span class="p">]</span><span class="o">==</span><span class="mi">3</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">is_activated</span></div>
+
+    
+<div class="viewcode-block" id="RobotiqGripper.isCalibrated">
+<a class="viewcode-back" href="../api.html#pyRobotiqGripper.RobotiqGripper.isCalibrated">[docs]</a>
+    <span class="k">def</span> <span class="nf">isCalibrated</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Return if the gripper is qualibrated</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            bool: True if the gripper is calibrated. False otherwise.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">is_calibrated</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">openmm</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">closemm</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="n">is_calibrated</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">is_calibrated</span><span class="o">=</span><span class="kc">True</span>
+        
+        <span class="k">return</span> <span class="n">is_calibrated</span></div>
+</div>
+
+            
+<span class="c1">#Test</span>
+<span class="k">if</span> <span class="kc">False</span><span class="p">:</span>
+    <span class="n">grip</span><span class="o">=</span><span class="n">RobotiqGripper</span><span class="p">()</span>
+    <span class="n">grip</span><span class="o">.</span><span class="n">resetActivate</span><span class="p">()</span>
+    <span class="c1">#grip.reset()</span>
+    <span class="c1">#grip.goTo(0)</span>
+    <span class="c1">#grip.goTo(255)</span>
+    <span class="c1">#grip.printInfo()</span>
+    <span class="c1">#grip.goTo(255)</span>
+    <span class="c1">#time.sleep(5)</span>
+    <span class="c1">#grip.printInfo()</span>
+    <span class="c1">#grip.activate()</span>
+    <span class="c1">#grip.printInfo()</span>
+    
+    <span class="c1">#grip.goTo(20)</span>
+    <span class="c1">#grip.goTo(230)</span>
+    <span class="c1">#grip.goTo(40)</span>
+    <span class="c1">#grip.goTo(80)</span>
+    
+    <span class="c1">#grip.calibrate(0,36)</span>
+    <span class="c1">#grip.goTomm(10,255,255)</span>
+    <span class="c1">#grip.goTomm(40,1,255)</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Benoit CASTETS.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
