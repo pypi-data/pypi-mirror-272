@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+antebrachiumz/__init__.py
+antebrachiumz/main.py
+antebrachiumz.egg-info/PKG-INFO
+antebrachiumz.egg-info/SOURCES.txt
+antebrachiumz.egg-info/dependency_links.txt
+antebrachiumz.egg-info/requires.txt
+antebrachiumz.egg-info/top_level.txt
