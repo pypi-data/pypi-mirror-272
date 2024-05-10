@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+obtruncatorz/__init__.py
+obtruncatorz/main.py
+obtruncatorz.egg-info/PKG-INFO
+obtruncatorz.egg-info/SOURCES.txt
+obtruncatorz.egg-info/dependency_links.txt
+obtruncatorz.egg-info/requires.txt
+obtruncatorz.egg-info/top_level.txt
