@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data_transformation_wizzard"
+version = "0.1.2"
+description = "Transpose.Windowing.Convolution"
+authors = ["Edgaras Gacionis"]
+license = "Edgaras Gacionis"
+readme = "README.md"
+
+packages = [
+    { include = "data_transformation_wizzard", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
