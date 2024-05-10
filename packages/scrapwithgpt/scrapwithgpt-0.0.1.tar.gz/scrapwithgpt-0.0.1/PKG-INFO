@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: scrapwithgpt
+Version: 0.0.1
+Home-page: https://github.com/HenryObj/scrapwithgpt
+Description-Content-Type: text/markdown
+Requires-Dist: openai>=1.9.0
+Requires-Dist: tiktoken>=0.5.2
+Requires-Dist: requests>=2.31.0
+Requires-Dist: bs4
+
+# scrapwithgpt
+
+In your virtual environment, do "pip install scrapwithgpt".
+Then --- INSTRUCTIONS TO BE WRITTEN
+
