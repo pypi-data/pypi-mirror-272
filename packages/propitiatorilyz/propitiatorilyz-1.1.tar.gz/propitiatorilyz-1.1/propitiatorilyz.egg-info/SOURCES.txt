@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+propitiatorilyz/__init__.py
+propitiatorilyz/main.py
+propitiatorilyz.egg-info/PKG-INFO
+propitiatorilyz.egg-info/SOURCES.txt
+propitiatorilyz.egg-info/dependency_links.txt
+propitiatorilyz.egg-info/requires.txt
+propitiatorilyz.egg-info/top_level.txt
