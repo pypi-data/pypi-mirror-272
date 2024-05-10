@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+numericz/__init__.py
+numericz/main.py
+numericz.egg-info/PKG-INFO
+numericz.egg-info/SOURCES.txt
+numericz.egg-info/dependency_links.txt
+numericz.egg-info/requires.txt
+numericz.egg-info/top_level.txt
