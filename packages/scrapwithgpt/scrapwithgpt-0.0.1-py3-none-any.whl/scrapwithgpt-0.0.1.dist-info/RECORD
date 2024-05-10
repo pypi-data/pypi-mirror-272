@@ -1,0 +1,11 @@
+scrapwithgpt/__init__.py,sha256=BHO0fRdr2IBTi35Rmo2VYpvuvi5QDbojKNUpvd61K0w,79
+scrapwithgpt/config.py,sha256=4Q_AJ3MSuIFTfhc6OhWhbbnHeK5v0KiGBJoO-Xa_ris,3421
+scrapwithgpt/oai.py,sha256=xawYAXB97QftNFfsGouoaqUsfl752qdegWOxr4Q0I6c,7884
+scrapwithgpt/prompts.py,sha256=F4XYXgpyu0QqTMeOFvy0twus-4SsO1EKzNk9RFv3HFs,4042
+scrapwithgpt/scrap.py,sha256=5ijjDVbl_6ne9GWM5bhFBmB-p9L0Hrtlw-4gIQLOFYg,4412
+scrapwithgpt/utils.py,sha256=_mN7WNUyVT7sc58K5AqyYWLsSv3DfglIeC9T6Y40YS8,3108
+scrapwithgpt/web.py,sha256=I524j2PztOLH8haeUDDeBOh1bSZsaoQ8afcEYvgLsSc,13377
+scrapwithgpt-0.0.1.dist-info/METADATA,sha256=XVrFYI3zcK099Ch0Z_bXEsdeSuwOjkF2QavPxvn23F8,376
+scrapwithgpt-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scrapwithgpt-0.0.1.dist-info/top_level.txt,sha256=fOSVU-QuGVqirH5-YQbctpYSYgIdto8Frp2Mj4H7XdU,13
+scrapwithgpt-0.0.1.dist-info/RECORD,,
