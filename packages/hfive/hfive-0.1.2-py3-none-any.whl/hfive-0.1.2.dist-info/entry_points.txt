@@ -1,0 +1,2 @@
+[console_scripts]
+hfive = hfive.main:main
