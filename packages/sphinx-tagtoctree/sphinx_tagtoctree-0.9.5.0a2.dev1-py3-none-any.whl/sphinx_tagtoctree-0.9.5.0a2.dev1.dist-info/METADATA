@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sphinx-tagtoctree
+Version: 0.9.5.0a2.dev1
+Summary: Sphinx table-of-contents with super powers
+Home-page: https://github.com/haschdl/sphinx-tagtoctree
+Author: Half Scheidl
+Author-email: noreply@hscheidl.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: sphinx >=1.7.9
+Requires-Dist: boolean.py
+Requires-Dist: wheel
+
+Sphinx table-of-contents with super powers
