@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: docopt-parser
+Version: 0.0.1
+Summary: A parser for the docopt language
+Home-page: https://github.com/andsens/docopt-parser
+License: MIT
+Author: Anders Ingemann
+Author-email: anders@ingemann.de
+Requires-Python: >=3.11.0,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: flake8-pyproject (>=1.1.0.post0,<2.0.0)
+Requires-Dist: ordered-set (>=4.1.0,<5.0.0)
+Requires-Dist: parsec (>=3.13,<4.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/andsens/docopt-parser
+Description-Content-Type: text/plain
+
+
