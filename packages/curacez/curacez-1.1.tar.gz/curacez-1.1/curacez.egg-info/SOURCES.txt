@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+curacez/__init__.py
+curacez/main.py
+curacez.egg-info/PKG-INFO
+curacez.egg-info/SOURCES.txt
+curacez.egg-info/dependency_links.txt
+curacez.egg-info/requires.txt
+curacez.egg-info/top_level.txt
