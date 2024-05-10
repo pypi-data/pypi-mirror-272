@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+prachitpdf/__init__.py
+prachitpdf/pdf2image.py
+prachitpdf/pdf2text.py
+prachitpdf.egg-info/PKG-INFO
+prachitpdf.egg-info/SOURCES.txt
+prachitpdf.egg-info/dependency_links.txt
+prachitpdf.egg-info/top_level.txt
