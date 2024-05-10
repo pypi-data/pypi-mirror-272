@@ -1,0 +1,6 @@
+main.py
+setup.py
+hjkslganbosfi.egg-info/PKG-INFO
+hjkslganbosfi.egg-info/SOURCES.txt
+hjkslganbosfi.egg-info/dependency_links.txt
+hjkslganbosfi.egg-info/top_level.txt
