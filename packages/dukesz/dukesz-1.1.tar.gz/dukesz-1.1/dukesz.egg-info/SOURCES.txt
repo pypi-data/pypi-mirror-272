@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dukesz/__init__.py
+dukesz/main.py
+dukesz.egg-info/PKG-INFO
+dukesz.egg-info/SOURCES.txt
+dukesz.egg-info/dependency_links.txt
+dukesz.egg-info/requires.txt
+dukesz.egg-info/top_level.txt
