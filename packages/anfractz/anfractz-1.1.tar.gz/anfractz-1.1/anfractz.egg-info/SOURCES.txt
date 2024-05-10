@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anfractz/__init__.py
+anfractz/main.py
+anfractz.egg-info/PKG-INFO
+anfractz.egg-info/SOURCES.txt
+anfractz.egg-info/dependency_links.txt
+anfractz.egg-info/requires.txt
+anfractz.egg-info/top_level.txt
