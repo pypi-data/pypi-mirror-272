@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+sweb/__init__.py
+sweb/app.py
+sweb/asset_manager.py
+sweb/data_loader.py
+sweb/style_processor.py
+sweb/template_processor.py
+sweb.egg-info/PKG-INFO
+sweb.egg-info/SOURCES.txt
+sweb.egg-info/dependency_links.txt
+sweb.egg-info/entry_points.txt
+sweb.egg-info/requires.txt
+sweb.egg-info/top_level.txt
+tests/test_asset_manager.py
