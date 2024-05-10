@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hack_vm_translator_brickman"
+version = "0.0.2"
+authors = [
+  { name="Brandon Rickman", email="brandon.m.rickman@gmail.com" },
+]
+description = "Package for translating virtual machine code to hack assembly code based on the specifications for the nand2tetris online course."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/bmrickman/nand2tetris_vm_translator"
+Issues = "https://github.com/bmrickman/nand2tetris_vm_translator/issues"
+
+
+[tool.hatch.build.targets.wheel]
+ignore-vcs=true
+include = [
+    "VMTranslator/*"
+]
