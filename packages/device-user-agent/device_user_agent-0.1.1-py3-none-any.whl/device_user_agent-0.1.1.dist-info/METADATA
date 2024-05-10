@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: device-user-agent
+Version: 0.1.1
+Summary: Parses user agent string built with the device_user-agent flutter package.
+Author-Email: Sarbagya Dhaubanjar <sarbagyastha@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Project-URL: Homepage, https://acmesoftware.com
+Project-URL: Repository, https://github.com/AcmeSoftwareLLC/device_user_agent/tree/main/parser/python
+Requires-Python: >=3.12
+Requires-Dist: pydantic>=2.7.1
+Description-Content-Type: text/markdown
+
+# Device User Agent
+
+Parser for user agent string built using [device_user_agent](https://pub.dev/packages/device_user_agent) flutter library.
+
+## Usage
+```python
+from device_user_agent import DeviceUserAgent
+
+user_agent = DeviceUserAgent.parse("com.acmesoftware.dua/1.0.19 (iOS 17.2; iPhone 15 Pro Max; build:240322033) oem/Apple model/iPhone15,4 screen/1290*2796/3.0")
+print(user_agent)
+```
