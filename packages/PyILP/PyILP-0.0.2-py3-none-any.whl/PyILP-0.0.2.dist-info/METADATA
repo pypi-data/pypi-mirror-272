@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: PyILP
+Version: 0.0.2
+Home-page: https://github.com/danyvarghese/PyILP/PyILP
+Author: Dany Varghese
+Author-email: dany.incito@gmail.com
+License: unlicense
+Requires-Dist: numpy
+Requires-Dist: Janus-swi
+
