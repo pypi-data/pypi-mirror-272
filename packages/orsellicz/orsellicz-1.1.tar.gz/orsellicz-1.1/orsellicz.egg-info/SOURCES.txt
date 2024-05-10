@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+orsellicz/__init__.py
+orsellicz/main.py
+orsellicz.egg-info/PKG-INFO
+orsellicz.egg-info/SOURCES.txt
+orsellicz.egg-info/dependency_links.txt
+orsellicz.egg-info/requires.txt
+orsellicz.egg-info/top_level.txt
