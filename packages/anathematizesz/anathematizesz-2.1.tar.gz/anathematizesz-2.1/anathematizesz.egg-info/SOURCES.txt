@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anathematizesz/__init__.py
+anathematizesz/main.py
+anathematizesz.egg-info/PKG-INFO
+anathematizesz.egg-info/SOURCES.txt
+anathematizesz.egg-info/dependency_links.txt
+anathematizesz.egg-info/requires.txt
+anathematizesz.egg-info/top_level.txt
