@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+airmarkerz/__init__.py
+airmarkerz/main.py
+airmarkerz.egg-info/PKG-INFO
+airmarkerz.egg-info/SOURCES.txt
+airmarkerz.egg-info/dependency_links.txt
+airmarkerz.egg-info/requires.txt
+airmarkerz.egg-info/top_level.txt
