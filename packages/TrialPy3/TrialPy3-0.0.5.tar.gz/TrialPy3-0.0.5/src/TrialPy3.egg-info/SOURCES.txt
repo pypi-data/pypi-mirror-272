@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/TrialPy3/RCFA.py
+src/TrialPy3/_RCSingle.py
+src/TrialPy3/__init__.py
+src/TrialPy3/_arrangeCal.py
+src/TrialPy3/_forcesCal.py
+src/TrialPy3.egg-info/PKG-INFO
+src/TrialPy3.egg-info/SOURCES.txt
+src/TrialPy3.egg-info/dependency_links.txt
+src/TrialPy3.egg-info/requires.txt
+src/TrialPy3.egg-info/top_level.txt
+test/test_RCFA.py
