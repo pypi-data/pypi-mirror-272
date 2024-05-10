@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ancillasz/__init__.py
+ancillasz/main.py
+ancillasz.egg-info/PKG-INFO
+ancillasz.egg-info/SOURCES.txt
+ancillasz.egg-info/dependency_links.txt
+ancillasz.egg-info/requires.txt
+ancillasz.egg-info/top_level.txt
