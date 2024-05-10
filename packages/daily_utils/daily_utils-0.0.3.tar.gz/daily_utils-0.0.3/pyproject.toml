@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "daily_utils"
+version = "0.0.3"
+authors = [
+    { name = "Viet Lai", email = "viet.ptit.bn@gmail.com" },
+]
+description = "A package for utility functions for data science"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = { paths = ["LICENSE"] }
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+keywords = [
+    "data science",
+    "utils"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+]
+
+[project.optional-dependencies]
+tqdm = [
+    "tqdm"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/laiviet/daily_utils"
+Issues = "https://github.com/laiviet/daily_utils/issues"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/docs",
+    "/src",
+    "/test"
+]
+
+[tool.hatch.envs.default]
+python = "3"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/daily_utils.py"]
