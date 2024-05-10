@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+clearwingz/__init__.py
+clearwingz/main.py
+clearwingz.egg-info/PKG-INFO
+clearwingz.egg-info/SOURCES.txt
+clearwingz.egg-info/dependency_links.txt
+clearwingz.egg-info/requires.txt
+clearwingz.egg-info/top_level.txt
