@@ -1,0 +1,9 @@
+hack_vm_translator_brickman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hack_vm_translator_brickman/atomic_commands.py,sha256=hqrdtgBmpVXe5b9w4JGsBdiNs9YbLB8_sIISTOmMnEA,1582
+hack_vm_translator_brickman/translator.py,sha256=gv-4IvhITMylx3A86EEqrJXSW2VEEgXZV0WnQEjYbJk,1996
+hack_vm_translator_brickman/virtual_commands.py,sha256=yjlBSjAEqWvmssa41Hj2jEDA6ra_irzJ6lobxxdL9LM,1536
+hack_vm_translator_brickman-0.0.3.dist-info/LICENSE.txt,sha256=a0a7uWAaZytaJIgyuJekfbzUkZ_2edATUn-OTLdLmgM,1083
+hack_vm_translator_brickman-0.0.3.dist-info/METADATA,sha256=xYNjGJgPqFhs9y0Vhg5cLZ2uymes5jbJGY_qk_pHgrY,797
+hack_vm_translator_brickman-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hack_vm_translator_brickman-0.0.3.dist-info/top_level.txt,sha256=i8G_fCcUdkWN_6XgkCOEhLP4d-VBLohgYwKRXsDLnyg,28
+hack_vm_translator_brickman-0.0.3.dist-info/RECORD,,

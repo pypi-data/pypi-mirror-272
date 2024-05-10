@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hack_vm_translator_brickman
+Version: 0.0.3
+Summary: Package for translating virtual machine code to hack assembly code based on the specifications for the nand2tetris online course.
+Author-email: Brandon Rickman <brandon.m.rickman@gmail.com>
+Project-URL: Homepage, https://github.com/bmrickman/nand2tetris_vm_translator
+Project-URL: Issues, https://github.com/bmrickman/nand2tetris_vm_translator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Package for translating virtual machine code to hack assembly code based on the specifications for the nand2tetris online course.
