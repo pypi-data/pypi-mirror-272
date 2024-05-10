@@ -1,0 +1,6 @@
+setup.py
+pyaitaskexecutor.egg-info/PKG-INFO
+pyaitaskexecutor.egg-info/SOURCES.txt
+pyaitaskexecutor.egg-info/dependency_links.txt
+pyaitaskexecutor.egg-info/requires.txt
+pyaitaskexecutor.egg-info/top_level.txt
