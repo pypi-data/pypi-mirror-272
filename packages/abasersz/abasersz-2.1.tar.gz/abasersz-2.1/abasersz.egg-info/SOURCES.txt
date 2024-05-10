@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+abasersz/__init__.py
+abasersz/main.py
+abasersz.egg-info/PKG-INFO
+abasersz.egg-info/SOURCES.txt
+abasersz.egg-info/dependency_links.txt
+abasersz.egg-info/requires.txt
+abasersz.egg-info/top_level.txt
