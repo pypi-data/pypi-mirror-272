@@ -1,0 +1,10 @@
+sqlton/__init__.py,sha256=ZSjssT1s5_PCdxc3UXBFobkVNIGj8jh7VcrQ5UD4f-Q,182
+sqlton/__init__.py~,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlton/ast.py,sha256=qAw7XpYDUfCFJXPnOlAoyWxapufOiLthdPUTgiz57bA,1270
+sqlton/ast.py~,sha256=80Dm1tXv9epK2I9HT8wF_pjX2TSZp4IsKAdLfzMab0w,1115
+sqlton/parser.py,sha256=lMdNDIypRa-HR91qzXgRC9GARksG4UFheMY2d74Osos,33399
+sqlton/parser.py~,sha256=Q7o4XxwdHYQ8BlfwU69aqFo7ME85e9YEF2aUZm85R8E,20580
+sqlton-0.1.18.dist-info/METADATA,sha256=g1HItryQRyEDObONC52UseCPChGsEleocObci1EMDYw,1008
+sqlton-0.1.18.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sqlton-0.1.18.dist-info/entry_points.txt,sha256=UKGWErKSxcUbGWtBvLP5JCzQaCzHyqt9AaPC490YAW0,39
+sqlton-0.1.18.dist-info/RECORD,,
