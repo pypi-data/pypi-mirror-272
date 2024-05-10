@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: basescan
+Version: 0.1.0
+Home-page: https://github.com/Basefly/BaseScan
+Author: fswair
+Author-email: kodlarintercumani@gmail.com
+Maintainer: basefly
+Maintainer-email: baseflyfinance@gmail.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+BaseScan API Wrapper for Python.
+    BaseScan is a block explorer of the Base Chain. This API Wrapper is a Python implementation of the BaseScan API.
+    

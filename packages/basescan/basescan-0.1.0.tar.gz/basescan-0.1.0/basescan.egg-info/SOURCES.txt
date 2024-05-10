@@ -1,0 +1,10 @@
+setup.py
+basescan/__init__.py
+basescan/errors.py
+basescan/utils.py
+basescan.egg-info/PKG-INFO
+basescan.egg-info/SOURCES.txt
+basescan.egg-info/dependency_links.txt
+basescan.egg-info/not-zip-safe
+basescan.egg-info/requires.txt
+basescan.egg-info/top_level.txt
