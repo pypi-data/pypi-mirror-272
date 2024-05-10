@@ -1,0 +1,11 @@
+__init__.py,sha256=fUspUFjIpvumtC0CLMQeF6WhwC7OgpgWcEWezVYxw-s,65
+ciccio.py,sha256=dPpTdLOfhvZipOpYVauf103TjHyFG2WggMqaZ9R7B2M,28
+test_unimore_math.py,sha256=L5yNLtwK-f6iEkHBxV_W_b0abTFYsGXJEXmp0r3bUx8,385
+my_math/__init__.py,sha256=o11AxthGUw8RfKAqO0jRoaudKQlEaaExdtsTTR32RIA,27
+my_math/unimore_math.py,sha256=IZYSE9CDhxh3yS2CxztiYEO5dlsioMiq3-CRG3Twz2Y,439
+pippo/__init__.py,sha256=UMyVMQn4noW7XzXB8L6ywar3lfEbxygmPblwQAdh2Z4,21
+pippo/peppia.py,sha256=-Ml2NejF0FPNos5XxD5pj0jBUXfWb53l1BgmhWceFbY,28
+my_math_unimore_cicd-0.4.dist-info/METADATA,sha256=PdE0CG5awhPawhFtcTPorfJAmXJsc38A85fv7iCg_w0,236
+my_math_unimore_cicd-0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+my_math_unimore_cicd-0.4.dist-info/top_level.txt,sha256=KrF1SQ1rZjd7UGIHRpGAQKChMp2IO8EI9c0-oo-n6Gs,15
+my_math_unimore_cicd-0.4.dist-info/RECORD,,
