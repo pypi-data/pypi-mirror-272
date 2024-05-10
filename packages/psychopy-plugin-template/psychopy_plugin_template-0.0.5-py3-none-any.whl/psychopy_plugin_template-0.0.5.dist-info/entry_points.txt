@@ -1,0 +1,24 @@
+[psychopy.app.builder]
+ExamplePluginRibbonSection = psychopy_plugin_template.app.ribbon:ExamplePluginRibbonSection
+
+[psychopy.app.coder]
+ExamplePluginRibbonSection = psychopy_plugin_template.app.ribbon:ExamplePluginRibbonSection
+
+[psychopy.app.runner]
+ExamplePluginRibbonSection = psychopy_plugin_template.app.ribbon:ExamplePluginRibbonSection
+
+[psychopy.app.themes.icons]
+example = psychopy_plugin_template.icons.example
+
+[psychopy.experiment.components]
+ExampleComponent = psychopy_plugin_template.components.exampleComponent:ExampleComponent
+
+[psychopy.experiment.routines]
+ExampleStandaloneRoutine = psychopy_plugin_template.routines.exampleStandaloneRoutine:ExampleStandaloneRoutine
+
+[psychopy.hardware]
+ExampleDevice = psychopy_plugin_template.hardware.exampleDevice:ExampleDevice
+ExampleResponseDevice = psychopy_plugin_template.hardware.exampleResponseDevice:ExampleResponseDevice
+
+[psychopy.visual]
+ExampleVisualStim = psychopy_plugin_template.visual.exampleVisualStim:ExampleVisualStim
