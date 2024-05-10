@@ -1,0 +1,16 @@
+api_management_local/API_Mangement_Manager.py,sha256=B4-fhP8aT52HIq4h6nkqBpV9OEX1KJ7Jyp_4x0YcyjE,1546
+api_management_local/Exception_API.py,sha256=gG9Y-eFqn9E21kQyDCYcONNGCHRMeS44uaHmBZQq3zY,357
+api_management_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api_management_local/api_call.py,sha256=C_uZKNjUIKN3AQmZR5rym1P_vZumizx0AGlLIF796gk,815
+api_management_local/api_limit.py,sha256=3aLKqVlFhUYSTTLwwH5OUqEed_It6odbcV2Axh7T7ho,1827
+api_management_local/api_limit_status.py,sha256=hwvYmGKHI4iq0ocwGKYuNuOdPq6R4TFMQbEt72Q29ik,152
+api_management_local/api_management_local.py,sha256=cPubONyqSbizJFZ0YZiczVRrqClkqkyjqFx12hvMIo4,10834
+api_management_local/api_type.py,sha256=wy1BPWV5nOVmyF5MedNsxANEDuxmtZ-lCRidX1NeVHw,1593
+api_management_local/constants.py,sha256=E3odyjWdMAkzDdO8FU3-HcEfAf--nMhFwCNobe5W0Pc,1408
+api_management_local/direct.py,sha256=H1hKrQsAWeFAn626T--2wTmjdMs39fdrnQediSK6MkE,4366
+api_management_local/indirect.py,sha256=HWDNhyvMQjOllHA-68nuqvCPceK2fHoM8-81WlgAWD8,3966
+api_management_local/utils.py,sha256=hRls3GDZYkm4bIGlT1G1ZaDsHyywV7r99vmZS9YscEo,1369
+api_management_local-0.0.65.dist-info/METADATA,sha256=1qUjLWlO2eoE51nJZcRWxif80yQX_ELePkkeQJBC0VA,735
+api_management_local-0.0.65.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+api_management_local-0.0.65.dist-info/top_level.txt,sha256=GDgX0-5UbGsgnABExrCgeh2a4EZJyNOqPk4OQZLpj9U,21
+api_management_local-0.0.65.dist-info/RECORD,,
