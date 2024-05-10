@@ -1,0 +1,2 @@
+[console_scripts]
+create_flask_package = your_package_name.create_flask_package:create_package_entry_point
