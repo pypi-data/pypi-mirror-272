@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aeipathyz/__init__.py
+aeipathyz/main.py
+aeipathyz.egg-info/PKG-INFO
+aeipathyz.egg-info/SOURCES.txt
+aeipathyz.egg-info/dependency_links.txt
+aeipathyz.egg-info/requires.txt
+aeipathyz.egg-info/top_level.txt
