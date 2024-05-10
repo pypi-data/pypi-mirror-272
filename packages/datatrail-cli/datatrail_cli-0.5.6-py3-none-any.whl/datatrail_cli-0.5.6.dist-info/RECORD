@@ -1,0 +1,16 @@
+dtcli/__init__.py,sha256=jDHlGLA_xnvIJNdQczumk_o4J8j1nzo0symWJSXxjMM,214
+dtcli/clear.py,sha256=fu_csDgR7bx71R0VwGBcz0Q-4kOn_A--58STUs0I4RU,4759
+dtcli/cli.py,sha256=fxmJqzhefHGEtHvZj4DLXGBG3woAWaZ9Oa4eaAtpzKA,1437
+dtcli/config.py,sha256=W4CprdyiKPtrZPNJyqFpZ-j6eDqN9yo0OjbXHUU5P6k,4037
+dtcli/config.yaml,sha256=5K50GlqlsGXzM13-fjD07j4TlLxw0msKyZ2AvXPF-uA,1062
+dtcli/ls.py,sha256=uW80EIaPNjEYGXayjecOUSi1SyB0qM0i-zfR3hAeCPI,4101
+dtcli/ps.py,sha256=Jtu3F_pLXsew82CkMV1-5z1N5h0cU82bzHZ3qb0ESoc,8079
+dtcli/pull.py,sha256=xD6eQIWypOTiw5jxZeQhznU38fNt4R_hh171DKyozS4,4706
+dtcli/src/functions.py,sha256=p-2Jq_6yjlmz3gsJfYotk5U9J1gCfysEnCbxGKfGgoc,15885
+dtcli/utilities/cadcclient.py,sha256=4VOTSuM_p7HD_wLhaQs7o-KzJPygSELWGZhMG1pTTdk,9241
+dtcli/utilities/utilities.py,sha256=woGY0yjQjoWTDeADWHvwb9C5Uuk6MdR4TCkq3pL0hjg,3206
+datatrail_cli-0.5.6.dist-info/LICENSE,sha256=JUMLURuKC3-Xsk-EJ6X4yD81vZdPF9o-eBzQ-OpQcjs,1080
+datatrail_cli-0.5.6.dist-info/METADATA,sha256=MkiBFvqADsDK543Gs_R0QYZJ0x0DH2hpdEY_iOE2kKU,4522
+datatrail_cli-0.5.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+datatrail_cli-0.5.6.dist-info/entry_points.txt,sha256=wsGrS5oP4zGuRuKYs71yM4Vpx5lQBIysA0Bdx3RbgI8,43
+datatrail_cli-0.5.6.dist-info/RECORD,,
