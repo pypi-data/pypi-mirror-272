@@ -1,0 +1,12 @@
+sage_tokenizer/HFEncoding.py,sha256=qHgdbrcp50xvd2yF0pRWYitVMoFBlaSPYlz3pmq0GjM,1433
+sage_tokenizer/SaGeVocabBuilder.py,sha256=SYIccb5EdXnzyL_n-fJXx87WZIuOSeMg7a9X-Jl9Mdw,11088
+sage_tokenizer/Word2VecParams.py,sha256=h2cNS7yIYQiF6TBAyP5-AtUmyGkIhjDYJlw_PMkCTUY,303
+sage_tokenizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sage_tokenizer/embeddings.py,sha256=YPwIDZkw_11oD8kgdBRQEn6JDSmjOtb9O1LZcmmFajw,4331
+sage_tokenizer/main.py,sha256=yg8_UhLH-g4qrCYBf5NcG9xQC1LaPOxKzJO-g4PrqOg,3731
+sage_tokenizer/model.py,sha256=_6JAlIJCfKbWjTjZZ4NZu0qeq3OXKTzDcvmcdP2IbSs,9812
+sage_tokenizer/utils.py,sha256=yXYWqKi33xMTeehdiOfbCr4d0bMheoj9fIkbAyMjmf8,11988
+sage_tokenizer-0.0.1.dist-info/METADATA,sha256=Wgq7tiwvSo1R_ryfy4QX-yr5XyxhBdw_5QGrXcXkEUY,5652
+sage_tokenizer-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+sage_tokenizer-0.0.1.dist-info/licenses/LICENSE,sha256=1EtT94wK0z-pl-AHnR4HxgMr77TzR39uW2v6X4jwTQY,1139
+sage_tokenizer-0.0.1.dist-info/RECORD,,
