@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "name-that-fucking-film"
+version = "0.1.6"
+description = ""
+authors = ["jkarenko <juho.karenko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+rich = "^13.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+name-that-fucking-film = "name_that_fucking_film.main:main"
