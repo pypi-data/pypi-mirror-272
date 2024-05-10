@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kartei"
+version = "0.1.0"
+description = "Kartei is a simple, CLI-based vocabulary trainer."
+authors = ["Marc Berndtgen <marc@berndtgen.org>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.362"
+mypy = "^1.10.0"
+
+[tool.poetry.scripts]
+kartei = "kartei:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
