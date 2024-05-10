@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ara-cli
+Version: 0.1.4.31
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: langchain-openai
+Requires-Dist: openai
+Requires-Dist: markdown-it-py
+Requires-Dist: json-repair
+
