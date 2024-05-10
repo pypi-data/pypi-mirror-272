@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: tiny_progress_bar
+Version: 0.1.3
+Summary: Simple progress bar for Python 3
+Home-page: https://github.com/aklin2/tiny_progress_bar
+Download-URL: https://github.com/aklin2/tiny_progress_bar/archive/refs/tags/v0.1.3.tar.gz
+Author: Alan Lin
+Author-email: lin.alan.k@gmail.com
+License: GPL-3.0
+Keywords: progress,progress bar,tiny_progress_bar,loading,loading bar,loading_bar
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tiny_progress_bar
+
+Progress Bar for Python 3. Does not use any external libraries and the code is very very tiny.
+
+![Example gif](./example.gif)
+
+# How to use
+
+Import the `progress_bar` function into your script.
+
+Then wrap any iterable with it. Then you'll see it running.
+
+### Example:
+
+```
+from tiny_progress_bar import progress_bar as pb
+from time import sleep
+
+array = range(10)
+counter = 0
+
+for i in pb(array):
+    sleep(0.1)  # Your long running process
+    counter += i
+
+print(sum(array) == counter)
+```
+
+## Bar Length
+
+You can also specify the length of the progress bar by changing the `bar_length` parameter.
+
+Note the minimum `bar_length` is 10.
+
+### Smaller Bar Example
+
+```
+# Smaller bar
+length = 10
+array = range(100)
+for _ in pb(array, bar_length=length):
+    sleep(0.1)  # Your long running process
+```
+
+### Larger Bar Example
+
+```
+# Larger bar
+length = 100
+array = range(100)
+for _ in pb(array, bar_length=length):
+    sleep(0.1)  # Your long running process
+```
+
+# Testing
+
+A test file is included in this package.
+
+Feel free to run `pytest` or `pytest test_tiny_progress_bar.py`
