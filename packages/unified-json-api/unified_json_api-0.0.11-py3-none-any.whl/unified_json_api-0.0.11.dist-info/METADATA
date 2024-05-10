@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: unified-json-api
+Version: 0.0.11
+Summary: PyPI Package for Circles unified-json-api Python
+Home-page: https://github.com/circles-zone/unified-json-api-python-pacakge
+Author: Circles
+Author-email: info@circlez.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: logger-local >=0.0.135
+
+PyPI Package for Circles unified-json-api Python
