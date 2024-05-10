@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+uprootz/__init__.py
+uprootz/main.py
+uprootz.egg-info/PKG-INFO
+uprootz.egg-info/SOURCES.txt
+uprootz.egg-info/dependency_links.txt
+uprootz.egg-info/requires.txt
+uprootz.egg-info/top_level.txt
