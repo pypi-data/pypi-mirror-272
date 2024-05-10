@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: NVRChannel
+Version: 0.1.7
+Home-page: https://github.com/EternityForest/iot_devices
+Author: Daniel Dunn
+Author-email: dannydunn@eternityforest.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NVRChannel
+Network video recorder for iot_devices compatible apps.
+Requires GStreamer to be installed on the system.
+
+Split into a separate lib due to the large model file.
+
+
+## Changes
+### 0.1.7 
+
+* setup.py file include fix
+
+### 0.1.6
+
+* Use cv2.dnn because tflite keeps breaking on python version updates.
+* Switch to MobileNetSSD
