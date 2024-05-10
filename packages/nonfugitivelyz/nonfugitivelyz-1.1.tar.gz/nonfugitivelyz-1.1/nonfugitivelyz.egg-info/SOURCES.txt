@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonfugitivelyz/__init__.py
+nonfugitivelyz/main.py
+nonfugitivelyz.egg-info/PKG-INFO
+nonfugitivelyz.egg-info/SOURCES.txt
+nonfugitivelyz.egg-info/dependency_links.txt
+nonfugitivelyz.egg-info/requires.txt
+nonfugitivelyz.egg-info/top_level.txt
