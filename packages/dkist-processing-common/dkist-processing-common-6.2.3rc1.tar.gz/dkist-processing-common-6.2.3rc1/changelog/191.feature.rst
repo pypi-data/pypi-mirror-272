@@ -1,0 +1,1 @@
+Save all floating point arrays as float32. The extra precision of float64 is not needed, especially when lossy quantization is applied before compression.

@@ -1,0 +1,1 @@
+`QualityMixin.avg_noise` is now NaN aware. I.e., it will ignore NaN values when computing the noise.
