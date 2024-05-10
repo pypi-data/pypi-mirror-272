@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+diurnalsz/__init__.py
+diurnalsz/main.py
+diurnalsz.egg-info/PKG-INFO
+diurnalsz.egg-info/SOURCES.txt
+diurnalsz.egg-info/dependency_links.txt
+diurnalsz.egg-info/requires.txt
+diurnalsz.egg-info/top_level.txt
