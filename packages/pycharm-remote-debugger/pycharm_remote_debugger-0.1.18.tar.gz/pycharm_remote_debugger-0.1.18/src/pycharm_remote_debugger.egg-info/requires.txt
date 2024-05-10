@@ -1,0 +1,2 @@
+pydevd-pycharm>=223.7401.13
+waiting==1.4.1
