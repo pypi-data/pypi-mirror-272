@@ -1,0 +1,2 @@
+[console_scripts]
+elucidoc = elucidoc.elucidoc:main_cli
