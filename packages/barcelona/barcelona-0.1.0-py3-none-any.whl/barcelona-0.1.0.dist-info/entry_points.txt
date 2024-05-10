@@ -1,0 +1,6 @@
+[barcelona.plugin]
+barcelona=barcelona.cli:main
+
+[console_scripts]
+barcelona=barcelona.cli:main
+
