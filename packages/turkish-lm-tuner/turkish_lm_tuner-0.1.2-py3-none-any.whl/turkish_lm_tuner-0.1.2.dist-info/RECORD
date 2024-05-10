@@ -1,0 +1,13 @@
+turkish_lm_tuner/__init__.py,sha256=A1nh8ieP3a7rzOcJtuCZOvt5vezSwKRZlUbs81a2hFs,388
+turkish_lm_tuner/dataset_processor.py,sha256=-g77SS7etX1TlfztUvNpuqUDqmyA6QFYz1y0SWR-2L4,8733
+turkish_lm_tuner/evaluator.py,sha256=J3Ygjb912ZAFRKMHjgVKDXW-TJxsBdWP-hOxzv9drzY,8263
+turkish_lm_tuner/metrics.py,sha256=E4n4qynXMIuiMivkBzRx2tmds3mFxPVVue125n_YXo8,9734
+turkish_lm_tuner/predictor.py,sha256=XAQnTw-f4m_af3a4J9KkJqMggUFid4dPfDRygSCfYsE,5187
+turkish_lm_tuner/t5_classifier.py,sha256=T2d7c40gUAl44To8UZ-BJUWfs4p3EAb-xON5VEL23N8,3179
+turkish_lm_tuner/tr_datasets.py,sha256=OijitTEkN5A3ihHua7aHukrX8IChLOcN70nzlI_NPLA,33724
+turkish_lm_tuner/trainer.py,sha256=oceO6ZK1iSiQqkTF6ytPZiA_ThQ9GgkViOEiyrvgqks,8311
+turkish_lm_tuner-0.1.2.dist-info/LICENSE,sha256=atwCXqVqg_4QAUGxrs6Kr0vFkH0MhIjusjKcvr2WdGo,1070
+turkish_lm_tuner-0.1.2.dist-info/METADATA,sha256=pegjHeUpzyjk8bD4i6f06eQGTuqrz1SyaELS3hrjNe8,9914
+turkish_lm_tuner-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+turkish_lm_tuner-0.1.2.dist-info/top_level.txt,sha256=P9RRXaGm70EGp6hcjXdOCl2eOZZNPA0uGo7ZVurRtx8,17
+turkish_lm_tuner-0.1.2.dist-info/RECORD,,
