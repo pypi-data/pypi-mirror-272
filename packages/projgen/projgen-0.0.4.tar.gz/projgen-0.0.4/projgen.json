@@ -1,0 +1,22 @@
+{
+	"currentProject": {
+	  "start": "begin by running `main.py update`.",
+	  "end": "1970-01-01 12:00:00",
+	  "specifics": {
+	  }
+	},
+	"pastProjects": [],
+	"database": {
+	  "type": {
+		"Game": ["gameGenre", "gameMethod"]
+	  },
+	  "gameGenre": {
+		"shmup": []
+	  },
+	  "gameMethod": {
+		"godot": [],
+		"sdl": []
+	  }
+	}
+  }
+  
