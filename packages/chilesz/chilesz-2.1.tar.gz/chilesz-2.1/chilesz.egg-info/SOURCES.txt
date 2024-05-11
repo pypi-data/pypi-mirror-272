@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+chilesz/__init__.py
+chilesz/main.py
+chilesz.egg-info/PKG-INFO
+chilesz.egg-info/SOURCES.txt
+chilesz.egg-info/dependency_links.txt
+chilesz.egg-info/requires.txt
+chilesz.egg-info/top_level.txt
