@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+choriambicz/__init__.py
+choriambicz/main.py
+choriambicz.egg-info/PKG-INFO
+choriambicz.egg-info/SOURCES.txt
+choriambicz.egg-info/dependency_links.txt
+choriambicz.egg-info/requires.txt
+choriambicz.egg-info/top_level.txt
