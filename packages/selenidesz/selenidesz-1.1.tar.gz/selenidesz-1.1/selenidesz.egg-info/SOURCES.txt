@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+selenidesz/__init__.py
+selenidesz/main.py
+selenidesz.egg-info/PKG-INFO
+selenidesz.egg-info/SOURCES.txt
+selenidesz.egg-info/dependency_links.txt
+selenidesz.egg-info/requires.txt
+selenidesz.egg-info/top_level.txt
