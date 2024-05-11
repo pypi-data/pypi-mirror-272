@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+conspirersz/__init__.py
+conspirersz/main.py
+conspirersz.egg-info/PKG-INFO
+conspirersz.egg-info/SOURCES.txt
+conspirersz.egg-info/dependency_links.txt
+conspirersz.egg-info/requires.txt
+conspirersz.egg-info/top_level.txt
