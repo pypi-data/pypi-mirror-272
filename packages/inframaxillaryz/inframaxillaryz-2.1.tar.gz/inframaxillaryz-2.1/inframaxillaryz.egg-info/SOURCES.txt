@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+inframaxillaryz/__init__.py
+inframaxillaryz/main.py
+inframaxillaryz.egg-info/PKG-INFO
+inframaxillaryz.egg-info/SOURCES.txt
+inframaxillaryz.egg-info/dependency_links.txt
+inframaxillaryz.egg-info/requires.txt
+inframaxillaryz.egg-info/top_level.txt
