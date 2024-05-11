@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unadoptablyz/__init__.py
+unadoptablyz/main.py
+unadoptablyz.egg-info/PKG-INFO
+unadoptablyz.egg-info/SOURCES.txt
+unadoptablyz.egg-info/dependency_links.txt
+unadoptablyz.egg-info/requires.txt
+unadoptablyz.egg-info/top_level.txt
