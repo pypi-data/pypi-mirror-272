@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+calliandraz/__init__.py
+calliandraz/main.py
+calliandraz.egg-info/PKG-INFO
+calliandraz.egg-info/SOURCES.txt
+calliandraz.egg-info/dependency_links.txt
+calliandraz.egg-info/requires.txt
+calliandraz.egg-info/top_level.txt
