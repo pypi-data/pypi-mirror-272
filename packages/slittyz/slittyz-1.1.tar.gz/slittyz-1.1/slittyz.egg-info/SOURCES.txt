@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+slittyz/__init__.py
+slittyz/main.py
+slittyz.egg-info/PKG-INFO
+slittyz.egg-info/SOURCES.txt
+slittyz.egg-info/dependency_links.txt
+slittyz.egg-info/requires.txt
+slittyz.egg-info/top_level.txt
