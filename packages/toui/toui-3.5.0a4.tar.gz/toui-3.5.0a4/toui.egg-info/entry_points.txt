@@ -1,0 +1,3 @@
+[console_scripts]
+toui = cmd._cmd:main
+
