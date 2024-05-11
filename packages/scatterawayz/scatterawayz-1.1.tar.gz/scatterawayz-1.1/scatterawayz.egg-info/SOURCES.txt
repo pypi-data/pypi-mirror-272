@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scatterawayz/__init__.py
+scatterawayz/main.py
+scatterawayz.egg-info/PKG-INFO
+scatterawayz.egg-info/SOURCES.txt
+scatterawayz.egg-info/dependency_links.txt
+scatterawayz.egg-info/requires.txt
+scatterawayz.egg-info/top_level.txt
