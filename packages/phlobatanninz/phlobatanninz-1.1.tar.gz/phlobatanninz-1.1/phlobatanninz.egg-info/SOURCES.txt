@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+phlobatanninz/__init__.py
+phlobatanninz/main.py
+phlobatanninz.egg-info/PKG-INFO
+phlobatanninz.egg-info/SOURCES.txt
+phlobatanninz.egg-info/dependency_links.txt
+phlobatanninz.egg-info/requires.txt
+phlobatanninz.egg-info/top_level.txt
