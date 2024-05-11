@@ -1,0 +1,13 @@
+ouster/cli/plugins/cli_mapping_impl.py,sha256=X5KGFBilNv9Kcm-ZSm24iXtNQwnyWMnvvClAUgYUbag,14458
+ouster/cli/plugins/cli_source_mapping.py,sha256=9Scs3hNzHfd7mzJVkSVXsjD5XIbn-OA9rrlBD-J6WZA,3943
+ouster/mapping/__about__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+ouster/mapping/__init__.py,sha256=FzMNoMULZC9ZMYDFzhGrWRT6Gdj546zhhAwPUomUtS0,63
+ouster/mapping/kiss_backend.py,sha256=c1BzIkx8FhGBYhYepkyLSKXwLMl7d9-NGCbo2txoYd4,5525
+ouster/mapping/ouster_kiss_icp.py,sha256=BSRrz4gcEQE_m7XADIBiOetARYIgjx4ePKSFGc8QiZg,5820
+ouster/mapping/ply_to_png.py,sha256=1b6EWEPMDiCN0ftQ93urn6ALLaVFZy5iRTFeiZt3i2o,6051
+ouster/mapping/slam.py,sha256=z6-zcnCBoE7UVGCoXZqg-XpiMOWs69zdnFal7N0ZqFs,120
+ouster/mapping/slam_backend.py,sha256=GUnJvpLXn88nOg0lxUUOCvY-QQd6ZwPZbNYA-rGPZOY,629
+ouster/mapping/util.py,sha256=CwvNYCH3YdkcwyT4f4vONQfgG_ODss9HtzhuUzf5-1Y,3538
+ouster_mapping-0.2.1.dist-info/METADATA,sha256=74Bl0sqDh8BGVE8d4Q3iIeovgakD_Sy3Gr4eZw-BQlg,2772
+ouster_mapping-0.2.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+ouster_mapping-0.2.1.dist-info/RECORD,,
