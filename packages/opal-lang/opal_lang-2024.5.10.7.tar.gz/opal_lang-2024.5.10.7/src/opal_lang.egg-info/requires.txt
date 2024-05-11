@@ -1,0 +1,7 @@
+pyinstaller
+colorama
+pygame-ce==2.3.2
+numpy
+typeguard
+Cython
+ianthe>=2023.12.17
