@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+alfionez/__init__.py
+alfionez/main.py
+alfionez.egg-info/PKG-INFO
+alfionez.egg-info/SOURCES.txt
+alfionez.egg-info/dependency_links.txt
+alfionez.egg-info/requires.txt
+alfionez.egg-info/top_level.txt
