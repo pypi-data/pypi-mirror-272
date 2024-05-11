@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+styrolz/__init__.py
+styrolz/main.py
+styrolz.egg-info/PKG-INFO
+styrolz.egg-info/SOURCES.txt
+styrolz.egg-info/dependency_links.txt
+styrolz.egg-info/requires.txt
+styrolz.egg-info/top_level.txt
