@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+craniometricallyz/__init__.py
+craniometricallyz/main.py
+craniometricallyz.egg-info/PKG-INFO
+craniometricallyz.egg-info/SOURCES.txt
+craniometricallyz.egg-info/dependency_links.txt
+craniometricallyz.egg-info/requires.txt
+craniometricallyz.egg-info/top_level.txt
