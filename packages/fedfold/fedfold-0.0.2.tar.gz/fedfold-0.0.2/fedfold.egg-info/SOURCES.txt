@@ -1,0 +1,9 @@
+setup.py
+fedfold/__init__.py
+fedfold/hollowed_T.py
+fedfold/mix_bold_T.py
+fedfold.egg-info/PKG-INFO
+fedfold.egg-info/SOURCES.txt
+fedfold.egg-info/dependency_links.txt
+fedfold.egg-info/requires.txt
+fedfold.egg-info/top_level.txt
