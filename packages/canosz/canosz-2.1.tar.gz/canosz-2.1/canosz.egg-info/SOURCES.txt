@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+canosz/__init__.py
+canosz/main.py
+canosz.egg-info/PKG-INFO
+canosz.egg-info/SOURCES.txt
+canosz.egg-info/dependency_links.txt
+canosz.egg-info/requires.txt
+canosz.egg-info/top_level.txt
