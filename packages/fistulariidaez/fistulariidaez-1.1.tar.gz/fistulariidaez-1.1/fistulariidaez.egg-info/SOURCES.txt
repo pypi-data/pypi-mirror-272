@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fistulariidaez/__init__.py
+fistulariidaez/main.py
+fistulariidaez.egg-info/PKG-INFO
+fistulariidaez.egg-info/SOURCES.txt
+fistulariidaez.egg-info/dependency_links.txt
+fistulariidaez.egg-info/requires.txt
+fistulariidaez.egg-info/top_level.txt
