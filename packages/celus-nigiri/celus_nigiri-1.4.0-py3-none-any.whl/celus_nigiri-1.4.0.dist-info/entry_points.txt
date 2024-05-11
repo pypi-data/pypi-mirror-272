@@ -1,0 +1,3 @@
+[console_scripts]
+nigiri-csv=celus_nigiri.csv_detect.__main__:main
+
