@@ -1,0 +1,11 @@
+odoo/addons/sm_reports/__init__.py,sha256=k6VdU9k3RocxIg6IwoFhaeynr5yThcRKmQQowowlAvY,20
+odoo/addons/sm_reports/__manifest__.py,sha256=tYjsMSYqqTfgpKksavU-HSntgETZxE4fKfyfLdv5d34,522
+odoo/addons/sm_reports/models/__init__.py,sha256=HPPfeAYF_xGSMFOZqrfe4-uDVA0wEZm6N2NF91qS0Rc,30
+odoo/addons/sm_reports/models/models_sm_member.py,sha256=qp9oE9EQipFV2Hh2xJvv5jVzw7DPuO6ecgYIYJKeFXY,283
+odoo/addons/sm_reports/security/ir.model.access.csv,sha256=A5mIicxJCqMDeRX-8iJzcHD0i9_MEFfnWMpK1v32Bvg,164
+odoo/addons/sm_reports/views/default_template.xml,sha256=T83hVOmCur8bfdc87uMJhhg_-gGfarsqp5Laru6Hhx8,2000
+odoo/addons/sm_reports/views/views_members.xml,sha256=YEmQy2zrx0UihmKXZcqDZa_4-09mFWXWMNtUMIs7L7E,547
+odoo12_addon_sm_reports-12.0.0.0.3.99.dev1.dist-info/METADATA,sha256=kW9fTWADDBnaH37Eop2RHfdiRo2-Ot6GXRnuttTw7tc,409
+odoo12_addon_sm_reports-12.0.0.0.3.99.dev1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+odoo12_addon_sm_reports-12.0.0.0.3.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_sm_reports-12.0.0.0.3.99.dev1.dist-info/RECORD,,
