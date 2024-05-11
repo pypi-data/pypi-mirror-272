@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: byfron
+Version: 0.0.1
+Summary: Byfron Destroyer
+Home-page: UNKNOWN
+Author: munchdogs
+Author-email: <aledreamsaledreams2@gmail.com>
+License: UNKNOWN
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: pyaudio
+Requires-Dist: pyautogui
+
+
+# byfronX 😈😈
+
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+
+
