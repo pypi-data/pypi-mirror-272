@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+beaminglyz/__init__.py
+beaminglyz/main.py
+beaminglyz.egg-info/PKG-INFO
+beaminglyz.egg-info/SOURCES.txt
+beaminglyz.egg-info/dependency_links.txt
+beaminglyz.egg-info/requires.txt
+beaminglyz.egg-info/top_level.txt
