@@ -1,0 +1,17 @@
+numpy
+scipy
+astropy
+dynesty>=2.0.0
+bilby>=2.0.0
+bilby_pipe
+gwpopulation>=1.0.0rc1
+h5py
+matplotlib
+tqdm
+htcondor
+
+[pages]
+ipykernel
+ipython
+jupyter
+sphinx-argparse
