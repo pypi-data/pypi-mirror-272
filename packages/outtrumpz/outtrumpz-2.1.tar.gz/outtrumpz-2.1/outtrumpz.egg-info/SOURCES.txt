@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+outtrumpz/__init__.py
+outtrumpz/main.py
+outtrumpz.egg-info/PKG-INFO
+outtrumpz.egg-info/SOURCES.txt
+outtrumpz.egg-info/dependency_links.txt
+outtrumpz.egg-info/requires.txt
+outtrumpz.egg-info/top_level.txt
