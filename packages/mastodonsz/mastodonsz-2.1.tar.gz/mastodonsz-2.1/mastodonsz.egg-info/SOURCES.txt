@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mastodonsz/__init__.py
+mastodonsz/main.py
+mastodonsz.egg-info/PKG-INFO
+mastodonsz.egg-info/SOURCES.txt
+mastodonsz.egg-info/dependency_links.txt
+mastodonsz.egg-info/requires.txt
+mastodonsz.egg-info/top_level.txt
