@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pemicansz/__init__.py
+pemicansz/main.py
+pemicansz.egg-info/PKG-INFO
+pemicansz.egg-info/SOURCES.txt
+pemicansz.egg-info/dependency_links.txt
+pemicansz.egg-info/requires.txt
+pemicansz.egg-info/top_level.txt
