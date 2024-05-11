@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+jawi/__init__.py
+jawi/jawi.py
+jawi.egg-info/PKG-INFO
+jawi.egg-info/SOURCES.txt
+jawi.egg-info/dependency_links.txt
+jawi.egg-info/top_level.txt

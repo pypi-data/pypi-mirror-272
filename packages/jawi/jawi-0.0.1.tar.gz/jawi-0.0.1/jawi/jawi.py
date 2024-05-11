@@ -1,0 +1,2 @@
+def jawi():
+    return "جاوي"
