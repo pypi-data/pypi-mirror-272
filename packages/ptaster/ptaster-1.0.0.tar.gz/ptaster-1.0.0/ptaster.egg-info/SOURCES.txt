@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ptaster/__init__.py
+ptaster/__main__.py
+ptaster/events_data.py
+ptaster/exceptions.py
+ptaster/proxies_parser_logger.py
+ptaster/taster.py
+ptaster/types.py
+ptaster.egg-info/PKG-INFO
+ptaster.egg-info/SOURCES.txt
+ptaster.egg-info/dependency_links.txt
+ptaster.egg-info/requires.txt
+ptaster.egg-info/top_level.txt
