@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ouster-mapping"
+dynamic = ["version"]
+description = 'Library to perform basic SLAM with Ouster lidars'
+readme = "ouster/README.rst"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Tomas Svarovsky", email = "tomas.svarovsky@ouster.io" },
+]
+classifiers = [
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12"
+]
+dependencies = [
+  "ouster-sdk ==0.11.1",
+  # point-cloud-utils doesn't support Linux Arm and and it depends on scipy which is not supported on Mac M1 with Mac OS < 12.0
+  'point-cloud-utils >=0.30.4, <1; python_version <= "3.11" and platform_machine != "aarch64" and (platform_system != "Darwin" or platform_machine != "arm64" or platform_version >= "21.0.0")',
+  'kiss-icp ==0.4.0; platform_machine != "aarch64"',
+  "numpy >=1.19, <2, !=1.19.4",
+  "laspy >=2.5.0, <3"
+]
+
+[tool.hatch.envs.test]
+dependencies = [
+  "coverage[toml]",
+  "pytest",
+  "pytest-cov",
+  "pytest-mock",
+  "twine"
+]
+
+[tool.hatch.build.targets.wheel]
+exclude = ["Jenkinsfile", "tests/", "standard/", "internal/", "README.rst", "SDK_Build_Artifacts", "mapping_wheel"]
+packages = [
+  "ouster"
+]
+
+[tool.hatch.build.targets.sdist]
+packages = [
+  "ouster"
+]
+
+[tool.hatch.version]
+path = "ouster/mapping/__about__.py"
+
+[tool.hatch.envs.test.scripts]
+test = "python -m pytest"
+download_data = "./scripts/download_test_data.sh"
+publish = "twine upload --repository-url $PYTHON_PACKAGE_REPO_URL --username $OUSTER_PACKAGES_WRITE_TOKEN_NAME --password $OUSTER_PACKAGES_WRITE_TOKEN dist/*"
+
+[tool.ruff.lint]
+select = ["E", "F"]
+# ignore the line length
+ignore = ["E501"]
