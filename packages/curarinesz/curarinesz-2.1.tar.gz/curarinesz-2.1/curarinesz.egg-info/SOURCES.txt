@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+curarinesz/__init__.py
+curarinesz/main.py
+curarinesz.egg-info/PKG-INFO
+curarinesz.egg-info/SOURCES.txt
+curarinesz.egg-info/dependency_links.txt
+curarinesz.egg-info/requires.txt
+curarinesz.egg-info/top_level.txt
