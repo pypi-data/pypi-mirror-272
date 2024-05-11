@@ -1,0 +1,12 @@
+markdown_fenced_code_tabs_next/__init__.py,sha256=r0blTkxzemMqQGW08aJBG5ucbX7b0OllyJj0dIa9bic,8790
+markdown_fenced_code_tabs_next/base-template.html,sha256=EERXTHmFlEi73l-bsAZRkp7p-A8GoJc8ZJUKAohUu3Q,485
+markdown_fenced_code_tabs_next/bootstrap3-template.html,sha256=mFrGE3sK8r9YY6MtM3bxbM5c66dgZjEhMyzagrYg8wo,679
+markdown_fenced_code_tabs_next/bootstrap4-template.html,sha256=h-1K2GqmbSu0QtfcUVUVtU0dWunTKcZhhTi7l4U-5ic,915
+markdown_fenced_code_tabs_next/default-template.html,sha256=tWg1I8G8sWj1MoT3gWSTBG6GlBg1vTay6Q1H9YEfdHs,819
+markdown_fenced_code_tabs_next/tab.py,sha256=OVLOlWOMw0ow7LHvd4CMpdYRuqB6wPmPnXDvTLxG9do,1835
+markdown_fenced_code_tabs_next/util.py,sha256=cjIz86fosgHbLl7ac92k2iL9lKG86HR4he02Zn02xoM,1768
+markdown_fenced_code_tabs_next-1.1.0.dist-info/LICENSE,sha256=u1jrzEYLKLDW1clCZLnrS-6RimdTzCP-deyMRdgHxdc,1096
+markdown_fenced_code_tabs_next-1.1.0.dist-info/METADATA,sha256=p-ghSaudvi9HDPw0eQTOItUcZO7Bb9L284Qwf9tZCVk,1165
+markdown_fenced_code_tabs_next-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+markdown_fenced_code_tabs_next-1.1.0.dist-info/top_level.txt,sha256=Gs_QakCelKfcgoNVE0ooAzuytP0Xf6KO-NwIwzQreMg,31
+markdown_fenced_code_tabs_next-1.1.0.dist-info/RECORD,,
