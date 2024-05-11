@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+colourablenessz/__init__.py
+colourablenessz/main.py
+colourablenessz.egg-info/PKG-INFO
+colourablenessz.egg-info/SOURCES.txt
+colourablenessz.egg-info/dependency_links.txt
+colourablenessz.egg-info/requires.txt
+colourablenessz.egg-info/top_level.txt
