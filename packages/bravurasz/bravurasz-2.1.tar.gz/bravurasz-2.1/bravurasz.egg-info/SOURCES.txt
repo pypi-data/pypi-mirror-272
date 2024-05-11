@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bravurasz/__init__.py
+bravurasz/main.py
+bravurasz.egg-info/PKG-INFO
+bravurasz.egg-info/SOURCES.txt
+bravurasz.egg-info/dependency_links.txt
+bravurasz.egg-info/requires.txt
+bravurasz.egg-info/top_level.txt
