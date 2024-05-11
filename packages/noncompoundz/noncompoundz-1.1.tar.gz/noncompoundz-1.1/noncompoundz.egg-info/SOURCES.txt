@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+noncompoundz/__init__.py
+noncompoundz/main.py
+noncompoundz.egg-info/PKG-INFO
+noncompoundz.egg-info/SOURCES.txt
+noncompoundz.egg-info/dependency_links.txt
+noncompoundz.egg-info/requires.txt
+noncompoundz.egg-info/top_level.txt
