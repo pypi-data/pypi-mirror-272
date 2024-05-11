@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: appparabuscarfotodeperfilgit
+Version: 0.1
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/RafaRissatto/Teste.git
+Author: Rafael Rissatto
+Author-email: rafaelrissatto9@gmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Teste2
+Fazendo meu primeiro Pack

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+appparabuscarfotodeperfilgit/__init__.py
+appparabuscarfotodeperfilgit/gitfoto.py
+appparabuscarfotodeperfilgit/test_pytest.py
+appparabuscarfotodeperfilgit.egg-info/PKG-INFO
+appparabuscarfotodeperfilgit.egg-info/SOURCES.txt
+appparabuscarfotodeperfilgit.egg-info/dependency_links.txt
+appparabuscarfotodeperfilgit.egg-info/not-zip-safe
+appparabuscarfotodeperfilgit.egg-info/requires.txt
+appparabuscarfotodeperfilgit.egg-info/top_level.txt
