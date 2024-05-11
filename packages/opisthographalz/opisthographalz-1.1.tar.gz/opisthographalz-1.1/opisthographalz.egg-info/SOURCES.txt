@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+opisthographalz/__init__.py
+opisthographalz/main.py
+opisthographalz.egg-info/PKG-INFO
+opisthographalz.egg-info/SOURCES.txt
+opisthographalz.egg-info/dependency_links.txt
+opisthographalz.egg-info/requires.txt
+opisthographalz.egg-info/top_level.txt
