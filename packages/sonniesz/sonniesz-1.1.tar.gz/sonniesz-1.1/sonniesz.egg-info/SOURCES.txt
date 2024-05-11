@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sonniesz/__init__.py
+sonniesz/main.py
+sonniesz.egg-info/PKG-INFO
+sonniesz.egg-info/SOURCES.txt
+sonniesz.egg-info/dependency_links.txt
+sonniesz.egg-info/requires.txt
+sonniesz.egg-info/top_level.txt
