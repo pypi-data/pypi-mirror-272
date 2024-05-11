@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+attingez/__init__.py
+attingez/main.py
+attingez.egg-info/PKG-INFO
+attingez.egg-info/SOURCES.txt
+attingez.egg-info/dependency_links.txt
+attingez.egg-info/requires.txt
+attingez.egg-info/top_level.txt
