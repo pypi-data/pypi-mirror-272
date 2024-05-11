@@ -1,0 +1,39 @@
+{
+  "properties": {
+    "files": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Files",
+      "type": "array"
+    },
+    "output": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Output"
+    },
+    "separator": {
+      "default": "\n",
+      "title": "Separator",
+      "type": "string"
+    }
+  },
+  "required": [
+    "files"
+  ],
+  "title": "Config",
+  "type": "object"
+}
