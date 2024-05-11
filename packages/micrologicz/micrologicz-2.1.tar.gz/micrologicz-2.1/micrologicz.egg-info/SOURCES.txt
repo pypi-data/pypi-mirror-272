@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+micrologicz/__init__.py
+micrologicz/main.py
+micrologicz.egg-info/PKG-INFO
+micrologicz.egg-info/SOURCES.txt
+micrologicz.egg-info/dependency_links.txt
+micrologicz.egg-info/requires.txt
+micrologicz.egg-info/top_level.txt
