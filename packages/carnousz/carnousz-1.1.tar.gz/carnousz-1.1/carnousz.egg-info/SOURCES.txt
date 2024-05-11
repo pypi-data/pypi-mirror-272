@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+carnousz/__init__.py
+carnousz/main.py
+carnousz.egg-info/PKG-INFO
+carnousz.egg-info/SOURCES.txt
+carnousz.egg-info/dependency_links.txt
+carnousz.egg-info/requires.txt
+carnousz.egg-info/top_level.txt
