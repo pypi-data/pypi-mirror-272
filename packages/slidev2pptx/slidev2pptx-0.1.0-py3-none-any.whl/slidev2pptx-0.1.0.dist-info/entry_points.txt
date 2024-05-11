@@ -1,0 +1,3 @@
+[console_scripts]
+slidev2pptx=slidev2pptx.cli:cli
+
