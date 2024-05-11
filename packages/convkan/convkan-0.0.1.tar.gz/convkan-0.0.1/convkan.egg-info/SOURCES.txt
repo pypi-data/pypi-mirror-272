@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+convkan/__init__.py
+convkan/convkan_layer.py
+convkan/kanlinear.py
+convkan/layernorm2d.py
+convkan.egg-info/PKG-INFO
+convkan.egg-info/SOURCES.txt
+convkan.egg-info/dependency_links.txt
+convkan.egg-info/requires.txt
+convkan.egg-info/top_level.txt
+tests/__init__.py
+tests/test_convkan.py
