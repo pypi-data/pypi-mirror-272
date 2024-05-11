@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bywardz/__init__.py
+bywardz/main.py
+bywardz.egg-info/PKG-INFO
+bywardz.egg-info/SOURCES.txt
+bywardz.egg-info/dependency_links.txt
+bywardz.egg-info/requires.txt
+bywardz.egg-info/top_level.txt
