@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+litholapaxyz/__init__.py
+litholapaxyz/main.py
+litholapaxyz.egg-info/PKG-INFO
+litholapaxyz.egg-info/SOURCES.txt
+litholapaxyz.egg-info/dependency_links.txt
+litholapaxyz.egg-info/requires.txt
+litholapaxyz.egg-info/top_level.txt
