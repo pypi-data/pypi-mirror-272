@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+meningocephalitisz/__init__.py
+meningocephalitisz/main.py
+meningocephalitisz.egg-info/PKG-INFO
+meningocephalitisz.egg-info/SOURCES.txt
+meningocephalitisz.egg-info/dependency_links.txt
+meningocephalitisz.egg-info/requires.txt
+meningocephalitisz.egg-info/top_level.txt
