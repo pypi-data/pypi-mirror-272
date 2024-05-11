@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ai-diagnosis
+Version: 0.0.1
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pytorch ==2.1.1
+Requires-Dist: torchvision ==0.16.1
+Requires-Dist: torchaudio ==2.1.1
+Requires-Dist: pytorch-cuda ==11.8
+Requires-Dist: numpy ==1.26.0
+Requires-Dist: pandas ==2.1.1
+Requires-Dist: seaborn ==0.13.2
+Requires-Dist: scipy ==1.11.4
+Requires-Dist: matplotlib ==3.8.0
+Requires-Dist: scikit-learn ==1.3.0
+
