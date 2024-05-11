@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: zp_data
+Version: 0.1.0
+Summary: A package for fetching data from Zwiftpower
+Home-page: https://github.com/puckdoug/zp_data
+Author: Doug Morris
+Author-email: "Doug Morris" <doug@mhost.com>
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx >=0.27.0
+Requires-Dist: beautifulsoup4 >=4.12.3
+Requires-Dist: keyring >=25.2.0
+Requires-Dist: lxml >=5.2.1
+
+# zp_data
+
+A python library for fetching data from zwiftpower
+
+## installation
+
+1. Install this package
+2. Install the requirements
+
+```sh
+pip install -r requirements.txt
+```
+
+3. Set up your keyring. You may want to use a separate account on zwiftpower for this.
+
+```sh
+keyring set zp_data username
+keyring set zp_data password
+```
+
+4. Run the downloader
+
+```sh
+  PYTHONPATH=`pwd`/src python src/zp_data/zp.py
+```
+
+## Cyclist example
+
+```shell
+PYTHONPATH=`pwd`/src python src/zp_data/cyclist.py -v -r <zwift_id>
+```
+
+## Team example
+
+```shell
+PYTHONPATH=`pwd`/src python src/zp_data/team.py -v -r <team_id>
+```
+
+## Signup example
+
+```shell
+PYTHONPATH=`pwd`/src python src/zp_data/signup.py -v -r <race_id>
+```
+
+## Result example
+
+```shell
+PYTHONPATH=`pwd`/src python src/zp_data/result.py -v -r <race_id>
+```
+
+## Primes example
+
+```shell
+PYTHONPATH=`pwd`/src python src/zp_data/primes.py -v -r <race_id>
+```
