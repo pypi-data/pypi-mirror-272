@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+riotocracyz/__init__.py
+riotocracyz/main.py
+riotocracyz.egg-info/PKG-INFO
+riotocracyz.egg-info/SOURCES.txt
+riotocracyz.egg-info/dependency_links.txt
+riotocracyz.egg-info/requires.txt
+riotocracyz.egg-info/top_level.txt
