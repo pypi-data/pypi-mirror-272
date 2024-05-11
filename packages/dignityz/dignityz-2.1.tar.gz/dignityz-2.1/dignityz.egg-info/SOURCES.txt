@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dignityz/__init__.py
+dignityz/main.py
+dignityz.egg-info/PKG-INFO
+dignityz.egg-info/SOURCES.txt
+dignityz.egg-info/dependency_links.txt
+dignityz.egg-info/requires.txt
+dignityz.egg-info/top_level.txt
