@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+moldersz/__init__.py
+moldersz/main.py
+moldersz.egg-info/PKG-INFO
+moldersz.egg-info/SOURCES.txt
+moldersz.egg-info/dependency_links.txt
+moldersz.egg-info/requires.txt
+moldersz.egg-info/top_level.txt
