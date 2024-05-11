@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+incultivatedz/__init__.py
+incultivatedz/main.py
+incultivatedz.egg-info/PKG-INFO
+incultivatedz.egg-info/SOURCES.txt
+incultivatedz.egg-info/dependency_links.txt
+incultivatedz.egg-info/requires.txt
+incultivatedz.egg-info/top_level.txt
