@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+equilaterz/__init__.py
+equilaterz/main.py
+equilaterz.egg-info/PKG-INFO
+equilaterz.egg-info/SOURCES.txt
+equilaterz.egg-info/dependency_links.txt
+equilaterz.egg-info/requires.txt
+equilaterz.egg-info/top_level.txt
