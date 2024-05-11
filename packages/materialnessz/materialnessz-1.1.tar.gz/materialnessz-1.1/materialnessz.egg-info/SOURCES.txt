@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+materialnessz/__init__.py
+materialnessz/main.py
+materialnessz.egg-info/PKG-INFO
+materialnessz.egg-info/SOURCES.txt
+materialnessz.egg-info/dependency_links.txt
+materialnessz.egg-info/requires.txt
+materialnessz.egg-info/top_level.txt
