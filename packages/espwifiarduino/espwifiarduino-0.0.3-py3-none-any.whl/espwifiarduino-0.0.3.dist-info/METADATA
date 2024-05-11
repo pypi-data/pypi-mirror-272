@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: espwifiarduino
+Version: 0.0.3
+Summary: espwifiarduino python lib
+Home-page: https://github.com/2taras/espwifiarduino_py_lib
+Author: Taras E
+Author-email: 2taras2006@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: websockets
+
+UNKNOWN
+

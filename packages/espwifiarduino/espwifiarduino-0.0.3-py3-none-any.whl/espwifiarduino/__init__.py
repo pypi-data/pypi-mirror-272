@@ -1,0 +1,1 @@
+from espwifiarduino.ard_main import ArduinoVars
