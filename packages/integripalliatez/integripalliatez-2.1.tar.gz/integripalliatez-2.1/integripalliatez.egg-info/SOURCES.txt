@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+integripalliatez/__init__.py
+integripalliatez/main.py
+integripalliatez.egg-info/PKG-INFO
+integripalliatez.egg-info/SOURCES.txt
+integripalliatez.egg-info/dependency_links.txt
+integripalliatez.egg-info/requires.txt
+integripalliatez.egg-info/top_level.txt
