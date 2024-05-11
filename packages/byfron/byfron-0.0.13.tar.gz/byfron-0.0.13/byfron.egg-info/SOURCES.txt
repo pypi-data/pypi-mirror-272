@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+byfron.egg-info/PKG-INFO
+byfron.egg-info/SOURCES.txt
+byfron.egg-info/dependency_links.txt
+byfron.egg-info/requires.txt
+byfron.egg-info/top_level.txt
+vidstream/__init__.py
+vidstream/audio.py
+vidstream/streaming.py
