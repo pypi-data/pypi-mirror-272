@@ -1,0 +1,3 @@
+[console_scripts]
+radio = src.__main__:start
+tmuxradio = src.__main__:start
