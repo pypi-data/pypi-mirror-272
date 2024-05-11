@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fulsamicz/__init__.py
+fulsamicz/main.py
+fulsamicz.egg-info/PKG-INFO
+fulsamicz.egg-info/SOURCES.txt
+fulsamicz.egg-info/dependency_links.txt
+fulsamicz.egg-info/requires.txt
+fulsamicz.egg-info/top_level.txt
