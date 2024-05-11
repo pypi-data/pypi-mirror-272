@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+capsulogenousz/__init__.py
+capsulogenousz/main.py
+capsulogenousz.egg-info/PKG-INFO
+capsulogenousz.egg-info/SOURCES.txt
+capsulogenousz.egg-info/dependency_links.txt
+capsulogenousz.egg-info/requires.txt
+capsulogenousz.egg-info/top_level.txt
