@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "GrandTourer"
+version = "0.1.7"
+description = "GrandTourer is a CLI tool for easily launching GUI applications on MacOS with a two letter command: gt"
+license = "MIT"
+authors = ["WillDenby <119456795+WillDenby@users.noreply.github.com>"]
+readme = "README.md" 
+repository = "https://github.com/WillDenby/GrandTourer"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+
+[tool.poetry.scripts]
+gt = "grandtourer.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
