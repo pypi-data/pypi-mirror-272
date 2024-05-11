@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonprotestingz/__init__.py
+nonprotestingz/main.py
+nonprotestingz.egg-info/PKG-INFO
+nonprotestingz.egg-info/SOURCES.txt
+nonprotestingz.egg-info/dependency_links.txt
+nonprotestingz.egg-info/requires.txt
+nonprotestingz.egg-info/top_level.txt
