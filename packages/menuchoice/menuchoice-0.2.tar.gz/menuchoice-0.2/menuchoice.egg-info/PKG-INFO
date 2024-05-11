@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: menuchoice
+Version: 0.2
+Summary: Command line menu selector.
+Home-page: https://github.com/xyzpw/menuchoice/
+Author: xyzpw
+Maintainer: xyzpw
+License: MIT
+Keywords: menu selector,item selector,ansi
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+
+# menuchoice
+Command line menu selector
+
+## Usage
+Creating a selection menu:
+```python
+import menuchoice
+myMenu = menuchoice.MenuSelector(items=[
+    "Hip-hop",
+    "Rock",
+    "Pop",
+    "Country",
+    "EDM",
+], title="Most Streamed Music USA", description="Select a genre of music.")
+```
+> [!HINT]
+> items can be given brief descriptions if they are type dictionary.
+> `{"option": "brief description"}`
+
+Selecting an option:
+```python
+myMenu.prompt_select() # basic user-input method
+myMenu.arrow_select()
+```
+Output:
+```python
+[(4, "EDM")]
+```
+Additionally, multiple options can be selected
+```python
+# no less than 2, no more than 3
+myMenu.arrow_select(max_items=(2, 3))
+```
+Output:
+```python
+[(4, "EDM"), (1, "Rock")]
+```
