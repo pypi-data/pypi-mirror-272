@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+betanglementz/__init__.py
+betanglementz/main.py
+betanglementz.egg-info/PKG-INFO
+betanglementz.egg-info/SOURCES.txt
+betanglementz.egg-info/dependency_links.txt
+betanglementz.egg-info/requires.txt
+betanglementz.egg-info/top_level.txt
