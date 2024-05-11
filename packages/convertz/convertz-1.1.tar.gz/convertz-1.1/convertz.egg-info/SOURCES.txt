@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+convertz/__init__.py
+convertz/main.py
+convertz.egg-info/PKG-INFO
+convertz.egg-info/SOURCES.txt
+convertz.egg-info/dependency_links.txt
+convertz.egg-info/requires.txt
+convertz.egg-info/top_level.txt
