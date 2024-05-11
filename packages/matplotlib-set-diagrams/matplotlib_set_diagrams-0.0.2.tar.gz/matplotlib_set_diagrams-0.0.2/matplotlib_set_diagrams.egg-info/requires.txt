@@ -1,0 +1,17 @@
+numpy
+scipy
+matplotlib
+shapely
+wordcloud
+
+[docs]
+sphinx
+sphinx-rtd-theme
+numpydoc
+sphinx-gallery
+Pillow
+
+[tests]
+pytest
+pytest-mpl
+pytest-cov

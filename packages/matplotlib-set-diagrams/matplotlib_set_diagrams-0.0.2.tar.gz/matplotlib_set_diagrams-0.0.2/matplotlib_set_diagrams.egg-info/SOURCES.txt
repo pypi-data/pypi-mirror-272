@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+matplotlib_set_diagrams/__init__.py
+matplotlib_set_diagrams/_diagram_classes.py
+matplotlib_set_diagrams/_utils.py
+matplotlib_set_diagrams.egg-info/PKG-INFO
+matplotlib_set_diagrams.egg-info/SOURCES.txt
+matplotlib_set_diagrams.egg-info/dependency_links.txt
+matplotlib_set_diagrams.egg-info/requires.txt
+matplotlib_set_diagrams.egg-info/top_level.txt
+tests/test_diagram_classes.py
+tests/test_utils.py
