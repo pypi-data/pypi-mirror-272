@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+onychoschiziaz/__init__.py
+onychoschiziaz/main.py
+onychoschiziaz.egg-info/PKG-INFO
+onychoschiziaz.egg-info/SOURCES.txt
+onychoschiziaz.egg-info/dependency_links.txt
+onychoschiziaz.egg-info/requires.txt
+onychoschiziaz.egg-info/top_level.txt
