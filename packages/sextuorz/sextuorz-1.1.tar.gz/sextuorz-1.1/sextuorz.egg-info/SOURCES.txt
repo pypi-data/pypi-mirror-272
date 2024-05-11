@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sextuorz/__init__.py
+sextuorz/main.py
+sextuorz.egg-info/PKG-INFO
+sextuorz.egg-info/SOURCES.txt
+sextuorz.egg-info/dependency_links.txt
+sextuorz.egg-info/requires.txt
+sextuorz.egg-info/top_level.txt
