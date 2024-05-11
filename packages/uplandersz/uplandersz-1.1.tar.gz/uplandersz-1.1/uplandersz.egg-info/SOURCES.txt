@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+uplandersz/__init__.py
+uplandersz/main.py
+uplandersz.egg-info/PKG-INFO
+uplandersz.egg-info/SOURCES.txt
+uplandersz.egg-info/dependency_links.txt
+uplandersz.egg-info/requires.txt
+uplandersz.egg-info/top_level.txt
