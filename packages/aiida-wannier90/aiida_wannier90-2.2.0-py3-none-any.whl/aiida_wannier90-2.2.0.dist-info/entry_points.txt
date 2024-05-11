@@ -1,0 +1,11 @@
+[aiida.calculations]
+wannier90.postw90=aiida_wannier90.calculations:Postw90Calculation
+wannier90.wannier90=aiida_wannier90.calculations:Wannier90Calculation
+
+[aiida.parsers]
+wannier90.postw90=aiida_wannier90.parsers:Postw90Parser
+wannier90.wannier90=aiida_wannier90.parsers:Wannier90Parser
+
+[aiida.workflows]
+wannier90.minimal=aiida_wannier90.workflows.minimal:MinimalW90WorkChain
+
