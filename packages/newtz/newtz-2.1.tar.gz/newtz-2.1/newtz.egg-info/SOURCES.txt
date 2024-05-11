@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+newtz/__init__.py
+newtz/main.py
+newtz.egg-info/PKG-INFO
+newtz.egg-info/SOURCES.txt
+newtz.egg-info/dependency_links.txt
+newtz.egg-info/requires.txt
+newtz.egg-info/top_level.txt
