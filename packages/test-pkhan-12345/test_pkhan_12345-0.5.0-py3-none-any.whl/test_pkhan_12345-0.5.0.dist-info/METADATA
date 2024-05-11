@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: test-pkhan-12345
+Version: 0.5.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.13.3
+Requires-Dist: scipy >=0.19.1
+
+life is beautiful
+
+
+
+lets make a new project
