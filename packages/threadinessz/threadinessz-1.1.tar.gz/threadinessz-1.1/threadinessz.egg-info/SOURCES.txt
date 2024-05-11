@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+threadinessz/__init__.py
+threadinessz/main.py
+threadinessz.egg-info/PKG-INFO
+threadinessz.egg-info/SOURCES.txt
+threadinessz.egg-info/dependency_links.txt
+threadinessz.egg-info/requires.txt
+threadinessz.egg-info/top_level.txt
