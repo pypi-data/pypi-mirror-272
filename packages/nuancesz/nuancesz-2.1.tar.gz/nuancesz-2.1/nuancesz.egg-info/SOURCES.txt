@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nuancesz/__init__.py
+nuancesz/main.py
+nuancesz.egg-info/PKG-INFO
+nuancesz.egg-info/SOURCES.txt
+nuancesz.egg-info/dependency_links.txt
+nuancesz.egg-info/requires.txt
+nuancesz.egg-info/top_level.txt
