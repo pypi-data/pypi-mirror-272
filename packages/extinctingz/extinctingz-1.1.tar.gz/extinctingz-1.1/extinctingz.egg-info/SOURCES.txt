@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+extinctingz/__init__.py
+extinctingz/main.py
+extinctingz.egg-info/PKG-INFO
+extinctingz.egg-info/SOURCES.txt
+extinctingz.egg-info/dependency_links.txt
+extinctingz.egg-info/requires.txt
+extinctingz.egg-info/top_level.txt
