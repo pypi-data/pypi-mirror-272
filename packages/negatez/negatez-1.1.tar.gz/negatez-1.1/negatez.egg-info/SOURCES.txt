@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+negatez/__init__.py
+negatez/main.py
+negatez.egg-info/PKG-INFO
+negatez.egg-info/SOURCES.txt
+negatez.egg-info/dependency_links.txt
+negatez.egg-info/requires.txt
+negatez.egg-info/top_level.txt
