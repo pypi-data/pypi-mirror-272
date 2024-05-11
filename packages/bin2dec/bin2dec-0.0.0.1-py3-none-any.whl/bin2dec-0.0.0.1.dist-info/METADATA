@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bin2dec
+Version: 0.0.0.1
+Summary: Convert binary <- -> decimal
+Author: Deveclipse
+Author-email: Kokonin.1@seznam.cz
+Keywords: binary,decimal,binary to decimal,bin2dec,dec2bin,decimal to binary
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+Usage:
+from bin2dec import Bin2Dec, Dec2Bin
+
+print(Bin2Dec(1010)) # output is 10
+print(Dec2Bin(10)) # output is 1010
