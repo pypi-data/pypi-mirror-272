@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+marketablez/__init__.py
+marketablez/main.py
+marketablez.egg-info/PKG-INFO
+marketablez.egg-info/SOURCES.txt
+marketablez.egg-info/dependency_links.txt
+marketablez.egg-info/requires.txt
+marketablez.egg-info/top_level.txt
