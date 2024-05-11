@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hymningz/__init__.py
+hymningz/main.py
+hymningz.egg-info/PKG-INFO
+hymningz.egg-info/SOURCES.txt
+hymningz.egg-info/dependency_links.txt
+hymningz.egg-info/requires.txt
+hymningz.egg-info/top_level.txt
