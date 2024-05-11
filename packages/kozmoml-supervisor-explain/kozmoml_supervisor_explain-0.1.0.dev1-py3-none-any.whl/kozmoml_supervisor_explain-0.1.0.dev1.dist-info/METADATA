@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: kozmoml-supervisor-explain
+Version: 0.1.0.dev1
+Summary: Supervisor-Explain runtime for KozmoML
+License: Apache-2.0
+Author: KozmoAI
+Author-email: developers@kozmoai.io
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: kozmo-supervisor[shap,tensorflow]
+Requires-Dist: kozmoml
+Requires-Dist: kozmoml_lightgbm
+Requires-Dist: kozmoml_sklearn
+Requires-Dist: kozmoml_xgboost
+Requires-Dist: orjson
+Requires-Dist: pydantic (<2.0.0)
+Description-Content-Type: text/markdown
+
+# Supervisor-Explain runtime for KozmoML
+
+This package provides a KozmoML runtime compatible with Supervisor-Explain.
+
+## Usage
+
+You can install the runtime, alongside `kozmoml`, as:
+
+```bash
+pip install kozmoml kozmoml-supervisor-explain
+```
+
