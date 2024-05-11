@@ -1,0 +1,139 @@
+import pandas as pd
+from datetime import datetime
+from lifelines import KaplanMeierFitter
+
+def plot_km_curves(time_list, event_list):
+    """
+    Creates a Kaplan-Meier plot.
+
+    Parameters:
+    time_list (list of int): time in months until censoring of data
+    event_list (list of int): 1 or 0 to specify if event occurred
+    """
+    kmf = KaplanMeierFitter()
+    kmf.fit(time_list, event_observed=event_list)
+
+    kmf.plot()
+
+    plt.xlabel("Time")
+    plt.ylabel("Survival Probability")
+    plt.title("Kaplan-Meier Curve")
+    plt.show()
+
+
+def kaplan_meier_data(data, mrn_list, icd10_code, start_tag, event_tag_list):
+    """
+    Calculate time in months until event or data censoring.
+
+    Parameters:
+    data (DataFrame): dataframe with csv data
+    mrn_list (list of str): list of patient MRNs
+    icd10_code (str): icd10 code
+    start_tag (str): starting event
+    event_tag_list (list of str): list of possible events
+
+    Returns:
+    time_list (list of int): time in months until censoring of data
+    event_list (list of int): 1 or 0 to specify if event occurred
+    """
+
+    time_list = []
+    event_list = []
+
+    for pt in mrn_list:
+        start, last, event = pt_dates_and_events(
+            data, pt, icd10_code, start_tag, event_tag_list
+        )
+        if not start == None:    # checking if patient has a starting event
+            time_diff = time_in_months(start, last)
+            time_list.append(time_diff)
+            event_list.append(event)
+
+    return time_list, event_list
+
+
+def time_in_months(start_date, end_date):
+    """
+    Calculate the number of months between start and end dates.
+
+    Parameters:
+    start_date (str): starting date in the format YYYY-MM-DD
+    end_date (str): end date in the format YYYY-MM-DD
+
+    Returns:
+    months (int): number of months (rounded down) between start and end dates
+    """
+    start = datetime.strptime(start_date, "%Y-%m-%d")
+    end = datetime.strptime(end_date, "%Y-%m-%d")
+
+    months = (end.year - start.year) * 12 + end.month - start.month
+    if start.day > end.day:
+        months -= 1  # round down if not a full month
+
+    return months
+
+
+def pt_dates_and_events(df, mrn, icd10_code, start_tag, event_tag_list):
+    """
+    Determines starting date, date of event occurence or data censoring, and whether
+    event occured or data was censored
+
+    Parameters:
+    data (DataFrame): dataframe with csv data
+    mrn (str): patient MRN
+    icd10_code (str): icd10 code
+    start_tag (str): starting event
+    event_tag_list (list of str): list of possible events
+
+    Returns:
+    start (str): date of starting event; None if no starting event
+    end (str): earliest date of event occurence or latest known date; None if no
+        starting event
+    event (int): 1 if event occurred, 0 if data censored; None if no starting event
+    """
+
+    df_pt = df[[str(x) == mrn for x in df["mrn"]]]
+    if not df_pt[
+        [
+            x == icd10_code and y == start_tag
+            for x, y in zip(df_pt["icd10"], df_pt["tag"])
+        ]
+    ].empty:     # checking to make sure patient has a starting event
+        start = df_pt[
+            [
+                x == icd10_code and y == start_tag and z == "date"
+                for x, y, z in zip(df_pt["icd10"], df_pt["tag"], df_pt["field"])
+            ]
+        ]["value"].item()
+
+        # get last known date for patient
+        last = df_pt[df_pt["field"] == "date"].dropna()["value"].sort_values().iloc[-1]
+        event = 0
+
+        # check if patient has any events, update accordingly
+        for event_tag in event_tag_list:
+            if not df_pt[
+                [
+                    x == icd10_code and y == event_tag
+                    for x, y in zip(df_pt["icd10"], df_pt["tag"])
+                ]
+            ].empty:
+                event = 1
+                date = df_pt[
+                    [
+                        x == icd10_code and y == event_tag and z == "date"
+                        for x, y, z in zip(df_pt["icd10"], df_pt["tag"], df_pt["field"])
+                    ]
+                ]["value"].item()
+                last = (
+                    date
+                    if datetime.strptime(last, "%Y-%m-%d")
+                    > datetime.strptime(date, "%Y-%m-%d")
+                    else date
+                )
+    else:     # if patient does not have a starting event, return Nones
+        start = None
+        last = None
+        event = None
+
+    return start, last, event
