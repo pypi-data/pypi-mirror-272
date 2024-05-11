@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sgn-ts/__init__.py
+src/sgn-ts/apps/__init__.py
+src/sgn-ts/base/__init__.py
+src/sgn-ts/sinks/__init__.py
+src/sgn-ts/sources/__init__.py
+src/sgn-ts/transforms/__init__.py
+src/sgn_ts.egg-info/PKG-INFO
+src/sgn_ts.egg-info/SOURCES.txt
+src/sgn_ts.egg-info/dependency_links.txt
+src/sgn_ts.egg-info/top_level.txt
