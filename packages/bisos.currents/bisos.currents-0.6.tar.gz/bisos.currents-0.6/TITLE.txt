@@ -1,0 +1,3 @@
+bisos.currents: Currents Information Configuration Parameters For BISOS and BISOS Pkgs.
+
+
