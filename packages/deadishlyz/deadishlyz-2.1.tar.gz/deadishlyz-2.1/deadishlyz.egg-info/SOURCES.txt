@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+deadishlyz/__init__.py
+deadishlyz/main.py
+deadishlyz.egg-info/PKG-INFO
+deadishlyz.egg-info/SOURCES.txt
+deadishlyz.egg-info/dependency_links.txt
+deadishlyz.egg-info/requires.txt
+deadishlyz.egg-info/top_level.txt
