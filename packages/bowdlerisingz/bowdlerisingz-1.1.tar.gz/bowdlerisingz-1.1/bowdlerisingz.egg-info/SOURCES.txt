@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bowdlerisingz/__init__.py
+bowdlerisingz/main.py
+bowdlerisingz.egg-info/PKG-INFO
+bowdlerisingz.egg-info/SOURCES.txt
+bowdlerisingz.egg-info/dependency_links.txt
+bowdlerisingz.egg-info/requires.txt
+bowdlerisingz.egg-info/top_level.txt
