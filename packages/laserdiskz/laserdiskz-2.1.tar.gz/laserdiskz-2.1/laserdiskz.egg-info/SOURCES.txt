@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+laserdiskz/__init__.py
+laserdiskz/main.py
+laserdiskz.egg-info/PKG-INFO
+laserdiskz.egg-info/SOURCES.txt
+laserdiskz.egg-info/dependency_links.txt
+laserdiskz.egg-info/requires.txt
+laserdiskz.egg-info/top_level.txt
