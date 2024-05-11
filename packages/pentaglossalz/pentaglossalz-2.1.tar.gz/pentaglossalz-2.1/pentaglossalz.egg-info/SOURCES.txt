@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pentaglossalz/__init__.py
+pentaglossalz/main.py
+pentaglossalz.egg-info/PKG-INFO
+pentaglossalz.egg-info/SOURCES.txt
+pentaglossalz.egg-info/dependency_links.txt
+pentaglossalz.egg-info/requires.txt
+pentaglossalz.egg-info/top_level.txt
