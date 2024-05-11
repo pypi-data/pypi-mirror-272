@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/recalling_machine/__init__.py
+src/recalling_machine/githf.py
+src/recalling_machine/machina.yaml
+src/recalling_machine.egg-info/PKG-INFO
+src/recalling_machine.egg-info/SOURCES.txt
+src/recalling_machine.egg-info/dependency_links.txt
+src/recalling_machine.egg-info/requires.txt
+src/recalling_machine.egg-info/top_level.txt
