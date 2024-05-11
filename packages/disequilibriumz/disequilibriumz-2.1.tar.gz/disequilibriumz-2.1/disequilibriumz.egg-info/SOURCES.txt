@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+disequilibriumz/__init__.py
+disequilibriumz/main.py
+disequilibriumz.egg-info/PKG-INFO
+disequilibriumz.egg-info/SOURCES.txt
+disequilibriumz.egg-info/dependency_links.txt
+disequilibriumz.egg-info/requires.txt
+disequilibriumz.egg-info/top_level.txt
