@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hallooz/__init__.py
+hallooz/main.py
+hallooz.egg-info/PKG-INFO
+hallooz.egg-info/SOURCES.txt
+hallooz.egg-info/dependency_links.txt
+hallooz.egg-info/requires.txt
+hallooz.egg-info/top_level.txt
