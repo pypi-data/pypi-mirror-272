@@ -1,0 +1,40 @@
+from typing import Optional, TYPE_CHECKING
+
+from PySide6.QtWidgets import (
+    QListWidget, QListWidgetItem, QFrame,
+    QHBoxLayout, QLabel
+)
+from PySide6.QtCore import Qt
+
+from modernqt.src.core import Loader
+
+if TYPE_CHECKING:
+    from PySide6.QtWidgets import QWidget
+
+
+class WidgetsList(QFrame):
+    def __init__(
+            self, 
+            size: tuple[int, int] = (600, 400),
+            title: Optional[str] = None,
+            stylesheet: Optional[str] = None,
+            *,
+            parent: Optional["QWidget"] = None,
+    ) -> None:
+        super().__init__(parent)
+
+        self.mainLayout = QHBoxLayout()
+        self.listWidget = QListWidget()
+
+        self.setStyleSheet(Loader.load_file("modernqt/widgets/basic/styles/widgets_list.css"))
+        self.setObjectName("widget-list")
+        self.setFocusPolicy(Qt.FocusPolicy.NoFocus)
+
+        if stylesheet is not None:
+            self.setStyleSheet(self.styleSheet() + stylesheet)
+
+    def add_widget(self, widget) -> None:
+        item = QListWidgetItem()
+        item.setSizeHint(widget.sizeHint())
+        self.listWidget.addItem(item)
+        self.listWidget.setItemWidget(item, widget)
