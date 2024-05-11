@@ -1,0 +1,5 @@
+setup.py
+zhlyr.egg-info/PKG-INFO
+zhlyr.egg-info/SOURCES.txt
+zhlyr.egg-info/dependency_links.txt
+zhlyr.egg-info/top_level.txt
