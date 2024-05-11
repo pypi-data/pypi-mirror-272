@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+misassertionz/__init__.py
+misassertionz/main.py
+misassertionz.egg-info/PKG-INFO
+misassertionz.egg-info/SOURCES.txt
+misassertionz.egg-info/dependency_links.txt
+misassertionz.egg-info/requires.txt
+misassertionz.egg-info/top_level.txt
