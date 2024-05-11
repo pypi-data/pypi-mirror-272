@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+carapacez/__init__.py
+carapacez/main.py
+carapacez.egg-info/PKG-INFO
+carapacez.egg-info/SOURCES.txt
+carapacez.egg-info/dependency_links.txt
+carapacez.egg-info/requires.txt
+carapacez.egg-info/top_level.txt
