@@ -1,0 +1,10 @@
+README.md
+setup.py
+itktool/__init__.py
+itktool/tool.py
+itktool.egg-info/PKG-INFO
+itktool.egg-info/SOURCES.txt
+itktool.egg-info/dependency_links.txt
+itktool.egg-info/entry_points.txt
+itktool.egg-info/top_level.txt
+tests/test_itktool.py
