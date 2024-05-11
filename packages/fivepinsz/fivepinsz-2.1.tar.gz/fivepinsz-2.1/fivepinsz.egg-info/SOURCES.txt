@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fivepinsz/__init__.py
+fivepinsz/main.py
+fivepinsz.egg-info/PKG-INFO
+fivepinsz.egg-info/SOURCES.txt
+fivepinsz.egg-info/dependency_links.txt
+fivepinsz.egg-info/requires.txt
+fivepinsz.egg-info/top_level.txt
