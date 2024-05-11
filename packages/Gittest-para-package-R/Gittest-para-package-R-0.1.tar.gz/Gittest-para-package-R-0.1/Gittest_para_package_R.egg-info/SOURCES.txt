@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+Gittest-para-package-R/__init__.py
+Gittest-para-package-R/gitfoto.py
+Gittest-para-package-R/test_pytest.py
+Gittest_para_package_R.egg-info/PKG-INFO
+Gittest_para_package_R.egg-info/SOURCES.txt
+Gittest_para_package_R.egg-info/dependency_links.txt
+Gittest_para_package_R.egg-info/not-zip-safe
+Gittest_para_package_R.egg-info/requires.txt
+Gittest_para_package_R.egg-info/top_level.txt
