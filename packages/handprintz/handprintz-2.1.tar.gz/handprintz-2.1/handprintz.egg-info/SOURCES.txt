@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+handprintz/__init__.py
+handprintz/main.py
+handprintz.egg-info/PKG-INFO
+handprintz.egg-info/SOURCES.txt
+handprintz.egg-info/dependency_links.txt
+handprintz.egg-info/requires.txt
+handprintz.egg-info/top_level.txt
