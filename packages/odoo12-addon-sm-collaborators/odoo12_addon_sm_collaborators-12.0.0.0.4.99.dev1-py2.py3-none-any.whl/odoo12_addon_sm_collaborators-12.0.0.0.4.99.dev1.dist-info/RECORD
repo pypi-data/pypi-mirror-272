@@ -1,0 +1,14 @@
+odoo/addons/sm_collaborators/__init__.py,sha256=Ax4qLxdb9ATk05MF7cSQ0BdpYCpGVYFy9n4U4zODf9o,46
+odoo/addons/sm_collaborators/__manifest__.py,sha256=B9cd9SrAH_wpWYjdDwihUDJYFj5oelwPr2JZdtgAyzY,662
+odoo/addons/sm_collaborators/models/__init__.py,sha256=1uS28y9mI91Mt5ubqiPOehFzb2BnwNArtP-eZRRsEEk,112
+odoo/addons/sm_collaborators/models/models_sm_collaborator.py,sha256=GynFh_828N1XWcEFIwJfhr_Y9pGv3c1kIF3e-2nYmy0,1873
+odoo/addons/sm_collaborators/models/models_sm_collaborator_fetch_wizard.py,sha256=XuiCoXho_9k9AXZxFuPcxu0Fzs-CPvKgFZ3QFVTRhcY,3273
+odoo/addons/sm_collaborators/security/ir.model.access.csv,sha256=JhwvbqTx4AmYUGNdtXbTppwGhJLhMOirr3fld92MHKI,357
+odoo/addons/sm_collaborators/views/views.xml,sha256=MedDXGZe7BFYCAJCkDM1wPZr9-sbG1RuNOMHhBrHin4,141
+odoo/addons/sm_collaborators/views/views_collaborator.xml,sha256=xqCCizmxlxQjFvyDrVe9OBJyB_RoxBFuUjK7DkuMYeQ,2669
+odoo/addons/sm_collaborators/views/views_collaborator_actions.xml,sha256=4iBQ8vqZbXaBMTiBjUZJT19oMOIKY82YfHjlH4qZpxs,505
+odoo/addons/sm_collaborators/views/views_collaborator_fetch_wizard.xml,sha256=tEbDl3O0OZHNWUMG2wloug5CFS8zESZhlwX0P6n1r6k,1341
+odoo12_addon_sm_collaborators-12.0.0.0.4.99.dev1.dist-info/METADATA,sha256=R22m7GewMmJJlx6gb-e66IZFw2XbVf_D_Vq7tAKPRzE,439
+odoo12_addon_sm_collaborators-12.0.0.0.4.99.dev1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+odoo12_addon_sm_collaborators-12.0.0.0.4.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_sm_collaborators-12.0.0.0.4.99.dev1.dist-info/RECORD,,
