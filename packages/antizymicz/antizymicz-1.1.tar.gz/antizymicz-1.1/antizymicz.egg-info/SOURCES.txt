@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+antizymicz/__init__.py
+antizymicz/main.py
+antizymicz.egg-info/PKG-INFO
+antizymicz.egg-info/SOURCES.txt
+antizymicz.egg-info/dependency_links.txt
+antizymicz.egg-info/requires.txt
+antizymicz.egg-info/top_level.txt
