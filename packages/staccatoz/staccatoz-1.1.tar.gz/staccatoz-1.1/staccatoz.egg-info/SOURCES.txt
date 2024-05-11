@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+staccatoz/__init__.py
+staccatoz/main.py
+staccatoz.egg-info/PKG-INFO
+staccatoz.egg-info/SOURCES.txt
+staccatoz.egg-info/dependency_links.txt
+staccatoz.egg-info/requires.txt
+staccatoz.egg-info/top_level.txt
