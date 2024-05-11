@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+indophilez/__init__.py
+indophilez/main.py
+indophilez.egg-info/PKG-INFO
+indophilez.egg-info/SOURCES.txt
+indophilez.egg-info/dependency_links.txt
+indophilez.egg-info/requires.txt
+indophilez.egg-info/top_level.txt
