@@ -1,0 +1,80 @@
+# TokenCurator 
+
+TokenCurator is a Python library designed to help developers manage and adjust text content to fit within specific token limits of machine learning models, particularly useful for working with models like OpenAI's GPT series. This library includes functionality to smartly truncate text content based on the encoding type and desired token constraints.
+
+## 🌟 Features 
+
+- **Get Tokenizer**: Retrieve the appropriate tokenizer based on a specific encoding type.
+- **Truncate Text to Tokens**: Limit the length of text to a specified number of tokens.
+- **Adjust Text**: Adjust the text to fit within a specified total number of tokens, considering prompt and output token lengths.
+
+## 🔧 Installation 
+
+To install TokenCurator, you will need Python 3.x installed on your system. It is recommended to install this package within a virtual environment.
+
+```bash
+pip install tokencurator  
+```
+
+## 🚀 Usage 
+
+Here's a quick example of how to use TokenCurator:
+
+```python
+from tokencurator.openai import adjust_text
+
+content = "Your very long input text here..."
+prompt_token_length = 100  # Number of tokens for the prompt
+output_token_length = 100  # Number of tokens reserved for the model's output
+max_total_tokens = 2048  # Maximum tokens your model configuration allows
+
+# Adjust the text to fit within the maximum token limit
+adjusted_text = adjust_text(content, prompt_token_length, output_token_length, max_total_tokens, "gpt-3.5-turbo")
+print(adjusted_text)
+```
+
+## 🧪 Testing 
+
+To run tests, you'll need to have `pytest` installed. You can run the tests to ensure everything is working as expected by navigating to the package directory and running:
+
+```bash
+pytest
+```
+
+## 🤖 Supported OpenAI Models 
+
+TokenCurator is designed to work with a variety of OpenAI models, providing robust support for managing tokenization constraints specific to each model. Below is a table listing the supported models and their respective encodings:
+
+| Model Category        | Model Name               | Encoding      |
+|-----------------------|--------------------------|---------------|
+| **Chat Models**       | GPT-4                    | `cl100k_base` |
+|                       | GPT-3.5 Turbo            | `cl100k_base` |
+|                       | GPT-3.5                  | `cl100k_base` |
+|                       | GPT-35 Turbo (Azure)     | `cl100k_base` |
+| **Base Models**       | Davinci-002              | `cl100k_base` |
+|                       | Babbage-002              | `cl100k_base` |
+| **Embedding Models**  | Text Embedding Ada-002   | `cl100k_base` |
+|                       | Text Embedding 3 Small   | `cl100k_base` |
+|                       | Text Embedding 3 Large   | `cl100k_base` |
+| **Deprecated Models** | Text Davinci-003         | `p50k_base`   |
+|                       | Text Davinci-002         | `p50k_base`   |
+|                       | Davinci                  | `r50k_base`   |
+|                       | Curie                    | `r50k_base`   |
+|                       | Babbage                  | `r50k_base`   |
+|                       | Ada                      | `r50k_base`   |
+|                       | Code Davinci-002         | `p50k_base`   |
+|                       | Davinci Codex            | `p50k_base`   |
+|                       | Text Davinci Edit-001    | `p50k_edit`   |
+| **Open Source Models**| GPT-2                    | `gpt2`        |
+
+This table ensures that TokenCurator can seamlessly interface with a wide range of models, helping you manage and adjust tokenization effectively for your specific use case.
+
+## 📚 Additional Resources
+
+For more tools, libraries, and tutorials, visit our official website: [Grade Calculator](https://gradecalculator.ai/).
+
+
+## License 📜
+
+This project is licensed under the Apache 2 License - see the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0.txt) file for details.
+
