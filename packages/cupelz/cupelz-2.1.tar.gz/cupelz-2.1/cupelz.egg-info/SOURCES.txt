@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cupelz/__init__.py
+cupelz/main.py
+cupelz.egg-info/PKG-INFO
+cupelz.egg-info/SOURCES.txt
+cupelz.egg-info/dependency_links.txt
+cupelz.egg-info/requires.txt
+cupelz.egg-info/top_level.txt
