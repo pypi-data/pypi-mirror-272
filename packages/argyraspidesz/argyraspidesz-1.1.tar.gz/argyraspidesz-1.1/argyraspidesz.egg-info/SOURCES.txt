@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+argyraspidesz/__init__.py
+argyraspidesz/main.py
+argyraspidesz.egg-info/PKG-INFO
+argyraspidesz.egg-info/SOURCES.txt
+argyraspidesz.egg-info/dependency_links.txt
+argyraspidesz.egg-info/requires.txt
+argyraspidesz.egg-info/top_level.txt
