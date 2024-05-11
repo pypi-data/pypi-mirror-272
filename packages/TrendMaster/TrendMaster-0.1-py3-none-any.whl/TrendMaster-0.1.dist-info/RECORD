@@ -1,0 +1,11 @@
+trendmaster/__init__.py,sha256=b86O2DnOn0ImL-WZHBTmjuRM2KOI7UeRfdDQ-uzVr0Y,2281
+trendmaster/data_loader.py,sha256=kpp2mrvpmj-qdkCg7D6mvDBs1umXOLie5YNHLKo6ZiQ,2510
+trendmaster/inferencer.py,sha256=5CK2DZh6vTa43nKX1KhuUFBslMuoWYQSxpzcyPMr1n8,3035
+trendmaster/trainer.py,sha256=G1m8JG1NAPPR_qe12XB01PCybZhLCrcUZC6bhsik1f0,5895
+trendmaster/trendmaster.py,sha256=Y0BFmDTWJAMj2dsNAdBEcCfxh9Fq4AJEhVkZg1pBq58,1845
+TrendMaster-0.1.dist-info/LICENSE,sha256=JsYJAUJ7yqa016-QbseZ-F_dzWRZdfx7rttW5_QMSBw,1090
+TrendMaster-0.1.dist-info/METADATA,sha256=Buacg7f2xLi4VNXWjwYPBcqVQSrnlh2avf_ivEgLQLk,11237
+TrendMaster-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TrendMaster-0.1.dist-info/entry_points.txt,sha256=hfqtida0h4p69TsqwG6ZOinklWq4piE9G2-upSLdJ50,50
+TrendMaster-0.1.dist-info/top_level.txt,sha256=fuC0hngRwwzDiIScexATDyvxGkK6VvAWJPY5eS59k5w,12
+TrendMaster-0.1.dist-info/RECORD,,
