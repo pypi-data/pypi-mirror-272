@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+disobligesz/__init__.py
+disobligesz/main.py
+disobligesz.egg-info/PKG-INFO
+disobligesz.egg-info/SOURCES.txt
+disobligesz.egg-info/dependency_links.txt
+disobligesz.egg-info/requires.txt
+disobligesz.egg-info/top_level.txt
