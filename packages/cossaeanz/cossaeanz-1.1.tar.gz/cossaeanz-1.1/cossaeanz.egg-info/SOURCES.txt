@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cossaeanz/__init__.py
+cossaeanz/main.py
+cossaeanz.egg-info/PKG-INFO
+cossaeanz.egg-info/SOURCES.txt
+cossaeanz.egg-info/dependency_links.txt
+cossaeanz.egg-info/requires.txt
+cossaeanz.egg-info/top_level.txt
