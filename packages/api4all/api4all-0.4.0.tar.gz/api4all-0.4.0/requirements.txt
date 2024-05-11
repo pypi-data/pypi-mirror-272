@@ -1,0 +1,10 @@
+anthropic==0.19.1
+fireworks-ai==0.13.0
+groq==0.4.2
+mistralai==0.1.6
+openai==1.13.3
+python-dotenv==1.0.1
+replicate==0.24.0
+requests==2.31.0
+together==0.2.11
+google-generativeai==0.4.1
