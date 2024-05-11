@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: control_op_scnu
+Version: 0.1.0
+Summary: 服务于机器人部
+Home-page: https://github.com/cpw041130/control_op_scnu
+Author: cpw
+Author-email: 1994777538@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: dependency1
+Requires-Dist: dependency2>=1.0.0
