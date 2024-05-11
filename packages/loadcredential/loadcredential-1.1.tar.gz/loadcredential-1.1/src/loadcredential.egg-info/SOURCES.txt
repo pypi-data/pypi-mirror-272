@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/loadcredential/__init__.py
+src/loadcredential/credentials.py
+src/loadcredential.egg-info/PKG-INFO
+src/loadcredential.egg-info/SOURCES.txt
+src/loadcredential.egg-info/dependency_links.txt
+src/loadcredential.egg-info/top_level.txt
