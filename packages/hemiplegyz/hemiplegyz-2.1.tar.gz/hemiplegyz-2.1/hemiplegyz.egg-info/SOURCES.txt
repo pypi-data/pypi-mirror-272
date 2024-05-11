@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hemiplegyz/__init__.py
+hemiplegyz/main.py
+hemiplegyz.egg-info/PKG-INFO
+hemiplegyz.egg-info/SOURCES.txt
+hemiplegyz.egg-info/dependency_links.txt
+hemiplegyz.egg-info/requires.txt
+hemiplegyz.egg-info/top_level.txt
