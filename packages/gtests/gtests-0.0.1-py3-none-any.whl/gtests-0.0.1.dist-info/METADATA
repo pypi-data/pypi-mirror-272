@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gtests
+Version: 0.0.1
+Summary: Graph-Based Two Sample Test
+Author-email: Alexander Wold <alexwold@iastate.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+gb_twosampletest stands for "Graph-Based Two Sample Test" and provides, as the name suggests, a method for performing a nonparametric, graph-based two sample test on a valid similarity graph.
