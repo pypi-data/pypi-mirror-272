@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+irreclaimabilityz/__init__.py
+irreclaimabilityz/main.py
+irreclaimabilityz.egg-info/PKG-INFO
+irreclaimabilityz.egg-info/SOURCES.txt
+irreclaimabilityz.egg-info/dependency_links.txt
+irreclaimabilityz.egg-info/requires.txt
+irreclaimabilityz.egg-info/top_level.txt
