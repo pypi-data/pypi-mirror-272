@@ -1,0 +1,3 @@
+[console_scripts]
+hypnus=hypnus.main:main
+

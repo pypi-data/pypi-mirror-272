@@ -1,0 +1,9 @@
+hypnus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hypnus/main.py,sha256=pIoUCPatTaMgeiAneqhKNfadOnD7o_A_m3utLB1-0bE,461
+hypnus/power.py,sha256=FiOPWQ_s20kDF4SGvSq5OmorMcfJXanEVirH9vVWfq0,1242
+hypnus/tempo.py,sha256=kXXNfnlZ1eiSSjQqwjBhrrs_srQcA_eXzrp-UMUoX14,778
+hypnus-1.0.0.dist-info/LICENSE,sha256=rqPZnd32PtrFK8-2tSsdMOP361QDFtuAViidelJgyJw,1070
+hypnus-1.0.0.dist-info/METADATA,sha256=PcBgK6wijX0jJqfHeAzpEdxn_GaWzDilza6P3bjDixQ,2399
+hypnus-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hypnus-1.0.0.dist-info/entry_points.txt,sha256=Nl2UCx4mpgWGWWX2mCO_QXGVO9fT3iZ_fPKXowWuKM0,43
+hypnus-1.0.0.dist-info/RECORD,,
