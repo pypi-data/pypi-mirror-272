@@ -1,0 +1,21 @@
+# Taken from hatch :)
+
+line-length = 120
+
+[format]
+docstring-code-format = true
+docstring-code-line-length = 80
+
+[lint]
+select = [
+"E251",
+"E302",
+"E501",
+]
+
+[lint.isort]
+known-first-party = ["git_pyinit"]
+
+[lint.flake8-pytest-style]
+fixture-parentheses = false
+mark-parentheses = false
