@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dermatopathicz/__init__.py
+dermatopathicz/main.py
+dermatopathicz.egg-info/PKG-INFO
+dermatopathicz.egg-info/SOURCES.txt
+dermatopathicz.egg-info/dependency_links.txt
+dermatopathicz.egg-info/requires.txt
+dermatopathicz.egg-info/top_level.txt
