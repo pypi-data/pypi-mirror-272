@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include libreppc/static/*.css
+include libreppc/templates/*.html

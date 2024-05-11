@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: libreppc
+Version: 0.2.1
+Summary: A simple profile page creator.
+Home-page: https://codeberg.org/librehub/libreppc
+Author: loliconshik3
+Author-email: loliconshik3@gmail.com
+Keywords: python,profile,html,css,markdown,profile page,page,site,personal page
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: markdown
+Requires-Dist: feedgen
+Requires-Dist: pytz
+Requires-Dist: pygments
+
+# libreppc 
+
+A simple profile page creator. You can see themes examples [here](docs/themes.md).
+
+## Installation
+
+```sh
+$ pip install libreppc
+$ python -m libreppc --serve
+```
+
+## Getting started
+
+You need to create `config.json`:
+
+**config.json** structure
+```json
+{
+    "theme" : "CSS_FILE_NAME_WITHOUT_.css",
+    "avatar" : "https://avatar-url.com",
+    "username" : "yourusername",
+    "description" : "yourdescription",
+    "base_url" : "yourpageurl",
+    "static_dir" : "static",
+    "blog" : {
+        "dir" : "blog",
+        "title" : "Blog"
+    },
+    "icons" : [
+        {
+            "title" : "linktitle",
+            "icon" : "iconurl",
+            "url" : "linkurl"
+        },
+    ],
+    "fields" : [
+        {
+            "title" : "Monero/XMR",
+            "type" : "text",
+            "target" : "yourcryptoaddress"
+        },
+        {
+            "title" : "Patreon",
+            "type" : "url",
+            "target" : "https://patreon.com/"
+        },
+    ],
+    "pages" : [
+        {
+            "title" : "projectname",
+            "description" : "projectdescription",
+            "filename" : "page"
+        }
+    ]
+}
+```
+
+You also can generate config via:
+
+```sh
+$ python -m libreppc --init
+```
+
+Then you need to build site with:
+
+```sh
+$ python -m libreppc --build
+```
+
+## Contacts
+
+| Contact                                               | Description       |
+| :---:                                                 | :---              |
+| [`Matrix`](https://matrix.to/#/#librehub:matrix.org)  | Matrix server     |
+
+## Support
+
+You can support us [here](https://warlock.codeberg.page).
+
+
