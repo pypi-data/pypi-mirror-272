@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mosz/__init__.py
+mosz/main.py
+mosz.egg-info/PKG-INFO
+mosz.egg-info/SOURCES.txt
+mosz.egg-info/dependency_links.txt
+mosz.egg-info/requires.txt
+mosz.egg-info/top_level.txt
