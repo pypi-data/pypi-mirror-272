@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+overjadedz/__init__.py
+overjadedz/main.py
+overjadedz.egg-info/PKG-INFO
+overjadedz.egg-info/SOURCES.txt
+overjadedz.egg-info/dependency_links.txt
+overjadedz.egg-info/requires.txt
+overjadedz.egg-info/top_level.txt
