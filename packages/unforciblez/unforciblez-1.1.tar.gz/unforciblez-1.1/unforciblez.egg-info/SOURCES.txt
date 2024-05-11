@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unforciblez/__init__.py
+unforciblez/main.py
+unforciblez.egg-info/PKG-INFO
+unforciblez.egg-info/SOURCES.txt
+unforciblez.egg-info/dependency_links.txt
+unforciblez.egg-info/requires.txt
+unforciblez.egg-info/top_level.txt
