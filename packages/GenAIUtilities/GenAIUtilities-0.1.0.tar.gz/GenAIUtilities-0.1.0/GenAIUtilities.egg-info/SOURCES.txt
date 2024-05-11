@@ -1,0 +1,5 @@
+setup.py
+GenAIUtilities.egg-info/PKG-INFO
+GenAIUtilities.egg-info/SOURCES.txt
+GenAIUtilities.egg-info/dependency_links.txt
+GenAIUtilities.egg-info/top_level.txt
