@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fibroenchondromaz/__init__.py
+fibroenchondromaz/main.py
+fibroenchondromaz.egg-info/PKG-INFO
+fibroenchondromaz.egg-info/SOURCES.txt
+fibroenchondromaz.egg-info/dependency_links.txt
+fibroenchondromaz.egg-info/requires.txt
+fibroenchondromaz.egg-info/top_level.txt
