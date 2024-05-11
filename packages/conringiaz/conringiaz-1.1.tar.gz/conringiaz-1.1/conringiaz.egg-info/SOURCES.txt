@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+conringiaz/__init__.py
+conringiaz/main.py
+conringiaz.egg-info/PKG-INFO
+conringiaz.egg-info/SOURCES.txt
+conringiaz.egg-info/dependency_links.txt
+conringiaz.egg-info/requires.txt
+conringiaz.egg-info/top_level.txt
