@@ -1,0 +1,1 @@
+gtests stands for "Graph-Based Two-Sample Test" and provides, as the name suggests, methods for performing nonparametric, graph-based two-sample tests on a valid similarity graph.
