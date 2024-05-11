@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cyanamidez/__init__.py
+cyanamidez/main.py
+cyanamidez.egg-info/PKG-INFO
+cyanamidez.egg-info/SOURCES.txt
+cyanamidez.egg-info/dependency_links.txt
+cyanamidez.egg-info/requires.txt
+cyanamidez.egg-info/top_level.txt
