@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: portal-dil
+Version: 0.0.1
+Home-page: http://
+Author: bigi
+Author-email: mark25@inbox.ru
+Project-URL: GitHub, https://github.com/
+Keywords: files portal-dil
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+Requires-Dist: requests>=2.25.1
+
+# portal-lib Р±РёР±Р»РёРѕС‚РµРєР° РґР»СЏ РїРѕРјРѕС‰Рё РЅР°РїРёСЃР°РЅРёСЏ С‚СѓР»Р·С‹ portal #
+

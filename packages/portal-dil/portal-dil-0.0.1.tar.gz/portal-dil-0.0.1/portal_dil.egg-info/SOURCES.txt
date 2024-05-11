@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+portal-lib/__init__.py
+portal_dil.egg-info/PKG-INFO
+portal_dil.egg-info/SOURCES.txt
+portal_dil.egg-info/dependency_links.txt
+portal_dil.egg-info/requires.txt
+portal_dil.egg-info/top_level.txt
