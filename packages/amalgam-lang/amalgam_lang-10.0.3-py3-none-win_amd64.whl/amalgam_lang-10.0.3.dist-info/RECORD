@@ -1,0 +1,13 @@
+amalgam/__init__.py,sha256=oHu7Zr4eGDUqj93pLwz8t7gLa8lpAx6Q-xbGiJ3nJx0,18
+amalgam/api.py,sha256=jNrmNzRdkKTym8B0QHLA-nDUFbCtjwimgDX9Uub5rUI,40993
+amalgam/lib/version.json,sha256=9yL9wsa6GafwOFzQlW0OSKAQh1ADXaDRO68OBhFhAqU,250
+amalgam/lib/windows/amd64/amalgam-mt-noavx.dll,sha256=BGL3noB5Wh0tbgPHOyWeKT1BakyGgRHH7HzaIMy0DfM,2674688
+amalgam/lib/windows/amd64/amalgam-mt.dll,sha256=KHTbh2W37V5DClS1bbExTVQMOODsNBvSRvgE5UAmEhc,2604032
+amalgam/lib/windows/amd64/amalgam-omp.dll,sha256=QdYMfmyMeDET6xCM7mCO9k6X4VEI1TwuK6YiWa21JI0,2531840
+amalgam/lib/windows/amd64/amalgam-st.dll,sha256=pBa52gnmTnRgnTMbTFfZE5CGUVVAr3hGNXLG7-hxTwc,2514944
+amalgam/lib/windows/amd64/docs/version.json,sha256=s9kFuUuFF1or0OF98UGBDBJ5ZKYiPAIz3XYqTeLB2TQ,27
+amalgam_lang-10.0.3.dist-info/LICENSE.txt,sha256=2xqHuoHohba7gpcZZKtOICRjzeKsQANXG8WoV9V35KM,33893
+amalgam_lang-10.0.3.dist-info/METADATA,sha256=6szVAu1FB_0s3VTcT9h56cMaR6_mGsWfKPLJYFibCFY,43353
+amalgam_lang-10.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+amalgam_lang-10.0.3.dist-info/top_level.txt,sha256=rmPHU144SyaB25u5-FAQyECAQnJ39NvuJEcKXMRcdBo,8
+amalgam_lang-10.0.3.dist-info/RECORD,,
