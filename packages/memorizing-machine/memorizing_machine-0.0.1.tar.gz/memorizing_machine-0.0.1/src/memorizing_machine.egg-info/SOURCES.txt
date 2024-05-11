@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/memorizing_machine/__init__.py
+src/memorizing_machine/githf.py
+src/memorizing_machine/machina.yaml
+src/memorizing_machine.egg-info/PKG-INFO
+src/memorizing_machine.egg-info/SOURCES.txt
+src/memorizing_machine.egg-info/dependency_links.txt
+src/memorizing_machine.egg-info/requires.txt
+src/memorizing_machine.egg-info/top_level.txt
