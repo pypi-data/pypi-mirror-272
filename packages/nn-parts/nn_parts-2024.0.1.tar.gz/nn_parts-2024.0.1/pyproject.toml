@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nn_parts"
+version = "2024.0.1"
+dependencies = [
+    "numpy"
+]
+requires-python = ">=3.8"
+authors = [
+    { name = "Pankaj Singh", email = "pankajpriscilla@gmail.com" }
+]
+maintainers = [
+    { name = "Pankaj Singh", email = "pankajpriscilla@gmail.com" }
+]
+description = "Diagnois and Triage Neural Network"
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+keywords = ["Neural Network"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+    "Intended Audience :: Developers"
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[tool.hatch.build]
+exclude = [
+    "/.*",
+    "/docs",
+    "/tests",
+    "/dist"
+]
