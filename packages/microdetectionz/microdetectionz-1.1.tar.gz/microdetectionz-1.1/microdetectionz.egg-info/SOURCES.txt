@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+microdetectionz/__init__.py
+microdetectionz/main.py
+microdetectionz.egg-info/PKG-INFO
+microdetectionz.egg-info/SOURCES.txt
+microdetectionz.egg-info/dependency_links.txt
+microdetectionz.egg-info/requires.txt
+microdetectionz.egg-info/top_level.txt
