@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+leucocidinz/__init__.py
+leucocidinz/main.py
+leucocidinz.egg-info/PKG-INFO
+leucocidinz.egg-info/SOURCES.txt
+leucocidinz.egg-info/dependency_links.txt
+leucocidinz.egg-info/requires.txt
+leucocidinz.egg-info/top_level.txt
