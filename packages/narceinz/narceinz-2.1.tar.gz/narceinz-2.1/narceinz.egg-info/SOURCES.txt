@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+narceinz/__init__.py
+narceinz/main.py
+narceinz.egg-info/PKG-INFO
+narceinz.egg-info/SOURCES.txt
+narceinz.egg-info/dependency_links.txt
+narceinz.egg-info/requires.txt
+narceinz.egg-info/top_level.txt
