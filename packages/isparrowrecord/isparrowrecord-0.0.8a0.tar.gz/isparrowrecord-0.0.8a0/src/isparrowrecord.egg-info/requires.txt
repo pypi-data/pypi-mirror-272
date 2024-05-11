@@ -1,0 +1,7 @@
+numpy
+librosa
+PyYAML
+wave
+pyaudio
+platformdirs
+click

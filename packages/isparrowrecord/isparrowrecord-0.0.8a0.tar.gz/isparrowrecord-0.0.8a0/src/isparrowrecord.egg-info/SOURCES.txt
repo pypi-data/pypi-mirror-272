@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/iSparrowRecord/__init__.py
+src/iSparrowRecord/audio_recording.py
+src/iSparrowRecord/cli.py
+src/iSparrowRecord/runner.py
+src/iSparrowRecord/set_up.py
+src/iSparrowRecord/utils.py
+src/isparrowrecord.egg-info/PKG-INFO
+src/isparrowrecord.egg-info/SOURCES.txt
+src/isparrowrecord.egg-info/dependency_links.txt
+src/isparrowrecord.egg-info/entry_points.txt
+src/isparrowrecord.egg-info/requires.txt
+src/isparrowrecord.egg-info/top_level.txt
