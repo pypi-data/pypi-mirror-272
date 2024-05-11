@@ -1,0 +1,12 @@
+ucg_client/.gitignore,sha256=UF5Pnc7zolOD7PhLgb0wPa5UuLW1finSO8f9c3r3dgs,26
+ucg_client/__init__.py,sha256=6z_hZT34rHjXHItqjdvCQcD9CEdgBXZ6x410m1OCqp8,189
+ucg_client/_version.py,sha256=Dvfy2f1UQBCO4XpFtFkgkr4JgpvySrQHEq-N2hdY4Uc,413
+ucg_client/generator_pb2.py,sha256=t-TxGCOYcNC_bLsdY4D5TVFHlViFn8GyjQkcqeeOfxU,1939
+ucg_client/generator_pb2.pyi,sha256=VXa9E1s59Nd--ptlDRB688MUySi8fuhSbn7AfjkSZV8,1002
+ucg_client/generator_pb2_grpc.py,sha256=YFCT1QJnBrkiNiIguHwUe_42X60fSHPvo3GUhyELRGQ,5379
+ucg_client/__pycache__/__init__.cpython-39.pyc,sha256=jYL-ETT0lT2lLV_fkAJX_G_7m3hl03k7Gj_L77xvUPM,338
+ucg_client-0.0.51.dist-info/LICENSE,sha256=5dz_6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x-o7c,3
+ucg_client-0.0.51.dist-info/METADATA,sha256=wXSFX7xq9tynCgfVbzCqy7lm_x7Q3Zws49Al2THba6A,571
+ucg_client-0.0.51.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ucg_client-0.0.51.dist-info/top_level.txt,sha256=Zv_GfnlwB7LJCXSqDodRKg7AgbLI81w3BdOoSbiaBE0,11
+ucg_client-0.0.51.dist-info/RECORD,,
