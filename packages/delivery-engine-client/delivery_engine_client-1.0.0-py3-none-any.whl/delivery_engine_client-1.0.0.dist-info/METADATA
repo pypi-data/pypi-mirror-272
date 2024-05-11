@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: delivery_engine_client
+Version: 1.0.0
+Summary: delivery_engine API
+Home-page: 
+Author: Jose Catarino
+Author-email: jose@ambientlabscomputing.com
+Keywords: OpenAPI,OpenAPI-Generator,delivery_engine API
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: aiohttp >=3.0.0
+Requires-Dist: aiohttp-retry >=2.8.3
+Requires-Dist: pydantic >=2
+Requires-Dist: typing-extensions >=4.7.1
+
+     This is the delivery_engine API. It is a FastAPI application that provides a RESTful API. 
+    
