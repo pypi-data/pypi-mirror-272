@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oversusceptiblez/__init__.py
+oversusceptiblez/main.py
+oversusceptiblez.egg-info/PKG-INFO
+oversusceptiblez.egg-info/SOURCES.txt
+oversusceptiblez.egg-info/dependency_links.txt
+oversusceptiblez.egg-info/requires.txt
+oversusceptiblez.egg-info/top_level.txt
