@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dropheadsz/__init__.py
+dropheadsz/main.py
+dropheadsz.egg-info/PKG-INFO
+dropheadsz.egg-info/SOURCES.txt
+dropheadsz.egg-info/dependency_links.txt
+dropheadsz.egg-info/requires.txt
+dropheadsz.egg-info/top_level.txt
