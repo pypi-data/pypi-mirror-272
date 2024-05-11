@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+loessicz/__init__.py
+loessicz/main.py
+loessicz.egg-info/PKG-INFO
+loessicz.egg-info/SOURCES.txt
+loessicz.egg-info/dependency_links.txt
+loessicz.egg-info/requires.txt
+loessicz.egg-info/top_level.txt
