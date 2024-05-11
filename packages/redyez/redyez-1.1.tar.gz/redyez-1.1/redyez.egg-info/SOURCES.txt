@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+redyez/__init__.py
+redyez/main.py
+redyez.egg-info/PKG-INFO
+redyez.egg-info/SOURCES.txt
+redyez.egg-info/dependency_links.txt
+redyez.egg-info/requires.txt
+redyez.egg-info/top_level.txt
