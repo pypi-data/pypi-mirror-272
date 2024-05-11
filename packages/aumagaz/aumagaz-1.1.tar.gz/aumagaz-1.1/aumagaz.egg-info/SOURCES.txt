@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aumagaz/__init__.py
+aumagaz/main.py
+aumagaz.egg-info/PKG-INFO
+aumagaz.egg-info/SOURCES.txt
+aumagaz.egg-info/dependency_links.txt
+aumagaz.egg-info/requires.txt
+aumagaz.egg-info/top_level.txt
