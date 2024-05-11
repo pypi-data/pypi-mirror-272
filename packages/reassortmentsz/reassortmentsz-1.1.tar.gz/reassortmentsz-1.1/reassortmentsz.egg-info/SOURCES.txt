@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reassortmentsz/__init__.py
+reassortmentsz/main.py
+reassortmentsz.egg-info/PKG-INFO
+reassortmentsz.egg-info/SOURCES.txt
+reassortmentsz.egg-info/dependency_links.txt
+reassortmentsz.egg-info/requires.txt
+reassortmentsz.egg-info/top_level.txt
