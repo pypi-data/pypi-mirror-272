@@ -1,0 +1,3 @@
+[console_scripts]
+textstat-cli=textstat_cli_tddschn.cli:main
+
