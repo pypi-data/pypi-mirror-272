@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hormismz/__init__.py
+hormismz/main.py
+hormismz.egg-info/PKG-INFO
+hormismz.egg-info/SOURCES.txt
+hormismz.egg-info/dependency_links.txt
+hormismz.egg-info/requires.txt
+hormismz.egg-info/top_level.txt
