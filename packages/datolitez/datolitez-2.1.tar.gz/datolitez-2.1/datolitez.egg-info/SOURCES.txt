@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+datolitez/__init__.py
+datolitez/main.py
+datolitez.egg-info/PKG-INFO
+datolitez.egg-info/SOURCES.txt
+datolitez.egg-info/dependency_links.txt
+datolitez.egg-info/requires.txt
+datolitez.egg-info/top_level.txt
