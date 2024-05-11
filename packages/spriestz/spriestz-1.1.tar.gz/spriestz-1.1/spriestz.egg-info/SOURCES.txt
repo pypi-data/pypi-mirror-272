@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spriestz/__init__.py
+spriestz/main.py
+spriestz.egg-info/PKG-INFO
+spriestz.egg-info/SOURCES.txt
+spriestz.egg-info/dependency_links.txt
+spriestz.egg-info/requires.txt
+spriestz.egg-info/top_level.txt
