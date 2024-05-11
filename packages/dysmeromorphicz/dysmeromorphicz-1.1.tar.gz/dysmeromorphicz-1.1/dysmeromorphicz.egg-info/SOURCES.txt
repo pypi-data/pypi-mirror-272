@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dysmeromorphicz/__init__.py
+dysmeromorphicz/main.py
+dysmeromorphicz.egg-info/PKG-INFO
+dysmeromorphicz.egg-info/SOURCES.txt
+dysmeromorphicz.egg-info/dependency_links.txt
+dysmeromorphicz.egg-info/requires.txt
+dysmeromorphicz.egg-info/top_level.txt
