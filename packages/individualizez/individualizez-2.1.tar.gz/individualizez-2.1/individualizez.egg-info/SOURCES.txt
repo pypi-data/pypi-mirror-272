@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+individualizez/__init__.py
+individualizez/main.py
+individualizez.egg-info/PKG-INFO
+individualizez.egg-info/SOURCES.txt
+individualizez.egg-info/dependency_links.txt
+individualizez.egg-info/requires.txt
+individualizez.egg-info/top_level.txt
