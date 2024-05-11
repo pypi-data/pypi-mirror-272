@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonsynchronouslyz/__init__.py
+nonsynchronouslyz/main.py
+nonsynchronouslyz.egg-info/PKG-INFO
+nonsynchronouslyz.egg-info/SOURCES.txt
+nonsynchronouslyz.egg-info/dependency_links.txt
+nonsynchronouslyz.egg-info/requires.txt
+nonsynchronouslyz.egg-info/top_level.txt
