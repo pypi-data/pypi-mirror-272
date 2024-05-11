@@ -1,0 +1,8 @@
+print("Bullet Roulette(1.1.1,MIT License)")
+print("项目网址：https://pypi.org/project/bulletroulette/，开发者:GQX（PyPI 账号）")
+print("在开发者模式（bulletroulette.dev的run函数）下运行\"readme()\"查看游戏玩法、鸣谢和其他说明，运行\"license()\"查看更详细的协议")
+#print("Bullet Roulette(1.1.1)")
+#print("MIT License")
+#print("Run on Python 3.10.12, Pygame 2.5.2 for best results")
+#print("Developer:GQX(PyPI account)")
+#print("Enter \"readme()\"to show you that \"how to play\", \"thanks\" and \"other introduction\",run \"license()\" to show you license detail.")
