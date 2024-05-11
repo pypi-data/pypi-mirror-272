@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+biconicallyz/__init__.py
+biconicallyz/main.py
+biconicallyz.egg-info/PKG-INFO
+biconicallyz.egg-info/SOURCES.txt
+biconicallyz.egg-info/dependency_links.txt
+biconicallyz.egg-info/requires.txt
+biconicallyz.egg-info/top_level.txt
