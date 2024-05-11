@@ -1,0 +1,7 @@
+setup.py
+bin2dec/__init__.py
+bin2dec/bin2dec.py
+bin2dec.egg-info/PKG-INFO
+bin2dec.egg-info/SOURCES.txt
+bin2dec.egg-info/dependency_links.txt
+bin2dec.egg-info/top_level.txt
