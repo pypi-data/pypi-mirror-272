@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ColNet
+Version: 0.1
+Summary: A framework!
+Author: frane
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Colnet
+This is **easy** framework adds random generator
+## Example
+```python
+import ColNet
+colnet = Colnet()
+```
