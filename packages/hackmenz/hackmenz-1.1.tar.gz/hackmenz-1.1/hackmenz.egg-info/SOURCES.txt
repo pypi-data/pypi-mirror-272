@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hackmenz/__init__.py
+hackmenz/main.py
+hackmenz.egg-info/PKG-INFO
+hackmenz.egg-info/SOURCES.txt
+hackmenz.egg-info/dependency_links.txt
+hackmenz.egg-info/requires.txt
+hackmenz.egg-info/top_level.txt
