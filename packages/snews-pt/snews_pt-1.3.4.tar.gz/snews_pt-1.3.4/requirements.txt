@@ -1,0 +1,8 @@
+click~=8.1
+hop-client~=0.9
+inquirer~=2.8
+ipython~=8.7
+numpy~=1.26
+python-dotenv~=0.19
+setuptools~=69.0
+wheel~=0.42
