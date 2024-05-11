@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ basepath }}static/{{ theme }}.css">
+    <title>{{ username }}</title>
+    <link rel="icon" href="{{ avatar }}">
+
+    <meta property="og:title" content="{{ username }}'s profile"/>
+    <meta property="og:image" content="{{ avatar }}"/>
+    <meta property="og:description" content="{{ description }}"/>
+    <meta property="og:url" content="{{ base_url }}"/>
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512"/>
+    <meta property="og:type" content="website"/> 
+</head>
+<body>
+
+    <div class="content">
+
+        <div class="profile">
+            <img class="avatar" src="{{ avatar }}">
+
+            <h1 class="username">{{ username }}</h1>
+            <p class="description">{{ description }}</p>
+
+            <div class="links">
+                {% for link in icons %}
+                <div class="link">
+                    <a href="{{ link["url"] }}" target="_blank">
+                        <img src="{{ link["icon"] }}" alt="{{ link["title"] }}" style="height: 32px">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="support">
+                {% for supporter in fields %}
+                <div class="supporter">
+                    {% if supporter["type"] == "text" %}
+                        <p class="title">{{ supporter["title"] }}</p> 
+                        <code class="target">{{ supporter["target"] }}</code>
+                    {% else %}
+                        <p class="title">{{ supporter["title"] }}</p>
+                        <a href="{{ supporter["target"] }}" target="_blank">{{ supporter["target"] }}</a>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+
+        <div class="projects">
+            {% for project in pages %}
+            <a href="pages/{{ project["filename"] }}.html">
+                <div class="project">
+                    <h3 class="title">{{ project["title"] }}</h3>
+                    <p class="description">{{ project["description"] }}</p>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+
+        <div class="blog">
+
+            <h1>{{ blog["title"] }}</h1>
+            
+            {% for post in blog["pages"] %}
+            <a href="post/{{ post["id"] }}.html">
+                <div class="post">
+                    <h1 class="title">{{ post["title"] }}</h1>
+                    <p class="description">
+                        {{ post["description"] }}
+                    </p>
+                    <div class="metadata">
+                        <p>{{ post["date"] }} • {{ post["author"] }}</p>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+
