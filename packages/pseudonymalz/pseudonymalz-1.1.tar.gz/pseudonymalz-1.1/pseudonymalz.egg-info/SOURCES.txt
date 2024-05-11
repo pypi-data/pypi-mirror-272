@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pseudonymalz/__init__.py
+pseudonymalz/main.py
+pseudonymalz.egg-info/PKG-INFO
+pseudonymalz.egg-info/SOURCES.txt
+pseudonymalz.egg-info/dependency_links.txt
+pseudonymalz.egg-info/requires.txt
+pseudonymalz.egg-info/top_level.txt
