@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "kozmoml-lightgbm"
+version = "0.1.0.dev1"
+description = "LightGBM runtime for KozmoML"
+authors = ["KozmoAI <developers@kozmoai.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "kozmoml_lightgbm"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+kozmoml = "*"
+lightgbm = "*"
+pandas = "*"
+
+[tool.poetry.group.dev.dependencies]
+kozmoml = {path = "../..", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
