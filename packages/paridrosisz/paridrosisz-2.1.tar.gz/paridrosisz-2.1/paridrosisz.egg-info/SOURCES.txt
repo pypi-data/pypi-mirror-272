@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+paridrosisz/__init__.py
+paridrosisz/main.py
+paridrosisz.egg-info/PKG-INFO
+paridrosisz.egg-info/SOURCES.txt
+paridrosisz.egg-info/dependency_links.txt
+paridrosisz.egg-info/requires.txt
+paridrosisz.egg-info/top_level.txt
