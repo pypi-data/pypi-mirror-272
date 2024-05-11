@@ -1,0 +1,61 @@
+import psycopg
+from psycopg.errors import SerializationFailure, Error
+from psycopg.rows import namedtuple_row
+
+class sql():
+    CONFIG_PASSWORD = 'password'
+    CONFIG_USER = 'user'
+    CONFIG_HOST = 'host'
+    CONFIG_PORT = 'port'
+    CONFIG_DBNAME = 'db_name'
+    CONFIG_PARAMS = 'params'
+    
+    def __init__(self, application_name, logger) -> None:
+        self.application_name = application_name
+        self.logger = logger
+
+    def init_sql(self, config):      
+        self.logger.info(f"SQL Init for: {self.application_name}. with the following config: \
+                         {self.str_sanitized_config(config)}")
+        uri = self.build_uri_from_config(config)
+        connection = self.build_connection(uri, self.application_name)
+        return connection
+
+    def str_sanitized_config(self, config):
+        dup_config = dict(config)
+        del dup_config[sql.CONFIG_PASSWORD]
+        sanitized_config = dup_config
+        return sanitized_config
+
+    def build_uri_from_config(self, config):
+        if self.validate_config(config):
+            connection_uri = f"postgresql://{config[sql.CONFIG_USER]}:{config[sql.CONFIG_PASSWORD]}@{config[sql.CONFIG_HOST]}:{config[sql.CONFIG_PORT]}/{config[sql.CONFIG_DBNAME]}"
+            if sql.CONFIG_PARAMS in config:
+                connection_uri += f"?{config[sql.CONFIG_PARAMS]}"
+            return connection_uri
+        self.logger.error(f"SQL build_uri_from_config for {self.application_name} failed. \
+                          Config failed validation {self.str_sanitized_config(config)}")
+        return None
+        
+
+    def build_connection(self, uri, application_name):
+        '''
+        postgresql://[userspec@][hostspec][/dbname][?paramspec]
+        where userspec is: user[:password]
+        and hostspec is:   [host][:port][,...]
+        and paramspec is:  name=value[&...]
+        Examples: https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING
+        postgresql://
+        postgresql://localhost
+        postgresql://localhost:5433
+        postgresql://localhost/mydb
+        postgresql://user@localhost
+        postgresql://user:secret@localhost
+        postgresql://other@localhost/otherdb?connect_timeout=10&application_name=myapp
+        postgresql://host1:123,host2:456/somedb?target_session_attrs=any&application_name=myapp
+        '''
+        self.logger.info(f"SQL: Creasting connection for: {application_name}")
+        conn = psycopg.connect(uri, application_name=application_name, row_factory=namedtuple_row)
+        return conn
+
+    
