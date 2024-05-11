@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+slupz/__init__.py
+slupz/main.py
+slupz.egg-info/PKG-INFO
+slupz.egg-info/SOURCES.txt
+slupz.egg-info/dependency_links.txt
+slupz.egg-info/requires.txt
+slupz.egg-info/top_level.txt
