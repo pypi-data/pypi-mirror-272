@@ -1,0 +1,15 @@
+libhum/__init__.py,sha256=XxXhu8-QnuD9hA8Ah0WX5rgpt_DwOQmAwcK-FtpngyQ,22
+libhum/analysis.py,sha256=wrg-cjA3ey7dCTfrx3yQnbgXvS3O4Qc2fJKTYFPoSdw,19661
+libhum/io.py,sha256=pzFzE4m5OXOte4iaoypmxAVWi1S14GYqjDm1rO2vX30,10039
+libhum/main.py,sha256=iML71NkPIQMNnKB8Y37gIQBpATgUTUYOaKOkLMJK1pE,4632
+libhum/match.kernel,sha256=-FK2Erl95NQo2sLKILMnS4MeBb3MXuL7hIaiOvecVR0,6878
+libhum/match.py,sha256=etP-eV6pWinxe7zjY5-SLyOWPg_X_ShQWUJutCOgIv4,18405
+libhum/match_score_regressor.pickle,sha256=YW2o2XWSgbZ5BDQOIwG5npRfwFlU1rWx7UsCnRDpD6E,112707
+libhum/merge.py,sha256=KkvmWxKc8E27b0aVoh1-5o29en-Lm76B4_m1htcKixw,3684
+libhum/types.py,sha256=b_eFkik4awgukXbw1rEcwc7yHJYBSTmhIWN84eURwUo,8381
+libhum-1.1.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+libhum-1.1.4.dist-info/METADATA,sha256=cjx-NBvfOT2bXkgCYaV0fPMePca80v8hn-ZBZUerRFo,11957
+libhum-1.1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+libhum-1.1.4.dist-info/entry_points.txt,sha256=xfYDpMbZnq673DPqXfaUkmzoErHhkTnoZAOXE6phyxs,44
+libhum-1.1.4.dist-info/top_level.txt,sha256=7Fp6N-Myc79I4TnhFhqgY2FXFb7UbK86oFPIdtLktBM,7
+libhum-1.1.4.dist-info/RECORD,,
