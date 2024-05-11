@@ -1,0 +1,20 @@
+beautifulsoup4
+lxml
+rich
+oss2
+pymongo
+pypdf
+html2text
+faker
+python-dateutil
+loguru
+grequests
+httpx
+jsonpath
+parsel
+ipython
+js2py
+pandas[excel]
+
+[:platform_machine != "aarch64"]
+dateparser
