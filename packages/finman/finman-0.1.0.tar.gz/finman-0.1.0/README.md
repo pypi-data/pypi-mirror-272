@@ -1,0 +1,83 @@
+# FinanceManager - finman
+
+     _____   ___   _   _   __  __      _      _   _ 
+    |  ___| |_ _| | \ | | |  \/  |    / \    | \ | |
+    | |_     | |  |  \| | | |\/| |   / _ \   |  \| |
+    |  _|    | |  | |\  | | |  | |  / ___ \  | |\  |
+    |_|     |___| |_| \_| |_|  |_| /_/   \_\ |_| \_|
+
+# Personal Finance Managing CLI Application
+
+This project is a CLI application for managing personal finances. It includes features for tracking income, expenses, and overall balance.
+
+## Installation (Recommanded)
+-
+    #### **Recommanded to use pipx for installation to avoid dependency conflicts**
+
+    It will install the application in an isolated environment, avoiding any potential dependency conflicts 
+    with your systems python packages.
+
+    ```bash
+    pipx install finman
+    ```
+    If pipx is not installed, follow the [Official pipx Installation Guide](https://pipx.pypa.io/stable/#install-pipx)
+
+## Installation (Basic)
+-
+    You can install it a traditional way using pip or by clining repository 
+    1. Clone the repository 
+    ```bash
+    git clone https://github.com/K4speeer/FinanceManager && cd FinanceManager
+    ```
+    2. Install the required dependencies using 
+    ```bash
+    pip install -r requirements.txt
+    ```
+    3. Run the application using 
+    ```bash
+    python __main__.py 
+    ```
+
+    you can use it using finman command
+
+
+## Usage
+
+use `finman` if installed using pipx and `python __main__.py` if basic install.
+
+###     Manage your financial records with FINMAN 
+- Monitor your balance, total income and expense
+```bash
+finman balance # Returns budget data 
+```
+- Add a record specifying the amount of money and category (Income / Expense)
+```bash
+finman add -a '500' -c - -m Fruits # Adds and 500 expense for Freuits 
+```
+- Edit an existing saved records
+```bash
+finman edit --id 687sdf7 # Starts editing Record with ID 687sdf7
+```
+- List all records or find a spicific one by adding filters 
+```bash
+finman list # Lists all records
+finman list --income 200 # Lists all incomes with amount 200
+```
+
+### For more Information about each command, see 
+```bash
+finman [command] --help
+```
+
+## Author
+- Idris Taha
+- Email: dri.taha24@gmail.com
+- Telegram: @idristaha
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

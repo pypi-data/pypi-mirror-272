@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "finman"
+version = "0.1.0"
+description = "Personal Finance Managing CLI Application"
+authors = ["Idris Taha <dri.taha24@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+rich = "^13.7.1"
+tabulate = "^0.9.0"
+art = "^6.2"
+
+[tool.poetry.scripts]
+finman = "finman.__main__:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
