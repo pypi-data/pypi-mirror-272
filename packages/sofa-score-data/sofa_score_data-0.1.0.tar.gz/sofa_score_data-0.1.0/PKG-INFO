@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sofa_score_data
+Version: 0.1.0
+Summary: A module to scrap data from Sofascore and Fotmob
+Home-page: https://github.com/niesfutbol/sofa_score_data
+Author: NIES
+Author-email: nepo@nies.futbol
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: requests
+
+<a href="https://www.nies.futbol/"><img
+src="https://github.com/nepito/world_cup_semis/blob/develop/img/logo.jpeg" align="right" width="256"
+/></a>
+
+# Sofascore and Fotmob scraper
+[![codecov](https://codecov.io/gh/niesfutbol/sofa_score_data/graph/badge.svg?token=vRIPoR2OZA)](https://codecov.io/gh/niesfutbol/sofa_score_data)
+
+## Step to use
+
