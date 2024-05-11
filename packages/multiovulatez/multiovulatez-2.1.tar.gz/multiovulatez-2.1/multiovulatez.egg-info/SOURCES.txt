@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+multiovulatez/__init__.py
+multiovulatez/main.py
+multiovulatez.egg-info/PKG-INFO
+multiovulatez.egg-info/SOURCES.txt
+multiovulatez.egg-info/dependency_links.txt
+multiovulatez.egg-info/requires.txt
+multiovulatez.egg-info/top_level.txt
