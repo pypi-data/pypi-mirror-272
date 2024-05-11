@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+apocynthionsz/__init__.py
+apocynthionsz/main.py
+apocynthionsz.egg-info/PKG-INFO
+apocynthionsz.egg-info/SOURCES.txt
+apocynthionsz.egg-info/dependency_links.txt
+apocynthionsz.egg-info/requires.txt
+apocynthionsz.egg-info/top_level.txt
