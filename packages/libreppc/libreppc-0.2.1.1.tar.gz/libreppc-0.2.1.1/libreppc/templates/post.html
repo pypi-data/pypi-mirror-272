@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/{{ theme }}.css">
+    {% if post is defined %}
+        <title>{{ username }} - {{ post["plain_title"] }}</title>
+        <link rel="icon" href="{{ avatar }}">
+
+        <meta property="og:title" content="{{ username }} - {{ post["plain_title"] }}"/>
+        <meta property="og:image" content="{{ avatar }}"/>
+        <meta property="og:description" content="{{ post["plain_description"] }}"/>
+        <meta property="og:url" content="{{ base_url }}/post/{{ post["id"] }}.html"/>
+    {% else %}
+        <title>{{ username }} - {{ page["plain_title"] }}</title>
+        <link rel="icon" href="{{ avatar }}">
+
+        <meta property="og:title" content="{{ username }} - {{ page["plain_title"] }}"/>
+        <meta property="og:image" content="{{ avatar }}"/>
+        <meta property="og:description" content="{{ page["plain_description"] }}"/>
+        <meta property="og:url" content="{{ base_url }}/pages/{{ page["id"] }}.html"/>
+    {% endif %}
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512"/>
+    <meta property="og:type" content="website"/> 
+</head>
+<body>
+
+    <div class="content">
+
+        <div class="profile">
+            <img class="avatar" src="{{ avatar }}">
+
+            <a href="/"><h1 class="username">{{ username }}</h1></a>
+            <p class="description">{{ description }}</p>
+
+            <div class="links">
+                {% for link in icons %}
+                <div class="link">
+                    <a href="{{ link["url"] }}" target="_blank">
+                        <img src="{{ link["icon"] }}" alt="{{ link["title"] }}" style="height: 32px">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="support">
+                {% for supporter in fields %}
+                <div class="supporter">
+                    {% if supporter["type"] == "text" %}
+                        <p class="title">{{ supporter["title"] }}</p> 
+                        <code class="target">{{ supporter["target"] }}</code>
+                    {% else %}
+                        <p class="title">{{ supporter["title"] }}</p>
+                        <a href="{{ supporter["target"] }}" target="_blank">{{ supporter["target"] }}</a>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% if post is defined %}
+            <div class="postbody">
+                <h1 class="title">{{ post["title"] }}</h1>
+                <div class="metadata">
+                    <p>{{ post["date"] }} • {{ post["author"] }}</p>
+                </div>
+                {{ post["text"] }}
+            </div>
+
+            <div class="navigation">
+                {% if previous_post %}
+                    <div class="previous-post">
+                        <a href="{{ previous_post }}.html">
+                            <p>Previous post</p>
+                        </a>
+                    </div>
+                {% endif %}
+
+                {% if next_post %}
+                    <div class="next-post">
+                        <a href="{{ next_post }}.html">
+                            <p>Next post</p>
+                        </a>
+                    </div>
+                {% endif %}
+            </div>
+        {% else %}
+            <div class="postbody">
+                {{ page["text"] }}
+            </div>
+        {% endif %}
+
+    </div>
+    
+</body>
+</html>
+
+
