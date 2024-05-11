@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: automate_django_project
+Version: 0.0.1
+Summary: A small package for automating the creation of django project
+Author-email: Jayagurusundar <sundar12122013@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a small project for automating the creating django project.
