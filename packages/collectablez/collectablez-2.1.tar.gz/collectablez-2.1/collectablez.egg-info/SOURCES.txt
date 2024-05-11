@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+collectablez/__init__.py
+collectablez/main.py
+collectablez.egg-info/PKG-INFO
+collectablez.egg-info/SOURCES.txt
+collectablez.egg-info/dependency_links.txt
+collectablez.egg-info/requires.txt
+collectablez.egg-info/top_level.txt
