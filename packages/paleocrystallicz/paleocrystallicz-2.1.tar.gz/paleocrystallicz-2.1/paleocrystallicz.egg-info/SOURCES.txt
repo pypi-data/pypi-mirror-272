@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+paleocrystallicz/__init__.py
+paleocrystallicz/main.py
+paleocrystallicz.egg-info/PKG-INFO
+paleocrystallicz.egg-info/SOURCES.txt
+paleocrystallicz.egg-info/dependency_links.txt
+paleocrystallicz.egg-info/requires.txt
+paleocrystallicz.egg-info/top_level.txt
