@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+petrarchanz/__init__.py
+petrarchanz/main.py
+petrarchanz.egg-info/PKG-INFO
+petrarchanz.egg-info/SOURCES.txt
+petrarchanz.egg-info/dependency_links.txt
+petrarchanz.egg-info/requires.txt
+petrarchanz.egg-info/top_level.txt
