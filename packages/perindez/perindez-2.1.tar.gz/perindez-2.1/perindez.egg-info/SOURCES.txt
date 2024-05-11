@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+perindez/__init__.py
+perindez/main.py
+perindez.egg-info/PKG-INFO
+perindez.egg-info/SOURCES.txt
+perindez.egg-info/dependency_links.txt
+perindez.egg-info/requires.txt
+perindez.egg-info/top_level.txt
