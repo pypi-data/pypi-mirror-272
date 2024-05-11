@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonpinaceousz/__init__.py
+nonpinaceousz/main.py
+nonpinaceousz.egg-info/PKG-INFO
+nonpinaceousz.egg-info/SOURCES.txt
+nonpinaceousz.egg-info/dependency_links.txt
+nonpinaceousz.egg-info/requires.txt
+nonpinaceousz.egg-info/top_level.txt
