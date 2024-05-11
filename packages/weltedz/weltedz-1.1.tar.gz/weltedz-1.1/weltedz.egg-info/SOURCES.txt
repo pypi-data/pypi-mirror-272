@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+weltedz/__init__.py
+weltedz/main.py
+weltedz.egg-info/PKG-INFO
+weltedz.egg-info/SOURCES.txt
+weltedz.egg-info/dependency_links.txt
+weltedz.egg-info/requires.txt
+weltedz.egg-info/top_level.txt
