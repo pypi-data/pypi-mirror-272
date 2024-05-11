@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+schizocoelez/__init__.py
+schizocoelez/main.py
+schizocoelez.egg-info/PKG-INFO
+schizocoelez.egg-info/SOURCES.txt
+schizocoelez.egg-info/dependency_links.txt
+schizocoelez.egg-info/requires.txt
+schizocoelez.egg-info/top_level.txt
