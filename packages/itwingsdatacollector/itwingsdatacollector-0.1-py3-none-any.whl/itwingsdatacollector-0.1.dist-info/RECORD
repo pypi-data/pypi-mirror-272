@@ -1,0 +1,12 @@
+datacollector/WebInsightCollector.py,sha256=h4mDQXKKTvIt7w_tWOr-jB9Yq4_iOrJVT3ePv-V2-5g,8641
+datacollector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datacollector/config.py,sha256=yN6XTMxiNicWBm4IbbEz66wtbcbD7oMYPbNqxlnsocc,691
+datacollector/google_analytics.py,sha256=VdRHY_zJ0nYvyi91BSAHRKmecg86FfhcvHPP-pjjH08,4368
+datacollector/pagespeed.py,sha256=TlvmP-rmLaBoyZbe1ZbH1MGwExL_MM077gQh5eHCLdk,3237
+datacollector/raw_data_to_csv.py,sha256=yK2u9xLPwNJ5KEWy8d4q628D2XGErR1bXeXrn9aeQ0A,2016
+datacollector/screaming_frog.py,sha256=7HgdOmuLIXwNLiLsVB7DuV-qpV_XDkmGN78p5WU5OyE,1235
+itwingsdatacollector-0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+itwingsdatacollector-0.1.dist-info/METADATA,sha256=weYllsn_Kwoos6jGAl5A5k10wlvbsmVlf0I0EA8nTTM,454
+itwingsdatacollector-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+itwingsdatacollector-0.1.dist-info/top_level.txt,sha256=ccTqwGvm9ZlRND4eMnFqURuv-a455ObBjRTWGm74S54,14
+itwingsdatacollector-0.1.dist-info/RECORD,,
