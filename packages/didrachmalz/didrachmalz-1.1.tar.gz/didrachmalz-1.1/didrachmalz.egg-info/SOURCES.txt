@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+didrachmalz/__init__.py
+didrachmalz/main.py
+didrachmalz.egg-info/PKG-INFO
+didrachmalz.egg-info/SOURCES.txt
+didrachmalz.egg-info/dependency_links.txt
+didrachmalz.egg-info/requires.txt
+didrachmalz.egg-info/top_level.txt
