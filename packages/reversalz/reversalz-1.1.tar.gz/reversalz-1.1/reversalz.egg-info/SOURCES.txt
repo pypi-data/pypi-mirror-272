@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reversalz/__init__.py
+reversalz/main.py
+reversalz.egg-info/PKG-INFO
+reversalz.egg-info/SOURCES.txt
+reversalz.egg-info/dependency_links.txt
+reversalz.egg-info/requires.txt
+reversalz.egg-info/top_level.txt
