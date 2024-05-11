@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mischievousnessz/__init__.py
+mischievousnessz/main.py
+mischievousnessz.egg-info/PKG-INFO
+mischievousnessz.egg-info/SOURCES.txt
+mischievousnessz.egg-info/dependency_links.txt
+mischievousnessz.egg-info/requires.txt
+mischievousnessz.egg-info/top_level.txt
