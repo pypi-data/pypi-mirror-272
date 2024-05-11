@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ingrammaticismz/__init__.py
+ingrammaticismz/main.py
+ingrammaticismz.egg-info/PKG-INFO
+ingrammaticismz.egg-info/SOURCES.txt
+ingrammaticismz.egg-info/dependency_links.txt
+ingrammaticismz.egg-info/requires.txt
+ingrammaticismz.egg-info/top_level.txt
