@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kennz/__init__.py
+kennz/main.py
+kennz.egg-info/PKG-INFO
+kennz.egg-info/SOURCES.txt
+kennz.egg-info/dependency_links.txt
+kennz.egg-info/requires.txt
+kennz.egg-info/top_level.txt
