@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nappiesz/__init__.py
+nappiesz/main.py
+nappiesz.egg-info/PKG-INFO
+nappiesz.egg-info/SOURCES.txt
+nappiesz.egg-info/dependency_links.txt
+nappiesz.egg-info/requires.txt
+nappiesz.egg-info/top_level.txt
