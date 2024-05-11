@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dwarfishz/__init__.py
+dwarfishz/main.py
+dwarfishz.egg-info/PKG-INFO
+dwarfishz.egg-info/SOURCES.txt
+dwarfishz.egg-info/dependency_links.txt
+dwarfishz.egg-info/requires.txt
+dwarfishz.egg-info/top_level.txt
