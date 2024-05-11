@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hypotympanicz/__init__.py
+hypotympanicz/main.py
+hypotympanicz.egg-info/PKG-INFO
+hypotympanicz.egg-info/SOURCES.txt
+hypotympanicz.egg-info/dependency_links.txt
+hypotympanicz.egg-info/requires.txt
+hypotympanicz.egg-info/top_level.txt
