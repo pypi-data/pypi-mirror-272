@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+frangulicz/__init__.py
+frangulicz/main.py
+frangulicz.egg-info/PKG-INFO
+frangulicz.egg-info/SOURCES.txt
+frangulicz.egg-info/dependency_links.txt
+frangulicz.egg-info/requires.txt
+frangulicz.egg-info/top_level.txt
