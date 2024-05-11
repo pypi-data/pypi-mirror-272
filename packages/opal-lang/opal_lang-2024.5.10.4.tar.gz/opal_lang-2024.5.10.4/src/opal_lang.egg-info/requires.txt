@@ -1,0 +1,6 @@
+colorama
+pygame
+numpy
+typeguard
+Cython
+ianthe>=2023.12.17
