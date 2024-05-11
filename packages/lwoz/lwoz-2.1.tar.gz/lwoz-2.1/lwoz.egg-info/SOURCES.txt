@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lwoz/__init__.py
+lwoz/main.py
+lwoz.egg-info/PKG-INFO
+lwoz.egg-info/SOURCES.txt
+lwoz.egg-info/dependency_links.txt
+lwoz.egg-info/requires.txt
+lwoz.egg-info/top_level.txt
