@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+demephitizez/__init__.py
+demephitizez/main.py
+demephitizez.egg-info/PKG-INFO
+demephitizez.egg-info/SOURCES.txt
+demephitizez.egg-info/dependency_links.txt
+demephitizez.egg-info/requires.txt
+demephitizez.egg-info/top_level.txt
