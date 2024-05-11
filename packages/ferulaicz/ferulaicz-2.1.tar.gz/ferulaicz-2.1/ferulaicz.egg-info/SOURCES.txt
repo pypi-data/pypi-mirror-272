@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ferulaicz/__init__.py
+ferulaicz/main.py
+ferulaicz.egg-info/PKG-INFO
+ferulaicz.egg-info/SOURCES.txt
+ferulaicz.egg-info/dependency_links.txt
+ferulaicz.egg-info/requires.txt
+ferulaicz.egg-info/top_level.txt
