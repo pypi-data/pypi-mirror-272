@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: RandomGenerator-Griff1235
+Version: 0.1
+Summary: A simple pseudo-random number generator which uses the Linear Congruential Generator algorithm.
+Author: Caleb Griffin
