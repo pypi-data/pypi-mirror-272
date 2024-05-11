@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+miserez/__init__.py
+miserez/main.py
+miserez.egg-info/PKG-INFO
+miserez.egg-info/SOURCES.txt
+miserez.egg-info/dependency_links.txt
+miserez.egg-info/requires.txt
+miserez.egg-info/top_level.txt
