@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+surpoosez/__init__.py
+surpoosez/main.py
+surpoosez.egg-info/PKG-INFO
+surpoosez.egg-info/SOURCES.txt
+surpoosez.egg-info/dependency_links.txt
+surpoosez.egg-info/requires.txt
+surpoosez.egg-info/top_level.txt
