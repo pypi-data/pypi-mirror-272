@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mydriaticz/__init__.py
+mydriaticz/main.py
+mydriaticz.egg-info/PKG-INFO
+mydriaticz.egg-info/SOURCES.txt
+mydriaticz.egg-info/dependency_links.txt
+mydriaticz.egg-info/requires.txt
+mydriaticz.egg-info/top_level.txt
