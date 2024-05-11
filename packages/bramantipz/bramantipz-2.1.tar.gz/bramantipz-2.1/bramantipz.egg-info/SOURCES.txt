@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bramantipz/__init__.py
+bramantipz/main.py
+bramantipz.egg-info/PKG-INFO
+bramantipz.egg-info/SOURCES.txt
+bramantipz.egg-info/dependency_links.txt
+bramantipz.egg-info/requires.txt
+bramantipz.egg-info/top_level.txt
