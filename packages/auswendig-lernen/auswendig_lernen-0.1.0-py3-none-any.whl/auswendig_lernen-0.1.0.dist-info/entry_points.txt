@@ -1,0 +1,2 @@
+[console_scripts]
+auswendiglernen = auswendiglernen.__main__:main
