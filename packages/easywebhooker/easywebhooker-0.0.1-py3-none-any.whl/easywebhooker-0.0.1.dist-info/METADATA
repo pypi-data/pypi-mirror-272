@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: easywebhooker
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/EvATive7/easywebhooker
+Author: EvATive7
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# easywebhooker
+A python library that easily to execute webhooks.
+
+## usage & example
+[code](test.py)  
+
+## license
+[AGPL3.0](https://www.gnu.org/licenses/agpl.txt)
+
