@@ -1,0 +1,6 @@
+setup.py
+fedfold.egg-info/PKG-INFO
+fedfold.egg-info/SOURCES.txt
+fedfold.egg-info/dependency_links.txt
+fedfold.egg-info/requires.txt
+fedfold.egg-info/top_level.txt
