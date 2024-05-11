@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gadeanz/__init__.py
+gadeanz/main.py
+gadeanz.egg-info/PKG-INFO
+gadeanz.egg-info/SOURCES.txt
+gadeanz.egg-info/dependency_links.txt
+gadeanz.egg-info/requires.txt
+gadeanz.egg-info/top_level.txt
