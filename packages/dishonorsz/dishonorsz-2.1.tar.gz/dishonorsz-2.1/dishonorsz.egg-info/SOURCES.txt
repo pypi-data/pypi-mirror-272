@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dishonorsz/__init__.py
+dishonorsz/main.py
+dishonorsz.egg-info/PKG-INFO
+dishonorsz.egg-info/SOURCES.txt
+dishonorsz.egg-info/dependency_links.txt
+dishonorsz.egg-info/requires.txt
+dishonorsz.egg-info/top_level.txt
