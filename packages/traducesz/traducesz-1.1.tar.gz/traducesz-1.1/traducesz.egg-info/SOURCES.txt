@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+traducesz/__init__.py
+traducesz/main.py
+traducesz.egg-info/PKG-INFO
+traducesz.egg-info/SOURCES.txt
+traducesz.egg-info/dependency_links.txt
+traducesz.egg-info/requires.txt
+traducesz.egg-info/top_level.txt
