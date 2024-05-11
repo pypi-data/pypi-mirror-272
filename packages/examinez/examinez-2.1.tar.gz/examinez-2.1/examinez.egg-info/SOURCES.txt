@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+examinez/__init__.py
+examinez/main.py
+examinez.egg-info/PKG-INFO
+examinez.egg-info/SOURCES.txt
+examinez.egg-info/dependency_links.txt
+examinez.egg-info/requires.txt
+examinez.egg-info/top_level.txt
