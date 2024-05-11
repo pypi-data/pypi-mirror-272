@@ -1,0 +1,220 @@
+import { desktopApi, remoteAppApi } from "@octostar/platform-api";
+import { DropzoneProps } from "../../types";
+import classes from "./Dropzone.module.css";
+import { Entity } from "@octostar/platform-types";
+import { useEffect, useState } from "react";
+
+type Props = DropzoneProps & {
+  onSearchResult: (result: Entity[]) => void;
+  onDropResult: (result: Entity[]) => void;
+};
+
+// const onDragStart = () => {
+//   console.log("onDragStart");
+// };
+
+function Dropzone(props: Props) {
+  const [elementRef, setElementRef] = useState<HTMLElement | null>(null);
+
+  const elementRefCallback = (element: HTMLElement | null) => {
+    setElementRef(element);
+  };
+
+  useEffect(() => {
+    if (!elementRef) {
+      return;
+    }
+
+    // let visible = false;
+
+    function debounce(func: (...args: unknown[]) => unknown, wait: number) {
+      let timeout: number;
+
+      return function (...args: unknown[]) {
+        clearTimeout(timeout);
+
+        timeout = setTimeout(() => func(...args), wait) as unknown as number;
+      };
+    }
+
+    const updateHandler = () => {
+      //   const rect = elementRef.getBoundingClientRect();
+      //   const newVisible = rect.width !== 0 && rect.height !== 0;
+
+      //   if (true || newVisible || newVisible !== visible) {
+      //   visible = newVisible;
+      publishDropZone();
+      //   }
+    };
+
+    const debouncedUpdateHandler = debounce(updateHandler, 200); // Adjust the debounce time as needed
+
+    const observer = new ResizeObserver((entries) => {
+      entries.forEach(() => {
+        debouncedUpdateHandler();
+      });
+    });
+
+    observer.observe(elementRef);
+    observer.observe(document.body, {
+      //   childList: true,
+      //   subtree: true,
+      //   attributes: true,
+    });
+
+    window.addEventListener("scroll", debouncedUpdateHandler, true);
+
+    function adjustCoordinatesForIframe(
+      windowObj: Window,
+      coords: {
+        x: number;
+        y: number;
+        width: number;
+        height: number;
+        id: string;
+      }
+    ) {
+      if (windowObj.parent === windowObj || !windowObj.frameElement) {
+        return coords; // Base case: top-level window reached or no frameElement found
+      }
+
+      const rect = windowObj.frameElement?.getBoundingClientRect();
+      // Recursive call with parent window and adjusted coordinates
+      return adjustCoordinatesForIframe(windowObj.parent, {
+        ...coords,
+        x: coords.x + (rect?.left || 0),
+        y: coords.y + (rect?.top || 0),
+      });
+    }
+
+    const dropZoneId = props.id;
+
+    async function publishDropZone() {
+      console.log("publishDropZone");
+      const rect = elementRef!.getBoundingClientRect();
+      const request = adjustCoordinatesForIframe(window, {
+        id: props.id,
+        x: rect.left,
+        y: rect.top,
+        width: rect.width,
+        height: rect.height,
+      });
+
+      //   const DROP_ZONE_REQUEST = "octostar:remoteapp:dropZoneRequest";
+      //   window.parent.octostar.call(DROP_ZONE_REQUEST, request);
+      console.log("dropZoneRequest", request);
+      const dropResult = await remoteAppApi().dropZoneRequest([request]);
+      // .then((result) => {
+      //   console.log("dropZoneRequest result", result);
+      // });
+
+      console.log("dropZoneRequest result", dropResult);
+      props.onDropResult(dropResult.data);
+    }
+
+    // const DRAG_START_TOPIC = "octostar:remoteapp:onDragStart";
+    // window.parent.octostar.subscribe(DRAG_START_TOPIC, publishDropZone);
+    console.log("Subscribe to drag events");
+    // remoteAppApi().subscribeToDragStart(dropZoneId, onDragStart);
+    remoteAppApi().subscribeToDragStart(dropZoneId, publishDropZone);
+
+    // return () => {
+    //   observer.disconnect();
+    //   window.removeEventListener("scroll", debouncedUpdateHandler, true);
+    //   remoteAppApi().unsubscribeFromDragStart(dropZoneId);
+    // };
+  }, [elementRef, props.id]);
+
+  const handleClick = async () => {
+    const searchResult = await desktopApi().searchXperience();
+
+    props.onSearchResult(searchResult);
+  };
+
+  return (
+    <div className={classes.root}>
+      <div
+        className={classes.antd_uploader}
+        onClick={handleClick}
+        ref={elementRefCallback}
+      >
+        <div className={classes.upload_icon}>+</div>
+        <span className={classes.upload_text}>{props.label}</span>
+      </div>
+    </div>
+  );
+}
+
+export default Dropzone;
+
+// const component_id = "{component_id}";
+// document.addEventListener("DOMContentLoaded", function () {
+//   const el = document.getElementById(component_id);
+//   let visible = false;
+//   function debounce(func, wait) {
+//     let timeout;
+//     return function () {
+//       const context = this,
+//         args = arguments;
+//       clearTimeout(timeout);
+//       timeout = setTimeout(() => func.apply(context, args), wait);
+//     };
+//   }
+
+//   const updateHandler = () => {
+//     const rect = el.getBoundingClientRect();
+//     const newVisible = rect.width !== 0 && rect.height !== 0;
+//     if (true || newVisible || newVisible !== visible) {
+//       visible = newVisible;
+//       publishDropZone();
+//     }
+//   };
+
+//   const debouncedUpdateHandler = debounce(updateHandler, 200); // Adjust the debounce time as needed
+
+//   const observer = new ResizeObserver((entries) => {
+//     for (let entry of entries) {
+//       debouncedUpdateHandler();
+//     }
+//   });
+
+//   observer.observe(el);
+//   observer.observe(document.body, {
+//     childList: true,
+//     subtree: true,
+//     attributes: true,
+//   });
+
+//   window.addEventListener("scroll", debouncedUpdateHandler, true);
+
+//   function adjustCoordinatesForIframe(windowObj: Window, coords) {
+//     if (windowObj.parent === windowObj || !windowObj.frameElement) {
+//       return coords; // Base case: top-level window reached or no frameElement found
+//     }
+
+//     const rect = windowObj.frameElement?.getBoundingClientRect();
+//     // Recursive call with parent window and adjusted coordinates
+//     return adjustCoordinatesForIframe(windowObj.parent, {
+//       ...coords,
+//       x: coords.x + rect?.left ?? 0,
+//       y: coords.y + rect?.top ?? 0,
+//     });
+//   }
+
+//   function publishDropZone() {
+//     console.log("publishDropZone");
+//     const rect = el.getBoundingClientRect();
+//     const request = adjustCoordinatesForIframe(window, {
+//       id: "{key}",
+//       x: rect.left,
+//       y: rect.top,
+//       width: rect.width,
+//       height: rect.height,
+//     });
+
+//     const DROP_ZONE_REQUEST = "octostar:remoteapp:dropZoneRequest";
+//     window.parent.octostar.call(DROP_ZONE_REQUEST, request);
+//   }
+//   const DRAG_START_TOPIC = "octostar:remoteapp:onDragStart";
+//   window.parent.octostar.subscribe(DRAG_START_TOPIC, publishDropZone);
+// });
