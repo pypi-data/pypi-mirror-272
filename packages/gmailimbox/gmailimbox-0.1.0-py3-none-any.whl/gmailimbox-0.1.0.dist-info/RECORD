@@ -1,0 +1,8 @@
+gmailbox/__init__.py,sha256=VuRqnK0F-ij4W6iOLZf72CRX0bdP6IP8RE3Q7va_xyU,33
+gmailbox/gmailbox.py,sha256=54l70IX15g6SB7VNIqeLJQWgCTQ0q42oGnECoJH6nMw,3782
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gmailbox.py,sha256=2rewoMCqYct3fmPrEe3JBYS5lqC20aN18JHp5ysYIXQ,359
+gmailimbox-0.1.0.dist-info/METADATA,sha256=0l9WCEsC2UPbHc-toloRzQLg2SyaOlTnfSu7Luds3jk,3030
+gmailimbox-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gmailimbox-0.1.0.dist-info/top_level.txt,sha256=5utOtD_5cobYBJedFDWrHp4Jq4dRLZZWms0A_MeWVKI,15
+gmailimbox-0.1.0.dist-info/RECORD,,
