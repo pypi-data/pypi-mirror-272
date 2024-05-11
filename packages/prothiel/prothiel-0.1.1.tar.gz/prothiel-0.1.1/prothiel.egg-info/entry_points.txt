@@ -1,0 +1,2 @@
+[console_scripts]
+prothiel = prothiel.cli:main
