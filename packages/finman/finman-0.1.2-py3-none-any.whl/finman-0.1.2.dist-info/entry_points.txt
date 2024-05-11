@@ -1,0 +1,3 @@
+[console_scripts]
+finman=finman.__main__:app
+
