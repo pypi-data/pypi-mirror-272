@@ -1,0 +1,54 @@
+[build-system]
+requires = ["poetry>=1.1.13"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+line-length = 100
+skip-string-normalization = true
+skip-magic-trailing-comma = true
+target-version = ["py38"]
+
+[tool.isort]
+line_length = 100
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+
+[tool.pytest.ini_options]
+testpaths = "tests/"
+
+[tool.poetry]
+name = "celus-nigiri"
+version = "1.4.1"
+description = "Library for downloading and parsing counter-like data."
+authors = ["Beda Kosata <beda@bigdigdata.com>", "Stepan Henek <stepan@bigdigdata.com>"]
+license = "MIT"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Topic :: Software Development :: Libraries"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.9"
+
+dateparser = "~1.1.1"
+chardet = "^5.0.0"
+ijson = "~3.2.3"
+celus-pycounter = "~4.0.1"
+python-decouple = "^3.6"
+xmltodict = "~0.13.0"
+
+[tool.poetry.scripts]
+nigiri-csv = 'celus_nigiri.csv_detect.__main__:main'
+
+
+[tool.poetry.dev-dependencies]
+black = "~23.10.0"
+flake8 = "~6.1.0"
+isort = "~5.12.0"
+pre-commit = "~3.5.0"
+pytest = "~7.4.3"
+pytest-cov = "~4.1.0"
+requests-mock = "~1.11.0"
