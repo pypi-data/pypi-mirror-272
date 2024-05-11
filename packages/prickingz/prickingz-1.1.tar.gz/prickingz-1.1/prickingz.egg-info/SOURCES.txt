@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prickingz/__init__.py
+prickingz/main.py
+prickingz.egg-info/PKG-INFO
+prickingz.egg-info/SOURCES.txt
+prickingz.egg-info/dependency_links.txt
+prickingz.egg-info/requires.txt
+prickingz.egg-info/top_level.txt
