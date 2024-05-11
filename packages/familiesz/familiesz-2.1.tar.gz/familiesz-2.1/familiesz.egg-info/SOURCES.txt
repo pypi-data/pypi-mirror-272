@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+familiesz/__init__.py
+familiesz/main.py
+familiesz.egg-info/PKG-INFO
+familiesz.egg-info/SOURCES.txt
+familiesz.egg-info/dependency_links.txt
+familiesz.egg-info/requires.txt
+familiesz.egg-info/top_level.txt
