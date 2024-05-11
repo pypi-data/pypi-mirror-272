@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scuttlerz/__init__.py
+scuttlerz/main.py
+scuttlerz.egg-info/PKG-INFO
+scuttlerz.egg-info/SOURCES.txt
+scuttlerz.egg-info/dependency_links.txt
+scuttlerz.egg-info/requires.txt
+scuttlerz.egg-info/top_level.txt
