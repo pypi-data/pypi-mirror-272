@@ -1,0 +1,16 @@
+celus_nigiri/__init__.py,sha256=hU9cym0cNLSYpJ8yfRsvQXVgAD6UKnPcNAi25CYRItc,63
+celus_nigiri/celus.py,sha256=UAix7T9x3kWe7B6hCT8dZ1tWhGi-Cd3mVjo3g4K4UTM,2646
+celus_nigiri/client.py,sha256=6G4UL6e6yEb6jN3zp3g92tBaX0tHJfKvzwE8p8qx4So,17842
+celus_nigiri/counter4.py,sha256=qi1hJ-qKtVNQF9zcizn19P-2DnXOjHNlQqXpJ5r2o_A,3808
+celus_nigiri/counter5.py,sha256=4VVLx3Fa3ZI41C81KuHJ6Wq7NDZAFnbx8mQQuOP2GM0,17249
+celus_nigiri/csv_detect/__init__.py,sha256=uWpHWI9Vod3HTzR4YHt0zb_2orCdh7WDlVDsHC9fzqQ,2716
+celus_nigiri/csv_detect/__main__.py,sha256=z8xhEg5sLySrV1PywO0hD872p0ra3f3GS1HyRvpHVHA,734
+celus_nigiri/error_codes.py,sha256=jaBHgQNl47f5xyR2kkfa2CdlUUXEeUrtEiR25miaAjQ,3926
+celus_nigiri/exceptions.py,sha256=qL4WycgwfKHR_7uTWcYoZIDZ4oZnEIMCQJgLCV0FQ1E,212
+celus_nigiri/record.py,sha256=2jQQKQIf7M4cAIqn2kwFJY67_5bjjayTeiNUZa9FbPc,1839
+celus_nigiri/utils.py,sha256=8dqZjXa-DMCPYQ1-vIUaOucQjUZIN5B8SoVlTEqHNR0,1299
+celus_nigiri-1.4.1.dist-info/LICENSE,sha256=LUqHmklg3ruaa3-T8kgXLcOlF-RsTXIAzoMEgjB-dtQ,1052
+celus_nigiri-1.4.1.dist-info/METADATA,sha256=Vx-0jmhGNAY6YU61sv8lIqll0SYBZDtj92BKy4wbZCU,833
+celus_nigiri-1.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+celus_nigiri-1.4.1.dist-info/entry_points.txt,sha256=bcJc1TYd6ohK-a_QotWWkd8y_csWFJr5pW-ugPSIuzw,68
+celus_nigiri-1.4.1.dist-info/RECORD,,
