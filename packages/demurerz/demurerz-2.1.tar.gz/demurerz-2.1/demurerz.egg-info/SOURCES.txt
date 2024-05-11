@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+demurerz/__init__.py
+demurerz/main.py
+demurerz.egg-info/PKG-INFO
+demurerz.egg-info/SOURCES.txt
+demurerz.egg-info/dependency_links.txt
+demurerz.egg-info/requires.txt
+demurerz.egg-info/top_level.txt
