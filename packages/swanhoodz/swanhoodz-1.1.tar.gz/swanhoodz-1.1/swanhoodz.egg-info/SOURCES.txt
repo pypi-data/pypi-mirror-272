@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+swanhoodz/__init__.py
+swanhoodz/main.py
+swanhoodz.egg-info/PKG-INFO
+swanhoodz.egg-info/SOURCES.txt
+swanhoodz.egg-info/dependency_links.txt
+swanhoodz.egg-info/requires.txt
+swanhoodz.egg-info/top_level.txt
