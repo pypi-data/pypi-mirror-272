@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+largebrainedz/__init__.py
+largebrainedz/main.py
+largebrainedz.egg-info/PKG-INFO
+largebrainedz.egg-info/SOURCES.txt
+largebrainedz.egg-info/dependency_links.txt
+largebrainedz.egg-info/requires.txt
+largebrainedz.egg-info/top_level.txt
