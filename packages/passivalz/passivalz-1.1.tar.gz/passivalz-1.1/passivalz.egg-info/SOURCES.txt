@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+passivalz/__init__.py
+passivalz/main.py
+passivalz.egg-info/PKG-INFO
+passivalz.egg-info/SOURCES.txt
+passivalz.egg-info/dependency_links.txt
+passivalz.egg-info/requires.txt
+passivalz.egg-info/top_level.txt
