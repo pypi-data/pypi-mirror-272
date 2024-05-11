@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+economizerz/__init__.py
+economizerz/main.py
+economizerz.egg-info/PKG-INFO
+economizerz.egg-info/SOURCES.txt
+economizerz.egg-info/dependency_links.txt
+economizerz.egg-info/requires.txt
+economizerz.egg-info/top_level.txt
