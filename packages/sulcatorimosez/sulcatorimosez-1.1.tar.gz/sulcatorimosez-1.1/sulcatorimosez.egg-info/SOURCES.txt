@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sulcatorimosez/__init__.py
+sulcatorimosez/main.py
+sulcatorimosez.egg-info/PKG-INFO
+sulcatorimosez.egg-info/SOURCES.txt
+sulcatorimosez.egg-info/dependency_links.txt
+sulcatorimosez.egg-info/requires.txt
+sulcatorimosez.egg-info/top_level.txt
