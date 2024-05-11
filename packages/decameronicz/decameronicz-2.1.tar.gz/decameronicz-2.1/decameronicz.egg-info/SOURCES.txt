@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+decameronicz/__init__.py
+decameronicz/main.py
+decameronicz.egg-info/PKG-INFO
+decameronicz.egg-info/SOURCES.txt
+decameronicz.egg-info/dependency_links.txt
+decameronicz.egg-info/requires.txt
+decameronicz.egg-info/top_level.txt
