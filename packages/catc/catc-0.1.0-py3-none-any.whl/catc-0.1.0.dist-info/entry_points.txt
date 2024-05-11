@@ -1,0 +1,3 @@
+[console_scripts]
+catc=catc.__main__:catc
+
