@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scenarioz/__init__.py
+scenarioz/main.py
+scenarioz.egg-info/PKG-INFO
+scenarioz.egg-info/SOURCES.txt
+scenarioz.egg-info/dependency_links.txt
+scenarioz.egg-info/requires.txt
+scenarioz.egg-info/top_level.txt
