@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ligroinesz/__init__.py
+ligroinesz/main.py
+ligroinesz.egg-info/PKG-INFO
+ligroinesz.egg-info/SOURCES.txt
+ligroinesz.egg-info/dependency_links.txt
+ligroinesz.egg-info/requires.txt
+ligroinesz.egg-info/top_level.txt
