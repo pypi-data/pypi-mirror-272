@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kolkkaz/__init__.py
+kolkkaz/main.py
+kolkkaz.egg-info/PKG-INFO
+kolkkaz.egg-info/SOURCES.txt
+kolkkaz.egg-info/dependency_links.txt
+kolkkaz.egg-info/requires.txt
+kolkkaz.egg-info/top_level.txt
