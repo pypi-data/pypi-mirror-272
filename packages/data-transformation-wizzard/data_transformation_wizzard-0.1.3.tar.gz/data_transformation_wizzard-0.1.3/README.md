@@ -1,0 +1,51 @@
+
+# Data Wizzard Library
+
+## Overview
+The Data Wizzard Library is a Python package designed to simplify and streamline data transformation tasks. It provides a set of functions that perform common operations such as 2D transposition, 1D windowing, and 2D convolution. These functions are optimized for performance and ease of use, making it easier to manipulate and analyze data in Python.
+
+## Features
+
+### transpose2d
+This function transposes a 2D matrix, effectively flipping it over its diagonal, switching the matrix's row and column indices. This is particularly useful in numerical and matrix computations.
+
+### window1d
+The `window1d` function applies windowing operations to 1-dimensional arrays. This is useful in signal processing where segmenting data into overlapping or non-overlapping windows is required.
+
+### convolution2d
+Performs 2D convolution on an input matrix with a specified kernel and stride. This function is essential for image processing, feature extraction, and machine learning applications involving convolutional neural networks.
+
+## Installation
+You can install the library using pip:
+```
+pip install data-transformation-wizzard
+```
+
+## Usage
+To use the functions in the Data Wizzard Library, you first need to import the necessary functions. Below are some examples of how to use each feature:
+
+### Using `transpose2d`
+```python
+from data_transformation_wizzard import transpose2d
+matrix = [[1, 2], [3, 4]]
+print(transpose2d(matrix))
+```
+
+### Using `window1d`
+```python
+from data_transformation_wizzard import window1d
+array = [1, 2, 3, 4, 5, 6]
+size = 3
+shift = 1
+stride = 1
+print(window1d(array, size, shift, stride))
+```
+
+### Using `convolution2d`
+```python
+from data_transformation_wizzard import convolution2d
+input_matrix = [[0, 1, 2], [3, 4, 5], [6, 7, 8]]
+kernel = [[0, 1], [2, 3]]
+stride = 1
+print(convolution2d(input_matrix, kernel, stride))
+```
