@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+discomposedz/__init__.py
+discomposedz/main.py
+discomposedz.egg-info/PKG-INFO
+discomposedz.egg-info/SOURCES.txt
+discomposedz.egg-info/dependency_links.txt
+discomposedz.egg-info/requires.txt
+discomposedz.egg-info/top_level.txt
