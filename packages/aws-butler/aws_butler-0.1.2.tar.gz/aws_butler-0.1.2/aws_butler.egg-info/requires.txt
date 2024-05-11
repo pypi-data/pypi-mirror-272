@@ -1,0 +1,7 @@
+boto3
+click
+tabulate
+python-dotenv
+
+[dev]
+pytest
