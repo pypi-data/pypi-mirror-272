@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ucg_client
+Version: 0.0.51
+Summary: Unique codes generator python client
+Author-email: Jack Kweyunga <jackkweyunga@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/jackkweyunga/unique-codes-generator
+Project-URL: Bug Tracker, https://github.com/jackkweyunga/unique-codes-generator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# readme
