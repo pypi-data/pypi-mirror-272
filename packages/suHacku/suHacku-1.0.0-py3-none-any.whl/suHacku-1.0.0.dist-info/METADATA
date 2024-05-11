@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: suHacku
+Version: 1.0.0
+Summary: a little package that can print diferent curses
+Home-page: https://hack4u.io/
+Author: Yato_kun
+Description-Content-Type: text/markdown
+
+# library from hack4u academy
+
+A Python Library to get curses from Hack4u Academy
+
+## avalible curses
+
+- Introduccion al hacking etico [53 hrs]
+- Introduccion a linux [15 hrs]
+- Personalizacion de entorno linux [3 hrs]
+
+## Install
+
+install the package using `pip3`:
+
+
+```python3
+pip3 install suHacku
+```
+
+## basic use
+
+### list all curses
+
+```python3
+from suromi import list_curse
+
+for i in list_curse:
+    print(i)
+```
+
+### get a course for name
+
+```python3
+from suromi import search_curse
+
+course = search_curse("intro a linux")
+print(course)
+```
+
+### get total duration of courses
+
+```python3
+from suromi.utils import total_duration
+
+total = total_duration()
+print(total)
+```
+
+
