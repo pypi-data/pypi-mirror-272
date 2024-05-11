@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+elizabethanz/__init__.py
+elizabethanz/main.py
+elizabethanz.egg-info/PKG-INFO
+elizabethanz.egg-info/SOURCES.txt
+elizabethanz.egg-info/dependency_links.txt
+elizabethanz.egg-info/requires.txt
+elizabethanz.egg-info/top_level.txt
