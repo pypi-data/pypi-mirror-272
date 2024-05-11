@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: py-ladder-diagram
+Version: 0.0.1
+Summary: PyLD - Draw Ladder Diagrams Programmatically in Python.
+Author-email: Joe Stanley <engineerjoe440@yahoo.com>
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: drawsvg >= 2.3.0
+Requires-Dist: pytest >=2.7.3 ; extra == "test"
+Requires-Dist: xdoctest >= 1.1.3 ; extra == "test"
+Requires-Dist: pytest-pydocstyle >= 2.3.2 ; extra == "test"
+Requires-Dist: pygments >= 2.18.0 ; extra == "test"
+Project-URL: Home, https://github.com/engineerjoe440/pyld
+Project-URL: Issues, https://github.com/engineerjoe440/pyld/issues
+Project-URL: Repository, https://github.com/engineerjoe440/pyld
+Provides-Extra: test
+
+# PyLD
+
+Ladder Logic Diagrams written in Python.
+
+## Installation
+
+Install with `pip`:
+
+```shell
+pip install py-ladder-diagram
+```
+
+## Usage
+
+```python
+from pyld import Ladder, Rung
+from pyld.elements import Coil, Contact, NegatedContact
+
+Ladder(
+    Rung(
+        Contact("In1"),
+        Contact("In2"),
+        Coil("Out1"),
+    ),
+    Rung(
+        Contact("In1"),
+        NegatedContact("In2"),
+        Coil("Out2"),
+    )
+)
+# Renders:
+# █
+# █     In1    In2   Out1
+# █─────┤ ├────┤ ├────( )
+# █
+# █     In1    In2   Out2
+# █─────┤ ├────┤/├────( )
+# █
+```
+
