@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: md2api
+Version: 0.5.1
+Summary: 
+License: MIT
+Author: sumeshi
+Author-email: sum3sh1@protonmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: GitPython (>=3.1.43,<4.0.0)
+Requires-Dist: markdown (>=3.6,<4.0)
