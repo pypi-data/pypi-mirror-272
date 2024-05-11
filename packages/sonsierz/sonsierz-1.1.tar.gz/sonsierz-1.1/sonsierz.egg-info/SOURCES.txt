@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sonsierz/__init__.py
+sonsierz/main.py
+sonsierz.egg-info/PKG-INFO
+sonsierz.egg-info/SOURCES.txt
+sonsierz.egg-info/dependency_links.txt
+sonsierz.egg-info/requires.txt
+sonsierz.egg-info/top_level.txt
