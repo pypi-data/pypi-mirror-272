@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gauffererz/__init__.py
+gauffererz/main.py
+gauffererz.egg-info/PKG-INFO
+gauffererz.egg-info/SOURCES.txt
+gauffererz.egg-info/dependency_links.txt
+gauffererz.egg-info/requires.txt
+gauffererz.egg-info/top_level.txt
