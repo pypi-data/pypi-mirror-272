@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+ai_diagnosis.egg-info/PKG-INFO
+ai_diagnosis.egg-info/SOURCES.txt
+ai_diagnosis.egg-info/dependency_links.txt
+ai_diagnosis.egg-info/requires.txt
+ai_diagnosis.egg-info/top_level.txt
