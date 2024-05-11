@@ -1,0 +1,3 @@
+[console_scripts]
+webanno2spacy=webanno2spacy:app
+
