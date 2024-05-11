@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sgn-ts
+Version: 0.0.1
+Summary: Streaming Graph Navigator - Time Series . A framework to help navigate time series buffers through a graph. The buffers must flow.
+Home-page: https://git.ligo.org/greg/sgn-ts
+Author: Chad Hanna
+Author-email: Chad Hanna <crh184@psu.edu>
+Project-URL: Homepage, https://git.ligo.org/greg/sgn-ts
+Project-URL: Issues, https://git.ligo.org/greg/sgn-ts/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sgn-ts
+
+A library for passing time series buffer through an sgn graph.
