@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+attemptablez/__init__.py
+attemptablez/main.py
+attemptablez.egg-info/PKG-INFO
+attemptablez.egg-info/SOURCES.txt
+attemptablez.egg-info/dependency_links.txt
+attemptablez.egg-info/requires.txt
+attemptablez.egg-info/top_level.txt
