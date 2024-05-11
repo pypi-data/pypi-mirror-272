@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dsnamesz/__init__.py
+dsnamesz/main.py
+dsnamesz.egg-info/PKG-INFO
+dsnamesz.egg-info/SOURCES.txt
+dsnamesz.egg-info/dependency_links.txt
+dsnamesz.egg-info/requires.txt
+dsnamesz.egg-info/top_level.txt
