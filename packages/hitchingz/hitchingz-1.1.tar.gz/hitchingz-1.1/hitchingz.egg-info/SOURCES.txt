@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hitchingz/__init__.py
+hitchingz/main.py
+hitchingz.egg-info/PKG-INFO
+hitchingz.egg-info/SOURCES.txt
+hitchingz.egg-info/dependency_links.txt
+hitchingz.egg-info/requires.txt
+hitchingz.egg-info/top_level.txt
