@@ -1,0 +1,10 @@
+CUCMLib/AXLAPI.wsdl,sha256=gPqFmncX240OedlZirYSWcR_HIdFsHas2dIRvaqed1s,834720
+CUCMLib/AXLEnums.xsd,sha256=LT8ESfu2PAPa1ZfzGELJP4P-uScGO9uQF3dQeH6kVBA,141548
+CUCMLib/AXLSoap.xsd,sha256=h-oWyJ7NVgkNcsceufrULsd-_RmJUZut08EW6YXf_tQ,3700703
+CUCMLib/__init__.py,sha256=pVr6upBQO3sMKvXdh71ztxBhwFJvKjfO5L52EBujVe4,1357
+CUCMLib/partition.py,sha256=Fc7biIYh5xYfWToxSwh3lB28K68JUfkG02y75C3s8jE,8004
+CUCMLib/phone.py,sha256=poHBb9Bgk7SUeKNsC3TKnbi1rd2hi53696WTJ6WvFqg,13894
+CUCMLib-0.1.9.dist-info/METADATA,sha256=hPd3VudyolrDBPJbISjU1xcvZHLTmwo0i5FOBUsfgX8,696
+CUCMLib-0.1.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+CUCMLib-0.1.9.dist-info/top_level.txt,sha256=_rcYt5-3coRlGMzaEcbkEoI89IBM2CuO5ZUhLrR44CE,8
+CUCMLib-0.1.9.dist-info/RECORD,,
