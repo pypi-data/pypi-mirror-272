@@ -1,0 +1,7 @@
+savetext.py
+setup.py
+wx_send.py
+wxPush.egg-info/PKG-INFO
+wxPush.egg-info/SOURCES.txt
+wxPush.egg-info/dependency_links.txt
+wxPush.egg-info/top_level.txt

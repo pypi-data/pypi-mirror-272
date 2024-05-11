@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: wxPush
+Version: 2.0
+Summary: 推送给我个人微信的消息
+Author: Haoj
+Author-email: hajmail2000@163.com
+License: MIT
+Requires: requests
+Requires: threading
+Requires: json
+Requires: savetext
