@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+enjeopardyz/__init__.py
+enjeopardyz/main.py
+enjeopardyz.egg-info/PKG-INFO
+enjeopardyz.egg-info/SOURCES.txt
+enjeopardyz.egg-info/dependency_links.txt
+enjeopardyz.egg-info/requires.txt
+enjeopardyz.egg-info/top_level.txt
