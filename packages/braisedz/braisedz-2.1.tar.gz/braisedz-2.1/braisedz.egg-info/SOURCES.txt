@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+braisedz/__init__.py
+braisedz/main.py
+braisedz.egg-info/PKG-INFO
+braisedz.egg-info/SOURCES.txt
+braisedz.egg-info/dependency_links.txt
+braisedz.egg-info/requires.txt
+braisedz.egg-info/top_level.txt
