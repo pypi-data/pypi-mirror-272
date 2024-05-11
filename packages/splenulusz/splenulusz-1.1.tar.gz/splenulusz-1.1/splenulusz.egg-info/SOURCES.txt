@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+splenulusz/__init__.py
+splenulusz/main.py
+splenulusz.egg-info/PKG-INFO
+splenulusz.egg-info/SOURCES.txt
+splenulusz.egg-info/dependency_links.txt
+splenulusz.egg-info/requires.txt
+splenulusz.egg-info/top_level.txt
