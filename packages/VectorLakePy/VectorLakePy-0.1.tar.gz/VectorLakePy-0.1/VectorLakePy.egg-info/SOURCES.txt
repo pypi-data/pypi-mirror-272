@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+VectorLakePy/Store.py
+VectorLakePy/__init__.py
+VectorLakePy.egg-info/PKG-INFO
+VectorLakePy.egg-info/SOURCES.txt
+VectorLakePy.egg-info/dependency_links.txt
+VectorLakePy.egg-info/requires.txt
+VectorLakePy.egg-info/top_level.txt
