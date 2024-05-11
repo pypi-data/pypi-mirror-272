@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+antirabicz/__init__.py
+antirabicz/main.py
+antirabicz.egg-info/PKG-INFO
+antirabicz.egg-info/SOURCES.txt
+antirabicz.egg-info/dependency_links.txt
+antirabicz.egg-info/requires.txt
+antirabicz.egg-info/top_level.txt
