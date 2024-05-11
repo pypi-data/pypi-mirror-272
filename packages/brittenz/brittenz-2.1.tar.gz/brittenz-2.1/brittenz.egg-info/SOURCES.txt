@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+brittenz/__init__.py
+brittenz/main.py
+brittenz.egg-info/PKG-INFO
+brittenz.egg-info/SOURCES.txt
+brittenz.egg-info/dependency_links.txt
+brittenz.egg-info/requires.txt
+brittenz.egg-info/top_level.txt
