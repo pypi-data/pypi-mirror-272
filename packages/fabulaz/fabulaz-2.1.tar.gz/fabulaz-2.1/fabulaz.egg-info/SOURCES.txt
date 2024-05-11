@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fabulaz/__init__.py
+fabulaz/main.py
+fabulaz.egg-info/PKG-INFO
+fabulaz.egg-info/SOURCES.txt
+fabulaz.egg-info/dependency_links.txt
+fabulaz.egg-info/requires.txt
+fabulaz.egg-info/top_level.txt
