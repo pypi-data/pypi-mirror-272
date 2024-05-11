@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: auto_di_tag
+Version: 0.1.0
+Summary: finds music files in directory, renames them and tags them with ID3 tags use for https://github.com/Klassenserver7b/Danceinterpreter
+Home-page: https://github.com/klassenserver7b/AutoDITag
+Author: klassenserver7b
+Author-email: klassenserver7bwin10@gmail.com
+Project-URL: Bug Reports, https://github.com/klassenserver7b/AutoDITag/issues
+Project-URL: Source, https://github.com/klassenserver7b/AutoDITag
+Keywords: m3u m3u8 playlist dance tag id3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mutagen
+Requires-Dist: argparse
+
+# AutoDITag
+## Installation and Usage
+
+Requires Python 3.6+, mutagen and argparse
+
+### Pip
+```sh
+pip install auto-di-tag
+auto-di-tag -f PATH_TO_DESCRIPTOR_FILE -d PATH_TO_MUSICFOLDER -n PLAYLISTNAME
+```
+
+### Manual
+```sh
+git clone https://github.com/klassenserver7b/AutoDITag.git
+cd AutoDITag
+pip install -r requirements.txt
+python3 auto_di_tag.py -f PATH_TO_DESCRIPTOR_FILE -d PATH_TO_MUSICFOLDER -n PLAYLISTNAME
+```
+
+## Help Menu
+
+```
+usage: AutoDITag [-h] -f FILE -d DIR -n NAME
+
+Automatically rename and tag your dance playlist
+
+options:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE  Your txt file containing the playlist
+  -d DIR, --dir DIR     The directory of the mp3 files to process
+  -n NAME, --name NAME  The name of the Playlist. eg: Schulball 08.05.2024
+
+see https://github.com/klassenserver7b/AutoDITag
+```
