@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+copydesksz/__init__.py
+copydesksz/main.py
+copydesksz.egg-info/PKG-INFO
+copydesksz.egg-info/SOURCES.txt
+copydesksz.egg-info/dependency_links.txt
+copydesksz.egg-info/requires.txt
+copydesksz.egg-info/top_level.txt
