@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: calculator-api
+Version: 0.1.0
+Summary: 
+Author: Nelson Castro
+Author-email: nelsoncastro@hotmail.fr
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (==0.110.2)
+Requires-Dist: pydantic (>=2.7.0,<3.0.0)
+Requires-Dist: uvicorn (>=0.29.0,<0.30.0)
+Description-Content-Type: text/markdown
+
+Just a test project for FastAPI, TravisCI & Digital Ocean deployment.
+
