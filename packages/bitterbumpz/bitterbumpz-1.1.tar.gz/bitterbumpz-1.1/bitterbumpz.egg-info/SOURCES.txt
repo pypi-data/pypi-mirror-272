@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bitterbumpz/__init__.py
+bitterbumpz/main.py
+bitterbumpz.egg-info/PKG-INFO
+bitterbumpz.egg-info/SOURCES.txt
+bitterbumpz.egg-info/dependency_links.txt
+bitterbumpz.egg-info/requires.txt
+bitterbumpz.egg-info/top_level.txt
