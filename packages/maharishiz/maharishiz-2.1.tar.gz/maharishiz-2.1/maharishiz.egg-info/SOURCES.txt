@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+maharishiz/__init__.py
+maharishiz/main.py
+maharishiz.egg-info/PKG-INFO
+maharishiz.egg-info/SOURCES.txt
+maharishiz.egg-info/dependency_links.txt
+maharishiz.egg-info/requires.txt
+maharishiz.egg-info/top_level.txt
