@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+manipulatedz/__init__.py
+manipulatedz/main.py
+manipulatedz.egg-info/PKG-INFO
+manipulatedz.egg-info/SOURCES.txt
+manipulatedz.egg-info/dependency_links.txt
+manipulatedz.egg-info/requires.txt
+manipulatedz.egg-info/top_level.txt
