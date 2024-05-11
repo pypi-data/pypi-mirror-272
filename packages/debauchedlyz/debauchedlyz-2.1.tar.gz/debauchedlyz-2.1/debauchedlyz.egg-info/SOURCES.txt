@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+debauchedlyz/__init__.py
+debauchedlyz/main.py
+debauchedlyz.egg-info/PKG-INFO
+debauchedlyz.egg-info/SOURCES.txt
+debauchedlyz.egg-info/dependency_links.txt
+debauchedlyz.egg-info/requires.txt
+debauchedlyz.egg-info/top_level.txt
