@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+epoophoronz/__init__.py
+epoophoronz/main.py
+epoophoronz.egg-info/PKG-INFO
+epoophoronz.egg-info/SOURCES.txt
+epoophoronz.egg-info/dependency_links.txt
+epoophoronz.egg-info/requires.txt
+epoophoronz.egg-info/top_level.txt
