@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+seamlessnessz/__init__.py
+seamlessnessz/main.py
+seamlessnessz.egg-info/PKG-INFO
+seamlessnessz.egg-info/SOURCES.txt
+seamlessnessz.egg-info/dependency_links.txt
+seamlessnessz.egg-info/requires.txt
+seamlessnessz.egg-info/top_level.txt
