@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lapsidedz/__init__.py
+lapsidedz/main.py
+lapsidedz.egg-info/PKG-INFO
+lapsidedz.egg-info/SOURCES.txt
+lapsidedz.egg-info/dependency_links.txt
+lapsidedz.egg-info/requires.txt
+lapsidedz.egg-info/top_level.txt
