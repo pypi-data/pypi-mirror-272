@@ -1,0 +1,10 @@
+pyproject_fmt/__init__.py,sha256=XSWZgcIsLwZdCkUzUsNjcKheTPt-Gw5OkyykJZgM1Lg,125
+pyproject_fmt/__main__.py,sha256=K_dXFqHQA87dQRiC5ooGw6eI8AVmX3-swS92pHhugC8,2280
+pyproject_fmt/_version.py,sha256=llBMh-GtSPemevJ46pFdqzJYvqrJ0mS-b_e99BsAPEQ,411
+pyproject_fmt/cli.py,sha256=c-CkxwidJUiFyGyn-LCnIgLMngixT2WvM3KYpAhqKrs,6138
+pyproject_fmt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject_fmt-2.0.1.dist-info/METADATA,sha256=bfZWuP3aQ09NNMRd-De4dAAtYbCN88PxEkTizgr1XGs,3780
+pyproject_fmt-2.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pyproject_fmt-2.0.1.dist-info/entry_points.txt,sha256=qQOxIRyVFyDkdhw528Owa8CBbL2BN0iQJSsHQKYVkkA,61
+pyproject_fmt-2.0.1.dist-info/licenses/LICENSE.txt,sha256=kOJeH68qSq6o2V7o5_VziwUqGswMnFgGgQH5Mahr1Yg,1023
+pyproject_fmt-2.0.1.dist-info/RECORD,,
