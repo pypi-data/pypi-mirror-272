@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+feathercutz/__init__.py
+feathercutz/main.py
+feathercutz.egg-info/PKG-INFO
+feathercutz.egg-info/SOURCES.txt
+feathercutz.egg-info/dependency_links.txt
+feathercutz.egg-info/requires.txt
+feathercutz.egg-info/top_level.txt
