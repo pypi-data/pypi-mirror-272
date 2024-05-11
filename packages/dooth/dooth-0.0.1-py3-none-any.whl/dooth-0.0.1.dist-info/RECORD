@@ -1,0 +1,9 @@
+doot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doot/bot.py,sha256=CbBRPmhC9XEixyFptoZxeqr0_--DZVIgNz1zq96SgWM,3627
+doot/command_handler.py,sha256=kTPu6R1FzDIac6j64d27OvqxuoRoYylEgDaGqZT_elU,371
+doot/message.py,sha256=2T4QhUwyQK2OG2ZRfaQZUeqw-NE_PTugM48KOh1ciSo,4251
+doot/message_handler.py,sha256=gyP99ss3dA7ozCckejX7GtJbOP2WvEPbcWX4J6aLqZM,352
+dooth-0.0.1.dist-info/METADATA,sha256=X3_nAQLuFY6mtdPQv1AJAZJTAZQLr79X46OYRfUZmak,74
+dooth-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dooth-0.0.1.dist-info/top_level.txt,sha256=259wJJXfvmJdcDJ_Bs4a1f9A0kyxtMNUn1hzSoaHU94,5
+dooth-0.0.1.dist-info/RECORD,,
