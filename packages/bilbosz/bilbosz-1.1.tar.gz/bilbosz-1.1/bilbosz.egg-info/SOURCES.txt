@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bilbosz/__init__.py
+bilbosz/main.py
+bilbosz.egg-info/PKG-INFO
+bilbosz.egg-info/SOURCES.txt
+bilbosz.egg-info/dependency_links.txt
+bilbosz.egg-info/requires.txt
+bilbosz.egg-info/top_level.txt
