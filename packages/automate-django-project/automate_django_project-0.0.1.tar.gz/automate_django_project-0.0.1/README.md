@@ -1,0 +1,1 @@
+This is a small project for automating the creating django project.

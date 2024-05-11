@@ -1,0 +1,14 @@
+[project]
+name = "automate_django_project"
+version = "0.0.1"
+authors = [
+  { name="Jayagurusundar", email="sundar12122013@gmail.com" },
+]
+description = "A small package for automating the creation of django project"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

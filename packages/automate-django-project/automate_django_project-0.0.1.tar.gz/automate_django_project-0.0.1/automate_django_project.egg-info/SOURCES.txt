@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+create_django_project.py
+pyproject.toml
+automate_django_project.egg-info/PKG-INFO
+automate_django_project.egg-info/SOURCES.txt
+automate_django_project.egg-info/dependency_links.txt
+automate_django_project.egg-info/top_level.txt
