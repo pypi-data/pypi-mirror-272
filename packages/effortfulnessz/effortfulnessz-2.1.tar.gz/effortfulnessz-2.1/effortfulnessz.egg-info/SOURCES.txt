@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+effortfulnessz/__init__.py
+effortfulnessz/main.py
+effortfulnessz.egg-info/PKG-INFO
+effortfulnessz.egg-info/SOURCES.txt
+effortfulnessz.egg-info/dependency_links.txt
+effortfulnessz.egg-info/requires.txt
+effortfulnessz.egg-info/top_level.txt
