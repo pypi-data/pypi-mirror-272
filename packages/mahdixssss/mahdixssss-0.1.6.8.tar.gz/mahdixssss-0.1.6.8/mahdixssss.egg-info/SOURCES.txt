@@ -1,0 +1,11 @@
+README.md
+setup.py
+mahdix/__init__.py
+mahdix/mat.py
+mahdixssss.egg-info/PKG-INFO
+mahdixssss.egg-info/SOURCES.txt
+mahdixssss.egg-info/dependency_links.txt
+mahdixssss.egg-info/entry_points.txt
+mahdixssss.egg-info/not-zip-safe
+mahdixssss.egg-info/requires.txt
+mahdixssss.egg-info/top_level.txt
