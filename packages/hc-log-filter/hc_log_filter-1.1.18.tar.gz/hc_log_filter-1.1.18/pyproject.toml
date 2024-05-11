@@ -1,0 +1,18 @@
+[build-system]
+requires = [ "setuptools>=61.0",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hc_log_filter"
+version = "v1.1.18"
+readme = "README.md"
+requires-python = ">=3.7"
+dynamic = [ "dependencies", "entry-points",]
+[[project.authors]]
+name = "hcrobots"
+email = "it.notification@hcrobots.com"
+
+[[project.authors]]
+name = "hcrobots"
+email = "it.notification@hcrobots.com"
+
