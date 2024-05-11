@@ -1,0 +1,1 @@
+import{ho as r}from"./index-BBaWpi9t.js";var n=1/0,t=17976931348623157e292;function a(a){return a?(a=r(a))===n||a===-n?(a<0?-1:1)*t:a==a?a:0:0===a?a:0}function o(r){var n=a(r),t=n%1;return n==n?t?n-t:n:0}export{a,o as t};
