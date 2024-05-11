@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+evaluatedz/__init__.py
+evaluatedz/main.py
+evaluatedz.egg-info/PKG-INFO
+evaluatedz.egg-info/SOURCES.txt
+evaluatedz.egg-info/dependency_links.txt
+evaluatedz.egg-info/requires.txt
+evaluatedz.egg-info/top_level.txt
