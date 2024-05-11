@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: redshift-data-api
+Version: 1.2.5
+Summary: Library for interfacing with Redshift. Compatible with Airflow 2.9.1 using Python 3.11
+Author: Giacomo Tagliabue
+Author-email: giacomo.tag@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3 (==1.34.69)
+Requires-Dist: pandas (==2.1.4)

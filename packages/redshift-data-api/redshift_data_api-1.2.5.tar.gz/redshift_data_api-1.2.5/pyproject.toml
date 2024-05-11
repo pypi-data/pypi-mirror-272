@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "redshift-data-api"
+version = "1.2.5"
+description = "Library for interfacing with Redshift. Compatible with Airflow 2.9.1 using Python 3.11"
+authors = ["Giacomo Tagliabue <giacomo.tag@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+# versions need to be exact as they're currently installed in airflow via requirements.txt
+# matches https://raw.githubusercontent.com/apache/airflow/constraints-2.9.1/constraints-3.11.txt
+boto3 = "1.34.69"
+pandas = "2.1.4"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target_version = ['py310']
