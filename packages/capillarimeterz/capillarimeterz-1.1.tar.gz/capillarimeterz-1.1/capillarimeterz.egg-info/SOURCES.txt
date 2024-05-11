@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+capillarimeterz/__init__.py
+capillarimeterz/main.py
+capillarimeterz.egg-info/PKG-INFO
+capillarimeterz.egg-info/SOURCES.txt
+capillarimeterz.egg-info/dependency_links.txt
+capillarimeterz.egg-info/requires.txt
+capillarimeterz.egg-info/top_level.txt
