@@ -1,0 +1,11 @@
+.gitignore
+README.md
+pyproject.toml
+clicra/__init__.py
+clicra/clicra.py
+clicra.egg-info/PKG-INFO
+clicra.egg-info/SOURCES.txt
+clicra.egg-info/dependency_links.txt
+clicra.egg-info/entry_points.txt
+clicra.egg-info/requires.txt
+clicra.egg-info/top_level.txt
