@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tswanaz/__init__.py
+tswanaz/main.py
+tswanaz.egg-info/PKG-INFO
+tswanaz.egg-info/SOURCES.txt
+tswanaz.egg-info/dependency_links.txt
+tswanaz.egg-info/requires.txt
+tswanaz.egg-info/top_level.txt
