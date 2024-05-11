@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hatticz/__init__.py
+hatticz/main.py
+hatticz.egg-info/PKG-INFO
+hatticz.egg-info/SOURCES.txt
+hatticz.egg-info/dependency_links.txt
+hatticz.egg-info/requires.txt
+hatticz.egg-info/top_level.txt
