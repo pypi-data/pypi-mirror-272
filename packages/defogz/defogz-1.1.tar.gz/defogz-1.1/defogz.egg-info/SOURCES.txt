@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+defogz/__init__.py
+defogz/main.py
+defogz.egg-info/PKG-INFO
+defogz.egg-info/SOURCES.txt
+defogz.egg-info/dependency_links.txt
+defogz.egg-info/requires.txt
+defogz.egg-info/top_level.txt
