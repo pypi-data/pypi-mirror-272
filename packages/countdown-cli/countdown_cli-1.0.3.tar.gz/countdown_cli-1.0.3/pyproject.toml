@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "countdown-cli"
+version = "1.0.3"
+description = "Terminal program to display countdown timer"
+authors = ["Trey Hunner <trey@treyhunner.com>"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/treyhunner/countdown-cli"
+repository = "https://github.com/treyhunner/countdown-cli"
+packages = [
+    { include = "countdown", from = "src" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.poetry.urls]
+Changelog = "https://github.com/treyhunner/countdown-cli/releases"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2.0"
+coverage = {extras = ["toml"], version = "^7.5.1"}
+pre-commit = "^2.16.0"
+flake8 = "^7.0.0"
+black = "^24.4.2"
+flake8-bandit = "^4.1.1"
+flake8-bugbear = "^24.4.26"
+flake8-docstrings = "^1.7.0"
+flake8-rst-docstrings = "^0.3.0"
+pep8-naming = "^0.13.3"
+reorder-python-imports = "^3.12.0"
+pre-commit-hooks = "^4.6.0"
+docutils = { version = "!=0.21.post1", optional = true }
+
+[tool.poetry.scripts]
+countdown = "countdown.__main__:main"
+
+[tool.poetry.group.dev.dependencies]
+tomli = "^2.0.1"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+tests = ["tests", "*/tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["countdown", "tests"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 96
+
+[tool.mypy]
+strict = true
+warn_unreachable = true
+pretty = true
+show_column_numbers = true
+show_error_codes = true
+show_error_context = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
