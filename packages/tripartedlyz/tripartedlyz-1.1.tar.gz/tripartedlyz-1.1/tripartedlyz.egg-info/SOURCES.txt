@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tripartedlyz/__init__.py
+tripartedlyz/main.py
+tripartedlyz.egg-info/PKG-INFO
+tripartedlyz.egg-info/SOURCES.txt
+tripartedlyz.egg-info/dependency_links.txt
+tripartedlyz.egg-info/requires.txt
+tripartedlyz.egg-info/top_level.txt
