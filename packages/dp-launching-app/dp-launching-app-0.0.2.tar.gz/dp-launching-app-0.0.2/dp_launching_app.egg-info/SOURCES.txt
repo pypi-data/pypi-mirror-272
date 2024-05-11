@@ -1,0 +1,7 @@
+README.md
+dp_launching_app.egg-info/PKG-INFO
+dp_launching_app.egg-info/SOURCES.txt
+dp_launching_app.egg-info/dependency_links.txt
+dp_launching_app.egg-info/entry_points.txt
+dp_launching_app.egg-info/requires.txt
+dp_launching_app.egg-info/top_level.txt
