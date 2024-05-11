@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+AIauxiliar/__init__.py
+AIauxiliar/consciencia.py
+AIauxiliar/inteligencia.py
+AIauxiliar.egg-info/PKG-INFO
+AIauxiliar.egg-info/SOURCES.txt
+AIauxiliar.egg-info/dependency_links.txt
+AIauxiliar.egg-info/top_level.txt
