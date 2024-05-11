@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subclerksz/__init__.py
+subclerksz/main.py
+subclerksz.egg-info/PKG-INFO
+subclerksz.egg-info/SOURCES.txt
+subclerksz.egg-info/dependency_links.txt
+subclerksz.egg-info/requires.txt
+subclerksz.egg-info/top_level.txt
