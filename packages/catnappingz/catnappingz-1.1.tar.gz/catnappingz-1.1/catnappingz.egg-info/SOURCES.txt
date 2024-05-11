@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+catnappingz/__init__.py
+catnappingz/main.py
+catnappingz.egg-info/PKG-INFO
+catnappingz.egg-info/SOURCES.txt
+catnappingz.egg-info/dependency_links.txt
+catnappingz.egg-info/requires.txt
+catnappingz.egg-info/top_level.txt
