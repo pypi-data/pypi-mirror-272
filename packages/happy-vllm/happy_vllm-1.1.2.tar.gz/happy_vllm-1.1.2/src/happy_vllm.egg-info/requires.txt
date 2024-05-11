@@ -1,0 +1,13 @@
+vllm<1.0,>=0.4.2
+fastapi<1.0,>=0.111.0
+pydantic_settings<3.0,>=2.2.1
+uvicorn[standard]<1.0,>=0.29.0
+prometheus_client<1.0,>=0.20.0
+numpy>=1.26.4
+jsonschema<5.0,>=4.22.0
+
+[test]
+httpx<1.0,>=0.23
+pytest<9.0,>=8.2.0
+pytest-cov<6.0,>=5.0.0
+mypy<2.0,>=1.7.1
