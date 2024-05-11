@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lib_version_group3
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: smtan
+Author-email: tan.stevenmitchell@gmail.com
+Requires-Python: >=3.8,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: gdown (>=5.1.0,<6.0.0)
+Requires-Dist: pylint (==3.1.0)
+Description-Content-Type: text/markdown
+
+# lib-version library
+A version-aware library that can be asked for the version of the lib-ml library.
+
