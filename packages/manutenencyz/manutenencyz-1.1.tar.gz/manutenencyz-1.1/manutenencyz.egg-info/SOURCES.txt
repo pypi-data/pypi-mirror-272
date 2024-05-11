@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+manutenencyz/__init__.py
+manutenencyz/main.py
+manutenencyz.egg-info/PKG-INFO
+manutenencyz.egg-info/SOURCES.txt
+manutenencyz.egg-info/dependency_links.txt
+manutenencyz.egg-info/requires.txt
+manutenencyz.egg-info/top_level.txt
