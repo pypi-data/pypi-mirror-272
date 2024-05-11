@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: windowpops
+Version: 2.0.1
+Summary: I have developed a user-friendly graphical interface (GUI) built with PyQt5, a powerful Python library designed for creating desktop applications with native-looking elements on Windows, macOS, and Linux. This interface empowers you to interact with various applications from a single, centralized location.
+Home-page: 
+Author: robert kimts
+Author-email: robertskimts@outlook.com
+License: MIT
+License-File: License.txt
+
+# windowpops: A Python Package for Efficient Date and Path Handling
+
+Description:
+
+User Interface for Application Interaction with PyQt5 - windowpops
+
+Overview
+
+You've developed a user-friendly graphical interface (GUI) built with PyQt5, a powerful Python library designed for creating desktop applications with native-looking elements on Windows, macOS, and Linux. This interface empowers you to interact with various applications from a single, centralized location.
+
+Key Functionalities
+
+Application Launch and Management:
+Effortlessly launch or open the desired applications directly from your GUI.
+Simplify application workflow by managing them within a unified window.
+Gain the convenience of switching between applications seamlessly.
+Interaction with Application Features:
+Depending on the application's structure and your implementation, your GUI might enable you to interact with specific functionalities or features within those applications. This could involve:
+Triggering actions (e.g., clicking buttons, entering text, submitting forms)
+Sending commands or simulating user input
+Automating repetitive tasks
+Important Note: The level of interaction capabilities is highly contingent on the target applications' design and potential limitations imposed by their APIs or security measures.
