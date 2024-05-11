@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jocuz/__init__.py
+jocuz/main.py
+jocuz.egg-info/PKG-INFO
+jocuz.egg-info/SOURCES.txt
+jocuz.egg-info/dependency_links.txt
+jocuz.egg-info/requires.txt
+jocuz.egg-info/top_level.txt
