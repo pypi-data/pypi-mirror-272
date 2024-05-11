@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unsophisticationz/__init__.py
+unsophisticationz/main.py
+unsophisticationz.egg-info/PKG-INFO
+unsophisticationz.egg-info/SOURCES.txt
+unsophisticationz.egg-info/dependency_links.txt
+unsophisticationz.egg-info/requires.txt
+unsophisticationz.egg-info/top_level.txt
