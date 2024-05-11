@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+insheathz/__init__.py
+insheathz/main.py
+insheathz.egg-info/PKG-INFO
+insheathz.egg-info/SOURCES.txt
+insheathz.egg-info/dependency_links.txt
+insheathz.egg-info/requires.txt
+insheathz.egg-info/top_level.txt
