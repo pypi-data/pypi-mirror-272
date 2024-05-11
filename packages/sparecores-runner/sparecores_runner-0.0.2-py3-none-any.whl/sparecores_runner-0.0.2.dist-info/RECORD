@@ -1,0 +1,13 @@
+sc_runner/__init__.py,sha256=u15TKwvdzjHw2QOE2KZKXsER84NHdXjCi7OYDBmfpKU,451
+sc_runner/cli.py,sha256=wvVQ64BcYQyztKtI1QywATCXivqFPfFHlg3len7qE1w,2347
+sc_runner/data.py,sha256=dPS1qgJ8m6Jk4A96iT9lEpBGLeA3oLPjtUcaw3E0ThA,1494
+sc_runner/runner.py,sha256=EpXcgeYDJ6QYPHPIbwAow61truFdoba_qUfuYWhqrn4,2757
+sc_runner/resources/__init__.py,sha256=FdNpuy4DQDMsFJEKIe6qDkbKxg_0TZKYIk5rclVro6c,321
+sc_runner/resources/aws.py,sha256=fpcrGXGYLKpGc1LFuV-OFUM-_eZKthC0HXE7BsJA81k,7121
+sc_runner/resources/base.py,sha256=zwrouIFmrnciXSMsvddmiXmkcVCREhmnkXoygwWLCoY,606
+sparecores_runner-0.0.2.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+sparecores_runner-0.0.2.dist-info/METADATA,sha256=E5JzOPaH4iL7pD1ri1sTIYtPOrFumBSdiacUle-QWWY,1207
+sparecores_runner-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sparecores_runner-0.0.2.dist-info/entry_points.txt,sha256=krEhbO0CLsa5nwAWhqkVlHd3eMZ0puEbtm7I7mdCZm4,48
+sparecores_runner-0.0.2.dist-info/top_level.txt,sha256=UwNnHZATlRu6x2id1Ib7YrXTrBx4fI___MDR5nwRNH8,10
+sparecores_runner-0.0.2.dist-info/RECORD,,
