@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+preoccupied.proxytype.egg-info/PKG-INFO
+preoccupied.proxytype.egg-info/SOURCES.txt
+preoccupied.proxytype.egg-info/dependency_links.txt
+preoccupied.proxytype.egg-info/not-zip-safe
+preoccupied.proxytype.egg-info/top_level.txt
+preoccupied/proxytype/__init__.py
+preoccupied/proxytype/mypy.py
+preoccupied/proxytype/py.typed
