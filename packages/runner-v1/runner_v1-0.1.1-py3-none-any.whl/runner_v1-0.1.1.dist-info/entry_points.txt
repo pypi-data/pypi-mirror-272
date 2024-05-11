@@ -1,0 +1,3 @@
+[console_scripts]
+run=runner.__main__:cli
+

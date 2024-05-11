@@ -1,0 +1,10 @@
+[[profile]]
+name = 'c++'
+pre_run = 'g++ -O2 <file>'
+run = './a.out'
+post_run = 'rm a.out'
+
+
+[[from_ext]]
+ext = 'cpp'
+profile = 'c++'
