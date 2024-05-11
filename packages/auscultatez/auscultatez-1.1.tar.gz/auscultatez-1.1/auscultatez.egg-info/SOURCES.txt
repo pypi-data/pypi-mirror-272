@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+auscultatez/__init__.py
+auscultatez/main.py
+auscultatez.egg-info/PKG-INFO
+auscultatez.egg-info/SOURCES.txt
+auscultatez.egg-info/dependency_links.txt
+auscultatez.egg-info/requires.txt
+auscultatez.egg-info/top_level.txt
