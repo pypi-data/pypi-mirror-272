@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+perilenticularz/__init__.py
+perilenticularz/main.py
+perilenticularz.egg-info/PKG-INFO
+perilenticularz.egg-info/SOURCES.txt
+perilenticularz.egg-info/dependency_links.txt
+perilenticularz.egg-info/requires.txt
+perilenticularz.egg-info/top_level.txt
