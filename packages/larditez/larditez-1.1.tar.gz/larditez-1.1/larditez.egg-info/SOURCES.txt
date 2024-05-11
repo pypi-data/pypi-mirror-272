@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+larditez/__init__.py
+larditez/main.py
+larditez.egg-info/PKG-INFO
+larditez.egg-info/SOURCES.txt
+larditez.egg-info/dependency_links.txt
+larditez.egg-info/requires.txt
+larditez.egg-info/top_level.txt
