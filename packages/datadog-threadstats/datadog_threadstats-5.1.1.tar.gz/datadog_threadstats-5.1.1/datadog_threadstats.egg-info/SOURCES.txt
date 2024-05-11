@@ -1,0 +1,7 @@
+README.md
+setup.py
+datadog_threadstats.egg-info/PKG-INFO
+datadog_threadstats.egg-info/SOURCES.txt
+datadog_threadstats.egg-info/dependency_links.txt
+datadog_threadstats.egg-info/not-zip-safe
+datadog_threadstats.egg-info/top_level.txt
