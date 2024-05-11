@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonlaminativez/__init__.py
+nonlaminativez/main.py
+nonlaminativez.egg-info/PKG-INFO
+nonlaminativez.egg-info/SOURCES.txt
+nonlaminativez.egg-info/dependency_links.txt
+nonlaminativez.egg-info/requires.txt
+nonlaminativez.egg-info/top_level.txt
