@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+laryngologicalz/__init__.py
+laryngologicalz/main.py
+laryngologicalz.egg-info/PKG-INFO
+laryngologicalz.egg-info/SOURCES.txt
+laryngologicalz.egg-info/dependency_links.txt
+laryngologicalz.egg-info/requires.txt
+laryngologicalz.egg-info/top_level.txt
