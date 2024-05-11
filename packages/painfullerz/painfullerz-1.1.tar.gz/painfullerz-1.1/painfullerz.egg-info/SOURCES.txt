@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+painfullerz/__init__.py
+painfullerz/main.py
+painfullerz.egg-info/PKG-INFO
+painfullerz.egg-info/SOURCES.txt
+painfullerz.egg-info/dependency_links.txt
+painfullerz.egg-info/requires.txt
+painfullerz.egg-info/top_level.txt
