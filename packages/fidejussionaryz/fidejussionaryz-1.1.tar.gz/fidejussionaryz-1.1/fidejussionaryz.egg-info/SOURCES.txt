@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fidejussionaryz/__init__.py
+fidejussionaryz/main.py
+fidejussionaryz.egg-info/PKG-INFO
+fidejussionaryz.egg-info/SOURCES.txt
+fidejussionaryz.egg-info/dependency_links.txt
+fidejussionaryz.egg-info/requires.txt
+fidejussionaryz.egg-info/top_level.txt
