@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: focusployer
+Version: 1.0
+Author: uni
+Requires-Dist: asyncssh
+Requires-Dist: loguru
