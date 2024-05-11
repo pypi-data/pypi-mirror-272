@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+frypanz/__init__.py
+frypanz/main.py
+frypanz.egg-info/PKG-INFO
+frypanz.egg-info/SOURCES.txt
+frypanz.egg-info/dependency_links.txt
+frypanz.egg-info/requires.txt
+frypanz.egg-info/top_level.txt
