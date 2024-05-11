@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+diagramz/__init__.py
+diagramz/main.py
+diagramz.egg-info/PKG-INFO
+diagramz.egg-info/SOURCES.txt
+diagramz.egg-info/dependency_links.txt
+diagramz.egg-info/requires.txt
+diagramz.egg-info/top_level.txt
