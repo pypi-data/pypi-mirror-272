@@ -1,0 +1,11 @@
+README.md
+setup.py
+gmailbox/__init__.py
+gmailbox/gmailbox.py
+gmailimbox.egg-info/PKG-INFO
+gmailimbox.egg-info/SOURCES.txt
+gmailimbox.egg-info/dependency_links.txt
+gmailimbox.egg-info/requires.txt
+gmailimbox.egg-info/top_level.txt
+tests/__init__.py
+tests/test_gmailbox.py
