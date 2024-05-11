@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+indent_concluder/__init__.py
+indent_concluder.egg-info/PKG-INFO
+indent_concluder.egg-info/SOURCES.txt
+indent_concluder.egg-info/dependency_links.txt
+indent_concluder.egg-info/entry_points.txt
+indent_concluder.egg-info/top_level.txt
