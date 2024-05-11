@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+churningsz/__init__.py
+churningsz/main.py
+churningsz.egg-info/PKG-INFO
+churningsz.egg-info/SOURCES.txt
+churningsz.egg-info/dependency_links.txt
+churningsz.egg-info/requires.txt
+churningsz.egg-info/top_level.txt
