@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+combatedz/__init__.py
+combatedz/main.py
+combatedz.egg-info/PKG-INFO
+combatedz.egg-info/SOURCES.txt
+combatedz.egg-info/dependency_links.txt
+combatedz.egg-info/requires.txt
+combatedz.egg-info/top_level.txt
