@@ -1,0 +1,16 @@
+gflabel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gflabel/bases/__init__.py,sha256=vSMNoYOJ_wjxXIa1mTvLpSkgXXtAUiR3Y2UXrqniWNo,220
+gflabel/bases/plain.py,sha256=viMsfytmIhM_cO1dQYL3zXH5g-9NpfxnuxZMCiBrhVU,1369
+gflabel/bases/pred.py,sha256=SNpIlB59cys6XCia3ZnQO-4klwqWbikf9j3JPc4RRys,3265
+gflabel/bases/webb.py,sha256=XTJY5csc0G5RGngIySJbfuVhMR_C-PCDh-F9EoSY_zs,3726
+gflabel/chris-pikul-symbols.zip,sha256=FFBEKJrs_YwsFRhT6sDNjt_WJcdlBB5DjHdj56U51Gg,110480
+gflabel/cli.py,sha256=1FTg0VO4pQ5v5u8f-s8q2nAqb3JlA_KYBA0ExhUedAc,11728
+gflabel/fragments.py,sha256=80rHT-y7nH7J-7keXEdrEB3iKBw91nVEtW1vd4VcZpI,38251
+gflabel/label.py,sha256=___UZvNcgSOHaADp-YQ_3dqd9BC9zR2qJ2hLCF8DUH0,9321
+gflabel/options.py,sha256=iRF1PmVwgHvDtZZfi7H1SX8pMu6Wn5Asac7wVC58UAQ,2148
+gflabel/util.py,sha256=i-_1615nnkKVWPp8rQXhHFxe09jJqqp-E8NAPBewdgE,1450
+gflabel-0.1.4.dist-info/LICENSE.txt,sha256=Ax2tgf0Jj8hQhigejm4eUDIwK8ZUAdRWC8bO4qrHXk0,1456
+gflabel-0.1.4.dist-info/METADATA,sha256=lAONNAM54rd0hhe4wCEMvFlR4BkxFKy-XHJBR2yO-G4,13496
+gflabel-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gflabel-0.1.4.dist-info/entry_points.txt,sha256=ayBpBM9qznmGWmsA1T2anHla0BIZrJo3jiYL0Hz7zmA,43
+gflabel-0.1.4.dist-info/RECORD,,
