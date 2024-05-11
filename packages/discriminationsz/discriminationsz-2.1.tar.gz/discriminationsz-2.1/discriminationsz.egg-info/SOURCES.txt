@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+discriminationsz/__init__.py
+discriminationsz/main.py
+discriminationsz.egg-info/PKG-INFO
+discriminationsz.egg-info/SOURCES.txt
+discriminationsz.egg-info/dependency_links.txt
+discriminationsz.egg-info/requires.txt
+discriminationsz.egg-info/top_level.txt
