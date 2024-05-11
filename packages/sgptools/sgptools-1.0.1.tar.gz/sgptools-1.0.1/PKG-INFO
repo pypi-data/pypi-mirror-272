@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sgptools
+Version: 1.0.1
+Summary: Software Suite for Sensor Placement and Informative Path Planning
+Home-page: https://www.itskalvik.com/sgp-tools
+Author: Kalvik
+Author-email: itskalvik@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
