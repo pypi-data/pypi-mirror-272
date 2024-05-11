@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "meowcat"
+version = "0.1.2rc0"
+description = ""
+authors = ["Emile Bosch <emile@54hrs.com>"]
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
