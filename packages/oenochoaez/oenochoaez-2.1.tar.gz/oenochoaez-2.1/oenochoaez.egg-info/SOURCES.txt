@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oenochoaez/__init__.py
+oenochoaez/main.py
+oenochoaez.egg-info/PKG-INFO
+oenochoaez.egg-info/SOURCES.txt
+oenochoaez.egg-info/dependency_links.txt
+oenochoaez.egg-info/requires.txt
+oenochoaez.egg-info/top_level.txt
