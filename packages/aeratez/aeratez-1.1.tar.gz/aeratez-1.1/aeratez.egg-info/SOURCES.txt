@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aeratez/__init__.py
+aeratez/main.py
+aeratez.egg-info/PKG-INFO
+aeratez.egg-info/SOURCES.txt
+aeratez.egg-info/dependency_links.txt
+aeratez.egg-info/requires.txt
+aeratez.egg-info/top_level.txt
