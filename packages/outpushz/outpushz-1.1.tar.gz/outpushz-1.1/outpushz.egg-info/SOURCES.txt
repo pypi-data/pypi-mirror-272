@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+outpushz/__init__.py
+outpushz/main.py
+outpushz.egg-info/PKG-INFO
+outpushz.egg-info/SOURCES.txt
+outpushz.egg-info/dependency_links.txt
+outpushz.egg-info/requires.txt
+outpushz.egg-info/top_level.txt
