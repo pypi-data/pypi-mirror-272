@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pericementitisz/__init__.py
+pericementitisz/main.py
+pericementitisz.egg-info/PKG-INFO
+pericementitisz.egg-info/SOURCES.txt
+pericementitisz.egg-info/dependency_links.txt
+pericementitisz.egg-info/requires.txt
+pericementitisz.egg-info/top_level.txt
