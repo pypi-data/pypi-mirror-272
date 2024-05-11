@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+brahmanismz/__init__.py
+brahmanismz/main.py
+brahmanismz.egg-info/PKG-INFO
+brahmanismz.egg-info/SOURCES.txt
+brahmanismz.egg-info/dependency_links.txt
+brahmanismz.egg-info/requires.txt
+brahmanismz.egg-info/top_level.txt
