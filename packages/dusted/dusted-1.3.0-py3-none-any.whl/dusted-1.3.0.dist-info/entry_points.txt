@@ -1,0 +1,2 @@
+[gui_scripts]
+dusted = dusted.__main__:main
