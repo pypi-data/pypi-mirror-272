@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+misappliedz/__init__.py
+misappliedz/main.py
+misappliedz.egg-info/PKG-INFO
+misappliedz.egg-info/SOURCES.txt
+misappliedz.egg-info/dependency_links.txt
+misappliedz.egg-info/requires.txt
+misappliedz.egg-info/top_level.txt
