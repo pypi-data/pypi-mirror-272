@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+myalgicz/__init__.py
+myalgicz/main.py
+myalgicz.egg-info/PKG-INFO
+myalgicz.egg-info/SOURCES.txt
+myalgicz.egg-info/dependency_links.txt
+myalgicz.egg-info/requires.txt
+myalgicz.egg-info/top_level.txt
