@@ -1,0 +1,10 @@
+llamascript/__init__.py,sha256=qc3Gfu_rORZifKENE3KNvgHQ9ybdn3EjighohpxHJLI,42
+llamascript/embedded.py,sha256=Jbn9uc1lHSG21_ZteXCwYI3nYGKZl2AEKRP8Aoufu18,1186
+llamascript/lang.py,sha256=6QMeowfmr9UFpGRvmCMWc4mZp55ECeQM7Pg1nYtlvg8,6666
+llamascript/test.py,sha256=csyRGOGDGPAeerQQ_P0bm3UFUQ0GFtHQrNfI3X1xx60,1146
+llamascript-0.5.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+llamascript-0.5.0.dist-info/METADATA,sha256=Pu8kkFg0hwJrb-Q12osxszvgtGOIBhFZmQf6USfVTmQ,3033
+llamascript-0.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+llamascript-0.5.0.dist-info/entry_points.txt,sha256=gmSwVPpmDpylAkIyklz0c078rkcLylN6QxHEGSvFSCg,53
+llamascript-0.5.0.dist-info/top_level.txt,sha256=TWXJwN1NEhHY1bxTkARzRfgwGWtCINlTQZCvPD14ml0,12
+llamascript-0.5.0.dist-info/RECORD,,
