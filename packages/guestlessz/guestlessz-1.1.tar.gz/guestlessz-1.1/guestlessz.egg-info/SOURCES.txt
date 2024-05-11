@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+guestlessz/__init__.py
+guestlessz/main.py
+guestlessz.egg-info/PKG-INFO
+guestlessz.egg-info/SOURCES.txt
+guestlessz.egg-info/dependency_links.txt
+guestlessz.egg-info/requires.txt
+guestlessz.egg-info/top_level.txt
