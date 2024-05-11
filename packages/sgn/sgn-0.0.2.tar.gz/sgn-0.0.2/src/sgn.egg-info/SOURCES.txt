@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sgn/__init__.py
+src/sgn.egg-info/PKG-INFO
+src/sgn.egg-info/SOURCES.txt
+src/sgn.egg-info/dependency_links.txt
+src/sgn.egg-info/top_level.txt
+src/sgn/apps/__init__.py
+src/sgn/base/__init__.py
+src/sgn/sinks/__init__.py
+src/sgn/sources/__init__.py
+src/sgn/transforms/__init__.py
+tests/test_graph.py
