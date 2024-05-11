@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+boldoinez/__init__.py
+boldoinez/main.py
+boldoinez.egg-info/PKG-INFO
+boldoinez.egg-info/SOURCES.txt
+boldoinez.egg-info/dependency_links.txt
+boldoinez.egg-info/requires.txt
+boldoinez.egg-info/top_level.txt
