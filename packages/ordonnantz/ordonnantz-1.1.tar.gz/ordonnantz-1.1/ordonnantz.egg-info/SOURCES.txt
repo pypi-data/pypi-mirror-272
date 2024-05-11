@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ordonnantz/__init__.py
+ordonnantz/main.py
+ordonnantz.egg-info/PKG-INFO
+ordonnantz.egg-info/SOURCES.txt
+ordonnantz.egg-info/dependency_links.txt
+ordonnantz.egg-info/requires.txt
+ordonnantz.egg-info/top_level.txt
