@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bractletsz/__init__.py
+bractletsz/main.py
+bractletsz.egg-info/PKG-INFO
+bractletsz.egg-info/SOURCES.txt
+bractletsz.egg-info/dependency_links.txt
+bractletsz.egg-info/requires.txt
+bractletsz.egg-info/top_level.txt
