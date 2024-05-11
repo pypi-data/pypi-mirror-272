@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+metalogicz/__init__.py
+metalogicz/main.py
+metalogicz.egg-info/PKG-INFO
+metalogicz.egg-info/SOURCES.txt
+metalogicz.egg-info/dependency_links.txt
+metalogicz.egg-info/requires.txt
+metalogicz.egg-info/top_level.txt
