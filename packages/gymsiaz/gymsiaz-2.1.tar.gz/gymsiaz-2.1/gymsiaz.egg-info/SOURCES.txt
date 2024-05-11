@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gymsiaz/__init__.py
+gymsiaz/main.py
+gymsiaz.egg-info/PKG-INFO
+gymsiaz.egg-info/SOURCES.txt
+gymsiaz.egg-info/dependency_links.txt
+gymsiaz.egg-info/requires.txt
+gymsiaz.egg-info/top_level.txt
