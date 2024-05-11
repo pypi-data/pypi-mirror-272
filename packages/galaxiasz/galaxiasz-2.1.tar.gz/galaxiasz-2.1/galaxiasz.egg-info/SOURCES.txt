@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+galaxiasz/__init__.py
+galaxiasz/main.py
+galaxiasz.egg-info/PKG-INFO
+galaxiasz.egg-info/SOURCES.txt
+galaxiasz.egg-info/dependency_links.txt
+galaxiasz.egg-info/requires.txt
+galaxiasz.egg-info/top_level.txt
