@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dinosz/__init__.py
+dinosz/main.py
+dinosz.egg-info/PKG-INFO
+dinosz.egg-info/SOURCES.txt
+dinosz.egg-info/dependency_links.txt
+dinosz.egg-info/requires.txt
+dinosz.egg-info/top_level.txt
