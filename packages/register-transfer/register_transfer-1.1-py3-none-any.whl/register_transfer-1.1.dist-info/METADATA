@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: register_transfer
+Version: 1.1
+Summary: Tools for image registration and style transfer in image tone field
+Author: zys
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: opencv-python
+Requires-Dist: opencv-contrib-python
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: natsort
+Requires-Dist: tqdm
+Requires-Dist: kornia
+
+This is a private project for 1.Generating two cropped registration images and one registration mask saved in one dict object.
+in which all images are saved in RGB order. 2.Generating transferred image containing target image style.
