@@ -1,0 +1,8 @@
+tools/__init__.py,sha256=dYc07izuUkxoZWE35gt7xIWEeLC6sWglnHwpIiRNQN4,2261
+tools/main.py,sha256=s-9Bm-WHqJYXbkANINGF0mQZp-nMVyGJeMsKmeklYSg,3376
+tools/utils.py,sha256=R6EaYppr_Ifw5b_4AHJx1SmpvUsbp-Jl_6lJjCjpRto,24555
+taskwarrior_flow-0.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+taskwarrior_flow-0.4.0.dist-info/METADATA,sha256=2A66tSYKC2aNfM45f43tfBuH-GYmKUBXHrjKZLyX188,2074
+taskwarrior_flow-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+taskwarrior_flow-0.4.0.dist-info/entry_points.txt,sha256=4FeXqhgLmm6tlOjVDJvs2Ytjyf9wVMCuC_SbbWuj-X4,38
+taskwarrior_flow-0.4.0.dist-info/RECORD,,
