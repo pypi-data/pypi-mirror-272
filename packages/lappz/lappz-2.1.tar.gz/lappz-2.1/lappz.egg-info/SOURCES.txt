@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lappz/__init__.py
+lappz/main.py
+lappz.egg-info/PKG-INFO
+lappz.egg-info/SOURCES.txt
+lappz.egg-info/dependency_links.txt
+lappz.egg-info/requires.txt
+lappz.egg-info/top_level.txt
