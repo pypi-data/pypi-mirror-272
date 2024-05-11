@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rebuildsz/__init__.py
+rebuildsz/main.py
+rebuildsz.egg-info/PKG-INFO
+rebuildsz.egg-info/SOURCES.txt
+rebuildsz.egg-info/dependency_links.txt
+rebuildsz.egg-info/requires.txt
+rebuildsz.egg-info/top_level.txt
