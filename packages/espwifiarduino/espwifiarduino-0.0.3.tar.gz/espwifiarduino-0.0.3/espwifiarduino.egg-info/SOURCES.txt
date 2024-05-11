@@ -1,0 +1,8 @@
+setup.py
+espwifiarduino/__init__.py
+espwifiarduino/ard_main.py
+espwifiarduino.egg-info/PKG-INFO
+espwifiarduino.egg-info/SOURCES.txt
+espwifiarduino.egg-info/dependency_links.txt
+espwifiarduino.egg-info/requires.txt
+espwifiarduino.egg-info/top_level.txt
