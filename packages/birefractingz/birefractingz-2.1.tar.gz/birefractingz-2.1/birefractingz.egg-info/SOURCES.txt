@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+birefractingz/__init__.py
+birefractingz/main.py
+birefractingz.egg-info/PKG-INFO
+birefractingz.egg-info/SOURCES.txt
+birefractingz.egg-info/dependency_links.txt
+birefractingz.egg-info/requires.txt
+birefractingz.egg-info/top_level.txt
