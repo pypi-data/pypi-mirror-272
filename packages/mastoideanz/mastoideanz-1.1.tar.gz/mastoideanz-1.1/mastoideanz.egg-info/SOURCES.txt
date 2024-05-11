@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mastoideanz/__init__.py
+mastoideanz/main.py
+mastoideanz.egg-info/PKG-INFO
+mastoideanz.egg-info/SOURCES.txt
+mastoideanz.egg-info/dependency_links.txt
+mastoideanz.egg-info/requires.txt
+mastoideanz.egg-info/top_level.txt
