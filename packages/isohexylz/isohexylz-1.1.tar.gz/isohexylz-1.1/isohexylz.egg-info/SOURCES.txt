@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+isohexylz/__init__.py
+isohexylz/main.py
+isohexylz.egg-info/PKG-INFO
+isohexylz.egg-info/SOURCES.txt
+isohexylz.egg-info/dependency_links.txt
+isohexylz.egg-info/requires.txt
+isohexylz.egg-info/top_level.txt
