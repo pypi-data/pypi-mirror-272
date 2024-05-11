@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anticumz/__init__.py
+anticumz/main.py
+anticumz.egg-info/PKG-INFO
+anticumz.egg-info/SOURCES.txt
+anticumz.egg-info/dependency_links.txt
+anticumz.egg-info/requires.txt
+anticumz.egg-info/top_level.txt
