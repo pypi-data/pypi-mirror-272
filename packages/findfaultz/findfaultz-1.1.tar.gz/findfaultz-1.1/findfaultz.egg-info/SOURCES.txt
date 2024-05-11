@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+findfaultz/__init__.py
+findfaultz/main.py
+findfaultz.egg-info/PKG-INFO
+findfaultz.egg-info/SOURCES.txt
+findfaultz.egg-info/dependency_links.txt
+findfaultz.egg-info/requires.txt
+findfaultz.egg-info/top_level.txt
