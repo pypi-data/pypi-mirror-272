@@ -1,0 +1,14 @@
+setup.py
+bincrafters_conan_remote/__init__.py
+bincrafters_conan_remote/generate.py
+bincrafters_conan_remote/helpers.py
+bincrafters_conan_remote/main.py
+bincrafters_conan_remote/remote.py
+bincrafters_conan_remote.egg-info/PKG-INFO
+bincrafters_conan_remote.egg-info/SOURCES.txt
+bincrafters_conan_remote.egg-info/dependency_links.txt
+bincrafters_conan_remote.egg-info/entry_points.txt
+bincrafters_conan_remote.egg-info/requires.txt
+bincrafters_conan_remote.egg-info/top_level.txt
+bincrafters_conan_remote/remote_repo_meta_files/.gitignore
+bincrafters_conan_remote/remote_repo_meta_files/readme.md

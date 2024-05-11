@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bincrafters-conan-remote
+Version: 0.1.0
+Summary: Run locally a Conan remote that builds open static files.
+Home-page: https://github.com/bincrafters/bincrafters-conan-remote
+Author: Bincrafters
+Author-email: bincrafters@cr0ydon.com
+License: MIT
+Project-URL: Documentation, https://github.com/bincrafters/bincrafters-conan-remote
+Project-URL: Source, https://github.com/bincrafters/bincrafters-conan-remote
+Project-URL: Tracker, https://github.com/bincrafters/community/issues
+Keywords: conan,remote,static,bincrafters,C/C++,package,libraries,developer,manager,dependency,tool,c,c++,cpp
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi<1,>=0.111.0
+Requires-Dist: conan==1.*
+
+This tool is something like a locally run proxy server to provide the Conan client with a Conan remote as it expects, building upon static remote text files.

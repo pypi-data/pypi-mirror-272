@@ -1,0 +1,2 @@
+[console_scripts]
+bincrafters-conan-remote = bincrafters_conan_remote.main:run
