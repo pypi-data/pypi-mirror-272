@@ -1,0 +1,14 @@
+qtpyinheritance/__init__.py,sha256=4RI3MC6BSqsczOBE7Mq3OB8hVJB2xa3GJKsULzuLosk,47
+qtpyinheritance/_version.py,sha256=hB095avW4HuDZxn8qPHRG1UMzSSonb8ZDAsLxt9hmk8,411
+qtpyinheritance/properties.py,sha256=5RlX569sEf9e-Knh8PoHrUsAkB1Ywi_kw0gDq9dfwbM,8287
+qtpyinheritance/signals.py,sha256=y7gn_4uMizhvzFF0Us6d9oRI2jEwOwBPphAnyd5-wuM,1612
+qtpyinheritance/version.py,sha256=62xcx07DOuQFGElWfS7VvuwcGZhd0Q1cf_55dy1FAwY,1898
+qtpyinheritance/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qtpyinheritance/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qtpyinheritance/tests/test_properties.py,sha256=JCT9yXJJKqe9h7hbcJyxzUrmJOLnIXBmsrw7dL4MARw,1712
+qtpyinheritance/tests/test_signals.py,sha256=lVOOkJqjIDqv0puKgLBz5qK-FW2eiW5FcTadr02IrcY,1490
+qtpyinheritance-0.0.3.dist-info/LICENSE,sha256=w_JbGHn9w5QwSKPpDTg0HX4jxCOyUMli8Ngo3RFuLPU,1482
+qtpyinheritance-0.0.3.dist-info/METADATA,sha256=u0lC-evlSzgMRY3eq2F7D_xdikWbfsuEQ6IiEhojBUQ,2994
+qtpyinheritance-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+qtpyinheritance-0.0.3.dist-info/top_level.txt,sha256=DQRDuC8yrIC1-Bf3c_fOmlU-m_UOwZzPhCRmf6ANS1k,16
+qtpyinheritance-0.0.3.dist-info/RECORD,,
