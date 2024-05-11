@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+outkillz/__init__.py
+outkillz/main.py
+outkillz.egg-info/PKG-INFO
+outkillz.egg-info/SOURCES.txt
+outkillz.egg-info/dependency_links.txt
+outkillz.egg-info/requires.txt
+outkillz.egg-info/top_level.txt
