@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+macrosmaticz/__init__.py
+macrosmaticz/main.py
+macrosmaticz.egg-info/PKG-INFO
+macrosmaticz.egg-info/SOURCES.txt
+macrosmaticz.egg-info/dependency_links.txt
+macrosmaticz.egg-info/requires.txt
+macrosmaticz.egg-info/top_level.txt
