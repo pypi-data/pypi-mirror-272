@@ -1,0 +1,36 @@
+[build]
+python_version = [
+"3.8",
+]
+runs-on = "ubuntu-latest"
+
+[yaml]
+active = [
+"lint",
+"tests"
+]
+
+[lint]
+active = [
+"isort",
+"flake8",
+]
+
+[tests]
+active = [
+"pytest"
+]
+default = [
+{'file_command' = './tests'}
+]
+
+[lint.isort]
+flags = [
+'--check-only',
+]
+
+[lint.flake8]
+flags = [
+'--per-file-ignores="__init__.py:F401"',
+'--ignore=W503'
+]
