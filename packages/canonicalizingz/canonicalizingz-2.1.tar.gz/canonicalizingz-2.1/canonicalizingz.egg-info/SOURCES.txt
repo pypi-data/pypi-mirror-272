@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+canonicalizingz/__init__.py
+canonicalizingz/main.py
+canonicalizingz.egg-info/PKG-INFO
+canonicalizingz.egg-info/SOURCES.txt
+canonicalizingz.egg-info/dependency_links.txt
+canonicalizingz.egg-info/requires.txt
+canonicalizingz.egg-info/top_level.txt
