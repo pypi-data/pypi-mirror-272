@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+neallotypez/__init__.py
+neallotypez/main.py
+neallotypez.egg-info/PKG-INFO
+neallotypez.egg-info/SOURCES.txt
+neallotypez.egg-info/dependency_links.txt
+neallotypez.egg-info/requires.txt
+neallotypez.egg-info/top_level.txt
