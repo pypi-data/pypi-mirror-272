@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+extracurricularz/__init__.py
+extracurricularz/main.py
+extracurricularz.egg-info/PKG-INFO
+extracurricularz.egg-info/SOURCES.txt
+extracurricularz.egg-info/dependency_links.txt
+extracurricularz.egg-info/requires.txt
+extracurricularz.egg-info/top_level.txt
