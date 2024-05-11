@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+marinesz/__init__.py
+marinesz/main.py
+marinesz.egg-info/PKG-INFO
+marinesz.egg-info/SOURCES.txt
+marinesz.egg-info/dependency_links.txt
+marinesz.egg-info/requires.txt
+marinesz.egg-info/top_level.txt
