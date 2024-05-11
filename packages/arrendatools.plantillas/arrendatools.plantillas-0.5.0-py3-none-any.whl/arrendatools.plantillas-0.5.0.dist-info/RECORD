@@ -1,0 +1,11 @@
+arrendatools/__init__.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+arrendatools/plantillas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arrendatools/plantillas/plantilla.py,sha256=TKkTcwvgUHlTBqV135KiQN4Ll8i7YMHJQOD3n0nH7ro,1383
+arrendatools/plantillas/filters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arrendatools/plantillas/filters/fechas.py,sha256=vB0NKS03IvLRgQ0XTjJvhWn9fp6kQGoTmyZfUBzv-Mo,4769
+arrendatools/plantillas/filters/numeros.py,sha256=jjssO2C1PZOPgArr9S0HoNh8rRrNEwd73ZPCfle7SDA,3289
+arrendatools.plantillas-0.5.0.dist-info/LICENSE,sha256=R5xzJCQj8mfv0qnRxP77IgwUbOoNGSNZhNni6Gx0ISY,1062
+arrendatools.plantillas-0.5.0.dist-info/METADATA,sha256=hSNL-TSpmU6hsw3sf4Cb9z-Cwi4yxnmS4vRPmp4xmR4,2046
+arrendatools.plantillas-0.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+arrendatools.plantillas-0.5.0.dist-info/top_level.txt,sha256=FrhdaIeLhEnd9ATh_dZIaQ0DLdNoutEL6-eTzGCtPp0,13
+arrendatools.plantillas-0.5.0.dist-info/RECORD,,
