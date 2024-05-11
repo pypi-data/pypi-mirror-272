@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hyperdeliciouslyz/__init__.py
+hyperdeliciouslyz/main.py
+hyperdeliciouslyz.egg-info/PKG-INFO
+hyperdeliciouslyz.egg-info/SOURCES.txt
+hyperdeliciouslyz.egg-info/dependency_links.txt
+hyperdeliciouslyz.egg-info/requires.txt
+hyperdeliciouslyz.egg-info/top_level.txt
