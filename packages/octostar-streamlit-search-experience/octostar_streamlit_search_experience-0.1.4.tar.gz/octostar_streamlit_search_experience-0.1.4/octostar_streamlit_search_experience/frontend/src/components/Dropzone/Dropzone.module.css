@@ -1,0 +1,29 @@
+.root {
+    padding: 10px;
+}
+
+.antd_uploader {
+    border: 1px dashed #d9d9d9;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #fafafa;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.antd_uploader:hover {
+    border-color: #40a9ff;
+}
+
+.upload_icon {
+    color: #40a9ff;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.upload_text {
+    display: block;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
