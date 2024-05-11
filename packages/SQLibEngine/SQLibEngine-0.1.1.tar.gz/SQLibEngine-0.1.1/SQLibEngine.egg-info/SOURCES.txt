@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+SQLib-Engine/__init__.py
+SQLib-Engine/Database/Connection.py
+SQLib-Engine/Database/Exceptions.py
+SQLib-Engine/Database/__init__.py
+SQLib-Engine/SQLEngine/Exceptions.py
+SQLib-Engine/SQLEngine/__init__.py
+SQLib-Engine/SQLEngine/operations.py
+SQLib-Engine/SQLEngine/queries.py
+SQLib-Engine/SQLEngine/tables.py
+SQLibEngine.egg-info/PKG-INFO
+SQLibEngine.egg-info/SOURCES.txt
+SQLibEngine.egg-info/dependency_links.txt
+SQLibEngine.egg-info/top_level.txt
