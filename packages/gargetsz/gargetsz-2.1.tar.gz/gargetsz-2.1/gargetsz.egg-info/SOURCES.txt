@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gargetsz/__init__.py
+gargetsz/main.py
+gargetsz.egg-info/PKG-INFO
+gargetsz.egg-info/SOURCES.txt
+gargetsz.egg-info/dependency_links.txt
+gargetsz.egg-info/requires.txt
+gargetsz.egg-info/top_level.txt
