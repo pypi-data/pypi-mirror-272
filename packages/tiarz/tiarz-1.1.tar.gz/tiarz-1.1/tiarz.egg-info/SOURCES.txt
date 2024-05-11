@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tiarz/__init__.py
+tiarz/main.py
+tiarz.egg-info/PKG-INFO
+tiarz.egg-info/SOURCES.txt
+tiarz.egg-info/dependency_links.txt
+tiarz.egg-info/requires.txt
+tiarz.egg-info/top_level.txt
