@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+renouncementsz/__init__.py
+renouncementsz/main.py
+renouncementsz.egg-info/PKG-INFO
+renouncementsz.egg-info/SOURCES.txt
+renouncementsz.egg-info/dependency_links.txt
+renouncementsz.egg-info/requires.txt
+renouncementsz.egg-info/top_level.txt
