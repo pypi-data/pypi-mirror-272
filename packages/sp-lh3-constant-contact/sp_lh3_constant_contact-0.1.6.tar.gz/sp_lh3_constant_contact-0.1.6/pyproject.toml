@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sp-lh3-constant-contact"
+version = "0.1.6"
+description = "This script will assess a transcript to check if the operator has taken more than 5 min to reply to any message from the patron"
+authors = ["Guinslym <guinslym@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/guinslym/sp_lh3_constant_contact"
+homepage = "https://github.com/guinslym/sp_lh3_constant_contact"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+lh3api = "^0.2.0"
+bs4 = "^0.0.2"
+dateutils = "^0.6.12"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
