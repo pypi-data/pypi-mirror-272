@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stauropegiaz/__init__.py
+stauropegiaz/main.py
+stauropegiaz.egg-info/PKG-INFO
+stauropegiaz.egg-info/SOURCES.txt
+stauropegiaz.egg-info/dependency_links.txt
+stauropegiaz.egg-info/requires.txt
+stauropegiaz.egg-info/top_level.txt
