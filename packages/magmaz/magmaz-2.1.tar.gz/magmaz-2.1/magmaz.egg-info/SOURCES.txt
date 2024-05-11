@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+magmaz/__init__.py
+magmaz/main.py
+magmaz.egg-info/PKG-INFO
+magmaz.egg-info/SOURCES.txt
+magmaz.egg-info/dependency_links.txt
+magmaz.egg-info/requires.txt
+magmaz.egg-info/top_level.txt
