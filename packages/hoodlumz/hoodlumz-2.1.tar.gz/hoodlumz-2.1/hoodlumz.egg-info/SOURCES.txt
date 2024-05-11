@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hoodlumz/__init__.py
+hoodlumz/main.py
+hoodlumz.egg-info/PKG-INFO
+hoodlumz.egg-info/SOURCES.txt
+hoodlumz.egg-info/dependency_links.txt
+hoodlumz.egg-info/requires.txt
+hoodlumz.egg-info/top_level.txt
