@@ -1,0 +1,7 @@
+data_transformation_wizzard/__init__.py,sha256=LgjVtIKkzXbbeiKc4SM4cE5BJBLQF7QRHYlDw2mlMr8,127
+data_transformation_wizzard/cross_correlation.py,sha256=UeVJhET90i-xE8etEJzqA0440Zk5lMIbTOepIETa4cQ,2615
+data_transformation_wizzard/time_series_windowing.py,sha256=arlzTxNEiWCB0YSPZ_i_K3myQhukQGLmmKj_KQQBYHY,1896
+data_transformation_wizzard/transpose.py,sha256=-bm0KCB2kiyQcIDap2NifIHpNVOyzUTC7PBUbSYw69A,1294
+data_transformation_wizzard-0.1.5.dist-info/METADATA,sha256=tiP0LM5UdR6V-_figFN9sd4lsjF7ENQmjYGZ23O5u_w,2358
+data_transformation_wizzard-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+data_transformation_wizzard-0.1.5.dist-info/RECORD,,
