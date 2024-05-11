@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bedralz/__init__.py
+bedralz/main.py
+bedralz.egg-info/PKG-INFO
+bedralz.egg-info/SOURCES.txt
+bedralz.egg-info/dependency_links.txt
+bedralz.egg-info/requires.txt
+bedralz.egg-info/top_level.txt
