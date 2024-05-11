@@ -1,0 +1,41 @@
+name: Ansible - Test
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version:
+          - "8.0"
+          - "9.0"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up direnv
+        uses: andreygubarev/setup-direnv@v1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pipenv'
+
+      - name: Install pipenv
+        run: pip install pipenv
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -yq --no-install-recommends mkisofs qemu-system-x86 qemu-utils
+
+      - name: Run test
+        run: |
+          direnv allow .
+          direnv exec . pipenv install ansible~=${{ matrix.version }}
+          direnv exec . ansible-galaxy collection install -r requirements.yml
+          direnv exec . make test-platform-amd64
