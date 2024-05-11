@@ -1,0 +1,13 @@
+tiktok_captcha_solver/__init__.py,sha256=FYsHa9plFUItw8_7WiRlC2jC9bv78CkAF48ETe9Ogcw,64
+tiktok_captcha_solver/api.py,sha256=Sc1lVsq1P6_xOEnSUr4VR8BYDPne9TOxoBsQrwUbTTY,1769
+tiktok_captcha_solver/downloader.py,sha256=6TAfG_4pHM6cQ1t-Ct8iUuttjFFLARLD96yjxeljdd0,219
+tiktok_captcha_solver/models.py,sha256=m7I1AUZmeQr9wE0exSGmh_yCltKO7pRgXX_n6I6vqd8,335
+tiktok_captcha_solver/sadcaptcha.py,sha256=Afhv0fs5RYxj_hrca4Dq2xrXiE-ZxXen3y9RXhGXKw8,8081
+tiktok_captcha_solver/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tiktok_captcha_solver/tests/test_api.py,sha256=HYg9eShRFuu25loyqN2CXZ2ZqNM0Ag8lbcc6-O3oCXw,1264
+tiktok_captcha_solver/tests/test_downloader.py,sha256=yyfERB3snMqGh8fEliDDLUDxvewtTXUITH6btAJwMUg,189
+tiktok_captcha_solver/tests/test_sadcaptcha.py,sha256=-8vK9co793_bsKlhgKcLbGos34wORvkNpOhkkXb7b6k,1861
+tiktok_captcha_solver-0.0.2.dist-info/METADATA,sha256=GlsDUlpqCXv_ufpTvycsz1Au9MS5dH3Z-U3TqpnfyMk,2509
+tiktok_captcha_solver-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tiktok_captcha_solver-0.0.2.dist-info/top_level.txt,sha256=Ak6olAtZh48EmyB2H-NVy2MSdtBBZR4VqFq8ujzhrOs,22
+tiktok_captcha_solver-0.0.2.dist-info/RECORD,,
