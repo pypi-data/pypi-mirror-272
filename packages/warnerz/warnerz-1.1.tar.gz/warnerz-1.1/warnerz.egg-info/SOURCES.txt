@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+warnerz/__init__.py
+warnerz/main.py
+warnerz.egg-info/PKG-INFO
+warnerz.egg-info/SOURCES.txt
+warnerz.egg-info/dependency_links.txt
+warnerz.egg-info/requires.txt
+warnerz.egg-info/top_level.txt
