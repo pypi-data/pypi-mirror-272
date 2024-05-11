@@ -1,0 +1,11 @@
+nicegui_tabulator/__init__.py,sha256=6Gmcqxr2by9bICk4UWcgJVD6Pkr9PCyNRbFIPk3BDtQ,128
+nicegui_tabulator/core/events.py,sha256=eCnZv1JJUBjKt07Bnwk1Pt334TBYGRTOjc_PANw_kKw,298
+nicegui_tabulator/core/libs/tabulator.min.css,sha256=t4rGtSENEiBMJ5sfzWzwP78y9OQ7oznRjZypnPiG_5w,33593
+nicegui_tabulator/core/libs/tabulator.min.js,sha256=llAtkU0KQv4DrdGTDaiUIRI0oZPZHvBye4yJHCt3vLU,484963
+nicegui_tabulator/core/tabulator.js,sha256=VVCITKInvrUAenFFmEGEv7B6RZE2KuzNE8FEviR8NWQ,2575
+nicegui_tabulator/core/tabulator.py,sha256=RsNkZYjHRJsrjf7tkQgeGRyHSk_ZMmnT-yLlxcPL5aM,5674
+nicegui_tabulator/version.py,sha256=jMO3swURaEdK8I1kO0S2HUwRrf9ubfIywFuYM1nlM7k,97
+nicegui_tabulator-0.1.1.dist-info/LICENSE,sha256=_JjnAWrikJ6qkwT7PazeFNRlcIu8q_RH3mYcHTxEF5c,1094
+nicegui_tabulator-0.1.1.dist-info/METADATA,sha256=1mlPPFBaONS1Z9EV1bQNlSXEQOhkK2-15azN69RKceM,2434
+nicegui_tabulator-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nicegui_tabulator-0.1.1.dist-info/RECORD,,
