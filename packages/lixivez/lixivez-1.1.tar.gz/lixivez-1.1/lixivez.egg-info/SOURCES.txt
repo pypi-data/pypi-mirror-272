@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lixivez/__init__.py
+lixivez/main.py
+lixivez.egg-info/PKG-INFO
+lixivez.egg-info/SOURCES.txt
+lixivez.egg-info/dependency_links.txt
+lixivez.egg-info/requires.txt
+lixivez.egg-info/top_level.txt
