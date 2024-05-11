@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+flatfootedz/__init__.py
+flatfootedz/main.py
+flatfootedz.egg-info/PKG-INFO
+flatfootedz.egg-info/SOURCES.txt
+flatfootedz.egg-info/dependency_links.txt
+flatfootedz.egg-info/requires.txt
+flatfootedz.egg-info/top_level.txt
