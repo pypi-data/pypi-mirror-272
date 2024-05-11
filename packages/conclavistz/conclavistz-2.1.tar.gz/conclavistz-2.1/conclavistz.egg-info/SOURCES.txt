@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+conclavistz/__init__.py
+conclavistz/main.py
+conclavistz.egg-info/PKG-INFO
+conclavistz.egg-info/SOURCES.txt
+conclavistz.egg-info/dependency_links.txt
+conclavistz.egg-info/requires.txt
+conclavistz.egg-info/top_level.txt
