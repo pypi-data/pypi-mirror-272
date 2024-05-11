@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+basiglandularz/__init__.py
+basiglandularz/main.py
+basiglandularz.egg-info/PKG-INFO
+basiglandularz.egg-info/SOURCES.txt
+basiglandularz.egg-info/dependency_links.txt
+basiglandularz.egg-info/requires.txt
+basiglandularz.egg-info/top_level.txt
