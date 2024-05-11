@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dispiteousnessz/__init__.py
+dispiteousnessz/main.py
+dispiteousnessz.egg-info/PKG-INFO
+dispiteousnessz.egg-info/SOURCES.txt
+dispiteousnessz.egg-info/dependency_links.txt
+dispiteousnessz.egg-info/requires.txt
+dispiteousnessz.egg-info/top_level.txt
