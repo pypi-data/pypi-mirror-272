@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: keymorph
+Version: 0.0.2
+Summary: KeyMorph is a deep learning-based image registration framework that relies on automatically extracting corresponding keypoints.
+Home-page: https://github.com/alanqrwang/keymorph
+Author: Alan Q. Wang
+Author-email: alanqrwang@gmail.com
+License: MIT
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
