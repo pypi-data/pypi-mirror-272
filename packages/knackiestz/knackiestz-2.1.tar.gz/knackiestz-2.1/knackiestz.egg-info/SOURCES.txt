@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+knackiestz/__init__.py
+knackiestz/main.py
+knackiestz.egg-info/PKG-INFO
+knackiestz.egg-info/SOURCES.txt
+knackiestz.egg-info/dependency_links.txt
+knackiestz.egg-info/requires.txt
+knackiestz.egg-info/top_level.txt
