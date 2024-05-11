@@ -1,0 +1,13 @@
+zpdatafetch/__init__.py,sha256=Ih_cQG7k4LpatXRAgEmiWwyDT3MlgeWx4aOtfCx7xas,333
+zpdatafetch/config.py,sha256=9U4noaW6ysnxZ9VvPKvxAsz5MS2yFTAnNQSzkAdWkR8,2181
+zpdatafetch/cyclist.py,sha256=yyGwpX4Kf4ErIRWKi-Amc7qYrQx2y6AB5WqK_HgIZoM,2168
+zpdatafetch/primes.py,sha256=_PqctQulsgp5HaE474IeDeRorVnHX1qfXCox3hrMQZo,2475
+zpdatafetch/result.py,sha256=q6S6tPBZdkeu_16ysGakhNB2d9qu4-IDEi1uL_O9e7U,1538
+zpdatafetch/signup.py,sha256=jip47ktr7978wy_c7m5K-l2hROvmhYnwlOOJz1XAUE0,1598
+zpdatafetch/team.py,sha256=_80LcKP0ZNrrExPsf2YZzXZwVlJIoUlxJ8YwZZRELU8,1517
+zpdatafetch/zp.py,sha256=0KOEvbOEzt3bZTpzoBX0ODf3q0-jPk39ymrlsE6yAK4,3608
+zpdatafetch-0.2.0.dist-info/LICENSE,sha256=gu_HKCfuoeCP0qXBcxfNGweJ7tOGoXwrML5VxkyyCcc,1068
+zpdatafetch-0.2.0.dist-info/METADATA,sha256=oOf0f-nr017QVZX8fKeRmr-BpK5f5edii7jniupNxPA,1360
+zpdatafetch-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+zpdatafetch-0.2.0.dist-info/top_level.txt,sha256=yg6c4QR2GxfO-2gfD1wVgGWtNcErLSi2kBMkjcoaUtg,12
+zpdatafetch-0.2.0.dist-info/RECORD,,
