@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nectareouslyz/__init__.py
+nectareouslyz/main.py
+nectareouslyz.egg-info/PKG-INFO
+nectareouslyz.egg-info/SOURCES.txt
+nectareouslyz.egg-info/dependency_links.txt
+nectareouslyz.egg-info/requires.txt
+nectareouslyz.egg-info/top_level.txt
