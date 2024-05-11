@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sy-ofb-python-sdk
+Version: 0.1.0
+Summary: A Python interface for interacting with Microsoft's OneDrive.
+Home-page: https://github.com/shing-yu/ofb-python-sdk
+Author: shingyu
+Author-email: xing_yv@outlook.com
+License: MIT License
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: rich
+
