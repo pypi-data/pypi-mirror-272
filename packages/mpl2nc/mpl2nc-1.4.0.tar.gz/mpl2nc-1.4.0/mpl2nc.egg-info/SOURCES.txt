@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.md
+mpl2nc.1
+mpl2nc.py
+setup.cfg
+setup.py
+dt-example/dt.csv
+dt-example/dt.png
+mpl2nc.egg-info/PKG-INFO
+mpl2nc.egg-info/SOURCES.txt
+mpl2nc.egg-info/dependency_links.txt
+mpl2nc.egg-info/entry_points.txt
+mpl2nc.egg-info/requires.txt
+mpl2nc.egg-info/top_level.txt
