@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+forspentz/__init__.py
+forspentz/main.py
+forspentz.egg-info/PKG-INFO
+forspentz.egg-info/SOURCES.txt
+forspentz.egg-info/dependency_links.txt
+forspentz.egg-info/requires.txt
+forspentz.egg-info/top_level.txt
