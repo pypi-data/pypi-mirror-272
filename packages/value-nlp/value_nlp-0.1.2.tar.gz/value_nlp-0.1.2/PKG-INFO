@@ -1,0 +1,71 @@
+Metadata-Version: 2.3
+Name: value-nlp
+Version: 0.1.2
+Summary: A Framework for Cross-Dialectal NLP
+Project-URL: Homepage, https://value-nlp.org
+Project-URL: Bug Tracker, https://github.com/SALT-NLP/multi-value/issues
+Author-email: Will Held <wheld3@gatech.edu>, Caleb Ziems <cjziems@stanford.edu>
+License-File: LICENSE
+License-File: LICENSE~
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: geopy==2.2.0
+Requires-Dist: inflect==5.5.2
+Requires-Dist: lemminflect==0.2.2
+Requires-Dist: nltk==3.5
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: peft
+Requires-Dist: spacy==3.7.4
+Requires-Dist: stanza==1.8.2
+Requires-Dist: tqdm
+Requires-Dist: transformers
+Description-Content-Type: text/markdown
+
+# Multi-VALUE: The VernAcular Language Understanding Evaluation benchmark 
+
+## Setup
+### Prerequisites: 
+* [anaconda](https://www.anaconda.com/products/individual)
+
+1. Create a virtual environment
+```bash
+conda create --name value python=3.7.13
+conda activate value
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. Install spaCy English pipeline and nltk wordnet
+```python
+bash downloads.sh
+```
+
+4. Confirm that your setup is correct by running the unittest
+```bash
+python -m unittest tests.py
+```
+
+### Build Multi-VALUE CoQA (optional)
+1. Pull data
+```bash
+bash pull_coqa.sh
+```
+
+2. Run for each dialect
+```bash
+python -m src.build_coqa_value --dialect aave &
+python -m src.build_coqa_value --dialect appalachian &
+python -m src.build_coqa_value --dialect chicano &
+python -m src.build_coqa_value --dialect indian &
+python -m src.build_coqa_value --dialect multi &
+python -m src.build_coqa_value --dialect singapore &
+
