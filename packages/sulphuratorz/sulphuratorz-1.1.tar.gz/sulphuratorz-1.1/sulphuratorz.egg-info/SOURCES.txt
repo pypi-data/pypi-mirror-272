@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sulphuratorz/__init__.py
+sulphuratorz/main.py
+sulphuratorz.egg-info/PKG-INFO
+sulphuratorz.egg-info/SOURCES.txt
+sulphuratorz.egg-info/dependency_links.txt
+sulphuratorz.egg-info/requires.txt
+sulphuratorz.egg-info/top_level.txt
