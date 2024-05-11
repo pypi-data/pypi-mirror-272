@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "anipics"
+version = "1.5.3"
+description = "Simple module to get anime pictures"
+authors = ["Daniel <D4n13l3k00@yandex.ru>"]
+readme = "README.md"
+license = "AGPL-3.0"
+repository = "https://github.com/D4n13l3k00/anipics"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.26.0"
+beautifulsoup4 = "^4.12.3"
+pydantic = "^2.5.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+isort = "^5.13.2"
+ruff = "^0.1.14"
+pytest = "^7.4.4"
+pytest-asyncio = "^0.23.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
