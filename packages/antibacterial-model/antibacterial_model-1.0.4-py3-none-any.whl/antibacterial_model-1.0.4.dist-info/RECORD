@@ -1,0 +1,7 @@
+antibacterial_model/__init__.py,sha256=dw_K1iJP_bST703ULxUOd3txCfZqV6Iooxnb-00kkyE,56
+antibacterial_model/model.py,sha256=UNCzhvgKhpuUcio6mjI3m7FlPpo57b2PHedSVfaPiBQ,4308
+antibacterial_model/data/anti-bact-data.csv,sha256=lm4wpLEoTlJthaNBrtXI1s5y0hYDhjzBXwePe_TnQ3g,16991105
+antibacterial_model-1.0.4.dist-info/METADATA,sha256=fB9TZDmKYs_9pU52RZaupvkWNWvHLr7GOIqBe3WQ240,867
+antibacterial_model-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+antibacterial_model-1.0.4.dist-info/top_level.txt,sha256=u77_9hHV5lo58b_D_b_Am1R7VwCOsDF0UdHGRZr_3N8,20
+antibacterial_model-1.0.4.dist-info/RECORD,,
