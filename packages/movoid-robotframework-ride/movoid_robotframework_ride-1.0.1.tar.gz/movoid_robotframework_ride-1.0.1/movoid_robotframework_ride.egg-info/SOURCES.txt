@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+movoid_robot_ride/__init__.py
+movoid_robot_ride/shortcut.py
+movoid_robotframework_ride.egg-info/PKG-INFO
+movoid_robotframework_ride.egg-info/SOURCES.txt
+movoid_robotframework_ride.egg-info/dependency_links.txt
+movoid_robotframework_ride.egg-info/requires.txt
+movoid_robotframework_ride.egg-info/top_level.txt
