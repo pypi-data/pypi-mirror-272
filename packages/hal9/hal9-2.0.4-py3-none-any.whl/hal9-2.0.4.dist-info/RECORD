@@ -1,0 +1,10 @@
+hal9/__init__.py,sha256=8X97L5lhb40veffsENUpfHsOotgZBDkeq06W2BadqIk,86
+hal9/cli.py,sha256=kibcgOa54XcMkHw8HMyPoo2pLBfw_ZMbIi647v51Xrc,1033
+hal9/create.py,sha256=0JtbFMA-ZfTUmQx3aHQv3a1FCGzuY1yasRuHsjoiNo0,634
+hal9/deploy.py,sha256=VUMpDVB4NlwvSyxuDnyELWNnb1VffW7ya8thDoI1aZ8,719
+hal9/run.py,sha256=Iue5WrfxyXVRIILm98bz4YgM0bXL9MNcwro82nlZxFI,531
+hal9/templates/openai/app.py,sha256=zEm0qto6LyVYSXjQMU6MQ34JOZ6VeS2LN7CUS1AT-9c,70
+hal9-2.0.4.dist-info/METADATA,sha256=19h89IYrb30b2gOVuArlTpyk62PFZWabTtubTfIXb6M,3534
+hal9-2.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hal9-2.0.4.dist-info/entry_points.txt,sha256=QHXw8HCSYAbqyHTexcr14ozRyB1L9hVH-7o-LwlcWaY,37
+hal9-2.0.4.dist-info/RECORD,,
