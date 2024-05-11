@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+contusez/__init__.py
+contusez/main.py
+contusez.egg-info/PKG-INFO
+contusez.egg-info/SOURCES.txt
+contusez.egg-info/dependency_links.txt
+contusez.egg-info/requires.txt
+contusez.egg-info/top_level.txt
