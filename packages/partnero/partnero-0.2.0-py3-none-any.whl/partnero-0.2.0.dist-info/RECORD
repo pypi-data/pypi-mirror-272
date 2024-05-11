@@ -1,0 +1,13 @@
+partnero/__init__.py,sha256=fn-G4M1kyy1cPjAK9LMXIKKPDr2Sz1Qclz_L2NkGohE,434
+partnero/authentication.py,sha256=47hE-A-9x664ipbH8aFmBYkqHqTzexm9nZi_qpRnrGo,712
+partnero/base_api.py,sha256=wDNxwFVd9GYe_RnC1axAbl3P_1UBE4GL0DVsdjla3-I,1892
+partnero/coupon_api.py,sha256=0ggweDkd1t7dfEQ795YeeP0Xna7afyGhRVNXdh30ba4,1284
+partnero/customer_api.py,sha256=34b2YRqf6u4l2lrzJqigWbjkJlb8CRPOdcjWfyI919Q,2701
+partnero/partner_api.py,sha256=XmAQN4RAqdvLg1L6iZDTF59v1gLXrfvoKTRe_QCUURo,1607
+partnero/promotion_code_api.py,sha256=P9_HbrD9wDE5UfxSaeam51Fq7f6MVEZIVDgvNHwN4vE,960
+partnero/transaction_api.py,sha256=Ol8P9ctmJxG2I6aEB2Rh03WwlBc1H9F47VBkkyi0XM4,863
+partnero/utils.py,sha256=0ZKrGx3Ud24dHmHg1Io57ZQDz2TRQB_0SMuiqoBQnMs,320
+partnero/webhook_api.py,sha256=5s-ut1OM-7MNzs-ORX7e_ecJ6WjEW9ouoMX7DT1_1ms,1140
+partnero-0.2.0.dist-info/METADATA,sha256=g30QNa4GA11daA1sZjSZf3EpRBiuTAjXmG9iNgASvGM,3684
+partnero-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+partnero-0.2.0.dist-info/RECORD,,
