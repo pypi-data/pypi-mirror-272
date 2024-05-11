@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+coronagraphz/__init__.py
+coronagraphz/main.py
+coronagraphz.egg-info/PKG-INFO
+coronagraphz.egg-info/SOURCES.txt
+coronagraphz.egg-info/dependency_links.txt
+coronagraphz.egg-info/requires.txt
+coronagraphz.egg-info/top_level.txt
