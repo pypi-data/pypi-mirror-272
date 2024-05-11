@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+turacoverdinz/__init__.py
+turacoverdinz/main.py
+turacoverdinz.egg-info/PKG-INFO
+turacoverdinz.egg-info/SOURCES.txt
+turacoverdinz.egg-info/dependency_links.txt
+turacoverdinz.egg-info/requires.txt
+turacoverdinz.egg-info/top_level.txt
