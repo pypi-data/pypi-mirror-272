@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+crlib/__init__.py
+crlib/crlib.py
+crlib/metadata.py
+crlib.egg-info/PKG-INFO
+crlib.egg-info/SOURCES.txt
+crlib.egg-info/dependency_links.txt
+crlib.egg-info/requires.txt
+crlib.egg-info/top_level.txt
