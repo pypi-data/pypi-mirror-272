@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lirellinez/__init__.py
+lirellinez/main.py
+lirellinez.egg-info/PKG-INFO
+lirellinez.egg-info/SOURCES.txt
+lirellinez.egg-info/dependency_links.txt
+lirellinez.egg-info/requires.txt
+lirellinez.egg-info/top_level.txt
