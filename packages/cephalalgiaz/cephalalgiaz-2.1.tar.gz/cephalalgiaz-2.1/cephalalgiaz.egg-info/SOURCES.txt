@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cephalalgiaz/__init__.py
+cephalalgiaz/main.py
+cephalalgiaz.egg-info/PKG-INFO
+cephalalgiaz.egg-info/SOURCES.txt
+cephalalgiaz.egg-info/dependency_links.txt
+cephalalgiaz.egg-info/requires.txt
+cephalalgiaz.egg-info/top_level.txt
