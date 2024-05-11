@@ -1,0 +1,8 @@
+isubsum.py
+setup.py
+isubsum.egg-info/PKG-INFO
+isubsum.egg-info/SOURCES.txt
+isubsum.egg-info/dependency_links.txt
+isubsum.egg-info/entry_points.txt
+isubsum.egg-info/requires.txt
+isubsum.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+isubsum = isubsum:main
