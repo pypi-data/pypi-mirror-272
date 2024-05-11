@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ejecteez/__init__.py
+ejecteez/main.py
+ejecteez.egg-info/PKG-INFO
+ejecteez.egg-info/SOURCES.txt
+ejecteez.egg-info/dependency_links.txt
+ejecteez.egg-info/requires.txt
+ejecteez.egg-info/top_level.txt
