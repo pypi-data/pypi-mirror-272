@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+machinz/__init__.py
+machinz/main.py
+machinz.egg-info/PKG-INFO
+machinz.egg-info/SOURCES.txt
+machinz.egg-info/dependency_links.txt
+machinz.egg-info/requires.txt
+machinz.egg-info/top_level.txt
