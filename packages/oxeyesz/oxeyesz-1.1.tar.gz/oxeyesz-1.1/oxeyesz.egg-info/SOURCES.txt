@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oxeyesz/__init__.py
+oxeyesz/main.py
+oxeyesz.egg-info/PKG-INFO
+oxeyesz.egg-info/SOURCES.txt
+oxeyesz.egg-info/dependency_links.txt
+oxeyesz.egg-info/requires.txt
+oxeyesz.egg-info/top_level.txt
