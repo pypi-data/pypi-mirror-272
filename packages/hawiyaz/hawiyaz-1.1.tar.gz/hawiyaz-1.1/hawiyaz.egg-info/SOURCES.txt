@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hawiyaz/__init__.py
+hawiyaz/main.py
+hawiyaz.egg-info/PKG-INFO
+hawiyaz.egg-info/SOURCES.txt
+hawiyaz.egg-info/dependency_links.txt
+hawiyaz.egg-info/requires.txt
+hawiyaz.egg-info/top_level.txt
