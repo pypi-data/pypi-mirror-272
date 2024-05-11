@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+donnedz/__init__.py
+donnedz/main.py
+donnedz.egg-info/PKG-INFO
+donnedz.egg-info/SOURCES.txt
+donnedz.egg-info/dependency_links.txt
+donnedz.egg-info/requires.txt
+donnedz.egg-info/top_level.txt
