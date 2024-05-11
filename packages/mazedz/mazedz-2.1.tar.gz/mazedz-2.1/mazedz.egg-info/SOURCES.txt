@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mazedz/__init__.py
+mazedz/main.py
+mazedz.egg-info/PKG-INFO
+mazedz.egg-info/SOURCES.txt
+mazedz.egg-info/dependency_links.txt
+mazedz.egg-info/requires.txt
+mazedz.egg-info/top_level.txt
