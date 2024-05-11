@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+exindusiatez/__init__.py
+exindusiatez/main.py
+exindusiatez.egg-info/PKG-INFO
+exindusiatez.egg-info/SOURCES.txt
+exindusiatez.egg-info/dependency_links.txt
+exindusiatez.egg-info/requires.txt
+exindusiatez.egg-info/top_level.txt
