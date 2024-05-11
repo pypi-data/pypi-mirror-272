@@ -1,0 +1,3 @@
+[console_scripts]
+eXtra=eXtra_cli.app.main:app
+
