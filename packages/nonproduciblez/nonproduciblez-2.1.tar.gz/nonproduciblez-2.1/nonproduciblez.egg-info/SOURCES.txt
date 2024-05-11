@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonproduciblez/__init__.py
+nonproduciblez/main.py
+nonproduciblez.egg-info/PKG-INFO
+nonproduciblez.egg-info/SOURCES.txt
+nonproduciblez.egg-info/dependency_links.txt
+nonproduciblez.egg-info/requires.txt
+nonproduciblez.egg-info/top_level.txt
