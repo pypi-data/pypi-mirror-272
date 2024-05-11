@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+demz/__init__.py
+demz/main.py
+demz.egg-info/PKG-INFO
+demz.egg-info/SOURCES.txt
+demz.egg-info/dependency_links.txt
+demz.egg-info/requires.txt
+demz.egg-info/top_level.txt
