@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+llmy/__init__.py
+llmy/generate_tex.py
+llmy/summarize.py
+llmy.egg-info/PKG-INFO
+llmy.egg-info/SOURCES.txt
+llmy.egg-info/dependency_links.txt
+llmy.egg-info/requires.txt
+llmy.egg-info/top_level.txt
