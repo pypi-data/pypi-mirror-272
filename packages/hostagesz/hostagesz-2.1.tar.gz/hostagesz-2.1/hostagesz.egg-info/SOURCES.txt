@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hostagesz/__init__.py
+hostagesz/main.py
+hostagesz.egg-info/PKG-INFO
+hostagesz.egg-info/SOURCES.txt
+hostagesz.egg-info/dependency_links.txt
+hostagesz.egg-info/requires.txt
+hostagesz.egg-info/top_level.txt
