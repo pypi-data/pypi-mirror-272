@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonvitrifiedz/__init__.py
+nonvitrifiedz/main.py
+nonvitrifiedz.egg-info/PKG-INFO
+nonvitrifiedz.egg-info/SOURCES.txt
+nonvitrifiedz.egg-info/dependency_links.txt
+nonvitrifiedz.egg-info/requires.txt
+nonvitrifiedz.egg-info/top_level.txt
