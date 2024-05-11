@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+overaccentuationz/__init__.py
+overaccentuationz/main.py
+overaccentuationz.egg-info/PKG-INFO
+overaccentuationz.egg-info/SOURCES.txt
+overaccentuationz.egg-info/dependency_links.txt
+overaccentuationz.egg-info/requires.txt
+overaccentuationz.egg-info/top_level.txt
