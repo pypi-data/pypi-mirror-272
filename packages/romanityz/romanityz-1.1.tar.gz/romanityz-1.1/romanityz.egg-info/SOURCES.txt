@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+romanityz/__init__.py
+romanityz/main.py
+romanityz.egg-info/PKG-INFO
+romanityz.egg-info/SOURCES.txt
+romanityz.egg-info/dependency_links.txt
+romanityz.egg-info/requires.txt
+romanityz.egg-info/top_level.txt
