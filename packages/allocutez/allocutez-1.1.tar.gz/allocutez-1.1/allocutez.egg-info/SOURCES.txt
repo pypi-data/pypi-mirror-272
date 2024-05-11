@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+allocutez/__init__.py
+allocutez/main.py
+allocutez.egg-info/PKG-INFO
+allocutez.egg-info/SOURCES.txt
+allocutez.egg-info/dependency_links.txt
+allocutez.egg-info/requires.txt
+allocutez.egg-info/top_level.txt
