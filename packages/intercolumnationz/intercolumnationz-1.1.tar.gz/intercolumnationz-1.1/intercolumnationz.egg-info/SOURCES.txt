@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+intercolumnationz/__init__.py
+intercolumnationz/main.py
+intercolumnationz.egg-info/PKG-INFO
+intercolumnationz.egg-info/SOURCES.txt
+intercolumnationz.egg-info/dependency_links.txt
+intercolumnationz.egg-info/requires.txt
+intercolumnationz.egg-info/top_level.txt
