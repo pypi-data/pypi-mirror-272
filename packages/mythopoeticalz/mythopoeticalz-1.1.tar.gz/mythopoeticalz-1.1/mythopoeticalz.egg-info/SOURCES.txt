@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mythopoeticalz/__init__.py
+mythopoeticalz/main.py
+mythopoeticalz.egg-info/PKG-INFO
+mythopoeticalz.egg-info/SOURCES.txt
+mythopoeticalz.egg-info/dependency_links.txt
+mythopoeticalz.egg-info/requires.txt
+mythopoeticalz.egg-info/top_level.txt
