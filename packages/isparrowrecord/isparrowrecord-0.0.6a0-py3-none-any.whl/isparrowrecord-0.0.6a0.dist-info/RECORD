@@ -1,0 +1,12 @@
+iSparrowRecord/__init__.py,sha256=BFJF--3vKL05rM1ISLzbOteUAnzktzM73PBXknWdP9A,138
+iSparrowRecord/audio_recording.py,sha256=E8948MlrPIMkQ10Mv73N749V8yPOgitDKza84z9T-V8,11178
+iSparrowRecord/cli.py,sha256=-gP6wYqVu1pWcsVRBJvYyrZx-0fmbeE0TrRkEmjZlc4,2819
+iSparrowRecord/runner.py,sha256=DKHzwQXWkPEUb0QW6HiKKF8OJuMgaHTGcSd_WgrQ5qo,6779
+iSparrowRecord/set_up.py,sha256=AQaHSoM71ut9U3qkXaGdX6N0XRgLPqJgkPleH0Cfeoc,2652
+iSparrowRecord/utils.py,sha256=mP-_-cnk4f7UGtrwmtK_8_-5gQk9kGc41H-US35yqaM,2205
+isparrowrecord-0.0.6a0.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+isparrowrecord-0.0.6a0.dist-info/METADATA,sha256=8_UHhljTfpPjXBVfeCUrW0e9-3UUE5BOo3FE5bPFbew,14066
+isparrowrecord-0.0.6a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+isparrowrecord-0.0.6a0.dist-info/entry_points.txt,sha256=pE_QCzpeMouE2mDZ_Dk77ZOpXALaGuQ25RNPMIe0r6g,58
+isparrowrecord-0.0.6a0.dist-info/top_level.txt,sha256=I8Ih0Y0pM0fTx5VquMt7KkfQtkxLBVGV3K_nixK7qfI,15
+isparrowrecord-0.0.6a0.dist-info/RECORD,,
