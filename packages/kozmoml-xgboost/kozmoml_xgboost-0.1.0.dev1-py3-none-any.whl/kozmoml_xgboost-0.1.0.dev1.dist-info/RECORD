@@ -1,0 +1,7 @@
+kozmoml_xgboost/__init__.py,sha256=312s8bxnn0SbHD_ROHw1HIuE0Gf5_ucR40Hdxkk7flg,62
+kozmoml_xgboost/version.py,sha256=DE4yoByfXTekPAyZMrGOHffmw3RSKesbMFBo_98v5GU,27
+kozmoml_xgboost/xgboost.py,sha256=mmrfzavvdJ8e06wVPxh-y7o04BX_s9OKMBKyLLOR3P0,3141
+kozmoml_xgboost-0.1.0.dev1.dist-info/LICENSE,sha256=f_cqGD5AocAfiqd4AIyKpTq-1PVAe7ycwsYTDM66HN0,11342
+kozmoml_xgboost-0.1.0.dev1.dist-info/METADATA,sha256=jA80JNBF5H-IO2A3Bao4BLtQSb28yoMkDzjD3VNCP88,3991
+kozmoml_xgboost-0.1.0.dev1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+kozmoml_xgboost-0.1.0.dev1.dist-info/RECORD,,
