@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: kozmoml-mllib
+Version: 0.1.0.dev1
+Summary: Spark MLlib runtime for KozmoML
+License: Apache-2.0
+Author: KozmoAI
+Author-email: developers@kozmoai.io
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: kozmoml
+Requires-Dist: pyspark
+Description-Content-Type: text/markdown
+
+# Spark MLlib runtime for KozmoML
+
+This package provides a KozmoML runtime compatible with Spark MLlib.
+
+## Usage
+
+You can install the runtime, alongside `kozmoml`, as:
+
+```bash
+pip install kozmoml kozmoml-mllib
+```
+
+For further information on how to use KozmoML with Spark MLlib, you can check
+out the [KozmoML repository](https://github.com/kozmoai/kozmoml).
+
