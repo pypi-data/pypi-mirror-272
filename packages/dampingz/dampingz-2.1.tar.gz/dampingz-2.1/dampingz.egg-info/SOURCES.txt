@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dampingz/__init__.py
+dampingz/main.py
+dampingz.egg-info/PKG-INFO
+dampingz.egg-info/SOURCES.txt
+dampingz.egg-info/dependency_links.txt
+dampingz.egg-info/requires.txt
+dampingz.egg-info/top_level.txt
