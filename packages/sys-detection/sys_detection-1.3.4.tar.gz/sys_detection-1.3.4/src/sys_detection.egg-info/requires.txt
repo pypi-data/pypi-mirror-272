@@ -1,0 +1,8 @@
+autorepr
+
+[dev]
+codecheck
+pycodestyle
+mypy
+pytest
+twine
