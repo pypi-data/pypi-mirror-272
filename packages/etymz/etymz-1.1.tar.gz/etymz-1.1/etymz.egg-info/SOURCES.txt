@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+etymz/__init__.py
+etymz/main.py
+etymz.egg-info/PKG-INFO
+etymz.egg-info/SOURCES.txt
+etymz.egg-info/dependency_links.txt
+etymz.egg-info/requires.txt
+etymz.egg-info/top_level.txt
