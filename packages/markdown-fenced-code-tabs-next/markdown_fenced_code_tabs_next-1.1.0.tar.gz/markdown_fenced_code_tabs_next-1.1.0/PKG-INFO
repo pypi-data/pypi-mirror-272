@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: markdown-fenced-code-tabs-next
+Version: 1.1.0
+Summary: Generates a html structure for consecutive fenced code blocks content
+Home-page: https://github.com/elmahio/markdown-fenced-code-tabs-next
+Author: Yassir Barchi
+Author-email: github@yassir.fr
+Maintainer: elmah.io
+Maintainer-email: info@elmah.io
+License: MIT
+Project-URL: Bug Reports, https://github.com/elmahio/markdown-fenced-code-tabs-next/issues
+Project-URL: Source, https://github.com/elmahio/markdown-fenced-code-tabs-next
+Keywords: fenced code blocks,code,fenced,tabs,mkdocs,markdown,next
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing
+License-File: LICENSE
+Requires-Dist: markdown>=3.4
+Requires-Dist: htmlmin>=0.1.12
+Requires-Dist: Jinja2>=2.7.1
+
+ Markdown extension who generates HTML tabs for consecutive fenced code blocks in markdown syntax 
