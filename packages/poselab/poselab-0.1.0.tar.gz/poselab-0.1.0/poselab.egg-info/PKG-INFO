@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: poselab
+Version: 0.1.0
+Summary: A colmap pose analysis, filter and visualization toolkit
+Author-email: yoavalon <algoretics@gmail.com>
+Project-URL: Homepage, https://github.com/yoavalon/poselab
+Project-URL: Issues, https://github.com/yoavalon/poselab/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<img src="docs/poselab_logo.jpg" alt="PoseLab Logo" width="250"/>
+
+A colmap pose analysis, filter and visualization toolkit
+
+```
+pip3 install posefilter
+```
