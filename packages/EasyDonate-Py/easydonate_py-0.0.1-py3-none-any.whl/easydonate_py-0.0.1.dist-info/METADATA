@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: EasyDonate-Py
+Version: 0.0.1
+Summary: Простая библиотека для взаимодействия с EasyDonate API
+Project-URL: Homepage, https://github.com/TUUVCOME/easydonate-py
+Project-URL: Issues, https://github.com/TUUVCOME/easydonate-py/issues
+Author: flizan
+Author-email: refil <ru90671@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+
+# Начало
+
+Первым делом мы должны установить нашу библиотеку.
+```pip install EasyDonate-Py```
+
+
+# Получение информации о магазине
+
+Получение информации о **магазине** осуществляется через функцию ```shop_info(shop_key="<ВАШ СЕКРЕТНЫЙ КЛЮЧ МАГАЗИНА>")```
+
+### Все функции
+```
+shop_info(shop_key="<ВАШ СЕКРЕТНЫЙ КЛЮЧ МАГАЗИНА>")
+```
+флизан доделает
