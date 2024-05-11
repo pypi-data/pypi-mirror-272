@@ -1,0 +1,12 @@
+dartrs-0.1.4.dist-info/METADATA,sha256=5wYh6mSMqsLlqTJcIfawi7_LHZrYO0msJju8By3z2pw,1736
+dartrs-0.1.4.dist-info/WHEEL,sha256=cqgI2AqdCWc7cqyI6U6YEv7uivxoGaICddxcntNGSOY,107
+dartrs-0.1.4.dist-info/license_files/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dartrs.libs/libstdc++-d4365bce.so.6,sha256=xvZYg836nm3txcBGNd1ET--dS8hK9jA6mKWZEFn9-0A,22442841
+dartrs.libs/libgcc_s-60abea67.so.1,sha256=5Ymeh-PwFBkI5B-deNMLyVYu2EYmgIu7iQGitm7d2t4,724137
+dartrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dartrs/__init__.py,sha256=rmO9vIz9FGK6hlyGP1AoHIyayaQdHd2taI2GqcMw3dY,108
+dartrs/utils.py,sha256=CVHkXMJ09iAEIBhMD7Eq9e2GzZqdmaQttlVofyQmhD4,749
+dartrs/v2.py,sha256=Fu_MJaFfX-rZhqJ6AjKGBsfmn-IvNjaQG9ydehBT3lE,3483
+dartrs/dartrs.pyi,sha256=zCcvB7NakBtvzoop_eq_2oQK1-Fhh_NnAfJgqAjVHn0,4235
+dartrs/dartrs.cpython-37m-aarch64-linux-gnu.so,sha256=fr0ApcW89b6K07qG8QxOF0qHd7PNE1Zlk_oyqyLfxX4,15470537
+dartrs-0.1.4.dist-info/RECORD,,
