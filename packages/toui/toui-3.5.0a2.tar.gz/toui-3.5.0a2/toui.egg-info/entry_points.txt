@@ -1,0 +1,3 @@
+[console_scripts]
+toui = toui._cmd:main
+
