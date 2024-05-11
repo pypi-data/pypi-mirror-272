@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+emulsorz/__init__.py
+emulsorz/main.py
+emulsorz.egg-info/PKG-INFO
+emulsorz.egg-info/SOURCES.txt
+emulsorz.egg-info/dependency_links.txt
+emulsorz.egg-info/requires.txt
+emulsorz.egg-info/top_level.txt
