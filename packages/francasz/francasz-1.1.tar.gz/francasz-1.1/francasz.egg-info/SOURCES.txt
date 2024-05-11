@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+francasz/__init__.py
+francasz/main.py
+francasz.egg-info/PKG-INFO
+francasz.egg-info/SOURCES.txt
+francasz.egg-info/dependency_links.txt
+francasz.egg-info/requires.txt
+francasz.egg-info/top_level.txt
