@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+easywebhooker/__init__.py
+easywebhooker.egg-info/PKG-INFO
+easywebhooker.egg-info/SOURCES.txt
+easywebhooker.egg-info/dependency_links.txt
+easywebhooker.egg-info/entry_points.txt
+easywebhooker.egg-info/top_level.txt
