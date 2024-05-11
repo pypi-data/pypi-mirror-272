@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ceilersz/__init__.py
+ceilersz/main.py
+ceilersz.egg-info/PKG-INFO
+ceilersz.egg-info/SOURCES.txt
+ceilersz.egg-info/dependency_links.txt
+ceilersz.egg-info/requires.txt
+ceilersz.egg-info/top_level.txt
