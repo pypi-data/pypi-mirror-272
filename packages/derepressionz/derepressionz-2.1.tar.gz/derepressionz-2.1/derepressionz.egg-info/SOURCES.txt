@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+derepressionz/__init__.py
+derepressionz/main.py
+derepressionz.egg-info/PKG-INFO
+derepressionz.egg-info/SOURCES.txt
+derepressionz.egg-info/dependency_links.txt
+derepressionz.egg-info/requires.txt
+derepressionz.egg-info/top_level.txt
