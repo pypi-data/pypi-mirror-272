@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+doubtlesslyz/__init__.py
+doubtlesslyz/main.py
+doubtlesslyz.egg-info/PKG-INFO
+doubtlesslyz.egg-info/SOURCES.txt
+doubtlesslyz.egg-info/dependency_links.txt
+doubtlesslyz.egg-info/requires.txt
+doubtlesslyz.egg-info/top_level.txt
