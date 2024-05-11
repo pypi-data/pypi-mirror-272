@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+organophonicz/__init__.py
+organophonicz/main.py
+organophonicz.egg-info/PKG-INFO
+organophonicz.egg-info/SOURCES.txt
+organophonicz.egg-info/dependency_links.txt
+organophonicz.egg-info/requires.txt
+organophonicz.egg-info/top_level.txt
