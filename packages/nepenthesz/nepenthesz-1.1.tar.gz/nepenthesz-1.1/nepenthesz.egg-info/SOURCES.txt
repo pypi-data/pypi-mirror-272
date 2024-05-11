@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nepenthesz/__init__.py
+nepenthesz/main.py
+nepenthesz.egg-info/PKG-INFO
+nepenthesz.egg-info/SOURCES.txt
+nepenthesz.egg-info/dependency_links.txt
+nepenthesz.egg-info/requires.txt
+nepenthesz.egg-info/top_level.txt
