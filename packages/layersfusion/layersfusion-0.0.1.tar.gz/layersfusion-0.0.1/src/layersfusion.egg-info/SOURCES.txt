@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/layersfusion/__init__.py
+src/layersfusion.egg-info/PKG-INFO
+src/layersfusion.egg-info/SOURCES.txt
+src/layersfusion.egg-info/dependency_links.txt
+src/layersfusion.egg-info/requires.txt
+src/layersfusion.egg-info/top_level.txt
+src/layersfusion/layers/__init__.py
+src/layersfusion/layers/operations.py
+src/layersfusion/utils/__init__.py
+src/layersfusion/utils/shared_operations.py

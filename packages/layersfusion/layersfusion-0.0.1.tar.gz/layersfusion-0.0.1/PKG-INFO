@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: layersfusion
+Version: 0.0.1
+Home-page: https://github.com/tikikun/layersfusion
+Author: Alan Dao
+Author-email: 
+License: MIT
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: accelerate
+Requires-Dist: protobuf
+
+# Fuse layers
+
+Layerwise fusion operation, just for convinience
