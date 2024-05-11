@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+caroaz/__init__.py
+caroaz/main.py
+caroaz.egg-info/PKG-INFO
+caroaz.egg-info/SOURCES.txt
+caroaz.egg-info/dependency_links.txt
+caroaz.egg-info/requires.txt
+caroaz.egg-info/top_level.txt
