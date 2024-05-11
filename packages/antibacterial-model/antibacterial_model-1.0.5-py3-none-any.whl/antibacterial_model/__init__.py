@@ -1,0 +1,1 @@
+from antibacterial_model.model import AntibacterialModel
