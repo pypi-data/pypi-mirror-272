@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+boullez/__init__.py
+boullez/main.py
+boullez.egg-info/PKG-INFO
+boullez.egg-info/SOURCES.txt
+boullez.egg-info/dependency_links.txt
+boullez.egg-info/requires.txt
+boullez.egg-info/top_level.txt
