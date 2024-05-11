@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+occasivez/__init__.py
+occasivez/main.py
+occasivez.egg-info/PKG-INFO
+occasivez.egg-info/SOURCES.txt
+occasivez.egg-info/dependency_links.txt
+occasivez.egg-info/requires.txt
+occasivez.egg-info/top_level.txt
