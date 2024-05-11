@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+castingz/__init__.py
+castingz/main.py
+castingz.egg-info/PKG-INFO
+castingz.egg-info/SOURCES.txt
+castingz.egg-info/dependency_links.txt
+castingz.egg-info/requires.txt
+castingz.egg-info/top_level.txt
