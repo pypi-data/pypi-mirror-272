@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pilausz/__init__.py
+pilausz/main.py
+pilausz.egg-info/PKG-INFO
+pilausz.egg-info/SOURCES.txt
+pilausz.egg-info/dependency_links.txt
+pilausz.egg-info/requires.txt
+pilausz.egg-info/top_level.txt
