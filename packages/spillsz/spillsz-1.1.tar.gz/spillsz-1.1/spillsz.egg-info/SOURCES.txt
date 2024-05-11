@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spillsz/__init__.py
+spillsz/main.py
+spillsz.egg-info/PKG-INFO
+spillsz.egg-info/SOURCES.txt
+spillsz.egg-info/dependency_links.txt
+spillsz.egg-info/requires.txt
+spillsz.egg-info/top_level.txt
