@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+colorimetricz/__init__.py
+colorimetricz/main.py
+colorimetricz.egg-info/PKG-INFO
+colorimetricz.egg-info/SOURCES.txt
+colorimetricz.egg-info/dependency_links.txt
+colorimetricz.egg-info/requires.txt
+colorimetricz.egg-info/top_level.txt
