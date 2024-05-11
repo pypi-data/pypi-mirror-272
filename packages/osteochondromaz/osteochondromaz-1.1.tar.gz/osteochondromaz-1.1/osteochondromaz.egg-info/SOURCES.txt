@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+osteochondromaz/__init__.py
+osteochondromaz/main.py
+osteochondromaz.egg-info/PKG-INFO
+osteochondromaz.egg-info/SOURCES.txt
+osteochondromaz.egg-info/dependency_links.txt
+osteochondromaz.egg-info/requires.txt
+osteochondromaz.egg-info/top_level.txt
