@@ -1,0 +1,2 @@
+[console_scripts]
+RepoAuditor = RepoAuditor:EntryPoint.app
