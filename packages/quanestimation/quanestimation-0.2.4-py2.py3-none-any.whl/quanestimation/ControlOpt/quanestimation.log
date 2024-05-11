@@ -1,0 +1,10 @@
+julia_project - INFO - 
+julia_project - INFO - JuliaProject.init()
+julia_project - INFO - QuanEstimation_INSTALL_JULIA not set
+julia_project - INFO - QuanEstimation_COMPILE not set
+julia_project - INFO - QuanEstimation_DEPOT not set
+julia_project - INFO - julia path: /Users/hmyuuu/.julia/juliaup/julia-1.9.3+0.aarch64.apple.darwin14/bin/julia
+julia_project - INFO - Julia version: 1.9.3.
+julia_project - INFO - os.environ["JULIA_PROJECT"] = /Users/hmyuuu/.julia/julia_project/quanestimation-1.9.3
+julia_project - INFO - System image dir source not found at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/quanestimation/Common/sys_image
+julia_project - INFO - importing JuliaCall

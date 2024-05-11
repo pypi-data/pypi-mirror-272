@@ -1,0 +1,60 @@
+julia_project - INFO - 
+julia_project - INFO - JuliaProject.init()
+julia_project - INFO - QuanEstimation_INSTALL_JULIA not set
+julia_project - INFO - QuanEstimation_COMPILE not set
+julia_project - INFO - QuanEstimation_DEPOT not set
+julia_project - INFO - julia path: /Users/hmyuuu/.julia/juliaup/julia-1.10.0+0.aarch64.apple.darwin14/bin/julia
+julia_project - INFO - Julia version: 1.10.0.
+julia_project - INFO - os.environ["JULIA_PROJECT"] = /Users/hmyuuu/miniconda/envs/qst/julia_project/quanestimation-1.10.0
+julia_project - INFO - Copying/updating installed system image directory /Users/hmyuuu/miniconda/envs/qst/julia_project/quanestimation-1.10.0/sys_image
+julia_project - INFO - importing JuliaCall
+julia_project.juliacall - INFO - importing julia_project/juliacall
+julia_project.basic - INFO - need_resolve: No need to resolve or instantiate found.
+julia_project.basic - INFO - Want packages in project: ['PythonCall']
+julia_project.basic - INFO - Need to add packages not in project: []
+julia_project.basic - INFO - ensure_project_ready:  project /Users/hmyuuu/miniconda/envs/qst/julia_project/quanestimation-1.10.0, depot None
+julia_project.basic - INFO - Want packages in project: ['PythonCall']
+julia_project.basic - INFO - Need to add packages not in project: []
+julia_project.basic - INFO - need_resolve: No need to resolve or instantiate found.
+julia_project.basic - INFO - Project needs no installation or updating
+julia_project - INFO - Using default depot.
+julia_project.juliacall - INFO - CONFIG['inited'] is true, but we are not reall initialized.
+julia_project.juliacall - INFO - Initializing julia.
+julia_project.juliacall - INFO - libjulia_path: /Users/hmyuuu/.julia/juliaup/julia-1.10.0+0.aarch64.apple.darwin14/lib/libjulia.1.10.0.dylib
+julia_project.juliacall - INFO - setting JULIA_PROJECT = /Users/hmyuuu/miniconda/envs/qst/julia_project/quanestimation-1.10.0
+julia_project.juliacall - INFO - jl_init_with_image(b'/Users/hmyuuu/.julia/juliaup/julia-1.10.0+0.aarch64.apple.darwin14/bin',b'/Users/hmyuuu/miniconda/envs/qst/julia_project/quanestimation-1.10.0/sys_image/sys_quanestimation-1.10.0.dylib'
+julia_project.juliacall - INFO - libjulia inited.
+julia_project.juliacall - INFO - Activating project
+julia_project.juliacall - INFO - Done juliacall init .....
+julia_project - INFO - PyCall version: None
+julia_project - INFO - PythonCall version: 0.9.18
+julia_project - INFO - 
+julia_project - INFO - JuliaProject.init()
+julia_project - INFO - QuanEstimation_INSTALL_JULIA not set
+julia_project - INFO - QuanEstimation_COMPILE not set
+julia_project - INFO - QuanEstimation_DEPOT not set
+julia_project - INFO - julia path: /Users/hmyuuu/.julia/juliaup/julia-1.10.3+0.aarch64.apple.darwin14/bin/julia
+julia_project - INFO - Julia version: 1.10.3.
+julia_project - INFO - os.environ["JULIA_PROJECT"] = /Users/hmyuuu/miniconda/envs/qst1/julia_project/quanestimation-1.10.3
+julia_project - INFO - Copying/updating installed system image directory /Users/hmyuuu/miniconda/envs/qst1/julia_project/quanestimation-1.10.3/sys_image
+julia_project - INFO - importing JuliaCall
+julia_project.juliacall - INFO - importing julia_project/juliacall
+julia_project.basic - INFO - need_resolve: No need to resolve or instantiate found.
+julia_project.basic - INFO - Want packages in project: ['PythonCall']
+julia_project.basic - INFO - Need to add packages not in project: []
+julia_project.basic - INFO - ensure_project_ready:  project /Users/hmyuuu/miniconda/envs/qst1/julia_project/quanestimation-1.10.3, depot None
+julia_project.basic - INFO - Want packages in project: ['PythonCall']
+julia_project.basic - INFO - Need to add packages not in project: []
+julia_project.basic - INFO - need_resolve: No need to resolve or instantiate found.
+julia_project.basic - INFO - Project needs no installation or updating
+julia_project - INFO - Using default depot.
+julia_project.juliacall - INFO - CONFIG['inited'] is true, but we are not reall initialized.
+julia_project.juliacall - INFO - Initializing julia.
+julia_project.juliacall - INFO - libjulia_path: /Users/hmyuuu/.julia/juliaup/julia-1.10.3+0.aarch64.apple.darwin14/lib/libjulia.1.10.3.dylib
+julia_project.juliacall - INFO - setting JULIA_PROJECT = /Users/hmyuuu/miniconda/envs/qst1/julia_project/quanestimation-1.10.3
+julia_project.juliacall - INFO - jl_init with default system image
+julia_project.juliacall - INFO - libjulia inited.
+julia_project.juliacall - INFO - Activating project
+julia_project.juliacall - INFO - Done juliacall init .....
+julia_project - INFO - PyCall version: None
+julia_project - INFO - PythonCall version: 0.9.20
