@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+logotypiesz/__init__.py
+logotypiesz/main.py
+logotypiesz.egg-info/PKG-INFO
+logotypiesz.egg-info/SOURCES.txt
+logotypiesz.egg-info/dependency_links.txt
+logotypiesz.egg-info/requires.txt
+logotypiesz.egg-info/top_level.txt
