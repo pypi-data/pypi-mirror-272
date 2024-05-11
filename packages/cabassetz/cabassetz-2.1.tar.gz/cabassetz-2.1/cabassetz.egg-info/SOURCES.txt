@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cabassetz/__init__.py
+cabassetz/main.py
+cabassetz.egg-info/PKG-INFO
+cabassetz.egg-info/SOURCES.txt
+cabassetz.egg-info/dependency_links.txt
+cabassetz.egg-info/requires.txt
+cabassetz.egg-info/top_level.txt
