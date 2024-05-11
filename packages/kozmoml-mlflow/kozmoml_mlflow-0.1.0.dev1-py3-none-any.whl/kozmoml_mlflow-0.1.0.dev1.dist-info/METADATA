@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: kozmoml-mlflow
+Version: 0.1.0.dev1
+Summary: MLflow runtime for KozmoML
+License: Apache-2.0
+Author: KozmoAI
+Author-email: developers@kozmoai.io
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: kozmoml
+Requires-Dist: mlflow
+Description-Content-Type: text/markdown
+
+# MLflow runtime for KozmoML
+
+This package provides a KozmoML runtime compatible with [MLflow
+models](https://www.mlflow.org/docs/latest/models.html).
+
+## Usage
+
+You can install the runtime, alongside `kozmoml`, as:
+
+```bash
+pip install kozmoml kozmoml-mlflow
+```
+
+## Content Types
+
+The MLflow inference runtime introduces a new `dict` content type, which
+decodes an incoming V2 request as a [dictionary of
+tensors](https://www.mlflow.org/docs/latest/models.html#deploy-mlflow-models).
+This is useful for certain MLflow-serialised models, which will expect that the
+model inputs are serialised in this format.
+
+```{note}
+The `dict` content type can be _stacked_ with other content types, like
+[`np`](../../docs/user-guide/content-type).
+This allows the user to use a different set of content types to decode each of
+the dict entries.
+```
+

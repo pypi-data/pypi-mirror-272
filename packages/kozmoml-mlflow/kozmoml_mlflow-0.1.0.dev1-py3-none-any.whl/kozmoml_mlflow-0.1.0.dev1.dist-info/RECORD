@@ -1,0 +1,9 @@
+kozmoml_mlflow/__init__.py,sha256=fa11yvfGk6nDhwV6HHSLrqGz2brT0k9BTIX8STni2C4,119
+kozmoml_mlflow/codecs.py,sha256=WBgyUCaKx2PuEuq9srq88CZPr5g2qMNSF8ISvIzW-QM,2112
+kozmoml_mlflow/metadata.py,sha256=UtH1jvqnYbDZM05UA46ySHIytOMKnS4u2lJQHfN9cOQ,2641
+kozmoml_mlflow/runtime.py,sha256=eTY6baAJ9m7zQX-ST3YnzMYfZ7RHlcEYqGY8U6YOlFQ,7361
+kozmoml_mlflow/version.py,sha256=DE4yoByfXTekPAyZMrGOHffmw3RSKesbMFBo_98v5GU,27
+kozmoml_mlflow-0.1.0.dev1.dist-info/LICENSE,sha256=f_cqGD5AocAfiqd4AIyKpTq-1PVAe7ycwsYTDM66HN0,11342
+kozmoml_mlflow-0.1.0.dev1.dist-info/METADATA,sha256=c6infUQDMvm1At9wpC9ZLwf989iz5BZXb7yzTOCGyUQ,1388
+kozmoml_mlflow-0.1.0.dev1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+kozmoml_mlflow-0.1.0.dev1.dist-info/RECORD,,
