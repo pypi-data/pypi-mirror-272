@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+intestinesz/__init__.py
+intestinesz/main.py
+intestinesz.egg-info/PKG-INFO
+intestinesz.egg-info/SOURCES.txt
+intestinesz.egg-info/dependency_links.txt
+intestinesz.egg-info/requires.txt
+intestinesz.egg-info/top_level.txt
