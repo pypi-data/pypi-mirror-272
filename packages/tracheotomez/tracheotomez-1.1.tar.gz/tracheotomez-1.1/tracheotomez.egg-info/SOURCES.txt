@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tracheotomez/__init__.py
+tracheotomez/main.py
+tracheotomez.egg-info/PKG-INFO
+tracheotomez.egg-info/SOURCES.txt
+tracheotomez.egg-info/dependency_links.txt
+tracheotomez.egg-info/requires.txt
+tracheotomez.egg-info/top_level.txt
