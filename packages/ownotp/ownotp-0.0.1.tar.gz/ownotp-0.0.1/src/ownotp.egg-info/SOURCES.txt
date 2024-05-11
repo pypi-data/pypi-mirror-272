@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/ownotp.egg-info/PKG-INFO
+src/ownotp.egg-info/SOURCES.txt
+src/ownotp.egg-info/dependency_links.txt
+src/ownotp.egg-info/top_level.txt
+tests/test_otp.py
