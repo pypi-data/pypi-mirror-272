@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ldplayer-tools
+Version: 0.0.1
+Summary: This is package for ldplayer emulator control software. (unofficial)
+Home-page: https://github.com/mantvmass/ldplayer
+Author: mantvmass (Phumin Maliwan)
+Author-email: kliop2317@gmail.com
+Maintainer: mantvmass (Phumin Maliwan)
+Maintainer-email: kliop2317@gmail.com
+License: UNKNOWN
+Keywords: python,ldplayer,ldplayer-tools,python-ldplayer
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
