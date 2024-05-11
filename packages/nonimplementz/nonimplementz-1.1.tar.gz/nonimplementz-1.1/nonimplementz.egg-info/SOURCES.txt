@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonimplementz/__init__.py
+nonimplementz/main.py
+nonimplementz.egg-info/PKG-INFO
+nonimplementz.egg-info/SOURCES.txt
+nonimplementz.egg-info/dependency_links.txt
+nonimplementz.egg-info/requires.txt
+nonimplementz.egg-info/top_level.txt
