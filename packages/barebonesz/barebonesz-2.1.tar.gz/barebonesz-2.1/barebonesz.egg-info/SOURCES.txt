@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+barebonesz/__init__.py
+barebonesz/main.py
+barebonesz.egg-info/PKG-INFO
+barebonesz.egg-info/SOURCES.txt
+barebonesz.egg-info/dependency_links.txt
+barebonesz.egg-info/requires.txt
+barebonesz.egg-info/top_level.txt
