@@ -1,0 +1,2 @@
+[console_scripts]
+pixegami_hello = pixegami_hello:hello
