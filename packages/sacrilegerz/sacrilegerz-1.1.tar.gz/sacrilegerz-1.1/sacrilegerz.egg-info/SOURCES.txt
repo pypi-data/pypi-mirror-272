@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sacrilegerz/__init__.py
+sacrilegerz/main.py
+sacrilegerz.egg-info/PKG-INFO
+sacrilegerz.egg-info/SOURCES.txt
+sacrilegerz.egg-info/dependency_links.txt
+sacrilegerz.egg-info/requires.txt
+sacrilegerz.egg-info/top_level.txt
