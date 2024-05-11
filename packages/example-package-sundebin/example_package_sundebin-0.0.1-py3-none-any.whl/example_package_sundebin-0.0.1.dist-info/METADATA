@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: example_package_sundebin
+Version: 0.0.1
+Summary: A small example package
+Author-email: sundebin68 <sundebin68@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 介绍
+这是一个简单的python包的教程，用于展示如何创建一个python包。
+
+```
+packaging_tutorial/
+├── LICENSE
+├── pyproject.toml
+├── README.md
+├── src/
+│   └── example_package_YOUR_USERNAME_HERE/
+│       ├── __init__.py
+│       └── example.py
+└── tests/
+```
