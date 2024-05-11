@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fissionablez/__init__.py
+fissionablez/main.py
+fissionablez.egg-info/PKG-INFO
+fissionablez.egg-info/SOURCES.txt
+fissionablez.egg-info/dependency_links.txt
+fissionablez.egg-info/requires.txt
+fissionablez.egg-info/top_level.txt
