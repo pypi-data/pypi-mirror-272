@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reverentialityz/__init__.py
+reverentialityz/main.py
+reverentialityz.egg-info/PKG-INFO
+reverentialityz.egg-info/SOURCES.txt
+reverentialityz.egg-info/dependency_links.txt
+reverentialityz.egg-info/requires.txt
+reverentialityz.egg-info/top_level.txt
