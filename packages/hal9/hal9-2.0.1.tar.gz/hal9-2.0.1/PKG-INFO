@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: hal9
+Version: 2.0.1
+Summary: 
+Author: Javier Luraschi
+Author-email: javier@hal9.ai
+Requires-Python: >=3.8, !=2.7.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*, !=3.7.*
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Python Component
+
+## Contributing
+
+Start by installing the package:
+
+```bash
+pip install poetry
+poetry install
+```
+
