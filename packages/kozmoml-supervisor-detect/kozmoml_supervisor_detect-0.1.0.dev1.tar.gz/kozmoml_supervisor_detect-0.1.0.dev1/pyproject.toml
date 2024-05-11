@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kozmoml-supervisor-detect"
+version = "0.1.0.dev1"
+description = "Supervisor-Detect runtime for KozmoML"
+authors = ["KozmoAI <developers@kozmoai.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "kozmoml_supervisor_detect"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+kozmoml = "*"
+kozmo-supervisor-detect = {extras = ["tensorflow"], version = "*"}
+pydantic = "<2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+kozmoml = {path = "../..", develop = true}
+tensorflow = "<2.15"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
