@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dupedomz/__init__.py
+dupedomz/main.py
+dupedomz.egg-info/PKG-INFO
+dupedomz.egg-info/SOURCES.txt
+dupedomz.egg-info/dependency_links.txt
+dupedomz.egg-info/requires.txt
+dupedomz.egg-info/top_level.txt
