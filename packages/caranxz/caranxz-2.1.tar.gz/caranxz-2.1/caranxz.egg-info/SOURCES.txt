@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+caranxz/__init__.py
+caranxz/main.py
+caranxz.egg-info/PKG-INFO
+caranxz.egg-info/SOURCES.txt
+caranxz.egg-info/dependency_links.txt
+caranxz.egg-info/requires.txt
+caranxz.egg-info/top_level.txt
