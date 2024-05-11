@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+metallurgistz/__init__.py
+metallurgistz/main.py
+metallurgistz.egg-info/PKG-INFO
+metallurgistz.egg-info/SOURCES.txt
+metallurgistz.egg-info/dependency_links.txt
+metallurgistz.egg-info/requires.txt
+metallurgistz.egg-info/top_level.txt
