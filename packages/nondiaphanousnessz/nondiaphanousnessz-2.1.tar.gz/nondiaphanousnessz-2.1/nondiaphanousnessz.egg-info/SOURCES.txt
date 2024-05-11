@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nondiaphanousnessz/__init__.py
+nondiaphanousnessz/main.py
+nondiaphanousnessz.egg-info/PKG-INFO
+nondiaphanousnessz.egg-info/SOURCES.txt
+nondiaphanousnessz.egg-info/dependency_links.txt
+nondiaphanousnessz.egg-info/requires.txt
+nondiaphanousnessz.egg-info/top_level.txt
