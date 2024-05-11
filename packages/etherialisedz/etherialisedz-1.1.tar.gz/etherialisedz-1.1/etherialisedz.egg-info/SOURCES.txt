@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+etherialisedz/__init__.py
+etherialisedz/main.py
+etherialisedz.egg-info/PKG-INFO
+etherialisedz.egg-info/SOURCES.txt
+etherialisedz.egg-info/dependency_links.txt
+etherialisedz.egg-info/requires.txt
+etherialisedz.egg-info/top_level.txt
