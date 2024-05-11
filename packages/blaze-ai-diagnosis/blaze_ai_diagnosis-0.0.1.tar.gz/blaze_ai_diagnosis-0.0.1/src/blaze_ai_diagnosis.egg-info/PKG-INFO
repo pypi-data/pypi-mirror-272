@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: blaze-ai-diagnosis
+Version: 0.0.1
+Summary: Intelligent diagnosis of industrial equipment driven by AI
+Author: blaze
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.9
+License-File: LICENSE.txt
+Requires-Dist: numpy==1.26.0
+Requires-Dist: pandas==2.1.1
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: scipy==1.11.4
+Requires-Dist: matplotlib==3.8.0
+Requires-Dist: scikit-learn==1.3.0
