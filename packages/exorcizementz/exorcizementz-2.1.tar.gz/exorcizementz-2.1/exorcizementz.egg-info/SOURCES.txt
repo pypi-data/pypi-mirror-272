@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+exorcizementz/__init__.py
+exorcizementz/main.py
+exorcizementz.egg-info/PKG-INFO
+exorcizementz.egg-info/SOURCES.txt
+exorcizementz.egg-info/dependency_links.txt
+exorcizementz.egg-info/requires.txt
+exorcizementz.egg-info/top_level.txt
