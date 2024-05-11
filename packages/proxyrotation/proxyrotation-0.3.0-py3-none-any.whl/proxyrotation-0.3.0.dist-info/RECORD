@@ -1,0 +1,11 @@
+proxyrotation/__init__.py,sha256=J-xt6Tm9Nad_oAdD8ga73QZfsj0iG8KDqbVy8Dn4YqE,74
+proxyrotation/common.py,sha256=fxtn9r6rA-qI9wm5ZIq5lMDNCOCU96iQcDLIvaB-b_Y,1498
+proxyrotation/modelling.py,sha256=1Jqchu50XTQuvVoQchLtMX4rMkr8vXXB3_r2w_ymZSk,1192
+proxyrotation/repository/__init__.py,sha256=m6MREHvWjYxLSfcnBmKpVpF8UzpG-QceaoMaolWt3jU,1153
+proxyrotation/repository/async.py,sha256=ZlGQ-VQ7wyEln8RtS6L9_Pxv4-kcAgjOouwHTo9_3IA,3528
+proxyrotation/repository/sequential.py,sha256=_0HYjz1wvhUPo_ocHFGmUJjtv2guxeRJ_k__Vdt8l74,2557
+proxyrotation/rotator.py,sha256=_7E1S53LYzsHikUNRxfSLMX4oHy-QM_iKvRkYsYWzsI,7440
+proxyrotation-0.3.0.dist-info/LICENSE,sha256=C8-Cm2nznDZH5wTW6fE6O7a6PzWNgtrVOcDHKS7FDwU,1074
+proxyrotation-0.3.0.dist-info/METADATA,sha256=kOy0YzsYL_OAj3D9VkHBqOz9IZvl0YRo5XNpdBCAGk4,2214
+proxyrotation-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+proxyrotation-0.3.0.dist-info/RECORD,,
