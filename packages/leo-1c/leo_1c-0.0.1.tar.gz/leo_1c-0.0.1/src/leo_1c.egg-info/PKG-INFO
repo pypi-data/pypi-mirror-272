@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: leo-1c
+Version: 0.0.1
+Summary: A Small Client for 1C for Leo.
+Author-email: Mikhail Kormanovskii <i@kormanowsky.ru>
+Project-URL: Homepage, https://github.com/kormanowsky/leo-1c
+Project-URL: Issues, https://github.com/kormanowsky/leo-1c/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests==2.31.0
+Requires-Dist: typing_extensions==4.11.0
+
+# Leo 1C
+
