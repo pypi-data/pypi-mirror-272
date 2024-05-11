@@ -1,0 +1,13 @@
+giza_actions/__init__.py,sha256=cRFBdvxlFF0ybkaSirSlpO1-anRa2QkLfbboZL6U8ls,243
+giza_actions/action.py,sha256=nhSQSHWLMdSs5R48AL4Jf9n9KLiczNlxNS2Sb9tIvec,5993
+giza_actions/agent.py,sha256=eks2ITn8LznDcMp-2bFz9J8ZeIQrObbsh0ExSKqYcoo,17767
+giza_actions/deployments.py,sha256=Eg9XJr7aHeFumspYPYTbZjb6QufZjvaS5wzEoMO1lsE,631
+giza_actions/logger.py,sha256=8fJERuy2dgBghtnEt7oqXnfmq_TJhFLVWLmhJc0n4MA,252
+giza_actions/logging.yaml,sha256=-W1bumVIdaai32_2KBc09uKDjpf_Bq_5rPNOItcJgMg,3051
+giza_actions/model.py,sha256=jueViaCptiFkrRSnX8FhjeQDKkz82DHoUJhXCwl61Fw,18134
+giza_actions/task.py,sha256=dxMCL9hmNWODaEfUFh3sKdx_7u-RbqtqcjdGtwbN3qY,576
+giza_actions/utils.py,sha256=-DWk6ym5QV7c1woBRzC3SJtFEMLOAHxMZhb16fcfksw,1966
+giza_actions-0.3.2.dist-info/LICENSE,sha256=RbXHn7MC0YFsm0uZxFEPBqcDkHkjl3JkOdUzKoel3Do,1074
+giza_actions-0.3.2.dist-info/METADATA,sha256=KadQk553f3u_urDj6C0rWHR3iWi2THz_7wZf0Q9f8vM,7474
+giza_actions-0.3.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+giza_actions-0.3.2.dist-info/RECORD,,
