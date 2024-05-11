@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+communalismz/__init__.py
+communalismz/main.py
+communalismz.egg-info/PKG-INFO
+communalismz.egg-info/SOURCES.txt
+communalismz.egg-info/dependency_links.txt
+communalismz.egg-info/requires.txt
+communalismz.egg-info/top_level.txt
