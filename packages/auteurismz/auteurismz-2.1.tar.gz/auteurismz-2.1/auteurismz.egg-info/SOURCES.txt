@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+auteurismz/__init__.py
+auteurismz/main.py
+auteurismz.egg-info/PKG-INFO
+auteurismz.egg-info/SOURCES.txt
+auteurismz.egg-info/dependency_links.txt
+auteurismz.egg-info/requires.txt
+auteurismz.egg-info/top_level.txt
