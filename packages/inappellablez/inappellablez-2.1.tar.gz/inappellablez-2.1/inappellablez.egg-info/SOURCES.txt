@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+inappellablez/__init__.py
+inappellablez/main.py
+inappellablez.egg-info/PKG-INFO
+inappellablez.egg-info/SOURCES.txt
+inappellablez.egg-info/dependency_links.txt
+inappellablez.egg-info/requires.txt
+inappellablez.egg-info/top_level.txt
