@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+danteanz/__init__.py
+danteanz/main.py
+danteanz.egg-info/PKG-INFO
+danteanz.egg-info/SOURCES.txt
+danteanz.egg-info/dependency_links.txt
+danteanz.egg-info/requires.txt
+danteanz.egg-info/top_level.txt
