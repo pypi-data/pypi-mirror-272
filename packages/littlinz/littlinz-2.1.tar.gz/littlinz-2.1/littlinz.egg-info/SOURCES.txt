@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+littlinz/__init__.py
+littlinz/main.py
+littlinz.egg-info/PKG-INFO
+littlinz.egg-info/SOURCES.txt
+littlinz.egg-info/dependency_links.txt
+littlinz.egg-info/requires.txt
+littlinz.egg-info/top_level.txt
