@@ -1,0 +1,11 @@
+pagination_sorting/__init__.py,sha256=GmJlcCeKAgvszKxdowMq4WX299CykWbk6hlthG2C0Ys,83
+pagination_sorting/pagination.py,sha256=h8n57f8o2FRnHBwA9602zE0qZkozM7a8E0QwHzlKEB8,10090
+pagination_sorting/sorting.py,sha256=VlJhWZe8AMgkK9_O6JX4wgtnnld8ZjM3G-CCU1zXgck,194
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pagination.py,sha256=GljeKr3NaqWa_D8r-xYv7iy09vFRFkURsfZlk1dfrG4,3946
+tests/test_sorting.py,sha256=a7tS4TDMIbwxIJ1x7J5zVJLQ1h2shnqXOV-DBzF8Ubg,505
+pagination_sorting-0.1.1.dist-info/LICENSE,sha256=xMqJ8XkGdHJtU7mqzo0OLLttTv-xg4iG6Lkgch_7_DY,1070
+pagination_sorting-0.1.1.dist-info/METADATA,sha256=zyD3Iu_s8j4ImccByffoLq-soqPl3R6RQW69rgq-7gg,5076
+pagination_sorting-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pagination_sorting-0.1.1.dist-info/top_level.txt,sha256=0e5fHqg7usoUPRNA4p9ntm0Lbirobf9PWULTgNOXSpc,25
+pagination_sorting-0.1.1.dist-info/RECORD,,
