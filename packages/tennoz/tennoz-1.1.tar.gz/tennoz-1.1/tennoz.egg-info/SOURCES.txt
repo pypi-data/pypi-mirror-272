@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tennoz/__init__.py
+tennoz/main.py
+tennoz.egg-info/PKG-INFO
+tennoz.egg-info/SOURCES.txt
+tennoz.egg-info/dependency_links.txt
+tennoz.egg-info/requires.txt
+tennoz.egg-info/top_level.txt
