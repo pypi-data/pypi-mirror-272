@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dammaraz/__init__.py
+dammaraz/main.py
+dammaraz.egg-info/PKG-INFO
+dammaraz.egg-info/SOURCES.txt
+dammaraz.egg-info/dependency_links.txt
+dammaraz.egg-info/requires.txt
+dammaraz.egg-info/top_level.txt
