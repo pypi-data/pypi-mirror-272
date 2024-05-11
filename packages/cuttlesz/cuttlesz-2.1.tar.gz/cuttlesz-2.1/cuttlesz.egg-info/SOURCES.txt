@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cuttlesz/__init__.py
+cuttlesz/main.py
+cuttlesz.egg-info/PKG-INFO
+cuttlesz.egg-info/SOURCES.txt
+cuttlesz.egg-info/dependency_links.txt
+cuttlesz.egg-info/requires.txt
+cuttlesz.egg-info/top_level.txt
