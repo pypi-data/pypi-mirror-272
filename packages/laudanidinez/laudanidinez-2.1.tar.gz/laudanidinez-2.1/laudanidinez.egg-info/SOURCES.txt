@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+laudanidinez/__init__.py
+laudanidinez/main.py
+laudanidinez.egg-info/PKG-INFO
+laudanidinez.egg-info/SOURCES.txt
+laudanidinez.egg-info/dependency_links.txt
+laudanidinez.egg-info/requires.txt
+laudanidinez.egg-info/top_level.txt
