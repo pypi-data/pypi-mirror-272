@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+psychologianz/__init__.py
+psychologianz/main.py
+psychologianz.egg-info/PKG-INFO
+psychologianz.egg-info/SOURCES.txt
+psychologianz.egg-info/dependency_links.txt
+psychologianz.egg-info/requires.txt
+psychologianz.egg-info/top_level.txt
