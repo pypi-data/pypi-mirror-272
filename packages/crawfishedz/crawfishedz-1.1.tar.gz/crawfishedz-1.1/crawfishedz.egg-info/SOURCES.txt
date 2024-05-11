@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+crawfishedz/__init__.py
+crawfishedz/main.py
+crawfishedz.egg-info/PKG-INFO
+crawfishedz.egg-info/SOURCES.txt
+crawfishedz.egg-info/dependency_links.txt
+crawfishedz.egg-info/requires.txt
+crawfishedz.egg-info/top_level.txt
