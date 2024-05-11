@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+isidiophorousz/__init__.py
+isidiophorousz/main.py
+isidiophorousz.egg-info/PKG-INFO
+isidiophorousz.egg-info/SOURCES.txt
+isidiophorousz.egg-info/dependency_links.txt
+isidiophorousz.egg-info/requires.txt
+isidiophorousz.egg-info/top_level.txt
