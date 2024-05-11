@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jabsz/__init__.py
+jabsz/main.py
+jabsz.egg-info/PKG-INFO
+jabsz.egg-info/SOURCES.txt
+jabsz.egg-info/dependency_links.txt
+jabsz.egg-info/requires.txt
+jabsz.egg-info/top_level.txt
