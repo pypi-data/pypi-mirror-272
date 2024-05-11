@@ -1,0 +1,10 @@
+License.txt
+README.md
+pyproject.toml
+setup.cfg
+src/pixeon/__init__.py
+src/pixeon/accuracy_tools.py
+src/pixeon.egg-info/PKG-INFO
+src/pixeon.egg-info/SOURCES.txt
+src/pixeon.egg-info/dependency_links.txt
+src/pixeon.egg-info/top_level.txt
