@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unwavingz/__init__.py
+unwavingz/main.py
+unwavingz.egg-info/PKG-INFO
+unwavingz.egg-info/SOURCES.txt
+unwavingz.egg-info/dependency_links.txt
+unwavingz.egg-info/requires.txt
+unwavingz.egg-info/top_level.txt
