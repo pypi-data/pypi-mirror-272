@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mitanniz/__init__.py
+mitanniz/main.py
+mitanniz.egg-info/PKG-INFO
+mitanniz.egg-info/SOURCES.txt
+mitanniz.egg-info/dependency_links.txt
+mitanniz.egg-info/requires.txt
+mitanniz.egg-info/top_level.txt
