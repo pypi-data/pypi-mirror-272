@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gastrogastrotomyz/__init__.py
+gastrogastrotomyz/main.py
+gastrogastrotomyz.egg-info/PKG-INFO
+gastrogastrotomyz.egg-info/SOURCES.txt
+gastrogastrotomyz.egg-info/dependency_links.txt
+gastrogastrotomyz.egg-info/requires.txt
+gastrogastrotomyz.egg-info/top_level.txt
