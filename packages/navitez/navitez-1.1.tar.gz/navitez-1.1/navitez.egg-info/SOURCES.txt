@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+navitez/__init__.py
+navitez/main.py
+navitez.egg-info/PKG-INFO
+navitez.egg-info/SOURCES.txt
+navitez.egg-info/dependency_links.txt
+navitez.egg-info/requires.txt
+navitez.egg-info/top_level.txt
