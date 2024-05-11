@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aws-butler
+Version: 0.1.2
+Summary: CLI tools to simplify common tasks with aws
+Author: Alban King
+Requires-Python: >=3.10
+Requires-Dist: boto3
+Requires-Dist: click
+Requires-Dist: tabulate
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
