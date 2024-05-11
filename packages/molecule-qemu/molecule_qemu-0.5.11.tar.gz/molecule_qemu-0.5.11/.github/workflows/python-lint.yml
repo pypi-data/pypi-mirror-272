@@ -1,0 +1,30 @@
+name: Python Package - Lint
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  lint-python:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up direnv
+        uses: andreygubarev/setup-direnv@v1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pipenv'
+
+      - name: Install pipenv
+        run: pip install pipenv
+
+      - name: Lint with ansible-lint
+        run: |
+          direnv allow .
+          direnv exec . pycodestyle molecule_qemu
