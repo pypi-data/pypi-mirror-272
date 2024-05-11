@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: sp-lh3-constant-contact
+Version: 0.1.3
+Summary: 
+Home-page: https://github.com/guinslym/sp_lh3_constant_contact
+Author: Guinslym
+Author-email: guinslym@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bs4 (>=0.0.2,<0.0.3)
+Requires-Dist: dateutils (>=0.6.12,<0.7.0)
+Requires-Dist: lh3api (>=0.2.0,<0.3.0)
+Project-URL: Repository, https://github.com/guinslym/sp_lh3_constant_contact
+Description-Content-Type: text/markdown
+
+[
+![PyPI](https://img.shields.io/pypi/v/sp-lh3-constant-contact.svg)
+![PyPI](https://img.shields.io/pypi/pyversions/sp-lh3-constant-contact.svg)
+![PyPI](https://img.shields.io/github/license/guinslym/sp-lh3-constant-contact.svg)
+](https://pypi.org/project/sp-lh3-constant-contact/)
+[![TravisCI](https://travis-ci.org/guinslym/sp-lh3-constant-contact.svg?branch=master)](https://travis-ci.org/guinslym/sp-lh3-constant-contact)
+
+<hr/>
+
+## SP LibraryH3lp constant Contact
+
+<p>
+This script will assess a transcript to check if the operator has taken  see ```example.py```.
+</p>
+
+## Installation & Usage
+
+**need credentials to connect to LibraryH3lp - see lh3api package on GitLab** 
+
+```python 
+#using poetry
+poetry add sp-lh3-constant-contact
+#or using pip
+pip install sp-lh3-constant-contact
+```
+
+To run an example of the app
+```python 
+poetry run python
+```
+
+### TODO
+1. Create Click application
+
