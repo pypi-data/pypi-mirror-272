@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pennystonez/__init__.py
+pennystonez/main.py
+pennystonez.egg-info/PKG-INFO
+pennystonez.egg-info/SOURCES.txt
+pennystonez.egg-info/dependency_links.txt
+pennystonez.egg-info/requires.txt
+pennystonez.egg-info/top_level.txt
