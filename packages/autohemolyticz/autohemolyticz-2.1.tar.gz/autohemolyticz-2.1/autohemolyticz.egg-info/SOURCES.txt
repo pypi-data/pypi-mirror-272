@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+autohemolyticz/__init__.py
+autohemolyticz/main.py
+autohemolyticz.egg-info/PKG-INFO
+autohemolyticz.egg-info/SOURCES.txt
+autohemolyticz.egg-info/dependency_links.txt
+autohemolyticz.egg-info/requires.txt
+autohemolyticz.egg-info/top_level.txt
