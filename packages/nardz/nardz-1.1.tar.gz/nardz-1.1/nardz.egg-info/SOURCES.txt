@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nardz/__init__.py
+nardz/main.py
+nardz.egg-info/PKG-INFO
+nardz.egg-info/SOURCES.txt
+nardz.egg-info/dependency_links.txt
+nardz.egg-info/requires.txt
+nardz.egg-info/top_level.txt
