@@ -1,0 +1,78 @@
+# !/usr/bin/python3
+# -*- coding:utf-8 -*-
+"""
+@Author: xiaodong.li
+@Time: 5/10/2024 6:22 PM
+@Description: Description
+@File: migration_db_from_s3.py
+"""
+import copy
+import os
+import shutil
+import tempfile
+import traceback
+
+from botocore.exceptions import ClientError
+
+from common_utils.constant import AppEnum, AppEnvEnum
+from common_utils.handle_str import ParseNameForAppInfo
+from common_utils.log import Logger
+from common_utils.read_file import connect_to
+from common_utils.s3.s3 import init_client, build_file_dtos, init_resource, download
+from migration.core._migration import Migration
+from migration.core.handle_file import handle_archive, handle_sql_file
+from migration.lib.constant import MigrationTypeEnum
+from migration.lib.path import get_app_config_path
+
+
+def restore_dbs_from_s3(config: dict, s3_sql_locations: list, prefix: str, bucket: str, app_env: str, schema: str,
+                        is_publish_network: bool, ignore_error: bool, incremental_sql_dir: str,
+                        latest_sql_versions: dict = None):
+    """
+    :param config: 数据源信息
+    :param s3_sql_locations: s3文件key的列表
+    :param incremental_sql_dir: 增量文件路径
+    :param prefix: 临时文件夹名称前缀
+    :param latest_sql_versions: 最新的数据库版本
+    :param bucket: s3的bucket名称
+    :param app_env:
+    :param schema:
+    :param is_publish_network: 连接redis使用
+    :param ignore_error: 执行增量脚本时，是否忽略SQL运行时的错误
+    :return:
+    """
+    if latest_sql_versions is None:
+        latest_sql_versions = dict()
+    config_info_mapping = connect_to(get_app_config_path()).data
+    _s3 = init_client()
+    file_dtos = build_file_dtos(_s3, bucket, s3_sql_locations)
+    file_dtos = sorted(file_dtos, key=lambda x: x.size)
+    download_s3 = init_resource()
+    for file_dto in file_dtos:
+        # 从S3下载文件到本地
+        in_path = tempfile.mkdtemp(prefix=prefix)
+        p = ParseNameForAppInfo().parse(file_dto.name)
+        p_local = ParseNameForAppInfo().parse(schema)
+        if p.app == AppEnum.DESIGN.code:
+            app_env = AppEnvEnum.DEV.description
+        database = "_".join(["eclinical", p.app, app_env, str(p_local.id)])
+        try:
+            Logger().info(f"File: {file_dto.name} is start.")
+            local_sql_path = os.path.join(in_path, file_dto.name)
+            download(download_s3, bucket, file_dto.key, local_sql_path)
+            if local_sql_path.endswith((".zip", ".gz")):
+                local_sql_path = handle_archive(in_path, file_dto.name, True, True)
+            elif local_sql_path.endswith((".sql",)):
+                local_sql_path = handle_sql_file(in_path, file_dto.name)
+            Logger().info(f"{file_dto.name}-{database} is start.")
+            tmp_config = copy.deepcopy(config)
+            m_instance = Migration(database, tmp_config, None, None, local_sql_path,
+                                   True, True, migration_type=MigrationTypeEnum.MYSQL.code)
+            m_instance.run(is_publish_network, config_info_mapping.get(p.app), ignore_error,
+                           int(latest_sql_versions.get(p.app)), incremental_sql_dir=incremental_sql_dir)
+            Logger().info(f"Filename:{file_dto.name}-{database} is end.")
+        except Exception as e:
+            traceback.print_exc()
+            Logger().error(f"Filename:{file_dto.name}-{database} is error: {e}.")
+        finally:
+            shutil.rmtree(in_path)
