@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+keyserlickz/__init__.py
+keyserlickz/main.py
+keyserlickz.egg-info/PKG-INFO
+keyserlickz.egg-info/SOURCES.txt
+keyserlickz.egg-info/dependency_links.txt
+keyserlickz.egg-info/requires.txt
+keyserlickz.egg-info/top_level.txt
