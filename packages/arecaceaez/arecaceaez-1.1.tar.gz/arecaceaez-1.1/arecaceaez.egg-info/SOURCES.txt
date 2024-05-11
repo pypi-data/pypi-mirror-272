@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+arecaceaez/__init__.py
+arecaceaez/main.py
+arecaceaez.egg-info/PKG-INFO
+arecaceaez.egg-info/SOURCES.txt
+arecaceaez.egg-info/dependency_links.txt
+arecaceaez.egg-info/requires.txt
+arecaceaez.egg-info/top_level.txt
