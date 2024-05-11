@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+drapez/__init__.py
+drapez/main.py
+drapez.egg-info/PKG-INFO
+drapez.egg-info/SOURCES.txt
+drapez.egg-info/dependency_links.txt
+drapez.egg-info/requires.txt
+drapez.egg-info/top_level.txt
