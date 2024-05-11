@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+uncoopedz/__init__.py
+uncoopedz/main.py
+uncoopedz.egg-info/PKG-INFO
+uncoopedz.egg-info/SOURCES.txt
+uncoopedz.egg-info/dependency_links.txt
+uncoopedz.egg-info/requires.txt
+uncoopedz.egg-info/top_level.txt
