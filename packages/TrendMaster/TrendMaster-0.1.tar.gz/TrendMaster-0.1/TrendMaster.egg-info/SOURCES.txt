@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+TrendMaster.egg-info/PKG-INFO
+TrendMaster.egg-info/SOURCES.txt
+TrendMaster.egg-info/dependency_links.txt
+TrendMaster.egg-info/entry_points.txt
+TrendMaster.egg-info/requires.txt
+TrendMaster.egg-info/top_level.txt
+trendmaster/__init__.py
+trendmaster/data_loader.py
+trendmaster/inferencer.py
+trendmaster/trainer.py
+trendmaster/trendmaster.py
