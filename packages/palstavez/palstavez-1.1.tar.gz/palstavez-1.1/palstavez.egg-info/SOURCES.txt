@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+palstavez/__init__.py
+palstavez/main.py
+palstavez.egg-info/PKG-INFO
+palstavez.egg-info/SOURCES.txt
+palstavez.egg-info/dependency_links.txt
+palstavez.egg-info/requires.txt
+palstavez.egg-info/top_level.txt
