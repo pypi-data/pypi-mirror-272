@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pretentiousz/__init__.py
+pretentiousz/main.py
+pretentiousz.egg-info/PKG-INFO
+pretentiousz.egg-info/SOURCES.txt
+pretentiousz.egg-info/dependency_links.txt
+pretentiousz.egg-info/requires.txt
+pretentiousz.egg-info/top_level.txt
