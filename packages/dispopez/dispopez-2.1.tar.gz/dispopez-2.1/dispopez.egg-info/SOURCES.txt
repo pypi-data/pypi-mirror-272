@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dispopez/__init__.py
+dispopez/main.py
+dispopez.egg-info/PKG-INFO
+dispopez.egg-info/SOURCES.txt
+dispopez.egg-info/dependency_links.txt
+dispopez.egg-info/requires.txt
+dispopez.egg-info/top_level.txt
