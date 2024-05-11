@@ -1,0 +1,14 @@
+pyqtorch/__init__.py,sha256=janv5sduNm6Ep89LGrC1SOeKRtwUJbxaEG0aIz5VOp0,1174
+pyqtorch/adjoint.py,sha256=8w7ANxZHmzywGlk70uhY2Z6PEBJmucobu20FTlgytLs,2092
+pyqtorch/analog.py,sha256=GEWgDcYisYeTAqtEm3TqxRWV06W_BTtbgYxtCce-P4M,2142
+pyqtorch/apply.py,sha256=qdI-Wv6YWXQk4EuWsH-Cw5Sl_aULDto0kwfvlI2PNeg,3377
+pyqtorch/circuit.py,sha256=HtVkq5TYTajLuKVuMSkJq8XBmMbGo_fxHFaPj1d083k,7521
+pyqtorch/matrices.py,sha256=eZ6xCQaPp3ozrVdxdC_W5bcAeStuveVP4Bnlab6Wm0w,3521
+pyqtorch/parametric.py,sha256=RNMym4Czk_uuG4fhGGiaPa31wBpfUu4ufJXTOvOAPDg,8620
+pyqtorch/primitive.py,sha256=hbT0PMwIz_gm8lNBuOfdMM1ODXSC6oIQpC_ZQHR4VZo,5606
+pyqtorch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyqtorch/utils.py,sha256=vHSt8ZyrZ_GUlWcWF_obtSmpLsrwumhcOic76Q58Nvg,6395
+pyqtorch-1.1.1.dist-info/METADATA,sha256=OkO5_5l3cBKd_kdeeqvJ87unTFPHFNZA0lRDiPnu0ew,1747
+pyqtorch-1.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pyqtorch-1.1.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyqtorch-1.1.1.dist-info/RECORD,,
