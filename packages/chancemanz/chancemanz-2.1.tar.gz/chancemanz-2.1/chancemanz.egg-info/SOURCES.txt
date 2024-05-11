@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+chancemanz/__init__.py
+chancemanz/main.py
+chancemanz.egg-info/PKG-INFO
+chancemanz.egg-info/SOURCES.txt
+chancemanz.egg-info/dependency_links.txt
+chancemanz.egg-info/requires.txt
+chancemanz.egg-info/top_level.txt
