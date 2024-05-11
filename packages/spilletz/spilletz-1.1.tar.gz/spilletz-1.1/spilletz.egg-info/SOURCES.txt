@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spilletz/__init__.py
+spilletz/main.py
+spilletz.egg-info/PKG-INFO
+spilletz.egg-info/SOURCES.txt
+spilletz.egg-info/dependency_links.txt
+spilletz.egg-info/requires.txt
+spilletz.egg-info/top_level.txt
