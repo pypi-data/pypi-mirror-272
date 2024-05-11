@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tuttoz/__init__.py
+tuttoz/main.py
+tuttoz.egg-info/PKG-INFO
+tuttoz.egg-info/SOURCES.txt
+tuttoz.egg-info/dependency_links.txt
+tuttoz.egg-info/requires.txt
+tuttoz.egg-info/top_level.txt
