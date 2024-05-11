@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+otiorhynchidaez/__init__.py
+otiorhynchidaez/main.py
+otiorhynchidaez.egg-info/PKG-INFO
+otiorhynchidaez.egg-info/SOURCES.txt
+otiorhynchidaez.egg-info/dependency_links.txt
+otiorhynchidaez.egg-info/requires.txt
+otiorhynchidaez.egg-info/top_level.txt
