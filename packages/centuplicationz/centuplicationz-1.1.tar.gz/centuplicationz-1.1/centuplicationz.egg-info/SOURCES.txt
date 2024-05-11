@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+centuplicationz/__init__.py
+centuplicationz/main.py
+centuplicationz.egg-info/PKG-INFO
+centuplicationz.egg-info/SOURCES.txt
+centuplicationz.egg-info/dependency_links.txt
+centuplicationz.egg-info/requires.txt
+centuplicationz.egg-info/top_level.txt
