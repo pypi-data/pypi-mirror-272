@@ -1,0 +1,16 @@
+tiktok_captcha_solver/__init__.py,sha256=IecVcO_qBadGGr61HvSxKp1dO2mSAgLexvnKlZ9L7kU,120
+tiktok_captcha_solver/api.py,sha256=YwLjV6yODLFH_IQk6D1fYwPhp8Ibj9z91PMM94x8LSk,1895
+tiktok_captcha_solver/downloader.py,sha256=S_kFtSF1if65UuEblrmD9KKXmS88vumVab107zd3Ab8,350
+tiktok_captcha_solver/models.py,sha256=m7I1AUZmeQr9wE0exSGmh_yCltKO7pRgXX_n6I6vqd8,335
+tiktok_captcha_solver/playwrightsolver.py,sha256=OBhyorM8tGMn5zK8DuX8OYlD38JZCpa7deX4_I_2T-g,7911
+tiktok_captcha_solver/seleniumsolver.py,sha256=cm2dE9Iv5bSlUt_sigT_2OHVqA5z5ETIPBybndBoXJE,7704
+tiktok_captcha_solver/solver.py,sha256=ag0OV_EToxo3BQVW5HkOL9vTCsKhPt-mVsl7PjBg1Vk,1521
+tiktok_captcha_solver/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tiktok_captcha_solver/tests/test_api.py,sha256=HYg9eShRFuu25loyqN2CXZ2ZqNM0Ag8lbcc6-O3oCXw,1264
+tiktok_captcha_solver/tests/test_downloader.py,sha256=yyfERB3snMqGh8fEliDDLUDxvewtTXUITH6btAJwMUg,189
+tiktok_captcha_solver/tests/test_playwrightsolver.py,sha256=qa9uxQ4-860wlIpakRsbgFoc4UchvBp1ybsQsrXv1rE,1062
+tiktok_captcha_solver/tests/test_seleniumsolver.py,sha256=xxqsdpkl22uUghK_NGaN1BYrqvgmKgJ8iCi6Pf6ylpI,1930
+tiktok_captcha_solver-0.0.3.dist-info/METADATA,sha256=eSXGFyfAj0hDMfRoHIIdibXJw45UEkQl0Sfqyh7QXGA,3415
+tiktok_captcha_solver-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tiktok_captcha_solver-0.0.3.dist-info/top_level.txt,sha256=Ak6olAtZh48EmyB2H-NVy2MSdtBBZR4VqFq8ujzhrOs,22
+tiktok_captcha_solver-0.0.3.dist-info/RECORD,,
