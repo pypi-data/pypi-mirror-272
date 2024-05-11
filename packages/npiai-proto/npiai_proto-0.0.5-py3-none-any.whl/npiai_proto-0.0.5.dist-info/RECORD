@@ -1,0 +1,6 @@
+npiai_proto/api_pb2.py,sha256=kkze_vVr6dPv-BAIw64ph-Z8r4SGgWpp6KZuZTfE2bc,5088
+npiai_proto/api_pb2.pyi,sha256=T0pUtnsukqMvjlaSlIJo9KCOBN0Mzmsu1-4J-FXiBv0,6035
+npiai_proto/api_pb2_grpc.py,sha256=bR9BeU4z2M2iaeUInxIhp6zNekydXA1_vm4fDJQDflk,3829
+npiai_proto-0.0.5.dist-info/METADATA,sha256=iohGAJAMtZj9bW_TzJv18MIgwtmFMBQDoPstwBCjcPU,720
+npiai_proto-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+npiai_proto-0.0.5.dist-info/RECORD,,
