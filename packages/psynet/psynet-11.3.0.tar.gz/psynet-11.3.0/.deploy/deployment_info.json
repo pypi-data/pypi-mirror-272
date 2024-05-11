@@ -1,0 +1,11 @@
+{
+    "redeploying_from_archive": false,
+    "mode": "debug",
+    "is_local_deployment": true,
+    "is_ssh_deployment": false,
+    "folder_name": "PsyNet",
+    "secret": {
+        "py/object": "uuid.UUID",
+        "hex": "2ec69b69ad5c4c7d93436fbb43d69304"
+    }
+}
