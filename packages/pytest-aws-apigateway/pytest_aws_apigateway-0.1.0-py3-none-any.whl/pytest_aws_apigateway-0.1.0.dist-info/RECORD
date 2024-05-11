@@ -1,0 +1,10 @@
+pytest_aws_apigateway/__init__.py,sha256=KRMSGs5dvQMpr5W9UQNkEHVaMLmdmUSK68zYN-0qp1Y,82
+pytest_aws_apigateway/apigateway.py,sha256=wbZMaeYElmdvDvdvf05FEbDVeJBKKgrTYxcjDmV240w,961
+pytest_aws_apigateway/event.py,sha256=Z4i4ATHzA_LkLc7hkeVbbDUMxVySx_Wx6ZeSNQXHEGc,1051
+pytest_aws_apigateway/plugin.py,sha256=NlRwacRV10jdZkF7TqJlnIHxC61eZfKLJTj-y6zYHMQ,204
+pytest_aws_apigateway-0.1.0.dist-info/LICENSE,sha256=Urn8pA8Jc3B8zenUmJjbgqKbpBF9qonWmuuSgb0orA4,1102
+pytest_aws_apigateway-0.1.0.dist-info/METADATA,sha256=YJIcAQ5j5FCkWfPyksdyx9D-SPvX2LEFP3Z-xWxRMXg,3263
+pytest_aws_apigateway-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytest_aws_apigateway-0.1.0.dist-info/entry_points.txt,sha256=RFyh84EEkAQKDwFFPncaASniUcLSBfCRzG4Wft8O7pU,64
+pytest_aws_apigateway-0.1.0.dist-info/top_level.txt,sha256=jJBieB-RqYfp4hObinWZWd0UrvceY4ugpDeDhcRNwlE,22
+pytest_aws_apigateway-0.1.0.dist-info/RECORD,,
