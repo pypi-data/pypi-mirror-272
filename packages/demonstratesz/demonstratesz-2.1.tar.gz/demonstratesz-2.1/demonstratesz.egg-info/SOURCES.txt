@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+demonstratesz/__init__.py
+demonstratesz/main.py
+demonstratesz.egg-info/PKG-INFO
+demonstratesz.egg-info/SOURCES.txt
+demonstratesz.egg-info/dependency_links.txt
+demonstratesz.egg-info/requires.txt
+demonstratesz.egg-info/top_level.txt
