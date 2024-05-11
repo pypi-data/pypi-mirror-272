@@ -1,0 +1,4 @@
+[console_scripts]
+copilot=gh_copilot_sdk.main:main
+cp=gh_copilot_sdk.main:main
+
