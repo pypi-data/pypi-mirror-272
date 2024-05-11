@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+antipharmicz/__init__.py
+antipharmicz/main.py
+antipharmicz.egg-info/PKG-INFO
+antipharmicz.egg-info/SOURCES.txt
+antipharmicz.egg-info/dependency_links.txt
+antipharmicz.egg-info/requires.txt
+antipharmicz.egg-info/top_level.txt
