@@ -1,0 +1,9 @@
+pybunch/__init__.py,sha256=8vlYqgIez3LJ6L-23GLSUV5SUOz652apJk4cB0n1g3A,6
+pybunch/__main__.py,sha256=ppmH-edqFxyOuHnHW99ICTH647ylAU_zSOhoAhi8bUY,1649
+pybunch/packed_base.py,sha256=-IwyhGKPev-ola7-YLk2by-e7YJI60YBakWik1iLu3I,9720
+pybunch/project.py,sha256=R5D1czbE-jwWxd9aZaOFIyD0w1pifLjGdCohzIQcbiY,4889
+pybunch-1.0.16.dist-info/LICENSE,sha256=ky8wlSfSias-AwSYnLXXhHnAfWtpb6w7HGUUAmHOVbc,1071
+pybunch-1.0.16.dist-info/METADATA,sha256=5JFBodYplZvfpwUaPWuDKaAZVmSwNgl2Pmx6Ald8UAU,768
+pybunch-1.0.16.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pybunch-1.0.16.dist-info/top_level.txt,sha256=rt8gRm9F_kcq7P-iIWE3Ewd5meVgbdIsk1-XNK2BfQY,8
+pybunch-1.0.16.dist-info/RECORD,,
