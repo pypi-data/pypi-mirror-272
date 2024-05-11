@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+crinivorousz/__init__.py
+crinivorousz/main.py
+crinivorousz.egg-info/PKG-INFO
+crinivorousz.egg-info/SOURCES.txt
+crinivorousz.egg-info/dependency_links.txt
+crinivorousz.egg-info/requires.txt
+crinivorousz.egg-info/top_level.txt
