@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+coregonidaez/__init__.py
+coregonidaez/main.py
+coregonidaez.egg-info/PKG-INFO
+coregonidaez.egg-info/SOURCES.txt
+coregonidaez.egg-info/dependency_links.txt
+coregonidaez.egg-info/requires.txt
+coregonidaez.egg-info/top_level.txt
