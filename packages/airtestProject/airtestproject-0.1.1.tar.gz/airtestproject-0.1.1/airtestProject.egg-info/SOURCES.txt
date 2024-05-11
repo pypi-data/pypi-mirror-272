@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+airtestProject.egg-info/PKG-INFO
+airtestProject.egg-info/SOURCES.txt
+airtestProject.egg-info/dependency_links.txt
+airtestProject.egg-info/requires.txt
+airtestProject.egg-info/top_level.txt
