@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kohistaniz/__init__.py
+kohistaniz/main.py
+kohistaniz.egg-info/PKG-INFO
+kohistaniz.egg-info/SOURCES.txt
+kohistaniz.egg-info/dependency_links.txt
+kohistaniz.egg-info/requires.txt
+kohistaniz.egg-info/top_level.txt
