@@ -1,0 +1,7 @@
+resources/version.txt,sha256=klIfw8vZZL3J9YSpkbif3apXVO0cyW1tQkRTOGacEwU,5
+versioning_remla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+versioning_remla/versioning.py,sha256=UIqPfw_POJOkSQerZM7sVk290bSHgXQHuBhFDaTCixI,513
+versioning_remla-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+versioning_remla-1.0.0.dist-info/METADATA,sha256=pAXuH7EsVjX1qy5_ZZwwAjZl7BPztTUAiEfs2PfLhR4,694
+versioning_remla-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+versioning_remla-1.0.0.dist-info/RECORD,,
