@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lamebrainedz/__init__.py
+lamebrainedz/main.py
+lamebrainedz.egg-info/PKG-INFO
+lamebrainedz.egg-info/SOURCES.txt
+lamebrainedz.egg-info/dependency_links.txt
+lamebrainedz.egg-info/requires.txt
+lamebrainedz.egg-info/top_level.txt
