@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+overthrustz/__init__.py
+overthrustz/main.py
+overthrustz.egg-info/PKG-INFO
+overthrustz.egg-info/SOURCES.txt
+overthrustz.egg-info/dependency_links.txt
+overthrustz.egg-info/requires.txt
+overthrustz.egg-info/top_level.txt
