@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pantachromaticz/__init__.py
+pantachromaticz/main.py
+pantachromaticz.egg-info/PKG-INFO
+pantachromaticz.egg-info/SOURCES.txt
+pantachromaticz.egg-info/dependency_links.txt
+pantachromaticz.egg-info/requires.txt
+pantachromaticz.egg-info/top_level.txt
