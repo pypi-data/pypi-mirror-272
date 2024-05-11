@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+partyistz/__init__.py
+partyistz/main.py
+partyistz.egg-info/PKG-INFO
+partyistz.egg-info/SOURCES.txt
+partyistz.egg-info/dependency_links.txt
+partyistz.egg-info/requires.txt
+partyistz.egg-info/top_level.txt
