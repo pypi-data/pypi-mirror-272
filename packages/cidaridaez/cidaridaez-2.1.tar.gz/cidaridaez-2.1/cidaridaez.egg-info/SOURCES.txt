@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cidaridaez/__init__.py
+cidaridaez/main.py
+cidaridaez.egg-info/PKG-INFO
+cidaridaez.egg-info/SOURCES.txt
+cidaridaez.egg-info/dependency_links.txt
+cidaridaez.egg-info/requires.txt
+cidaridaez.egg-info/top_level.txt
