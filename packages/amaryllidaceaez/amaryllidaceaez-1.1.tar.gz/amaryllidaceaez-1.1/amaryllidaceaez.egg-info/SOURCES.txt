@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+amaryllidaceaez/__init__.py
+amaryllidaceaez/main.py
+amaryllidaceaez.egg-info/PKG-INFO
+amaryllidaceaez.egg-info/SOURCES.txt
+amaryllidaceaez.egg-info/dependency_links.txt
+amaryllidaceaez.egg-info/requires.txt
+amaryllidaceaez.egg-info/top_level.txt
