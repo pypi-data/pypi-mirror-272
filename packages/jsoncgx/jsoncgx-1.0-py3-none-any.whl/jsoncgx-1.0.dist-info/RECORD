@@ -1,0 +1,10 @@
+jsoncgx/__init__.py,sha256=gM6rI7nZ8aE3tLTjiGAZe3ZWtOIgIlbLM7q6zGGP354,3404
+jsoncgx/abstract.py,sha256=2bm-U1hefTo2rS3zAbUD4MTXpbpKuN-cEUOtMAU24gE,12702
+jsoncgx/lexer.py,sha256=OPiey_1CIbUNeez8I13j0dy_5H2xPy-pJ8Bbg8hiI8s,10085
+jsoncgx/parser.py,sha256=bppKSvtOf8RDb7iGBAR2l5Tck1PM4y_6djrq__c7Ock,22940
+jsoncgx/rexel.py,sha256=Ni_4thwoGtJawupPmH2Y_pSNbomnz1LjWU8lw3xsxEc,60788
+jsoncgx-1.0.dist-info/LICENCE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jsoncgx-1.0.dist-info/METADATA,sha256=oFE1bbIVW2yrtD47OfutDk_dR_tCV4ANWv7qJ1tAnfo,4349
+jsoncgx-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jsoncgx-1.0.dist-info/top_level.txt,sha256=7I9W-6_ugbwiMMnB88nos9WGdjG5TtIQXwqljfRyGJw,8
+jsoncgx-1.0.dist-info/RECORD,,
