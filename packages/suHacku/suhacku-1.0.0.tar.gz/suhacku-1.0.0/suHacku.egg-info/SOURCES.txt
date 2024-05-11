@@ -1,0 +1,9 @@
+README.md
+setup.py
+suHacku.egg-info/PKG-INFO
+suHacku.egg-info/SOURCES.txt
+suHacku.egg-info/dependency_links.txt
+suHacku.egg-info/top_level.txt
+suromi/__init__.py
+suromi/curses.py
+suromi/utils.py
