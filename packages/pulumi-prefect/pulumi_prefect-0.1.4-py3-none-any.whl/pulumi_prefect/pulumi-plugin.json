@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "prefect",
+  "server": "https://github.com/ru5j4r0/pulumi-prefect/releases/"
+}
