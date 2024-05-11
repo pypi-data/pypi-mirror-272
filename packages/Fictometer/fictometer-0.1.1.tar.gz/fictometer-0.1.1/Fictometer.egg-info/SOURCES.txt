@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Fictometer/__init__.py
+Fictometer/ficto.py
+Fictometer/fictometer.sav
+Fictometer/tags.py
+Fictometer.egg-info/PKG-INFO
+Fictometer.egg-info/SOURCES.txt
+Fictometer.egg-info/dependency_links.txt
+Fictometer.egg-info/requires.txt
+Fictometer.egg-info/top_level.txt
