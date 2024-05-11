@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lecturerz/__init__.py
+lecturerz/main.py
+lecturerz.egg-info/PKG-INFO
+lecturerz.egg-info/SOURCES.txt
+lecturerz.egg-info/dependency_links.txt
+lecturerz.egg-info/requires.txt
+lecturerz.egg-info/top_level.txt
