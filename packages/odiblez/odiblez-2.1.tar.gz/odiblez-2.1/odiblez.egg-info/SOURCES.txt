@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+odiblez/__init__.py
+odiblez/main.py
+odiblez.egg-info/PKG-INFO
+odiblez.egg-info/SOURCES.txt
+odiblez.egg-info/dependency_links.txt
+odiblez.egg-info/requires.txt
+odiblez.egg-info/top_level.txt
