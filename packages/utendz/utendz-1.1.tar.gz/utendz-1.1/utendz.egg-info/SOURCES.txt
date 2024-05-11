@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+utendz/__init__.py
+utendz/main.py
+utendz.egg-info/PKG-INFO
+utendz.egg-info/SOURCES.txt
+utendz.egg-info/dependency_links.txt
+utendz.egg-info/requires.txt
+utendz.egg-info/top_level.txt
