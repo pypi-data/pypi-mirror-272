@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+metabioticallyz/__init__.py
+metabioticallyz/main.py
+metabioticallyz.egg-info/PKG-INFO
+metabioticallyz.egg-info/SOURCES.txt
+metabioticallyz.egg-info/dependency_links.txt
+metabioticallyz.egg-info/requires.txt
+metabioticallyz.egg-info/top_level.txt
