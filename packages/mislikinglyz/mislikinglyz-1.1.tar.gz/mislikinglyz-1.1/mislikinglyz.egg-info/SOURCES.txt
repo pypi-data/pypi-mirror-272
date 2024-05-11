@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mislikinglyz/__init__.py
+mislikinglyz/main.py
+mislikinglyz.egg-info/PKG-INFO
+mislikinglyz.egg-info/SOURCES.txt
+mislikinglyz.egg-info/dependency_links.txt
+mislikinglyz.egg-info/requires.txt
+mislikinglyz.egg-info/top_level.txt
