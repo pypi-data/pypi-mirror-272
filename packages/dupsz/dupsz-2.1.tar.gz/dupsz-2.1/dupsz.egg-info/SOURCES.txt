@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dupsz/__init__.py
+dupsz/main.py
+dupsz.egg-info/PKG-INFO
+dupsz.egg-info/SOURCES.txt
+dupsz.egg-info/dependency_links.txt
+dupsz.egg-info/requires.txt
+dupsz.egg-info/top_level.txt
