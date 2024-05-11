@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+devitalisationz/__init__.py
+devitalisationz/main.py
+devitalisationz.egg-info/PKG-INFO
+devitalisationz.egg-info/SOURCES.txt
+devitalisationz.egg-info/dependency_links.txt
+devitalisationz.egg-info/requires.txt
+devitalisationz.egg-info/top_level.txt
