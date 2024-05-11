@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: artless-framework
+Version: 0.0.1
+Summary: Artless and minimalistic web framework without dependencies, working over WSGI.
+Project-URL: Homepage, https://github.com/p3t3rbr0/py3-artless-framework
+Project-URL: Documentation, https://github.com/p3t3rbr0/py3-artless-framework/blob/master/README.md
+Project-URL: Repository, https://github.com/p3t3rbr0/py3-artless-framework.git
+Project-URL: Issues, https://github.com/p3t3rbr0/py3-artless-framework/issues
+Project-URL: Changelog, https://github.com/p3t3rbr0/py3-artless-framework/blob/master/CHANGELOG.md
+Author-email: Peter Bro <p3t3rbr0@gmail.com>
+License-File: LICENSE
+Keywords: artless,framework,minimalistic,web
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Provides-Extra: build
+Requires-Dist: build==1.2.1; extra == 'build'
+Requires-Dist: twine==5.0.0; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: black==24.4.2; extra == 'dev'
+Requires-Dist: coverage==7.5.1; extra == 'dev'
+Requires-Dist: flake8==7.0.0; extra == 'dev'
+Requires-Dist: isort==5.13.2; extra == 'dev'
+Requires-Dist: mypy==1.10.0; extra == 'dev'
+Requires-Dist: pydocstyle==6.3.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# artless-framework
+
+![Build Status](https://github.com/p3t3rbr0/py3-artless-framework/actions/workflows/ci.yaml/badge.svg?branch=master)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/artless-framework)
+![PyPI Version](https://img.shields.io/pypi/v/artless-framework)
+[![Code Coverage](https://codecov.io/gh/p3t3rbr0/py3-artless-framework/graph/badge.svg?token=N7J33ZOKVO)](https://codecov.io/gh/p3t3rbr0/py3-artless-framework)
+[![Maintainability](https://api.codeclimate.com/v1/badges/76cc047808f3dc53de01/maintainability)](https://codeclimate.com/github/p3t3rbr0/py3-artless-framework/maintainability)
+
+The artless and minimalistic web framework without dependencies, working over WSGI.
+
+...coming soon.
