@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+decaspermousz/__init__.py
+decaspermousz/main.py
+decaspermousz.egg-info/PKG-INFO
+decaspermousz.egg-info/SOURCES.txt
+decaspermousz.egg-info/dependency_links.txt
+decaspermousz.egg-info/requires.txt
+decaspermousz.egg-info/top_level.txt
