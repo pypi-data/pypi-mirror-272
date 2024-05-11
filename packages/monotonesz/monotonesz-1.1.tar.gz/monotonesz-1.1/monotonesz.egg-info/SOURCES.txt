@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+monotonesz/__init__.py
+monotonesz/main.py
+monotonesz.egg-info/PKG-INFO
+monotonesz.egg-info/SOURCES.txt
+monotonesz.egg-info/dependency_links.txt
+monotonesz.egg-info/requires.txt
+monotonesz.egg-info/top_level.txt
