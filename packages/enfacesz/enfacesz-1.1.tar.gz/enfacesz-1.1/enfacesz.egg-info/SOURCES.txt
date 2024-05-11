@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+enfacesz/__init__.py
+enfacesz/main.py
+enfacesz.egg-info/PKG-INFO
+enfacesz.egg-info/SOURCES.txt
+enfacesz.egg-info/dependency_links.txt
+enfacesz.egg-info/requires.txt
+enfacesz.egg-info/top_level.txt
