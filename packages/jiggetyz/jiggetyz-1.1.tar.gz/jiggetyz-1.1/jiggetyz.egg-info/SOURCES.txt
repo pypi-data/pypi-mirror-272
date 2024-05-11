@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jiggetyz/__init__.py
+jiggetyz/main.py
+jiggetyz.egg-info/PKG-INFO
+jiggetyz.egg-info/SOURCES.txt
+jiggetyz.egg-info/dependency_links.txt
+jiggetyz.egg-info/requires.txt
+jiggetyz.egg-info/top_level.txt
