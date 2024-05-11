@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bactetiophagez/__init__.py
+bactetiophagez/main.py
+bactetiophagez.egg-info/PKG-INFO
+bactetiophagez.egg-info/SOURCES.txt
+bactetiophagez.egg-info/dependency_links.txt
+bactetiophagez.egg-info/requires.txt
+bactetiophagez.egg-info/top_level.txt
