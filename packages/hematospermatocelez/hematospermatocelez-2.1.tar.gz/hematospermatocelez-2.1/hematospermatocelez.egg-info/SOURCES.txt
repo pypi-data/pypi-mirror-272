@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hematospermatocelez/__init__.py
+hematospermatocelez/main.py
+hematospermatocelez.egg-info/PKG-INFO
+hematospermatocelez.egg-info/SOURCES.txt
+hematospermatocelez.egg-info/dependency_links.txt
+hematospermatocelez.egg-info/requires.txt
+hematospermatocelez.egg-info/top_level.txt
