@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+blazoningz/__init__.py
+blazoningz/main.py
+blazoningz.egg-info/PKG-INFO
+blazoningz.egg-info/SOURCES.txt
+blazoningz.egg-info/dependency_links.txt
+blazoningz.egg-info/requires.txt
+blazoningz.egg-info/top_level.txt
