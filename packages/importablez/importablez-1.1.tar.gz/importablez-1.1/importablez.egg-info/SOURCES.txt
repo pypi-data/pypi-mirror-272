@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+importablez/__init__.py
+importablez/main.py
+importablez.egg-info/PKG-INFO
+importablez.egg-info/SOURCES.txt
+importablez.egg-info/dependency_links.txt
+importablez.egg-info/requires.txt
+importablez.egg-info/top_level.txt
