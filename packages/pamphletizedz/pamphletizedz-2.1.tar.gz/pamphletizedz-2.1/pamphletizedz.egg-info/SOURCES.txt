@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pamphletizedz/__init__.py
+pamphletizedz/main.py
+pamphletizedz.egg-info/PKG-INFO
+pamphletizedz.egg-info/SOURCES.txt
+pamphletizedz.egg-info/dependency_links.txt
+pamphletizedz.egg-info/requires.txt
+pamphletizedz.egg-info/top_level.txt
