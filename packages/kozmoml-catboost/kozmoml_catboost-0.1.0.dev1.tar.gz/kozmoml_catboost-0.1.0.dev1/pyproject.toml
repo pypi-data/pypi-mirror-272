@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kozmoml-catboost"
+version = "0.1.0.dev1"
+description = "Catboost runtime for KozmoML"
+authors = ["KozmoAI <developers@kozmoai.io>"]
+maintainers = ["KozmoAI Ltd. <hello@kozmoai.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "kozmoml_catboost"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+catboost = "*"
+joblib = "*"
+kozmoml = "*"
+
+[tool.poetry.group.dev.dependencies]
+kozmoml = {path = "../..", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
