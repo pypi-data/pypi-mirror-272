@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gnomishz/__init__.py
+gnomishz/main.py
+gnomishz.egg-info/PKG-INFO
+gnomishz.egg-info/SOURCES.txt
+gnomishz.egg-info/dependency_links.txt
+gnomishz.egg-info/requires.txt
+gnomishz.egg-info/top_level.txt
