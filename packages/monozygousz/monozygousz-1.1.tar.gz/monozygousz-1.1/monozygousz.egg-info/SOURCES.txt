@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+monozygousz/__init__.py
+monozygousz/main.py
+monozygousz.egg-info/PKG-INFO
+monozygousz.egg-info/SOURCES.txt
+monozygousz.egg-info/dependency_links.txt
+monozygousz.egg-info/requires.txt
+monozygousz.egg-info/top_level.txt
