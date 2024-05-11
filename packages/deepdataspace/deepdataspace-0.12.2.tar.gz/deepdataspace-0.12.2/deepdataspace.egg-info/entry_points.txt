@@ -1,0 +1,3 @@
+[console_scripts]
+dds = dds:main
+ddsop = ddsop:ddsop
