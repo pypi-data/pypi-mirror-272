@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+capletz/__init__.py
+capletz/main.py
+capletz.egg-info/PKG-INFO
+capletz.egg-info/SOURCES.txt
+capletz.egg-info/dependency_links.txt
+capletz.egg-info/requires.txt
+capletz.egg-info/top_level.txt
