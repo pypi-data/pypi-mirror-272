@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+feelinglessz/__init__.py
+feelinglessz/main.py
+feelinglessz.egg-info/PKG-INFO
+feelinglessz.egg-info/SOURCES.txt
+feelinglessz.egg-info/dependency_links.txt
+feelinglessz.egg-info/requires.txt
+feelinglessz.egg-info/top_level.txt
