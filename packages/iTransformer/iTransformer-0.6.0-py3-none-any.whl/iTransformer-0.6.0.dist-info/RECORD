@@ -1,0 +1,11 @@
+iTransformer/__init__.py,sha256=0SnGiG3PfH542kxTKUap5p-Wrd2ytqDoBrt3Ta6bQDM,184
+iTransformer/attend.py,sha256=knvih5rf0tCkIpwL2DGS_WSL2iuxPyi1AtdhzpbeHVI,3982
+iTransformer/iTransformer.py,sha256=6vJGW9KvXtC8UBVxW74hhOLabblt5yqK98POcB4L1_E,6343
+iTransformer/iTransformer2D.py,sha256=2nkkc8CRQFWEqNEJpbrmGLwxtpa27ZpYvT9JgSlg6Hg,9296
+iTransformer/iTransformerFFT.py,sha256=ztTA49MAiZQblBkgzY8ZriRu5X2_uv-wDctKdVKBQx4,6813
+iTransformer/revin.py,sha256=o0ISq5Sqk27HDg3XL5rfz2SfSb5uG8unUq1zV_HML7s,1854
+iTransformer-0.6.0.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+iTransformer-0.6.0.dist-info/METADATA,sha256=o7vZ511NwBNkTBZMmiCjE_RCmkTGuqs9KudJClolMAg,853
+iTransformer-0.6.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+iTransformer-0.6.0.dist-info/top_level.txt,sha256=EbCcV0WI5bK50SdF19WT9z1l9vYHMt20wH6p9mQ9mdc,13
+iTransformer-0.6.0.dist-info/RECORD,,
