@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+defectlessnessz/__init__.py
+defectlessnessz/main.py
+defectlessnessz.egg-info/PKG-INFO
+defectlessnessz.egg-info/SOURCES.txt
+defectlessnessz.egg-info/dependency_links.txt
+defectlessnessz.egg-info/requires.txt
+defectlessnessz.egg-info/top_level.txt
