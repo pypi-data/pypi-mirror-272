@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rhodizitez/__init__.py
+rhodizitez/main.py
+rhodizitez.egg-info/PKG-INFO
+rhodizitez.egg-info/SOURCES.txt
+rhodizitez.egg-info/dependency_links.txt
+rhodizitez.egg-info/requires.txt
+rhodizitez.egg-info/top_level.txt
