@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hesperornisz/__init__.py
+hesperornisz/main.py
+hesperornisz.egg-info/PKG-INFO
+hesperornisz.egg-info/SOURCES.txt
+hesperornisz.egg-info/dependency_links.txt
+hesperornisz.egg-info/requires.txt
+hesperornisz.egg-info/top_level.txt
