@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kozmoserver-mllib"
+version = "0.1.0.dev1"
+description = "Spark MLlib runtime for KozmoServer"
+authors = ["KozmoAI <developers@kozmoai.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "kozmoserver_mllib"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+kozmoserver = "*"
+pyspark = "*"
+
+[tool.poetry.group.dev.dependencies]
+kozmoserver = {path = "../..", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
