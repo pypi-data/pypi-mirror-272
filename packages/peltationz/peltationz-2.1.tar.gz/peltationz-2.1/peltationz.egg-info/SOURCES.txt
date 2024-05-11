@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+peltationz/__init__.py
+peltationz/main.py
+peltationz.egg-info/PKG-INFO
+peltationz.egg-info/SOURCES.txt
+peltationz.egg-info/dependency_links.txt
+peltationz.egg-info/requires.txt
+peltationz.egg-info/top_level.txt
