@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+miticidalz/__init__.py
+miticidalz/main.py
+miticidalz.egg-info/PKG-INFO
+miticidalz.egg-info/SOURCES.txt
+miticidalz.egg-info/dependency_links.txt
+miticidalz.egg-info/requires.txt
+miticidalz.egg-info/top_level.txt
