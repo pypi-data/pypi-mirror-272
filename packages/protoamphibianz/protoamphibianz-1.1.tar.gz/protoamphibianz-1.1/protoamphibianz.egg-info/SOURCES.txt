@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+protoamphibianz/__init__.py
+protoamphibianz/main.py
+protoamphibianz.egg-info/PKG-INFO
+protoamphibianz.egg-info/SOURCES.txt
+protoamphibianz.egg-info/dependency_links.txt
+protoamphibianz.egg-info/requires.txt
+protoamphibianz.egg-info/top_level.txt
