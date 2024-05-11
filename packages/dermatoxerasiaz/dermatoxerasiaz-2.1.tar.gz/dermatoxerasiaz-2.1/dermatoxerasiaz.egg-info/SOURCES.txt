@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dermatoxerasiaz/__init__.py
+dermatoxerasiaz/main.py
+dermatoxerasiaz.egg-info/PKG-INFO
+dermatoxerasiaz.egg-info/SOURCES.txt
+dermatoxerasiaz.egg-info/dependency_links.txt
+dermatoxerasiaz.egg-info/requires.txt
+dermatoxerasiaz.egg-info/top_level.txt
