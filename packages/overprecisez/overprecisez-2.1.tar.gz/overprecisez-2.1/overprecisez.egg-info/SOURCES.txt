@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+overprecisez/__init__.py
+overprecisez/main.py
+overprecisez.egg-info/PKG-INFO
+overprecisez.egg-info/SOURCES.txt
+overprecisez.egg-info/dependency_links.txt
+overprecisez.egg-info/requires.txt
+overprecisez.egg-info/top_level.txt
