@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nourishinglyz/__init__.py
+nourishinglyz/main.py
+nourishinglyz.egg-info/PKG-INFO
+nourishinglyz.egg-info/SOURCES.txt
+nourishinglyz.egg-info/dependency_links.txt
+nourishinglyz.egg-info/requires.txt
+nourishinglyz.egg-info/top_level.txt
