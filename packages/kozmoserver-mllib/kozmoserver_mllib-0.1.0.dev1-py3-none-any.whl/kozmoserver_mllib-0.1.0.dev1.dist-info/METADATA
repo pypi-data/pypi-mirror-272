@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: kozmoserver-mllib
+Version: 0.1.0.dev1
+Summary: Spark MLlib runtime for KozmoServer
+License: Apache-2.0
+Author: KozmoAI
+Author-email: developers@kozmoai.io
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: kozmoserver
+Requires-Dist: pyspark
+Description-Content-Type: text/markdown
+
+# Spark MLlib runtime for KozmoServer
+
+This package provides a KozmoServer runtime compatible with Spark MLlib.
+
+## Usage
+
+You can install the runtime, alongside `kozmoserver`, as:
+
+```bash
+pip install kozmoserver kozmoserver-mllib
+```
+
+For further information on how to use KozmoServer with Spark MLlib, you can check
+out the [KozmoServer repository](https://github.com/kozmoai/kozmoserver).
+
