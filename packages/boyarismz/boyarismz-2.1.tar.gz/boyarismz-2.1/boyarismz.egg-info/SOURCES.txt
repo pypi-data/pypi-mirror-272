@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+boyarismz/__init__.py
+boyarismz/main.py
+boyarismz.egg-info/PKG-INFO
+boyarismz.egg-info/SOURCES.txt
+boyarismz.egg-info/dependency_links.txt
+boyarismz.egg-info/requires.txt
+boyarismz.egg-info/top_level.txt
