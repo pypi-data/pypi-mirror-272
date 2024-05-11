@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dingdongingz/__init__.py
+dingdongingz/main.py
+dingdongingz.egg-info/PKG-INFO
+dingdongingz.egg-info/SOURCES.txt
+dingdongingz.egg-info/dependency_links.txt
+dingdongingz.egg-info/requires.txt
+dingdongingz.egg-info/top_level.txt
