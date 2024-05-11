@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subsidiesz/__init__.py
+subsidiesz/main.py
+subsidiesz.egg-info/PKG-INFO
+subsidiesz.egg-info/SOURCES.txt
+subsidiesz.egg-info/dependency_links.txt
+subsidiesz.egg-info/requires.txt
+subsidiesz.egg-info/top_level.txt
