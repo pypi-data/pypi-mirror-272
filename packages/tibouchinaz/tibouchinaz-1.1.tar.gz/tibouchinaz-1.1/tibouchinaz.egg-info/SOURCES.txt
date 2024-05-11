@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tibouchinaz/__init__.py
+tibouchinaz/main.py
+tibouchinaz.egg-info/PKG-INFO
+tibouchinaz.egg-info/SOURCES.txt
+tibouchinaz.egg-info/dependency_links.txt
+tibouchinaz.egg-info/requires.txt
+tibouchinaz.egg-info/top_level.txt
