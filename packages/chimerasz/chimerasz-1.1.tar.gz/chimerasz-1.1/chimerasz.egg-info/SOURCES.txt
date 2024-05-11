@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+chimerasz/__init__.py
+chimerasz/main.py
+chimerasz.egg-info/PKG-INFO
+chimerasz.egg-info/SOURCES.txt
+chimerasz.egg-info/dependency_links.txt
+chimerasz.egg-info/requires.txt
+chimerasz.egg-info/top_level.txt
