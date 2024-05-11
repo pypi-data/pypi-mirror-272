@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+immersingz/__init__.py
+immersingz/main.py
+immersingz.egg-info/PKG-INFO
+immersingz.egg-info/SOURCES.txt
+immersingz.egg-info/dependency_links.txt
+immersingz.egg-info/requires.txt
+immersingz.egg-info/top_level.txt
