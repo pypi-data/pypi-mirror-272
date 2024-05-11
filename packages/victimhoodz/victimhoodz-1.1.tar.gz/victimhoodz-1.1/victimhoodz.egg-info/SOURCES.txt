@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+victimhoodz/__init__.py
+victimhoodz/main.py
+victimhoodz.egg-info/PKG-INFO
+victimhoodz.egg-info/SOURCES.txt
+victimhoodz.egg-info/dependency_links.txt
+victimhoodz.egg-info/requires.txt
+victimhoodz.egg-info/top_level.txt
