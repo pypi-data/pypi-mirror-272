@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kozmoml-xgboost"
+version = "0.1.0.dev1"
+description = "XGBoost runtime for KozmoML"
+authors = ["KozmoAI <developers@kozmoai.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "kozmoml_xgboost"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+kozmoml = "*"
+xgboost = {extras = ["scikit-learn"], version = "*"}
+
+[tool.poetry.group.dev.dependencies]
+kozmoml = {path = "../..", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
