@@ -1,0 +1,13 @@
+mini3di/__init__.py,sha256=AidGuo2JEYBZqVEU5Gy9kii8SE0vL3bH4KrcSB02T2E,426
+mini3di/_unkerasify.py,sha256=kdzdLUtUgTQlQa2DPylWOFZqLhYffOI0SyzpXFUzlm8,2747
+mini3di/encoder.py,sha256=GahJ-aSublWgTVzsKAKOgms9G_OmClza0Nv7Ro4RYDU,14728
+mini3di/encoder_weights_3di.kerasify,sha256=m4JF4oVWBbiu6r8DM9ONQ5Bmcbqwr5dxKfqYThOmHpk,1032
+mini3di/layers.py,sha256=drPlxXyDrma11RApzG_dwK5KK9nsSPgR_UEZsDNJyfI,2027
+mini3di/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mini3di/utils.py,sha256=cOJJGjzUyvKNTl042_s2WhRdWjURLcER_o27Vv88ycU,1128
+mini3di-0.1.0.dist-info/COPYING,sha256=h5RqVLpV4banbEfqJqPqYliCl5_lybNIKvcYI6YCuks,35148
+mini3di-0.1.0.dist-info/METADATA,sha256=F5ntqj3C5UxFvFYkUnDHvquKFvL4NadYcmvObBRtKwM,8529
+mini3di-0.1.0.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+mini3di-0.1.0.dist-info/top_level.txt,sha256=mgnt2r3a4_PSUC_2BnNpW6GYqAfwTctwNZCXbE14_1M,8
+mini3di-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mini3di-0.1.0.dist-info/RECORD,,
