@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+criticasterismz/__init__.py
+criticasterismz/main.py
+criticasterismz.egg-info/PKG-INFO
+criticasterismz.egg-info/SOURCES.txt
+criticasterismz.egg-info/dependency_links.txt
+criticasterismz.egg-info/requires.txt
+criticasterismz.egg-info/top_level.txt
