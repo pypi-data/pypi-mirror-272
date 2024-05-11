@@ -1,0 +1,11 @@
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/DTM-Triage-NN.iml
+/.idea/modules.xml
+/.idea/workspace.xml
+.idea
+/venv/
+/notebooks/
+/dist/
+.DS_Store
+src/nn_parts/__pycache__/
+tests/__pycache__/
