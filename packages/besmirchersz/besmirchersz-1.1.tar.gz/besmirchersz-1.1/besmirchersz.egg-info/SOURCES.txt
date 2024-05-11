@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+besmirchersz/__init__.py
+besmirchersz/main.py
+besmirchersz.egg-info/PKG-INFO
+besmirchersz.egg-info/SOURCES.txt
+besmirchersz.egg-info/dependency_links.txt
+besmirchersz.egg-info/requires.txt
+besmirchersz.egg-info/top_level.txt
