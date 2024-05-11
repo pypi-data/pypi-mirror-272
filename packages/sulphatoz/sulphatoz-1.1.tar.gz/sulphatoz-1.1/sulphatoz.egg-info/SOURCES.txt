@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sulphatoz/__init__.py
+sulphatoz/main.py
+sulphatoz.egg-info/PKG-INFO
+sulphatoz.egg-info/SOURCES.txt
+sulphatoz.egg-info/dependency_links.txt
+sulphatoz.egg-info/requires.txt
+sulphatoz.egg-info/top_level.txt
