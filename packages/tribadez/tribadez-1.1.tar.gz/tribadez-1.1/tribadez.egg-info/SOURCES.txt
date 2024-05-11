@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tribadez/__init__.py
+tribadez/main.py
+tribadez.egg-info/PKG-INFO
+tribadez.egg-info/SOURCES.txt
+tribadez.egg-info/dependency_links.txt
+tribadez.egg-info/requires.txt
+tribadez.egg-info/top_level.txt
