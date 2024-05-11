@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: mypdns
+Version: 1.0.5
+Summary: My Privacy DNS's Name space reservation
+Home-page: https://mypdns.org/
+Author: spirillen
+Author-email: pdns@protonmail.com
+License: UNKNOWN
+Project-URL: Tracker, https://github.com/mypdns/mypdns/issues
+Project-URL: Source, https://github.com/mypdns/mypdns
+Keywords: dns,domain,Blacklists,Blocklists
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10.0, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![DL stat](https://img.shields.io/pypi/v/mypdns.png)](https://pypi.org/project/mypdns)
+[![Downloads Total](https://static.pepy.tech/personalized-badge/mypdns?period=total&units=none&left_color=black&right_color=brightgreen&left_text=Downloads%20Total)](https://pepy.tech/project/mypdns)
+[![Downloads Month](https://static.pepy.tech/personalized-badge/mypdns?period=month&units=none&left_color=black&right_color=brightgreen&left_text=Downloads%20Month)](https://pepy.tech/project/mypdns)
+[![Downloads Week](https://static.pepy.tech/personalized-badge/mypdns?period=week&units=none&left_color=black&right_color=brightgreen&left_text=Downloads%20Week)](https://pepy.tech/project/mypdns)
+[![My Privacy DNS Release](https://github.com/mypdns/mypdns/actions/workflows/master.yaml/badge.svg?branch=master)](https://github.com/mypdns/mypdns/actions/workflows/master.yaml)
+
+Namespace Reservation for [My Privacy DNS](https://mypdns.org/) blacklist project
+
+
