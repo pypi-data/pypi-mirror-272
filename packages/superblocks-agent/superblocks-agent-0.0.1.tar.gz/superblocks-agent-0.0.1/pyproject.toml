@@ -1,0 +1,15 @@
+[autoflake]
+ignore_init_module_imports = true
+in_place = true
+recursive = true
+remove_all_unused_imports = true
+
+[tool.black]
+include = '\.py$'
+line-length = 100
+quiet = true
+skip-magic-trailing-comma = true
+
+[tool.isort]
+line_length = 100
+profile = "black"
