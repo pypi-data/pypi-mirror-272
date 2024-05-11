@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mnemosynez/__init__.py
+mnemosynez/main.py
+mnemosynez.egg-info/PKG-INFO
+mnemosynez.egg-info/SOURCES.txt
+mnemosynez.egg-info/dependency_links.txt
+mnemosynez.egg-info/requires.txt
+mnemosynez.egg-info/top_level.txt
