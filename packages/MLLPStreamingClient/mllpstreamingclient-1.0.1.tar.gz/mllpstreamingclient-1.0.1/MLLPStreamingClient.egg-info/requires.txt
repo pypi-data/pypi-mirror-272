@@ -1,0 +1,6 @@
+protobuf==4.25.3
+grpcio==1.62.0
+grpcio-tools==1.62.0
+pyaudio
+soundfile
+sounddevice
