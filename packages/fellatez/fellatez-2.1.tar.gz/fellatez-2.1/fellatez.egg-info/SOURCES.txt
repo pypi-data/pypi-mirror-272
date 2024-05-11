@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fellatez/__init__.py
+fellatez/main.py
+fellatez.egg-info/PKG-INFO
+fellatez.egg-info/SOURCES.txt
+fellatez.egg-info/dependency_links.txt
+fellatez.egg-info/requires.txt
+fellatez.egg-info/top_level.txt
