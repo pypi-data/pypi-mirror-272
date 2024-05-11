@@ -1,0 +1,6 @@
+setup.py
+AxleSpacing.egg-info/PKG-INFO
+AxleSpacing.egg-info/SOURCES.txt
+AxleSpacing.egg-info/dependency_links.txt
+AxleSpacing.egg-info/requires.txt
+AxleSpacing.egg-info/top_level.txt
