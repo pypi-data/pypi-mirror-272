@@ -1,0 +1,12 @@
+git_pyinit/__about__.py,sha256=0GUAn7T-D-Mpc6maGa8l4DFY7pcFrxhU1Z9EyVVUWz0,132
+git_pyinit/__init__.py,sha256=GmKyGD32u7sZksaA5at71Hgy5O4KFjdFIRBQMmkpwcc,146
+git_pyinit/cli.py,sha256=qk_uTCDN9hL8mHG1gO6ve4YEkCCKezaoYxrsdt4sey8,4332
+git_pyinit/config.toml,sha256=M9RQc7XTVo5bu3WjHXdaMZiGn5ip-abQ0BZuVxYXOJk,232
+git_pyinit/toml_reader.py,sha256=PKSyZEBJuuQ7Aawd8GDkNhSWoenGFk5y_mGP6fzjUMg,1660
+git_pyinit/utils.py,sha256=Ba_kIZmsvZvvWRcKNHpX1ee9o_w1ak3u42vQ5GcYzVI,1073
+git_pyinit/exceptions/common.py,sha256=qJI_Qd33O-FbRojZTNY4uU5XUVRQhYYdXgz8dRo5ALw,90
+git_pyinit-1.2.0.dist-info/METADATA,sha256=8BZ5qDh6eBfq-04i3y9G-1LU6Tlohj25hLn3t91V_JU,2394
+git_pyinit-1.2.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+git_pyinit-1.2.0.dist-info/entry_points.txt,sha256=ZT92xLpEkl95cO2Qo0UbzlXKLshjck5Z96o8o6INnQ4,51
+git_pyinit-1.2.0.dist-info/licenses/LICENSE.txt,sha256=6UXPEyHbUNT4HesdEMZGcDxHdyC3DSWiqQfmsIe3Z_Y,1102
+git_pyinit-1.2.0.dist-info/RECORD,,

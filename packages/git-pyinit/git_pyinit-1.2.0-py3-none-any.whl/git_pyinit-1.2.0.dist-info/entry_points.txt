@@ -1,0 +1,2 @@
+[console_scripts]
+git-pyinit = git_pyinit.cli:main
