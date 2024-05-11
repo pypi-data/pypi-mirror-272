@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+elaborationz/__init__.py
+elaborationz/main.py
+elaborationz.egg-info/PKG-INFO
+elaborationz.egg-info/SOURCES.txt
+elaborationz.egg-info/dependency_links.txt
+elaborationz.egg-info/requires.txt
+elaborationz.egg-info/top_level.txt
