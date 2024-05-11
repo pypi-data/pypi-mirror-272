@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+copolymerizationsz/__init__.py
+copolymerizationsz/main.py
+copolymerizationsz.egg-info/PKG-INFO
+copolymerizationsz.egg-info/SOURCES.txt
+copolymerizationsz.egg-info/dependency_links.txt
+copolymerizationsz.egg-info/requires.txt
+copolymerizationsz.egg-info/top_level.txt
