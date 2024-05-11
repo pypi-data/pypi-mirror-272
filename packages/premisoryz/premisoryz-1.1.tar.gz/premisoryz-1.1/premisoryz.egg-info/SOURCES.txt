@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+premisoryz/__init__.py
+premisoryz/main.py
+premisoryz.egg-info/PKG-INFO
+premisoryz.egg-info/SOURCES.txt
+premisoryz.egg-info/dependency_links.txt
+premisoryz.egg-info/requires.txt
+premisoryz.egg-info/top_level.txt
