@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+convexnessz/__init__.py
+convexnessz/main.py
+convexnessz.egg-info/PKG-INFO
+convexnessz.egg-info/SOURCES.txt
+convexnessz.egg-info/dependency_links.txt
+convexnessz.egg-info/requires.txt
+convexnessz.egg-info/top_level.txt
