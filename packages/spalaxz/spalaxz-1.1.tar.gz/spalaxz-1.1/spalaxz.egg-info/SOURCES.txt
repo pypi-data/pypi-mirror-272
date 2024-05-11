@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spalaxz/__init__.py
+spalaxz/main.py
+spalaxz.egg-info/PKG-INFO
+spalaxz.egg-info/SOURCES.txt
+spalaxz.egg-info/dependency_links.txt
+spalaxz.egg-info/requires.txt
+spalaxz.egg-info/top_level.txt
