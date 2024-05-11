@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+samtool/__init__.py
+samtool/main.py
+samtool/utils.py
+samtool.egg-info/PKG-INFO
+samtool.egg-info/SOURCES.txt
+samtool.egg-info/dependency_links.txt
+samtool.egg-info/requires.txt
+samtool.egg-info/top_level.txt
