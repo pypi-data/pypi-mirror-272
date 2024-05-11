@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wilbur
+Version: 0.1.0
+Summary: Module for finding truffles of data in the dirt of poorly organized folder/file structures
+Author: Logan
+Author-email: logan@sige.dev
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Description-Content-Type: text/markdown
+
+# Wilbur the Truffle Pig
+
+More to come
