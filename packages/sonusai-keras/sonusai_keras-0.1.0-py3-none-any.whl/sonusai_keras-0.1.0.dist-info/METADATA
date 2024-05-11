@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sonusai-keras
+Version: 0.1.0
+Summary: Keras model tools for SonusAI
+Home-page: https://aaware.com
+License: GPL-3.0-only
+Author: Chris Eddington
+Author-email: chris@aaware.com
+Maintainer: Chris Eddington
+Maintainer-email: chris@aaware.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: h5py (>=3.11.0,<4.0.0)
+Requires-Dist: keras (>=3.3.3,<4.0.0)
+Requires-Dist: keras-tuner (>=1.4.7,<2.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: onnx (>=1.16.0,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: scikit-learn (>=1.4.2,<2.0.0)
+Requires-Dist: sonusai (>=0.16.0)
+Requires-Dist: tensorflow (>=2.16.1,<3.0.0)
+Requires-Dist: tf2onnx (>=1.16.1,<2.0.0)
+Description-Content-Type: text/x-rst
+
+SonusAI Keras: Keras model tools for SonusAI
+
