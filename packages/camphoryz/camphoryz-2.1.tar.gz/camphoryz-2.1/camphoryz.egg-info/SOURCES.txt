@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+camphoryz/__init__.py
+camphoryz/main.py
+camphoryz.egg-info/PKG-INFO
+camphoryz.egg-info/SOURCES.txt
+camphoryz.egg-info/dependency_links.txt
+camphoryz.egg-info/requires.txt
+camphoryz.egg-info/top_level.txt
