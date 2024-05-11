@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+calippicz/__init__.py
+calippicz/main.py
+calippicz.egg-info/PKG-INFO
+calippicz.egg-info/SOURCES.txt
+calippicz.egg-info/dependency_links.txt
+calippicz.egg-info/requires.txt
+calippicz.egg-info/top_level.txt
