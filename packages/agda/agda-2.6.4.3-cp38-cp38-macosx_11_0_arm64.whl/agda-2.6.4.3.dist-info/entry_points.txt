@@ -1,0 +1,3 @@
+[console_scripts]
+agda = agda.__main__:main
+agda-mode = agda.mode.__main__:main
