@@ -1,0 +1,1 @@
+gb_twosampletest stands for "Graph-Based Two Sample Test" and provides, as the name suggests, a method for performing a nonparametric, graph-based two sample test on a valid similarity graph.
