@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+leptospirez/__init__.py
+leptospirez/main.py
+leptospirez.egg-info/PKG-INFO
+leptospirez.egg-info/SOURCES.txt
+leptospirez.egg-info/dependency_links.txt
+leptospirez.egg-info/requires.txt
+leptospirez.egg-info/top_level.txt
