@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+futteretz/__init__.py
+futteretz/main.py
+futteretz.egg-info/PKG-INFO
+futteretz.egg-info/SOURCES.txt
+futteretz.egg-info/dependency_links.txt
+futteretz.egg-info/requires.txt
+futteretz.egg-info/top_level.txt
