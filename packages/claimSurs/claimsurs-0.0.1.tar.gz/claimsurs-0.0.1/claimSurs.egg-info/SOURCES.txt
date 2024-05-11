@@ -1,0 +1,8 @@
+README.md
+setup.py
+claimSurs.egg-info/PKG-INFO
+claimSurs.egg-info/SOURCES.txt
+claimSurs.egg-info/dependency_links.txt
+claimSurs.egg-info/top_level.txt
+show_details/__init__.py
+show_details/show_items.py
