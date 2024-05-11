@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hollandishz/__init__.py
+hollandishz/main.py
+hollandishz.egg-info/PKG-INFO
+hollandishz.egg-info/SOURCES.txt
+hollandishz.egg-info/dependency_links.txt
+hollandishz.egg-info/requires.txt
+hollandishz.egg-info/top_level.txt
