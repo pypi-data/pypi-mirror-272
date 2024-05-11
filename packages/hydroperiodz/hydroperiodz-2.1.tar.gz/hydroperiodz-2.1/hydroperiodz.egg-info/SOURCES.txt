@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hydroperiodz/__init__.py
+hydroperiodz/main.py
+hydroperiodz.egg-info/PKG-INFO
+hydroperiodz.egg-info/SOURCES.txt
+hydroperiodz.egg-info/dependency_links.txt
+hydroperiodz.egg-info/requires.txt
+hydroperiodz.egg-info/top_level.txt
