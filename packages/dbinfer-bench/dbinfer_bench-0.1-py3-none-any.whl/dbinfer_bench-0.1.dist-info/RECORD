@@ -1,0 +1,17 @@
+dbinfer_bench/__init__.py,sha256=vZ_95BOqEOd3T00yUChvZSUB2ClxBdrb1iyWOPvtUoA,708
+dbinfer_bench/dataset_meta.py,sha256=9oOUNj9DD-NixmGwAHXle8PTLYaovftv7Ig-D74HGjc,5393
+dbinfer_bench/download.py,sha256=EBR93xPZbKQJuDf-WEHod2w6lY_fclf5xzByHy1mCFc,4860
+dbinfer_bench/download_config.yaml,sha256=SEsbjQYCx5PYMSfqWrq0MD_5MdiuYqMfI-4sMTPFSWY,2317
+dbinfer_bench/graph_dataset.py,sha256=mORWcJnnU1jrB24o97eHNLfj8b1Bh8iPkHlbTVXyIVc,8585
+dbinfer_bench/ondisk_dataset_creator.py,sha256=ZXSArOUZKFhC6M1E2LZAbrHnHIGjRZGDy3k8zID4eb4,13637
+dbinfer_bench/rdb_dataset.py,sha256=gRq9RoIFfuidJm4hi7yYAdtsDhqsGl0fYtx_UUpYsa0,15145
+dbinfer_bench/table_loader.py,sha256=R-LAOwsIWNvse428IXwEEyDT_hD0Vj787KAScwEaiYI,1314
+dbinfer_bench/table_writer.py,sha256=34ORFWEjnVxwWjo4QZmHID9iTDy_YPbPgjK1JGGW5fE,2146
+dbinfer_bench/version.py,sha256=kbRYiDwKPW17KxS6tEGjN8ipESUqwDjQINE8nauNM4M,597
+dbinfer_bench/yaml_utils.py,sha256=G_SVMntEMv6DD0tt6Yfk01lioGNGEJrRGoplOszq66M,1044
+dbinfer_bench-0.1.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+dbinfer_bench-0.1.dist-info/METADATA,sha256=l-Bk1fBJY2V81KJxRbXxJgvVevRwNrJNt68MwOP3WX8,428
+dbinfer_bench-0.1.dist-info/NOTICE,sha256=1CkO1kwu3Q_OHYTj-d-yiBJA_lNN73a4zSntavaD4oc,67
+dbinfer_bench-0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+dbinfer_bench-0.1.dist-info/top_level.txt,sha256=Ghy6JYfJ9VcwO3b1VQRuCR-oqAMZa_n92a1tFxTtN5M,14
+dbinfer_bench-0.1.dist-info/RECORD,,
