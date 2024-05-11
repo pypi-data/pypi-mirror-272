@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: focusployer
+Version: 1.1.1
+Author: uni
+Description-Content-Type: text/markdown
+Requires-Dist: asyncssh
+Requires-Dist: loguru
+
+# FocusPloyer
+
+FocusPloyer is a Python module for deploying and configuring environments on remote servers using asyncssh.
+
+## Installation
+
+You can install FocusPloyer using pip:
+
+```bash
+pip install focusployer
+```
+
+## Usage
+
+Here's a simple example demonstrating how to use focusployer to deploy and configure environments on a remote server:
+
+```python
+from focusployer.deployer import connect_to_server, install_configure_environment, send_files_to_server, post_deploy_configuration
+import asyncio
+
+async def main():
+    REMOTE_HOST = 'your_remote_host'
+    REMOTE_PORT = 22
+    USERNAME_HOST = 'your_username'
+    USERNAME_PASS = 'your_password'
+    SCRIPTS_DIR = 'path_to_scripts_directory'
+    OUTPUT_DIR = 'path_to_output_directory'
+    INPUT_DIR = 'path_to_input_directory'
+    SCRIPTS_DIR_DEPLOY = 'path_to_deploy_scripts_directory'
+
+    # Connect to the server
+    conn = await connect_to_server(REMOTE_HOST, REMOTE_PORT, USERNAME_HOST, USERNAME_PASS)
+
+    # Install and configure environment on the remote server
+    await install_configure_environment(conn, SCRIPTS_DIR)
+
+    # Send files to the server
+    await send_files_to_server(conn, OUTPUT_DIR, INPUT_DIR)
+
+    # Post-deployment configuration
+    await post_deploy_configuration(conn, SCRIPTS_DIR_DEPLOY)
+
+    # Close the connection
+    conn.close()
+
+asyncio.run(main())
+```
+
+Replace your_remote_host, your_username, your_password, path_to_scripts_directory, path_to_output_directory, path_to_input_directory, and path_to_deploy_scripts_directory with your actual values.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
