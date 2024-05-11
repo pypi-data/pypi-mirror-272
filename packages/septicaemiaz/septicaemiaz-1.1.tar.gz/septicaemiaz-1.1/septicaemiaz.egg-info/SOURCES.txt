@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+septicaemiaz/__init__.py
+septicaemiaz/main.py
+septicaemiaz.egg-info/PKG-INFO
+septicaemiaz.egg-info/SOURCES.txt
+septicaemiaz.egg-info/dependency_links.txt
+septicaemiaz.egg-info/requires.txt
+septicaemiaz.egg-info/top_level.txt
