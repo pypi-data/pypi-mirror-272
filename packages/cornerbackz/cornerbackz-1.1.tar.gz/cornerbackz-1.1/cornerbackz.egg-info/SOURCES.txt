@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cornerbackz/__init__.py
+cornerbackz/main.py
+cornerbackz.egg-info/PKG-INFO
+cornerbackz.egg-info/SOURCES.txt
+cornerbackz.egg-info/dependency_links.txt
+cornerbackz.egg-info/requires.txt
+cornerbackz.egg-info/top_level.txt
