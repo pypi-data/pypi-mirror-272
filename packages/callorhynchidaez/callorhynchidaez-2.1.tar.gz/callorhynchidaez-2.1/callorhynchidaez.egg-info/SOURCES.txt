@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+callorhynchidaez/__init__.py
+callorhynchidaez/main.py
+callorhynchidaez.egg-info/PKG-INFO
+callorhynchidaez.egg-info/SOURCES.txt
+callorhynchidaez.egg-info/dependency_links.txt
+callorhynchidaez.egg-info/requires.txt
+callorhynchidaez.egg-info/top_level.txt
