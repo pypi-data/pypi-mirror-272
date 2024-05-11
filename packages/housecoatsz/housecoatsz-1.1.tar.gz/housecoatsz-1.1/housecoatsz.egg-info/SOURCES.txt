@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+housecoatsz/__init__.py
+housecoatsz/main.py
+housecoatsz.egg-info/PKG-INFO
+housecoatsz.egg-info/SOURCES.txt
+housecoatsz.egg-info/dependency_links.txt
+housecoatsz.egg-info/requires.txt
+housecoatsz.egg-info/top_level.txt
