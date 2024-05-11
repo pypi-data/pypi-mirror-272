@@ -1,0 +1,2 @@
+[console_scripts]
+ptaster = proxies_taster.__main__:main
