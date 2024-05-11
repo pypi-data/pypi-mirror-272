@@ -1,0 +1,7 @@
+yandex_query_client/__init__.py,sha256=6_ZenyzF4bQeWGb1Tekp02quJEQySvVB2PjgYcruP9w,95
+yandex_query_client/http_client.py,sha256=R4gRjE8g-B1SUA98QCv0s-eSqWRoaWwfR1jtDHb3r9I,10162
+yandex_query_client/query_results.py,sha256=rMsfwhvFwV0dbQzU0wlJfF579fT0ur21VEtR_Cb6hpo,9958
+yandex_query_client-0.1.4.dist-info/METADATA,sha256=7WRaxKwTbvc3qH-YSNmezEAj1TCU0IlWbKTNWUQT7Dw,1667
+yandex_query_client-0.1.4.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+yandex_query_client-0.1.4.dist-info/licenses/LICENSE.md,sha256=AFcOYhNOyuBQP89lObqyipdScN2KUUS-OuWoUlVo6yE,1077
+yandex_query_client-0.1.4.dist-info/RECORD,,
