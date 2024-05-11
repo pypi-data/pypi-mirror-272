@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+lorry_date/__init__.py
+lorry_date/dateutils.py
+mydatepackage.egg-info/PKG-INFO
+mydatepackage.egg-info/SOURCES.txt
+mydatepackage.egg-info/dependency_links.txt
+mydatepackage.egg-info/requires.txt
+mydatepackage.egg-info/top_level.txt
+tests/__init__.py
+tests/test_dateutils.py
