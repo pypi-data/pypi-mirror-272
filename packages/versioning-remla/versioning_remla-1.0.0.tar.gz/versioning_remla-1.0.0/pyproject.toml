@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "versioning-remla"
+version = "1.0.0"
+description = "A version-aware PyPi package."
+authors = ["Adit Whorra <aditwhorra@gmail.com>"]
+readme = "README.md"
+include = ["resources/version.txt"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+importlib-resources = "^6.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

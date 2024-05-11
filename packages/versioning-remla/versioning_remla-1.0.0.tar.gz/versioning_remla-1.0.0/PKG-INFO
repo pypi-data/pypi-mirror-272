@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: versioning-remla
+Version: 1.0.0
+Summary: A version-aware PyPi package.
+Author: Adit Whorra
+Author-email: aditwhorra@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: importlib-resources (>=6.4.0,<7.0.0)
+Description-Content-Type: text/markdown
+
+# lib-version
+A version aware library that for TU Delft CS4295 Release Engineering for Machine Learning Applications
+
