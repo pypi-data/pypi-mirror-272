@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ethynylsz/__init__.py
+ethynylsz/main.py
+ethynylsz.egg-info/PKG-INFO
+ethynylsz.egg-info/SOURCES.txt
+ethynylsz.egg-info/dependency_links.txt
+ethynylsz.egg-info/requires.txt
+ethynylsz.egg-info/top_level.txt
