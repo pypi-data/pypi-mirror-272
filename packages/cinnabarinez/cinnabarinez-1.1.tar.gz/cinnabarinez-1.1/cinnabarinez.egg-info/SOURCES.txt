@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cinnabarinez/__init__.py
+cinnabarinez/main.py
+cinnabarinez.egg-info/PKG-INFO
+cinnabarinez.egg-info/SOURCES.txt
+cinnabarinez.egg-info/dependency_links.txt
+cinnabarinez.egg-info/requires.txt
+cinnabarinez.egg-info/top_level.txt
