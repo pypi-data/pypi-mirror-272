@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pizzoo
+Version: 0.9.0
+Summary: ('Pizzoo is a library for rendering on pixel matrix screens, with direct support for the Divoom Pixoo64 device, and easy integration for any other one.', 'It includes full animation buffer manipulation, a micro game engine, as well as XML/HTML like templates compilation.')
+Home-page: https://github.com/pabletos/pizzoo#readme
+Author: Pablo Huet
+License: MIT
+Keywords: pixoo,pixoo64,divoom,screen,pixel,matrix,render,buffer,LED matrix,LED,raspberry,raspberry pi
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: requests~=2.31.0
+Requires-Dist: Pillow~=10.0.0
+Requires-Dist: bdfparser~=2.2.0
