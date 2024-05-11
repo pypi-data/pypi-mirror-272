@@ -1,0 +1,1 @@
+from modernqt.widgets import *
