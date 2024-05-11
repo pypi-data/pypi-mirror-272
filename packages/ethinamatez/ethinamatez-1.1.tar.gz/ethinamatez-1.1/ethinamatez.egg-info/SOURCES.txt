@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ethinamatez/__init__.py
+ethinamatez/main.py
+ethinamatez.egg-info/PKG-INFO
+ethinamatez.egg-info/SOURCES.txt
+ethinamatez.egg-info/dependency_links.txt
+ethinamatez.egg-info/requires.txt
+ethinamatez.egg-info/top_level.txt
