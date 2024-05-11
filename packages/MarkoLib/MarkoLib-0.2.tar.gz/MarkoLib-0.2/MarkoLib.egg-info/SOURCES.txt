@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+MarkoLib/MarkoLib.py
+MarkoLib/__init__.py
+MarkoLib.egg-info/PKG-INFO
+MarkoLib.egg-info/SOURCES.txt
+MarkoLib.egg-info/dependency_links.txt
+MarkoLib.egg-info/not-zip-safe
+MarkoLib.egg-info/top_level.txt
