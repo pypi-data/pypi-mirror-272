@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jawi
+Version: 0.0.1
+Summary: Jawi
+Home-page: https://github.com/andreihar/jawi
+Author: Andrei Harbachov
+Author-email: andrei.harbachov@gmail.com
+License: MIT
+Keywords: python,jawi,malay,nlp
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Jawi
