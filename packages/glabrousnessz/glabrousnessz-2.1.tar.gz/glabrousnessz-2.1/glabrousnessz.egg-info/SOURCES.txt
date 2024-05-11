@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+glabrousnessz/__init__.py
+glabrousnessz/main.py
+glabrousnessz.egg-info/PKG-INFO
+glabrousnessz.egg-info/SOURCES.txt
+glabrousnessz.egg-info/dependency_links.txt
+glabrousnessz.egg-info/requires.txt
+glabrousnessz.egg-info/top_level.txt
