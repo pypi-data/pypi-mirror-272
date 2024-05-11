@@ -1,0 +1,17 @@
+[package]
+name = "toktokenizer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "toktokenizer"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustc-hash = "1.1.0"
+ahash = "0.8.11"
+tqdm = "0.7.0"
+serde_json = "1.0.117"
+serde = { version = "1.0", features = ["derive"] }
+pyo3 = { version = "0.21.2", features = ["extension-module"] }
