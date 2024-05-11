@@ -1,0 +1,6 @@
+composio_openai/__init__.py,sha256=kcg5rMRw5HxYXDzo8bo315go-9RHkxb1nxFIb3o3_Eg,182
+composio_openai/openai_toolspec.py,sha256=ebrJVJnE8yx92WZEJFA4h9W-NWX8CAUyAsUL7bzQVjM,3105
+composio_openai-0.2.55.dist-info/METADATA,sha256=DlS1BCdBKVqa778ce3I3S6oGq3e_awN2CK1lesJh-aU,2616
+composio_openai-0.2.55.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+composio_openai-0.2.55.dist-info/top_level.txt,sha256=c1RQjgke3pnmUiuS1zE57FjBKWwmoujhqsp8vhBqnH4,16
+composio_openai-0.2.55.dist-info/RECORD,,
