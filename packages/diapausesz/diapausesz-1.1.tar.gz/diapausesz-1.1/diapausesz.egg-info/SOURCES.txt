@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+diapausesz/__init__.py
+diapausesz/main.py
+diapausesz.egg-info/PKG-INFO
+diapausesz.egg-info/SOURCES.txt
+diapausesz.egg-info/dependency_links.txt
+diapausesz.egg-info/requires.txt
+diapausesz.egg-info/top_level.txt
