@@ -1,0 +1,12 @@
+nn_parts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nn_parts/activation_relu.py,sha256=B4RafUqRFKY0d1KSZ7iJ6_1yi87wtieMrzAztOnY8mQ,266
+nn_parts/activation_sigmoid.py,sha256=L_ltdj4ef2G0eqGsKOgjO5qUCpreY1oTAiBG17z1poo,306
+nn_parts/activation_softmax.py,sha256=D4FOYCknhVtUn2Ygvzptyy0NeFbxl49fs8hfzl34ztA,504
+nn_parts/cost_cross_entropy.py,sha256=McbN3pW5A-ELBql5qFp0e2H6p0-VVQOitlgfDuvZBjM,1118
+nn_parts/cost_quadratic.py,sha256=oBOmgAFcOJlx3FPbnsog1GkymV6HgOxq3Mya-v9ZGpg,374
+nn_parts/denselayer.py,sha256=6vs9HGG5xf9uP1ZkJ1yrIX2I24GqCVWhpPEVBrBH2oo,1032
+nn_parts/metric_accuracy.py,sha256=AXSkVtGWtZmYypMvu4u9T33wOfWqmHTSbo-5ZcGcADk,334
+nn_parts-2024.0.2.dist-info/METADATA,sha256=L6ttIf2O0R2jgvXCXGccjjejSCk5yxQJw9IAmLWUcnw,845
+nn_parts-2024.0.2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+nn_parts-2024.0.2.dist-info/licenses/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nn_parts-2024.0.2.dist-info/RECORD,,
