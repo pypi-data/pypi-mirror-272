@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonpervertedlyz/__init__.py
+nonpervertedlyz/main.py
+nonpervertedlyz.egg-info/PKG-INFO
+nonpervertedlyz.egg-info/SOURCES.txt
+nonpervertedlyz.egg-info/dependency_links.txt
+nonpervertedlyz.egg-info/requires.txt
+nonpervertedlyz.egg-info/top_level.txt
