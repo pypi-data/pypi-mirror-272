@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oordz/__init__.py
+oordz/main.py
+oordz.egg-info/PKG-INFO
+oordz.egg-info/SOURCES.txt
+oordz.egg-info/dependency_links.txt
+oordz.egg-info/requires.txt
+oordz.egg-info/top_level.txt
