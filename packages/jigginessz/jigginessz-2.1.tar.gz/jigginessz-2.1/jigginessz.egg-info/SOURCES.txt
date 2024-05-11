@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jigginessz/__init__.py
+jigginessz/main.py
+jigginessz.egg-info/PKG-INFO
+jigginessz.egg-info/SOURCES.txt
+jigginessz.egg-info/dependency_links.txt
+jigginessz.egg-info/requires.txt
+jigginessz.egg-info/top_level.txt
