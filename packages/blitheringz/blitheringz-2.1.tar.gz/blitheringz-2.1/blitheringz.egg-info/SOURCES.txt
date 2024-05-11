@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+blitheringz/__init__.py
+blitheringz/main.py
+blitheringz.egg-info/PKG-INFO
+blitheringz.egg-info/SOURCES.txt
+blitheringz.egg-info/dependency_links.txt
+blitheringz.egg-info/requires.txt
+blitheringz.egg-info/top_level.txt
