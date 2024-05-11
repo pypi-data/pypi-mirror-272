@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+invalidnessz/__init__.py
+invalidnessz/main.py
+invalidnessz.egg-info/PKG-INFO
+invalidnessz.egg-info/SOURCES.txt
+invalidnessz.egg-info/dependency_links.txt
+invalidnessz.egg-info/requires.txt
+invalidnessz.egg-info/top_level.txt
