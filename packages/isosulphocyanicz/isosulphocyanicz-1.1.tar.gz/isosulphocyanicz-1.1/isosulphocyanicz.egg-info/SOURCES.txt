@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+isosulphocyanicz/__init__.py
+isosulphocyanicz/main.py
+isosulphocyanicz.egg-info/PKG-INFO
+isosulphocyanicz.egg-info/SOURCES.txt
+isosulphocyanicz.egg-info/dependency_links.txt
+isosulphocyanicz.egg-info/requires.txt
+isosulphocyanicz.egg-info/top_level.txt
