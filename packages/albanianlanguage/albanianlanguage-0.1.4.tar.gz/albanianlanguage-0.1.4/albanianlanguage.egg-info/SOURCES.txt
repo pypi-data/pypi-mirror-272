@@ -1,0 +1,9 @@
+README.md
+setup.py
+albanianlanguage/__init__.py
+albanianlanguage/words.csv
+albanianlanguage/words.py
+albanianlanguage.egg-info/PKG-INFO
+albanianlanguage.egg-info/SOURCES.txt
+albanianlanguage.egg-info/dependency_links.txt
+albanianlanguage.egg-info/top_level.txt
