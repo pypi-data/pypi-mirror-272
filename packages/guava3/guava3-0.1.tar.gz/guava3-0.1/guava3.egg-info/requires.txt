@@ -1,0 +1,6 @@
+PyYAML==6.0.1
+anthropic==0.23.1
+openai==1.13.3
+tiktoken==0.5.2
+Markdown==3.6
+pyarmor==8.5.0

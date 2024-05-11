@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: guava3
+Version: 0.1
+Summary: multi-agent conversations for data analysis
+Home-page: https://github.com/guava-3/unified_framework
+Author: Guava3
+Author-email: adm@guava3.com
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: anthropic==0.23.1
+Requires-Dist: openai==1.13.3
+Requires-Dist: tiktoken==0.5.2
+Requires-Dist: Markdown==3.6
+Requires-Dist: pyarmor==8.5.0
+
+# Guava3 framework
