@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+omphalospinousz/__init__.py
+omphalospinousz/main.py
+omphalospinousz.egg-info/PKG-INFO
+omphalospinousz.egg-info/SOURCES.txt
+omphalospinousz.egg-info/dependency_links.txt
+omphalospinousz.egg-info/requires.txt
+omphalospinousz.egg-info/top_level.txt
