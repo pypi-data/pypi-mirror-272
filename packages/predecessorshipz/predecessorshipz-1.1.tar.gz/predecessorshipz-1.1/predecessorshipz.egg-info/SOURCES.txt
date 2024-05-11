@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+predecessorshipz/__init__.py
+predecessorshipz/main.py
+predecessorshipz.egg-info/PKG-INFO
+predecessorshipz.egg-info/SOURCES.txt
+predecessorshipz.egg-info/dependency_links.txt
+predecessorshipz.egg-info/requires.txt
+predecessorshipz.egg-info/top_level.txt
