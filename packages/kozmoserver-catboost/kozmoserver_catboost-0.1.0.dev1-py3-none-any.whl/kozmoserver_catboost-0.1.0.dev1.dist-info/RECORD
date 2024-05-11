@@ -1,0 +1,7 @@
+kozmoserver_catboost/__init__.py,sha256=W1zep_x0JvzcNWcxzYlmRWU8QQ96oNkT6DBo2rBhqSs,65
+kozmoserver_catboost/catboost.py,sha256=EFHy5AfBVUUg-zUtd8PATO9u8MUWdsXarAs90oV55_c,1120
+kozmoserver_catboost/version.py,sha256=7laO2T6HtGHGvqn4SNMbwiGjkxKXUl3tP2KtQ6BHPiA,27
+kozmoserver_catboost-0.1.0.dev1.dist-info/LICENSE,sha256=f_cqGD5AocAfiqd4AIyKpTq-1PVAe7ycwsYTDM66HN0,11342
+kozmoserver_catboost-0.1.0.dev1.dist-info/METADATA,sha256=_lqsco6YYUE8rihN1E4zP5CiLlZjY_Y-c7b2UNVf84I,1443
+kozmoserver_catboost-0.1.0.dev1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+kozmoserver_catboost-0.1.0.dev1.dist-info/RECORD,,
