@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+feuilletonistz/__init__.py
+feuilletonistz/main.py
+feuilletonistz.egg-info/PKG-INFO
+feuilletonistz.egg-info/SOURCES.txt
+feuilletonistz.egg-info/dependency_links.txt
+feuilletonistz.egg-info/requires.txt
+feuilletonistz.egg-info/top_level.txt
