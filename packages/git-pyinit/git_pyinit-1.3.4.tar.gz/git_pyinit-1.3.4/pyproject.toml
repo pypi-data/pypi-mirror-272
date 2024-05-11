@@ -1,0 +1,84 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "git-pyinit"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Joshua Luckie", email = "luckiejoshu@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+"hatch",
+"toml",
+]
+
+[project.urls]
+Documentation = "https://github.com/Lumesque/git-pyinit#readme"
+Issues = "https://github.com/Lumesque/git-pyinit/issues"
+Source = "https://github.com/Lumesque/git-pyinit"
+
+[project.scripts]
+git-pyinit = "git_pyinit.cli:main"
+
+[tool.hatch.version]
+path = "src/git_pyinit/__about__.py"
+
+[tool.hatch.envs.tests]
+dependencies = [
+  "pytest",
+]
+
+[tool.hatch.envs.tests.scripts]
+test = "pytest {args:tests}"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/git_pyinit tests}"
+
+[tool.coverage.run]
+source_pkgs = ["git_pyinit", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/git_pyinit/__about__.py",
+]
+
+[tool.coverage.paths]
+git_pyinit = ["src/git_pyinit", "*/git-pyinit/src/git_pyinit"]
+tests = ["tests", "*/git-pyinit/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.pytest.ini_options]
+addopts = "-v -s"
+testpaths = [
+  "tests",
+]
+pythonpath = [
+  "src",
+]
