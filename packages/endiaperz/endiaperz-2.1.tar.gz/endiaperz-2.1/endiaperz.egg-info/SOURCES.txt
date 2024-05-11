@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+endiaperz/__init__.py
+endiaperz/main.py
+endiaperz.egg-info/PKG-INFO
+endiaperz.egg-info/SOURCES.txt
+endiaperz.egg-info/dependency_links.txt
+endiaperz.egg-info/requires.txt
+endiaperz.egg-info/top_level.txt
