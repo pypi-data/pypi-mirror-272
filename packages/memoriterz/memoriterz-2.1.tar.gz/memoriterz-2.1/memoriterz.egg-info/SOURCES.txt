@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+memoriterz/__init__.py
+memoriterz/main.py
+memoriterz.egg-info/PKG-INFO
+memoriterz.egg-info/SOURCES.txt
+memoriterz.egg-info/dependency_links.txt
+memoriterz.egg-info/requires.txt
+memoriterz.egg-info/top_level.txt
