@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dullestz/__init__.py
+dullestz/main.py
+dullestz.egg-info/PKG-INFO
+dullestz.egg-info/SOURCES.txt
+dullestz.egg-info/dependency_links.txt
+dullestz.egg-info/requires.txt
+dullestz.egg-info/top_level.txt
