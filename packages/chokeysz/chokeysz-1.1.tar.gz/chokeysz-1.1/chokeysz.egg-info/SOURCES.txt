@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+chokeysz/__init__.py
+chokeysz/main.py
+chokeysz.egg-info/PKG-INFO
+chokeysz.egg-info/SOURCES.txt
+chokeysz.egg-info/dependency_links.txt
+chokeysz.egg-info/requires.txt
+chokeysz.egg-info/top_level.txt
