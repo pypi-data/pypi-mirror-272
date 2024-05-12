@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+caudillosz/__init__.py
+caudillosz/main.py
+caudillosz.egg-info/PKG-INFO
+caudillosz.egg-info/SOURCES.txt
+caudillosz.egg-info/dependency_links.txt
+caudillosz.egg-info/requires.txt
+caudillosz.egg-info/top_level.txt
