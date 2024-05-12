@@ -1,0 +1,2 @@
+[console_scripts]
+asm1_influent_generator = asm1_influent_generator.skeleton:app
