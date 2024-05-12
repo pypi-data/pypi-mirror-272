@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+heroinz/__init__.py
+heroinz/main.py
+heroinz.egg-info/PKG-INFO
+heroinz.egg-info/SOURCES.txt
+heroinz.egg-info/dependency_links.txt
+heroinz.egg-info/requires.txt
+heroinz.egg-info/top_level.txt
