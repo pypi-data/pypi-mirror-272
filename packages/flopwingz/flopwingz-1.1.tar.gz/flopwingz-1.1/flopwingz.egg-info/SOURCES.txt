@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+flopwingz/__init__.py
+flopwingz/main.py
+flopwingz.egg-info/PKG-INFO
+flopwingz.egg-info/SOURCES.txt
+flopwingz.egg-info/dependency_links.txt
+flopwingz.egg-info/requires.txt
+flopwingz.egg-info/top_level.txt
