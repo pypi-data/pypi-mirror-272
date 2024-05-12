@@ -1,0 +1,3 @@
+[console_scripts]
+mangainfo=mangainfo.__main__:main
+
