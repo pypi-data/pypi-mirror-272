@@ -1,0 +1,10 @@
+qwitch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qwitch/api.py,sha256=_W3q_Muq79D2RGpppsSSfFro22q_7-aAlY4-EXfgzU0,10354
+qwitch/config.py,sha256=yS8QnuwonMX65e0xqZXobLC48MYIJ-QkZvivJeMqC9Q,8682
+qwitch/qwitch.py,sha256=4gWrOdMRfFXulZm5mV2DgzVwfx7usnwtRuspJNII3xo,5128
+qwitch-2.5.0.dist-info/LICENCE,sha256=bwFglUyklKe1gwlh2jGccDoB0gR4n33uMqTaURVOvNE,1127
+qwitch-2.5.0.dist-info/METADATA,sha256=av3AbAtQO3_2vkxS_dazwfulg3T_g7CYjSc6DU77sfc,8599
+qwitch-2.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+qwitch-2.5.0.dist-info/entry_points.txt,sha256=2niiLtbb_OenDksrkYVxY_KoE41lVXV29vYSN1hmZwQ,46
+qwitch-2.5.0.dist-info/top_level.txt,sha256=X81dnlAjRaM5H9_HvG54irPpko3nw4QidMgZJ3ZirG4,7
+qwitch-2.5.0.dist-info/RECORD,,
