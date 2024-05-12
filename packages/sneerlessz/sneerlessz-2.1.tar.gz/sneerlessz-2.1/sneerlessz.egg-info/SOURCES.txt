@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sneerlessz/__init__.py
+sneerlessz/main.py
+sneerlessz.egg-info/PKG-INFO
+sneerlessz.egg-info/SOURCES.txt
+sneerlessz.egg-info/dependency_links.txt
+sneerlessz.egg-info/requires.txt
+sneerlessz.egg-info/top_level.txt
