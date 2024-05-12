@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stercoricolousz/__init__.py
+stercoricolousz/main.py
+stercoricolousz.egg-info/PKG-INFO
+stercoricolousz.egg-info/SOURCES.txt
+stercoricolousz.egg-info/dependency_links.txt
+stercoricolousz.egg-info/requires.txt
+stercoricolousz.egg-info/top_level.txt
