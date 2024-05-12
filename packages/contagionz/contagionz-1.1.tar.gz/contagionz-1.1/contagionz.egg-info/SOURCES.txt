@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+contagionz/__init__.py
+contagionz/main.py
+contagionz.egg-info/PKG-INFO
+contagionz.egg-info/SOURCES.txt
+contagionz.egg-info/dependency_links.txt
+contagionz.egg-info/requires.txt
+contagionz.egg-info/top_level.txt
