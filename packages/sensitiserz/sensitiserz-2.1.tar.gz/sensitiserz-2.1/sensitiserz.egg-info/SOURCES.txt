@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sensitiserz/__init__.py
+sensitiserz/main.py
+sensitiserz.egg-info/PKG-INFO
+sensitiserz.egg-info/SOURCES.txt
+sensitiserz.egg-info/dependency_links.txt
+sensitiserz.egg-info/requires.txt
+sensitiserz.egg-info/top_level.txt
