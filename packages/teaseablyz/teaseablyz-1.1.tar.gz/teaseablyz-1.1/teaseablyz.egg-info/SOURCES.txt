@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+teaseablyz/__init__.py
+teaseablyz/main.py
+teaseablyz.egg-info/PKG-INFO
+teaseablyz.egg-info/SOURCES.txt
+teaseablyz.egg-info/dependency_links.txt
+teaseablyz.egg-info/requires.txt
+teaseablyz.egg-info/top_level.txt
