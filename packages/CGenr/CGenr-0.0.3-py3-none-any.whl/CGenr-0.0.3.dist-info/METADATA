@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: CGenr
+Version: 0.0.3
+Summary: A CG generator for C/C++ project
+Author: Jiang Yuxuan
+Author-email: 1594935046@qq.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: tree-sitter >=0.20.2
+Requires-Dist: graphviz
+Requires-Dist: setuptools
+
+A package that allows you to generate CG for C/C++ project
