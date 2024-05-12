@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+becursesz/__init__.py
+becursesz/main.py
+becursesz.egg-info/PKG-INFO
+becursesz.egg-info/SOURCES.txt
+becursesz.egg-info/dependency_links.txt
+becursesz.egg-info/requires.txt
+becursesz.egg-info/top_level.txt
