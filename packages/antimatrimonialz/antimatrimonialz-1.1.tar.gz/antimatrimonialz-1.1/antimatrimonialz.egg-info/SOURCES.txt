@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+antimatrimonialz/__init__.py
+antimatrimonialz/main.py
+antimatrimonialz.egg-info/PKG-INFO
+antimatrimonialz.egg-info/SOURCES.txt
+antimatrimonialz.egg-info/dependency_links.txt
+antimatrimonialz.egg-info/requires.txt
+antimatrimonialz.egg-info/top_level.txt
