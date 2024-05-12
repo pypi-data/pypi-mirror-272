@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vegetismz/__init__.py
+vegetismz/main.py
+vegetismz.egg-info/PKG-INFO
+vegetismz.egg-info/SOURCES.txt
+vegetismz.egg-info/dependency_links.txt
+vegetismz.egg-info/requires.txt
+vegetismz.egg-info/top_level.txt
