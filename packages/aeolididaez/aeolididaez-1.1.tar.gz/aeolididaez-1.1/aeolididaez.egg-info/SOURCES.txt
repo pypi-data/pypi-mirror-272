@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aeolididaez/__init__.py
+aeolididaez/main.py
+aeolididaez.egg-info/PKG-INFO
+aeolididaez.egg-info/SOURCES.txt
+aeolididaez.egg-info/dependency_links.txt
+aeolididaez.egg-info/requires.txt
+aeolididaez.egg-info/top_level.txt
