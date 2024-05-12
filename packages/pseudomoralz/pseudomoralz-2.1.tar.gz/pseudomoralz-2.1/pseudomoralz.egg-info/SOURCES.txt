@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pseudomoralz/__init__.py
+pseudomoralz/main.py
+pseudomoralz.egg-info/PKG-INFO
+pseudomoralz.egg-info/SOURCES.txt
+pseudomoralz.egg-info/dependency_links.txt
+pseudomoralz.egg-info/requires.txt
+pseudomoralz.egg-info/top_level.txt
