@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+undynamicz/__init__.py
+undynamicz/main.py
+undynamicz.egg-info/PKG-INFO
+undynamicz.egg-info/SOURCES.txt
+undynamicz.egg-info/dependency_links.txt
+undynamicz.egg-info/requires.txt
+undynamicz.egg-info/top_level.txt
