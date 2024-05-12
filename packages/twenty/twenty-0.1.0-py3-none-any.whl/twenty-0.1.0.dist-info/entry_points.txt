@@ -1,0 +1,2 @@
+[console_scripts]
+twenty = twenty:main
