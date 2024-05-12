@@ -1,0 +1,15 @@
+vdg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vdg/core.py,sha256=yWyS82A4zXXT08F9ZplD41C_qu2m6DC5IK8ETkdsXBY,5411
+vdg/main.py,sha256=aqIqNN-Pb8gv2DWjSpkUmqLvzc83a8wLjBwzGW4rzTg,1110
+vdg/utils.py,sha256=Ue5LYLEoBwADg5HKeLdcNk60xn0pYtmz-x2vIGpRctA,668
+vdg/yaml_preprocess.py,sha256=jjNiswwzg4jeugLipWzJzBczDGf29EMrDDZ3o1sUOS8,792
+vdg/templates/html.template,sha256=kajRJRKEZqiIXm0XUg8AJB4ZIHiWuRbvjwIaNQYp8CU,4168
+vdg/templates/main.template,sha256=9CF1Rxlg4vlQKJDiKgnEtcj33YntAA_lw7RurUi77OM,4156
+vdg/templates/titles.template,sha256=BX_qoTC9Vzam1OPg9c3xnRBbJxnh_R_xeLCmKNEDn7E,411
+vdg/templates/yaml.template,sha256=IOjVo9_a0NArAQMsPW4Jxm8BcGfyjptezk7pXMHjjC4,2323
+vdg-0.2.2.dist-info/LICENSE,sha256=54oHGIhclHmbWtFU3Lo-8QxMOIpnVosyKgUl6628xrM,1065
+vdg-0.2.2.dist-info/METADATA,sha256=p7nZje_cYFusW2STTCxyajZLC_6tvXA2p1hNjYA-1tg,1610
+vdg-0.2.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vdg-0.2.2.dist-info/entry_points.txt,sha256=tbdPOdjI8pKmNnBY9_geKjap190oIY-TDo5CBDhMchw,38
+vdg-0.2.2.dist-info/top_level.txt,sha256=-TOEpx9cIUHGDArsb3b_nxrzICRVhmpKWzl_BYaqKeU,4
+vdg-0.2.2.dist-info/RECORD,,
