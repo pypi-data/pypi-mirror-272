@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+watertightz/__init__.py
+watertightz/main.py
+watertightz.egg-info/PKG-INFO
+watertightz.egg-info/SOURCES.txt
+watertightz.egg-info/dependency_links.txt
+watertightz.egg-info/requires.txt
+watertightz.egg-info/top_level.txt
