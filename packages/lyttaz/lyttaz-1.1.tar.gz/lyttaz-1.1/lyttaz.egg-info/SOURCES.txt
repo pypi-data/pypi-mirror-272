@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lyttaz/__init__.py
+lyttaz/main.py
+lyttaz.egg-info/PKG-INFO
+lyttaz.egg-info/SOURCES.txt
+lyttaz.egg-info/dependency_links.txt
+lyttaz.egg-info/requires.txt
+lyttaz.egg-info/top_level.txt
