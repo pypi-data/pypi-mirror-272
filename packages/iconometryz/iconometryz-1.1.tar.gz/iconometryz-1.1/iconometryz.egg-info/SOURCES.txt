@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+iconometryz/__init__.py
+iconometryz/main.py
+iconometryz.egg-info/PKG-INFO
+iconometryz.egg-info/SOURCES.txt
+iconometryz.egg-info/dependency_links.txt
+iconometryz.egg-info/requires.txt
+iconometryz.egg-info/top_level.txt
