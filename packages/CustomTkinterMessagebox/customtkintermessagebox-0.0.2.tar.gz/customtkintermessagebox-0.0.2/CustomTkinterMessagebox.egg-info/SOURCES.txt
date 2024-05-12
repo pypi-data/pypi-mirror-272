@@ -1,0 +1,10 @@
+LICENSE
+examples.py
+setup.py
+CustomTkinterMessagebox/__init__.py
+CustomTkinterMessagebox/messagebox.py
+CustomTkinterMessagebox.egg-info/PKG-INFO
+CustomTkinterMessagebox.egg-info/SOURCES.txt
+CustomTkinterMessagebox.egg-info/dependency_links.txt
+CustomTkinterMessagebox.egg-info/requires.txt
+CustomTkinterMessagebox.egg-info/top_level.txt
