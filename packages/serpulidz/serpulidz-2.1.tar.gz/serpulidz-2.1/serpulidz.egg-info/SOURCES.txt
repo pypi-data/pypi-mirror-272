@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+serpulidz/__init__.py
+serpulidz/main.py
+serpulidz.egg-info/PKG-INFO
+serpulidz.egg-info/SOURCES.txt
+serpulidz.egg-info/dependency_links.txt
+serpulidz.egg-info/requires.txt
+serpulidz.egg-info/top_level.txt
