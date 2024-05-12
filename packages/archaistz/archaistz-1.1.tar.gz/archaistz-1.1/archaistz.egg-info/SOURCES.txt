@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+archaistz/__init__.py
+archaistz/main.py
+archaistz.egg-info/PKG-INFO
+archaistz.egg-info/SOURCES.txt
+archaistz.egg-info/dependency_links.txt
+archaistz.egg-info/requires.txt
+archaistz.egg-info/top_level.txt
