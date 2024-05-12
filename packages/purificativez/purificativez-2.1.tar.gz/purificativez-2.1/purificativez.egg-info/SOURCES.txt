@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+purificativez/__init__.py
+purificativez/main.py
+purificativez.egg-info/PKG-INFO
+purificativez.egg-info/SOURCES.txt
+purificativez.egg-info/dependency_links.txt
+purificativez.egg-info/requires.txt
+purificativez.egg-info/top_level.txt
