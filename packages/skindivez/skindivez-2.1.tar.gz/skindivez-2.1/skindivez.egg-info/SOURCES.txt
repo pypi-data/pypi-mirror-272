@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+skindivez/__init__.py
+skindivez/main.py
+skindivez.egg-info/PKG-INFO
+skindivez.egg-info/SOURCES.txt
+skindivez.egg-info/dependency_links.txt
+skindivez.egg-info/requires.txt
+skindivez.egg-info/top_level.txt
