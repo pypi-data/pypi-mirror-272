@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "dbmg"
+version = "0.2.0"
+description = ""
+authors = ["Karl Rittner <k.rittner@hotmail.de>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.30"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[project]
+keywords = ["database", "db", "manage", "manager"]
+authors = [
+    {name = "Karl Rittner", email = "k.rittner@hotmail.de"},
+]
+maintainers = [
+    {name = "Karl Rittner", email = "k.rittner@hotmail.de"},
+]
+description = "db_manager makes it easy to deal with relational database"
+readme = "README.txt"
+license = {file = "LICENSE.txt"}
+
+
+[project.urls]
+Homepage = ""
+Documentation = ""
+Repository = "https://github.com/karl-rittner/db_manager"
+Issues = "https://github.com/karl-rittner/db_manager/issues"
+Changelog = ""
+
