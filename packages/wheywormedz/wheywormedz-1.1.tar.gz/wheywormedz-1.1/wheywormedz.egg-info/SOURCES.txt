@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wheywormedz/__init__.py
+wheywormedz/main.py
+wheywormedz.egg-info/PKG-INFO
+wheywormedz.egg-info/SOURCES.txt
+wheywormedz.egg-info/dependency_links.txt
+wheywormedz.egg-info/requires.txt
+wheywormedz.egg-info/top_level.txt
