@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+snaffledz/__init__.py
+snaffledz/main.py
+snaffledz.egg-info/PKG-INFO
+snaffledz.egg-info/SOURCES.txt
+snaffledz.egg-info/dependency_links.txt
+snaffledz.egg-info/requires.txt
+snaffledz.egg-info/top_level.txt
