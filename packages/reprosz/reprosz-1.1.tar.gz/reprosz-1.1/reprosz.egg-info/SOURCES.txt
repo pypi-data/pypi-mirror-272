@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reprosz/__init__.py
+reprosz/main.py
+reprosz.egg-info/PKG-INFO
+reprosz.egg-info/SOURCES.txt
+reprosz.egg-info/dependency_links.txt
+reprosz.egg-info/requires.txt
+reprosz.egg-info/top_level.txt
