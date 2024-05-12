@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+delphininez/__init__.py
+delphininez/main.py
+delphininez.egg-info/PKG-INFO
+delphininez.egg-info/SOURCES.txt
+delphininez.egg-info/dependency_links.txt
+delphininez.egg-info/requires.txt
+delphininez.egg-info/top_level.txt
