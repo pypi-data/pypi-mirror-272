@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+interceptionz/__init__.py
+interceptionz/main.py
+interceptionz.egg-info/PKG-INFO
+interceptionz.egg-info/SOURCES.txt
+interceptionz.egg-info/dependency_links.txt
+interceptionz.egg-info/requires.txt
+interceptionz.egg-info/top_level.txt
