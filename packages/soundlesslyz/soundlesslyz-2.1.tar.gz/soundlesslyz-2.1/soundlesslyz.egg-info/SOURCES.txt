@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+soundlesslyz/__init__.py
+soundlesslyz/main.py
+soundlesslyz.egg-info/PKG-INFO
+soundlesslyz.egg-info/SOURCES.txt
+soundlesslyz.egg-info/dependency_links.txt
+soundlesslyz.egg-info/requires.txt
+soundlesslyz.egg-info/top_level.txt
