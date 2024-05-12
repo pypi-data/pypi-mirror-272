@@ -1,0 +1,9 @@
+logninja/__init__.py,sha256=2G0b4MXBVRGjaBsMILFE8jBMKofMJgtpcRAPQ0aZJgk,677
+logninja/console_formatter.py,sha256=-HklbBi1heSS3Ec1l-BxKx5JEIy62u1T6iM1etd6pH4,139
+logninja/json_formatter.py,sha256=E6bwHpkZqZcQDUUdsY6g7IKF0W0p358nGcRvsft8eJg,2122
+logninja/uvicorn_logger_name_filter.py,sha256=p1BKfQBiB6nRTKYDlMNINU2tDyCVfIl2S2HIGRPDyA8,757
+logninja-0.1.0.dist-info/LICENSE,sha256=6_NcnrW0cVoMUpczGgPBdM1ouEUG-I77cKgy3qefNlE,1092
+logninja-0.1.0.dist-info/METADATA,sha256=6zj3C19iXA2S3wpc6afG_JMfrAcD3bvbbgM7rNnPE8Q,1180
+logninja-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+logninja-0.1.0.dist-info/top_level.txt,sha256=xLvqf2OQgHZSw04n1tTSupnKHdfaw2tC5uyfj9E7D5Q,9
+logninja-0.1.0.dist-info/RECORD,,
