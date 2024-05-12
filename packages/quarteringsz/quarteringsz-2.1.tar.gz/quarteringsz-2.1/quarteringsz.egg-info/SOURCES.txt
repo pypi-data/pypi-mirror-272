@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+quarteringsz/__init__.py
+quarteringsz/main.py
+quarteringsz.egg-info/PKG-INFO
+quarteringsz.egg-info/SOURCES.txt
+quarteringsz.egg-info/dependency_links.txt
+quarteringsz.egg-info/requires.txt
+quarteringsz.egg-info/top_level.txt
