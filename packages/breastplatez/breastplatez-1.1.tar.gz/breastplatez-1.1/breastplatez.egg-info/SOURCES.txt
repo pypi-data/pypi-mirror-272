@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+breastplatez/__init__.py
+breastplatez/main.py
+breastplatez.egg-info/PKG-INFO
+breastplatez.egg-info/SOURCES.txt
+breastplatez.egg-info/dependency_links.txt
+breastplatez.egg-info/requires.txt
+breastplatez.egg-info/top_level.txt
