@@ -1,0 +1,21 @@
+*.fnt:
+	
+	https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/gnufonts.html
+	GNU General Public License, Version 2
+
+
+laser.mp3, baby.mp3:
+
+	Samples from pixabay by Pixabay. Edited by me.
+
+
+glass.mp3:
+	
+	Samples from pixabay by Charlie_Raven. Edited by me.
+
+
+pimpelipompeli.mp3, uhkapeli.mp3:
+
+	Music by me, Viljami Ilola (@vililola). Free to copy. Attribution
+	nice, but not necessary.
+
