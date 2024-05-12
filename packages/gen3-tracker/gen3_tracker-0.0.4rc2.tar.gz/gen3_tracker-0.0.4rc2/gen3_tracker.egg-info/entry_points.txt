@@ -1,0 +1,2 @@
+[console_scripts]
+g3t = g3t.cli:cli
