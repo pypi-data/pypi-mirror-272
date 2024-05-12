@@ -1,0 +1,12 @@
+MANIFEST.in
+pyproject.toml
+readme.md
+setup.cfg
+setup.py
+src/database_automation/__init__.py
+src/database_automation/mongo_crud.py
+src/databaseautomation_klmuppalla.egg-info/PKG-INFO
+src/databaseautomation_klmuppalla.egg-info/SOURCES.txt
+src/databaseautomation_klmuppalla.egg-info/dependency_links.txt
+src/databaseautomation_klmuppalla.egg-info/requires.txt
+src/databaseautomation_klmuppalla.egg-info/top_level.txt
