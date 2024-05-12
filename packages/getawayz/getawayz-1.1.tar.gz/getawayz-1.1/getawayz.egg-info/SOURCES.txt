@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+getawayz/__init__.py
+getawayz/main.py
+getawayz.egg-info/PKG-INFO
+getawayz.egg-info/SOURCES.txt
+getawayz.egg-info/dependency_links.txt
+getawayz.egg-info/requires.txt
+getawayz.egg-info/top_level.txt
