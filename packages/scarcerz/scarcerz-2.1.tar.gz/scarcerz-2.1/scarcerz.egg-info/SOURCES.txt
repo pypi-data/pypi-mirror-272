@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scarcerz/__init__.py
+scarcerz/main.py
+scarcerz.egg-info/PKG-INFO
+scarcerz.egg-info/SOURCES.txt
+scarcerz.egg-info/dependency_links.txt
+scarcerz.egg-info/requires.txt
+scarcerz.egg-info/top_level.txt
