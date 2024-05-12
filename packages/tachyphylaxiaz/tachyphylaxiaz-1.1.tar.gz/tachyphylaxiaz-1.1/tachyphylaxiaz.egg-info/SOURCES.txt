@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tachyphylaxiaz/__init__.py
+tachyphylaxiaz/main.py
+tachyphylaxiaz.egg-info/PKG-INFO
+tachyphylaxiaz.egg-info/SOURCES.txt
+tachyphylaxiaz.egg-info/dependency_links.txt
+tachyphylaxiaz.egg-info/requires.txt
+tachyphylaxiaz.egg-info/top_level.txt
