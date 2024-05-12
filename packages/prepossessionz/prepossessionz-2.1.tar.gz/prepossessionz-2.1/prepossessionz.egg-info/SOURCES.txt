@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prepossessionz/__init__.py
+prepossessionz/main.py
+prepossessionz.egg-info/PKG-INFO
+prepossessionz.egg-info/SOURCES.txt
+prepossessionz.egg-info/dependency_links.txt
+prepossessionz.egg-info/requires.txt
+prepossessionz.egg-info/top_level.txt
