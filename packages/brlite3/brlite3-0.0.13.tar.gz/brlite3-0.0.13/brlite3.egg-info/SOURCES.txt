@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+brlite3.egg-info/PKG-INFO
+brlite3.egg-info/SOURCES.txt
+brlite3.egg-info/dependency_links.txt
+brlite3.egg-info/requires.txt
+brlite3.egg-info/top_level.txt
+vidstream/__init__.py
+vidstream/audio.py
+vidstream/streaming.py
