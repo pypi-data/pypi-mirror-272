@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+relievingz/__init__.py
+relievingz/main.py
+relievingz.egg-info/PKG-INFO
+relievingz.egg-info/SOURCES.txt
+relievingz.egg-info/dependency_links.txt
+relievingz.egg-info/requires.txt
+relievingz.egg-info/top_level.txt
