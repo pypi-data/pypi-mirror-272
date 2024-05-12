@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+chymotrypsinz/__init__.py
+chymotrypsinz/main.py
+chymotrypsinz.egg-info/PKG-INFO
+chymotrypsinz.egg-info/SOURCES.txt
+chymotrypsinz.egg-info/dependency_links.txt
+chymotrypsinz.egg-info/requires.txt
+chymotrypsinz.egg-info/top_level.txt
