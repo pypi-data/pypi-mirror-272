@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+waywortz/__init__.py
+waywortz/main.py
+waywortz.egg-info/PKG-INFO
+waywortz.egg-info/SOURCES.txt
+waywortz.egg-info/dependency_links.txt
+waywortz.egg-info/requires.txt
+waywortz.egg-info/top_level.txt
