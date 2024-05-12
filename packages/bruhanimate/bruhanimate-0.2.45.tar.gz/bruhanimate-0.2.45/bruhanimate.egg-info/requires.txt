@@ -1,0 +1,9 @@
+future
+bruhcolor
+pyfiglet
+pyaudio
+numpy
+openai
+
+[:sys_platform == "win32"]
+pywin32
