@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spinozistz/__init__.py
+spinozistz/main.py
+spinozistz.egg-info/PKG-INFO
+spinozistz.egg-info/SOURCES.txt
+spinozistz.egg-info/dependency_links.txt
+spinozistz.egg-info/requires.txt
+spinozistz.egg-info/top_level.txt
