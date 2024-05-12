@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pantologicz/__init__.py
+pantologicz/main.py
+pantologicz.egg-info/PKG-INFO
+pantologicz.egg-info/SOURCES.txt
+pantologicz.egg-info/dependency_links.txt
+pantologicz.egg-info/requires.txt
+pantologicz.egg-info/top_level.txt
