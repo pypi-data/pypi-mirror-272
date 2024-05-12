@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+relativez/__init__.py
+relativez/main.py
+relativez.egg-info/PKG-INFO
+relativez.egg-info/SOURCES.txt
+relativez.egg-info/dependency_links.txt
+relativez.egg-info/requires.txt
+relativez.egg-info/top_level.txt
