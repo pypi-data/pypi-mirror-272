@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pneumologyz/__init__.py
+pneumologyz/main.py
+pneumologyz.egg-info/PKG-INFO
+pneumologyz.egg-info/SOURCES.txt
+pneumologyz.egg-info/dependency_links.txt
+pneumologyz.egg-info/requires.txt
+pneumologyz.egg-info/top_level.txt
