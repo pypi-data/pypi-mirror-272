@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pseudodemocraticz/__init__.py
+pseudodemocraticz/main.py
+pseudodemocraticz.egg-info/PKG-INFO
+pseudodemocraticz.egg-info/SOURCES.txt
+pseudodemocraticz.egg-info/dependency_links.txt
+pseudodemocraticz.egg-info/requires.txt
+pseudodemocraticz.egg-info/top_level.txt
