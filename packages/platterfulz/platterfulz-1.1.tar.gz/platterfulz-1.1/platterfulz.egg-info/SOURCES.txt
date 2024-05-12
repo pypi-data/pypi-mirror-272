@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+platterfulz/__init__.py
+platterfulz/main.py
+platterfulz.egg-info/PKG-INFO
+platterfulz.egg-info/SOURCES.txt
+platterfulz.egg-info/dependency_links.txt
+platterfulz.egg-info/requires.txt
+platterfulz.egg-info/top_level.txt
