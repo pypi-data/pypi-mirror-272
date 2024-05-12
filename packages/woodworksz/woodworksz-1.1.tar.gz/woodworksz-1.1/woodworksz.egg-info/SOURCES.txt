@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+woodworksz/__init__.py
+woodworksz/main.py
+woodworksz.egg-info/PKG-INFO
+woodworksz.egg-info/SOURCES.txt
+woodworksz.egg-info/dependency_links.txt
+woodworksz.egg-info/requires.txt
+woodworksz.egg-info/top_level.txt
