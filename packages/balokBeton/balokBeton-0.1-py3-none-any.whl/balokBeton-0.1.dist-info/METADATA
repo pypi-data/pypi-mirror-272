@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: balokBeton
+Version: 0.1
+Requires-Dist: shapely (>=2.0.4)
+Requires-Dist: matplotlib (>=3.8)
+Requires-Dist: sympy (>=1.12)
+
