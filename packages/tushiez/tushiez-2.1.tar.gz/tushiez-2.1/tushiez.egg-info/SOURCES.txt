@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tushiez/__init__.py
+tushiez/main.py
+tushiez.egg-info/PKG-INFO
+tushiez.egg-info/SOURCES.txt
+tushiez.egg-info/dependency_links.txt
+tushiez.egg-info/requires.txt
+tushiez.egg-info/top_level.txt
