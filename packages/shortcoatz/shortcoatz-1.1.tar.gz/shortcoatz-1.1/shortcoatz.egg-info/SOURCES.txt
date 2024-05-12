@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+shortcoatz/__init__.py
+shortcoatz/main.py
+shortcoatz.egg-info/PKG-INFO
+shortcoatz.egg-info/SOURCES.txt
+shortcoatz.egg-info/dependency_links.txt
+shortcoatz.egg-info/requires.txt
+shortcoatz.egg-info/top_level.txt
