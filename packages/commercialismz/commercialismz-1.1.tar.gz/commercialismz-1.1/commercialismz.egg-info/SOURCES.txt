@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+commercialismz/__init__.py
+commercialismz/main.py
+commercialismz.egg-info/PKG-INFO
+commercialismz.egg-info/SOURCES.txt
+commercialismz.egg-info/dependency_links.txt
+commercialismz.egg-info/requires.txt
+commercialismz.egg-info/top_level.txt
