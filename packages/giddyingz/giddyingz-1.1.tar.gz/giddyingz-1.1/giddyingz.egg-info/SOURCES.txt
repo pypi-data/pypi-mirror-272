@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+giddyingz/__init__.py
+giddyingz/main.py
+giddyingz.egg-info/PKG-INFO
+giddyingz.egg-info/SOURCES.txt
+giddyingz.egg-info/dependency_links.txt
+giddyingz.egg-info/requires.txt
+giddyingz.egg-info/top_level.txt
