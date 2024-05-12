@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unconglutinatedz/__init__.py
+unconglutinatedz/main.py
+unconglutinatedz.egg-info/PKG-INFO
+unconglutinatedz.egg-info/SOURCES.txt
+unconglutinatedz.egg-info/dependency_links.txt
+unconglutinatedz.egg-info/requires.txt
+unconglutinatedz.egg-info/top_level.txt
