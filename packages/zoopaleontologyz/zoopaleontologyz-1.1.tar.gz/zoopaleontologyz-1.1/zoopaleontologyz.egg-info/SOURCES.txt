@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+zoopaleontologyz/__init__.py
+zoopaleontologyz/main.py
+zoopaleontologyz.egg-info/PKG-INFO
+zoopaleontologyz.egg-info/SOURCES.txt
+zoopaleontologyz.egg-info/dependency_links.txt
+zoopaleontologyz.egg-info/requires.txt
+zoopaleontologyz.egg-info/top_level.txt
