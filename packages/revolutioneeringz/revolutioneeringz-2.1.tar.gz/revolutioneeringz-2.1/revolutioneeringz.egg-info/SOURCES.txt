@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+revolutioneeringz/__init__.py
+revolutioneeringz/main.py
+revolutioneeringz.egg-info/PKG-INFO
+revolutioneeringz.egg-info/SOURCES.txt
+revolutioneeringz.egg-info/dependency_links.txt
+revolutioneeringz.egg-info/requires.txt
+revolutioneeringz.egg-info/top_level.txt
