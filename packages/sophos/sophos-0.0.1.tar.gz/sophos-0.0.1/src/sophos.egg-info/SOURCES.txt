@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/sophos/__init__.py
+src/sophos.egg-info/PKG-INFO
+src/sophos.egg-info/SOURCES.txt
+src/sophos.egg-info/dependency_links.txt
+src/sophos.egg-info/top_level.txt
