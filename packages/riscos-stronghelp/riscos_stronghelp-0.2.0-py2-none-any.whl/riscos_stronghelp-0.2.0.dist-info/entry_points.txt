@@ -1,0 +1,3 @@
+[console_scripts]
+riscos-shextract = riscos_stronghelp.__main__:main
+
