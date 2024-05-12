@@ -1,0 +1,9 @@
+llmail/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llmail/__main__.py,sha256=VfIraa_bRJqwLQ0ujqaggEo6zSyS3wYLimY14HdlOj4,22080
+llmail/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llmail/utils/cli_args.py,sha256=6fJaGiJpTiE3JJ3Apeg-4I4SlGpUezXTDLSffxREqtQ,4681
+llmail-0.1.1.dist-info/entry_points.txt,sha256=WfaJhBFsEjiqhZZlLWz06TFH28Nrj9Dx2_Zx7IHXqzQ,47
+llmail-0.1.1.dist-info/LICENSE,sha256=IaAxQEGCuahPbhqkiQFJVIM_NiDY0ZB2wn13-IOEDmY,34516
+llmail-0.1.1.dist-info/METADATA,sha256=CH_l_q-Io8EpnWg76oVNYljJP40ZPKYhcbSamVnufew,2394
+llmail-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llmail-0.1.1.dist-info/RECORD,,
