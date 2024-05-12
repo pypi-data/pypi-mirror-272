@@ -1,0 +1,8 @@
+menuchoice/__init__.py,sha256=_xp4rBB16mrJSZWZpTZho2cWYVRX00Nxbc8sbA06Jz4,4916
+menuchoice/_validator.py,sha256=eLoWZcrQDK_d02xect9zEJ376SpjL2p9ZhxsVZfnOqQ,643
+menuchoice/exceptions.py,sha256=nKzEAcUmYiPzZJuR0tvSuLluhHcuMHqpiJz5PX3kG3Q,142
+menuchoice/cursor_control/_cursorInput.py,sha256=3fk2l-VME_GUD6XxRuMPH5DGw_pRwPopxKU6gCfXcbM,6201
+menuchoice-0.3.dist-info/METADATA,sha256=2nIBJOWUi2k-jwtwPBis0g7XNhvCG3ZLm-EpeG6XGWw,1793
+menuchoice-0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+menuchoice-0.3.dist-info/top_level.txt,sha256=M1QeP7rZclRgl8WFP9lqhIxxP5zeEe9HaYWQuMNB1To,11
+menuchoice-0.3.dist-info/RECORD,,
