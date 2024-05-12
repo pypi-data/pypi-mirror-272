@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gekito
+Version: 0.0.2
+Summary: Generador de test cases chiquito
+License: MIT
+Author: Benjamín Vicente
+Author-email: benjavicente@uc.cl
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Gekito
+
+Generador simple y chico de test cases.
+
