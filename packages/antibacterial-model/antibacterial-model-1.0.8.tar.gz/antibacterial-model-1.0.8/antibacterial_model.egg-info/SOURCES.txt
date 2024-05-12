@@ -1,0 +1,11 @@
+README.md
+setup.py
+antibacterial_model/__init__.py
+antibacterial_model/model.py
+antibacterial_model.egg-info/PKG-INFO
+antibacterial_model.egg-info/SOURCES.txt
+antibacterial_model.egg-info/dependency_links.txt
+antibacterial_model.egg-info/requires.txt
+antibacterial_model.egg-info/top_level.txt
+antibacterial_model/data/anti-bact-data.csv
+antibacterial_model/data/anti-bact-model.pkl
