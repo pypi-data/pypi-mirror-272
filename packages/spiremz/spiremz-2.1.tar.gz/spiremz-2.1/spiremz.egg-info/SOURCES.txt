@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spiremz/__init__.py
+spiremz/main.py
+spiremz.egg-info/PKG-INFO
+spiremz.egg-info/SOURCES.txt
+spiremz.egg-info/dependency_links.txt
+spiremz.egg-info/requires.txt
+spiremz.egg-info/top_level.txt
