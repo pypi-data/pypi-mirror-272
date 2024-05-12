@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+venereologistz/__init__.py
+venereologistz/main.py
+venereologistz.egg-info/PKG-INFO
+venereologistz.egg-info/SOURCES.txt
+venereologistz.egg-info/dependency_links.txt
+venereologistz.egg-info/requires.txt
+venereologistz.egg-info/top_level.txt
