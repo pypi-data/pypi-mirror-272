@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+verrierez/__init__.py
+verrierez/main.py
+verrierez.egg-info/PKG-INFO
+verrierez.egg-info/SOURCES.txt
+verrierez.egg-info/dependency_links.txt
+verrierez.egg-info/requires.txt
+verrierez.egg-info/top_level.txt
