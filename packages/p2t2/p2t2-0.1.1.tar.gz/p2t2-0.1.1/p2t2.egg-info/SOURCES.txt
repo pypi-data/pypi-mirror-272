@@ -1,0 +1,8 @@
+README.md
+setup.py
+p2t2.egg-info/PKG-INFO
+p2t2.egg-info/SOURCES.txt
+p2t2.egg-info/dependency_links.txt
+p2t2.egg-info/entry_points.txt
+p2t2.egg-info/requires.txt
+p2t2.egg-info/top_level.txt
