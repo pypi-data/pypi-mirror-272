@@ -1,0 +1,16 @@
+.gitignore
+CONTRIBUTING.md
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+.github/workflows/Build and upload.yaml
+src/example.py
+src/ofb_python_sdk/__init__.py
+src/ofb_python_sdk/_version.py
+src/ofb_python_sdk/client.py
+src/sy_ofb_python_sdk.egg-info/PKG-INFO
+src/sy_ofb_python_sdk.egg-info/SOURCES.txt
+src/sy_ofb_python_sdk.egg-info/dependency_links.txt
+src/sy_ofb_python_sdk.egg-info/requires.txt
+src/sy_ofb_python_sdk.egg-info/top_level.txt
