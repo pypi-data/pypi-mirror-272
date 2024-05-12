@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mr_hawk
+Version: 0.1
+Summary: A Python package to install external libraries that we need in our code
+Author: Nyctophile
+Author-email: shanumartin3@gmail.com
