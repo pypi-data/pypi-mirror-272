@@ -1,0 +1,9 @@
+obs_waykey/__init__.py,sha256=21Mz1lDRt0gtHYEbJ0p7jR4DumVmijwX2dCE_-qp8OI,90
+obs_waykey/ignition/__init__.py,sha256=SrlimS7RXM1SQMaB2Wt_JfSEp-LIyjkAPRqIU-_c9sg,27
+obs_waykey/ignition/hotkeys.py,sha256=W3j_I7XDjKhkciHAPD2kg6y0CungzGZrtfRzthnYDAc,136
+obs_waykey/toggles.py,sha256=Fx1gY-1cpj3rhLDAvQqh8oJje3fZXFdLpT0sN0zPEMo,256
+obs_waykey-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+obs_waykey-0.1.0.dist-info/METADATA,sha256=tfbsr02cxQuWLHpH4oxXhNp9dZ-VhgjVFc28hMvpec8,2425
+obs_waykey-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+obs_waykey-0.1.0.dist-info/entry_points.txt,sha256=UxkSnM30jrXUNgqSJv1aF3jXqNjL6QIwk7o8OOytfWM,48
+obs_waykey-0.1.0.dist-info/RECORD,,
