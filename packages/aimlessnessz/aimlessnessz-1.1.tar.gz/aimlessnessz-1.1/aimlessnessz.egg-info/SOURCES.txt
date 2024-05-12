@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aimlessnessz/__init__.py
+aimlessnessz/main.py
+aimlessnessz.egg-info/PKG-INFO
+aimlessnessz.egg-info/SOURCES.txt
+aimlessnessz.egg-info/dependency_links.txt
+aimlessnessz.egg-info/requires.txt
+aimlessnessz.egg-info/top_level.txt
