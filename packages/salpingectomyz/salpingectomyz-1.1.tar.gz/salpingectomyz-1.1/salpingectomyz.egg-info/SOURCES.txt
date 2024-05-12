@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+salpingectomyz/__init__.py
+salpingectomyz/main.py
+salpingectomyz.egg-info/PKG-INFO
+salpingectomyz.egg-info/SOURCES.txt
+salpingectomyz.egg-info/dependency_links.txt
+salpingectomyz.egg-info/requires.txt
+salpingectomyz.egg-info/top_level.txt
