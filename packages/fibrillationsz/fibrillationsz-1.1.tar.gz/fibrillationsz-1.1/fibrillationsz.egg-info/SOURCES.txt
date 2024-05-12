@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fibrillationsz/__init__.py
+fibrillationsz/main.py
+fibrillationsz.egg-info/PKG-INFO
+fibrillationsz.egg-info/SOURCES.txt
+fibrillationsz.egg-info/dependency_links.txt
+fibrillationsz.egg-info/requires.txt
+fibrillationsz.egg-info/top_level.txt
