@@ -1,0 +1,10 @@
+crepr/__init__.py,sha256=wdaKkQ7dsgs8UZtU_lH4R8ABv5_3Z0eCpV1PY7l8fQs,102
+crepr/about.py,sha256=X_rWnKBVQ9df751Z6jMPoPooRNRzTAi70W0tweyd710,64
+crepr/crepr.py,sha256=yhV89B5JFCkOVVJ9uMkxoBvhM4t0ZqgsjC7TuKawVfY,11203
+crepr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crepr-0.3.0.dist-info/LICENSE,sha256=_X9V-kYDyCAfHPfI9PuALnUwbS7f9LxaX78ZJqNqNp0,1076
+crepr-0.3.0.dist-info/METADATA,sha256=s9LnyrSbz96G-OyvDHybzrtOQFX6nURh-e65f04OBkI,6667
+crepr-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+crepr-0.3.0.dist-info/entry_points.txt,sha256=KUXfIMCDfldUIpSltGa3sC0PRiU12foTa-MQ33Q15jE,42
+crepr-0.3.0.dist-info/top_level.txt,sha256=NoEA0uWH1TfItX3-sx5iosH2TfByPQx-QXaptaeJ32Y,6
+crepr-0.3.0.dist-info/RECORD,,
