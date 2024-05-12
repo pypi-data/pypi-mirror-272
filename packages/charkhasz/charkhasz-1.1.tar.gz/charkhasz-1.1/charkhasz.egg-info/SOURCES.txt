@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+charkhasz/__init__.py
+charkhasz/main.py
+charkhasz.egg-info/PKG-INFO
+charkhasz.egg-info/SOURCES.txt
+charkhasz.egg-info/dependency_links.txt
+charkhasz.egg-info/requires.txt
+charkhasz.egg-info/top_level.txt
