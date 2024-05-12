@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rakelyz/__init__.py
+rakelyz/main.py
+rakelyz.egg-info/PKG-INFO
+rakelyz.egg-info/SOURCES.txt
+rakelyz.egg-info/dependency_links.txt
+rakelyz.egg-info/requires.txt
+rakelyz.egg-info/top_level.txt
