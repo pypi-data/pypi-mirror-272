@@ -1,0 +1,26 @@
+from typing import overload
+from typing import TypeVar
+
+net_minecraft_entity_data_DataTracker_SerializedEntry_java_util_Optional_net_minecraft_text_Text__ = TypeVar("net_minecraft_entity_data_DataTracker_SerializedEntry_java_util_Optional_net_minecraft_text_Text__")
+DataTracker_SerializedEntry = net_minecraft_entity_data_DataTracker_SerializedEntry_java_util_Optional_net_minecraft_text_Text__
+
+net_minecraft_entity_data_DataTracker_Entry_java_util_Optional_net_minecraft_text_Text__ = TypeVar("net_minecraft_entity_data_DataTracker_Entry_java_util_Optional_net_minecraft_text_Text__")
+DataTracker_Entry = net_minecraft_entity_data_DataTracker_Entry_java_util_Optional_net_minecraft_text_Text__
+
+org_spongepowered_asm_mixin_injection_callback_CallbackInfo = TypeVar("org_spongepowered_asm_mixin_injection_callback_CallbackInfo")
+CallbackInfo = org_spongepowered_asm_mixin_injection_callback_CallbackInfo
+
+
+class MixinDataTracker:
+
+	@overload
+	def __init__(self) -> None:
+		pass
+
+	@overload
+	def onCopyToFrom(self, to: DataTracker_Entry, from_: DataTracker_SerializedEntry, ci: CallbackInfo) -> None:
+		pass
+
+	pass
+
+
