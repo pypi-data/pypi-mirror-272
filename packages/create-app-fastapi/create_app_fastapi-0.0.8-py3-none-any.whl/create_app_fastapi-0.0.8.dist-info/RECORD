@@ -1,0 +1,8 @@
+projectfastapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+projectfastapi/main.py,sha256=NjvjLO1M1bm3wyg6Ox8r-pe-eXUTLQZrX4Cz6dGphs0,5660
+projectfastapi/source.py,sha256=NY-iGFuEU8bfHxbxrpC6bdQ-KOctwAfENUVZhOpkB4Q,2647
+create_app_fastapi-0.0.8.dist-info/METADATA,sha256=OFPrxydRmD8jMmY2J2WANJN4r03xSAxnfRDC0ybLs7o,1118
+create_app_fastapi-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+create_app_fastapi-0.0.8.dist-info/entry_points.txt,sha256=qe3X3ED5aQziaFgFU__kdWX4j1TOnNq9vKJr8QMrh2Q,65
+create_app_fastapi-0.0.8.dist-info/top_level.txt,sha256=2jptO-aEj8hMtiE-aPw3GF9wrglB8vOxRLLfl1cNxow,15
+create_app_fastapi-0.0.8.dist-info/RECORD,,
