@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+polygamistsz/__init__.py
+polygamistsz/main.py
+polygamistsz.egg-info/PKG-INFO
+polygamistsz.egg-info/SOURCES.txt
+polygamistsz.egg-info/dependency_links.txt
+polygamistsz.egg-info/requires.txt
+polygamistsz.egg-info/top_level.txt
