@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rhadamanthinez/__init__.py
+rhadamanthinez/main.py
+rhadamanthinez.egg-info/PKG-INFO
+rhadamanthinez.egg-info/SOURCES.txt
+rhadamanthinez.egg-info/dependency_links.txt
+rhadamanthinez.egg-info/requires.txt
+rhadamanthinez.egg-info/top_level.txt
