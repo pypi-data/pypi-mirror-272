@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=67.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "comedy"
+version = "0.0.1"
+authors = [
+    {name="Alexander Fedotov", email="alex.fedotov@aol.com"},
+]
+description = "Comedy (Ancient Greek: κωμῳδία) was one of the final three principal dramatic forms."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/alxfed/comedy"
+"Bug Tracker" = "https://github.com/alxfed/comedy/issues"
