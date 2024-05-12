@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+foveolaz/__init__.py
+foveolaz/main.py
+foveolaz.egg-info/PKG-INFO
+foveolaz.egg-info/SOURCES.txt
+foveolaz.egg-info/dependency_links.txt
+foveolaz.egg-info/requires.txt
+foveolaz.egg-info/top_level.txt
