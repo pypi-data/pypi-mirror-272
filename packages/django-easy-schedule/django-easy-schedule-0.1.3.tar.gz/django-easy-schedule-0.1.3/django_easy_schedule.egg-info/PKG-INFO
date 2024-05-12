@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: django-easy-schedule
+Version: 0.1.3
+Summary: Django integration with schedule module
+Home-page: https://github.com/waqqas/django-easy-schedule
+Author: Waqqas Jabbar
+Author-email: waqqas.jabbar@egmail.com
+License: MIT
+Keywords: django schedule
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### django-easy-schedule
+Integration of Python schedule library with Django
+
+### Installation
+
+Add `"django_easy_schedule"` to your `INSTALLED_APPS` settings like this:
+
+```
+INSTALLED_APPS = (
+    "django_easy_schedule",
+    ...
+)
+```
+
+### Usage
+Create a file named `jobs.py` in any installed app, like this:
+
+```
+from schedule import every, repeat
+
+
+@repeat(every(1).seconds)
+def run_job():
+    try:
+        ## Do your work here
+        pass
+    except KeyboardInterrupt:
+        pass
+
+```
+
+### Running jobs
+
+To run the jobs use the following command
+
+`python manage.py jobs run`
+
+
+### More documentation
+
+For more information check the documentation of [`schedule`](https://schedule.readthedocs.io/en/stable/index.html) package.
+
