@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unsubjugatedz/__init__.py
+unsubjugatedz/main.py
+unsubjugatedz.egg-info/PKG-INFO
+unsubjugatedz.egg-info/SOURCES.txt
+unsubjugatedz.egg-info/dependency_links.txt
+unsubjugatedz.egg-info/requires.txt
+unsubjugatedz.egg-info/top_level.txt
