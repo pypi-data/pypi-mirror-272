@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+squillsz/__init__.py
+squillsz/main.py
+squillsz.egg-info/PKG-INFO
+squillsz.egg-info/SOURCES.txt
+squillsz.egg-info/dependency_links.txt
+squillsz.egg-info/requires.txt
+squillsz.egg-info/top_level.txt
