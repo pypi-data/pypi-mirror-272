@@ -1,0 +1,8 @@
+setup.py
+moji/__init__.py
+moji/moji.py
+mojii.egg-info/PKG-INFO
+mojii.egg-info/SOURCES.txt
+mojii.egg-info/dependency_links.txt
+mojii.egg-info/requires.txt
+mojii.egg-info/top_level.txt
