@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+plicatulatez/__init__.py
+plicatulatez/main.py
+plicatulatez.egg-info/PKG-INFO
+plicatulatez.egg-info/SOURCES.txt
+plicatulatez.egg-info/dependency_links.txt
+plicatulatez.egg-info/requires.txt
+plicatulatez.egg-info/top_level.txt
