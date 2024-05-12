@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+siderolitez/__init__.py
+siderolitez/main.py
+siderolitez.egg-info/PKG-INFO
+siderolitez.egg-info/SOURCES.txt
+siderolitez.egg-info/dependency_links.txt
+siderolitez.egg-info/requires.txt
+siderolitez.egg-info/top_level.txt
