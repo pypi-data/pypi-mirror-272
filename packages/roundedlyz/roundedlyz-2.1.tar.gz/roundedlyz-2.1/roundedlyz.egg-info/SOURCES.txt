@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+roundedlyz/__init__.py
+roundedlyz/main.py
+roundedlyz.egg-info/PKG-INFO
+roundedlyz.egg-info/SOURCES.txt
+roundedlyz.egg-info/dependency_links.txt
+roundedlyz.egg-info/requires.txt
+roundedlyz.egg-info/top_level.txt
