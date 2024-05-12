@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pirangaz/__init__.py
+pirangaz/main.py
+pirangaz.egg-info/PKG-INFO
+pirangaz.egg-info/SOURCES.txt
+pirangaz.egg-info/dependency_links.txt
+pirangaz.egg-info/requires.txt
+pirangaz.egg-info/top_level.txt
