@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+retranscribez/__init__.py
+retranscribez/main.py
+retranscribez.egg-info/PKG-INFO
+retranscribez.egg-info/SOURCES.txt
+retranscribez.egg-info/dependency_links.txt
+retranscribez.egg-info/requires.txt
+retranscribez.egg-info/top_level.txt
