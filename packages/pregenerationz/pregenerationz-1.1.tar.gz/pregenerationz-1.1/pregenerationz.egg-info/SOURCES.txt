@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pregenerationz/__init__.py
+pregenerationz/main.py
+pregenerationz.egg-info/PKG-INFO
+pregenerationz.egg-info/SOURCES.txt
+pregenerationz.egg-info/dependency_links.txt
+pregenerationz.egg-info/requires.txt
+pregenerationz.egg-info/top_level.txt
