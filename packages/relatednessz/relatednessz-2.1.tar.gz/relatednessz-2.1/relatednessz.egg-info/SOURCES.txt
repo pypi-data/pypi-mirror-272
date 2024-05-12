@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+relatednessz/__init__.py
+relatednessz/main.py
+relatednessz.egg-info/PKG-INFO
+relatednessz.egg-info/SOURCES.txt
+relatednessz.egg-info/dependency_links.txt
+relatednessz.egg-info/requires.txt
+relatednessz.egg-info/top_level.txt
