@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+methylatedz/__init__.py
+methylatedz/main.py
+methylatedz.egg-info/PKG-INFO
+methylatedz.egg-info/SOURCES.txt
+methylatedz.egg-info/dependency_links.txt
+methylatedz.egg-info/requires.txt
+methylatedz.egg-info/top_level.txt
