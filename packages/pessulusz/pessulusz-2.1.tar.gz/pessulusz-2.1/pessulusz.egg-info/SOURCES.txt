@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pessulusz/__init__.py
+pessulusz/main.py
+pessulusz.egg-info/PKG-INFO
+pessulusz.egg-info/SOURCES.txt
+pessulusz.egg-info/dependency_links.txt
+pessulusz.egg-info/requires.txt
+pessulusz.egg-info/top_level.txt
