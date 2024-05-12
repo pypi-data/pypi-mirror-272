@@ -1,0 +1,118 @@
+[project]
+name = "pyCubes"
+version = "0.4.2"
+description = "Library for creating servers and clients for Minecraft Java Edition"
+authors = [
+    { name = "DmitryDavis", email = "dmitrydavis@protonmail.com" },
+    { name = "Dmitry Davis", email = "dmitrydavis@protonmail.com" },
+]
+dependencies = [
+    "anyio>=4.3.0",
+    "nbtlib>=2.0.4",
+]
+requires-python = "<4.0,>=3.10"
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Internet",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/DavisDmitry/pyCubes"
+documentation = "https://pycubes.dmitrydavis.xyz"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "trio>=0.25.0",
+]
+linters = [
+    "black>=24.4.2",
+    "isort>=5.13.2",
+    "mypy>=1.10.0",
+    "pylint>=3.1.0",
+]
+tests = [
+    "pytest>=8.2.0",
+    "pytest-cov>=5.0.0",
+]
+docs = [
+    "mkdocs-material>=9.5.20",
+    "mkdocs-static-i18n>=1.2.2",
+    "pymdown-extensions>=10.8.1",
+]
+
+[tool.pdm.scripts]
+_isort_format = "isort ."
+_black_format = "black ."
+_mypy = "mypy cubes tests"
+_pylint = "pylint cubes"
+_isort_lint = "isort --check --diff ."
+_black_lint = "black --check --diff ."
+test = "pytest --cov=cubes --cov-report=term-missing"
+docs-serve = "mkdocs serve"
+docs-build = "mkdocs build"
+docs-deploy = "mkdocs gh-deploy -m \"📝 Update docs\""
+
+[tool.pdm.scripts.format]
+composite = [
+    "_isort_format",
+    "_black_format",
+]
+
+[tool.pdm.scripts.lint]
+composite = [
+    "_mypy",
+    "_pylint",
+    "_isort_lint",
+    "_black_lint",
+]
+keep_going = true
+
+[tool.pdm.build]
+includes = [
+    "cubes",
+]
+
+[tool.black]
+target-version = [
+    "py310",
+]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.pylint.message_control]
+disable = [
+    "C0112",
+    "C0114",
+    "C0115",
+    "C0116",
+]
