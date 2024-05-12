@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+petulantlyz/__init__.py
+petulantlyz/main.py
+petulantlyz.egg-info/PKG-INFO
+petulantlyz.egg-info/SOURCES.txt
+petulantlyz.egg-info/dependency_links.txt
+petulantlyz.egg-info/requires.txt
+petulantlyz.egg-info/top_level.txt
