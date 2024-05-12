@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+basilissaz/__init__.py
+basilissaz/main.py
+basilissaz.egg-info/PKG-INFO
+basilissaz.egg-info/SOURCES.txt
+basilissaz.egg-info/dependency_links.txt
+basilissaz.egg-info/requires.txt
+basilissaz.egg-info/top_level.txt
