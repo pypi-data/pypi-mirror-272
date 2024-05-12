@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: comedy
+Version: 0.0.1
+Summary: Comedy (Ancient Greek: κωμῳδία) was one of the final three principal dramatic forms.
+Author-email: Alexander Fedotov <alex.fedotov@aol.com>
+Project-URL: Homepage, https://github.com/alxfed/comedy
+Project-URL: Bug Tracker, https://github.com/alxfed/comedy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Comedy
+Comedy (Ancient Greek: κωμῳδία) was one of the final three principal dramatic forms.
+<pre>
+  pip install comedy
+</pre>
+Then:
+```Python
+  # Python
+  import comedy
+```
