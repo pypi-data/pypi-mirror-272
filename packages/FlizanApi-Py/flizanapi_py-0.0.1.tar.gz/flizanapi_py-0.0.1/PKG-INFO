@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: FlizanApi-Py
+Version: 0.0.1
+Summary: Простая библиотека для взаимодействия с FlizanApi
+Project-URL: Homepage, https://github.com/TUUVCOME/flizanapi-py
+Project-URL: Issues, https://github.com/TUUVCOME/flizanapi-py/issues
+Author-email: refil <ru90671@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+
+# Начало
+
+Первым делом мы должны установить нашу библиотеку.
+```pip install FlizanApi-Py``` или ```pip install --upgrade FlizanApi-Py```
+
+
+# Получение информации о сервере
+
+Получение информации о **сервере** осуществляется через функцию ```get_server_info(token="<ВАШ СЕКРЕТНЫЙ ТОКЕН FlizanAPI>")```
+
+### Все функции
+```
+get_server_info(token="<ВАШ СЕКРЕТНЫЙ ТОКЕН FlizanAPI>")
+```
+флизан доделает
