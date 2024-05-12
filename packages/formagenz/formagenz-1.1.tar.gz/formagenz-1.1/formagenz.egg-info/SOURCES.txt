@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+formagenz/__init__.py
+formagenz/main.py
+formagenz.egg-info/PKG-INFO
+formagenz.egg-info/SOURCES.txt
+formagenz.egg-info/dependency_links.txt
+formagenz.egg-info/requires.txt
+formagenz.egg-info/top_level.txt
