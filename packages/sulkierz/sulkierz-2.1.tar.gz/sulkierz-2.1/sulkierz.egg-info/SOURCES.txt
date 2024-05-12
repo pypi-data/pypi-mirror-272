@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sulkierz/__init__.py
+sulkierz/main.py
+sulkierz.egg-info/PKG-INFO
+sulkierz.egg-info/SOURCES.txt
+sulkierz.egg-info/dependency_links.txt
+sulkierz.egg-info/requires.txt
+sulkierz.egg-info/top_level.txt
