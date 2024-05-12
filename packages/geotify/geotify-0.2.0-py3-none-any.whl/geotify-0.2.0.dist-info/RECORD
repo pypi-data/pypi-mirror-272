@@ -1,0 +1,16 @@
+geotify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geotify/command.py,sha256=jW5AYYCUvx-w0KKuBigUHf6vo5vlnVjX2LIVHAKCgNs,756
+geotify/map.py,sha256=kl3xW9I5QRvsl-5kY0d2-ngMimT7ryhoWssFrGgW4OI,10591
+geotify/utils.py,sha256=4ko3RTQL7wRN9Qr96bUGK0rUZqbw2r8Q_oNBxqo0JQQ,651
+geotify/datasets/Map_Korea.json,sha256=LYQEaUaAAybjogPr30JW9fAlEfyPpHb3vblbPT9DCSI,37830
+geotify/datasets/TL_SCCO_CTPRVN.json,sha256=jNCNYfK534Mc8RTAmNMKO7qfbw3LCChxDb_vB7rQXI0,327424
+geotify/datasets/aaa.csv,sha256=J9n83KpTgbHT-KDHyNXFZSfj5Y2nSFEWn4CS5KxL9Zg,2782
+geotify/datasets/base_korea_map.json,sha256=JpdtQoGgmYu24kwfXfLap9U1qTu5leE5jiCZL_9Y2Zo,375223
+geotify/datasets/강원도.csv,sha256=bbR1Tr4uVXD22oTtTGkcfFkoIw-w4YTKM001AQ2VqQ8,872
+geotify/datasets/서울_인구밀도.csv,sha256=OjctZlwaHOguEFYlgBvxqviduq3McS1-tCckLcJC2Sc,1303
+geotify/datasets/전북특별자치도_인구밀도.csv,sha256=kAhr6Ia9BTYafRk2u1ePBS0tvj4z7kFjIc3tABxTC2M,1741
+geotify-0.2.0.dist-info/METADATA,sha256=eLeC4_b7nGTVPeVscmS-MrTXUYRZE6E1xH0619bhD-4,4442
+geotify-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+geotify-0.2.0.dist-info/entry_points.txt,sha256=ozstSa5J2wEdfZsDuPxxx2-txOwYN-H3a_Kd--zCpiA,49
+geotify-0.2.0.dist-info/top_level.txt,sha256=-WyFyDbyZHXyAbTRjv5_B4qiYZzLg0EMFjcVo1KTsT0,8
+geotify-0.2.0.dist-info/RECORD,,
