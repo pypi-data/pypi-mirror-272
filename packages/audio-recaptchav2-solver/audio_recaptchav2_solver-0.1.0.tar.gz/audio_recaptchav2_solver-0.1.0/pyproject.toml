@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "audio-recaptchav2-solver"
+version = "0.1.0"
+description = ""
+authors = ["Hirthick Raj <hirthickraj@jmangroup.com>","Arjun P <arjunp@jmangroup.com>"]
+readme = "README.md"
+packages = [{include = "audio_recaptchav2_solver"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+whisper = "^1.1.10"
+selenium = "^4.20.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
