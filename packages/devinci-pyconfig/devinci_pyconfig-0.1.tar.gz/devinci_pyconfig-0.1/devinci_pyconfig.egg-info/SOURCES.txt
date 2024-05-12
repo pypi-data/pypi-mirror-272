@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+config.ini
+setup.py
+devinci_pyconfig/__init__.py
+devinci_pyconfig/config.py
+devinci_pyconfig.egg-info/.gitignore
+devinci_pyconfig.egg-info/PKG-INFO
+devinci_pyconfig.egg-info/SOURCES.txt
+devinci_pyconfig.egg-info/dependency_links.txt
+devinci_pyconfig.egg-info/requires.txt
+devinci_pyconfig.egg-info/top_level.txt
