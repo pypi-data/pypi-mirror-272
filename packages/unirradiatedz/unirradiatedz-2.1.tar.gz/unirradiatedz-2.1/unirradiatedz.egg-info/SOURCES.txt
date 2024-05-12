@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unirradiatedz/__init__.py
+unirradiatedz/main.py
+unirradiatedz.egg-info/PKG-INFO
+unirradiatedz.egg-info/SOURCES.txt
+unirradiatedz.egg-info/dependency_links.txt
+unirradiatedz.egg-info/requires.txt
+unirradiatedz.egg-info/top_level.txt
