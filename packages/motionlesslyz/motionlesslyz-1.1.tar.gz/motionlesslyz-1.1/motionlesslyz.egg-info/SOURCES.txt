@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+motionlesslyz/__init__.py
+motionlesslyz/main.py
+motionlesslyz.egg-info/PKG-INFO
+motionlesslyz.egg-info/SOURCES.txt
+motionlesslyz.egg-info/dependency_links.txt
+motionlesslyz.egg-info/requires.txt
+motionlesslyz.egg-info/top_level.txt
