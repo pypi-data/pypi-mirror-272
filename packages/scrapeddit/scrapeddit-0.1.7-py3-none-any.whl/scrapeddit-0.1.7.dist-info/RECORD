@@ -1,0 +1,11 @@
+scrapeddit/Dataset.py,sha256=I75dghnPfAV6WMNOtHC-bdKllWEAfE7j6zQV-OQMmhU,1516
+scrapeddit/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+scrapeddit/redditdl.py,sha256=ghzbxfEkFnYA9RHikGguBmhGL2f_mmOoJPJnIHGAhhA,3602
+scrapeddit/scrapedit.py,sha256=eeiAq1azFoQBS9gpa-wxPPjnq7qJq3N0ObHuktCyXTw,2055
+scrapeddit/showit.py,sha256=_eQLRavntcEn7dVBes1Ay6iGK6yyl7kgR9o8_4CtmNo,2396
+scrapeddit/transforms.py,sha256=vk0FMNul3rQEmB5RCBPfMhDRTgZNp_gPgbzCVzxfpNs,576
+scrapeddit-0.1.7.dist-info/LICENSE.txt,sha256=jvIoYo72ToSnU7zUDIol8imJ8mR2lDK98oEG6FgtzOM,1063
+scrapeddit-0.1.7.dist-info/METADATA,sha256=T8PMDAahX5MKwk5lBpb-plOHh5-CsGgL_K5LsUz87_o,3037
+scrapeddit-0.1.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scrapeddit-0.1.7.dist-info/top_level.txt,sha256=Z00c7saYnWq3YAGuTmwnSIv2S62SADfQ0fFjtmkTelI,11
+scrapeddit-0.1.7.dist-info/RECORD,,
