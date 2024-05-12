@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+shawlingz/__init__.py
+shawlingz/main.py
+shawlingz.egg-info/PKG-INFO
+shawlingz.egg-info/SOURCES.txt
+shawlingz.egg-info/dependency_links.txt
+shawlingz.egg-info/requires.txt
+shawlingz.egg-info/top_level.txt
