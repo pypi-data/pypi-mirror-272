@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sussz/__init__.py
+sussz/main.py
+sussz.egg-info/PKG-INFO
+sussz.egg-info/SOURCES.txt
+sussz.egg-info/dependency_links.txt
+sussz.egg-info/requires.txt
+sussz.egg-info/top_level.txt
