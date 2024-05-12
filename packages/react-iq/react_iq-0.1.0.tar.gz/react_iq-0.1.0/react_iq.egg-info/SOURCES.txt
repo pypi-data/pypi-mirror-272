@@ -1,0 +1,8 @@
+Licence.txt
+README.md
+setup.py
+Reaction/__init__.py
+react_iq.egg-info/PKG-INFO
+react_iq.egg-info/SOURCES.txt
+react_iq.egg-info/dependency_links.txt
+react_iq.egg-info/top_level.txt
