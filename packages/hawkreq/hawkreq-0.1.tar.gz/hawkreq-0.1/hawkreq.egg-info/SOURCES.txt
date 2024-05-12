@@ -1,0 +1,6 @@
+setup.py
+hawkreq.egg-info/PKG-INFO
+hawkreq.egg-info/SOURCES.txt
+hawkreq.egg-info/dependency_links.txt
+hawkreq.egg-info/entry_points.txt
+hawkreq.egg-info/top_level.txt
