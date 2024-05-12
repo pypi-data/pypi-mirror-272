@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thaumantiasz/__init__.py
+thaumantiasz/main.py
+thaumantiasz.egg-info/PKG-INFO
+thaumantiasz.egg-info/SOURCES.txt
+thaumantiasz.egg-info/dependency_links.txt
+thaumantiasz.egg-info/requires.txt
+thaumantiasz.egg-info/top_level.txt
