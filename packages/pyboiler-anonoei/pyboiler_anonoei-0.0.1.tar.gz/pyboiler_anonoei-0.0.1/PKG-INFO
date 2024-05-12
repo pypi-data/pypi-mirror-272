@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyboiler_anonoei
+Version: 0.0.1
+Summary: Various generic python helpers so I don't keep rewriting them
+Author-email: Anonoei <dev@anonoei.com>
+Project-URL: Homepage, https://github.com/anonoei/pyboiler
+Project-URL: Issues, https://github.com/anonoei/pyboiler/issues
+Keywords: anonoei,boilerplate
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: bumpver; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# pyboiler_anonoei
+ Various generic python helpers so I don't keep rewriting them
