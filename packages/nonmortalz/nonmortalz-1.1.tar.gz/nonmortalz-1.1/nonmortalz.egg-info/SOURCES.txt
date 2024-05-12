@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonmortalz/__init__.py
+nonmortalz/main.py
+nonmortalz.egg-info/PKG-INFO
+nonmortalz.egg-info/SOURCES.txt
+nonmortalz.egg-info/dependency_links.txt
+nonmortalz.egg-info/requires.txt
+nonmortalz.egg-info/top_level.txt
