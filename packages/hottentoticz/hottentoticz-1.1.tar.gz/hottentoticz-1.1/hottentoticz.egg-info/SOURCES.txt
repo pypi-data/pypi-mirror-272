@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hottentoticz/__init__.py
+hottentoticz/main.py
+hottentoticz.egg-info/PKG-INFO
+hottentoticz.egg-info/SOURCES.txt
+hottentoticz.egg-info/dependency_links.txt
+hottentoticz.egg-info/requires.txt
+hottentoticz.egg-info/top_level.txt
