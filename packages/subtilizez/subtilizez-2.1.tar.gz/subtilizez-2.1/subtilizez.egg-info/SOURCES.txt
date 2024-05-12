@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subtilizez/__init__.py
+subtilizez/main.py
+subtilizez.egg-info/PKG-INFO
+subtilizez.egg-info/SOURCES.txt
+subtilizez.egg-info/dependency_links.txt
+subtilizez.egg-info/requires.txt
+subtilizez.egg-info/top_level.txt
