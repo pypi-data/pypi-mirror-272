@@ -1,0 +1,2 @@
+[console_scripts]
+ubuntu-postinstall = ubuntu_postinstall.main:main
