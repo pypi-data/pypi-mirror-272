@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+phariseez/__init__.py
+phariseez/main.py
+phariseez.egg-info/PKG-INFO
+phariseez.egg-info/SOURCES.txt
+phariseez.egg-info/dependency_links.txt
+phariseez.egg-info/requires.txt
+phariseez.egg-info/top_level.txt
