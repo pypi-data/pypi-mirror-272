@@ -1,0 +1,7 @@
+setuptools>=60.8
+
+[:python_version < "3.11"]
+tomli>=1.2.1
+
+[dev]
+ruff==0.4.3
