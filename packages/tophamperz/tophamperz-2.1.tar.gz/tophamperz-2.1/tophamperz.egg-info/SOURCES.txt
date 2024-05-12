@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tophamperz/__init__.py
+tophamperz/main.py
+tophamperz.egg-info/PKG-INFO
+tophamperz.egg-info/SOURCES.txt
+tophamperz.egg-info/dependency_links.txt
+tophamperz.egg-info/requires.txt
+tophamperz.egg-info/top_level.txt
