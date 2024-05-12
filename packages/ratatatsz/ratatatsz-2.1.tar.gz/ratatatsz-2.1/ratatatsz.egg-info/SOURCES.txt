@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ratatatsz/__init__.py
+ratatatsz/main.py
+ratatatsz.egg-info/PKG-INFO
+ratatatsz.egg-info/SOURCES.txt
+ratatatsz.egg-info/dependency_links.txt
+ratatatsz.egg-info/requires.txt
+ratatatsz.egg-info/top_level.txt
