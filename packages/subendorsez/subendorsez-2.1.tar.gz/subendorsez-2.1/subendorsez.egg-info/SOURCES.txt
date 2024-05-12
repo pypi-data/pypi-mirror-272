@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subendorsez/__init__.py
+subendorsez/main.py
+subendorsez.egg-info/PKG-INFO
+subendorsez.egg-info/SOURCES.txt
+subendorsez.egg-info/dependency_links.txt
+subendorsez.egg-info/requires.txt
+subendorsez.egg-info/top_level.txt
