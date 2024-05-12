@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+crankousz/__init__.py
+crankousz/main.py
+crankousz.egg-info/PKG-INFO
+crankousz.egg-info/SOURCES.txt
+crankousz.egg-info/dependency_links.txt
+crankousz.egg-info/requires.txt
+crankousz.egg-info/top_level.txt
