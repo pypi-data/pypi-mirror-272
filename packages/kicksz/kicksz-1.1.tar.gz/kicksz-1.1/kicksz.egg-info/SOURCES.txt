@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kicksz/__init__.py
+kicksz/main.py
+kicksz.egg-info/PKG-INFO
+kicksz.egg-info/SOURCES.txt
+kicksz.egg-info/dependency_links.txt
+kicksz.egg-info/requires.txt
+kicksz.egg-info/top_level.txt
