@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "helpers-ai"
+version = "0.0.3"
+description = "It contains few helping files which helps in the process of creating an AI project."
+authors = ["AK <akilangms542@gmail.com>"]
+maintainers = ["AK <akilangms542@gmail.com>"]
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11"
+    ]
+
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+torch = "2.2.2"
+torchvision = "0.17.2"
+tqdm = "^4.66.2"
+scikit-learn = "^1.4.2"
+pycocotools = "^2.0.7"
+pyyaml = "^6.0.1"
+opencv-python = "^4.9.0.80"
+natsort = "^8.4.0"
+imageio = "^2.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+helper = "helpers_ai.__main__:cli"
