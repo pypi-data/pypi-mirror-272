@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tipisz/__init__.py
+tipisz/main.py
+tipisz.egg-info/PKG-INFO
+tipisz.egg-info/SOURCES.txt
+tipisz.egg-info/dependency_links.txt
+tipisz.egg-info/requires.txt
+tipisz.egg-info/top_level.txt
