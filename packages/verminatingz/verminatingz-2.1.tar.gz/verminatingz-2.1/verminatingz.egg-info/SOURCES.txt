@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+verminatingz/__init__.py
+verminatingz/main.py
+verminatingz.egg-info/PKG-INFO
+verminatingz.egg-info/SOURCES.txt
+verminatingz.egg-info/dependency_links.txt
+verminatingz.egg-info/requires.txt
+verminatingz.egg-info/top_level.txt
