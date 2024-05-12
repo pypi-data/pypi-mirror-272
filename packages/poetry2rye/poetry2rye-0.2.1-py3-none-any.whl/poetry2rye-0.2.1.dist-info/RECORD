@@ -1,0 +1,10 @@
+poetry2rye/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry2rye/convert.py,sha256=h0hUiT8ju8FMbJl1zlRkzpOq2TYzm6MJfZ0Wd_55uHA,4912
+poetry2rye/main.py,sha256=Y2KMSsLSCE2WcHlqReeJ-i6ic7643rRVLEgE8dNNhSY,1208
+poetry2rye/project.py,sha256=N7fsuEcazpj_8mEp_p2eRF8ddIUA2mk_6pNupIa3DEQ,4571
+poetry2rye/utils.py,sha256=UZV2WKcL5g1rU8ix21869M--vjppdidEdE7wNNccK9w,981
+poetry2rye-0.2.1.dist-info/METADATA,sha256=lJNXMPR9jZsG9QtqNquy7-0D5hth2zsao3o5WxvEyuw,1700
+poetry2rye-0.2.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+poetry2rye-0.2.1.dist-info/entry_points.txt,sha256=Typz-RKYjBw8QIGmTmsVgchVPbWEE66rUpHkZZeM8_0,52
+poetry2rye-0.2.1.dist-info/licenses/LICENSE,sha256=wHZF-BfHLsh4otCg-K8wXuSqLFPWWiME9PS0wUk_lic,1074
+poetry2rye-0.2.1.dist-info/RECORD,,
