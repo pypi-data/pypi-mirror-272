@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prerogativityz/__init__.py
+prerogativityz/main.py
+prerogativityz.egg-info/PKG-INFO
+prerogativityz.egg-info/SOURCES.txt
+prerogativityz.egg-info/dependency_links.txt
+prerogativityz.egg-info/requires.txt
+prerogativityz.egg-info/top_level.txt
