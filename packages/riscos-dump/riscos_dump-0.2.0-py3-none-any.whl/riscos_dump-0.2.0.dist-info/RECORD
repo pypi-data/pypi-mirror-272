@@ -1,0 +1,11 @@
+riscos_dump/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+riscos_dump/__main__.py,sha256=7WvxgmnB4OjsEj2hqpKwJm6MYD-P6sp6r85rt5HDOXw,2747
+riscos_dump/dump.py,sha256=Rdop8WvZ4UkR2Txzym2SFdu2fzs0Fmxn8vPsVxTPvjk,12677
+riscos_dump/wxdump.py,sha256=FE7aZl31A8KNZVPs7tQvAXzGRJXzzo-ciqaksN1HdUA,29558
+riscos_dump/wxdumper.py,sha256=svGGydi_Q1jiVH23LkOH6MPD_sosw8vaF3H0JCOPm9k,4283
+riscos_dump-0.2.0.dist-info/LICENSE,sha256=oyTTrEZk_3Ckwi_D_GgjN21qcpNNIvJc4_OzYnSJ30c,1062
+riscos_dump-0.2.0.dist-info/METADATA,sha256=hnk4GSqnRjDUk5Er-ADhZyNrLB1cSXUGyLvBoOto2jM,5089
+riscos_dump-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+riscos_dump-0.2.0.dist-info/entry_points.txt,sha256=B2tIdAdZsDV7LdGLBsRL3eDhszaOUXAB2dizYunEnGc,59
+riscos_dump-0.2.0.dist-info/top_level.txt,sha256=r4bZkWQsfmP89G36uOFmdIFjBxvXvOpMSWHfcp-aEFw,12
+riscos_dump-0.2.0.dist-info/RECORD,,
