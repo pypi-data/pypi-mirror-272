@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+uncoachablez/__init__.py
+uncoachablez/main.py
+uncoachablez.egg-info/PKG-INFO
+uncoachablez.egg-info/SOURCES.txt
+uncoachablez.egg-info/dependency_links.txt
+uncoachablez.egg-info/requires.txt
+uncoachablez.egg-info/top_level.txt
