@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+enculturativez/__init__.py
+enculturativez/main.py
+enculturativez.egg-info/PKG-INFO
+enculturativez.egg-info/SOURCES.txt
+enculturativez.egg-info/dependency_links.txt
+enculturativez.egg-info/requires.txt
+enculturativez.egg-info/top_level.txt
