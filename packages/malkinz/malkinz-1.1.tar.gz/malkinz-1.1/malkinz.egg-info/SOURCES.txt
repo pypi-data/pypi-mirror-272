@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+malkinz/__init__.py
+malkinz/main.py
+malkinz.egg-info/PKG-INFO
+malkinz.egg-info/SOURCES.txt
+malkinz.egg-info/dependency_links.txt
+malkinz.egg-info/requires.txt
+malkinz.egg-info/top_level.txt
