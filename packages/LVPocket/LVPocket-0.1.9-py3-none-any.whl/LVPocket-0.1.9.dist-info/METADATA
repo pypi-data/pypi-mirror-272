@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: LVPocket
+Version: 0.1.9
+Summary: A Protein Binding Pocket Prediction Methods.
+Home-page: https://github.com/ZRF-ZRF/LVpocket.git
+Author: CPU-409
+Author-email: 3221051463@stu.cpu.edu.cn
+License: UNKNOWN
+Keywords: protein binding pockets prediction,lvnet
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.6, <=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: openbabel (>=2.4)
+Requires-Dist: numpy (>=1.12)
+Requires-Dist: scipy
+Requires-Dist: keras (>=2.0)
+Requires-Dist: tensorflow-gpu
+Requires-Dist: protobuf (<=3.6.1,>=3.6.1)
+Requires-Dist: biopython
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+We proposed LVPocket, a novel method that synergistically captures both local and global information of protein data through the integration of Transformer encoders, which help the model achieve better performance in binding pockets prediction. And then we tailored prediction models for data of four distinct structural classes of proteins using the transfer learning. The four fine-tuned models were trained on the baseline LVPocket model which was trained on the sc-PDB dataset. LVPocket exhibits superior performance on three independent datasets compared to current state-of-the-art methods. Additionally, the fine-tuned model outperforms the baseline model in terms of performance.
+
