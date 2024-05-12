@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+benchz/__init__.py
+benchz/main.py
+benchz.egg-info/PKG-INFO
+benchz.egg-info/SOURCES.txt
+benchz.egg-info/dependency_links.txt
+benchz.egg-info/requires.txt
+benchz.egg-info/top_level.txt
