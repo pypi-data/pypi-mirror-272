@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ExcelExtractorJsonPDF
+Version: 0.2
+Summary: Python package for converting data from Excel to JSON and PDF
+Home-page: https://github.com/IvanGael/ExcelExtractorJsonPDF
+Author: Ivan APEDO
+Author-email: apedoivan@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# ExcelExtractorJsonPDF
+
+ExcelExtractorJsonPDF is a Python package designed to simplify the process of converting data from Excel files to JSON and PDF formats. It provides easy-to-use functions that can adapt to any type of Excel file, allowing users to customize column headers and attributes dynamically.
+
+## Features
+
+- Convert Excel files to JSON format.
+- Generate PDF reports from JSON data.
+- Customize column headers and attributes for flexible data processing.
+
+## Installation
+
+You can install ExcelExtractorJsonPDF via pip:
+
+```
+pip install ExcelExtractorJsonPDF
+```
+
+
+## Usage
+
+```
+from ExcelExtractorJsonPDF.converter import excel_to_json, json_to_pdf
+
+# Example usage:
+excel_file_path = 'path/to/your/excel/file.xlsx'
+table_header = ["Recruiters", "Cabinets", "LinkedIn", "Mail"]
+attrs = ["Recruteurs", "Cabinets", "LinkedIn", "Mail Pylote"]
+
+json_data = excel_to_json(excel_file_path, attrs)
+pdf_output_path = 'output.pdf'
+
+result = json_to_pdf(json_data, pdf_output_path, table_header, attrs)
+if 'error' in result:
+    print(f'Error: {result["error"]}')
+else:
+    print(f'Success! PDF report generated at {pdf_output_path}')
+```
+
+Replace 'path/to/your/excel/file.xlsx' with the path to your Excel file. Customize table_header and attrs according to your Excel file's column headers and attributes.
+
+
+## Requirements
+- pandas
+- reportlab
+
+## License
+This project is licensed under the MIT License [License](LICENSE.md)
+
+
+
