@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dermatauxez/__init__.py
+dermatauxez/main.py
+dermatauxez.egg-info/PKG-INFO
+dermatauxez.egg-info/SOURCES.txt
+dermatauxez.egg-info/dependency_links.txt
+dermatauxez.egg-info/requires.txt
+dermatauxez.egg-info/top_level.txt
