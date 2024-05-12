@@ -1,0 +1,4 @@
+[console_scripts]
+pgwarehouse=pgwarehouse.__main__:main
+pgwh=pgwarehouse.__main__:main
+
