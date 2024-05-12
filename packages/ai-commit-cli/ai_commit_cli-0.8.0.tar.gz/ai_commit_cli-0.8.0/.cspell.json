@@ -1,0 +1,27 @@
+{
+  "words": [
+    "acked",
+    "bidi",
+    "commitizen",
+    "eifinger",
+    "httpx",
+    "kpgrtw",
+    "levelno",
+    "liblaf",
+    "pycache",
+    "pydantic",
+    "pydocstyle",
+    "pylint",
+    "pypa",
+    "pypi",
+    "pyproject",
+    "pyright",
+    "taplo",
+    "tiktoken",
+    "typer",
+    "uoyfi",
+    "venv"
+  ],
+  "ignorePaths": ["**/*-lock.*", "**/*.lock*", "**/.cspell.json"],
+  "allowCompoundWords": true
+}
