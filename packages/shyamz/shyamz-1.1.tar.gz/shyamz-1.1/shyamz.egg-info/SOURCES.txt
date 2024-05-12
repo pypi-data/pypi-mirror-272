@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+shyamz/__init__.py
+shyamz/main.py
+shyamz.egg-info/PKG-INFO
+shyamz.egg-info/SOURCES.txt
+shyamz.egg-info/dependency_links.txt
+shyamz.egg-info/requires.txt
+shyamz.egg-info/top_level.txt
