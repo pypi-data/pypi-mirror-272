@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vallotaz/__init__.py
+vallotaz/main.py
+vallotaz.egg-info/PKG-INFO
+vallotaz.egg-info/SOURCES.txt
+vallotaz.egg-info/dependency_links.txt
+vallotaz.egg-info/requires.txt
+vallotaz.egg-info/top_level.txt
