@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rapturouslyz/__init__.py
+rapturouslyz/main.py
+rapturouslyz.egg-info/PKG-INFO
+rapturouslyz.egg-info/SOURCES.txt
+rapturouslyz.egg-info/dependency_links.txt
+rapturouslyz.egg-info/requires.txt
+rapturouslyz.egg-info/top_level.txt
