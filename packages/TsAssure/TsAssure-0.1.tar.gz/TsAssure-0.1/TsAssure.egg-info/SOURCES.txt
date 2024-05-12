@@ -1,0 +1,11 @@
+README.md
+setup.py
+TsAssure/__init__.py
+TsAssure/cli.py
+TsAssure/feature_extraction.py
+TsAssure.egg-info/PKG-INFO
+TsAssure.egg-info/SOURCES.txt
+TsAssure.egg-info/dependency_links.txt
+TsAssure.egg-info/entry_points.txt
+TsAssure.egg-info/requires.txt
+TsAssure.egg-info/top_level.txt
