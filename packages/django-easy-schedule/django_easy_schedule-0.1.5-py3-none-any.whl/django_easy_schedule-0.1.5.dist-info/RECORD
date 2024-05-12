@@ -1,0 +1,14 @@
+django_easy_schedule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_easy_schedule/admin.py,sha256=ImQU7Q0SJNTigjgz1o6mizJwFEepZle5JSCBJXheLMw,29
+django_easy_schedule/apps.py,sha256=fR2VZJkbyDcVbrY8j7mNnozHDCz1TJKB7hGn_AUFIDs,433
+django_easy_schedule/models.py,sha256=o9OLSqCjxl-f58x1NghptLZ54jnJelBqJUiOVQBmwuQ,27
+django_easy_schedule/tests.py,sha256=qWDvA9ZhVCQ1rPbkoFify7o_fDirXMUdYMxF12q3WIM,26
+django_easy_schedule/views.py,sha256=F42JXgnqFqK0fajXeutyJJxwOszRxoLMNkIhfc4Z7KI,26
+django_easy_schedule/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_easy_schedule/commands/jobs.py,sha256=BkQ5EyhCAUdCEPRIPOqmgWOJ_jdmRYMcp1QJmLOKX9k,1076
+django_easy_schedule/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_easy_schedule-0.1.5.dist-info/LICENSE,sha256=Q-GxI_Hg3pli7WLDZ5sqzk1dVC5svY1g_W0K9iv5dfo,1070
+django_easy_schedule-0.1.5.dist-info/METADATA,sha256=Q1LwcyoMP67aXzwzERzdGF8acKxAPXfO1Ir4xSGb4Q8,1668
+django_easy_schedule-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_easy_schedule-0.1.5.dist-info/top_level.txt,sha256=MBiCWwkV6jIdJf42WV-Vpun2QgWQ4WC4J8GN_dsTQg8,21
+django_easy_schedule-0.1.5.dist-info/RECORD,,
