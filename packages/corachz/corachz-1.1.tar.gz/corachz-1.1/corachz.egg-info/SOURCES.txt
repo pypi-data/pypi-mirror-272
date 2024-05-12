@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+corachz/__init__.py
+corachz/main.py
+corachz.egg-info/PKG-INFO
+corachz.egg-info/SOURCES.txt
+corachz.egg-info/dependency_links.txt
+corachz.egg-info/requires.txt
+corachz.egg-info/top_level.txt
