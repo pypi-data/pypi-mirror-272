@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vermeologistz/__init__.py
+vermeologistz/main.py
+vermeologistz.egg-info/PKG-INFO
+vermeologistz.egg-info/SOURCES.txt
+vermeologistz.egg-info/dependency_links.txt
+vermeologistz.egg-info/requires.txt
+vermeologistz.egg-info/top_level.txt
