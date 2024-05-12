@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hawkshawz/__init__.py
+hawkshawz/main.py
+hawkshawz.egg-info/PKG-INFO
+hawkshawz.egg-info/SOURCES.txt
+hawkshawz.egg-info/dependency_links.txt
+hawkshawz.egg-info/requires.txt
+hawkshawz.egg-info/top_level.txt
