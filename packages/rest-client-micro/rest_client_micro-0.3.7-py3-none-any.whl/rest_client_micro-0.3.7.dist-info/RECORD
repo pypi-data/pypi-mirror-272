@@ -1,0 +1,10 @@
+rest_client_micro/__init__.py,sha256=q2_cG72til7Y-6mGxkkHwCZNBeoK5LBCmTlhg8IpYds,273
+rest_client_micro/_utils.py,sha256=R8zAc7pnGYYmiG7B7qQRLcfVr429eTj2BSEWt_vy7-Y,1031
+rest_client_micro/basic_auth.py,sha256=G2EgOU5uMM6pcVBJohLWoaO6mgTMvqO0994noxRdfZA,102
+rest_client_micro/response.py,sha256=qqoz3iOmPACeBVSmFmDSnDzIG33lXxvAIbvmQ5wuUGs,642
+rest_client_micro/rest_client.py,sha256=YEsxpDazObOkzzGD983ZnODGi_C9OWxuWZ8ufDm8DX0,7227
+rest_client_micro/rest_object.py,sha256=QZLhxp9VVkTV4eh4MQO-EAXwGsrmpHCgbIr2vndfKlw,623
+rest_client_micro-0.3.7.dist-info/METADATA,sha256=5arKY9nCf2J8wUhJFU7EhPPkv-4a6MFkd20eHeh61Zs,1768
+rest_client_micro-0.3.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+rest_client_micro-0.3.7.dist-info/licenses/LICENSE,sha256=GhTNiIQsnOc5iurLoJq5njMq2pfJQT23-SAZlfEDabg,1069
+rest_client_micro-0.3.7.dist-info/RECORD,,
