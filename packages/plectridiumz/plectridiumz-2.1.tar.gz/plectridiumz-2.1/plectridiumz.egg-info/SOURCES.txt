@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+plectridiumz/__init__.py
+plectridiumz/main.py
+plectridiumz.egg-info/PKG-INFO
+plectridiumz.egg-info/SOURCES.txt
+plectridiumz.egg-info/dependency_links.txt
+plectridiumz.egg-info/requires.txt
+plectridiumz.egg-info/top_level.txt
