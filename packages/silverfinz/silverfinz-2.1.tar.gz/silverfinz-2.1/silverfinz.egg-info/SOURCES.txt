@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+silverfinz/__init__.py
+silverfinz/main.py
+silverfinz.egg-info/PKG-INFO
+silverfinz.egg-info/SOURCES.txt
+silverfinz.egg-info/dependency_links.txt
+silverfinz.egg-info/requires.txt
+silverfinz.egg-info/top_level.txt
