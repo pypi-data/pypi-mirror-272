@@ -1,0 +1,5 @@
+QPushButton#button:active {
+    padding: 5px;
+    outline: none;
+}
+
