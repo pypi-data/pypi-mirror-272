@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sneaksbyz/__init__.py
+sneaksbyz/main.py
+sneaksbyz.egg-info/PKG-INFO
+sneaksbyz.egg-info/SOURCES.txt
+sneaksbyz.egg-info/dependency_links.txt
+sneaksbyz.egg-info/requires.txt
+sneaksbyz.egg-info/top_level.txt
