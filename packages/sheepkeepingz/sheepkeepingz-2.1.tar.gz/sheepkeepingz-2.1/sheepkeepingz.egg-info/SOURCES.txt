@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sheepkeepingz/__init__.py
+sheepkeepingz/main.py
+sheepkeepingz.egg-info/PKG-INFO
+sheepkeepingz.egg-info/SOURCES.txt
+sheepkeepingz.egg-info/dependency_links.txt
+sheepkeepingz.egg-info/requires.txt
+sheepkeepingz.egg-info/top_level.txt
