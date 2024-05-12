@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prediscriminatez/__init__.py
+prediscriminatez/main.py
+prediscriminatez.egg-info/PKG-INFO
+prediscriminatez.egg-info/SOURCES.txt
+prediscriminatez.egg-info/dependency_links.txt
+prediscriminatez.egg-info/requires.txt
+prediscriminatez.egg-info/top_level.txt
