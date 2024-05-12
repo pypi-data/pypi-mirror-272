@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+revilersz/__init__.py
+revilersz/main.py
+revilersz.egg-info/PKG-INFO
+revilersz.egg-info/SOURCES.txt
+revilersz.egg-info/dependency_links.txt
+revilersz.egg-info/requires.txt
+revilersz.egg-info/top_level.txt
