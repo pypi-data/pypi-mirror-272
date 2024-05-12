@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oliguriaz/__init__.py
+oliguriaz/main.py
+oliguriaz.egg-info/PKG-INFO
+oliguriaz.egg-info/SOURCES.txt
+oliguriaz.egg-info/dependency_links.txt
+oliguriaz.egg-info/requires.txt
+oliguriaz.egg-info/top_level.txt
