@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+phantasmicallyz/__init__.py
+phantasmicallyz/main.py
+phantasmicallyz.egg-info/PKG-INFO
+phantasmicallyz.egg-info/SOURCES.txt
+phantasmicallyz.egg-info/dependency_links.txt
+phantasmicallyz.egg-info/requires.txt
+phantasmicallyz.egg-info/top_level.txt
