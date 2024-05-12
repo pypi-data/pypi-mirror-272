@@ -1,0 +1,2 @@
+[console_scripts]
+cdbt = cdbt.main:cdbt
