@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unvivaciousz/__init__.py
+unvivaciousz/main.py
+unvivaciousz.egg-info/PKG-INFO
+unvivaciousz.egg-info/SOURCES.txt
+unvivaciousz.egg-info/dependency_links.txt
+unvivaciousz.egg-info/requires.txt
+unvivaciousz.egg-info/top_level.txt
