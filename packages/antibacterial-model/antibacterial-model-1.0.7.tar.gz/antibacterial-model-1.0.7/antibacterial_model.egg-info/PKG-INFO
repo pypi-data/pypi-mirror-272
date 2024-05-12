@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: antibacterial-model
+Version: 1.0.7
+Summary: A model for predicting antibacterial activity from SMILES strings
+Author: Chonthicha Arbsuwan, Jiratchaya Nakbang
+Author-email: chon7599@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Machine Learning model for identification of antibacterial compounds
+
+A python package developed from a machine learning model for identifying antibacterial compounds from the SMILES format.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+## Installing
+You can install the package using pip:
+
+```bash 
+pip install antibacterial-model 
+```
+## Usage
+How to use the prediction package is as follows:
+1. Import Antibacterial model package.
+2. Create an instance of Antibacterial model.
+3. Use the model to predict antibacterial activity from a text file containing SMILES structures.
+
+```python
+# import package  
+from antibacterial_model import AntibacterialModel
+
+# Create an instance of AntibacterialModel
+model = AntibacterialModel()
+
+# Use the model to make predictions
+model.predict('Your_SMILES_file.txt', 'Your_Prediction_output.txt')
+```
+Finally, the output will be saved as a text file after prediction using the model.
+
+
+### Input and output file example
+The input file must be a text file containing isomeric SMILES structures as shown in the example below:
+
+```bash
+# in input_file.txt
+C1=CC=C(C(=C1)C(=O)O)O 
+C1CCNC(C1)C2COC(O2)(C3=CC=CC=C3)C4=CC=CC=C4
+C(C(C(C(C(CO)O)O)O)O)O
+C1CC(CNC1)C(=O)NNC(=O)C2CCC3CN2C(=O)N3OS(=O)(=O)O
+C1=CN=CC=C1N
+```
+The output file will be a text file containing SMILES structures and the prediction results as shown in the example:
+
+```bash
+# in output_file.txt
+C1=CC=C(C(=C1)C(=O)O)O - Prediction : Active
+C1CCNC(C1)C2COC(O2)(C3=CC=CC=C3)C4=CC=CC=C4 - Prediction : Inactive
+C(C(C(C(C(CO)O)O)O)O)O - Prediction : Active
+C1CC(CNC1)C(=O)NNC(=O)C2CCC3CN2C(=O)N3OS(=O)(=O)O - Prediction : Inactive
+C1=CN=CC=C1N - Prediction : Inactive
+```
+## Prediction result
+The prediction output consists of 2 values:
+- **Active:** a substance **with** antibacterial properties
+- **Inactive:** a substance **without** antibacterial properties
+
+## Limitation
+The developed model is suitable only for Python language and must install libraries to match the version used by the researchers to run the code through the model for prediction results
+
+## Credits
+- Author: Chonthicha Arbsuwan, Jiratchaya  Nakbang 
+- Email: chon7599@gmail.com
+- Project URL: [GitHub](https://github.com/Chon26/Antibacterial-model) 
+
