@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sphaerioidaceaez/__init__.py
+sphaerioidaceaez/main.py
+sphaerioidaceaez.egg-info/PKG-INFO
+sphaerioidaceaez.egg-info/SOURCES.txt
+sphaerioidaceaez.egg-info/dependency_links.txt
+sphaerioidaceaez.egg-info/requires.txt
+sphaerioidaceaez.egg-info/top_level.txt
