@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bathycentesisz/__init__.py
+bathycentesisz/main.py
+bathycentesisz.egg-info/PKG-INFO
+bathycentesisz.egg-info/SOURCES.txt
+bathycentesisz.egg-info/dependency_links.txt
+bathycentesisz.egg-info/requires.txt
+bathycentesisz.egg-info/top_level.txt
