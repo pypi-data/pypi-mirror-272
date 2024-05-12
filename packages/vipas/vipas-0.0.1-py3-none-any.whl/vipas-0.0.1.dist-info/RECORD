@@ -1,0 +1,9 @@
+vipas/__init__.py,sha256=vpVN8jP4WEnuILDDFvN7vZBjkgbBX_SiluFWsZ1-V6Y,725
+vipas/_rest.py,sha256=JibGZFR4185NFWS6rtQrqk4RqEPsrpaKQjDoidv7j18,2084
+vipas/config.py,sha256=LYoeX2MP_s1G6X0TVb2jF7dvY9xbgUyZNkw9fmfCWKI,4091
+vipas/exceptions.py,sha256=psdlIpRdKKi5cO827ahVpQWjxiYPl7xPaGCM5XLTefs,3555
+vipas/model.py,sha256=DtPODyCew2IyfV_etXIOyY7zQISaj6lcV2TnqbhgMv8,6292
+vipas-0.0.1.dist-info/METADATA,sha256=SaFkEgXqOF7cdISiZvNy3vT0EKBPU6AoN4zbuzG0MsM,357
+vipas-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vipas-0.0.1.dist-info/top_level.txt,sha256=aaZmLTHbg9ak7lUZqTQrmelOE18EycmYvg-E3wG7Zh0,6
+vipas-0.0.1.dist-info/RECORD,,
