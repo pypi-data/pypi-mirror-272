@@ -1,0 +1,17 @@
+fastapi
+fastapi-crudrouter
+sqlalchemy
+pydantic<2
+
+[test]
+coverage
+gitchangelog
+isort
+mkdocs
+mypy
+pre-commit
+poetry
+pytest
+pytest-cov
+ruff
+uvicorn[standard]
