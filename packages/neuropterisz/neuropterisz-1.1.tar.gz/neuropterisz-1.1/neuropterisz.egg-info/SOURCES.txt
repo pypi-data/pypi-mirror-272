@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+neuropterisz/__init__.py
+neuropterisz/main.py
+neuropterisz.egg-info/PKG-INFO
+neuropterisz.egg-info/SOURCES.txt
+neuropterisz.egg-info/dependency_links.txt
+neuropterisz.egg-info/requires.txt
+neuropterisz.egg-info/top_level.txt
