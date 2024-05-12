@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+astereognosisz/__init__.py
+astereognosisz/main.py
+astereognosisz.egg-info/PKG-INFO
+astereognosisz.egg-info/SOURCES.txt
+astereognosisz.egg-info/dependency_links.txt
+astereognosisz.egg-info/requires.txt
+astereognosisz.egg-info/top_level.txt
