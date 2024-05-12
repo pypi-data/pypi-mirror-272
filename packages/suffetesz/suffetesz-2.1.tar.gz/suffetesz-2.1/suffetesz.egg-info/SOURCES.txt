@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+suffetesz/__init__.py
+suffetesz/main.py
+suffetesz.egg-info/PKG-INFO
+suffetesz.egg-info/SOURCES.txt
+suffetesz.egg-info/dependency_links.txt
+suffetesz.egg-info/requires.txt
+suffetesz.egg-info/top_level.txt
