@@ -1,0 +1,8 @@
+setup.py
+GRCwjt.egg-info/PKG-INFO
+GRCwjt.egg-info/SOURCES.txt
+GRCwjt.egg-info/dependency_links.txt
+GRCwjt.egg-info/requires.txt
+GRCwjt.egg-info/top_level.txt
+grcwjt/__init__.py
+grcwjt/grc.py
