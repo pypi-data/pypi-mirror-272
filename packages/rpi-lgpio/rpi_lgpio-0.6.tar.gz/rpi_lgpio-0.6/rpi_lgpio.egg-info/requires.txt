@@ -1,0 +1,9 @@
+lgpio>=0.1.0.1
+
+[doc]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
+pytest-cov
