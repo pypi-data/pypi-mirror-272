@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prefermentz/__init__.py
+prefermentz/main.py
+prefermentz.egg-info/PKG-INFO
+prefermentz.egg-info/SOURCES.txt
+prefermentz.egg-info/dependency_links.txt
+prefermentz.egg-info/requires.txt
+prefermentz.egg-info/top_level.txt
