@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+benthamismz/__init__.py
+benthamismz/main.py
+benthamismz.egg-info/PKG-INFO
+benthamismz.egg-info/SOURCES.txt
+benthamismz.egg-info/dependency_links.txt
+benthamismz.egg-info/requires.txt
+benthamismz.egg-info/top_level.txt
