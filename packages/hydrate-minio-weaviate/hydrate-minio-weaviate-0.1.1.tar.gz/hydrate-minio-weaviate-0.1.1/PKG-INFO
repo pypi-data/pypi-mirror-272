@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: hydrate-minio-weaviate
+Version: 0.1.1
+Summary: A package to fetch, store, and process documents using MinIO and Weaviate.
+Home-page: https://github.com/Cdaprod/hydrate
+Author: David Cannan
+Author-email: cdaprod@cdaprod.dev
+License: UNKNOWN
+Description: [![Process and Log URL Data](https://github.com/Cdaprod/hydrate/actions/workflows/hydrate-ts-workflow.yml/badge.svg)](https://github.com/Cdaprod/hydrate/actions/workflows/hydrate-ts-workflow.yml)
+        
+        # Hydrate is a tool for creating and populating datasets using web data
+        
+        ###### Python Requirements
+        ```bash
+        unstructured-io minio weaviate
+        ```
+        
+        ###### How to Install
+        
+        ###### How to Use
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
