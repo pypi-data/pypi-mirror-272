@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+propertyshipz/__init__.py
+propertyshipz/main.py
+propertyshipz.egg-info/PKG-INFO
+propertyshipz.egg-info/SOURCES.txt
+propertyshipz.egg-info/dependency_links.txt
+propertyshipz.egg-info/requires.txt
+propertyshipz.egg-info/top_level.txt
