@@ -1,0 +1,31 @@
+[project]
+name = "gkj_homeautomation"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Gerrit Kocherscheidt", email = "kochersg@koco-group.com" }
+]
+dependencies = [
+    "pymodbustcp>=0.2.1",
+    "numpy>=1.26.4",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+pm = "homeautomation:test_connection"
+pc = "homeautomation:test_connection_plenticore"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/homeautomation"]

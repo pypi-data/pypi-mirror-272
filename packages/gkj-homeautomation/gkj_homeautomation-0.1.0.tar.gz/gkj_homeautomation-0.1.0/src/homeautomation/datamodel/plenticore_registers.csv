@@ -1,0 +1,27 @@
+0x02;2;MODBUS Enable;;Bool;1;R/W;0x03/0x06
+0x04;4;MODBUS Unit-ID;;U16;1;R/W;0x03/0x06
+0x06;6;Inverter article number;;String;8;RO;0x03
+0x0E;14;Inverter serial number;;String;8;RO;0x03
+0x1E;30;Number of bidirectional converter;;U16;1;RO;0x03
+0x20;32;Number of AC phases;;U16;1;RO;0x03
+0x22;34;Number of PV strings;;U16;1;RO;0x03
+0x24;36;Hardware-Version;;U16;2;RO;0x03
+0x26;38;Software-Version Maincontroller (MC);;String;8;RO;0x03
+0x2E;46;Software-Version IO-Controller (IOC);;String;8;RO;0x03
+0x36;54;Power-ID;;U16;2;RO;0x03
+0x38;56;Inverter state2;;U16;2;RO;0x03
+0x64;100;Total DC power;W;Float;2;RO;0x03
+0x68;104;State of energy manager;;U32;2;RO;0x03
+0x6A;106;Home own consumption from battery;W;Float;2;RO;0x03
+0x6C;108;Home own consumption from grid;W;Float;2;RO;0x03
+0x6E;110;Total home consumption Battery;Wh;Float;2;RO;0x03
+0x70;112;Total home consumption Grid;Wh;Float;2;RO;0x03
+0x72;114;Total home consumption PV;Wh;Float;2;RO;0x03
+0x74;116;Home own consumption from PV;W;Float;2;RO;0x03
+0x76;118;Total home consumption;Wh;Float;2;RO;0x03
+0x78;120;Isolation resistance;Ohm;Float;2;RO;0x03
+0x7A;122;Power limit from EVU;%;Float;2;RO;0x03
+0x7C;124;Total home consumption rate;%;Float;2;RO;0x03
+0x90;144;Worktime;s;Float;2;RO;0x03
+0x96;150;Actual cos φ;;Float;2;RO;0x03
+0x98;152;Grid frequency;Hz;Float;2;RO;0x03
