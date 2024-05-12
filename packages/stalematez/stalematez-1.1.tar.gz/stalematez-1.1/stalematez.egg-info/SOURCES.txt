@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stalematez/__init__.py
+stalematez/main.py
+stalematez.egg-info/PKG-INFO
+stalematez.egg-info/SOURCES.txt
+stalematez.egg-info/dependency_links.txt
+stalematez.egg-info/requires.txt
+stalematez.egg-info/top_level.txt
