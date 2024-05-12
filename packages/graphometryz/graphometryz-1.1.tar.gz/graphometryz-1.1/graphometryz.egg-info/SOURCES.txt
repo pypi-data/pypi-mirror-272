@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+graphometryz/__init__.py
+graphometryz/main.py
+graphometryz.egg-info/PKG-INFO
+graphometryz.egg-info/SOURCES.txt
+graphometryz.egg-info/dependency_links.txt
+graphometryz.egg-info/requires.txt
+graphometryz.egg-info/top_level.txt
