@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+relacquerz/__init__.py
+relacquerz/main.py
+relacquerz.egg-info/PKG-INFO
+relacquerz.egg-info/SOURCES.txt
+relacquerz.egg-info/dependency_links.txt
+relacquerz.egg-info/requires.txt
+relacquerz.egg-info/top_level.txt
