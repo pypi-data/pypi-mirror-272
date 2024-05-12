@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+suckerfishesz/__init__.py
+suckerfishesz/main.py
+suckerfishesz.egg-info/PKG-INFO
+suckerfishesz.egg-info/SOURCES.txt
+suckerfishesz.egg-info/dependency_links.txt
+suckerfishesz.egg-info/requires.txt
+suckerfishesz.egg-info/top_level.txt
