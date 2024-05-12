@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+playablez/__init__.py
+playablez/main.py
+playablez.egg-info/PKG-INFO
+playablez.egg-info/SOURCES.txt
+playablez.egg-info/dependency_links.txt
+playablez.egg-info/requires.txt
+playablez.egg-info/top_level.txt
