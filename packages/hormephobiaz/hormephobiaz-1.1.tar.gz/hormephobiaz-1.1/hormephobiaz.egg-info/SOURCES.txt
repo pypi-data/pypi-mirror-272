@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hormephobiaz/__init__.py
+hormephobiaz/main.py
+hormephobiaz.egg-info/PKG-INFO
+hormephobiaz.egg-info/SOURCES.txt
+hormephobiaz.egg-info/dependency_links.txt
+hormephobiaz.egg-info/requires.txt
+hormephobiaz.egg-info/top_level.txt
