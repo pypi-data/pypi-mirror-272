@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+merycopotamusz/__init__.py
+merycopotamusz/main.py
+merycopotamusz.egg-info/PKG-INFO
+merycopotamusz.egg-info/SOURCES.txt
+merycopotamusz.egg-info/dependency_links.txt
+merycopotamusz.egg-info/requires.txt
+merycopotamusz.egg-info/top_level.txt
