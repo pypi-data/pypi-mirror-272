@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+saprolegniaceaez/__init__.py
+saprolegniaceaez/main.py
+saprolegniaceaez.egg-info/PKG-INFO
+saprolegniaceaez.egg-info/SOURCES.txt
+saprolegniaceaez.egg-info/dependency_links.txt
+saprolegniaceaez.egg-info/requires.txt
+saprolegniaceaez.egg-info/top_level.txt
