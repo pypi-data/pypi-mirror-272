@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+phalaropez/__init__.py
+phalaropez/main.py
+phalaropez.egg-info/PKG-INFO
+phalaropez.egg-info/SOURCES.txt
+phalaropez.egg-info/dependency_links.txt
+phalaropez.egg-info/requires.txt
+phalaropez.egg-info/top_level.txt
