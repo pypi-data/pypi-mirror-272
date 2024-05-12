@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+truncatorotundz/__init__.py
+truncatorotundz/main.py
+truncatorotundz.egg-info/PKG-INFO
+truncatorotundz.egg-info/SOURCES.txt
+truncatorotundz.egg-info/dependency_links.txt
+truncatorotundz.egg-info/requires.txt
+truncatorotundz.egg-info/top_level.txt
