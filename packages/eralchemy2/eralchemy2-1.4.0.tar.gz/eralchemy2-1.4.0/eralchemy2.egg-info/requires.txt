@@ -1,0 +1,11 @@
+sqlalchemy>=1.4
+pygraphviz>=1.9
+
+[ci]
+flask-sqlalchemy>=2.5.1
+psycopg2>=2.9.3
+pytest>=7.4.3
+
+[test]
+isort>=5.12
+mypy>=1.7.0
