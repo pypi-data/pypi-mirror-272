@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/philosophos/__init__.py
+src/philosophos.egg-info/PKG-INFO
+src/philosophos.egg-info/SOURCES.txt
+src/philosophos.egg-info/dependency_links.txt
+src/philosophos.egg-info/top_level.txt
