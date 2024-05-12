@@ -1,0 +1,12 @@
+cloudaciousIAC/AWS.py,sha256=jMHmIHzxHlq8l5YFsOzMhUlTGK4UjVMSgVL4KmMF8D4,1947
+cloudaciousIAC/Authinator.py,sha256=rb_1h283y7eD2u-H7xkZJQHV5Y8z54u5Q743zv20PgY,727
+cloudaciousIAC/ContainerImages.py,sha256=KDXCrNTXdL2P6i4BdQpXCjYkvrIDx7yD2vGMH_zZH4Y,3892
+cloudaciousIAC/LambdaFunction.py,sha256=rxH7ALBS-X40mMskxSWSjeLrLqCJSFNrgaswSyDGXLg,3174
+cloudaciousIAC/Naming.py,sha256=TXqaRHA-Fzsc75lmI9V2-CMQHXIxZezsJXIrtl5cU84,1361
+cloudaciousIAC/README.md,sha256=B480C3DDyJwoGJetaLvgODslqo0U9xyZCGAanJ41oNw,618
+cloudaciousIAC/StackInfo.py,sha256=AdxX_pAN0e7SZ-ek_5-ZzT5dbahD4p1vQqQdS2nZID0,2524
+cloudaciousIAC/WebhookHandler.py,sha256=XPn1l54Ez96ddRujHSob8C_ZodxJaiiLjbsqVVnRaOg,13952
+cloudaciousIAC/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudaciousiac-0.0.22.dist-info/METADATA,sha256=EBlP_U28U_bsCEsnpVWLwfbF0HUNl-TbGokKLqNLz_I,59
+cloudaciousiac-0.0.22.dist-info/WHEEL,sha256=cDcbFFSNXOE-241I5PFuLkIYfR_FM7WTlPEi33njInY,105
+cloudaciousiac-0.0.22.dist-info/RECORD,,
