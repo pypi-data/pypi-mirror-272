@@ -1,0 +1,9 @@
+yen>=0.4.2
+
+[dev]
+black
+mypy
+pytest
+pytest-cov
+pytest-xdist
+tox
