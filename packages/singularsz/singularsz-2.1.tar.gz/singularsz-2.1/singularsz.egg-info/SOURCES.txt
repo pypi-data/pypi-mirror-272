@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+singularsz/__init__.py
+singularsz/main.py
+singularsz.egg-info/PKG-INFO
+singularsz.egg-info/SOURCES.txt
+singularsz.egg-info/dependency_links.txt
+singularsz.egg-info/requires.txt
+singularsz.egg-info/top_level.txt
