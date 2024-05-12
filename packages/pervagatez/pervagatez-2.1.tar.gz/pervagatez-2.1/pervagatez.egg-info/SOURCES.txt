@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pervagatez/__init__.py
+pervagatez/main.py
+pervagatez.egg-info/PKG-INFO
+pervagatez.egg-info/SOURCES.txt
+pervagatez.egg-info/dependency_links.txt
+pervagatez.egg-info/requires.txt
+pervagatez.egg-info/top_level.txt
