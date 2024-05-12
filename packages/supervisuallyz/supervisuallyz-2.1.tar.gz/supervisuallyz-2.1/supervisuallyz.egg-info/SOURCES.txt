@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+supervisuallyz/__init__.py
+supervisuallyz/main.py
+supervisuallyz.egg-info/PKG-INFO
+supervisuallyz.egg-info/SOURCES.txt
+supervisuallyz.egg-info/dependency_links.txt
+supervisuallyz.egg-info/requires.txt
+supervisuallyz.egg-info/top_level.txt
