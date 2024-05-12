@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+phyllophagousz/__init__.py
+phyllophagousz/main.py
+phyllophagousz.egg-info/PKG-INFO
+phyllophagousz.egg-info/SOURCES.txt
+phyllophagousz.egg-info/dependency_links.txt
+phyllophagousz.egg-info/requires.txt
+phyllophagousz.egg-info/top_level.txt
