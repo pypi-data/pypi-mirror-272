@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+insculpz/__init__.py
+insculpz/main.py
+insculpz.egg-info/PKG-INFO
+insculpz.egg-info/SOURCES.txt
+insculpz.egg-info/dependency_links.txt
+insculpz.egg-info/requires.txt
+insculpz.egg-info/top_level.txt
