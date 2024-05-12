@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: satyr-play
+Version: 0.0.1
+Summary: Satyr plays were performed following the performance of a group of three tragedies.
+Author-email: Alexander Fedotov <alex.fedotov@aol.com>
+Project-URL: Homepage, https://github.com/alxfed/satyr-play
+Project-URL: Bug Tracker, https://github.com/alxfed/satyr-play/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# satyr-play
+Satyr plays were performed following the performance of a group of three tragedies.
+<pre>
+  pip install satyr-play
+</pre>
+Then:
+```Python
+  # Python
+  import satyr_play
+```

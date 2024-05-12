@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/satyr_play/__init__.py
+src/satyr_play.egg-info/PKG-INFO
+src/satyr_play.egg-info/SOURCES.txt
+src/satyr_play.egg-info/dependency_links.txt
+src/satyr_play.egg-info/top_level.txt
