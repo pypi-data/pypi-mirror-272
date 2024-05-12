@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+catastasisz/__init__.py
+catastasisz/main.py
+catastasisz.egg-info/PKG-INFO
+catastasisz.egg-info/SOURCES.txt
+catastasisz.egg-info/dependency_links.txt
+catastasisz.egg-info/requires.txt
+catastasisz.egg-info/top_level.txt
