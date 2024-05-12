@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+wikivoyage/__init__.py
+wikivoyage/core.py
+wikivoyage.egg-info/PKG-INFO
+wikivoyage.egg-info/SOURCES.txt
+wikivoyage.egg-info/dependency_links.txt
+wikivoyage.egg-info/requires.txt
+wikivoyage.egg-info/top_level.txt
