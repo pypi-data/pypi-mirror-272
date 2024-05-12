@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+whitingz/__init__.py
+whitingz/main.py
+whitingz.egg-info/PKG-INFO
+whitingz.egg-info/SOURCES.txt
+whitingz.egg-info/dependency_links.txt
+whitingz.egg-info/requires.txt
+whitingz.egg-info/top_level.txt
