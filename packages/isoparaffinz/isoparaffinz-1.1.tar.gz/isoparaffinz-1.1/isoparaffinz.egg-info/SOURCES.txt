@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+isoparaffinz/__init__.py
+isoparaffinz/main.py
+isoparaffinz.egg-info/PKG-INFO
+isoparaffinz.egg-info/SOURCES.txt
+isoparaffinz.egg-info/dependency_links.txt
+isoparaffinz.egg-info/requires.txt
+isoparaffinz.egg-info/top_level.txt
