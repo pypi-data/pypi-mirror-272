@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hommocksz/__init__.py
+hommocksz/main.py
+hommocksz.egg-info/PKG-INFO
+hommocksz.egg-info/SOURCES.txt
+hommocksz.egg-info/dependency_links.txt
+hommocksz.egg-info/requires.txt
+hommocksz.egg-info/top_level.txt
