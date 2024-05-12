@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+zerebaz/__init__.py
+zerebaz/main.py
+zerebaz.egg-info/PKG-INFO
+zerebaz.egg-info/SOURCES.txt
+zerebaz.egg-info/dependency_links.txt
+zerebaz.egg-info/requires.txt
+zerebaz.egg-info/top_level.txt
