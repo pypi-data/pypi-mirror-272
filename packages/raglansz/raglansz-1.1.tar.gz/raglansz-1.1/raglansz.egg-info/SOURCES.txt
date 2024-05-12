@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+raglansz/__init__.py
+raglansz/main.py
+raglansz.egg-info/PKG-INFO
+raglansz.egg-info/SOURCES.txt
+raglansz.egg-info/dependency_links.txt
+raglansz.egg-info/requires.txt
+raglansz.egg-info/top_level.txt
