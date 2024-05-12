@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aidennz/__init__.py
+aidennz/main.py
+aidennz.egg-info/PKG-INFO
+aidennz.egg-info/SOURCES.txt
+aidennz.egg-info/dependency_links.txt
+aidennz.egg-info/requires.txt
+aidennz.egg-info/top_level.txt
