@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+cic/__init__.py
+cic.egg-info/PKG-INFO
+cic.egg-info/SOURCES.txt
+cic.egg-info/dependency_links.txt
+cic.egg-info/top_level.txt
