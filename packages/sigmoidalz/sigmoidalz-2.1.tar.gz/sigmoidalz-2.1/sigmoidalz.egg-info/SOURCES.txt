@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sigmoidalz/__init__.py
+sigmoidalz/main.py
+sigmoidalz.egg-info/PKG-INFO
+sigmoidalz.egg-info/SOURCES.txt
+sigmoidalz.egg-info/dependency_links.txt
+sigmoidalz.egg-info/requires.txt
+sigmoidalz.egg-info/top_level.txt
