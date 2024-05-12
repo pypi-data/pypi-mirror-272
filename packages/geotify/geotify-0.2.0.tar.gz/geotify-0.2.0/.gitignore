@@ -1,0 +1,6 @@
+forgeotify
+.DS_Store
+__pycache__
+dist
+*.egg-info
+venv
