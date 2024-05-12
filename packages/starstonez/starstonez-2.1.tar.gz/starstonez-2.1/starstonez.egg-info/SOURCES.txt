@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+starstonez/__init__.py
+starstonez/main.py
+starstonez.egg-info/PKG-INFO
+starstonez.egg-info/SOURCES.txt
+starstonez.egg-info/dependency_links.txt
+starstonez.egg-info/requires.txt
+starstonez.egg-info/top_level.txt
