@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hypobenthonicz/__init__.py
+hypobenthonicz/main.py
+hypobenthonicz.egg-info/PKG-INFO
+hypobenthonicz.egg-info/SOURCES.txt
+hypobenthonicz.egg-info/dependency_links.txt
+hypobenthonicz.egg-info/requires.txt
+hypobenthonicz.egg-info/top_level.txt
