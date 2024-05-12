@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sequencingz/__init__.py
+sequencingz/main.py
+sequencingz.egg-info/PKG-INFO
+sequencingz.egg-info/SOURCES.txt
+sequencingz.egg-info/dependency_links.txt
+sequencingz.egg-info/requires.txt
+sequencingz.egg-info/top_level.txt
