@@ -1,0 +1,8 @@
+bcp47/__init__.py,sha256=Oz6dr5hIIP2Hfq9LFMA6DPYlB2vuku5CSMO1G4iVsKI,21
+bcp47/bcp47.py,sha256=TBAuLGNyryAgXNnpjY_cl03uhRxlbo34PCy76-rZ0eU,29094
+bcp47/generate-bcp47.py,sha256=HdFIfgcDdJzqAYI1OtZG8xlnBTpE631zGl1nZRbmlkw,5149
+bcp47-0.0.6.dist-info/LICENSE.txt,sha256=n90ZVEyATgxjuMYQmGWErSaRYQFFo4oduX8Wh122SPs,1092
+bcp47-0.0.6.dist-info/METADATA,sha256=JEhYp2ByaOHQLpChHlg1g8mB49RIKHbM5baYaU7vdg4,1971
+bcp47-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bcp47-0.0.6.dist-info/top_level.txt,sha256=awMUJE8DUFv9jd4xhFUEXbXPPscH48HaIYT4EskSj4g,6
+bcp47-0.0.6.dist-info/RECORD,,
