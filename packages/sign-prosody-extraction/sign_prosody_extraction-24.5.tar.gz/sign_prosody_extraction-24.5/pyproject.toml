@@ -1,0 +1,42 @@
+[project]
+name = "sign-prosody-extraction"
+version = "24.05"
+description = """Code and command-line tool for "Automated Extraction of
+Prosodic Structure from Unannotated Sign Language Video" (Sevilla et al.,
+2024)."""
+authors = [
+    { name = "Antonio F. G. Sevilla", email = "afgs@ucm.es" }
+]
+dependencies = [
+    "torch>=2.2.2",
+    "click>=8.1.7",
+    "numpy>=1.26.4",
+    "imageio[ffmpeg]>=2.34.0",
+    "matplotlib>=3.8.4",
+    "torchvision>=0.17.2",
+    "nptyping>=2.5.0",
+    "scipy>=1.13.0",
+    "scikit-learn>=1.4.2",
+    "pandas>=2.2.2",
+    "flow-vis>=0.1",
+    "mediapipe>=0.10.11",
+]
+readme = "README.md"
+requires-python = "==3.10.*"
+
+[project.scripts]
+sign-prosody-extraction = "sign_prosody_extraction.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sign_prosody_extraction"]
