@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tritylz/__init__.py
+tritylz/main.py
+tritylz.egg-info/PKG-INFO
+tritylz.egg-info/SOURCES.txt
+tritylz.egg-info/dependency_links.txt
+tritylz.egg-info/requires.txt
+tritylz.egg-info/top_level.txt
