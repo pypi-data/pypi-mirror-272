@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+empuzzlez/__init__.py
+empuzzlez/main.py
+empuzzlez.egg-info/PKG-INFO
+empuzzlez.egg-info/SOURCES.txt
+empuzzlez.egg-info/dependency_links.txt
+empuzzlez.egg-info/requires.txt
+empuzzlez.egg-info/top_level.txt
