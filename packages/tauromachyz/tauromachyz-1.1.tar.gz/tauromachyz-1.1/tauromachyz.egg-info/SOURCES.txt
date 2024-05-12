@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tauromachyz/__init__.py
+tauromachyz/main.py
+tauromachyz.egg-info/PKG-INFO
+tauromachyz.egg-info/SOURCES.txt
+tauromachyz.egg-info/dependency_links.txt
+tauromachyz.egg-info/requires.txt
+tauromachyz.egg-info/top_level.txt
