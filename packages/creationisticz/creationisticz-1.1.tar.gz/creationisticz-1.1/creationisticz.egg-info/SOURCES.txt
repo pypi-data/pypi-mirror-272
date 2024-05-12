@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+creationisticz/__init__.py
+creationisticz/main.py
+creationisticz.egg-info/PKG-INFO
+creationisticz.egg-info/SOURCES.txt
+creationisticz.egg-info/dependency_links.txt
+creationisticz.egg-info/requires.txt
+creationisticz.egg-info/top_level.txt
