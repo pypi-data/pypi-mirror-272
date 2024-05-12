@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+shebatz/__init__.py
+shebatz/main.py
+shebatz.egg-info/PKG-INFO
+shebatz.egg-info/SOURCES.txt
+shebatz.egg-info/dependency_links.txt
+shebatz.egg-info/requires.txt
+shebatz.egg-info/top_level.txt
