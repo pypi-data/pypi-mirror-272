@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oleastersz/__init__.py
+oleastersz/main.py
+oleastersz.egg-info/PKG-INFO
+oleastersz.egg-info/SOURCES.txt
+oleastersz.egg-info/dependency_links.txt
+oleastersz.egg-info/requires.txt
+oleastersz.egg-info/top_level.txt
