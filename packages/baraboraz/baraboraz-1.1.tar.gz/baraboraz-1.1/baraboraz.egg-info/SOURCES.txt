@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+baraboraz/__init__.py
+baraboraz/main.py
+baraboraz.egg-info/PKG-INFO
+baraboraz.egg-info/SOURCES.txt
+baraboraz.egg-info/dependency_links.txt
+baraboraz.egg-info/requires.txt
+baraboraz.egg-info/top_level.txt
