@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+distainedz/__init__.py
+distainedz/main.py
+distainedz.egg-info/PKG-INFO
+distainedz.egg-info/SOURCES.txt
+distainedz.egg-info/dependency_links.txt
+distainedz.egg-info/requires.txt
+distainedz.egg-info/top_level.txt
