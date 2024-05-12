@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prolepticalz/__init__.py
+prolepticalz/main.py
+prolepticalz.egg-info/PKG-INFO
+prolepticalz.egg-info/SOURCES.txt
+prolepticalz.egg-info/dependency_links.txt
+prolepticalz.egg-info/requires.txt
+prolepticalz.egg-info/top_level.txt
