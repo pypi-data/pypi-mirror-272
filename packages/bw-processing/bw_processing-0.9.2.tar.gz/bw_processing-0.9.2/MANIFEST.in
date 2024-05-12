@@ -1,0 +1,3 @@
+include bw_processing/VERSION
+include bw_processing/examples/simple.zip
+recursive-exclude dev *
