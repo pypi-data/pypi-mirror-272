@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tetanillaz/__init__.py
+tetanillaz/main.py
+tetanillaz.egg-info/PKG-INFO
+tetanillaz.egg-info/SOURCES.txt
+tetanillaz.egg-info/dependency_links.txt
+tetanillaz.egg-info/requires.txt
+tetanillaz.egg-info/top_level.txt
