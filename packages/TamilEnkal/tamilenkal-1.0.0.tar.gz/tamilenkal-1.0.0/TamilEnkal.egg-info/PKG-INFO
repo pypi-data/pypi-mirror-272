@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: TamilEnkal
+Version: 1.0.0
+Summary: A package for Tamil numeral operations.
+Home-page: https://github.com/kathirkarky/TamilEnkal/
+Author: Kathir Karky
+Author-email: kathirkarky@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# TamilEnkal
+Tamil Numerical operations
+
+# Functions
+- TamilEn: If you provide an Arabic number, it will return the corresponding Tamil number.
+- ArabuEn: If you provide a Tamil number, it will return the corresponding Arabic number.
+- TamilSutru: If you provide an Arabic number, it will return the rounded value in Tamil.
+- ArabuSutru: If you provide a Tamil number, it will return the rounded value in Arabic.
+- Perumam: If you provide two Arabic numbers, it will return the maximum in Tamil.
+- Sirumam: If you provide two Arabic numbers, it will return the minimum in Tamil.
+- Koottal: If you provide two Arabic numbers, it will return the addition of those numbers in Tamil.
+- Kazhithal: If you provide two Arabic numbers, it will return the subtraction of those numbers in Tamil.
+- Perukkal: If you provide two Arabic numbers, it will return the multiplication of those numbers in Tamil.
+- Eevu: If you provide two Arabic numbers, it will return the quotient of those numbers in Tamil.
+- Meedhi: If you provide two Arabic numbers, it will return the remainder of those numbers in Tamil.
