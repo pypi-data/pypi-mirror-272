@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gopherz/__init__.py
+gopherz/main.py
+gopherz.egg-info/PKG-INFO
+gopherz.egg-info/SOURCES.txt
+gopherz.egg-info/dependency_links.txt
+gopherz.egg-info/requires.txt
+gopherz.egg-info/top_level.txt
