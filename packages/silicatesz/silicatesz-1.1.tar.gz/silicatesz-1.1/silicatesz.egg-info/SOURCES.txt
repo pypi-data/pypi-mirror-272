@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+silicatesz/__init__.py
+silicatesz/main.py
+silicatesz.egg-info/PKG-INFO
+silicatesz.egg-info/SOURCES.txt
+silicatesz.egg-info/dependency_links.txt
+silicatesz.egg-info/requires.txt
+silicatesz.egg-info/top_level.txt
