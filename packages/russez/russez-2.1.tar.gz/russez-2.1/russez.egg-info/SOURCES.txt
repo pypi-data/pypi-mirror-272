@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+russez/__init__.py
+russez/main.py
+russez.egg-info/PKG-INFO
+russez.egg-info/SOURCES.txt
+russez.egg-info/dependency_links.txt
+russez.egg-info/requires.txt
+russez.egg-info/top_level.txt
