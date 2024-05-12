@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+teratomasz/__init__.py
+teratomasz/main.py
+teratomasz.egg-info/PKG-INFO
+teratomasz.egg-info/SOURCES.txt
+teratomasz.egg-info/dependency_links.txt
+teratomasz.egg-info/requires.txt
+teratomasz.egg-info/top_level.txt
