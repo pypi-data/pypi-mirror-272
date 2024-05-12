@@ -1,0 +1,6 @@
+build
+dist
+docs
+site
+telemetrix_uno_r4
+venv
