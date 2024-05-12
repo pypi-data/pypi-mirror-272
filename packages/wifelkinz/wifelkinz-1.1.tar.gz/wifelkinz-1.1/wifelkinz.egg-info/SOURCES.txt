@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wifelkinz/__init__.py
+wifelkinz/main.py
+wifelkinz.egg-info/PKG-INFO
+wifelkinz.egg-info/SOURCES.txt
+wifelkinz.egg-info/dependency_links.txt
+wifelkinz.egg-info/requires.txt
+wifelkinz.egg-info/top_level.txt
