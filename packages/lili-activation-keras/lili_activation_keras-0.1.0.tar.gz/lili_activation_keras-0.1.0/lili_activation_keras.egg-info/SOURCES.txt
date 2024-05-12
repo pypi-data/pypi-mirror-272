@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+lili_activation_keras.egg-info/PKG-INFO
+lili_activation_keras.egg-info/SOURCES.txt
+lili_activation_keras.egg-info/dependency_links.txt
+lili_activation_keras.egg-info/requires.txt
+lili_activation_keras.egg-info/top_level.txt
+my_activation/__init__.py
+my_activation/lili_activation.py
