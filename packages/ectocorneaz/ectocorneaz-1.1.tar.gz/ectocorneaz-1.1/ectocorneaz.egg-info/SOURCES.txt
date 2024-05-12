@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ectocorneaz/__init__.py
+ectocorneaz/main.py
+ectocorneaz.egg-info/PKG-INFO
+ectocorneaz.egg-info/SOURCES.txt
+ectocorneaz.egg-info/dependency_links.txt
+ectocorneaz.egg-info/requires.txt
+ectocorneaz.egg-info/top_level.txt
