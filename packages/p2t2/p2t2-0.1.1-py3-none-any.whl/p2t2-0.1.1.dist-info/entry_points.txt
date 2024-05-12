@@ -1,0 +1,4 @@
+[console_scripts]
+p2t2_infer = p2t2_infer:main
+p2t2_simulate = p2t2_simulate:main
+p2t2_train = p2t2_train:main
