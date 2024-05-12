@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hopcalitez/__init__.py
+hopcalitez/main.py
+hopcalitez.egg-info/PKG-INFO
+hopcalitez.egg-info/SOURCES.txt
+hopcalitez.egg-info/dependency_links.txt
+hopcalitez.egg-info/requires.txt
+hopcalitez.egg-info/top_level.txt
