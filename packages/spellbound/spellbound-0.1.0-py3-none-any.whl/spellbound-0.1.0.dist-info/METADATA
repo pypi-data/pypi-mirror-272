@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: spellbound
+Version: 0.1.0
+Summary: Spell framework
+Home-page: https://github.com/kristw/spellbound/
+Author: kristw
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cached-property
+Requires-Dist: pydantic <2
+Requires-Dist: typing-extensions
+Provides-Extra: cli
+Requires-Dist: typer >=0.12.0 ; extra == 'cli'
+Requires-Dist: rich[jupyter] ; extra == 'cli'
+Provides-Extra: test
+Requires-Dist: autoflake ==1.5.3 ; extra == 'test'
+Requires-Dist: black ==22.6.0 ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: gitchangelog ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+Requires-Dist: mkdocs ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pre-commit ; extra == 'test'
+Requires-Dist: poetry ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: typer >=0.12.0 ; extra == 'test'
+Requires-Dist: rich[jupyter] ; extra == 'test'
+
+# spellbound
+
+[![codecov](https://codecov.io/gh/kristw/spellbound/branch/main/graph/badge.svg?token=spellbound_token_here)](https://codecov.io/gh/kristw/spellbound)
+[![CI](https://github.com/kristw/spellbound/actions/workflows/main.yml/badge.svg)](https://github.com/kristw/spellbound/actions/workflows/main.yml)
+
+Spell Framework for magical errands by [kristw](https://github.com/kristw)
+
+## Install it from PyPI
+
+```bash
+pip install spellbound
+```
+
+## Usage
+
+```py
+from spellbound import BaseClass
+from spellbound import base_function
+
+BaseClass().base_method()
+base_function()
+```
+
+## Documentation
+
+TBD
+
+## Development
+
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
