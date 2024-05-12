@@ -1,0 +1,6 @@
+setup.py
+dreamlog25_calc_project.egg-info/PKG-INFO
+dreamlog25_calc_project.egg-info/SOURCES.txt
+dreamlog25_calc_project.egg-info/dependency_links.txt
+dreamlog25_calc_project.egg-info/top_level.txt
+project/calc.py
