@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name="crsq-heap"
+version="0.0.2"
+
+dependencies = [
+    "qiskit >= 1.0"
+]
+
+authors = [
+    { name="Hideo Takahashi" }
+]
+description="Qubit Heap module for qiskit"
+readme="README.md"
+requires-python=">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage="https://github.com/crsq-dev/crsq-heap"
+Issues="https://github.com/crsq-dev/crsq-heap/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/crsq/heap"]

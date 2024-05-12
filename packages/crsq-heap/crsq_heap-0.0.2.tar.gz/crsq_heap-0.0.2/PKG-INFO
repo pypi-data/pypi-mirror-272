@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: crsq-heap
+Version: 0.0.2
+Summary: Qubit Heap module for qiskit
+Project-URL: Homepage, https://github.com/crsq-dev/crsq-heap
+Project-URL: Issues, https://github.com/crsq-dev/crsq-heap/issues
+Author: Hideo Takahashi
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: qiskit>=1.0
+Description-Content-Type: text/markdown
+
+# Qubit Heap module for qiskit
+
+See the project page https://github.com/crsq-dev/crsq-heap
