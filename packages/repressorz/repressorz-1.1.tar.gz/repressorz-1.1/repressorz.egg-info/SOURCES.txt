@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+repressorz/__init__.py
+repressorz/main.py
+repressorz.egg-info/PKG-INFO
+repressorz.egg-info/SOURCES.txt
+repressorz.egg-info/dependency_links.txt
+repressorz.egg-info/requires.txt
+repressorz.egg-info/top_level.txt
