@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+valetudinarianz/__init__.py
+valetudinarianz/main.py
+valetudinarianz.egg-info/PKG-INFO
+valetudinarianz.egg-info/SOURCES.txt
+valetudinarianz.egg-info/dependency_links.txt
+valetudinarianz.egg-info/requires.txt
+valetudinarianz.egg-info/top_level.txt
