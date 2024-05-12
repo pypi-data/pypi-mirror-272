@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "autotrash"
+version = "0.4.7"
+description = "Script to automatically purge old trash"
+authors = ["Bram Neijt <bram@neijt.nl>"]
+readme = "README.md"
+repository = "https://github.com/bneijt/autotrash"
+classifiers = [
+    "Environment :: Console",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+twine = "^5.0.0"
+mypy = "^1.5.1"
+types-setuptools = "^68.2.0.0"
+pre-commit = "^3.4.0"
+ruff = "^0.3.7"
+
+[tool.poetry.scripts]
+autotrash = 'autotrash.app:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+src = ["src"]
+line-length = 100
+
+[tool.ruff.lint]
+extend-select = ["I"]
