@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stratalz/__init__.py
+stratalz/main.py
+stratalz.egg-info/PKG-INFO
+stratalz.egg-info/SOURCES.txt
+stratalz.egg-info/dependency_links.txt
+stratalz.egg-info/requires.txt
+stratalz.egg-info/top_level.txt
