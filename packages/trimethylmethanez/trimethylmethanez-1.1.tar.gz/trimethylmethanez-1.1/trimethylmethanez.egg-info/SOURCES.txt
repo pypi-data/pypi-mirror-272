@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+trimethylmethanez/__init__.py
+trimethylmethanez/main.py
+trimethylmethanez.egg-info/PKG-INFO
+trimethylmethanez.egg-info/SOURCES.txt
+trimethylmethanez.egg-info/dependency_links.txt
+trimethylmethanez.egg-info/requires.txt
+trimethylmethanez.egg-info/top_level.txt
