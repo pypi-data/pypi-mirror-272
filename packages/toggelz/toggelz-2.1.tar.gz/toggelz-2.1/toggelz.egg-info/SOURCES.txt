@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+toggelz/__init__.py
+toggelz/main.py
+toggelz.egg-info/PKG-INFO
+toggelz.egg-info/SOURCES.txt
+toggelz.egg-info/dependency_links.txt
+toggelz.egg-info/requires.txt
+toggelz.egg-info/top_level.txt
