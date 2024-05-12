@@ -1,0 +1,52 @@
+deploy_laboratory:
+  stage: deploy
+  script:
+    - echo "Deploying lab"
+  environment:
+    name: laboratory
+    url: https://lab.cloudacious.io
+
+deploy_development:
+  stage: deploy
+  script:
+    - echo "Deploying dev"
+  environment:
+    name: development
+    url: https://dev.cloudacious.io
+
+deploy_testing:
+  stage: deploy
+  script:
+    - echo "Deploying test"
+  environment:
+    name: testing
+    url: https://test.cloudacious.io
+
+deploy_staging:
+  stage: deploy
+  script:
+    - echo "Deploying staging"
+  environment:
+    name: staging
+    url: https://stage.cloudacious.io
+
+pypi_prod:
+  stage: deploy
+  image: python:latest
+  before_script:
+    - echo $CI_COMMIT_TAG
+    - cp .pypirc ~/
+    - python -m pip install --upgrade build
+    - python -m pip install --upgrade twine
+  # environment:
+  #   name: production
+  #   url: https://prod.cloudacious.io
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: manual
+  variables:
+    TWINE_PASSWORD: $PYPI_TOKEN
+    TWINE_USERNAME: "__token__"
+  script:
+    - python -m build
+    - python -m twine upload --repository $PYPI_PACKAGE_NAME dist/*
