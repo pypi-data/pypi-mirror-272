@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+servilelyz/__init__.py
+servilelyz/main.py
+servilelyz.egg-info/PKG-INFO
+servilelyz.egg-info/SOURCES.txt
+servilelyz.egg-info/dependency_links.txt
+servilelyz.egg-info/requires.txt
+servilelyz.egg-info/top_level.txt
