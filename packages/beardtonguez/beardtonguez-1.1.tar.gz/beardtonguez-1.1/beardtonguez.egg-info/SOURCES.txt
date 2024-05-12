@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+beardtonguez/__init__.py
+beardtonguez/main.py
+beardtonguez.egg-info/PKG-INFO
+beardtonguez.egg-info/SOURCES.txt
+beardtonguez.egg-info/dependency_links.txt
+beardtonguez.egg-info/requires.txt
+beardtonguez.egg-info/top_level.txt
