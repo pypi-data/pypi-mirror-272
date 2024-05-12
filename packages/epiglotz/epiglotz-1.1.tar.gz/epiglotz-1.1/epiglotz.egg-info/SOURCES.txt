@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+epiglotz/__init__.py
+epiglotz/main.py
+epiglotz.egg-info/PKG-INFO
+epiglotz.egg-info/SOURCES.txt
+epiglotz.egg-info/dependency_links.txt
+epiglotz.egg-info/requires.txt
+epiglotz.egg-info/top_level.txt
