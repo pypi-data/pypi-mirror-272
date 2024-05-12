@@ -1,0 +1,17 @@
+climwebwdqms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+climwebwdqms/admin.py,sha256=016nq8xNi5o0JPraIj--LUpd_zSxbOf0-lsDeUwHLJY,168
+climwebwdqms/apps.py,sha256=9egOykXNDRvy42ce4auII-c1y1OhBzczugIxrz3KoBA,156
+climwebwdqms/models.py,sha256=C41xH68nqFyO3GHfLaJuYRb9d5l2wbyD3ucXlViN010,1177
+climwebwdqms/serializers.py,sha256=yo6xmJC5V4mbw6m1VFmDfJdiMRikNYLLyUcYNMnQOf0,531
+climwebwdqms/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+climwebwdqms/urls.py,sha256=m6cBaeJvxxN9BZM8UR1qe7bA44b6UouPoAsjyP8dLcc,580
+climwebwdqms/views.py,sha256=QyFcLBzjL4gYoKfDxU3NU4WHkIPSGNdKdqF1nlo2viM,6542
+climwebwdqms/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+climwebwdqms/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+climwebwdqms/management/commands/fetch_transmissions.py,sha256=vqJg4bV0JCYM1Oxmg84MRnR6j_Mg3IkNAIVT8KZXZuI,9296
+climwebwdqms/migrations/0001_initial.py,sha256=C7En4O-lKxtdCJeYymWBZX4yDB7aN2bquAf0xxMBo9Q,1727
+climwebwdqms/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+climweb_wdqms-0.0.1.dist-info/METADATA,sha256=TM5Wd_WwzLym85fjbQDnkb6oSjfRtnmeqDZQ2VvbFcA,1052
+climweb_wdqms-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+climweb_wdqms-0.0.1.dist-info/top_level.txt,sha256=hSwspE-9Klilpy4bOl8Y6QeRY8J-LsEvxRLUOBK2YEE,13
+climweb_wdqms-0.0.1.dist-info/RECORD,,
