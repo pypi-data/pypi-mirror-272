@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+misapprehendedz/__init__.py
+misapprehendedz/main.py
+misapprehendedz.egg-info/PKG-INFO
+misapprehendedz.egg-info/SOURCES.txt
+misapprehendedz.egg-info/dependency_links.txt
+misapprehendedz.egg-info/requires.txt
+misapprehendedz.egg-info/top_level.txt
