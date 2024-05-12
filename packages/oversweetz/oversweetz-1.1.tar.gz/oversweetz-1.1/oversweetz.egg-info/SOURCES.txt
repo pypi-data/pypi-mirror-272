@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oversweetz/__init__.py
+oversweetz/main.py
+oversweetz.egg-info/PKG-INFO
+oversweetz.egg-info/SOURCES.txt
+oversweetz.egg-info/dependency_links.txt
+oversweetz.egg-info/requires.txt
+oversweetz.egg-info/top_level.txt
