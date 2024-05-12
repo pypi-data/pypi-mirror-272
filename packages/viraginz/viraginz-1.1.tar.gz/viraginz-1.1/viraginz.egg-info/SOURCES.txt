@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+viraginz/__init__.py
+viraginz/main.py
+viraginz.egg-info/PKG-INFO
+viraginz.egg-info/SOURCES.txt
+viraginz.egg-info/dependency_links.txt
+viraginz.egg-info/requires.txt
+viraginz.egg-info/top_level.txt
