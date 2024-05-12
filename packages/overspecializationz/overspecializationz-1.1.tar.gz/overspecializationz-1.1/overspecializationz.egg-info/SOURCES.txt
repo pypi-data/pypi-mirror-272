@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+overspecializationz/__init__.py
+overspecializationz/main.py
+overspecializationz.egg-info/PKG-INFO
+overspecializationz.egg-info/SOURCES.txt
+overspecializationz.egg-info/dependency_links.txt
+overspecializationz.egg-info/requires.txt
+overspecializationz.egg-info/top_level.txt
