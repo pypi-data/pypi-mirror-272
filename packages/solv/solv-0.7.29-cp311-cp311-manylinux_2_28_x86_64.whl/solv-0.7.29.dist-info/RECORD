@@ -1,0 +1,10 @@
+solv-0.7.29.dist-info/METADATA,sha256=MABW8YXEG-fjoXxGwQhUPMMLfRciVx7nAej6Jtpx1B0,1821
+solv-0.7.29.dist-info/LICENSE.BSD,sha256=V_Faz7Kfvvd0l3nglqWIXGC3FmM-NEhKIbtxdVTAGY8,1381
+solv-0.7.29.dist-info/RECORD,,
+solv-0.7.29.dist-info/top_level.txt,sha256=lckKMhfZa6lUADuv_C32wb8YmxwNGcmITpjfMT317Fk,5
+solv-0.7.29.dist-info/WHEEL,sha256=Kh41ggVgrNWo383ZcTd2IrXJj9I_duwqyBoCIiNC_iQ,108
+solv.libs/liblzma-51a76f52.so.5.2.4,sha256=3EDuNDuc_qFaqWfrJ8TjbJH2lPntVHhFdyIyzxLyVuk,167585
+solv.libs/libxml2-e1bbf549.so.2.9.7,sha256=izJ5MXi4O4eO-Kc6-Xnx45IZ0W4xuotBNrSzwivDEdQ,1597833
+solv/_solv.so,sha256=0l4aSKTXY2-s0S95uthPIhS7zOCTMFzKTHJeDYAIQEE,5757521
+solv/__init__.py,sha256=PIQy8wVliT_UsAXI4JEspWi-_3sAInhbzQEjaoa96fY,20
+solv/solv.py,sha256=M8-5ynWuknube-2jy8_FUjL7A4MtRFoRj0nUiXYGNIA,67503
