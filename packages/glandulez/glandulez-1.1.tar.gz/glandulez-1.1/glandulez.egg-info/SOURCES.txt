@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+glandulez/__init__.py
+glandulez/main.py
+glandulez.egg-info/PKG-INFO
+glandulez.egg-info/SOURCES.txt
+glandulez.egg-info/dependency_links.txt
+glandulez.egg-info/requires.txt
+glandulez.egg-info/top_level.txt
