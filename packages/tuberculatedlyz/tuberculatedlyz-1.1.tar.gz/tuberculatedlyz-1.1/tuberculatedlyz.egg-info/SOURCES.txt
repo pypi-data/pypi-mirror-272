@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tuberculatedlyz/__init__.py
+tuberculatedlyz/main.py
+tuberculatedlyz.egg-info/PKG-INFO
+tuberculatedlyz.egg-info/SOURCES.txt
+tuberculatedlyz.egg-info/dependency_links.txt
+tuberculatedlyz.egg-info/requires.txt
+tuberculatedlyz.egg-info/top_level.txt
