@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+applosionz/__init__.py
+applosionz/main.py
+applosionz.egg-info/PKG-INFO
+applosionz.egg-info/SOURCES.txt
+applosionz.egg-info/dependency_links.txt
+applosionz.egg-info/requires.txt
+applosionz.egg-info/top_level.txt
