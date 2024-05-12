@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: readyapi-cli
+Version: 0.0.1
+Summary: Run ReadyAPI applications from the command line.
+Home-page: https://github.com/khulnasoft/readyapi-cli
+Author-Email: KhulnaSoft DevOps <info@khulnasoft.com>
+License: MIT
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Documentation, https://readyapi.khulnasoft.com
+Project-URL: Homepage, https://github.com/khulnasoft/readyapi-cli
+Project-URL: Repository, https://github.com/khulnasoft/readyapi-cli
+Requires-Python: >=3.7
+Requires-Dist: typer>=0.12.3
+Requires-Dist: readyapi
+Requires-Dist: uvicorn[standard]>=0.29.0
+Description-Content-Type: text/markdown
+
+# ReadyAPI CLI
+
+<a href="https://github.com/khulnasoft/readyapi-cli/actions?query=workflow%3ATest" target="_blank">
+    <img src="https://github.com/khulnasoft/readyapi-cli/workflows/Test/badge.svg" alt="Test">
+</a>
+<a href="https://github.com/khulnasoft/readyapi-cli/actions?query=workflow%3APublish" target="_blank">
+    <img src="https://github.com/khulnasoft/readyapi-cli/workflows/Publish/badge.svg" alt="Publish">
+</a>
+<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/khulnasoft/readyapi-cli" target="_blank">
+    <img src="https://coverage-badge.samuelcolvin.workers.dev/khulnasoft/readyapi-cli.svg" alt="Coverage">
+<a href="https://pypi.org/project/readyapi-cli" target="_blank">
+    <img src="https://img.shields.io/pypi/v/readyapi-cli?color=%2334D058&label=pypi%20package" alt="Package version">
+</a>
+
+---
+
+**Source Code**: <a href="https://github.com/khulnasoft/readyapi-cli" target="_blank">https://github.com/khulnasoft/readyapi-cli</a>
+
+---
+
+Run ReadyAPI applications from the command line with ReadyAPI CLI. 🚀
+
+## License
+
+This project is licensed under the terms of the MIT license.
