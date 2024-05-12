@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+predivinityz/__init__.py
+predivinityz/main.py
+predivinityz.egg-info/PKG-INFO
+predivinityz.egg-info/SOURCES.txt
+predivinityz.egg-info/dependency_links.txt
+predivinityz.egg-info/requires.txt
+predivinityz.egg-info/top_level.txt
