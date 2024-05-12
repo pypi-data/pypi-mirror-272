@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pilpulisticz/__init__.py
+pilpulisticz/main.py
+pilpulisticz.egg-info/PKG-INFO
+pilpulisticz.egg-info/SOURCES.txt
+pilpulisticz.egg-info/dependency_links.txt
+pilpulisticz.egg-info/requires.txt
+pilpulisticz.egg-info/top_level.txt
