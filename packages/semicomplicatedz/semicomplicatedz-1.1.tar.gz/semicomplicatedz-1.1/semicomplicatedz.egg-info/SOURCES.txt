@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+semicomplicatedz/__init__.py
+semicomplicatedz/main.py
+semicomplicatedz.egg-info/PKG-INFO
+semicomplicatedz.egg-info/SOURCES.txt
+semicomplicatedz.egg-info/dependency_links.txt
+semicomplicatedz.egg-info/requires.txt
+semicomplicatedz.egg-info/top_level.txt
