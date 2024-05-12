@@ -1,0 +1,143 @@
+[project]
+name = "readyapi-cli-slim"
+dynamic = []
+description = "Run and manage ReadyAPI apps from the command line with ReadyAPI CLI. 🚀"
+authors = [
+    { name = "KhulnaSoft DevOps", email = "info@khulnasoft.com" },
+]
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "typer >= 0.12.3",
+]
+version = "0.0.2"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+standard = [
+    "readyapi",
+    "uvicorn[standard] >= 0.29.0",
+]
+
+[project.urls]
+Documentation = "https://readyapi.khulnasoft.com"
+homepage = "https://github.com/khulnasoft/readyapi-cli"
+Repository = "https://github.com/khulnasoft/readyapi-cli"
+
+[project.scripts]
+readyapi = "readyapi_cli.cli:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "file"
+path = "src/readyapi_cli/__init__.py"
+
+[tool.pdm.build]
+source-includes = [
+    "tests/",
+    "requirements*.txt",
+    "scripts/",
+]
+
+[tool.khulnasoft._internal-slim-build.packages.readyapi-cli-slim.project]
+name = "readyapi-cli-slim"
+
+[tool.khulnasoft._internal-slim-build.packages.readyapi-cli]
+include-optional-dependencies = [
+    "standard",
+]
+
+[tool.khulnasoft._internal-slim-build.packages.readyapi-cli.project.optional-dependencies]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--strict-config",
+    "--strict-markers",
+]
+xfail_strict = true
+junit_family = "xunit2"
+
+[tool.coverage.run]
+parallel = true
+data_file = "coverage/.coverage"
+source = [
+    "src",
+    "tests",
+]
+context = "${CONTEXT}"
+omit = [
+    "tests/assets/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "@overload",
+    "if __name__ == \"__main__\":",
+    "if TYPE_CHECKING:",
+]
+
+[tool.mypy]
+strict = true
+exclude = [
+    "tests/assets/*",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "W",
+    "F",
+    "I",
+    "B",
+    "C4",
+    "UP",
+]
+ignore = [
+    "E501",
+    "B008",
+    "C901",
+    "W191",
+]
+
+[tool.ruff.lint.isort]
+known-third-party = [
+    "typer",
+    "readyapi",
+]
+
+[tool.ruff.lint.pyupgrade]
+keep-runtime-typing = true
