@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nigglingz/__init__.py
+nigglingz/main.py
+nigglingz.egg-info/PKG-INFO
+nigglingz.egg-info/SOURCES.txt
+nigglingz.egg-info/dependency_links.txt
+nigglingz.egg-info/requires.txt
+nigglingz.egg-info/top_level.txt
