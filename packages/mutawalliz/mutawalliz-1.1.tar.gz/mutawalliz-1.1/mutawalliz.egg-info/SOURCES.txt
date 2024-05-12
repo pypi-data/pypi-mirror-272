@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mutawalliz/__init__.py
+mutawalliz/main.py
+mutawalliz.egg-info/PKG-INFO
+mutawalliz.egg-info/SOURCES.txt
+mutawalliz.egg-info/dependency_links.txt
+mutawalliz.egg-info/requires.txt
+mutawalliz.egg-info/top_level.txt
