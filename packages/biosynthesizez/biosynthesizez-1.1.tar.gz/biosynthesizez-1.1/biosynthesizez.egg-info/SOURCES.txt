@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+biosynthesizez/__init__.py
+biosynthesizez/main.py
+biosynthesizez.egg-info/PKG-INFO
+biosynthesizez.egg-info/SOURCES.txt
+biosynthesizez.egg-info/dependency_links.txt
+biosynthesizez.egg-info/requires.txt
+biosynthesizez.egg-info/top_level.txt
