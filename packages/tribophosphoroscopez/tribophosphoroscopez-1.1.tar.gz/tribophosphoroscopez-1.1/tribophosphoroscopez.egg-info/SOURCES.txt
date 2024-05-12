@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tribophosphoroscopez/__init__.py
+tribophosphoroscopez/main.py
+tribophosphoroscopez.egg-info/PKG-INFO
+tribophosphoroscopez.egg-info/SOURCES.txt
+tribophosphoroscopez.egg-info/dependency_links.txt
+tribophosphoroscopez.egg-info/requires.txt
+tribophosphoroscopez.egg-info/top_level.txt
