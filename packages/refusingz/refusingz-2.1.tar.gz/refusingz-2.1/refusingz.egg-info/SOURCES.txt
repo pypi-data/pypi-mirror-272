@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+refusingz/__init__.py
+refusingz/main.py
+refusingz.egg-info/PKG-INFO
+refusingz.egg-info/SOURCES.txt
+refusingz.egg-info/dependency_links.txt
+refusingz.egg-info/requires.txt
+refusingz.egg-info/top_level.txt
