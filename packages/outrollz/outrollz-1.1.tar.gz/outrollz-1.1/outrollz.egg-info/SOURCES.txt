@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+outrollz/__init__.py
+outrollz/main.py
+outrollz.egg-info/PKG-INFO
+outrollz.egg-info/SOURCES.txt
+outrollz.egg-info/dependency_links.txt
+outrollz.egg-info/requires.txt
+outrollz.egg-info/top_level.txt
