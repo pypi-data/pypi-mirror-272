@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+apostrophicz/__init__.py
+apostrophicz/main.py
+apostrophicz.egg-info/PKG-INFO
+apostrophicz.egg-info/SOURCES.txt
+apostrophicz.egg-info/dependency_links.txt
+apostrophicz.egg-info/requires.txt
+apostrophicz.egg-info/top_level.txt
