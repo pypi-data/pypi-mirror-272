@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+whosomez/__init__.py
+whosomez/main.py
+whosomez.egg-info/PKG-INFO
+whosomez.egg-info/SOURCES.txt
+whosomez.egg-info/dependency_links.txt
+whosomez.egg-info/requires.txt
+whosomez.egg-info/top_level.txt
