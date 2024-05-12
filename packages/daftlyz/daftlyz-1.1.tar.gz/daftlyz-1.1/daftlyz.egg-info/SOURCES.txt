@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+daftlyz/__init__.py
+daftlyz/main.py
+daftlyz.egg-info/PKG-INFO
+daftlyz.egg-info/SOURCES.txt
+daftlyz.egg-info/dependency_links.txt
+daftlyz.egg-info/requires.txt
+daftlyz.egg-info/top_level.txt
