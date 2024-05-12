@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+splenodiagnosisz/__init__.py
+splenodiagnosisz/main.py
+splenodiagnosisz.egg-info/PKG-INFO
+splenodiagnosisz.egg-info/SOURCES.txt
+splenodiagnosisz.egg-info/dependency_links.txt
+splenodiagnosisz.egg-info/requires.txt
+splenodiagnosisz.egg-info/top_level.txt
