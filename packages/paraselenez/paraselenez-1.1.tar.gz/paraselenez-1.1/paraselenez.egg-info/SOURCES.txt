@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+paraselenez/__init__.py
+paraselenez/main.py
+paraselenez.egg-info/PKG-INFO
+paraselenez.egg-info/SOURCES.txt
+paraselenez.egg-info/dependency_links.txt
+paraselenez.egg-info/requires.txt
+paraselenez.egg-info/top_level.txt
