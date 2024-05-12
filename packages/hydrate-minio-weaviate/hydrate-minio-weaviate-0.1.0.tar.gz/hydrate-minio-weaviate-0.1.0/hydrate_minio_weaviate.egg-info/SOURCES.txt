@@ -1,0 +1,7 @@
+README.md
+setup.py
+hydrate_minio_weaviate.egg-info/PKG-INFO
+hydrate_minio_weaviate.egg-info/SOURCES.txt
+hydrate_minio_weaviate.egg-info/dependency_links.txt
+hydrate_minio_weaviate.egg-info/requires.txt
+hydrate_minio_weaviate.egg-info/top_level.txt
