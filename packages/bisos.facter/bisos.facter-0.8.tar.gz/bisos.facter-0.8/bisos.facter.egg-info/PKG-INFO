@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: bisos.facter
+Version: 0.8
+Summary: bisos.facter: Adoption and adaptation of facter to Python and PyCS-Framework and BISOS for use with BISOS-CMDB.
+Home-page: http://www.by-star.net/PLPC/180047
+Download-URL: http://www.by-star.net/PLPC/180047
+Author: Mohsen Banan
+Author-email: libre@mohsen.1.banan.byname.net
+Maintainer: Mohsen Banan
+Maintainer-email: libre@mohsen.1.banan.byname.net
+License: AGPL
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires: bisos
+Requires: blee
+Requires: blee.csPlayer
+Requires: bisos.transit
+Requires: bisos.b
+Requires: bisos.banna
+Requires: bisos.common
+
+Overview
+========
+
+bisos.facter: Adoption and adaptation of facter to Python and
+PyCS-Framework and BISOS for use with BISOS-CMDB.
+
+Mention What is BISOS.
+
+About facter
+============
+
+Facter gathers information about the system, which can be used as
+variables. Facter is part of puppet, but it can b used without puppet.
+
+To install facter:
+
+.. code:: bash
+
+   sudo apt-get install -y facter
+
+bisos.facter Is A Standalone Piece Of BISOS
+===========================================
+
+bisos.facter is a standalone piece of BISOS. It can be used byitself.
+
+Installation
+============
+
+::
+
+   pip install bisos.facter
+
+Usage
+=====
+
+::
+
+   bin/facter.cs
+
+Support
+=======
+
+| For support, criticism, comments and questions; please contact the
+  author/maintainer
+| `Mohsen Banan <http://mohsen.1.banan.byname.net>`__ at:
+  http://mohsen.1.banan.byname.net/contact
+
+Documentation
+=============
+
+Part of ByStar Digital Ecosystem http://www.by-star.net.
+
+This module's primary documentation is in
+http://www.by-star.net/PLPC/180047
+
+

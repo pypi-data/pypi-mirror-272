@@ -1,0 +1,61 @@
+#+title: bisos.facter
+#+subtitle:  Adoption and adaptation of facter to Python and PyCS-Framework and BISOS for use with BISOS-CMDB.
+
+* Overview
+  :PROPERTIES:
+  :CUSTOM_ID: overview
+  :END:
+bisos.facter: Adoption and adaptation of facter to Python and
+PyCS-Framework and BISOS for use with BISOS-CMDB.
+
+Mention What is BISOS.
+
+
+* About facter
+Facter gathers information about the system, which can be used as variables.
+Facter is part of puppet, but it can b used without puppet.
+
+To install facter:
+
+#+begin_src bash
+sudo apt-get install -y facter
+#+end_src
+
+* bisos.facter Is A Standalone Piece Of BISOS
+bisos.facter is a standalone piece of BISOS. It can be used byitself.
+
+
+* Installation
+  :PROPERTIES:
+  :CUSTOM_ID: installation
+  :END:
+#+begin_example
+pip install bisos.facter
+#+end_example
+
+* Usage
+  :PROPERTIES:
+  :CUSTOM_ID: usage
+  :END:
+#+begin_example
+bin/facter.cs
+#+end_example
+
+* Support
+  :PROPERTIES:
+  :CUSTOM_ID: support
+  :END:
+For support, criticism, comments and questions; please contact the
+author/maintainer\\
+[[http://mohsen.1.banan.byname.net][Mohsen Banan]] at:
+[[http://mohsen.1.banan.byname.net/contact]]
+
+* Documentation
+  :PROPERTIES:
+  :CUSTOM_ID: documentation
+  :END:
+Part of ByStar Digital Ecosystem [[http://www.by-star.net]].
+
+This module's primary documentation is in
+[[http://www.by-star.net/PLPC/180047]]
+
