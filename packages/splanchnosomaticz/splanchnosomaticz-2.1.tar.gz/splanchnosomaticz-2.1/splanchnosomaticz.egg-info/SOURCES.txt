@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+splanchnosomaticz/__init__.py
+splanchnosomaticz/main.py
+splanchnosomaticz.egg-info/PKG-INFO
+splanchnosomaticz.egg-info/SOURCES.txt
+splanchnosomaticz.egg-info/dependency_links.txt
+splanchnosomaticz.egg-info/requires.txt
+splanchnosomaticz.egg-info/top_level.txt
