@@ -1,0 +1,11 @@
+mangainfo/__init__.py,sha256=ZIMV93KvxPsa0eAOz5fr2u6PchmakLdNUzcjEBtTj48,350
+mangainfo/__main__.py,sha256=7_hl_rzNV6e3bwk-pn_mw8gYcQYjcvm3HRwU1xrGZjY,730
+mangainfo/_core.py,sha256=PYV4u1vvMRBWm9Nco7bcRUMqVu2nkD0kpwuf6gmUaco,2815
+mangainfo/_models.py,sha256=MQehTei_IwfVy2sTPEwn0mW52sDRchjkWio6UV9oXYA,7633
+mangainfo/_utils.py,sha256=Huu2eB1V1udyg2XXXzV_ySqgYKuSrDu4RfFHYA1BZdg,2494
+mangainfo/_version.py,sha256=Rg0DEYKZ_UFqe7VLF_ZyJZq_PBOHBQ7ELyO3TkUYSU0,615
+mangainfo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangainfo-0.1.0.dist-info/METADATA,sha256=tddm-XH9pJLlAwZl94wrTcn-0f1BJhlAZ1nJP3x4jNc,3640
+mangainfo-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+mangainfo-0.1.0.dist-info/entry_points.txt,sha256=Jh92icZrxDZ3yeKHWlPYGThteEN3dr73FB9DrgEVW5g,53
+mangainfo-0.1.0.dist-info/RECORD,,
