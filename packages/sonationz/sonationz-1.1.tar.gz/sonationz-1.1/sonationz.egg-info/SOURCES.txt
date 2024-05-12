@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sonationz/__init__.py
+sonationz/main.py
+sonationz.egg-info/PKG-INFO
+sonationz.egg-info/SOURCES.txt
+sonationz.egg-info/dependency_links.txt
+sonationz.egg-info/requires.txt
+sonationz.egg-info/top_level.txt
