@@ -1,0 +1,13 @@
+youcube/__main__.py,sha256=X2dHXcWVPkci-TJy3R1BUyi7GF23e6ecgba7oNIkU1s,177
+youcube/yc_colours.py,sha256=b1pTF4xZOM7_Vs-NW5s9mK0W5ifA0-1g9g-OrnsIMk0,807
+youcube/yc_download.py,sha256=7sxYF8u287y-zLMzWZaRSZ23b8C7EPb02qUsZ3ue10Q,9083
+youcube/yc_logging.py,sha256=Y1S-LZTi998MKSe6Eqdnlu3-03dLH1RN0tpNLiiwS0Y,3091
+youcube/yc_magic.py,sha256=VlDsblpjBQUa8nGW9gm1aGhF2xGQ36fR8RzWq1qZ0EU,3776
+youcube/yc_spotify.py,sha256=0KIJAuZKnwueGqIFRQahrme26HXBuEFyNVeB4hh0JTY,5652
+youcube/yc_utils.py,sha256=_Vs5oXwfwOvw-z8gvJJtEunGnWRGLsxZirK32TTi3CI,2981
+youcube/youcube.py,sha256=nFG1k6dLrKb0gs7x9pLJPGd4Bh6CTZwePlSVSuVAmRs,14863
+youcube-0.0.0.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+youcube-0.0.0.dist-info/METADATA,sha256=Bah6ktLk34oiDFmFD2bkUEP4O1M03100GIbSKXwhtu8,5303
+youcube-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+youcube-0.0.0.dist-info/top_level.txt,sha256=7noIe14dq0Odc18sxHGDzVNevOcI03Vydw18AZG_Wqg,8
+youcube-0.0.0.dist-info/RECORD,,
