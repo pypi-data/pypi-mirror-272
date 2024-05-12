@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+albespynez/__init__.py
+albespynez/main.py
+albespynez.egg-info/PKG-INFO
+albespynez.egg-info/SOURCES.txt
+albespynez.egg-info/dependency_links.txt
+albespynez.egg-info/requires.txt
+albespynez.egg-info/top_level.txt
