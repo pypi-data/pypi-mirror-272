@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mycetozoonz/__init__.py
+mycetozoonz/main.py
+mycetozoonz.egg-info/PKG-INFO
+mycetozoonz.egg-info/SOURCES.txt
+mycetozoonz.egg-info/dependency_links.txt
+mycetozoonz.egg-info/requires.txt
+mycetozoonz.egg-info/top_level.txt
