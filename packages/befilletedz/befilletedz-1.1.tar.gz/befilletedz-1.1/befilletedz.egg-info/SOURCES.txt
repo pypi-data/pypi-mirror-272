@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+befilletedz/__init__.py
+befilletedz/main.py
+befilletedz.egg-info/PKG-INFO
+befilletedz.egg-info/SOURCES.txt
+befilletedz.egg-info/dependency_links.txt
+befilletedz.egg-info/requires.txt
+befilletedz.egg-info/top_level.txt
