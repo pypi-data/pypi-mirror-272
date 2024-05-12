@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+merkinz/__init__.py
+merkinz/main.py
+merkinz.egg-info/PKG-INFO
+merkinz.egg-info/SOURCES.txt
+merkinz.egg-info/dependency_links.txt
+merkinz.egg-info/requires.txt
+merkinz.egg-info/top_level.txt
