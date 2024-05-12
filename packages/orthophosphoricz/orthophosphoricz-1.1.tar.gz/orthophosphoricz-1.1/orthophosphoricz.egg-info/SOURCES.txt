@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+orthophosphoricz/__init__.py
+orthophosphoricz/main.py
+orthophosphoricz.egg-info/PKG-INFO
+orthophosphoricz.egg-info/SOURCES.txt
+orthophosphoricz.egg-info/dependency_links.txt
+orthophosphoricz.egg-info/requires.txt
+orthophosphoricz.egg-info/top_level.txt
