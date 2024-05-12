@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tossnturn
+Version: 0.1.2
+Summary: For keeping your computer awake.
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pynput (>=1.7.6,<2.0.0)
+Description-Content-Type: text/markdown
+
+# tossnturn
+
+For keeping your computer awake.
+
+Usage:
+
+```sh
+$ pip install tossnturn
+$ tossnturn
+```
+
+
