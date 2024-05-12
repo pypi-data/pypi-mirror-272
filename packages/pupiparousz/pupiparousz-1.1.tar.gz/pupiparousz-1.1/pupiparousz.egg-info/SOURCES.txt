@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pupiparousz/__init__.py
+pupiparousz/main.py
+pupiparousz.egg-info/PKG-INFO
+pupiparousz.egg-info/SOURCES.txt
+pupiparousz.egg-info/dependency_links.txt
+pupiparousz.egg-info/requires.txt
+pupiparousz.egg-info/top_level.txt
