@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+symptomatologiesz/__init__.py
+symptomatologiesz/main.py
+symptomatologiesz.egg-info/PKG-INFO
+symptomatologiesz.egg-info/SOURCES.txt
+symptomatologiesz.egg-info/dependency_links.txt
+symptomatologiesz.egg-info/requires.txt
+symptomatologiesz.egg-info/top_level.txt
