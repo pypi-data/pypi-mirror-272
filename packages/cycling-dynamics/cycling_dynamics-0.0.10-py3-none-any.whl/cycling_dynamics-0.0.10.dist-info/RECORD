@@ -1,0 +1,13 @@
+cycling_dynamics/__about__.py,sha256=n9U6QJKcubBL1rtaO4bzhIji_MKP-Jz289fx-FtJO1M,133
+cycling_dynamics/__init__.py,sha256=FwWgcRqT1NKdka3B6V51jjyDyk4KOcYBa44QsjxcHSQ,110
+cycling_dynamics/calc.py,sha256=kyBsZLMPAytMRs11Mzp1Kpy4wocaUsJpFV1Mm5iKr5w,3046
+cycling_dynamics/critical_power.py,sha256=uQp16ZZDlmTm-kNPIDrgPinjk0LLb3SmVmbIUVTrhgk,12441
+cycling_dynamics/load_data.py,sha256=v9wFIrmiqhoVo6RKKnIpOHWV5kivUw0GmaSIFJD_rSA,1214
+cycling_dynamics/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cycling_dynamics/plots.py,sha256=K0elyPy5BfVJwRJQ6odUn1zh992mh56PuagHJ8PeIvg,2132
+cycling_dynamics/stats.py,sha256=_NDHR8fa7y1TmPAljMWodkP4xGxFf1sIgn04iL1Si88,4681
+cycling_dynamics/surface.py,sha256=M5vsawLdXKhARQfhHoCOK6vI1Tdijh4Jbi7ujkcTf0Q,80
+cycling_dynamics-0.0.10.dist-info/METADATA,sha256=KAtSrIsd0dpzyPAxKTw8U_iWJqu1fIUQ5EEEBsHxkkg,1856
+cycling_dynamics-0.0.10.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+cycling_dynamics-0.0.10.dist-info/licenses/LICENSE.md,sha256=c9sUL4RSxe7YYwYGSctt7ZAfu97GWbL9jipXgnKHW7U,1070
+cycling_dynamics-0.0.10.dist-info/RECORD,,
