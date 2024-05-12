@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+turcicz/__init__.py
+turcicz/main.py
+turcicz.egg-info/PKG-INFO
+turcicz.egg-info/SOURCES.txt
+turcicz.egg-info/dependency_links.txt
+turcicz.egg-info/requires.txt
+turcicz.egg-info/top_level.txt
