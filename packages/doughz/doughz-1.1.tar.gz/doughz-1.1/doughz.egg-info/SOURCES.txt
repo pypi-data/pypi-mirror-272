@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+doughz/__init__.py
+doughz/main.py
+doughz.egg-info/PKG-INFO
+doughz.egg-info/SOURCES.txt
+doughz.egg-info/dependency_links.txt
+doughz.egg-info/requires.txt
+doughz.egg-info/top_level.txt
