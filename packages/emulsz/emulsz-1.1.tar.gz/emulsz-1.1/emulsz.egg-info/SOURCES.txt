@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+emulsz/__init__.py
+emulsz/main.py
+emulsz.egg-info/PKG-INFO
+emulsz.egg-info/SOURCES.txt
+emulsz.egg-info/dependency_links.txt
+emulsz.egg-info/requires.txt
+emulsz.egg-info/top_level.txt
