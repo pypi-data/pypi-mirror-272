@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+allworkz/__init__.py
+allworkz/main.py
+allworkz.egg-info/PKG-INFO
+allworkz.egg-info/SOURCES.txt
+allworkz.egg-info/dependency_links.txt
+allworkz.egg-info/requires.txt
+allworkz.egg-info/top_level.txt
