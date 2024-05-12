@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+finningz/__init__.py
+finningz/main.py
+finningz.egg-info/PKG-INFO
+finningz.egg-info/SOURCES.txt
+finningz.egg-info/dependency_links.txt
+finningz.egg-info/requires.txt
+finningz.egg-info/top_level.txt
