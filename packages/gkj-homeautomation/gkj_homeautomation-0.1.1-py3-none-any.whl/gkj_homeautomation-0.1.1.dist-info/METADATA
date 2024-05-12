@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: gkj_homeautomation
+Version: 0.1.1
+Summary: Add your description here
+Author-email: Gerrit Kocherscheidt <kochersg@koco-group.com>
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: pymodbustcp>=0.2.1
+Description-Content-Type: text/markdown
+
+# pymodbus
+
+Describe your project here.

@@ -1,0 +1,3 @@
+[console_scripts]
+pc = homeautomation:test_connection_plenticore
+pm = homeautomation:test_connection
