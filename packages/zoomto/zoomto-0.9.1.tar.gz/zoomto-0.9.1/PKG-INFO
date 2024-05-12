@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: zoomto
+Version: 0.9.1
+Summary: zoom auto share video
+License: MIT
+Author: ZackaryW
+Author-email: 36378555+ZackaryW@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flask (>=3.0.3,<4.0.0)
+Requires-Dist: moviepy (>=1.0.3,<2.0.0)
+Requires-Dist: pillow (>=10.3.0,<11.0.0)
+Requires-Dist: psutil (>=5.9.8,<6.0.0)
+Requires-Dist: pyautogui (>=0.9.54,<0.10.0)
+Requires-Dist: pygetwindow (>=0.0.9,<0.0.10)
+Requires-Dist: pyscreeze (>=0.1.30,<0.2.0)
+Requires-Dist: pywin32 (>=306,<307)
+Requires-Dist: screeninfo (>=0.8.1,<0.9.0)
+Description-Content-Type: text/markdown
+
+# zoomto
+zoom auto share videos
+
+## Install
+```
+pip install zoomto
+```
+
+## Usage
+```
+zoomto
+```
+will launch flask server
+
+## License
+MIT
+
+
