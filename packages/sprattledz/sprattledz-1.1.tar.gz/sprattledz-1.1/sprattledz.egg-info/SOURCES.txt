@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sprattledz/__init__.py
+sprattledz/main.py
+sprattledz.egg-info/PKG-INFO
+sprattledz.egg-info/SOURCES.txt
+sprattledz.egg-info/dependency_links.txt
+sprattledz.egg-info/requires.txt
+sprattledz.egg-info/top_level.txt
