@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+laurencez/__init__.py
+laurencez/main.py
+laurencez.egg-info/PKG-INFO
+laurencez.egg-info/SOURCES.txt
+laurencez.egg-info/dependency_links.txt
+laurencez.egg-info/requires.txt
+laurencez.egg-info/top_level.txt
