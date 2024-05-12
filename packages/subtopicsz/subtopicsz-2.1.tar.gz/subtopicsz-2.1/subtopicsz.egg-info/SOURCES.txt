@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subtopicsz/__init__.py
+subtopicsz/main.py
+subtopicsz.egg-info/PKG-INFO
+subtopicsz.egg-info/SOURCES.txt
+subtopicsz.egg-info/dependency_links.txt
+subtopicsz.egg-info/requires.txt
+subtopicsz.egg-info/top_level.txt
