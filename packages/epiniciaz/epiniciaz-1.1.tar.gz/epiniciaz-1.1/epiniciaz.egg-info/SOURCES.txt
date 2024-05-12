@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+epiniciaz/__init__.py
+epiniciaz/main.py
+epiniciaz.egg-info/PKG-INFO
+epiniciaz.egg-info/SOURCES.txt
+epiniciaz.egg-info/dependency_links.txt
+epiniciaz.egg-info/requires.txt
+epiniciaz.egg-info/top_level.txt
