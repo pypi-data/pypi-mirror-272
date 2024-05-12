@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+patroclinyz/__init__.py
+patroclinyz/main.py
+patroclinyz.egg-info/PKG-INFO
+patroclinyz.egg-info/SOURCES.txt
+patroclinyz.egg-info/dependency_links.txt
+patroclinyz.egg-info/requires.txt
+patroclinyz.egg-info/top_level.txt
