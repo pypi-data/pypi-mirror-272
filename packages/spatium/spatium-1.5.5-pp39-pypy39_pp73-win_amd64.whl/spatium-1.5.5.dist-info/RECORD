@@ -1,0 +1,10 @@
+spatium/__init__.py,sha256=lcr2-d8jaLeQlD0PXlErpquJRDlF1ufNXT4NQ9HXaeg,226
+spatium/__init__.pyi,sha256=lcr2-d8jaLeQlD0PXlErpquJRDlF1ufNXT4NQ9HXaeg,226
+spatium/_spatium.pyi,sha256=3X4-ltdv35o8tiO5tVTYdlYzc6Oec7MvWtoATO22Y1I,1085935
+spatium/_spatium.pypy39-pp73-win_amd64.pyd,sha256=Km8IgS3cC2kLhjtmwkcZq0PaB5rs4-FXPh4lN3kOsj8,1805824
+spatium/_spatium.pyx,sha256=u1LWrKxbrrTPJh8LJj2lmYYMTyhhMrWKZHgD55Vad3Q,1900621
+spatium-1.5.5.dist-info/LICENSE.txt,sha256=sEVxUe5H4oJhzmyvB17MHTtSQCSIG6d-Z4V10jgt4Kc,7817
+spatium-1.5.5.dist-info/METADATA,sha256=SBIS0V2ozkMmsX8ZsUTiyvOxFQb3obo9KryyF9MPbAU,14400
+spatium-1.5.5.dist-info/WHEEL,sha256=0MDxp1g6SMi6x5fNLQYB_oq4z1ZIM2F5EzPGH_eSWIs,107
+spatium-1.5.5.dist-info/top_level.txt,sha256=KkfNkIKlOE1LjFyk5DlVfuaumVuGS7iNeWOxALDXxzE,8
+spatium-1.5.5.dist-info/RECORD,,
