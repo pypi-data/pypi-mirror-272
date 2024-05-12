@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+shadowinessz/__init__.py
+shadowinessz/main.py
+shadowinessz.egg-info/PKG-INFO
+shadowinessz.egg-info/SOURCES.txt
+shadowinessz.egg-info/dependency_links.txt
+shadowinessz.egg-info/requires.txt
+shadowinessz.egg-info/top_level.txt
