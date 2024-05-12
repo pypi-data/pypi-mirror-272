@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "kickthespypet-api"
+version = "0.0.4"
+description = "kickthespy.pet API wrapper"
+authors = ["timelesnesses <timelessnesses@timelessnesses.me>"]
+readme = "README.md"
+package-mode = true
+license = "MPL-2.0"
+repository = "https://github.com/timelessnesses/kickthespypet-api"
+keywords = [
+    "async", "python3", "kickthespy.pet", "spy.pet"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+aiohttp = "^3.9.5"
+orjson = "^3.10.3"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/timelessnesses/kickthespypet-api/issues"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
