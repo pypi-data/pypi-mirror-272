@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+polyzoansz/__init__.py
+polyzoansz/main.py
+polyzoansz.egg-info/PKG-INFO
+polyzoansz.egg-info/SOURCES.txt
+polyzoansz.egg-info/dependency_links.txt
+polyzoansz.egg-info/requires.txt
+polyzoansz.egg-info/top_level.txt
