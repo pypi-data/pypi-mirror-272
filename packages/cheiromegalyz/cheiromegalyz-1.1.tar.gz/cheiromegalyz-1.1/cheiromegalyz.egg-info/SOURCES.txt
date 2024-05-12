@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cheiromegalyz/__init__.py
+cheiromegalyz/main.py
+cheiromegalyz.egg-info/PKG-INFO
+cheiromegalyz.egg-info/SOURCES.txt
+cheiromegalyz.egg-info/dependency_links.txt
+cheiromegalyz.egg-info/requires.txt
+cheiromegalyz.egg-info/top_level.txt
