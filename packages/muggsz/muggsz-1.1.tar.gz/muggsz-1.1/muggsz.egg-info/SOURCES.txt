@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+muggsz/__init__.py
+muggsz/main.py
+muggsz.egg-info/PKG-INFO
+muggsz.egg-info/SOURCES.txt
+muggsz.egg-info/dependency_links.txt
+muggsz.egg-info/requires.txt
+muggsz.egg-info/top_level.txt
