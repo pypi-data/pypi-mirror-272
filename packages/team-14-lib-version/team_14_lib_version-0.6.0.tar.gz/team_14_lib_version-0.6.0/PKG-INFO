@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: team-14-lib-version
+Version: 0.6.0
+Summary: version aware library
+Home-page: https://github.com/remla2024-team14/lib-version
+Author: Team 14
+Author-email: justinluu2000@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: twine>=4.0.2; extra == "dev"
+
+# lib-version
+A version-aware library consumed by the URL fishing detection application service
+The library parses the version from the metadata in the package.
+
+Uses semantic versioning `vMAJOR.MINOR.PATCH`
+
+Automatic Bumping on Github: If no #major, #minor or #patch tag is contained in the merge commit message, 
+it will bump whichever DEFAULT_BUMP is set to (which is minor by default). Right now it increments the minor version with each PR.
+
+# usage
+
+In the file you want to use this in, do `from libversion import VersionUtil`.
+Then you can call `VersionUtil.VersionUtil.get_version()` to get the library version.
