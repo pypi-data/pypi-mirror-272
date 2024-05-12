@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+.github/workflows/release.yml
+lib-version/VersionUtil.py
+lib-version/__init__.py
+lib-version/version.py
+team_14_lib_version.egg-info/PKG-INFO
+team_14_lib_version.egg-info/SOURCES.txt
+team_14_lib_version.egg-info/dependency_links.txt
+team_14_lib_version.egg-info/requires.txt
+team_14_lib_version.egg-info/top_level.txt
