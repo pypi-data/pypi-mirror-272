@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+uncranniedz/__init__.py
+uncranniedz/main.py
+uncranniedz.egg-info/PKG-INFO
+uncranniedz.egg-info/SOURCES.txt
+uncranniedz.egg-info/dependency_links.txt
+uncranniedz.egg-info/requires.txt
+uncranniedz.egg-info/top_level.txt
