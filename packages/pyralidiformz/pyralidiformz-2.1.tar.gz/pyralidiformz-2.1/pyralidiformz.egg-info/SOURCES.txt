@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyralidiformz/__init__.py
+pyralidiformz/main.py
+pyralidiformz.egg-info/PKG-INFO
+pyralidiformz.egg-info/SOURCES.txt
+pyralidiformz.egg-info/dependency_links.txt
+pyralidiformz.egg-info/requires.txt
+pyralidiformz.egg-info/top_level.txt
