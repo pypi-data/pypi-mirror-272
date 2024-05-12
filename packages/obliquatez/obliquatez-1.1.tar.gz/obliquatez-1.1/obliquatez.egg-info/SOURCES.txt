@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+obliquatez/__init__.py
+obliquatez/main.py
+obliquatez.egg-info/PKG-INFO
+obliquatez.egg-info/SOURCES.txt
+obliquatez.egg-info/dependency_links.txt
+obliquatez.egg-info/requires.txt
+obliquatez.egg-info/top_level.txt
