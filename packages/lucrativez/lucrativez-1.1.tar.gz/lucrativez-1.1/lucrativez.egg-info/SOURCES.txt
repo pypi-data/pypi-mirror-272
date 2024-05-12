@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lucrativez/__init__.py
+lucrativez/main.py
+lucrativez.egg-info/PKG-INFO
+lucrativez.egg-info/SOURCES.txt
+lucrativez.egg-info/dependency_links.txt
+lucrativez.egg-info/requires.txt
+lucrativez.egg-info/top_level.txt
