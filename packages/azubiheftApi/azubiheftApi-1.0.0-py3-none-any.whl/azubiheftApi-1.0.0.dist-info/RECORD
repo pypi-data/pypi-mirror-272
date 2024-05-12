@@ -1,0 +1,10 @@
+azubiheftApi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azubiheftApi/azubiheftApi.py,sha256=Dspqpio1FWLHcEivRbFpvUxO1qfILgqHIpZ6f_OYzvs,16142
+azubiheftApi/errors.py,sha256=VgsDVz62N-Rhxlw_471wdjyIXzsPr2ptK4NcLiZHpLw,327
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=jnQuo2erw7TbtMn0Rye6gm26ZGwmC1ScWInSwztvCK0,8080
+azubiheftApi-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+azubiheftApi-1.0.0.dist-info/METADATA,sha256=qJOvyFkxVpkw9ECt1UNBpfodbNmY-04hw7Dj24PchMY,2984
+azubiheftApi-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+azubiheftApi-1.0.0.dist-info/top_level.txt,sha256=2ubdRVDltph8GjxskCpUKrGKDf9yjAPTcVPxA5XKJLk,19
+azubiheftApi-1.0.0.dist-info/RECORD,,
