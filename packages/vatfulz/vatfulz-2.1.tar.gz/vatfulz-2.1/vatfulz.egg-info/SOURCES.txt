@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vatfulz/__init__.py
+vatfulz/main.py
+vatfulz.egg-info/PKG-INFO
+vatfulz.egg-info/SOURCES.txt
+vatfulz.egg-info/dependency_links.txt
+vatfulz.egg-info/requires.txt
+vatfulz.egg-info/top_level.txt
