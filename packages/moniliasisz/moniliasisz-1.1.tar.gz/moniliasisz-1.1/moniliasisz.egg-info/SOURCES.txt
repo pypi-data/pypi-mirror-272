@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+moniliasisz/__init__.py
+moniliasisz/main.py
+moniliasisz.egg-info/PKG-INFO
+moniliasisz.egg-info/SOURCES.txt
+moniliasisz.egg-info/dependency_links.txt
+moniliasisz.egg-info/requires.txt
+moniliasisz.egg-info/top_level.txt
