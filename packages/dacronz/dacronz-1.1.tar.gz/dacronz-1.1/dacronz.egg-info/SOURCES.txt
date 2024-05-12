@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dacronz/__init__.py
+dacronz/main.py
+dacronz.egg-info/PKG-INFO
+dacronz.egg-info/SOURCES.txt
+dacronz.egg-info/dependency_links.txt
+dacronz.egg-info/requires.txt
+dacronz.egg-info/top_level.txt
