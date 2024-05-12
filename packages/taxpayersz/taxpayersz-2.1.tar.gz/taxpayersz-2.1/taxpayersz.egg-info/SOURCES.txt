@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+taxpayersz/__init__.py
+taxpayersz/main.py
+taxpayersz.egg-info/PKG-INFO
+taxpayersz.egg-info/SOURCES.txt
+taxpayersz.egg-info/dependency_links.txt
+taxpayersz.egg-info/requires.txt
+taxpayersz.egg-info/top_level.txt
