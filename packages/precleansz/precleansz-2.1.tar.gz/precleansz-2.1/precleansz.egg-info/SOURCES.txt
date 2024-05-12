@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+precleansz/__init__.py
+precleansz/main.py
+precleansz.egg-info/PKG-INFO
+precleansz.egg-info/SOURCES.txt
+precleansz.egg-info/dependency_links.txt
+precleansz.egg-info/requires.txt
+precleansz.egg-info/top_level.txt
