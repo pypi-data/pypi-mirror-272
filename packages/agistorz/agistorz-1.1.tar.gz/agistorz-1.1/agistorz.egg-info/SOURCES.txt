@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+agistorz/__init__.py
+agistorz/main.py
+agistorz.egg-info/PKG-INFO
+agistorz.egg-info/SOURCES.txt
+agistorz.egg-info/dependency_links.txt
+agistorz.egg-info/requires.txt
+agistorz.egg-info/top_level.txt
