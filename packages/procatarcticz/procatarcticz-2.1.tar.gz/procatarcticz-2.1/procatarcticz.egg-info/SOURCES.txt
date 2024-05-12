@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+procatarcticz/__init__.py
+procatarcticz/main.py
+procatarcticz.egg-info/PKG-INFO
+procatarcticz.egg-info/SOURCES.txt
+procatarcticz.egg-info/dependency_links.txt
+procatarcticz.egg-info/requires.txt
+procatarcticz.egg-info/top_level.txt
