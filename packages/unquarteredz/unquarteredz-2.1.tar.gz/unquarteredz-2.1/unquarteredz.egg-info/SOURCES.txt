@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unquarteredz/__init__.py
+unquarteredz/main.py
+unquarteredz.egg-info/PKG-INFO
+unquarteredz.egg-info/SOURCES.txt
+unquarteredz.egg-info/dependency_links.txt
+unquarteredz.egg-info/requires.txt
+unquarteredz.egg-info/top_level.txt
