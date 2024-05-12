@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+jsoncgx/__init__.py
+jsoncgx/abstract.py
+jsoncgx/lexer.py
+jsoncgx/parser.py
+jsoncgx/rexel.py
+jsoncgx.egg-info/PKG-INFO
+jsoncgx.egg-info/SOURCES.txt
+jsoncgx.egg-info/dependency_links.txt
+jsoncgx.egg-info/top_level.txt
