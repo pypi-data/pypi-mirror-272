@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+uninvigorativelyz/__init__.py
+uninvigorativelyz/main.py
+uninvigorativelyz.egg-info/PKG-INFO
+uninvigorativelyz.egg-info/SOURCES.txt
+uninvigorativelyz.egg-info/dependency_links.txt
+uninvigorativelyz.egg-info/requires.txt
+uninvigorativelyz.egg-info/top_level.txt
