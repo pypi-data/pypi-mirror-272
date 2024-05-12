@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prologizingz/__init__.py
+prologizingz/main.py
+prologizingz.egg-info/PKG-INFO
+prologizingz.egg-info/SOURCES.txt
+prologizingz.egg-info/dependency_links.txt
+prologizingz.egg-info/requires.txt
+prologizingz.egg-info/top_level.txt
