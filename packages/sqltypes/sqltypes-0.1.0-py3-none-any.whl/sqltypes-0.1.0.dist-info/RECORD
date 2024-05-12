@@ -1,0 +1,9 @@
+sqltypes/__init__.py,sha256=TjSqgGi2_ViI-Oocwgs7-sgTkGEoCnJSPkRPOL7gaoM,157
+sqltypes/__init__.pyi,sha256=uRxR42nbX-U5-vFxge1FeEeVppn1dYta1EFe3yFd7GA,253
+sqltypes/meta.py,sha256=-8YNz6WEvaEqN197zal_O-jIh6pq57ZAhUHO3xzyhRU,811
+sqltypes/pydantic.py,sha256=qJLSgUntfnBXcI-R-EFtp-Vu8-dBAUzRkh1yqiMNMHc,446
+sqltypes/string.py,sha256=1YXN_rjuLRpDMK97ICJaoYFQu5xSQk5JD-PAl06kxFw,641
+sqltypes-0.1.0.dist-info/METADATA,sha256=2HqvlLnN9QijwJ9qg7jWIoZyR_4loQIlZM4EKBhaN0M,841
+sqltypes-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sqltypes-0.1.0.dist-info/top_level.txt,sha256=S_-I635YtS6Wd8DnoZ3uQQOjrcWlWC4mNn8GHUgPd5I,9
+sqltypes-0.1.0.dist-info/RECORD,,
