@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+voicefulz/__init__.py
+voicefulz/main.py
+voicefulz.egg-info/PKG-INFO
+voicefulz.egg-info/SOURCES.txt
+voicefulz.egg-info/dependency_links.txt
+voicefulz.egg-info/requires.txt
+voicefulz.egg-info/top_level.txt
