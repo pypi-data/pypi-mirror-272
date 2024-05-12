@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gipsyhoodz/__init__.py
+gipsyhoodz/main.py
+gipsyhoodz.egg-info/PKG-INFO
+gipsyhoodz.egg-info/SOURCES.txt
+gipsyhoodz.egg-info/dependency_links.txt
+gipsyhoodz.egg-info/requires.txt
+gipsyhoodz.egg-info/top_level.txt
