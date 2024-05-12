@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: config_profile
+Version: 0.0.3
+Summary: Application configuration made simple
+Project-URL: Homepage, https://github.com/avegancafe/config-profile
+Project-URL: Issues, https://github.com/avegancafe/config-profile/issues
+Author-email: Kyle Holzinger <kyleholzinger@hey.com>, Jamie Cristini <jamie@j2health.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# `pip install config-profile`
+
+*file-based config for all of your python needs*
+
+## Usage
+
+```python
+import os
+
+from config_profile import Config
+
+config = Config(resource_dir=os.path.abspath(os.path.join(os.path.dirname(__file__), 'resources')))
+
+config.get("some_key.optional_key", "default_value")
+config.get_required("some_key.required_key")
+```
