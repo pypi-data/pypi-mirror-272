@@ -1,0 +1,7 @@
+openai==0.28.1
+tiktoken
+markdown
+colorama
+nltk
+tenacity
+python-dotenv
