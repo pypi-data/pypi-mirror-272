@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+staticalz/__init__.py
+staticalz/main.py
+staticalz.egg-info/PKG-INFO
+staticalz.egg-info/SOURCES.txt
+staticalz.egg-info/dependency_links.txt
+staticalz.egg-info/requires.txt
+staticalz.egg-info/top_level.txt
