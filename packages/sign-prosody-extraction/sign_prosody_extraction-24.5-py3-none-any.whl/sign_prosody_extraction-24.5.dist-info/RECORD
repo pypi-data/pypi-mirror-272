@@ -1,0 +1,16 @@
+sign_prosody_extraction/__init__.py,sha256=VchexTonFbl4xu_uLE7rIppbCrqhlUXaCrMSwK93Imk,561
+sign_prosody_extraction/cli.py,sha256=5mJAcEZVSjJOQDAp-nN2B4OZkdgE8I2QJkb5zV36eXI,3860
+sign_prosody_extraction/plot.py,sha256=wM8NmZgE-td_1DhFaP5-CUzNiuqCzZGslGVT9arNSco,2708
+sign_prosody_extraction/targets.py,sha256=g9PzbcD59SVW8A42CqWUh7a5mDLKJ-a5Fp-qyWqbdYg,465
+sign_prosody_extraction/typing.py,sha256=Iu1CuWypBWAZAFl-KejLvUnDR8j-NmjpthxYA2apF7I,659
+sign_prosody_extraction/visualize.py,sha256=MlvJHgdLwHwxmYGYCnVVD0gUHvND27ni7mSRvtN7Cc4,1616
+sign_prosody_extraction/articulator/__init__.py,sha256=3Ed__Wg8PbU6kgif1h5LQYQKDvXIHPTsITB8cQNDxug,551
+sign_prosody_extraction/articulator/cotracker.py,sha256=o8nt4cmIkPXporHq7TyLO4_bHrVlriccV-vulk9F6sE,2236
+sign_prosody_extraction/articulator/mediapipe.py,sha256=RkYQKdRPNTbXMCyarMWajzB7_XlALmUFyVZBQ8eMgqA,1370
+sign_prosody_extraction/img/dir_scale.png,sha256=2gYOogFQXUzDuZ31hRXaWzhjluSqv9AlCL8KIkG41h8,12883
+sign_prosody_extraction/img/dir_scale.svg,sha256=SsuDyTHKmasqmLSWICaMscPQzOnWb30yAsyDS9VGGMc,28352
+sign_prosody_extraction-24.5.dist-info/METADATA,sha256=24daH8m2oLARm3aO5nkoODSUbZR7_eGRwDysmi8KwpU,4635
+sign_prosody_extraction-24.5.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+sign_prosody_extraction-24.5.dist-info/entry_points.txt,sha256=DNi1_moq-0BkH3ovpEo0o__LDBuKXRNqbQfsiR-hHM0,77
+sign_prosody_extraction-24.5.dist-info/licenses/LICENSE,sha256=b8nnCcy_4Nd_v_okJ6mDKCvi64jkexzbSfIag7TR5mU,13827
+sign_prosody_extraction-24.5.dist-info/RECORD,,
