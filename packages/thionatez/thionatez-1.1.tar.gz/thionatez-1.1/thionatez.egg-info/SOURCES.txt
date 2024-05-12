@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thionatez/__init__.py
+thionatez/main.py
+thionatez.egg-info/PKG-INFO
+thionatez.egg-info/SOURCES.txt
+thionatez.egg-info/dependency_links.txt
+thionatez.egg-info/requires.txt
+thionatez.egg-info/top_level.txt
