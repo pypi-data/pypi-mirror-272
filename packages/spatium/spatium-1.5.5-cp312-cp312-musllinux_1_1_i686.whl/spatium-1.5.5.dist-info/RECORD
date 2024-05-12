@@ -1,0 +1,10 @@
+spatium-1.5.5.dist-info/LICENSE.txt,sha256=_SwhBObLpti7HnzIRO-EA6VHM3oTG2oSFNu3RU5Mngo,7652
+spatium-1.5.5.dist-info/METADATA,sha256=l-MoArYaBPqsMFnagM_HHFJ_F7zmiLd8QZVaA7KNuOI,14142
+spatium-1.5.5.dist-info/RECORD,,
+spatium-1.5.5.dist-info/top_level.txt,sha256=KkfNkIKlOE1LjFyk5DlVfuaumVuGS7iNeWOxALDXxzE,8
+spatium-1.5.5.dist-info/WHEEL,sha256=IKrDIzQ3rB6UMluXz0mlxa4dJRc8csRO7VVYq_Shvsc,111
+spatium/_spatium.pyx,sha256=u1LWrKxbrrTPJh8LJj2lmYYMTyhhMrWKZHgD55Vad3Q,1900621
+spatium/_spatium.cpython-312-i386-linux-musl.so,sha256=LWzdxKeY4ssWtXJVxzIqsb-JKyD6Iq7TquHZI2FWl8k,17836492
+spatium/__init__.py,sha256=4kOTw3dQyHL9WQwVqhCgaAU7S8i58U9022O_T-pyI1A,214
+spatium/__init__.pyi,sha256=4kOTw3dQyHL9WQwVqhCgaAU7S8i58U9022O_T-pyI1A,214
+spatium/_spatium.pyi,sha256=3X4-ltdv35o8tiO5tVTYdlYzc6Oec7MvWtoATO22Y1I,1085935
