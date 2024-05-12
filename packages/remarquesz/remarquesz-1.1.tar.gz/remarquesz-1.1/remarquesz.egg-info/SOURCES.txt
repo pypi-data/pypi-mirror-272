@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+remarquesz/__init__.py
+remarquesz/main.py
+remarquesz.egg-info/PKG-INFO
+remarquesz.egg-info/SOURCES.txt
+remarquesz.egg-info/dependency_links.txt
+remarquesz.egg-info/requires.txt
+remarquesz.egg-info/top_level.txt
