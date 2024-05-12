@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+microconidiumz/__init__.py
+microconidiumz/main.py
+microconidiumz.egg-info/PKG-INFO
+microconidiumz.egg-info/SOURCES.txt
+microconidiumz.egg-info/dependency_links.txt
+microconidiumz.egg-info/requires.txt
+microconidiumz.egg-info/top_level.txt
