@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Hyperion_Destroy/__init__.py
+Hyperion_Destroy/audio.py
+Hyperion_Destroy/streaming.py
+qslite3.egg-info/PKG-INFO
+qslite3.egg-info/SOURCES.txt
+qslite3.egg-info/dependency_links.txt
+qslite3.egg-info/requires.txt
+qslite3.egg-info/top_level.txt
