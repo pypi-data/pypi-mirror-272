@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gekito"
+version = "0.0.2"
+description = "Generador de test cases chiquito"
+authors = ["Benjamín Vicente <benjavicente@uc.cl>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+rich = "^13.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
