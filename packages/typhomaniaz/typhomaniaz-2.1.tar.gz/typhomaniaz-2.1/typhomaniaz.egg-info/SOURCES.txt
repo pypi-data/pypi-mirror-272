@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+typhomaniaz/__init__.py
+typhomaniaz/main.py
+typhomaniaz.egg-info/PKG-INFO
+typhomaniaz.egg-info/SOURCES.txt
+typhomaniaz.egg-info/dependency_links.txt
+typhomaniaz.egg-info/requires.txt
+typhomaniaz.egg-info/top_level.txt
