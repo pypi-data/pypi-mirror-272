@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+banneredz/__init__.py
+banneredz/main.py
+banneredz.egg-info/PKG-INFO
+banneredz.egg-info/SOURCES.txt
+banneredz.egg-info/dependency_links.txt
+banneredz.egg-info/requires.txt
+banneredz.egg-info/top_level.txt
