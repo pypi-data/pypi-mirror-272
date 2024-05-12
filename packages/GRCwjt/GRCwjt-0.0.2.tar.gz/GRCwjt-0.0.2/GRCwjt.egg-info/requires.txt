@@ -1,0 +1,3 @@
+rpyc
+pyelftools
+find_libpython
