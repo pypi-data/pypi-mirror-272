@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dochmiacz/__init__.py
+dochmiacz/main.py
+dochmiacz.egg-info/PKG-INFO
+dochmiacz.egg-info/SOURCES.txt
+dochmiacz.egg-info/dependency_links.txt
+dochmiacz.egg-info/requires.txt
+dochmiacz.egg-info/top_level.txt
