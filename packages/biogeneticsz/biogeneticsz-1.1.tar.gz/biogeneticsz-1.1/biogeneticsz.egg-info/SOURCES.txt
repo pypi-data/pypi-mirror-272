@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+biogeneticsz/__init__.py
+biogeneticsz/main.py
+biogeneticsz.egg-info/PKG-INFO
+biogeneticsz.egg-info/SOURCES.txt
+biogeneticsz.egg-info/dependency_links.txt
+biogeneticsz.egg-info/requires.txt
+biogeneticsz.egg-info/top_level.txt
