@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: ubuntu-postinstall
+Version: 0.0.1
+Summary: Automatic setup tool for fresh Ubuntu installs
+Author: hagyma (Varga Dániel)
+Author-email: vargad0803@gmail.com
+Keywords: python,ubuntu,postinstall,extensions,dconf,gsettings
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyside6
+
+
+# Project Name
+
+
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+
+
+## Description
+
+
+
+This project is an automatic setup tool for fresh Ubuntu installs.
+
+
+
+## Features
+
+
+
+- Installing programs
+
+- Changing settings that are hard to find for new users
+
+- Customizing the Desktop Environment
+
+- Installing Extensions
+
+- Setting up those extensions
+
+
+
+## Installation
+
+
+
+```pip install ubuntu-postinstall```
+
+
+
+## Usage
+
+
+
+You can start the tool by entering `ubuntu-postinstall` in the terminal. The layout is intuitive, you have checkboxes and navigation buttons.
+
+
+
+## License
+
+
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+## Contact
+
+
+
+- Email: vargad0803@gmail.com
+
