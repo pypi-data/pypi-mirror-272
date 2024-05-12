@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nostpy-cli
+Version: 0.1.1
+Summary: CLI tool for handling nostpy events
+Author-email: Brian Hartford <bh419@protonmail.com>
+License: MIT
+Project-URL: homepage, https://github.com/UTXOnly/nostpy-cli
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: asyncio
+Requires-Dist: secp256k1
+Requires-Dist: websockets
