@@ -1,0 +1,10 @@
+rocketchat_async/.gitignore,sha256=wqgiq1Op0aEXVlsylDAI0qruIFZ65X1zLUbTUhci0jM,22
+rocketchat_async/__init__.py,sha256=JJO4FtclqaUL2gYY4JR96iDX4AuJPC-jhdVjBTdTO7k,45
+rocketchat_async/constants.py,sha256=M2bnot18hnejkDNjQS983UjEfrOs_huzLRIVN1kGpNE,1013
+rocketchat_async/core.py,sha256=BiTwfr_Wv4a2Y41E85NVN8Jz3Z6eVky13ntv_g02wtk,4741
+rocketchat_async/dispatcher.py,sha256=4HZ3SNB-5u1IVjGzQF8YWZoTmYg8P73Y0fjgBBY4n8c,2695
+rocketchat_async/methods.py,sha256=xAvZgYlPL7vZIqEO5ICe5GdvsRWc62FNsKaoWyA_D-c,8198
+rocketchat_async-4.1.0.dist-info/METADATA,sha256=uhQjLdSytL34RkwIkgv50FCdL3nQ3hM72iYz90vD0Iw,4409
+rocketchat_async-4.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+rocketchat_async-4.1.0.dist-info/LICENSE,sha256=BpHy_Cw2CPWbgk5eJWjyh6kxPVYQAsC8wiAVsjd_zew,1079
+rocketchat_async-4.1.0.dist-info/RECORD,,
