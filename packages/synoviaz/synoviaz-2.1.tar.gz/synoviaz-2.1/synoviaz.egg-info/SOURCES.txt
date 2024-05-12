@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+synoviaz/__init__.py
+synoviaz/main.py
+synoviaz.egg-info/PKG-INFO
+synoviaz.egg-info/SOURCES.txt
+synoviaz.egg-info/dependency_links.txt
+synoviaz.egg-info/requires.txt
+synoviaz.egg-info/top_level.txt
