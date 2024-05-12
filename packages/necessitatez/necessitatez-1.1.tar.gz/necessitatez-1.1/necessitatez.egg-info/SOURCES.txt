@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+necessitatez/__init__.py
+necessitatez/main.py
+necessitatez.egg-info/PKG-INFO
+necessitatez.egg-info/SOURCES.txt
+necessitatez.egg-info/dependency_links.txt
+necessitatez.egg-info/requires.txt
+necessitatez.egg-info/top_level.txt
