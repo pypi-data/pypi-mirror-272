@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vicereinez/__init__.py
+vicereinez/main.py
+vicereinez.egg-info/PKG-INFO
+vicereinez.egg-info/SOURCES.txt
+vicereinez.egg-info/dependency_links.txt
+vicereinez.egg-info/requires.txt
+vicereinez.egg-info/top_level.txt
