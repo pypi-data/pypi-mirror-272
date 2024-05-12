@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wayfellowz/__init__.py
+wayfellowz/main.py
+wayfellowz.egg-info/PKG-INFO
+wayfellowz.egg-info/SOURCES.txt
+wayfellowz.egg-info/dependency_links.txt
+wayfellowz.egg-info/requires.txt
+wayfellowz.egg-info/top_level.txt
