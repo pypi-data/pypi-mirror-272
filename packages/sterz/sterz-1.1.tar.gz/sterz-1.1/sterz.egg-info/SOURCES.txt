@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sterz/__init__.py
+sterz/main.py
+sterz.egg-info/PKG-INFO
+sterz.egg-info/SOURCES.txt
+sterz.egg-info/dependency_links.txt
+sterz.egg-info/requires.txt
+sterz.egg-info/top_level.txt
