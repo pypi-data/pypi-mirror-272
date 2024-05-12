@@ -1,0 +1,11 @@
+h5py
+openbabel>=2.4
+numpy>=1.12
+scipy
+keras>=2.0
+tensorflow-gpu
+protobuf<=3.6.1,>=3.6.1
+biopython
+scikit-learn
+numpy
+pandas
