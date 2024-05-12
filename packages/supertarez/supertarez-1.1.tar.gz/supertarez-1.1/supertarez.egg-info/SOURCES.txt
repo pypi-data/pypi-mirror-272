@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+supertarez/__init__.py
+supertarez/main.py
+supertarez.egg-info/PKG-INFO
+supertarez.egg-info/SOURCES.txt
+supertarez.egg-info/dependency_links.txt
+supertarez.egg-info/requires.txt
+supertarez.egg-info/top_level.txt
