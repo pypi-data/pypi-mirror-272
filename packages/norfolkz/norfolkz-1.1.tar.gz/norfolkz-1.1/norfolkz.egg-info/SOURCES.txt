@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+norfolkz/__init__.py
+norfolkz/main.py
+norfolkz.egg-info/PKG-INFO
+norfolkz.egg-info/SOURCES.txt
+norfolkz.egg-info/dependency_links.txt
+norfolkz.egg-info/requires.txt
+norfolkz.egg-info/top_level.txt
