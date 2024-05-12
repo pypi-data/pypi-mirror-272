@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lotterytickets
+Version: 1.0.0
+Summary: 彩票一体机
+Home-page: https://github.com/lichenyichay/All-in-one-Including/releases/tag/v3.0.0
+Author: Chay
+Author-email: chay <lichenyi_2020@qq.com>
+Project-URL: Homepage, https://github.com/lichenyichay/lotterytickets
+Project-URL: Issues, https://github.com/lichenyichay/lotterytickets/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lotterytickets
+此为彩票一体机
+
+详见<https://github.com/lichenyichay/lotterytickets-including>
