@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sandbagz/__init__.py
+sandbagz/main.py
+sandbagz.egg-info/PKG-INFO
+sandbagz.egg-info/SOURCES.txt
+sandbagz.egg-info/dependency_links.txt
+sandbagz.egg-info/requires.txt
+sandbagz.egg-info/top_level.txt
