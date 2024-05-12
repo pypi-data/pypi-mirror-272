@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+drillersz/__init__.py
+drillersz/main.py
+drillersz.egg-info/PKG-INFO
+drillersz.egg-info/SOURCES.txt
+drillersz.egg-info/dependency_links.txt
+drillersz.egg-info/requires.txt
+drillersz.egg-info/top_level.txt
