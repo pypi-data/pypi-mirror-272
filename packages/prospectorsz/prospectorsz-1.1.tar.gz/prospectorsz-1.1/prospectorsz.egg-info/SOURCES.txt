@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prospectorsz/__init__.py
+prospectorsz/main.py
+prospectorsz.egg-info/PKG-INFO
+prospectorsz.egg-info/SOURCES.txt
+prospectorsz.egg-info/dependency_links.txt
+prospectorsz.egg-info/requires.txt
+prospectorsz.egg-info/top_level.txt
