@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: helpers-ai
+Version: 0.0.3
+Summary: It contains few helping files which helps in the process of creating an AI project.
+License: AGPL-3.0-or-later
+Author: AK
+Author-email: akilangms542@gmail.com
+Maintainer: AK
+Maintainer-email: akilangms542@gmail.com
+Requires-Python: >=3.11
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Dist: imageio (>=2.34.0,<3.0.0)
+Requires-Dist: natsort (>=8.4.0,<9.0.0)
+Requires-Dist: opencv-python (>=4.9.0.80,<5.0.0.0)
+Requires-Dist: pycocotools (>=2.0.7,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: scikit-learn (>=1.4.2,<2.0.0)
+Requires-Dist: torch (==2.2.2)
+Requires-Dist: torchvision (==0.17.2)
+Requires-Dist: tqdm (>=4.66.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Helpers
+Contains some useful helper functions for ML. It is now available in cli operatable command for ease access.
+
+# Installation
+
+Install directly through pip using the command below,
+```
+pip install helpers-ai
+```
+or from source file, first clone the git repository using the below code,
+
+```
+git clone https://github.com/code63ReaPer/helpers-ai.git
+```
+then install the package through pip using the command below,
+```
+cd helpers-ai
+pip install .
+```

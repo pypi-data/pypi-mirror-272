@@ -1,0 +1,3 @@
+[console_scripts]
+helper=helpers_ai.__main__:cli
+
