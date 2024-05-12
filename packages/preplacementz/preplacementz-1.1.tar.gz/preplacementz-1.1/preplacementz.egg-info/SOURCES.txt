@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+preplacementz/__init__.py
+preplacementz/main.py
+preplacementz.egg-info/PKG-INFO
+preplacementz.egg-info/SOURCES.txt
+preplacementz.egg-info/dependency_links.txt
+preplacementz.egg-info/requires.txt
+preplacementz.egg-info/top_level.txt
