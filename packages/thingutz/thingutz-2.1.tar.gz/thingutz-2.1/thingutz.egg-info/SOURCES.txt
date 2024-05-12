@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thingutz/__init__.py
+thingutz/main.py
+thingutz.egg-info/PKG-INFO
+thingutz.egg-info/SOURCES.txt
+thingutz.egg-info/dependency_links.txt
+thingutz.egg-info/requires.txt
+thingutz.egg-info/top_level.txt
