@@ -1,0 +1,17 @@
+[project]
+name = "vapix_python"
+version = "0.0.1"
+authors = [
+  { name="derens99", email="author@example.com" },
+]
+description = "This Python library provides a seamless wrapper around the Vapix API by Axis Communications, facilitating effortless interactions with all their cameras."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/derens99/vapix-python/tree/master"

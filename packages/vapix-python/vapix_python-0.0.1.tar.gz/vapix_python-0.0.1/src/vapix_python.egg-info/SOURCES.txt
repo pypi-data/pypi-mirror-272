@@ -1,0 +1,8 @@
+pyproject.toml
+src/vapix_python/GeolocationAPI.py
+src/vapix_python/PTZControl.py
+src/vapix_python/VapixAPI.py
+src/vapix_python.egg-info/PKG-INFO
+src/vapix_python.egg-info/SOURCES.txt
+src/vapix_python.egg-info/dependency_links.txt
+src/vapix_python.egg-info/top_level.txt

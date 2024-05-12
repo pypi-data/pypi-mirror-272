@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: vapix_python
+Version: 0.0.1
+Summary: This Python library provides a seamless wrapper around the Vapix API by Axis Communications, facilitating effortless interactions with all their cameras.
+Author-email: derens99 <author@example.com>
+Project-URL: Homepage, https://github.com/derens99/vapix-python/tree/master
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
