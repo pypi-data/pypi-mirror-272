@@ -1,0 +1,12 @@
+odoo/addons/ssi_inventory_closing_queue/README.rst,sha256=nG9S0Jnza48vm8WJ8ieihfsGvvnPSozKdSuf1yQ0Mac,1277
+odoo/addons/ssi_inventory_closing_queue/__init__.py,sha256=r5N6OPy8398Gafsr6OVbrNPHjMh7GNTmTPxSKA_LjKQ,181
+odoo/addons/ssi_inventory_closing_queue/__manifest__.py,sha256=v2KuKT-9KSHArvqwZ9qlt_FZ_ulF_fJ8tZUgYqV-das,728
+odoo/addons/ssi_inventory_closing_queue/data/base_automation_data.xml,sha256=l3FMLjJgxacxfYpRcyXHEFR_XnrXMlkzgLmH7uue2Ok,1009
+odoo/addons/ssi_inventory_closing_queue/data/ir_actions_server_data.xml,sha256=IsvPIS7x-y3oROTCZRHOB7wf-k45jxK6pk5Aed5N17w,950
+odoo/addons/ssi_inventory_closing_queue/models/__init__.py,sha256=rk6kc3UsYELg8PHiJLIRlQ5z-elzgSzWHfHG4N-JtzA,192
+odoo/addons/ssi_inventory_closing_queue/models/inventory_closing.py,sha256=hhy5vvZijK5d-4zG2-xupgeV6TOBmmDXs7KIJ0bnp0s,2949
+odoo/addons/ssi_inventory_closing_queue/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_inventory_closing_queue-14.0.2.0.0.dist-info/METADATA,sha256=EiSrZJdwXPj_k4xBwV7IBWH0Kpb3u5rCAWCeBh4IDKI,2000
+odoo14_addon_ssi_inventory_closing_queue-14.0.2.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo14_addon_ssi_inventory_closing_queue-14.0.2.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_inventory_closing_queue-14.0.2.0.0.dist-info/RECORD,,
