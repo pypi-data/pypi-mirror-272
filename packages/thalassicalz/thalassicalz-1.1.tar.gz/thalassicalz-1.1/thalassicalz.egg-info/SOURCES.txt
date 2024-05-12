@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thalassicalz/__init__.py
+thalassicalz/main.py
+thalassicalz.egg-info/PKG-INFO
+thalassicalz.egg-info/SOURCES.txt
+thalassicalz.egg-info/dependency_links.txt
+thalassicalz.egg-info/requires.txt
+thalassicalz.egg-info/top_level.txt
