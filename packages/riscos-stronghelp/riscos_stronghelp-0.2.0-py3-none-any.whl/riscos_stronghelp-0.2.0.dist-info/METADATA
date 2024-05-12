@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: riscos-stronghelp
+Version: 0.2.0
+Summary: Extract RISC OS StrongHelp manuals
+Home-page: https://github.com/gerph/riscos-stronghelp-python
+Author: Charles Ferguson
+Author-email: gerph@gerph.org
+License: MIT
+Keywords: riscos
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+# Python StrongHelp reader
+
+This repository contains a reader for the RISC OS StrongHelp manual image format.
+
+The Python module is able to be used to parse the format and return the files
+which are present. The module can also be used as a command line tool to
+extract the files to a unix file system.
+
+
+## Installation
+
+The tool for extracting StrongHelp files can be installed manually
+using this repository or through PyPI. To install, use:
+
+    pip3 install riscos_stronghelp
+
+
+## Command line
+
+At the command line the extraction tool may be used with the
+supplied shell command:
+
+    riscos-shextract [--extract-dir <directory>] <stronghelp-file>
+
+
