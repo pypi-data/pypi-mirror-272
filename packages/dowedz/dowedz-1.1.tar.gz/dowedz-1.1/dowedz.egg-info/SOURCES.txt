@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dowedz/__init__.py
+dowedz/main.py
+dowedz.egg-info/PKG-INFO
+dowedz.egg-info/SOURCES.txt
+dowedz.egg-info/dependency_links.txt
+dowedz.egg-info/requires.txt
+dowedz.egg-info/top_level.txt
