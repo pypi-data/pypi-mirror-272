@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rotundatez/__init__.py
+rotundatez/main.py
+rotundatez.egg-info/PKG-INFO
+rotundatez.egg-info/SOURCES.txt
+rotundatez.egg-info/dependency_links.txt
+rotundatez.egg-info/requires.txt
+rotundatez.egg-info/top_level.txt
