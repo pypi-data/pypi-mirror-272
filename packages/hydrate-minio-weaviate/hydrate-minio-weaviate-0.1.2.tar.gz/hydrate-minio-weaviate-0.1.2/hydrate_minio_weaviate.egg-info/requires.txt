@@ -1,0 +1,9 @@
+requests
+minio
+weaviate-client
+pydantic
+unstructured
+io
+tempfile
+re
+dotenv
