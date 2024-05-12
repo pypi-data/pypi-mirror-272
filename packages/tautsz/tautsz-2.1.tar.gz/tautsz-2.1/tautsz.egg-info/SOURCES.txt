@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tautsz/__init__.py
+tautsz/main.py
+tautsz.egg-info/PKG-INFO
+tautsz.egg-info/SOURCES.txt
+tautsz.egg-info/dependency_links.txt
+tautsz.egg-info/requires.txt
+tautsz.egg-info/top_level.txt
