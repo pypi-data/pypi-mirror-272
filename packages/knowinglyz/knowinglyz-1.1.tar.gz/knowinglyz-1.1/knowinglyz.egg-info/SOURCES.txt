@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+knowinglyz/__init__.py
+knowinglyz/main.py
+knowinglyz.egg-info/PKG-INFO
+knowinglyz.egg-info/SOURCES.txt
+knowinglyz.egg-info/dependency_links.txt
+knowinglyz.egg-info/requires.txt
+knowinglyz.egg-info/top_level.txt
