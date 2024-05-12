@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+upscrewz/__init__.py
+upscrewz/main.py
+upscrewz.egg-info/PKG-INFO
+upscrewz.egg-info/SOURCES.txt
+upscrewz.egg-info/dependency_links.txt
+upscrewz.egg-info/requires.txt
+upscrewz.egg-info/top_level.txt
