@@ -1,0 +1,8 @@
+citation-report>=0.1.7
+
+[dev]
+ipykernel>=6.29
+pytest>=8.2
+pytest-cov>=4.1
+build>=1.0.3
+twine>=4.0.2

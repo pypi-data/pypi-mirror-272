@@ -1,0 +1,32 @@
+[project]
+name = "citation-utils"
+description = "Pattern matching Philippine Supreme Court citations."
+version = "0.4.11"
+requires-python = ">=3.11"
+dependencies = [
+  "citation-report >= 0.1.7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ipykernel >= 6.29",
+  "pytest >= 8.2",
+  "pytest-cov >= 4.1",
+  "build >= 1.0.3",
+  "twine >= 4.0.2",
+]
+
+
+[tool.pytest.ini_options]
+minversion = "8.2"
+addopts = "-ra -q -vv --cov --doctest-modules"
+testpaths = ["src","tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+ignore = ["F401", "F403"]
+fixable = ["F", "E", "W", "I001"]
+select = ["F", "E", "W", "I001"]
