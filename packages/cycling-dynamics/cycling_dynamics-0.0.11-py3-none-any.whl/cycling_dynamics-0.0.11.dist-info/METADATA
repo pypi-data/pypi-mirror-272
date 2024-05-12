@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: cycling-dynamics
+Version: 0.0.11
+Summary: Cycling (Bicycling) models of motion, air drag, rolling resistance, power calculations.
+Project-URL: Documentation, https://github.com/vincentdavis/cycling-dynamics#readme
+Project-URL: Issues, https://github.com/vincentdavis/cycling-dynamics/issues
+Project-URL: Source, https://github.com/vincentdavis/cycling-dynamics
+Author-email: Vincent Davis <v@heteroskedastic.org>
+License-Expression: MIT
+License-File: LICENSE.md
+Keywords: Air Resistance,Calculations,Marginal Gains,Rolling Resistance,bicycle,cycling,dynamics,speed
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: garmin-fit-sdk>=21.133.0
+Requires-Dist: matplotlib>=3.8.3
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: pandas>=2.2
+Requires-Dist: plotly>=5.20.0
+Requires-Dist: pyarrow>=16.0
+Description-Content-Type: text/markdown
+
+# Cycling Dynamics
+Cycling (Bicycling) models of motion, air drag, rolling resistance, power calculations.
+
+This project is in activly being developed and has incomplete methods, models, stats and functions.
+
+
+[![PyPI - Version](https://img.shields.io/pypi/v/cycling-dynamics.svg)](https://pypi.org/project/cycling-dynamics)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cycling-dynamics.svg)](https://pypi.org/project/cycling-dynamics)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install cycling-dynamics
+```
+
+## License
+
+`cycling-dynamics` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
