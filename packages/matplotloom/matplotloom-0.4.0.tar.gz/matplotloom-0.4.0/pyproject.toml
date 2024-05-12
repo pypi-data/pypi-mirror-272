@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "matplotloom"
+version = "0.4.0"
+description = "Weave your frames into matplotlib animations."
+authors = ["ali-ramadhan <ali.hh.ramadhan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.0.0"
+ipython = "^8.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+
+[tool.poetry.group.examples.dependencies]
+numpy = "^1.26.4"
+joblib = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
