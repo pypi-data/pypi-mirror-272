@@ -1,0 +1,4 @@
+autoboot<1.0,>=0.9.0
+
+[redis]
+redis>=4.0.0
