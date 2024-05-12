@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+swoundedz/__init__.py
+swoundedz/main.py
+swoundedz.egg-info/PKG-INFO
+swoundedz.egg-info/SOURCES.txt
+swoundedz.egg-info/dependency_links.txt
+swoundedz.egg-info/requires.txt
+swoundedz.egg-info/top_level.txt
