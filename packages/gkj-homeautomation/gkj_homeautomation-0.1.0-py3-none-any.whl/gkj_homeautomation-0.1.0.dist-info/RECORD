@@ -1,0 +1,13 @@
+homeautomation/__init__.py,sha256=JWNnH3IIGZvUOufd7GdUrw8BLpoBG_QSy_-LSZwcl5A,145
+homeautomation/devices.py,sha256=p-syjR3v2Hioxt4yM1zZ3YiuCsNysjgzGiEHwik1H-E,925
+homeautomation/helpfuncs.py,sha256=Ur66rB1gszhjJNnUlNHRVpLIRDt9uUF4KmFZ4NUfq3Q,900
+homeautomation/kostal_plenticore.py,sha256=X8RXvALqH6bdQHFatbQwG5nPVMKsSNghKCPfbzyr0q4,2872
+homeautomation/kostal_sem.py,sha256=IQrCGfwkBfu65p51f8fwTnPBpq1ZwLIMPOnm_7ccuHo,2884
+homeautomation/start.py,sha256=Ltg7g_g40LDJz2d7TF7EHn2kE3-UXmiwWbFre4acu3k,2997
+homeautomation/datamodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homeautomation/datamodel/modbus.py,sha256=gCA6IQRa1RqE7Vtp3vCa4wWJjuIW7Lytaksnf-ykZOA,3683
+homeautomation/datamodel/plenticore_registers.csv,sha256=cgPWEsKqK25zPYYPDWUtPGESR7B_xvSMHMYqyOf7Oks,1321
+gkj_homeautomation-0.1.0.dist-info/METADATA,sha256=MNknCc4JF_ZIGozpAYZ5WCxtQDryPAESGj44xYPKgSQ,324
+gkj_homeautomation-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+gkj_homeautomation-0.1.0.dist-info/entry_points.txt,sha256=JDSNbjTOy2VkcuQY66il_oZmeYNM1XeCgiR7rlblOQ8,101
+gkj_homeautomation-0.1.0.dist-info/RECORD,,
