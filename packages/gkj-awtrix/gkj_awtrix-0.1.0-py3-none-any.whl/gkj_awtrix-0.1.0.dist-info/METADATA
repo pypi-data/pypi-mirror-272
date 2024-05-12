@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: gkj-awtrix
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Gerrit Kocherscheidt <kochersg@koco-group.com>
+Requires-Python: >=3.8
+Requires-Dist: pillow>=10.3.0
+Requires-Dist: requests>=2.31.0
+Description-Content-Type: text/markdown
+
+# awtrix
+
+Describe your project here.

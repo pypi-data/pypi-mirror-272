@@ -1,0 +1,11 @@
+awtrix/__init__.py,sha256=CWL0274PnWNH9IH1Coeo0dItlu4iWNheLOEVhJygkG4,70
+awtrix/device.py,sha256=ozJ4CKlarzLOw4XhozJwSQVicWrLtD2ALok2C8X3qIk,907
+awtrix/display.py,sha256=RdXanj6N8Rg6_qD-U4o7JMQSZ57QAPwOQkWBpIFka94,2220
+awtrix/effects.py,sha256=F4Cm5Y1oYMTUzkRLC2R5sEZXdWloydpSGtUKocLvif0,2296
+awtrix/icons.py,sha256=GOdm4G5Lqwqo6_nxty7gjpYEO-lOqmtTVGjB2w2VyJs,2030
+awtrix/palettes.py,sha256=h-hiq2cOEjLk7CfK647gLkhLTbnObWnNFJxomneVQWA,255
+awtrix/start.py,sha256=TaTy1_cX26q0u9UY96xgFbiLktlMMowrSbcM-hZhVJI,1149
+gkj_awtrix-0.1.0.dist-info/METADATA,sha256=xdRzs2tyYp3ZzsWll0leIgbcW4m5z31PycF6Sy8Dsfk,313
+gkj_awtrix-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+gkj_awtrix-0.1.0.dist-info/entry_points.txt,sha256=bcDEE0udzCaCwjPq2Z18cjtoSEcJMcDga7Ru0gFrKYA,67
+gkj_awtrix-0.1.0.dist-info/RECORD,,

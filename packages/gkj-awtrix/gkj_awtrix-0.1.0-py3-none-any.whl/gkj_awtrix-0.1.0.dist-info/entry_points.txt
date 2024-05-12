@@ -1,0 +1,3 @@
+[console_scripts]
+hello = awtrix:hello
+setup = awtrix:setup_AWTRIX
