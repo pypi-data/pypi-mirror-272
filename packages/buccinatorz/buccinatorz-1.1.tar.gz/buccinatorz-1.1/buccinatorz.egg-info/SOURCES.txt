@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+buccinatorz/__init__.py
+buccinatorz/main.py
+buccinatorz.egg-info/PKG-INFO
+buccinatorz.egg-info/SOURCES.txt
+buccinatorz.egg-info/dependency_links.txt
+buccinatorz.egg-info/requires.txt
+buccinatorz.egg-info/top_level.txt
