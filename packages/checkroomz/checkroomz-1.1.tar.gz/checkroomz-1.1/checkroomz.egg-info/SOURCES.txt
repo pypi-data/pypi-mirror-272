@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+checkroomz/__init__.py
+checkroomz/main.py
+checkroomz.egg-info/PKG-INFO
+checkroomz.egg-info/SOURCES.txt
+checkroomz.egg-info/dependency_links.txt
+checkroomz.egg-info/requires.txt
+checkroomz.egg-info/top_level.txt
