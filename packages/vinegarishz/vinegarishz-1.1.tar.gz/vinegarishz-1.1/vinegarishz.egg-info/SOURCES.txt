@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vinegarishz/__init__.py
+vinegarishz/main.py
+vinegarishz.egg-info/PKG-INFO
+vinegarishz.egg-info/SOURCES.txt
+vinegarishz.egg-info/dependency_links.txt
+vinegarishz.egg-info/requires.txt
+vinegarishz.egg-info/top_level.txt
