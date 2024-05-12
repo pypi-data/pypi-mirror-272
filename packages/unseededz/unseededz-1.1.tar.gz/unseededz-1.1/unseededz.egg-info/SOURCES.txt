@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unseededz/__init__.py
+unseededz/main.py
+unseededz.egg-info/PKG-INFO
+unseededz.egg-info/SOURCES.txt
+unseededz.egg-info/dependency_links.txt
+unseededz.egg-info/requires.txt
+unseededz.egg-info/top_level.txt
