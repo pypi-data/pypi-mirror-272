@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+ExcelExtractorJsonPDF/__init__.py
+ExcelExtractorJsonPDF/converter.py
+ExcelExtractorJsonPDF.egg-info/PKG-INFO
+ExcelExtractorJsonPDF.egg-info/SOURCES.txt
+ExcelExtractorJsonPDF.egg-info/dependency_links.txt
+ExcelExtractorJsonPDF.egg-info/requires.txt
+ExcelExtractorJsonPDF.egg-info/top_level.txt
