@@ -1,0 +1,11 @@
+discretelog/__init__.py,sha256=4g0fe6rVVFw7sgNCfla8qJY4fnmb2wWxmXXJtLKVzmg,5966
+discretelog/__main__.py,sha256=LZo5fvaSXKa5xnMAFrynXji1b5cjxFp1xIUgcppSQgw,256
+discretelog/block_lanczos.py,sha256=LKDOjT0zrsLBih62nHutGpUBkiVkyHrgAFLSjC-OiIQ,2350
+discretelog/common.py,sha256=SkDyKMEpf2iV-CbVOfVoFHeZ95557RrgJhsAJ0Ue_Ec,5199
+discretelog/linear_sieve_index_calculus.py,sha256=n_ouUXNRmi8K8TfQvwbQ1DG32Y7o3z4NnVxLMpyXLq0,18272
+discretelog/naive_index_calculus.py,sha256=0r0pRjbwT02t2rk4AeCEnbSiw0Yw7CiGo8M51KLFnrA,5104
+discretelog/utils.py,sha256=fxLnpzPcqO7MX-TRaXTcSOJyw7LnC-YknH3hZgaliPo,965
+discretelog-0.1.1.dist-info/LICENSE,sha256=zV2-LjrgMx7Ag26iweaII-F9FULF0BooY7q29_XJvQ4,11337
+discretelog-0.1.1.dist-info/METADATA,sha256=GpjEtgrpsVsQfkrtzpxYW8F2dnfprKybU5V67u0T9nQ,2722
+discretelog-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+discretelog-0.1.1.dist-info/RECORD,,
