@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+auritez/__init__.py
+auritez/main.py
+auritez.egg-info/PKG-INFO
+auritez.egg-info/SOURCES.txt
+auritez.egg-info/dependency_links.txt
+auritez.egg-info/requires.txt
+auritez.egg-info/top_level.txt
