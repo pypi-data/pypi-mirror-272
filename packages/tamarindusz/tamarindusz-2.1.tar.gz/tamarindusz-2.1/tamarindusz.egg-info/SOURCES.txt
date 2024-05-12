@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tamarindusz/__init__.py
+tamarindusz/main.py
+tamarindusz.egg-info/PKG-INFO
+tamarindusz.egg-info/SOURCES.txt
+tamarindusz.egg-info/dependency_links.txt
+tamarindusz.egg-info/requires.txt
+tamarindusz.egg-info/top_level.txt
