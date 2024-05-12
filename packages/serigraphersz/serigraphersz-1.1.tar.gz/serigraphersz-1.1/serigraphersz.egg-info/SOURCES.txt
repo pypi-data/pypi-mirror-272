@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+serigraphersz/__init__.py
+serigraphersz/main.py
+serigraphersz.egg-info/PKG-INFO
+serigraphersz.egg-info/SOURCES.txt
+serigraphersz.egg-info/dependency_links.txt
+serigraphersz.egg-info/requires.txt
+serigraphersz.egg-info/top_level.txt
