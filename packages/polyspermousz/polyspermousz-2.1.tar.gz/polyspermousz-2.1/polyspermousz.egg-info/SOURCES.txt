@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+polyspermousz/__init__.py
+polyspermousz/main.py
+polyspermousz.egg-info/PKG-INFO
+polyspermousz.egg-info/SOURCES.txt
+polyspermousz.egg-info/dependency_links.txt
+polyspermousz.egg-info/requires.txt
+polyspermousz.egg-info/top_level.txt
