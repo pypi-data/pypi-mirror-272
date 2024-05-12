@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+appallinglyz/__init__.py
+appallinglyz/main.py
+appallinglyz.egg-info/PKG-INFO
+appallinglyz.egg-info/SOURCES.txt
+appallinglyz.egg-info/dependency_links.txt
+appallinglyz.egg-info/requires.txt
+appallinglyz.egg-info/top_level.txt
