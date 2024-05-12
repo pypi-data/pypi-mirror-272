@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+palestricz/__init__.py
+palestricz/main.py
+palestricz.egg-info/PKG-INFO
+palestricz.egg-info/SOURCES.txt
+palestricz.egg-info/dependency_links.txt
+palestricz.egg-info/requires.txt
+palestricz.egg-info/top_level.txt
