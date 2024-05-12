@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+monandayz/__init__.py
+monandayz/main.py
+monandayz.egg-info/PKG-INFO
+monandayz.egg-info/SOURCES.txt
+monandayz.egg-info/dependency_links.txt
+monandayz.egg-info/requires.txt
+monandayz.egg-info/top_level.txt
