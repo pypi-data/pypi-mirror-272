@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+compleatz/__init__.py
+compleatz/main.py
+compleatz.egg-info/PKG-INFO
+compleatz.egg-info/SOURCES.txt
+compleatz.egg-info/dependency_links.txt
+compleatz.egg-info/requires.txt
+compleatz.egg-info/top_level.txt
