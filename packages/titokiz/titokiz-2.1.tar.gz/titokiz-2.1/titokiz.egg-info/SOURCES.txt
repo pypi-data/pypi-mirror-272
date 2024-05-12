@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+titokiz/__init__.py
+titokiz/main.py
+titokiz.egg-info/PKG-INFO
+titokiz.egg-info/SOURCES.txt
+titokiz.egg-info/dependency_links.txt
+titokiz.egg-info/requires.txt
+titokiz.egg-info/top_level.txt
