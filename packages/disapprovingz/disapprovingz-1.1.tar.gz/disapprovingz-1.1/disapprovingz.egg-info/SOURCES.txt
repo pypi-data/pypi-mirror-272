@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+disapprovingz/__init__.py
+disapprovingz/main.py
+disapprovingz.egg-info/PKG-INFO
+disapprovingz.egg-info/SOURCES.txt
+disapprovingz.egg-info/dependency_links.txt
+disapprovingz.egg-info/requires.txt
+disapprovingz.egg-info/top_level.txt
