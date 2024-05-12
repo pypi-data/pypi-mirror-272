@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+slurbowz/__init__.py
+slurbowz/main.py
+slurbowz.egg-info/PKG-INFO
+slurbowz.egg-info/SOURCES.txt
+slurbowz.egg-info/dependency_links.txt
+slurbowz.egg-info/requires.txt
+slurbowz.egg-info/top_level.txt
