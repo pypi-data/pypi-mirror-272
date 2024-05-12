@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unspiritualnessz/__init__.py
+unspiritualnessz/main.py
+unspiritualnessz.egg-info/PKG-INFO
+unspiritualnessz.egg-info/SOURCES.txt
+unspiritualnessz.egg-info/dependency_links.txt
+unspiritualnessz.egg-info/requires.txt
+unspiritualnessz.egg-info/top_level.txt
