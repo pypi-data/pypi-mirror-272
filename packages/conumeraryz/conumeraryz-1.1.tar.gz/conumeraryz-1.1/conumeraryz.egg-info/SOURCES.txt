@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+conumeraryz/__init__.py
+conumeraryz/main.py
+conumeraryz.egg-info/PKG-INFO
+conumeraryz.egg-info/SOURCES.txt
+conumeraryz.egg-info/dependency_links.txt
+conumeraryz.egg-info/requires.txt
+conumeraryz.egg-info/top_level.txt
