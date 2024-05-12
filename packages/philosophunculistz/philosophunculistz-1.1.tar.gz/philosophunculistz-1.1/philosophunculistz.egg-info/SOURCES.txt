@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+philosophunculistz/__init__.py
+philosophunculistz/main.py
+philosophunculistz.egg-info/PKG-INFO
+philosophunculistz.egg-info/SOURCES.txt
+philosophunculistz.egg-info/dependency_links.txt
+philosophunculistz.egg-info/requires.txt
+philosophunculistz.egg-info/top_level.txt
