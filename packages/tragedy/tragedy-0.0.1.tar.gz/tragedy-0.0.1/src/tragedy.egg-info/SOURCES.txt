@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/tragedy/__init__.py
+src/tragedy.egg-info/PKG-INFO
+src/tragedy.egg-info/SOURCES.txt
+src/tragedy.egg-info/dependency_links.txt
+src/tragedy.egg-info/top_level.txt
