@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+maidhoodz/__init__.py
+maidhoodz/main.py
+maidhoodz.egg-info/PKG-INFO
+maidhoodz.egg-info/SOURCES.txt
+maidhoodz.egg-info/dependency_links.txt
+maidhoodz.egg-info/requires.txt
+maidhoodz.egg-info/top_level.txt
