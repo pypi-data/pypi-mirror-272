@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+furcularz/__init__.py
+furcularz/main.py
+furcularz.egg-info/PKG-INFO
+furcularz.egg-info/SOURCES.txt
+furcularz.egg-info/dependency_links.txt
+furcularz.egg-info/requires.txt
+furcularz.egg-info/top_level.txt
