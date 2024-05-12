@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thimbleriggerz/__init__.py
+thimbleriggerz/main.py
+thimbleriggerz.egg-info/PKG-INFO
+thimbleriggerz.egg-info/SOURCES.txt
+thimbleriggerz.egg-info/dependency_links.txt
+thimbleriggerz.egg-info/requires.txt
+thimbleriggerz.egg-info/top_level.txt
