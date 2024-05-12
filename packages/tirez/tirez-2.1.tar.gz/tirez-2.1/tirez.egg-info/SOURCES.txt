@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tirez/__init__.py
+tirez/main.py
+tirez.egg-info/PKG-INFO
+tirez.egg-info/SOURCES.txt
+tirez.egg-info/dependency_links.txt
+tirez.egg-info/requires.txt
+tirez.egg-info/top_level.txt
