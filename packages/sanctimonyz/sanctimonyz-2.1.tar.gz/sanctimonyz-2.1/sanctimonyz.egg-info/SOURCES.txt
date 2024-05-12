@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sanctimonyz/__init__.py
+sanctimonyz/main.py
+sanctimonyz.egg-info/PKG-INFO
+sanctimonyz.egg-info/SOURCES.txt
+sanctimonyz.egg-info/dependency_links.txt
+sanctimonyz.egg-info/requires.txt
+sanctimonyz.egg-info/top_level.txt
