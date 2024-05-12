@@ -1,0 +1,14 @@
+FashionTrendForecasting/__init__.py,sha256=bMXx0FP6rlny9Rsgy7X-MZOs09zbF03Va_zaixMioW0,104
+FashionTrendForecasting/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FashionTrendForecasting/api/main.py,sha256=YcmK96Lb9AZUaKm2zO1uKhR4BFBQUEm-vDIVQ8qDHs4,443
+FashionTrendForecasting/data_processing/__init__.py,sha256=_wZMmOBSMh4VFHc4TMJtlyQFLzUvuNA7AiJYjISNVE0,55
+FashionTrendForecasting/data_processing/insert_data.py,sha256=QDO3FX93qkLVnwuvGXFMkYO5sfArQvq8uDFuXB9YZUw,783
+FashionTrendForecasting/data_processing/sql_interactions.py,sha256=EHtuGwRTeh5it6AvuoRRN_4xtVn-9Qikx0yG14JycVQ,11265
+FashionTrendForecasting/trend_analysis/Simple_Model.py,sha256=oPxSmEeeldEhE2IBxwp2rDC90Zjfg069HDWVUH4naq4,3463
+FashionTrendForecasting/trend_analysis/__init__.py,sha256=w307sHlvT3tt3aYPcowgl-IHgrJmx8xj6Hw9iPVAKGE,105
+FashionTrendForecasting/trend_analysis/model.py,sha256=j0nNQGV3R7tCLKDaqcPzGDIwrttmTQQh_9maO27uiGQ,2889
+FashionTrendForecasting-0.1.0.dist-info/LICENSE,sha256=CIftgGrZdvwgbioaX-DR5QTFtCCzVLHDqVoQE7QBrVc,1063
+FashionTrendForecasting-0.1.0.dist-info/METADATA,sha256=hFU0EYk9vwI18gyueD8eOtS9GDNXPZHUFmANyu1aXjE,4631
+FashionTrendForecasting-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+FashionTrendForecasting-0.1.0.dist-info/top_level.txt,sha256=zxcOK_qp2kfrJy6pk5rPuHvbWdZ7KYp_XK2udQDjByI,24
+FashionTrendForecasting-0.1.0.dist-info/RECORD,,
