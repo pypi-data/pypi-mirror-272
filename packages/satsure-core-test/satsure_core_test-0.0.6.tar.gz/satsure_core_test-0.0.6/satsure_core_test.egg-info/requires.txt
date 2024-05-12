@@ -1,0 +1,10 @@
+awscli
+fiona
+google-cloud-storage
+pandas
+pystac
+python-dotenv
+requests
+requests
+sqlalchemy
+wget
