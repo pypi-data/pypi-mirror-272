@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reacclimatizedz/__init__.py
+reacclimatizedz/main.py
+reacclimatizedz.egg-info/PKG-INFO
+reacclimatizedz.egg-info/SOURCES.txt
+reacclimatizedz.egg-info/dependency_links.txt
+reacclimatizedz.egg-info/requires.txt
+reacclimatizedz.egg-info/top_level.txt
