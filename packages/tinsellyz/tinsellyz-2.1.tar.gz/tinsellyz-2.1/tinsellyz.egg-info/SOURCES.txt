@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tinsellyz/__init__.py
+tinsellyz/main.py
+tinsellyz.egg-info/PKG-INFO
+tinsellyz.egg-info/SOURCES.txt
+tinsellyz.egg-info/dependency_links.txt
+tinsellyz.egg-info/requires.txt
+tinsellyz.egg-info/top_level.txt
