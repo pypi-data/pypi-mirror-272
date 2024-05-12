@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: kickthespypet-api
+Version: 0.0.4
+Summary: kickthespy.pet API wrapper
+Home-page: https://github.com/timelessnesses/kickthespypet-api
+License: MPL-2.0
+Keywords: async,python3,kickthespy.pet,spy.pet
+Author: timelesnesses
+Author-email: timelessnesses@timelessnesses.me
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.9.5,<4.0.0)
+Requires-Dist: orjson (>=3.10.3,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/timelessnesses/kickthespypet-api/issues
+Project-URL: Repository, https://github.com/timelessnesses/kickthespypet-api
+Description-Content-Type: text/markdown
+
+# kickthespypet-api
+
+A kickthespy.pet API wrapper for Python with fully documented and type-annotated. All API are made using [the javascript file from the website](https://kickthespy.pet/main.js)
+
+## Installing
+
+```shell
+pip install git+https://github.com/timelessnesses/kickthespypet-api
+# or
+pip install kickthespypet-api
+```
+You also need `discord` version of your choice (not installed automatically)
+
+## Examples
+
+```python
+import kickthespypet_api
+
+client = kickthespypet_api.KickTheSpyPetAPI()
+client.get_bot_by_server_id(20).id
+client.get_bot_by_server_invite("server invite here")
+for bot in client.get_bot_user_ids_int():
+    await (await bot_client.fetch_user(bot)).ban()
+```
+
+`AsyncKickTheSpyPetAPI` is same API as `KickTheSpyPetAPI` but all of HTTP requests will be made with `aiohttp` instead of `requests` and they are asynchronous so you need to `await`
+
+## This is NOT stable
+
+This module is not YET been confirmed to work in every situation and some requests might fails. Please open an issue for that.
+
