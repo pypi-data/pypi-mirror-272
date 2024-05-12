@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+theologianz/__init__.py
+theologianz/main.py
+theologianz.egg-info/PKG-INFO
+theologianz.egg-info/SOURCES.txt
+theologianz.egg-info/dependency_links.txt
+theologianz.egg-info/requires.txt
+theologianz.egg-info/top_level.txt
