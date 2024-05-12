@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+huzzahingz/__init__.py
+huzzahingz/main.py
+huzzahingz.egg-info/PKG-INFO
+huzzahingz.egg-info/SOURCES.txt
+huzzahingz.egg-info/dependency_links.txt
+huzzahingz.egg-info/requires.txt
+huzzahingz.egg-info/top_level.txt
