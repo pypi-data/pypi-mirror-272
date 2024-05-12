@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+juvenilifyz/__init__.py
+juvenilifyz/main.py
+juvenilifyz.egg-info/PKG-INFO
+juvenilifyz.egg-info/SOURCES.txt
+juvenilifyz.egg-info/dependency_links.txt
+juvenilifyz.egg-info/requires.txt
+juvenilifyz.egg-info/top_level.txt
