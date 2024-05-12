@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+./assessment/__init__.py
+./assessment/assessment.py
+extensionmigrationassistant.egg-info/PKG-INFO
+extensionmigrationassistant.egg-info/SOURCES.txt
+extensionmigrationassistant.egg-info/dependency_links.txt
+extensionmigrationassistant.egg-info/entry_points.txt
+extensionmigrationassistant.egg-info/requires.txt
+extensionmigrationassistant.egg-info/top_level.txt
