@@ -1,0 +1,10 @@
+moschitta_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moschitta_auth/authorization.py,sha256=fiFCOmH7inxPGf8nFc3zkugo8ORBtiSoE7ODorFQk1I,634
+moschitta_auth/base_authentication.py,sha256=vzKeOeVKcj6AkaIcV2-t_sRfYM6R-WSLki3qbmvo22g,1044
+moschitta_auth/basic_authenticator.py,sha256=BEBXlv5R7WoSsAygKyxaa-zPdjMdwyNM9wjbmeMdmj8,2605
+moschitta_auth/helper_functions.py,sha256=vNCbYTZAeTRC0zuwL-e6dQcXGUdqw_-7AQPISM-igns,520
+moschitta_auth/logout.py,sha256=4BMcUrNaJqf_wr_G4Wl8NSQ8weFlngUoRYIx6aSJznM,383
+moschitta_auth-0.1.0.dist-info/LICENSE,sha256=cXM67JOZ8Cqoz6P0PeKDsH8ZOFL7l8CpPeMmkw96poo,1096
+moschitta_auth-0.1.0.dist-info/METADATA,sha256=-bmVfnuSQysnMy_F8eTE0_H6zjfExr5X0CARQvXFOf4,2625
+moschitta_auth-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+moschitta_auth-0.1.0.dist-info/RECORD,,
