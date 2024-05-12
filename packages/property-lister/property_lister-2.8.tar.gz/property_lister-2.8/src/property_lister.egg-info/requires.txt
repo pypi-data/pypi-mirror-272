@@ -1,0 +1,2 @@
+biplist>=1.0.3
+datetime>=5.0
