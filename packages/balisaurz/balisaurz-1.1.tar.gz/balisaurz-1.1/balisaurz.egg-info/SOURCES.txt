@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+balisaurz/__init__.py
+balisaurz/main.py
+balisaurz.egg-info/PKG-INFO
+balisaurz.egg-info/SOURCES.txt
+balisaurz.egg-info/dependency_links.txt
+balisaurz.egg-info/requires.txt
+balisaurz.egg-info/top_level.txt
