@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: py-alpaca-api
+Version: 0.2.1
+Summary: Python package, for communicating with Alpaca Markets REST API.
+Home-page: https://github.com/TexasCoding/py-alpaca-api
+License: MIT
+Keywords: alpaca,python
+Author: TexasCoding
+Author-email: jeff10278@me.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/TexasCoding/py-alpaca-api
+Description-Content-Type: text/markdown
+
+
