@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+trochz/__init__.py
+trochz/main.py
+trochz.egg-info/PKG-INFO
+trochz.egg-info/SOURCES.txt
+trochz.egg-info/dependency_links.txt
+trochz.egg-info/requires.txt
+trochz.egg-info/top_level.txt
