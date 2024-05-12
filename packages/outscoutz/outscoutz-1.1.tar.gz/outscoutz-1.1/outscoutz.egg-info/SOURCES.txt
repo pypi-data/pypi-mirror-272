@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+outscoutz/__init__.py
+outscoutz/main.py
+outscoutz.egg-info/PKG-INFO
+outscoutz.egg-info/SOURCES.txt
+outscoutz.egg-info/dependency_links.txt
+outscoutz.egg-info/requires.txt
+outscoutz.egg-info/top_level.txt
