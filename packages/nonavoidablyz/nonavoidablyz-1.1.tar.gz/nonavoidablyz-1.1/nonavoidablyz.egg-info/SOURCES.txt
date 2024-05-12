@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonavoidablyz/__init__.py
+nonavoidablyz/main.py
+nonavoidablyz.egg-info/PKG-INFO
+nonavoidablyz.egg-info/SOURCES.txt
+nonavoidablyz.egg-info/dependency_links.txt
+nonavoidablyz.egg-info/requires.txt
+nonavoidablyz.egg-info/top_level.txt
