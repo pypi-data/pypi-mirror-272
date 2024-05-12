@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+encyclopaediaz/__init__.py
+encyclopaediaz/main.py
+encyclopaediaz.egg-info/PKG-INFO
+encyclopaediaz.egg-info/SOURCES.txt
+encyclopaediaz.egg-info/dependency_links.txt
+encyclopaediaz.egg-info/requires.txt
+encyclopaediaz.egg-info/top_level.txt
