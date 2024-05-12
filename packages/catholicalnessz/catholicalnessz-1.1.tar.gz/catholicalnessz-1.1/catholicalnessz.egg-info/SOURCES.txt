@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+catholicalnessz/__init__.py
+catholicalnessz/main.py
+catholicalnessz.egg-info/PKG-INFO
+catholicalnessz.egg-info/SOURCES.txt
+catholicalnessz.egg-info/dependency_links.txt
+catholicalnessz.egg-info/requires.txt
+catholicalnessz.egg-info/top_level.txt
