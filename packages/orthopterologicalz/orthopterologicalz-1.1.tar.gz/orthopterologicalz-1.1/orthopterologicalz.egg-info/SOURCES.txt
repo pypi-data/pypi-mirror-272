@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+orthopterologicalz/__init__.py
+orthopterologicalz/main.py
+orthopterologicalz.egg-info/PKG-INFO
+orthopterologicalz.egg-info/SOURCES.txt
+orthopterologicalz.egg-info/dependency_links.txt
+orthopterologicalz.egg-info/requires.txt
+orthopterologicalz.egg-info/top_level.txt
