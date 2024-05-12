@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: g2opy
+Version: 0.0.2
+Summary: g2o for python
+Author: ubicoders
+Author-email: info@ubicoders.com
+Keywords: g2o,SLAM,BA,ICP,optimization,python,binding
+Description-Content-Type: text/markdown
+
+# g2o Graph Optimization Lib for Ubuntu Linux
+
+More will come.
