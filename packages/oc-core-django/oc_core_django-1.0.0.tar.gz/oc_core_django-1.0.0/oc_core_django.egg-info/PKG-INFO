@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: oc-core-django
+Version: 1.0.0
+Summary: The django 'core' page of @tbscode's open-chat
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Requires-Dist: httpx<0.28.0,>=0.20.0
+Requires-Dist: attrs>=21.3.0
+Requires-Dist: python-dateutil<3,>=2.8.0
+
+# Open-Chat's django 'core' module
+
+Build by @tbscode: https://github.com/tbscode
