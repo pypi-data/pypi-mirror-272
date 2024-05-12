@@ -1,0 +1,15 @@
+click>=7
+fuzzywuzzy<1,>=0.10
+markdown-table
+pybtex==0.23.0
+pyyaml<6,>=5
+unidecode<2,>=1
+
+[dev]
+flake8
+pep8-naming
+flake8-docstrings
+anybadge
+markdown
+check-manifest
+twine
