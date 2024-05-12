@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prefatorialz/__init__.py
+prefatorialz/main.py
+prefatorialz.egg-info/PKG-INFO
+prefatorialz.egg-info/SOURCES.txt
+prefatorialz.egg-info/dependency_links.txt
+prefatorialz.egg-info/requires.txt
+prefatorialz.egg-info/top_level.txt
