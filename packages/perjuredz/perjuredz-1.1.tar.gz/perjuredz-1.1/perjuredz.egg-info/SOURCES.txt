@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+perjuredz/__init__.py
+perjuredz/main.py
+perjuredz.egg-info/PKG-INFO
+perjuredz.egg-info/SOURCES.txt
+perjuredz.egg-info/dependency_links.txt
+perjuredz.egg-info/requires.txt
+perjuredz.egg-info/top_level.txt
