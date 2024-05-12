@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nondisinterestedz/__init__.py
+nondisinterestedz/main.py
+nondisinterestedz.egg-info/PKG-INFO
+nondisinterestedz.egg-info/SOURCES.txt
+nondisinterestedz.egg-info/dependency_links.txt
+nondisinterestedz.egg-info/requires.txt
+nondisinterestedz.egg-info/top_level.txt
