@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+retrenchmentsz/__init__.py
+retrenchmentsz/main.py
+retrenchmentsz.egg-info/PKG-INFO
+retrenchmentsz.egg-info/SOURCES.txt
+retrenchmentsz.egg-info/dependency_links.txt
+retrenchmentsz.egg-info/requires.txt
+retrenchmentsz.egg-info/top_level.txt
