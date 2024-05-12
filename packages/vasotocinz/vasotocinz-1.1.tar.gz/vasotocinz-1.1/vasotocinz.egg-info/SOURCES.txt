@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vasotocinz/__init__.py
+vasotocinz/main.py
+vasotocinz.egg-info/PKG-INFO
+vasotocinz.egg-info/SOURCES.txt
+vasotocinz.egg-info/dependency_links.txt
+vasotocinz.egg-info/requires.txt
+vasotocinz.egg-info/top_level.txt
