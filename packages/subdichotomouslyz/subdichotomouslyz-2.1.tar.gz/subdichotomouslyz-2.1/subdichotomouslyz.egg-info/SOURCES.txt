@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subdichotomouslyz/__init__.py
+subdichotomouslyz/main.py
+subdichotomouslyz.egg-info/PKG-INFO
+subdichotomouslyz.egg-info/SOURCES.txt
+subdichotomouslyz.egg-info/dependency_links.txt
+subdichotomouslyz.egg-info/requires.txt
+subdichotomouslyz.egg-info/top_level.txt
