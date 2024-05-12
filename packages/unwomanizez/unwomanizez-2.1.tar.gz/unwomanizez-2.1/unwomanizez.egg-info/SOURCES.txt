@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unwomanizez/__init__.py
+unwomanizez/main.py
+unwomanizez.egg-info/PKG-INFO
+unwomanizez.egg-info/SOURCES.txt
+unwomanizez.egg-info/dependency_links.txt
+unwomanizez.egg-info/requires.txt
+unwomanizez.egg-info/top_level.txt
