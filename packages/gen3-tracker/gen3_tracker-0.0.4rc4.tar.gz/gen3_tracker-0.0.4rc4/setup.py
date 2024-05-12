@@ -1,0 +1,28 @@
+from setuptools import setup
+
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
+with open('README.md', 'r') as f:
+    long_description = f.read()
+
+setup(
+    name='gen3_tracker',
+    version='0.0.4rc4',
+    description='A CLI for adding version control to Gen3 data submission projects.',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    author='walsbr',
+    author_email='walsbr@ohsu.edu',
+    url='https://github.com/ACED-IDP/g3t-git',
+    packages=['gen3_tracker'],
+    install_requires=requirements,
+    extras_require={
+        'dtale': ['dtale'],
+    },
+    entry_points={
+        'console_scripts': [
+            'g3t=gen3_tracker.cli:cli',
+        ],
+    },
+)
