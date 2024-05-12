@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+timorouslyz/__init__.py
+timorouslyz/main.py
+timorouslyz.egg-info/PKG-INFO
+timorouslyz.egg-info/SOURCES.txt
+timorouslyz.egg-info/dependency_links.txt
+timorouslyz.egg-info/requires.txt
+timorouslyz.egg-info/top_level.txt
