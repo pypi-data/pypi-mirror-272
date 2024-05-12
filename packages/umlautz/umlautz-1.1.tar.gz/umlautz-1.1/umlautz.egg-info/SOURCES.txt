@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+umlautz/__init__.py
+umlautz/main.py
+umlautz.egg-info/PKG-INFO
+umlautz.egg-info/SOURCES.txt
+umlautz.egg-info/dependency_links.txt
+umlautz.egg-info/requires.txt
+umlautz.egg-info/top_level.txt
