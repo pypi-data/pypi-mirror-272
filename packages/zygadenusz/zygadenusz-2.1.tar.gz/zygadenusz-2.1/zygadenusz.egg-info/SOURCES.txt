@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+zygadenusz/__init__.py
+zygadenusz/main.py
+zygadenusz.egg-info/PKG-INFO
+zygadenusz.egg-info/SOURCES.txt
+zygadenusz.egg-info/dependency_links.txt
+zygadenusz.egg-info/requires.txt
+zygadenusz.egg-info/top_level.txt
