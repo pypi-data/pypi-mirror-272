@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+verbigeratez/__init__.py
+verbigeratez/main.py
+verbigeratez.egg-info/PKG-INFO
+verbigeratez.egg-info/SOURCES.txt
+verbigeratez.egg-info/dependency_links.txt
+verbigeratez.egg-info/requires.txt
+verbigeratez.egg-info/top_level.txt
