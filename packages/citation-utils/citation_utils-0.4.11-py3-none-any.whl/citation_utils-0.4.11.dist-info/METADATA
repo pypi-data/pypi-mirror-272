@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: citation-utils
+Version: 0.4.11
+Summary: Pattern matching Philippine Supreme Court citations.
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: citation-report >=0.1.7
+Provides-Extra: dev
+Requires-Dist: ipykernel >=6.29 ; extra == 'dev'
+Requires-Dist: pytest >=8.2 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.1 ; extra == 'dev'
+Requires-Dist: build >=1.0.3 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
