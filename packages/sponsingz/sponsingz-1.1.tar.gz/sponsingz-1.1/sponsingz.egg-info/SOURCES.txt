@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sponsingz/__init__.py
+sponsingz/main.py
+sponsingz.egg-info/PKG-INFO
+sponsingz.egg-info/SOURCES.txt
+sponsingz.egg-info/dependency_links.txt
+sponsingz.egg-info/requires.txt
+sponsingz.egg-info/top_level.txt
