@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reallegedz/__init__.py
+reallegedz/main.py
+reallegedz.egg-info/PKG-INFO
+reallegedz.egg-info/SOURCES.txt
+reallegedz.egg-info/dependency_links.txt
+reallegedz.egg-info/requires.txt
+reallegedz.egg-info/top_level.txt
