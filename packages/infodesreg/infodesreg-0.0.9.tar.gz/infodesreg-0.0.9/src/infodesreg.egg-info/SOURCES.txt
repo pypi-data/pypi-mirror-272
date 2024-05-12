@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/infodesreg/__init__.py
+src/infodesreg/des.py
+src/infodesreg.egg-info/PKG-INFO
+src/infodesreg.egg-info/SOURCES.txt
+src/infodesreg.egg-info/dependency_links.txt
+src/infodesreg.egg-info/top_level.txt
