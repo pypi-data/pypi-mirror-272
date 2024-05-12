@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+zugtierlasterz/__init__.py
+zugtierlasterz/main.py
+zugtierlasterz.egg-info/PKG-INFO
+zugtierlasterz.egg-info/SOURCES.txt
+zugtierlasterz.egg-info/dependency_links.txt
+zugtierlasterz.egg-info/requires.txt
+zugtierlasterz.egg-info/top_level.txt
