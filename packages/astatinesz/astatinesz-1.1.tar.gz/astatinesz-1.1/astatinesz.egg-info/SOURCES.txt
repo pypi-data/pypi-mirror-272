@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+astatinesz/__init__.py
+astatinesz/main.py
+astatinesz.egg-info/PKG-INFO
+astatinesz.egg-info/SOURCES.txt
+astatinesz.egg-info/dependency_links.txt
+astatinesz.egg-info/requires.txt
+astatinesz.egg-info/top_level.txt
