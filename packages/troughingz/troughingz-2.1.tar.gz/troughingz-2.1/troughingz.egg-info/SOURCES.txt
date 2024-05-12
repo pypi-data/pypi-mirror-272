@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+troughingz/__init__.py
+troughingz/main.py
+troughingz.egg-info/PKG-INFO
+troughingz.egg-info/SOURCES.txt
+troughingz.egg-info/dependency_links.txt
+troughingz.egg-info/requires.txt
+troughingz.egg-info/top_level.txt
