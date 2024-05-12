@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+streaminessz/__init__.py
+streaminessz/main.py
+streaminessz.egg-info/PKG-INFO
+streaminessz.egg-info/SOURCES.txt
+streaminessz.egg-info/dependency_links.txt
+streaminessz.egg-info/requires.txt
+streaminessz.egg-info/top_level.txt
