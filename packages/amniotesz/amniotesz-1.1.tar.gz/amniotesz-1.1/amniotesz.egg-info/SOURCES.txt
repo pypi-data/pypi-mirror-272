@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+amniotesz/__init__.py
+amniotesz/main.py
+amniotesz.egg-info/PKG-INFO
+amniotesz.egg-info/SOURCES.txt
+amniotesz.egg-info/dependency_links.txt
+amniotesz.egg-info/requires.txt
+amniotesz.egg-info/top_level.txt
