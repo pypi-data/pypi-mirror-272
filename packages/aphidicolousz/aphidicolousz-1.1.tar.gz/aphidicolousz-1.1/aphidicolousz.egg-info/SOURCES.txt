@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aphidicolousz/__init__.py
+aphidicolousz/main.py
+aphidicolousz.egg-info/PKG-INFO
+aphidicolousz.egg-info/SOURCES.txt
+aphidicolousz.egg-info/dependency_links.txt
+aphidicolousz.egg-info/requires.txt
+aphidicolousz.egg-info/top_level.txt
