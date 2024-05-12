@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+instaurationz/__init__.py
+instaurationz/main.py
+instaurationz.egg-info/PKG-INFO
+instaurationz.egg-info/SOURCES.txt
+instaurationz.egg-info/dependency_links.txt
+instaurationz.egg-info/requires.txt
+instaurationz.egg-info/top_level.txt
