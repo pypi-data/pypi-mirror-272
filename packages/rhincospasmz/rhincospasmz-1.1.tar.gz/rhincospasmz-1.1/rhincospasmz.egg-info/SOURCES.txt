@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rhincospasmz/__init__.py
+rhincospasmz/main.py
+rhincospasmz.egg-info/PKG-INFO
+rhincospasmz.egg-info/SOURCES.txt
+rhincospasmz.egg-info/dependency_links.txt
+rhincospasmz.egg-info/requires.txt
+rhincospasmz.egg-info/top_level.txt
