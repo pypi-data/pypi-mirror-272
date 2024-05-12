@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+squirmsz/__init__.py
+squirmsz/main.py
+squirmsz.egg-info/PKG-INFO
+squirmsz.egg-info/SOURCES.txt
+squirmsz.egg-info/dependency_links.txt
+squirmsz.egg-info/requires.txt
+squirmsz.egg-info/top_level.txt
