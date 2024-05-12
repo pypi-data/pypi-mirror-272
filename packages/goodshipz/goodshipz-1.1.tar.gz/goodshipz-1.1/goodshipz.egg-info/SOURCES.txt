@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+goodshipz/__init__.py
+goodshipz/main.py
+goodshipz.egg-info/PKG-INFO
+goodshipz.egg-info/SOURCES.txt
+goodshipz.egg-info/dependency_links.txt
+goodshipz.egg-info/requires.txt
+goodshipz.egg-info/top_level.txt
