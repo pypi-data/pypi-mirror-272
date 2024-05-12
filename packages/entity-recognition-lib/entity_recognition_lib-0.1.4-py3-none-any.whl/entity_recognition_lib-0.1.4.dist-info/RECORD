@@ -1,0 +1,13 @@
+entity_recognition_lib/EntityRecognizer.py,sha256=dOQPuLutMRudkrRf0EUo2ReXTNYU6pTd-fpgCEUbdbU,1798
+entity_recognition_lib/__init__.py,sha256=jP0xs5kjxSzQ7KB1NI8XMP4FNFi9PkvoHpOYlF8Mny8,61
+entity_recognition_lib/data/tech_entities.json,sha256=0yJfbavVgjuJVSK8F5JRSvUTN9msuCNYYXMg5WqH_g0,31581
+entity_recognition_lib/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+entity_recognition_lib/functions/entity_extraction.py,sha256=V7wM8U8qzN8FkbrljKpLLwfhnwbwihIGnvY1R5YwB2E,2768
+entity_recognition_lib/functions/recommendation_generation.py,sha256=i44LcNXMJDLKIPvbk1UeSN66Hw3uObUvK7Ywtj-OvPc,5232
+entity_recognition_lib/functions/topic_classification.py,sha256=jfAWxCbFZcDOMTbylE_iwft840UyFwOUHBefah_NUDc,1271
+entity_recognition_lib/models.py,sha256=QnIqTlNE9_d8uDTiiQQGoAhVOGpajStCru9hSTky8rY,1725
+entity_recognition_lib/utils.py,sha256=NdNPbieV02Hspu8nNSkdGpYK-xyUvAWQE17sKHMVeXM,3267
+entity_recognition_lib-0.1.4.dist-info/LICENSE,sha256=MtC64kGfAU9QZq9ZFSZMlm79t7bn_o-Qz4fcdcWo1tA,1053
+entity_recognition_lib-0.1.4.dist-info/METADATA,sha256=d2wAV1B2ImkGychmI_x37IxhLuOEO4C9dw2ZPhcgx0w,4597
+entity_recognition_lib-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+entity_recognition_lib-0.1.4.dist-info/RECORD,,
