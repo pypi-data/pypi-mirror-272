@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: theatron
+Version: 0.0.1
+Summary: The theatron was the seating area, built into a hill to create a natural viewing space.
+Author-email: Alexander Fedotov <alex.fedotov@aol.com>
+Project-URL: Homepage, https://github.com/alxfed/theatron
+Project-URL: Bug Tracker, https://github.com/alxfed/theatron/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Theatron
+The theatron was the seating area, built into a hill to create a natural viewing space.
+<pre>
+  pip install theatron
+</pre>
+Then:
+```Python
+  # Python
+  import theatron
+```

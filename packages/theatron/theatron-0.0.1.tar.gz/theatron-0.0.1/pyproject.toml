@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "theatron"
+version = "0.0.1"
+authors = [
+    {name="Alexander Fedotov", email="alex.fedotov@aol.com"},
+]
+description = "The theatron was the seating area, built into a hill to create a natural viewing space."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/alxfed/theatron"
+"Bug Tracker" = "https://github.com/alxfed/theatron/issues"
