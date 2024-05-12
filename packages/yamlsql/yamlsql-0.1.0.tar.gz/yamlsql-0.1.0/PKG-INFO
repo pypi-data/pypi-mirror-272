@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: yamlsql
+Version: 0.1.0
+Summary: Awesome yamlsql created by kristw
+Home-page: https://github.com/kristw/yamlsql/
+Author: kristw
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: fastapi-crudrouter
+Requires-Dist: sqlalchemy
+Requires-Dist: pydantic
+Provides-Extra: test
+Requires-Dist: autoflake==1.5.3; extra == "test"
+Requires-Dist: black==22.6.0; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: gitchangelog; extra == "test"
+Requires-Dist: isort; extra == "test"
+Requires-Dist: mkdocs; extra == "test"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: pre-commit; extra == "test"
+Requires-Dist: poetry; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+
+# yamlsql
+
+[![codecov](https://codecov.io/gh/kristw/yamlsql/branch/main/graph/badge.svg?token=yamlsql_token_here)](https://codecov.io/gh/kristw/yamlsql)
+[![CI](https://github.com/kristw/yamlsql/actions/workflows/main.yml/badge.svg)](https://github.com/kristw/yamlsql/actions/workflows/main.yml)
+
+YAML Interface for SQL Databases by [kristw](https://github.com/kristw)
+
+work-in-progress
+
+## Install it from PyPI
+
+```bash
+pip install yamlsql
+```
+
+## Usage
+
+```py
+from yamlsql import BaseClass
+from yamlsql import base_function
+
+BaseClass().base_method()
+base_function()
+```
+
+```bash
+$ python -m yamlsql
+#or
+$ yamlsql
+```
+
+## Development
+
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.

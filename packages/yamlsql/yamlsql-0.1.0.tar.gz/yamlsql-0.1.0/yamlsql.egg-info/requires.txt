@@ -1,0 +1,17 @@
+fastapi
+fastapi-crudrouter
+sqlalchemy
+pydantic
+
+[test]
+autoflake==1.5.3
+black==22.6.0
+coverage
+gitchangelog
+isort
+mkdocs
+mypy
+pre-commit
+poetry
+pytest
+pytest-cov
