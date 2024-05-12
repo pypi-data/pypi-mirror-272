@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+poornessz/__init__.py
+poornessz/main.py
+poornessz.egg-info/PKG-INFO
+poornessz.egg-info/SOURCES.txt
+poornessz.egg-info/dependency_links.txt
+poornessz.egg-info/requires.txt
+poornessz.egg-info/top_level.txt
