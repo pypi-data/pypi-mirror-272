@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+perichaetialz/__init__.py
+perichaetialz/main.py
+perichaetialz.egg-info/PKG-INFO
+perichaetialz.egg-info/SOURCES.txt
+perichaetialz.egg-info/dependency_links.txt
+perichaetialz.egg-info/requires.txt
+perichaetialz.egg-info/top_level.txt
