@@ -1,0 +1,10 @@
+bw_aggregation/__init__.py,sha256=chCDH9hAHPO_N9J3vDXVsJHaIAGCvZkbKZDQktOyfpw,582
+bw_aggregation/calculator.py,sha256=3ijW5CnO6DdFKSI3c2A-GaDyxSgqcrUgpFZ7qXFCa14,4597
+bw_aggregation/estimator.py,sha256=2ihPoAjhGZxbT93bYxfF5bMoJOszJ2morCebq6334Gk,1827
+bw_aggregation/main.py,sha256=plj-DLURwemWBb4zYqJXW4fUKnHTdPPjoxdmPLYvt-4,7930
+bw_aggregation/override.py,sha256=YiDWnSrUDq5kR_YK6cKH5pUBITEkxE1dSjy-VGApUgA,1625
+bw_aggregation-1.0rc1.dist-info/LICENSE,sha256=jARRLo53TpIq9EJZ5ANBqv63FxtAtGwn6AI7NQCnHP4,1070
+bw_aggregation-1.0rc1.dist-info/METADATA,sha256=4DjS4LGZkxUTMTEZrt15KibectOl-zGhemLZtcK99NQ,8416
+bw_aggregation-1.0rc1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bw_aggregation-1.0rc1.dist-info/top_level.txt,sha256=L2zE76g82ihpSgBB74DLiAfb5pC7bBaselQxyeTDaV0,15
+bw_aggregation-1.0rc1.dist-info/RECORD,,
