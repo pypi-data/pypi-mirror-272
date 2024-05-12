@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dockedz/__init__.py
+dockedz/main.py
+dockedz.egg-info/PKG-INFO
+dockedz.egg-info/SOURCES.txt
+dockedz.egg-info/dependency_links.txt
+dockedz.egg-info/requires.txt
+dockedz.egg-info/top_level.txt
