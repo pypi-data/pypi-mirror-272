@@ -1,0 +1,11 @@
+anipics/__init__.py,sha256=Ri2E1PzpryeJICrRU6-q9DRXDmIjVwDW__CR7-ZkEfs,317
+anipics/models.py,sha256=rj1oIlC4B1mF35UoaSFGPv3-aGNkcUglddXiQuMLfsY,179
+anipics/services/__init__.py,sha256=ez9gqAC_vfaLSWkixJ_ZyS84Lg4-CS-NRmZMPEMsaTE,278
+anipics/services/animepicsx.py,sha256=Fpgr6vv4xzpACgWtgWP66mKVH0CWL7AtXeTxEOsNAuI,1060
+anipics/services/nekoslife.py,sha256=Bopr4U5yXbCQiPsMWK7hTtay8Vt6X99o5n6sa5tmNDc,2036
+anipics/services/purrbot.py,sha256=aZ8weNGhuuUSfgCZFXiMoIGmbu4OnJiZM0tG6LpZaCw,5613
+anipics/services/waifupics.py,sha256=SZ4dfIIePVqXuvMsojRNZZKINa0J0BdYulRvOwAyA88,2961
+anipics-1.5.5.dist-info/LICENSE,sha256=kbZSd5WewnN2PSjvAC6DprP7pXx6NUNsnltmU2Mz1yA,34519
+anipics-1.5.5.dist-info/METADATA,sha256=p0ElWeffCfHh5pyyEn1kvNyLEwVE3CB1fMtlG6fKNX4,1590
+anipics-1.5.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+anipics-1.5.5.dist-info/RECORD,,
