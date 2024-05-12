@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+testatrixesz/__init__.py
+testatrixesz/main.py
+testatrixesz.egg-info/PKG-INFO
+testatrixesz.egg-info/SOURCES.txt
+testatrixesz.egg-info/dependency_links.txt
+testatrixesz.egg-info/requires.txt
+testatrixesz.egg-info/top_level.txt
