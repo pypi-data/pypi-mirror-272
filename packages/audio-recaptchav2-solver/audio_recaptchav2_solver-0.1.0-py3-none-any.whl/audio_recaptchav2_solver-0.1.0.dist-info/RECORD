@@ -1,0 +1,7 @@
+audio_recaptchav2_solver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audio_recaptchav2_solver/solver.py,sha256=Ku4zeNBPeEFNFCd-XaLV19M8ooKTbCZPvBYEllCCaXg,568
+audio_recaptchav2_solver/transcriber.py,sha256=P9aquvKdtNUqhoG057ORWyJpLOTEaNrUV9yyvmWUO1k,558
+audio_recaptchav2_solver/web_utils.py,sha256=r7M6DoE9fjVuqnTublKgj3RmwbMWMD8SRr66wWLMkmU,2559
+audio_recaptchav2_solver-0.1.0.dist-info/METADATA,sha256=IcgPulS21sKahWgSgd70V_B4j_XB4_SAdxl7oGjdQ4k,485
+audio_recaptchav2_solver-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+audio_recaptchav2_solver-0.1.0.dist-info/RECORD,,
