@@ -1,0 +1,11 @@
+summary: iSCSI tests using interfaces using cxgb4i driver
+discover:
+  - name: iscsi-offload
+    how: fmf
+    filter: tag:iscsi-offload
+environment:
+  PYTEST_VARS: 'cxgb4i.yaml'
+provision:
+  how: beaker
+  hardware:
+    hostname: storageqe-87.lab.eng.brq2.redhat.com

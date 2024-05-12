@@ -1,0 +1,32 @@
+prepare:
+  - name: 'Enable epel'
+    how: feature
+    epel: enabled
+    order: 40
+  - name: 'Install pipx'
+    how: install
+    package: pipx
+    order: 45
+  - name: 'Prepare pytest environment'
+    how: shell
+    script:
+      - pipx install pytest --force
+      - pipx inject pytest sts-libs pytest-variables[yaml]
+    order: 50
+adjust:
+  - prepare:
+      - name: 'Prepare pytest environment'
+        how: shell
+        script:
+          - dnf install -y python3.11-pip
+          - pip3.11 install --user pipx
+          - python3.11 -m pipx install pytest
+          - python3.11 -m pipx inject pytest sts-libs pytest-variables[yaml]
+    when: distro == rhel-8
+    because: 'pipx package and Python>=3.9 not available on RHEL-8
+      by default'
+  - enabled: false
+    when: distro < rhel-8.8
+    because: "sts tests require RHEL-8.8"
+execute:
+  how: tmt
