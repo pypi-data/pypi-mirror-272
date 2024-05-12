@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+itchinessz/__init__.py
+itchinessz/main.py
+itchinessz.egg-info/PKG-INFO
+itchinessz.egg-info/SOURCES.txt
+itchinessz.egg-info/dependency_links.txt
+itchinessz.egg-info/requires.txt
+itchinessz.egg-info/top_level.txt
