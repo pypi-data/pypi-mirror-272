@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scolopendridz/__init__.py
+scolopendridz/main.py
+scolopendridz.egg-info/PKG-INFO
+scolopendridz.egg-info/SOURCES.txt
+scolopendridz.egg-info/dependency_links.txt
+scolopendridz.egg-info/requires.txt
+scolopendridz.egg-info/top_level.txt
