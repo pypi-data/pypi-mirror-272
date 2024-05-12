@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subterraqueousz/__init__.py
+subterraqueousz/main.py
+subterraqueousz.egg-info/PKG-INFO
+subterraqueousz.egg-info/SOURCES.txt
+subterraqueousz.egg-info/dependency_links.txt
+subterraqueousz.egg-info/requires.txt
+subterraqueousz.egg-info/top_level.txt
