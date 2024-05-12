@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thallinez/__init__.py
+thallinez/main.py
+thallinez.egg-info/PKG-INFO
+thallinez.egg-info/SOURCES.txt
+thallinez.egg-info/dependency_links.txt
+thallinez.egg-info/requires.txt
+thallinez.egg-info/top_level.txt
