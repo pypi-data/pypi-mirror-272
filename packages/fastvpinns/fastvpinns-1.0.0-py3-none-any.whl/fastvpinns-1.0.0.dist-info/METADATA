@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fastvpinns
+Version: 1.0.0
+Summary: An Efficient tensor-based implementation of hp-Variational Physics-informed Neural Networks (VPINNs) for solving PDEs
+Home-page: UNKNOWN
+Author: Thivin Anandh, Divij Ghose, Sashikumaar Ganesan
+Author-email: thivinanandh@gmail.com
+License: UNKNOWN
+Keywords: variational PINNs,VPINNs,PINNs,Physics-informed neural networks,Deep learning,Machine learning
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy <=1.23.5,>=1.21
+Requires-Dist: pandas <1.4.4
+Requires-Dist: matplotlib
+Requires-Dist: tensorflow <=2.13.0,>=2.9.1
+Requires-Dist: pytest ==8.0.2
+Requires-Dist: meshio ==5.3.4
+Requires-Dist: pyDOE ==0.3.8
+Requires-Dist: tqdm ==4.66.2
+Requires-Dist: scipy
+Requires-Dist: gmsh ==4.11.0
+Requires-Dist: pyyaml
+Requires-Dist: rich ==12.5.1
+Requires-Dist: black
+Requires-Dist: pre-commit
+
+UNKNOWN
+
