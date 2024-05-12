@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unmergez/__init__.py
+unmergez/main.py
+unmergez.egg-info/PKG-INFO
+unmergez.egg-info/SOURCES.txt
+unmergez.egg-info/dependency_links.txt
+unmergez.egg-info/requires.txt
+unmergez.egg-info/top_level.txt
