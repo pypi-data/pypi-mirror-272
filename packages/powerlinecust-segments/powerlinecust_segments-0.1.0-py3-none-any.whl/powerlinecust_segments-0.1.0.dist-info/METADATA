@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: powerlinecust-segments
+Version: 0.1.0
+Summary: Powerline Custom Segments
+Author: Avijit Pal
+License: MIT License
+Project-URL: Homepage, https://github.com/avijitpal9/powerlinecust-segments
+Keywords: powerline,memory,pyenv,jenv,docker
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: powerline-status >=2.7
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+
+# Powerline custom Segments
+
+Segment for Powerline showing Memory Usage, Python Version, Java Version, Docker Context 
+![Screenshot](images/screenshot.png "Screenshot")
+
+## Installation
+```
+pip install powerlinecust-segments
+```
+
+## Usage
+### Segment
+- Activate the `docker_ctx` segment in `~/.config/powerline/themes/shell/default.json`
+```json
+{
+    "function": "powerlinecust.segments.common.docker_ctx",
+    "display": true
+}           
+```
+- Activate the `pyenv` segment in `~/.config/powerline/themes/shell/default.json`
+```json
+{
+    "function": "powerlinecust.segments.common.pyenv",
+    "display": true
+}
+```
+- Activate the `jenv` segment in `~/.config/powerline/themes/shell/default.json`
+```json
+{
+    "function": "powerlinecust.segments.common.jenv",
+    "display": true
+},
+```
+- Activate the `mem_usage_percent` segment in `~/.config/powerline/themes/shell/default.json`
+```json
+{
+    "function": "powerlinecust.segments.mem_usage.mem_usage_percent",
+    "display": true
+}
+```
+
+### Colorscheme
+- Config highlight groups in colorscheme files, e.g. `~/.config/powerline/colorschemes/shell/default.json`:
+```json
+{
+    "groups": {
+        "pyenv:version": {
+            "bg": "gray3",
+            "fg": "green",
+            "attrs": []
+        },
+        "jenv:version": {
+            "bg": "black",
+            "fg": "red",
+            "attrs": [
+                "bold"
+            ]
+        },
+        "mem_usage": {
+            "bg": "gray3",
+            "fg": "green",
+            "attrs": []
+        },
+        "docker_ctx": {
+            "bg": "black",
+            "fg": "green",
+            "attrs": []
+        }
+    }
+}
+```
+
+## Dependencies
+The only dependency is [psutil](https://github.com/giampaolo/psutil).
