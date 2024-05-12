@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+strepsipteranz/__init__.py
+strepsipteranz/main.py
+strepsipteranz.egg-info/PKG-INFO
+strepsipteranz.egg-info/SOURCES.txt
+strepsipteranz.egg-info/dependency_links.txt
+strepsipteranz.egg-info/requires.txt
+strepsipteranz.egg-info/top_level.txt
