@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+preliminaryz/__init__.py
+preliminaryz/main.py
+preliminaryz.egg-info/PKG-INFO
+preliminaryz.egg-info/SOURCES.txt
+preliminaryz.egg-info/dependency_links.txt
+preliminaryz.egg-info/requires.txt
+preliminaryz.egg-info/top_level.txt
