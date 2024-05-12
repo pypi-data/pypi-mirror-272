@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+auriculatelyz/__init__.py
+auriculatelyz/main.py
+auriculatelyz.egg-info/PKG-INFO
+auriculatelyz.egg-info/SOURCES.txt
+auriculatelyz.egg-info/dependency_links.txt
+auriculatelyz.egg-info/requires.txt
+auriculatelyz.egg-info/top_level.txt
