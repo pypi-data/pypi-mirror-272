@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hadendoaz/__init__.py
+hadendoaz/main.py
+hadendoaz.egg-info/PKG-INFO
+hadendoaz.egg-info/SOURCES.txt
+hadendoaz.egg-info/dependency_links.txt
+hadendoaz.egg-info/requires.txt
+hadendoaz.egg-info/top_level.txt
