@@ -1,0 +1,14 @@
+zenodo_client/__init__.py,sha256=Y6dQ3dg08qpA3wjNgrlLFBCL22rgUeCouHDahxnvu5A,285
+zenodo_client/__main__.py,sha256=Va1GxsUxen0Vw6gj-vxirFMD799Ifqp7uPiTqXI9Vuo,330
+zenodo_client/_pydantic_compat.py,sha256=DOe_hHZ7ByqPP-jwH1shdXhsDpFK7qgjslBv4ioYoNo,328
+zenodo_client/api.py,sha256=k_O_4Ab-EjbEiVMimQokdAr1hrzESUkRwrNoRA_BkC8,16981
+zenodo_client/cli.py,sha256=YkapcYy8HZ8nM9iMRROmnbDI5hw-XCDeC910gq6s_z0,1611
+zenodo_client/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+zenodo_client/struct.py,sha256=uv-M-zq1kQBMBU_Eq4XVFquPu9s8tXBQhHIJTticKfY,4142
+zenodo_client/version.py,sha256=6xoZ_VSwvPZbCDAlLg3mijITxr2DBaIvWN_LIJh1MLk,1028
+zenodo_client-0.3.4.dist-info/LICENSE,sha256=V2QvCSXVRoRifz9OL3vFmQVAgqxsi69rFIbEDBp73Do,1076
+zenodo_client-0.3.4.dist-info/METADATA,sha256=nLLH_Uh9ojwN-Oix3aw1Bot87N-vwc5Ohwr3gCIBZN0,10267
+zenodo_client-0.3.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+zenodo_client-0.3.4.dist-info/entry_points.txt,sha256=oQXdmsHBnzjC69JPjIkr7wDAWepj8J3y2qzNeWMDvpA,57
+zenodo_client-0.3.4.dist-info/top_level.txt,sha256=ZiFLRZCNwDHcB9RvK0h9BVXvDlHUs7sy-cLV3zNhSjE,14
+zenodo_client-0.3.4.dist-info/RECORD,,
