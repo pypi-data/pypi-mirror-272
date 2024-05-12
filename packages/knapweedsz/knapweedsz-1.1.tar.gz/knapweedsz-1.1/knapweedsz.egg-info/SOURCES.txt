@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+knapweedsz/__init__.py
+knapweedsz/main.py
+knapweedsz.egg-info/PKG-INFO
+knapweedsz.egg-info/SOURCES.txt
+knapweedsz.egg-info/dependency_links.txt
+knapweedsz.egg-info/requires.txt
+knapweedsz.egg-info/top_level.txt
