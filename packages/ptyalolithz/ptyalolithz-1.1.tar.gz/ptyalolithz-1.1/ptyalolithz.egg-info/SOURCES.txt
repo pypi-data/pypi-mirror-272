@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ptyalolithz/__init__.py
+ptyalolithz/main.py
+ptyalolithz.egg-info/PKG-INFO
+ptyalolithz.egg-info/SOURCES.txt
+ptyalolithz.egg-info/dependency_links.txt
+ptyalolithz.egg-info/requires.txt
+ptyalolithz.egg-info/top_level.txt
