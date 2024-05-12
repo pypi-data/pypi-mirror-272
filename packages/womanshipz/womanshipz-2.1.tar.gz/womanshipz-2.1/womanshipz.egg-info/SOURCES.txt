@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+womanshipz/__init__.py
+womanshipz/main.py
+womanshipz.egg-info/PKG-INFO
+womanshipz.egg-info/SOURCES.txt
+womanshipz.egg-info/dependency_links.txt
+womanshipz.egg-info/requires.txt
+womanshipz.egg-info/top_level.txt
