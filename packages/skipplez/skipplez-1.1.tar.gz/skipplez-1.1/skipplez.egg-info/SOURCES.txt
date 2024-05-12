@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+skipplez/__init__.py
+skipplez/main.py
+skipplez.egg-info/PKG-INFO
+skipplez.egg-info/SOURCES.txt
+skipplez.egg-info/dependency_links.txt
+skipplez.egg-info/requires.txt
+skipplez.egg-info/top_level.txt
