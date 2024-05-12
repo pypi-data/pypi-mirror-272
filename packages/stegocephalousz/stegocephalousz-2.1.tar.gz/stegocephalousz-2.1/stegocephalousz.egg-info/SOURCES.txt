@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stegocephalousz/__init__.py
+stegocephalousz/main.py
+stegocephalousz.egg-info/PKG-INFO
+stegocephalousz.egg-info/SOURCES.txt
+stegocephalousz.egg-info/dependency_links.txt
+stegocephalousz.egg-info/requires.txt
+stegocephalousz.egg-info/top_level.txt
