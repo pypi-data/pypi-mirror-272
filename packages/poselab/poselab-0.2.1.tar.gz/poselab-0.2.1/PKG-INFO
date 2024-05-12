@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: poselab
+Version: 0.2.1
+Summary: A colmap pose analysis, filter and visualization toolkit
+Author-email: yoavalon <algoretics@gmail.com>
+Project-URL: Homepage, https://github.com/yoavalon/poselab
+Project-URL: Issues, https://github.com/yoavalon/poselab/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<img src="docs/poselab_logo.jpg" alt="PoseLab Logo" width="250"/>
+
+A colmap pose analysis, filter and visualization toolkit
+
+```
+pip3 install poselab
+```
+
+```
+pip install poselab==0.1.0
+```
+
+```
+pip install -i https://test.pypi.org/simple/ poselab==0.1.0
+```
+
+Using this for piping: 
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+python3 -m pip install --upgrade build
+python3 -m build
+python3 -m twine upload --repository testpypi dist/*
+
+https://test.pypi.org/project/poselab/0.1.0/
+
+#uplad to the real pip
+twine upload dist/*
