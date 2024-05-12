@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wishtz/__init__.py
+wishtz/main.py
+wishtz.egg-info/PKG-INFO
+wishtz.egg-info/SOURCES.txt
+wishtz.egg-info/dependency_links.txt
+wishtz.egg-info/requires.txt
+wishtz.egg-info/top_level.txt
