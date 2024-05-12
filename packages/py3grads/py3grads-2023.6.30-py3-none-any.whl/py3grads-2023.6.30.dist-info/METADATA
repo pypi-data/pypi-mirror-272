@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: py3grads
+Version: 2023.6.30
+Author: Levi Cowan
+License: MIT
+Requires-Python: >=3.6
+Requires-Dist: numpy
+
