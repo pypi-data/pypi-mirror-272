@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aglaiaz/__init__.py
+aglaiaz/main.py
+aglaiaz.egg-info/PKG-INFO
+aglaiaz.egg-info/SOURCES.txt
+aglaiaz.egg-info/dependency_links.txt
+aglaiaz.egg-info/requires.txt
+aglaiaz.egg-info/top_level.txt
