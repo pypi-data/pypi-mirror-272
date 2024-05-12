@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thierryz/__init__.py
+thierryz/main.py
+thierryz.egg-info/PKG-INFO
+thierryz.egg-info/SOURCES.txt
+thierryz.egg-info/dependency_links.txt
+thierryz.egg-info/requires.txt
+thierryz.egg-info/top_level.txt
