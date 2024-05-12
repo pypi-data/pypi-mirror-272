@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pimelatez/__init__.py
+pimelatez/main.py
+pimelatez.egg-info/PKG-INFO
+pimelatez.egg-info/SOURCES.txt
+pimelatez.egg-info/dependency_links.txt
+pimelatez.egg-info/requires.txt
+pimelatez.egg-info/top_level.txt
