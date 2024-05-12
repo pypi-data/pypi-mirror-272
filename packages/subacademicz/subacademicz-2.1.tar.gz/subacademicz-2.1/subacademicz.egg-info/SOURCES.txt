@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subacademicz/__init__.py
+subacademicz/main.py
+subacademicz.egg-info/PKG-INFO
+subacademicz.egg-info/SOURCES.txt
+subacademicz.egg-info/dependency_links.txt
+subacademicz.egg-info/requires.txt
+subacademicz.egg-info/top_level.txt
