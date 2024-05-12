@@ -1,0 +1,9 @@
+README.md
+setup.py
+usherai/__init__.py
+usherai/core_module.py
+usherai_001.egg-info/PKG-INFO
+usherai_001.egg-info/SOURCES.txt
+usherai_001.egg-info/dependency_links.txt
+usherai_001.egg-info/requires.txt
+usherai_001.egg-info/top_level.txt
