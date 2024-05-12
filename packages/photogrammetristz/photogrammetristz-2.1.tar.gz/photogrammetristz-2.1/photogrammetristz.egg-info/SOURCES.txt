@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+photogrammetristz/__init__.py
+photogrammetristz/main.py
+photogrammetristz.egg-info/PKG-INFO
+photogrammetristz.egg-info/SOURCES.txt
+photogrammetristz.egg-info/dependency_links.txt
+photogrammetristz.egg-info/requires.txt
+photogrammetristz.egg-info/top_level.txt
