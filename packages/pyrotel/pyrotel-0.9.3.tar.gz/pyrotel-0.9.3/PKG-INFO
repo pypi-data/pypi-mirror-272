@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pyrotel
+Version: 0.9.3
+Summary: pyrotel is a library for telegram bots.
+Home-page: https://github.com/Erfan-Bafandeh/pyrotel
+Author: Erfan Bafandeh
+Author-email: user.enbh@gmail.com
+Keywords: Bot,Robot,pyrotel,telegram,telegrambot
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: colorama
+
+## pyrotel 0.9.3v
+
+<h3 align="center">pyrotel is a library for telegram bots.</h3>
+
+> ## Install and Update:
+```python
+pip install pyrotel
+```
+
+> ## START:
+```python
+from pyrotel import Client
+
+app = Client("API_TOKEN")
+
+async def bot():
+	for msg in app.on_message():
+		if msg.text == "/start":
+			app.send_message(msg.chat_id, "hello my dear.\nwelcome to my bot :)", reply_to_message_id=msg.message_id)
+
+```
+
+> ## Social Media:
+<a href="https://t.me/persian_py">TELEGRAM</a><br>
+<a href="https://github.com/Erfan-Bafandeh/pyrotel">GITHUB</a>
