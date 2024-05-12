@@ -1,0 +1,6 @@
+include README.md
+include develop.md
+include requirements.txt
+recursive-include aic_tools_alpaca *.py
+exclude pytest.ini
+prune tests
