@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+req12.egg-info/PKG-INFO
+req12.egg-info/SOURCES.txt
+req12.egg-info/dependency_links.txt
+req12.egg-info/top_level.txt
+requsr/OS.py
+requsr/__init__.py
+requsr/momo.py
