@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+attaccoz/__init__.py
+attaccoz/main.py
+attaccoz.egg-info/PKG-INFO
+attaccoz.egg-info/SOURCES.txt
+attaccoz.egg-info/dependency_links.txt
+attaccoz.egg-info/requires.txt
+attaccoz.egg-info/top_level.txt
