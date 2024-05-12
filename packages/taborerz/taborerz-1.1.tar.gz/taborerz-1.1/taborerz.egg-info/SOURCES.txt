@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+taborerz/__init__.py
+taborerz/main.py
+taborerz.egg-info/PKG-INFO
+taborerz.egg-info/SOURCES.txt
+taborerz.egg-info/dependency_links.txt
+taborerz.egg-info/requires.txt
+taborerz.egg-info/top_level.txt
