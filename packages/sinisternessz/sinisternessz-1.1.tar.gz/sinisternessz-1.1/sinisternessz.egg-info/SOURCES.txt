@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sinisternessz/__init__.py
+sinisternessz/main.py
+sinisternessz.egg-info/PKG-INFO
+sinisternessz.egg-info/SOURCES.txt
+sinisternessz.egg-info/dependency_links.txt
+sinisternessz.egg-info/requires.txt
+sinisternessz.egg-info/top_level.txt
