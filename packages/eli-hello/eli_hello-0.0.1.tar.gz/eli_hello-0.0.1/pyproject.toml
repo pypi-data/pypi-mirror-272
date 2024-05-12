@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "eli-hello"
+version = "0.0.1"
+description = ""
+authors = ["Eli Mayost <eli.mayost@googlemail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.3"
+gunicorn = "^22.0.0"
+poethepoet = "^0.26.1"
+
+[tool.poe.tasks]
+server = "gunicorn -w 4 eli_hello.app:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
