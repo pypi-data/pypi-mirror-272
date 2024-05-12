@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+diaminsz/__init__.py
+diaminsz/main.py
+diaminsz.egg-info/PKG-INFO
+diaminsz.egg-info/SOURCES.txt
+diaminsz.egg-info/dependency_links.txt
+diaminsz.egg-info/requires.txt
+diaminsz.egg-info/top_level.txt
