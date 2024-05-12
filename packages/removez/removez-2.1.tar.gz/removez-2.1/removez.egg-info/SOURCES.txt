@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+removez/__init__.py
+removez/main.py
+removez.egg-info/PKG-INFO
+removez.egg-info/SOURCES.txt
+removez.egg-info/dependency_links.txt
+removez.egg-info/requires.txt
+removez.egg-info/top_level.txt
