@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "autoboot",
+  "description": "A configuration validation for the autoboot.yml file.",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "autoboot": {
+      "description": "autoboot application configuration root node.",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "application": {
+          "description": "autoboot application configuration.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name"
+          ],
+          "properties": {
+            "name": {
+              "description": "autoboot application name.",
+              "type": "string"
+            },
+            "module": {
+              "description": "autoboot application micro-service module name.",
+              "type": "string"
+            },
+            "scan_listener_packages": {
+              "description": "autoboot application scan listener packages.",
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            },
+            "log": {
+              "description": "autoboot application log configuration.",
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "level": {
+                  "description": "autoboot application log level.",
+                  "type": "string",
+                  "enum": ["$LOG_LEVEL","DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
+                  "default": "INFO"
+                },
+                "dir": {
+                  "description": "autoboot application log file path.",
+                  "type": "string"
+                },
+                "max_size": {
+                  "description": "autoboot application log max size.",
+                  "type": "string",
+                  "pattern": "^\\d+\\s?(K|M|G)B$",
+                  "default": "100 MB"
+                },
+                "retention": {
+                  "description": "autoboot application log retention.",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "server": {
+      "description": "autoboot server configuration root node.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "threads": {
+          "description": "autoboot server threads configuration.",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "max": {
+              "description": "autoboot server threads max.",
+              "type": "integer",
+              "minimum": 1,
+              "default": 28
+            },
+            "queue_size": {
+              "description": "autoboot server threads queue size.",
+              "type": "integer",
+              "minimum": 1,
+              "default": 1000
+            },
+            "rejected": {
+              "description": "autoboot server threads rejected strategy.",
+              "type": "string",
+              "oneOf": [
+                {
+                  "const": "wait",
+                  "description": "Wait for the thread to complete the task."
+                },
+                {
+                  "const": "abort",
+                  "description": "Abort the task."
+                },
+                {
+                  "const": "discard",
+                  "description": "Discard the task."
+                }],
+              "default": "wait"
+            }
+          }
+        }
+      }
+    }
+  }
+}

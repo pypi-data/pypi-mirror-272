@@ -1,0 +1,8 @@
+python-dotenv<2.0,>=1.0.0
+filetype<2.0,>=1.2.0
+loguru<1.0,>=0.7.0
+pyyaml<7.0,>=6.0.1
+wrapt<2.0,>=1.14.1
+pydantic<2.0,>=1.10.12
+result<1.0,>=0.14.0
+durations<1.0,>=0.3.3
