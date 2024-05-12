@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyridoxinez/__init__.py
+pyridoxinez/main.py
+pyridoxinez.egg-info/PKG-INFO
+pyridoxinez.egg-info/SOURCES.txt
+pyridoxinez.egg-info/dependency_links.txt
+pyridoxinez.egg-info/requires.txt
+pyridoxinez.egg-info/top_level.txt
