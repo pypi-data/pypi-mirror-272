@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+simpleheartedz/__init__.py
+simpleheartedz/main.py
+simpleheartedz.egg-info/PKG-INFO
+simpleheartedz.egg-info/SOURCES.txt
+simpleheartedz.egg-info/dependency_links.txt
+simpleheartedz.egg-info/requires.txt
+simpleheartedz.egg-info/top_level.txt
