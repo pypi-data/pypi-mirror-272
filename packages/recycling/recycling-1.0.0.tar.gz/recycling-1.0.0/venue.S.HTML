@@ -1,0 +1,73 @@
+
+
+
+<pre>
+
+	<h1>recycling</h1>
+	
+
+	<h2>install</h2>
+		<h3>mongo</h3>
+		
+		
+		??
+			# sudo dnf install python3-devel
+			# socketio
+			# eventlet
+
+		poetry add factory_farm somatic ships asn1crypto aztec_code_generator click ecdsa ECPy flask flask-cors flask-openapi3 rich selenium textual  websockets pycryptodome PyOpenSSL  pymongo  pyzbar qrcode
+
+	<h2>link the readme</h2>
+		ln -s venues/stages/recycling/room.md readme.MD
+
+	<h2>poetry</h2>
+		pip install poetry poetry-plugin-export
+		
+		poetry add sanic_swagger
+		
+		<h3>update</h3>
+		
+		
+		<h3>installations</h3>
+			poetry config virtualenvs.path /path/to/your/directory
+
+
+			#
+			#	if dev dependencies
+			#
+			# poetry export --with dev --format requirements.txt --output requirements.txt
+
+			cd /recycling && rm -rf /recycling/venues/stages_pip && poetry export --format requirements.txt --output requirements.txt && pip install -r requirements.txt -t /recycling/venues/stages_pip
+
+
+
+		poetry env use python3
+		poetry shell
+
+		/root/.cache/pypoetry/virtualenvs/recycling-p2eJTVsK-py3.10/lib/python3.10/site-packages/
+
+		cp -R /root/.cache/pypoetry/virtualenvs/recycling-p2eJTVsK-py3.10/lib/python3.10/site-packages/ /recycling/venues/stages_pip
+
+	<h2>publishing</h2>
+		(cd /habitat/venues/stages/recycling && pycycle --here) 
+	
+		python3 /habitat/venues/stages/recycling/_status/status.proc.py
+		python3 /habitat/venues/stages/recycling/__status/status_API.proc.py
+		cp /habitat/venues/stages/recycling/room.md /recycling/readme.md
+		
+		#
+		#	poetry auth
+		#
+		(pip install poetry && cd /habitat && rm -rf dist && poetry build --format sdist --verbose && chmod -R 777 /habitat && poetry publish --verbose;)
+		
+
+	<h2>important</h2>
+		poetry show --tree
+
+	<h2>docker</h2>
+		docker network create --subnet=192.168.0.0/24 container_network
+		docker run --network container_network --ip 192.168.0.160 -v .:/recycling -it jumps:v2.1.0
+		docker exec -it 9fd55c2b8034 bash
+	
+
+</pre>

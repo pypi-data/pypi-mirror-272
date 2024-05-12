@@ -1,0 +1,41 @@
+
+
+
+gifts:
+	escrowing:
+
+		escrow: {
+			unsigned: {
+				from: 
+				to: 
+				amount:
+				
+				#
+				#	allowed in balance #{}
+				#	since the idea is that,
+				#	gifts before the balance
+				#	are discardable
+				#
+				balance: 3
+			},
+			signed: "",
+			authenticators: {
+				{address}: {fraction},
+				...
+				{address}: {fraction}
+			}
+		}
+
+
+	receiving:
+		receive: {
+			unsigned: {
+				escrow: 1,
+				
+				#
+				#	allowed in balance #{}
+				#
+				balance: 3
+			},
+			signed: ""
+		}
