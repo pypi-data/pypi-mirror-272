@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tamerlanismz/__init__.py
+tamerlanismz/main.py
+tamerlanismz.egg-info/PKG-INFO
+tamerlanismz.egg-info/SOURCES.txt
+tamerlanismz.egg-info/dependency_links.txt
+tamerlanismz.egg-info/requires.txt
+tamerlanismz.egg-info/top_level.txt
