@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+vecfield/__init__.py
+vecfield/vecfield.py
+vecfield.egg-info/PKG-INFO
+vecfield.egg-info/SOURCES.txt
+vecfield.egg-info/dependency_links.txt
+vecfield.egg-info/requires.txt
+vecfield.egg-info/top_level.txt
