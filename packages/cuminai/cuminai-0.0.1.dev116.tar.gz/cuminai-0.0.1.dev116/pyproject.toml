@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cuminai"
+version = "0.0.1dev116"
+description = ""
+authors = ["Harshal Priyadarshi <harshal@cuminai.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1"
+langchain-chroma = "^0.1.0"
+chromadb = { version = ">=0.4.0,<0.6.0" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
