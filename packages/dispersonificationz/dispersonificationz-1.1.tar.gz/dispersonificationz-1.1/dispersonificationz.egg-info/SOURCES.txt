@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dispersonificationz/__init__.py
+dispersonificationz/main.py
+dispersonificationz.egg-info/PKG-INFO
+dispersonificationz.egg-info/SOURCES.txt
+dispersonificationz.egg-info/dependency_links.txt
+dispersonificationz.egg-info/requires.txt
+dispersonificationz.egg-info/top_level.txt
