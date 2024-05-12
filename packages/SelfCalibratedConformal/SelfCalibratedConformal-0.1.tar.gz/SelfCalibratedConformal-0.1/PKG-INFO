@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: SelfCalibratedConformal
+Version: 0.1
+Summary: A Python implementation of Self-Calibrated Conformal Prediction
+Home-page: https://github.com/Larsvanderlaan/SelfCalibratedConformal
+Author: Lars van der Laan
+Author-email: vanderlaanlars@yahoo.com
