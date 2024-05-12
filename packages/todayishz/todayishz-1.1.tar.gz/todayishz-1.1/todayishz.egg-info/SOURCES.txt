@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+todayishz/__init__.py
+todayishz/main.py
+todayishz.egg-info/PKG-INFO
+todayishz.egg-info/SOURCES.txt
+todayishz.egg-info/dependency_links.txt
+todayishz.egg-info/requires.txt
+todayishz.egg-info/top_level.txt
