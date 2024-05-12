@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+afrogaeanz/__init__.py
+afrogaeanz/main.py
+afrogaeanz.egg-info/PKG-INFO
+afrogaeanz.egg-info/SOURCES.txt
+afrogaeanz.egg-info/dependency_links.txt
+afrogaeanz.egg-info/requires.txt
+afrogaeanz.egg-info/top_level.txt
