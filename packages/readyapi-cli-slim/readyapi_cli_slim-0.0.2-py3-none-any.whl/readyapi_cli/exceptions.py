@@ -1,0 +1,2 @@
+class ReadyAPICLIException(Exception):
+    pass

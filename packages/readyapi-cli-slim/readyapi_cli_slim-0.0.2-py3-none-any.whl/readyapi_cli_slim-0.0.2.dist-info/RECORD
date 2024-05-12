@@ -1,0 +1,12 @@
+readyapi_cli/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+readyapi_cli/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+readyapi_cli/cli.py,sha256=DzfAwrxvlBh81xTiGh5gsucn1Mw-572IAygCud7FlCk,8783
+readyapi_cli/discover.py,sha256=m1EbARrJBXUo9le-BOuzwpd21m8WWqIA46COyWoPt_E,5301
+readyapi_cli/exceptions.py,sha256=lppXoMdk3kTlefMFHYu-bFHH3WPDBOipARfhXLYyUnU,48
+readyapi_cli/logging.py,sha256=kNh5WIz2hNk7jbICV7HjiH23tatpRDUg_GhEPagPoS4,665
+readyapi_cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+readyapi_cli_slim-0.0.2.dist-info/METADATA,sha256=J3sgbEk_qOTYm6QqJ27ab3_GAO0KFRbNXQIjCwZTisE,6871
+readyapi_cli_slim-0.0.2.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+readyapi_cli_slim-0.0.2.dist-info/entry_points.txt,sha256=OFraijOgkUel4jqzGpRMM_LSd2YJNzdDAdjdEO6AMFQ,52
+readyapi_cli_slim-0.0.2.dist-info/licenses/LICENSE,sha256=_ONJz0oxQSvG1HoPxB1I7uzMEVKGaIcDuiBrWI0Pgyw,1084
+readyapi_cli_slim-0.0.2.dist-info/RECORD,,

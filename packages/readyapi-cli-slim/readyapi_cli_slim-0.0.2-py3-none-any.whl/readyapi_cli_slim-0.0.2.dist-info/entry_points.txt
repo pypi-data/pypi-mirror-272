@@ -1,0 +1,3 @@
+[console_scripts]
+readyapi = readyapi_cli.cli:main
+
