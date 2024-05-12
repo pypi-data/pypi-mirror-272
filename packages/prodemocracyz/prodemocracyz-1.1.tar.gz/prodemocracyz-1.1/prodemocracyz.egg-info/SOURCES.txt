@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prodemocracyz/__init__.py
+prodemocracyz/main.py
+prodemocracyz.egg-info/PKG-INFO
+prodemocracyz.egg-info/SOURCES.txt
+prodemocracyz.egg-info/dependency_links.txt
+prodemocracyz.egg-info/requires.txt
+prodemocracyz.egg-info/top_level.txt
