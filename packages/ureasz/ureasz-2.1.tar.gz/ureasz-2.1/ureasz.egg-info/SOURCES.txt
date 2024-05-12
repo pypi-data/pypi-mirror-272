@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ureasz/__init__.py
+ureasz/main.py
+ureasz.egg-info/PKG-INFO
+ureasz.egg-info/SOURCES.txt
+ureasz.egg-info/dependency_links.txt
+ureasz.egg-info/requires.txt
+ureasz.egg-info/top_level.txt
