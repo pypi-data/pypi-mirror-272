@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tankertz/__init__.py
+tankertz/main.py
+tankertz.egg-info/PKG-INFO
+tankertz.egg-info/SOURCES.txt
+tankertz.egg-info/dependency_links.txt
+tankertz.egg-info/requires.txt
+tankertz.egg-info/top_level.txt
