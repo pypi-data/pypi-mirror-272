@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "name-that-fucking-film"
+version = "0.4.0"
+description = ""
+authors = ["jkarenko <juho.karenko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pandas = "^2.2.2"
+rich = "^13.7.1"
+nltk = "^3.8.1"
+
+[tool.poetry.group.dev.dependencies]
+poetry-pyinstaller-plugin = "^1.1.8"
+pyinstaller = "^6.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+name-that-fucking-film = "name_that_fucking_film.main:name_that_fucking_film"
+
+[tool.pyinstaller]
+main = "name_that_fucking_film.name_that_fucking_film.py"
