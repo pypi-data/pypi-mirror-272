@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unpervertedz/__init__.py
+unpervertedz/main.py
+unpervertedz.egg-info/PKG-INFO
+unpervertedz.egg-info/SOURCES.txt
+unpervertedz.egg-info/dependency_links.txt
+unpervertedz.egg-info/requires.txt
+unpervertedz.egg-info/top_level.txt
