@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+decipheredz/__init__.py
+decipheredz/main.py
+decipheredz.egg-info/PKG-INFO
+decipheredz.egg-info/SOURCES.txt
+decipheredz.egg-info/dependency_links.txt
+decipheredz.egg-info/requires.txt
+decipheredz.egg-info/top_level.txt
