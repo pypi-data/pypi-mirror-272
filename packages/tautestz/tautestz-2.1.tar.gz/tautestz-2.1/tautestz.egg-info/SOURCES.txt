@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tautestz/__init__.py
+tautestz/main.py
+tautestz.egg-info/PKG-INFO
+tautestz.egg-info/SOURCES.txt
+tautestz.egg-info/dependency_links.txt
+tautestz.egg-info/requires.txt
+tautestz.egg-info/top_level.txt
