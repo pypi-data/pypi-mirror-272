@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ultrafilterablez/__init__.py
+ultrafilterablez/main.py
+ultrafilterablez.egg-info/PKG-INFO
+ultrafilterablez.egg-info/SOURCES.txt
+ultrafilterablez.egg-info/dependency_links.txt
+ultrafilterablez.egg-info/requires.txt
+ultrafilterablez.egg-info/top_level.txt
