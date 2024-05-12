@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lichtedz/__init__.py
+lichtedz/main.py
+lichtedz.egg-info/PKG-INFO
+lichtedz.egg-info/SOURCES.txt
+lichtedz.egg-info/dependency_links.txt
+lichtedz.egg-info/requires.txt
+lichtedz.egg-info/top_level.txt
