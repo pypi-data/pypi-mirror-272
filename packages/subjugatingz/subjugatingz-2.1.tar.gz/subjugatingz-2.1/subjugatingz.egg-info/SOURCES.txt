@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subjugatingz/__init__.py
+subjugatingz/main.py
+subjugatingz.egg-info/PKG-INFO
+subjugatingz.egg-info/SOURCES.txt
+subjugatingz.egg-info/dependency_links.txt
+subjugatingz.egg-info/requires.txt
+subjugatingz.egg-info/top_level.txt
