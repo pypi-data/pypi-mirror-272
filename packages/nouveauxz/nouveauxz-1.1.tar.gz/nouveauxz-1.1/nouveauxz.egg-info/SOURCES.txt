@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nouveauxz/__init__.py
+nouveauxz/main.py
+nouveauxz.egg-info/PKG-INFO
+nouveauxz.egg-info/SOURCES.txt
+nouveauxz.egg-info/dependency_links.txt
+nouveauxz.egg-info/requires.txt
+nouveauxz.egg-info/top_level.txt
