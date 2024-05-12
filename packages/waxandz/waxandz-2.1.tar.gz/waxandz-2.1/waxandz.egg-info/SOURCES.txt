@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+waxandz/__init__.py
+waxandz/main.py
+waxandz.egg-info/PKG-INFO
+waxandz.egg-info/SOURCES.txt
+waxandz.egg-info/dependency_links.txt
+waxandz.egg-info/requires.txt
+waxandz.egg-info/top_level.txt
