@@ -1,0 +1,13 @@
+vdg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vdg/core.py,sha256=7uGmSIe0iGr8uB36AJns_nqoteWbvcaeF8dKnT79ZG4,7050
+vdg/main.py,sha256=Anc4AICC32Cyo2emaG8oulKwHujFca3hWC7_CQFII9c,1019
+vdg/templates/html.template,sha256=x5tkz_KgwZYGz8PfHScID-bUldfrHjzspshe9YcEMKM,4081
+vdg/templates/main.template,sha256=crSftiJPckdRUPD2bexM26oaIm4tL9kG-x7076Z8nfg,4121
+vdg/templates/titles.template,sha256=8CQxSobNd0W22JxYzSQfZym9Z5WsFZ--4KgfaptWer4,399
+vdg/templates/yaml.template,sha256=eKxaDuGjT23oxjc70DLcoPEOgAXqyZUv87Clc66Ayr0,2240
+vdg-0.2.0.dist-info/LICENSE,sha256=54oHGIhclHmbWtFU3Lo-8QxMOIpnVosyKgUl6628xrM,1065
+vdg-0.2.0.dist-info/METADATA,sha256=fna0ulTdXbT69FWkC8tqUANDRaql2fYZV9FJukZIZeM,1296
+vdg-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vdg-0.2.0.dist-info/entry_points.txt,sha256=tbdPOdjI8pKmNnBY9_geKjap190oIY-TDo5CBDhMchw,38
+vdg-0.2.0.dist-info/top_level.txt,sha256=-TOEpx9cIUHGDArsb3b_nxrzICRVhmpKWzl_BYaqKeU,4
+vdg-0.2.0.dist-info/RECORD,,
