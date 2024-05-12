@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+simple_bgpfuzz_rpc/__init__.py
+simple_bgpfuzz_rpc/rpc.py
+simple_bgpfuzz_rpc.egg-info/PKG-INFO
+simple_bgpfuzz_rpc.egg-info/SOURCES.txt
+simple_bgpfuzz_rpc.egg-info/dependency_links.txt
+simple_bgpfuzz_rpc.egg-info/requires.txt
+simple_bgpfuzz_rpc.egg-info/top_level.txt
