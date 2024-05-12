@@ -1,0 +1,10 @@
+h5py
+numpy>=1.12
+scipy
+keras>=2.0
+tensorflow-gpu<2.0
+biopython
+scikit-learn
+numpy
+pandas
+scikit-image
