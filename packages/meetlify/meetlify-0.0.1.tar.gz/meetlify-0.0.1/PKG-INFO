@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: meetlify
+Version: 0.0.1
+Summary: Python Package to Generate Meetup Websites
+Home-page: https://github.com/pybodensee/meetlify
+Download-URL: https://github.com/pybodensee/meetlify/releases/v0.0.1.tar.gz
+Author: Faisal Shahzad
+Author-email: pybodensee@gmail.com
+License: MIT
+Keywords: meetups,static-site-generators,seo,python
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Archiving :: Mirroring
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: markdown
+Requires-Dist: Jinja2
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: python-language-server[all]; extra == "dev"
+Requires-Dist: setuptools; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: setuptools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: mkdocs; extra == "dev"
+Requires-Dist: mkdocs-gen-files; extra == "dev"
+Requires-Dist: mkdocstrings[python]; extra == "dev"
+Requires-Dist: pymdown-extensions; extra == "dev"
+Provides-Extra: all
+Requires-Dist: pytest-cov; extra == "all"
+Requires-Dist: mkdocs; extra == "all"
+Requires-Dist: mkdocstrings[python]; extra == "all"
+Requires-Dist: pymdown-extensions; extra == "all"
+Requires-Dist: setuptools; extra == "all"
+Requires-Dist: python-language-server[all]; extra == "all"
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: twine; extra == "all"
+Requires-Dist: mkdocs-gen-files; extra == "all"
+Requires-Dist: black; extra == "all"
+Requires-Dist: wheel; extra == "all"
+
+# meetlify
+
+This is meetlify repository.
+
+
+## TODO
+
+- Add SEO for event, article etc
+- Add Cookies banner
+- Add Google/Open Street maps
+- Include Sitemaps
+- Include Meetup feeds
+- add Bregenz theme
+- subfuntion make
+- license information in indvidual files
+- Docs
+- tests

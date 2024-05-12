@@ -1,0 +1,34 @@
+{
+    "name": "imcwangen",
+    "URL": "",
+    "language": "en",
+    "theme": "lindau",
+    "title": "Immocation Stammtisch in Bodensee Region",
+    "author": "Mat Sch",
+    "email": "pybodensee at gmail dot com",
+    "description": "We are Python User Group in Bodensee Region to bring Python developers and enthusiasts on a single platform",
+    "sitemap": true,
+    "feeds": true,
+    "robots": true,
+    "logo": "logo.webp",
+    "favicon": "favicon.png",
+    "copyright": "Copyright © imwange 2024",
+    "home": "home",
+    "folders": {
+        "output": "output",
+        "content": "content",
+        "meetups": "meetups",
+        "pages": "pages"
+    },
+    "menu": {
+        "header": {
+            "Meetups": "meetups",
+            "GitHub": "https://github.com/pybodensee"
+        },
+        "footer": {
+            "Privacy": "privacy",
+            "Terms": "terms",
+            "Contact": "contact"
+        }
+    }
+}
