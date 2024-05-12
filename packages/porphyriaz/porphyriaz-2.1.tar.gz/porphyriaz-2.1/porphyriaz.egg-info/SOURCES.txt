@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+porphyriaz/__init__.py
+porphyriaz/main.py
+porphyriaz.egg-info/PKG-INFO
+porphyriaz.egg-info/SOURCES.txt
+porphyriaz.egg-info/dependency_links.txt
+porphyriaz.egg-info/requires.txt
+porphyriaz.egg-info/top_level.txt
