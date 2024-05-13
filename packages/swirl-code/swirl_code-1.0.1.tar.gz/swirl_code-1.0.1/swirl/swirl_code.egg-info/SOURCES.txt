@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+swirl/swirl_code.egg-info/PKG-INFO
+swirl/swirl_code.egg-info/SOURCES.txt
+swirl/swirl_code.egg-info/dependency_links.txt
+swirl/swirl_code.egg-info/requires.txt
+swirl/swirl_code.egg-info/top_level.txt
