@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+violottaz/__init__.py
+violottaz/main.py
+violottaz.egg-info/PKG-INFO
+violottaz.egg-info/SOURCES.txt
+violottaz.egg-info/dependency_links.txt
+violottaz.egg-info/requires.txt
+violottaz.egg-info/top_level.txt
