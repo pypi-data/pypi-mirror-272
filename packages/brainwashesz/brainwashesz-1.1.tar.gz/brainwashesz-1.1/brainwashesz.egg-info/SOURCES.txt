@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+brainwashesz/__init__.py
+brainwashesz/main.py
+brainwashesz.egg-info/PKG-INFO
+brainwashesz.egg-info/SOURCES.txt
+brainwashesz.egg-info/dependency_links.txt
+brainwashesz.egg-info/requires.txt
+brainwashesz.egg-info/top_level.txt
