@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+narcohypniaz/__init__.py
+narcohypniaz/main.py
+narcohypniaz.egg-info/PKG-INFO
+narcohypniaz.egg-info/SOURCES.txt
+narcohypniaz.egg-info/dependency_links.txt
+narcohypniaz.egg-info/requires.txt
+narcohypniaz.egg-info/top_level.txt
