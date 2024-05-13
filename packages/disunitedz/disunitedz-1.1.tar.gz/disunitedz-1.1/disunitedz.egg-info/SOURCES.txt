@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+disunitedz/__init__.py
+disunitedz/main.py
+disunitedz.egg-info/PKG-INFO
+disunitedz.egg-info/SOURCES.txt
+disunitedz.egg-info/dependency_links.txt
+disunitedz.egg-info/requires.txt
+disunitedz.egg-info/top_level.txt
