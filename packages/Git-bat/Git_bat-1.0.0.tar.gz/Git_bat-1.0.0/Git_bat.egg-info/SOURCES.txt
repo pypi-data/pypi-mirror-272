@@ -1,0 +1,11 @@
+setup.py
+Git_bat/get_path.py
+Git_bat/pip_MD.py
+Git_bat/pip_twine.py
+Git_bat.egg-info/PKG-INFO
+Git_bat.egg-info/SOURCES.txt
+Git_bat.egg-info/dependency_links.txt
+Git_bat.egg-info/entry_points.txt
+Git_bat.egg-info/requires.txt
+Git_bat.egg-info/top_level.txt
+Git_bat/AA/pypi.py

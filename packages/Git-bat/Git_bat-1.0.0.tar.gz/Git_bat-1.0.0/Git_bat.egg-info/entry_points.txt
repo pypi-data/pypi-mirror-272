@@ -1,0 +1,3 @@
+[console_scripts]
+pip-md = Git_bat.pip_MD:pip_MD
+pip-up = Git_bat.pip_twine:pip_twine
