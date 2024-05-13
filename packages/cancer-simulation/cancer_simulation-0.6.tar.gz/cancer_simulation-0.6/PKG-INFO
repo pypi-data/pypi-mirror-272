@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: cancer_simulation
+Version: 0.6
+Requires-Dist: pygame==2.5.2
+Requires-Dist: pygame-chart==1.0.0
+Requires-Dist: numpy==1.26.3
