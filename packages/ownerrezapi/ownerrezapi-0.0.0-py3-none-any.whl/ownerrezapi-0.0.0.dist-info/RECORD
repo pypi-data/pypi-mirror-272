@@ -1,0 +1,13 @@
+ownerrezapi/__init__.py,sha256=SVxuM7r7z0Msw50iCigOE9dwzm_Q1T9Cq9GmLlb2-eg,23
+ownerrezapi/constants.py,sha256=w9lK7YsM_X1qpU-eHGGFNjND57QXpp73rSw7uJUCPU8,41
+ownerrezapi/expeptions.py,sha256=2bsCi9pg9gDKuvex1ZOCL7xvbkmBR-mH42vTzxr4l5Q,47
+ownerrezapi/model.py,sha256=l1l5JTQOpqAKrkQKhL4mI0Lui21rAyaYM3qXsD2pmsA,4000
+ownerrezapi/ownerrezapi.py,sha256=wnTx7g1i-fsvQvKVG_dCCu-SZn_cgjUl8R-I8kKrLOE,2501
+ownerrezapi/restAdapter.py,sha256=BbtJIBi94KdoXmsStOL0XhtdNrKBN5Wdhe_Otm-FwSk,3243
+ownerrezapi/test/__init__.py,sha256=RzXwJb3Ej6jDnZUEpJjyCSY_eeh8T02ohs2-uXi58fQ,77
+ownerrezapi/test/tests.py,sha256=zVPMoBr0KPIB6FKClm11aPui4dih6I0L2-xoL9ClEPE,960
+ownerrezapi-0.0.0.dist-info/LICENSE,sha256=uvlN4cyQ9cLZyMqdSeXvDT0eBu_fPKLoMe83fyJ9TZ8,1069
+ownerrezapi-0.0.0.dist-info/METADATA,sha256=wC21BA8-USaLOxZNpm-xmEFdMFGQBEZG-NjR_e4x3zw,78
+ownerrezapi-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ownerrezapi-0.0.0.dist-info/top_level.txt,sha256=fofPi3EV12eZV7pCpEaxtsOBiEojFpYEvMoJ84eKs3I,12
+ownerrezapi-0.0.0.dist-info/RECORD,,
