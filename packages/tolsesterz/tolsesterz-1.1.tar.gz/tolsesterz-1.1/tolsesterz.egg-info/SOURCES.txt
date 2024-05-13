@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tolsesterz/__init__.py
+tolsesterz/main.py
+tolsesterz.egg-info/PKG-INFO
+tolsesterz.egg-info/SOURCES.txt
+tolsesterz.egg-info/dependency_links.txt
+tolsesterz.egg-info/requires.txt
+tolsesterz.egg-info/top_level.txt
