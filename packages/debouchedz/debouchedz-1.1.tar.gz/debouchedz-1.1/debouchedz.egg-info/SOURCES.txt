@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+debouchedz/__init__.py
+debouchedz/main.py
+debouchedz.egg-info/PKG-INFO
+debouchedz.egg-info/SOURCES.txt
+debouchedz.egg-info/dependency_links.txt
+debouchedz.egg-info/requires.txt
+debouchedz.egg-info/top_level.txt
