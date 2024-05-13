@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: anemone_daisy_maker
+Version: 1.55.4
+Summary: Create DAISY digital talking books from HTML text, MP3 audio and JSON time index data
+Author: Silas S. Brown
+Author-email: ssb22@cam.ac.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
