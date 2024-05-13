@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rotatorz/__init__.py
+rotatorz/main.py
+rotatorz.egg-info/PKG-INFO
+rotatorz.egg-info/SOURCES.txt
+rotatorz.egg-info/dependency_links.txt
+rotatorz.egg-info/requires.txt
+rotatorz.egg-info/top_level.txt
