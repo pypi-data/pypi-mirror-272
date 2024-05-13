@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+beetrootyz/__init__.py
+beetrootyz/main.py
+beetrootyz.egg-info/PKG-INFO
+beetrootyz.egg-info/SOURCES.txt
+beetrootyz.egg-info/dependency_links.txt
+beetrootyz.egg-info/requires.txt
+beetrootyz.egg-info/top_level.txt
