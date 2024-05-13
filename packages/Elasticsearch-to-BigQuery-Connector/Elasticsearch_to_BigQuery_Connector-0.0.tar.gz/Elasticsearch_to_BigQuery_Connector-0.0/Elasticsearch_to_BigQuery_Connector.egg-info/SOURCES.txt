@@ -1,0 +1,10 @@
+README.md
+setup.py
+Elasticsearch_to_BigQuery_Connector/__init__.py
+Elasticsearch_to_BigQuery_Connector/main.py
+Elasticsearch_to_BigQuery_Connector.egg-info/PKG-INFO
+Elasticsearch_to_BigQuery_Connector.egg-info/SOURCES.txt
+Elasticsearch_to_BigQuery_Connector.egg-info/dependency_links.txt
+Elasticsearch_to_BigQuery_Connector.egg-info/entry_points.txt
+Elasticsearch_to_BigQuery_Connector.egg-info/requires.txt
+Elasticsearch_to_BigQuery_Connector.egg-info/top_level.txt
