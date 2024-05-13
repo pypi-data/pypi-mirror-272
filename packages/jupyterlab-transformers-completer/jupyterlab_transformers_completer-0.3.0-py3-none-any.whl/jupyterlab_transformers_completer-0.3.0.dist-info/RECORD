@@ -1,0 +1,17 @@
+jupyterlab_transformers_completer/__init__.py,sha256=cX9ehYJnk6zDsQccpz390HtId8n-fq3kWh94QwoNSXs,1488
+jupyterlab_transformers_completer/_version.py,sha256=W6DIaBZh3c4iERseQh1LSFmmsS5lqkkAwTOt20QcsZg,171
+jupyterlab_transformers_completer-0.3.0.data/data/etc/jupyter/jupyter_server_config.d/jupyterlab_transformers_completer.json,sha256=bUQSFnjDPwhOdKS--YpJSgXqtV5HpWkjOIInSPUrGNw,108
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/package.json,sha256=YOoj6LU7oc9wMIHT5AemL1HAYIIXKYrdbvP2JVNvJno,5688
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/213.e59dfc8de12e64063153.js,sha256=5Z38jeEuZAYxU3Fp_89zTlPRcSW1bBwz38-v-s9VZ3U,5688
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/468.cb1c62bdaf01b682273e.js,sha256=yxxiva8BtoInPrO3rOlHikW0qnGl1jvEHKJNeTV-E_E,9066
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/488.593a8bdbb534307f9db2.js,sha256=UpHnkLuwcFkMkVefnWZMAHBSvKzJ5VwaTNtHyQeiIvw,894660
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/488.593a8bdbb534307f9db2.js.LICENSE.txt,sha256=ULHzEhKoM3GWnoKpPApjvvdu8DYnOml6MAUSBtgdYRc,5528
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/747.82e78a8edf88647d214c.js,sha256=gueKjt-IZH0hTDGe_2UmjxTlS8IDUyGpWO5JaORlPrs,4048
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/remoteEntry.c35f93a8e4c705cb30c5.js,sha256=w1-TqOTHBcswxV_6s5NUPkU_0LtPqh4QcOrgXpsOljM,6700
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/style.js,sha256=5TyMMpaze8EMiorqm9aFxH8YIQdpnReefh-g2qsqInE,177
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/third-party-licenses.json,sha256=QIW-jqD4b2S3oXt8FuPjqk3sv3WJNcqjE0RgAt-LDrA,15435
+jupyterlab_transformers_completer-0.3.0.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/install.json,sha256=iQSRudMeFztGdwPcxRZCCww0Q6XXRsIklwFWHKJsin8,227
+jupyterlab_transformers_completer-0.3.0.dist-info/METADATA,sha256=WsEVAymuIZstlQWpsNhmI7jdDpcTtZ2h3LuAz6RsNjk,8374
+jupyterlab_transformers_completer-0.3.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+jupyterlab_transformers_completer-0.3.0.dist-info/licenses/LICENSE,sha256=TQtBmYiNKToXIdY21md6KlxjzUb3M_-eAhbPU0xVJ00,1526
+jupyterlab_transformers_completer-0.3.0.dist-info/RECORD,,
