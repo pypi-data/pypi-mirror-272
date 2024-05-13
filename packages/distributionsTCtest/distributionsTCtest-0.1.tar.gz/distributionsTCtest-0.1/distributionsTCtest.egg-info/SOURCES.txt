@@ -1,0 +1,12 @@
+license.txt
+setup.cfg
+setup.py
+distributionsTCtest/Binomialdistribution.py
+distributionsTCtest/Gaussiandistribution.py
+distributionsTCtest/Generaldistribution.py
+distributionsTCtest/__init__.py
+distributionsTCtest.egg-info/PKG-INFO
+distributionsTCtest.egg-info/SOURCES.txt
+distributionsTCtest.egg-info/dependency_links.txt
+distributionsTCtest.egg-info/not-zip-safe
+distributionsTCtest.egg-info/top_level.txt
