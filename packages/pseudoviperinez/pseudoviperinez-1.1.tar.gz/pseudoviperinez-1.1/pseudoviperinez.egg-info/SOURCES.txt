@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pseudoviperinez/__init__.py
+pseudoviperinez/main.py
+pseudoviperinez.egg-info/PKG-INFO
+pseudoviperinez.egg-info/SOURCES.txt
+pseudoviperinez.egg-info/dependency_links.txt
+pseudoviperinez.egg-info/requires.txt
+pseudoviperinez.egg-info/top_level.txt
