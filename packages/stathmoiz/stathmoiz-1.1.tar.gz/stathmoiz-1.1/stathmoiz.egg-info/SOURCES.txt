@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stathmoiz/__init__.py
+stathmoiz/main.py
+stathmoiz.egg-info/PKG-INFO
+stathmoiz.egg-info/SOURCES.txt
+stathmoiz.egg-info/dependency_links.txt
+stathmoiz.egg-info/requires.txt
+stathmoiz.egg-info/top_level.txt
