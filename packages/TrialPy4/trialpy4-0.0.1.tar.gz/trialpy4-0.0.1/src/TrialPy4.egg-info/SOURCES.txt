@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/TrialPy/RCFA.py
+src/TrialPy/_RCSingle.py
+src/TrialPy/__init__.py
+src/TrialPy/_arrangeCal.py
+src/TrialPy/_forcesCal.py
+src/TrialPy4.egg-info/PKG-INFO
+src/TrialPy4.egg-info/SOURCES.txt
+src/TrialPy4.egg-info/dependency_links.txt
+src/TrialPy4.egg-info/requires.txt
+src/TrialPy4.egg-info/top_level.txt
+tests/test_RCFA.py
