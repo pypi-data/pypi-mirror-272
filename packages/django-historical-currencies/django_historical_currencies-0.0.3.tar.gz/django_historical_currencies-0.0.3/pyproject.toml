@@ -1,0 +1,43 @@
+[build-system]
+requires = ['setuptools>=61']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "django-historical-currencies"
+authors = [
+    {name = "Stefano Rivera", email = "stefano@rivera.za.net"},
+]
+description = "Django currencies with historical exchange rates"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["django", "currencies", "exchange", "xe"]
+license = {text = "ISC"}
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+]
+dependencies = [
+    'django',
+    'iso4217',
+]
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/stefanor/django-historical-currencies/"
+Changelog = "https://github.com/stefanor/django-historical-currencies/blob/master/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+include = ["historical_currencies*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "historical_currencies.__version__"}
+
+[tool.mypy]
+plugins = [
+    "mypy_django_plugin.main",
+]
+
+[tool.django-stubs]
+django_settings_module = "tests.test_settings"
+strict_settings = false
