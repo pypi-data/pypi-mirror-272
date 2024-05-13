@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+essenicz/__init__.py
+essenicz/main.py
+essenicz.egg-info/PKG-INFO
+essenicz.egg-info/SOURCES.txt
+essenicz.egg-info/dependency_links.txt
+essenicz.egg-info/requires.txt
+essenicz.egg-info/top_level.txt
