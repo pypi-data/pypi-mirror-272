@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dipalaz/__init__.py
+dipalaz/main.py
+dipalaz.egg-info/PKG-INFO
+dipalaz.egg-info/SOURCES.txt
+dipalaz.egg-info/dependency_links.txt
+dipalaz.egg-info/requires.txt
+dipalaz.egg-info/top_level.txt
