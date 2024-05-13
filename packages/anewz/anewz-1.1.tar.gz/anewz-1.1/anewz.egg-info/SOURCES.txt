@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anewz/__init__.py
+anewz/main.py
+anewz.egg-info/PKG-INFO
+anewz.egg-info/SOURCES.txt
+anewz.egg-info/dependency_links.txt
+anewz.egg-info/requires.txt
+anewz.egg-info/top_level.txt
