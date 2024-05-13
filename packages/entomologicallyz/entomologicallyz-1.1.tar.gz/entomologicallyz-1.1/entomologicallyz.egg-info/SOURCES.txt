@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+entomologicallyz/__init__.py
+entomologicallyz/main.py
+entomologicallyz.egg-info/PKG-INFO
+entomologicallyz.egg-info/SOURCES.txt
+entomologicallyz.egg-info/dependency_links.txt
+entomologicallyz.egg-info/requires.txt
+entomologicallyz.egg-info/top_level.txt
