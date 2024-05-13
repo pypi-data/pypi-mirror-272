@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+arumsz/__init__.py
+arumsz/main.py
+arumsz.egg-info/PKG-INFO
+arumsz.egg-info/SOURCES.txt
+arumsz.egg-info/dependency_links.txt
+arumsz.egg-info/requires.txt
+arumsz.egg-info/top_level.txt
