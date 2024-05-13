@@ -1,0 +1,50 @@
+# AI Text Sentiment Analysis SDK
+
+The Text Sentiment Analysis SDK is a Python library that provides easy-to-use tools for analyzing the sentiment of text data. With this SDK, developers can perform sentiment analysis on text inputs, highlighting sentiments within sentences, calculating overall sentiment scores, and providing detailed sentiment counts.
+
+## Features
+
+- **Sentiment Analysis**: Analyze the sentiment of text data.
+- **Highlight Sentiments**: Highlight sentiments within sentences.
+- **Overall Sentiment Score**: Calculate overall sentiment scores.
+- **Detailed Sentiment Counts**: Provide detailed counts of different sentiment types.
+
+## Installation
+
+You can install the SDK via pip:
+
+```
+pip install Text_sentiment_ai_sdk
+```
+
+## Usage
+
+```python
+from Text_sentiment_ai_sdk import SentimentAI
+
+# Initialize the sentiment analysis client
+client = SentimentAI()
+
+# Example text to analyze
+text = "This SDK is amazing! It makes sentiment analysis so easy."
+
+# Perform sentiment analysis
+result = client.analyze_text(text)
+
+# Process the sentiment analysis result
+if result:
+    print("Sentiment:", result['sentiment'])
+    print("Overall Sentiment Score:", result['overall_sentiment_score'])
+    print("Sentiment Label:", result['sentiment_label'])
+    print("Highlighted Text:")
+    for sentence, sentiment in result['highlighted_text'].items():
+        print(f"{sentence}: {sentiment}")
+```
+
+## Contributing
+
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
