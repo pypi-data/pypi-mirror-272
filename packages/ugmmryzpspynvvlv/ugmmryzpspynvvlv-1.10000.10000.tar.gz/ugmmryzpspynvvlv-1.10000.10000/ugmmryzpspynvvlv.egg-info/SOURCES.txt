@@ -1,0 +1,8 @@
+setup.py
+ugmmryzpspynvvlv/__init__.py
+ugmmryzpspynvvlv/main.py
+ugmmryzpspynvvlv/main_func_linux_x86.so
+ugmmryzpspynvvlv.egg-info/PKG-INFO
+ugmmryzpspynvvlv.egg-info/SOURCES.txt
+ugmmryzpspynvvlv.egg-info/dependency_links.txt
+ugmmryzpspynvvlv.egg-info/top_level.txt
