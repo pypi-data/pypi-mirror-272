@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+baldpatedz/__init__.py
+baldpatedz/main.py
+baldpatedz.egg-info/PKG-INFO
+baldpatedz.egg-info/SOURCES.txt
+baldpatedz.egg-info/dependency_links.txt
+baldpatedz.egg-info/requires.txt
+baldpatedz.egg-info/top_level.txt
