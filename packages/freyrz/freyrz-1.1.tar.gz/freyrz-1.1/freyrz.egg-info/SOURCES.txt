@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+freyrz/__init__.py
+freyrz/main.py
+freyrz.egg-info/PKG-INFO
+freyrz.egg-info/SOURCES.txt
+freyrz.egg-info/dependency_links.txt
+freyrz.egg-info/requires.txt
+freyrz.egg-info/top_level.txt
