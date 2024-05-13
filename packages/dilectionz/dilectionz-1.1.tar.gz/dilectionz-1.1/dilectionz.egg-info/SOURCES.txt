@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dilectionz/__init__.py
+dilectionz/main.py
+dilectionz.egg-info/PKG-INFO
+dilectionz.egg-info/SOURCES.txt
+dilectionz.egg-info/dependency_links.txt
+dilectionz.egg-info/requires.txt
+dilectionz.egg-info/top_level.txt
