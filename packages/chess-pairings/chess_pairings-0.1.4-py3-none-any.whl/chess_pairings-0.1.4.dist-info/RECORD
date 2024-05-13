@@ -1,0 +1,13 @@
+chess_pairings/__init__.py,sha256=2DRp6uQqj9MaOWTKNW7R3m5njozflEe0LqQlc0e32_0,181
+chess_pairings/__init__.pyi,sha256=sAnLybiyinokJ6hT4CI_Ajml0lqszI43QY4QcCQTeTc,327
+chess_pairings/types.py,sha256=MPq-yPlG6hf33nqM9SchCDGiLyrF9ZkY6bTpmX_QCOk,718
+chess_pairings/chess_results/__init__.py,sha256=mF4M_d6EiHbB9U9W_oKlKXYIyh8ZFn3gxe_382VXiLI,95
+chess_pairings/chess_results/__init__.pyi,sha256=uUFdlAaBCn_m5jcSpTHLFtDE7cV7mQRV4JwFn6Rw1AI,531
+chess_pairings/chess_results/_donwload.py,sha256=mtlkcUDuWKZ0-WHt_aUwXf_pbwcwClzdTkfgBv1wm5U,2347
+chess_pairings/chess_results/errors.py,sha256=WTNm9zugp86F8k8ZMK3WvXnyAtGaLEBNJO6BBuZrSm8,357
+chess_pairings/chess_results/main.py,sha256=3O-JJM8fkrapABt2N36yCACL0ZgZZUzM49biqYcy3BM,274
+chess_pairings/chess_results/parsing.py,sha256=xh2wzvZrD0wd_EuaIU3AmKHoD_3fzUhfqO-ANX75vWQ,4013
+chess_pairings-0.1.4.dist-info/METADATA,sha256=r5-mh6L-cgefWV_vgbzC6OmSyPvze3Kewd7c9lj5OVU,537
+chess_pairings-0.1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chess_pairings-0.1.4.dist-info/top_level.txt,sha256=BmZfbDTpu3zxCQLagFhbbuxkoiGQNzyqSWtkGqOeDYo,15
+chess_pairings-0.1.4.dist-info/RECORD,,
