@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: django-listfilter-media-extension
+Version: 0.1.1
+Summary: 为`listfilter`类添加`class Media`支持。
+Home-page: UNKNOWN
+Author: Che XiaoBo
+Maintainer: Che XiaoBo
+License: MIT
+Keywords: django admin extentions,django listfilter media extension
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django
+Requires-Dist: django-middleware-global-request
+
+# django-listfilter-media-extension
+
+为`listfilter`类添加`class Media`支持。
+
+## 使用方法
+
+```python
+INSTALLED_APPS = [
+    "django_listfilter_media_extension",
+    ...
+]
+```
+
+把`django_listfilter_media_extension`应用添加到`settings.py`中的`INSTALLED_APPS`即可。
+
+## 版本记录
+
+### v0.1.0
+
+- 首版本发布。
+
+### v0.1.1
+
+- 修正apps路径问题。
+
+
