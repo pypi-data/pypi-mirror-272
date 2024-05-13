@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sportivelyz/__init__.py
+sportivelyz/main.py
+sportivelyz.egg-info/PKG-INFO
+sportivelyz.egg-info/SOURCES.txt
+sportivelyz.egg-info/dependency_links.txt
+sportivelyz.egg-info/requires.txt
+sportivelyz.egg-info/top_level.txt
