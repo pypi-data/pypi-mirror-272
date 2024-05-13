@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+markstonez/__init__.py
+markstonez/main.py
+markstonez.egg-info/PKG-INFO
+markstonez.egg-info/SOURCES.txt
+markstonez.egg-info/dependency_links.txt
+markstonez.egg-info/requires.txt
+markstonez.egg-info/top_level.txt
