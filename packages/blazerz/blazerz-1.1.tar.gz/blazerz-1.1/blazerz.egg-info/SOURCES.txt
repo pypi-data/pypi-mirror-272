@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+blazerz/__init__.py
+blazerz/main.py
+blazerz.egg-info/PKG-INFO
+blazerz.egg-info/SOURCES.txt
+blazerz.egg-info/dependency_links.txt
+blazerz.egg-info/requires.txt
+blazerz.egg-info/top_level.txt
