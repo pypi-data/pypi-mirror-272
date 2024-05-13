@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lemuroideaz/__init__.py
+lemuroideaz/main.py
+lemuroideaz.egg-info/PKG-INFO
+lemuroideaz.egg-info/SOURCES.txt
+lemuroideaz.egg-info/dependency_links.txt
+lemuroideaz.egg-info/requires.txt
+lemuroideaz.egg-info/top_level.txt
