@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bintsz/__init__.py
+bintsz/main.py
+bintsz.egg-info/PKG-INFO
+bintsz.egg-info/SOURCES.txt
+bintsz.egg-info/dependency_links.txt
+bintsz.egg-info/requires.txt
+bintsz.egg-info/top_level.txt
