@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pyrepka/__init__.py
+pyrepka/py_repka.py
+pyrepka.egg-info/PKG-INFO
+pyrepka.egg-info/SOURCES.txt
+pyrepka.egg-info/dependency_links.txt
+pyrepka.egg-info/requires.txt
+pyrepka.egg-info/top_level.txt
