@@ -1,0 +1,9 @@
+coospace_automation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coospace_automation/auth.py,sha256=RUQ9pagjEkrCpqkRiuGxFVLd5DvFP3oowmFy4TUksuc,2068
+coospace_automation/calendar.py,sha256=GbR_VaLQMx4HOXYwnH3icpHkFBKpoU3Jv4AvNCmEOuI,454
+coospace_automation/coospace.py,sha256=e7ds6N9l9H9BhIOD-pwes68XTo9jKtw5GtpVsnPay-Y,8675
+coospace_automation/notification.py,sha256=HpoykMvCGPWnoahfFXrhQqdFdoUn4poOSktqs6Ch9mk,541
+coospace_automation-1.0.1.dist-info/METADATA,sha256=TG-oTlbbA3QH4gr_XVS_ppbuCoVBzGeyysRF9-Z7l6g,1306
+coospace_automation-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+coospace_automation-1.0.1.dist-info/top_level.txt,sha256=nBLCpyV8xgj_NXkfwoj-Dode05kPOUEFNtkcxUuH5ls,20
+coospace_automation-1.0.1.dist-info/RECORD,,
