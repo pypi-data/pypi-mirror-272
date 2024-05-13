@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sasaniz/__init__.py
+sasaniz/main.py
+sasaniz.egg-info/PKG-INFO
+sasaniz.egg-info/SOURCES.txt
+sasaniz.egg-info/dependency_links.txt
+sasaniz.egg-info/requires.txt
+sasaniz.egg-info/top_level.txt
