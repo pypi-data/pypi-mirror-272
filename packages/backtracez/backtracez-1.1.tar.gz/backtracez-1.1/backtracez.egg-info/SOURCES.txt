@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+backtracez/__init__.py
+backtracez/main.py
+backtracez.egg-info/PKG-INFO
+backtracez.egg-info/SOURCES.txt
+backtracez.egg-info/dependency_links.txt
+backtracez.egg-info/requires.txt
+backtracez.egg-info/top_level.txt
