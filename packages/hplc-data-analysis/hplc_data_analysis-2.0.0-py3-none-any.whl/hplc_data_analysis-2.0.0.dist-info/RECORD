@@ -1,0 +1,8 @@
+hplc_data_analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hplc_data_analysis/fragmenter.py,sha256=ACzeW5LnA4bP9yC3vz-PrR2mYoW_wlfyaFjskmeSO8A,29868
+hplc_data_analysis/hplc.py,sha256=uZ679GHamvYJmstGR6M4zWxjWJQF63nuxMcK-8kS2RE,38862
+hplc_data_analysis/pubchem.py,sha256=W7eRztNcNUZunfxt7mtM7Jo08lqBL0dUVvJqml0D1Rw,11309
+hplc_data_analysis-2.0.0.dist-info/METADATA,sha256=Z2SHmwJ3S5-WnV0q5RYsQtmhvkCYCrTSRRVqB9qAoFc,5582
+hplc_data_analysis-2.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hplc_data_analysis-2.0.0.dist-info/top_level.txt,sha256=kO3JwpbNheKPLZQh7Og8zUeCcqmMOrLw5VdMX7egRIA,19
+hplc_data_analysis-2.0.0.dist-info/RECORD,,
