@@ -1,0 +1,15 @@
+swirl/__init__.py,sha256=wGbZVKkogKYb95Fys0JI5oEqgZw3O_j409Mejhu8Zhg,2529
+swirl/cluster.py,sha256=hHMmzt3s4ZjYhaLTqldTQvRTDO4dYXrYHuyK1bTxDBU,16558
+swirl/evcmap.py,sha256=NpxtvE6IG1KIsdFD6sK6n7MIGwkLI6r0JlniIe1w-cw,6000
+swirl/main.py,sha256=jYjGPuvo1VpMgGihEi2wiSAn1W8YtALXXi87f1ON8Po,26324
+swirl/plots.py,sha256=i7iOhzTwYDYiJvfeoCflzWSoXY6zv8SCoQt3pRt49ro,10653
+swirl/rortex.py,sha256=3mNEwsH5tFqcKYno5owKd9MJmaXaz-6chmmDtKHeoFQ,1767
+swirl/swirlingstrength.py,sha256=l8ACNR_nISl_ZZfrcsEOKzXQJlfSPzFJ7KbcAplC-JA,3352
+swirl/utils.py,sha256=UIwbAp9_gbzxfDLwKSoy2IyP4lClNNtz25DSAYvN_nI,7285
+swirl/vortex.py,sha256=cecx3cOXBijjytq26IPCXHcFTEqvB9TtIjJR4a7FTWc,17279
+swirl/vorticity.py,sha256=4eYZNnF_NL7XmTOdSVKgO_pMJEe73lCu00d-d_nPiNc,1408
+swirl_code-1.0.2.dist-info/LICENSE.txt,sha256=CgijV1Zl5UQ5Dnpub47GCEJOVjl-LQlSGiDGrrqjp8o,1086
+swirl_code-1.0.2.dist-info/METADATA,sha256=GOSK2RpPKKNyBixaJyhOKrwaRP61ynEzk8QN99sEDPE,11280
+swirl_code-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+swirl_code-1.0.2.dist-info/top_level.txt,sha256=INpBLR408vUXzrdVZs9LQvveRLxBmG3T1rBCJkl0qc8,6
+swirl_code-1.0.2.dist-info/RECORD,,
