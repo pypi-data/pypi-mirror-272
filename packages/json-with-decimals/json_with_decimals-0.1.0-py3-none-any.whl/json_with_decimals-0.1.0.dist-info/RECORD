@@ -1,0 +1,10 @@
+json_with_decimals/__init__.py,sha256=_rF2cORD5dsnI_IXcn3MXV4VXEDk5pNbFgYciFQvJOc,14379
+json_with_decimals/decoder.py,sha256=eOXbWzaFn0aw8umXc8wK_2QnLNQgH0WcMQH0oUgBSms,13243
+json_with_decimals/encoder.py,sha256=CTUpYGhlaslRodBSAW_cUPGNvU3LQ7aDHKVkGMuWuPw,17645
+json_with_decimals/scanner.py,sha256=mEFWb7FzFevdQKHKnLIU8CzecXGxh9TcghyAEg6oU8M,2498
+json_with_decimals/tool.py,sha256=4qwFkzBCA4tAIKCpL5IBY7DpeFxxg2ynBRd4DA7bXGE,3459
+json_with_decimals-0.1.0.dist-info/LICENSE,sha256=dxIfBOFEU4wNGg64lt2EFREy6BnXlvR8xPkU5_RMpB4,14086
+json_with_decimals-0.1.0.dist-info/METADATA,sha256=Y8dnlSUzja6gMZEgeVXs5MdRYfGo762itBRf75TwcTM,1237
+json_with_decimals-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+json_with_decimals-0.1.0.dist-info/top_level.txt,sha256=HmORFoymEXoD6kgxiBONaEBOQhYmKYZlbr8Is0fwP48,19
+json_with_decimals-0.1.0.dist-info/RECORD,,
