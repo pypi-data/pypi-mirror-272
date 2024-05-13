@@ -1,0 +1,2 @@
+[console_scripts]
+logplus = logplus.cli:main
