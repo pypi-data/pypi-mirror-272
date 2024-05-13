@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bitbracez/__init__.py
+bitbracez/main.py
+bitbracez.egg-info/PKG-INFO
+bitbracez.egg-info/SOURCES.txt
+bitbracez.egg-info/dependency_links.txt
+bitbracez.egg-info/requires.txt
+bitbracez.egg-info/top_level.txt
