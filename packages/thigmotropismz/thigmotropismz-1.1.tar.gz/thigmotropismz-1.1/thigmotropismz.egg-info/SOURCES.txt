@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thigmotropismz/__init__.py
+thigmotropismz/main.py
+thigmotropismz.egg-info/PKG-INFO
+thigmotropismz.egg-info/SOURCES.txt
+thigmotropismz.egg-info/dependency_links.txt
+thigmotropismz.egg-info/requires.txt
+thigmotropismz.egg-info/top_level.txt
