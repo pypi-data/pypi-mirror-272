@@ -1,0 +1,8 @@
+README.md
+setup.py
+numbers_product-sharanya/__init__.py
+numbers_product-sharanya/component.py
+numbers_product_sharanya.egg-info/PKG-INFO
+numbers_product_sharanya.egg-info/SOURCES.txt
+numbers_product_sharanya.egg-info/dependency_links.txt
+numbers_product_sharanya.egg-info/top_level.txt
