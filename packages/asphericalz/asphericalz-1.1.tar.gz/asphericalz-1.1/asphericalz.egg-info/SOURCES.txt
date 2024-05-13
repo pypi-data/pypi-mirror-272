@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+asphericalz/__init__.py
+asphericalz/main.py
+asphericalz.egg-info/PKG-INFO
+asphericalz.egg-info/SOURCES.txt
+asphericalz.egg-info/dependency_links.txt
+asphericalz.egg-info/requires.txt
+asphericalz.egg-info/top_level.txt
