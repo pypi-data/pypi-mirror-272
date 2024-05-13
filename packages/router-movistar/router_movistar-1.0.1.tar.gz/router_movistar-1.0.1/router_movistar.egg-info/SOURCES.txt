@@ -1,0 +1,12 @@
+README.md
+setup.py
+router_movistar/__init__.py
+router_movistar/client.py
+router_movistar/endpoints.py
+router_movistar/extractor.py
+router_movistar/model.py
+router_movistar.egg-info/PKG-INFO
+router_movistar.egg-info/SOURCES.txt
+router_movistar.egg-info/dependency_links.txt
+router_movistar.egg-info/requires.txt
+router_movistar.egg-info/top_level.txt
