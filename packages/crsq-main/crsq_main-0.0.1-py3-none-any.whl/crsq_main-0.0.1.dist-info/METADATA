@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: crsq-main
+Version: 0.0.1
+Summary: CRSQ - Chemical Reaction Simulator Q main package
+Project-URL: Homepage, https://github.com/crsq-dev/crsq-main
+Project-URL: Issues, https://github.com/crsq-dev/crsq-main/issues
+Author: Hideo Takahashi
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: crsq-arithmetic>=0.0.1
+Requires-Dist: crsq-heap>=0.0.1
+Requires-Dist: qiskit>=1.0
+Description-Content-Type: text/markdown
+
+# CRSQ: Chemistry Reaction Simulator Q
+
