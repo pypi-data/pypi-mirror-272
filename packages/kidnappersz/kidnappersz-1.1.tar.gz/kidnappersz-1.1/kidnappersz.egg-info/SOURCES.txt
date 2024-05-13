@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kidnappersz/__init__.py
+kidnappersz/main.py
+kidnappersz.egg-info/PKG-INFO
+kidnappersz.egg-info/SOURCES.txt
+kidnappersz.egg-info/dependency_links.txt
+kidnappersz.egg-info/requires.txt
+kidnappersz.egg-info/top_level.txt
