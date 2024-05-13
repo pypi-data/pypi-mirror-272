@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+isohydrosorbicz/__init__.py
+isohydrosorbicz/main.py
+isohydrosorbicz.egg-info/PKG-INFO
+isohydrosorbicz.egg-info/SOURCES.txt
+isohydrosorbicz.egg-info/dependency_links.txt
+isohydrosorbicz.egg-info/requires.txt
+isohydrosorbicz.egg-info/top_level.txt
