@@ -1,0 +1,1 @@
+from cdiscount_api_client.client import CdiscountClient
