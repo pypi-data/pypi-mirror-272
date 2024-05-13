@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyllmserver
+Version: 0.0.1
+Summary: An amazing LLM API Server.
+Author-email: Shihong Yan <yansh97@foxmail.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/yansh97/llm-server
+Provides-Extra: dev
+
+# llm-server
+
