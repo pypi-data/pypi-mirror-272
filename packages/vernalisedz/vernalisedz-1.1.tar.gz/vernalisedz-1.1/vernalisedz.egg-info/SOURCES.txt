@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vernalisedz/__init__.py
+vernalisedz/main.py
+vernalisedz.egg-info/PKG-INFO
+vernalisedz.egg-info/SOURCES.txt
+vernalisedz.egg-info/dependency_links.txt
+vernalisedz.egg-info/requires.txt
+vernalisedz.egg-info/top_level.txt
