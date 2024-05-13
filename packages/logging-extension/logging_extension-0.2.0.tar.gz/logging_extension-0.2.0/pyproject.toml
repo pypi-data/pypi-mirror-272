@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools >= 63.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version", "dependencies"]
+name = "logging-extension"
+authors = [
+    {name="Nikita Bulavinov", email="jktujgxtu@gmail.com"}
+]
+description = "Extensions for the original logging module"
+keywords = ['logging', 'formatter', 'handler', 'filter', 'JSON', 'thread']
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+version = {attr = 'logging_extension.__version__'}
+
+[project.urls]
+"Homepage"= "https://github.com/jktujg/logging-extension"
+"Bug Tracker" = "https://github.com/jktujg/logging-extension/issues"
