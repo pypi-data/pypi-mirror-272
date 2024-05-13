@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+joeysz/__init__.py
+joeysz/main.py
+joeysz.egg-info/PKG-INFO
+joeysz.egg-info/SOURCES.txt
+joeysz.egg-info/dependency_links.txt
+joeysz.egg-info/requires.txt
+joeysz.egg-info/top_level.txt
