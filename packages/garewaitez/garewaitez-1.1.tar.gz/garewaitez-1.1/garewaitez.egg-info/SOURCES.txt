@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+garewaitez/__init__.py
+garewaitez/main.py
+garewaitez.egg-info/PKG-INFO
+garewaitez.egg-info/SOURCES.txt
+garewaitez.egg-info/dependency_links.txt
+garewaitez.egg-info/requires.txt
+garewaitez.egg-info/top_level.txt
