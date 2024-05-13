@@ -1,0 +1,2 @@
+[console_scripts]
+Elasticsearch_to_BigQuery_Connector = Elasticsearch_to_BigQuery_Connector:Elasticsearch_to_BigQuery_Connector
