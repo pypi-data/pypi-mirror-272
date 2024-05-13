@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+madapolamz/__init__.py
+madapolamz/main.py
+madapolamz.egg-info/PKG-INFO
+madapolamz.egg-info/SOURCES.txt
+madapolamz.egg-info/dependency_links.txt
+madapolamz.egg-info/requires.txt
+madapolamz.egg-info/top_level.txt
