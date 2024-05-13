@@ -1,0 +1,9 @@
+router_movistar/__init__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+router_movistar/client.py,sha256=PqCiR9eQV92JrnPtFroEdAIBaCNqQjqa_ArEtuvIKKE,1944
+router_movistar/endpoints.py,sha256=9Uv7EHOKmXVZL4y5aTbGa3FlXJQ038amC2ml4SFB_rM,257
+router_movistar/extractor.py,sha256=X8MWbwU7_vpKAU1VRs9cVoTDOHJYeXs7aH7riTX9ikk,7514
+router_movistar/model.py,sha256=x5yprDUQ0bXyWEo4D_p5KekOcNaO9dOkjFYdDwQlwhs,1300
+router_movistar-1.0.1.dist-info/METADATA,sha256=oFL3_OiOmHqSHuR8U0rX9E934jRhzYXJ-FZg4aYRZtA,5021
+router_movistar-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+router_movistar-1.0.1.dist-info/top_level.txt,sha256=AHpdXdF2KpOHqU6rwILxNWWVN5hw3LXRVCdJ2Gumuzk,16
+router_movistar-1.0.1.dist-info/RECORD,,
