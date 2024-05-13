@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+paraphylliaz/__init__.py
+paraphylliaz/main.py
+paraphylliaz.egg-info/PKG-INFO
+paraphylliaz.egg-info/SOURCES.txt
+paraphylliaz.egg-info/dependency_links.txt
+paraphylliaz.egg-info/requires.txt
+paraphylliaz.egg-info/top_level.txt
