@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+verbalityz/__init__.py
+verbalityz/main.py
+verbalityz.egg-info/PKG-INFO
+verbalityz.egg-info/SOURCES.txt
+verbalityz.egg-info/dependency_links.txt
+verbalityz.egg-info/requires.txt
+verbalityz.egg-info/top_level.txt
