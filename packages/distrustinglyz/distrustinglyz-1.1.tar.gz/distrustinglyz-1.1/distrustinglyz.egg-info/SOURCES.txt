@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+distrustinglyz/__init__.py
+distrustinglyz/main.py
+distrustinglyz.egg-info/PKG-INFO
+distrustinglyz.egg-info/SOURCES.txt
+distrustinglyz.egg-info/dependency_links.txt
+distrustinglyz.egg-info/requires.txt
+distrustinglyz.egg-info/top_level.txt
