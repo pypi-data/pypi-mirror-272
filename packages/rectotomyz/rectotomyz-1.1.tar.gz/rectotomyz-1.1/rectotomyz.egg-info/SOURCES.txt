@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rectotomyz/__init__.py
+rectotomyz/main.py
+rectotomyz.egg-info/PKG-INFO
+rectotomyz.egg-info/SOURCES.txt
+rectotomyz.egg-info/dependency_links.txt
+rectotomyz.egg-info/requires.txt
+rectotomyz.egg-info/top_level.txt
