@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pinyinlize/__init__.py
+pinyinlize/pinyinlize.py
+pinyinlize.egg-info/PKG-INFO
+pinyinlize.egg-info/SOURCES.txt
+pinyinlize.egg-info/dependency_links.txt
+pinyinlize.egg-info/entry_points.txt
+pinyinlize.egg-info/requires.txt
+pinyinlize.egg-info/top_level.txt
