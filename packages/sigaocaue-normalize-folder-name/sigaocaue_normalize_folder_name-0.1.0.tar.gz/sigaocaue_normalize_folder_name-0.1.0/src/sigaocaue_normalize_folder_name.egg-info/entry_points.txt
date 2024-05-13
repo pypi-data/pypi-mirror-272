@@ -1,0 +1,2 @@
+[console_scripts]
+normalize_folder_name = normalize_folder_name.normalize_folder_name_cli:cli

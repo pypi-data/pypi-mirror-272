@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/normalize_folder_name/__init__.py
+src/normalize_folder_name/normalized_folder_name_cli.py
+src/sigaocaue_normalize_folder_name.egg-info/PKG-INFO
+src/sigaocaue_normalize_folder_name.egg-info/SOURCES.txt
+src/sigaocaue_normalize_folder_name.egg-info/dependency_links.txt
+src/sigaocaue_normalize_folder_name.egg-info/entry_points.txt
+src/sigaocaue_normalize_folder_name.egg-info/requires.txt
+src/sigaocaue_normalize_folder_name.egg-info/top_level.txt
