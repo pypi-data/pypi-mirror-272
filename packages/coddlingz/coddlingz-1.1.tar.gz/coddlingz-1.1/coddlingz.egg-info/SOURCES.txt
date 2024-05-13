@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+coddlingz/__init__.py
+coddlingz/main.py
+coddlingz.egg-info/PKG-INFO
+coddlingz.egg-info/SOURCES.txt
+coddlingz.egg-info/dependency_links.txt
+coddlingz.egg-info/requires.txt
+coddlingz.egg-info/top_level.txt
