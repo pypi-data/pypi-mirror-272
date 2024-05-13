@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+retailingz/__init__.py
+retailingz/main.py
+retailingz.egg-info/PKG-INFO
+retailingz.egg-info/SOURCES.txt
+retailingz.egg-info/dependency_links.txt
+retailingz.egg-info/requires.txt
+retailingz.egg-info/top_level.txt
