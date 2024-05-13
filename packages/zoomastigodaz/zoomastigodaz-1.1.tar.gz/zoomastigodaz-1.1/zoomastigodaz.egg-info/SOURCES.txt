@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+zoomastigodaz/__init__.py
+zoomastigodaz/main.py
+zoomastigodaz.egg-info/PKG-INFO
+zoomastigodaz.egg-info/SOURCES.txt
+zoomastigodaz.egg-info/dependency_links.txt
+zoomastigodaz.egg-info/requires.txt
+zoomastigodaz.egg-info/top_level.txt
