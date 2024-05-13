@@ -1,0 +1,9 @@
+requests
+click
+beautifulsoup4
+rich
+platformdirs
+tzdata
+
+[influx]
+influxdb-client
