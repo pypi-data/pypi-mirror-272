@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+automorphicz/__init__.py
+automorphicz/main.py
+automorphicz.egg-info/PKG-INFO
+automorphicz.egg-info/SOURCES.txt
+automorphicz.egg-info/dependency_links.txt
+automorphicz.egg-info/requires.txt
+automorphicz.egg-info/top_level.txt
