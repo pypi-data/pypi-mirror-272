@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+proplasticz/__init__.py
+proplasticz/main.py
+proplasticz.egg-info/PKG-INFO
+proplasticz.egg-info/SOURCES.txt
+proplasticz.egg-info/dependency_links.txt
+proplasticz.egg-info/requires.txt
+proplasticz.egg-info/top_level.txt
