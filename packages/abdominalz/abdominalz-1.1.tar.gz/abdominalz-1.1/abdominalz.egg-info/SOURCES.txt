@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+abdominalz/__init__.py
+abdominalz/main.py
+abdominalz.egg-info/PKG-INFO
+abdominalz.egg-info/SOURCES.txt
+abdominalz.egg-info/dependency_links.txt
+abdominalz.egg-info/requires.txt
+abdominalz.egg-info/top_level.txt
