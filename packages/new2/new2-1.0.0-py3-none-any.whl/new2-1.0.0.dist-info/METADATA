@@ -1,0 +1,193 @@
+Metadata-Version: 2.1
+Name: new2
+Version: 1.0.0
+Summary: Optimizing the payment process of e-commerce
+Author: Nane Mambreyan, Areg Amirjanyan, Gayane Ohanjanyan, Hasmik Sahakyan
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8.2, <3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types ==0.6.0
+Requires-Dist: anyio ==4.3.0
+Requires-Dist: async-lru ==2.0.4
+Requires-Dist: attrs ==23.1.0
+Requires-Dist: Babel ==2.13.1
+Requires-Dist: backcall ==0.2.0
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: cycler ==0.12.1
+Requires-Dist: Cython ==3.0.9
+Requires-Dist: debugpy ==1.8.0
+Requires-Dist: decorator ==5.1.1
+Requires-Dist: defusedxml ==0.7.1
+Requires-Dist: dnspython ==2.6.1
+Requires-Dist: ecdsa ==0.19.0
+Requires-Dist: email-validator ==2.1.1
+Requires-Dist: et-xmlfile ==1.1.0
+Requires-Dist: exceptiongroup ==1.1.3
+Requires-Dist: executing ==2.0.1
+Requires-Dist: Faker ==25.1.0
+Requires-Dist: fastapi ==0.111.0
+Requires-Dist: fastapi-cli ==0.0.3
+Requires-Dist: fastjsonschema ==2.18.1
+Requires-Dist: fonttools ==4.44.0
+Requires-Dist: fqdn ==1.5.1
+Requires-Dist: ghp-import ==2.1.0
+Requires-Dist: greenlet ==3.0.3
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.5
+Requires-Dist: httptools ==0.6.1
+Requires-Dist: httpx ==0.27.0
+Requires-Dist: idna ==3.4
+Requires-Dist: importlib-resources ==6.1.0
+Requires-Dist: ipython-genutils ==0.2.0
+Requires-Dist: itsdangerous ==2.1.2
+Requires-Dist: Jinja2 ==3.1.4
+Requires-Dist: joblib ==1.3.2
+Requires-Dist: json5 ==0.9.14
+Requires-Dist: jsonpointer ==2.4
+Requires-Dist: jupyterlab-pygments ==0.2.2
+Requires-Dist: jupyterlab-widgets ==3.0.9
+Requires-Dist: kiwisolver ==1.4.5
+Requires-Dist: lxml ==4.9.3
+Requires-Dist: Markdown ==3.6
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: MarkupSafe ==2.1.3
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: mergedeep ==1.3.4
+Requires-Dist: mistune ==3.0.2
+Requires-Dist: mkdocs ==1.6.0
+Requires-Dist: mkdocs-autorefs ==1.0.1
+Requires-Dist: mkdocs-get-deps ==0.2.0
+Requires-Dist: mkdocstrings ==0.25.1
+Requires-Dist: nest-asyncio ==1.5.8
+Requires-Dist: numpy ==1.24.4
+Requires-Dist: orjson ==3.10.0
+Requires-Dist: overrides ==7.4.0
+Requires-Dist: packaging ==23.2
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: pandocfilters ==1.5.0
+Requires-Dist: parso ==0.8.3
+Requires-Dist: pathspec ==0.12.1
+Requires-Dist: pickleshare ==0.7.5
+Requires-Dist: Pillow ==10.1.0
+Requires-Dist: pkgutil-resolve-name ==1.3.10
+Requires-Dist: platformdirs ==3.11.0
+Requires-Dist: prometheus-client ==0.18.0
+Requires-Dist: prompt-toolkit ==3.0.39
+Requires-Dist: psutil ==5.9.6
+Requires-Dist: pure-eval ==0.2.2
+Requires-Dist: pyasn1 ==0.6.0
+Requires-Dist: pycparser ==2.21
+Requires-Dist: pydantic ==2.7.1
+Requires-Dist: pydantic-extra-types ==2.7.0
+Requires-Dist: pydantic-settings ==2.2.1
+Requires-Dist: pydantic-core ==2.18.2
+Requires-Dist: Pygments ==2.16.1
+Requires-Dist: pymdown-extensions ==10.8.1
+Requires-Dist: pyparsing ==3.1.1
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: python-jose ==3.3.0
+Requires-Dist: python-json-logger ==2.0.7
+Requires-Dist: python-multipart ==0.0.9
+Requires-Dist: pytz ==2023.3.post1
+Requires-Dist: pywin32 ==306
+Requires-Dist: pywinpty ==2.0.13
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: pyyaml-env-tag ==0.1
+Requires-Dist: pyzmq ==25.1.1
+Requires-Dist: QtPy ==2.4.1
+Requires-Dist: referencing ==0.30.2
+Requires-Dist: regex ==2023.10.3
+Requires-Dist: requests ==2.31.0
+Requires-Dist: rfc3339-validator ==0.1.4
+Requires-Dist: rfc3986-validator ==0.1.1
+Requires-Dist: rich ==13.7.1
+Requires-Dist: rpds-py ==0.10.6
+Requires-Dist: rsa ==4.9
+Requires-Dist: scipy ==1.10.1
+Requires-Dist: Send2Trash ==1.8.2
+Requires-Dist: shellingham ==1.5.4
+Requires-Dist: six ==1.16.0
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: soupsieve ==2.5
+Requires-Dist: SQLAlchemy ==2.0.29
+Requires-Dist: starlette ==0.37.2
+Requires-Dist: tenacity ==8.2.3
+Requires-Dist: terminado ==0.17.1
+Requires-Dist: threadpoolctl ==3.2.0
+Requires-Dist: tinycss2 ==1.2.1
+Requires-Dist: tomli ==2.0.1
+Requires-Dist: tornado ==6.3.3
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: traitlets ==5.13.0
+Requires-Dist: typer ==0.12.3
+Requires-Dist: types-python-dateutil ==2.8.19.14
+Requires-Dist: typing-extensions ==4.8.0
+Requires-Dist: tzdata ==2023.3
+Requires-Dist: ujson ==5.9.0
+Requires-Dist: uri-template ==1.3.0
+Requires-Dist: urllib3 ==2.0.7
+Requires-Dist: uvicorn ==0.29.0
+Requires-Dist: watchdog ==4.0.0
+Requires-Dist: watchfiles ==0.21.0
+Requires-Dist: wcwidth ==0.2.9
+Requires-Dist: webcolors ==1.13
+Requires-Dist: webencodings ==0.5.1
+Requires-Dist: websocket-client ==1.6.4
+Requires-Dist: websockets ==12.0
+Requires-Dist: widgetsnbextension ==4.0.9
+Requires-Dist: zipp ==3.17.0
+
+# Ecommerce Payment Optimizer
+
+Payment Optimizer is a Python package designed to optimize the payment process of e-commerce websites doing A/B testing.
+
+
+
+
+# Payment Optimizer
+
+Payment Optimizer is a Python package designed to optimize the payment process of e-commerce websites.
+
+## Installation
+
+You can install Payment Optimizer using pip:
+
+```bash
+pip install payment-optimizer
+```
+
+## Usage
+To use Payment Optimizer, import the necessary modules and functions in your Python code:
+
+```python
+from payment_optimizer import optimize_payment
+
+# Use the optimize_payment function
+result = optimize_payment(order)
+```
+
+## Needed Inputs
+The data should have the following form:
+![Alt Text](ERD.png)
+
+
+## Features
+- **Payment Optimization:** Streamline the payment process to improve efficiency.
+- **Data Analysis:** Analyze transaction data to identify patterns and optimize payment methods.
+- **A/B Testing:** Conduct A/B tests to compare the performance of different payment methods.
+
+## Documentation
+For detailed documentation and usage examples, refer to the official [documentation]().
+
+
+## License
+Payment Optimizer is distributed under the MIT License.
+
+
+[PyPi package:](https://pypi.org/project/payment-optimizer/)
