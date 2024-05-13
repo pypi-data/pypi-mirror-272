@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: TSPbyMetaheuristics
+Version: 1.1
+Summary: TSPbyMetaheuristics is a Python library for solving Travelling salesman problem using metaheuristic algorithms like: hill climbing, simulated Annealing and ant colony.
+Author: Mohamed Youssef
+Author-email: m.youssef315@yahoo.com
