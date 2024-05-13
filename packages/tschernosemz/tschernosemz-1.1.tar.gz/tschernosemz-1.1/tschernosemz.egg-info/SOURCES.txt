@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tschernosemz/__init__.py
+tschernosemz/main.py
+tschernosemz.egg-info/PKG-INFO
+tschernosemz.egg-info/SOURCES.txt
+tschernosemz.egg-info/dependency_links.txt
+tschernosemz.egg-info/requires.txt
+tschernosemz.egg-info/top_level.txt
