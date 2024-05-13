@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sinupalliatez/__init__.py
+sinupalliatez/main.py
+sinupalliatez.egg-info/PKG-INFO
+sinupalliatez.egg-info/SOURCES.txt
+sinupalliatez.egg-info/dependency_links.txt
+sinupalliatez.egg-info/requires.txt
+sinupalliatez.egg-info/top_level.txt
