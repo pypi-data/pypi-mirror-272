@@ -1,0 +1,32 @@
+{
+	"variable":{
+		"template":{
+			"before":"{",
+			"after":"}",
+			"termMap":"rml:template"
+
+		},
+		"reference":{
+			"before":"\"",
+			"after":"\"",
+			"termMap":"rml:reference"
+		},
+		"constant":{
+			"before":"\"",
+			"after":"\"",
+			"termMap":"rml:constant"
+		},
+		"join_condition":{
+			"before":"",
+			"after":""
+		}
+	},
+	"tab":{
+		"size":4
+	},
+	"iterator":{
+		"before":"    rml:iterator \"",
+		"after":"\";\n"
+	},
+	"extension":"rml.ttl"
+}
