@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+shepherdyz/__init__.py
+shepherdyz/main.py
+shepherdyz.egg-info/PKG-INFO
+shepherdyz.egg-info/SOURCES.txt
+shepherdyz.egg-info/dependency_links.txt
+shepherdyz.egg-info/requires.txt
+shepherdyz.egg-info/top_level.txt
