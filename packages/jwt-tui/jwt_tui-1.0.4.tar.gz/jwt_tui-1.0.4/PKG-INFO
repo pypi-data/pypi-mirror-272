@@ -1,0 +1,37 @@
+Metadata-Version: 2.3
+Name: jwt-tui
+Version: 1.0.4
+Summary: A TUI application for quickly decoding JWT to see the headers and payload.
+Author-email: vikbytes <55359319+vikbytes@users.noreply.github.com>
+License-Expression: MIT
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: pyjwt==2.8.0
+Requires-Dist: pyperclip==1.8.2
+Requires-Dist: textual==0.48.1
+Description-Content-Type: text/markdown
+
+# jwt-tui
+
+jwt-tui is a simple TUI application for quickly decoding the headers and payload of a JWT.
+
+## Install via pip
+
+```sh
+pip install jwt-tui
+```
+
+## Run
+
+```sh
+jwt_tui
+```
+
+## Usage
+
+You can provide the token when launching by adding it as an argument:
+
+```sh
+jwt_tui TOKEN_STRING
+```
