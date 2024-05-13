@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sanitizesz/__init__.py
+sanitizesz/main.py
+sanitizesz.egg-info/PKG-INFO
+sanitizesz.egg-info/SOURCES.txt
+sanitizesz.egg-info/dependency_links.txt
+sanitizesz.egg-info/requires.txt
+sanitizesz.egg-info/top_level.txt
