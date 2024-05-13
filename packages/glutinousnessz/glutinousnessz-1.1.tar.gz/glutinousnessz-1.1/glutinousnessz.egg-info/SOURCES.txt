@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+glutinousnessz/__init__.py
+glutinousnessz/main.py
+glutinousnessz.egg-info/PKG-INFO
+glutinousnessz.egg-info/SOURCES.txt
+glutinousnessz.egg-info/dependency_links.txt
+glutinousnessz.egg-info/requires.txt
+glutinousnessz.egg-info/top_level.txt
