@@ -1,0 +1,3 @@
+[pytest11]
+api_action=drf_api_action.plugin
+
