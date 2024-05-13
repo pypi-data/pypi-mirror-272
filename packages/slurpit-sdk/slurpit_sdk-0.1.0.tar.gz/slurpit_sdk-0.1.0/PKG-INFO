@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: slurpit_sdk
+Version: 0.1.0
+Summary: A robust Python SDK for slurpit
+Author: PkServices
+Author-email: info@slurpit.io
+Keywords: sdk slurpit
