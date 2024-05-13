@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: echordpost
+Version: 0.1.2
+Summary: Library to run eCHORD post-treatment program
+License: CECILL
+Author: Langlois Cyril
+Author-email: cyril.langlois@insa-lyon.fr> L'Hôte Gabriel <gabriel.l-hote@insa-lyon.fr
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Dans-Diffraction (>=3.0.0,<4.0.0)
+Requires-Dist: PySide6 (>=6.7.0,<7.0.0)
+Requires-Dist: h5py (>=3.11.0,<4.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: orix (>=0.11.1,<0.12.0)
+Requires-Dist: pyqtgraph (>=0.13.7,<0.14.0)
+Requires-Dist: pyquaternion (>=0.9.9,<0.10.0)
+Requires-Dist: wxPython (>=4.2.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# eCHORDpost

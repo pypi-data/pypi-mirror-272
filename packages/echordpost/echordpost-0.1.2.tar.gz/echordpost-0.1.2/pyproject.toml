@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "echordpost"
+version = "0.1.2"
+description = "Library to run eCHORD post-treatment program"
+authors = ["Langlois Cyril <cyril.langlois@insa-lyon.fr> L'Hôte Gabriel <gabriel.l-hote@insa-lyon.fr>"]
+license = "CECILL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyquaternion = "^0.9.9"
+numpy = "^1.26.4"
+orix = "^0.11.1"
+PySide6 = "^6.7.0"
+Dans-Diffraction = "^3.0.0"
+pyqtgraph = "^0.13.7"
+h5py = "^3.11.0"
+wxPython = "^4.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
