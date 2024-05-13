@@ -1,0 +1,3 @@
+pygame==2.5.2
+pygame-chart==1.0.0
+numpy==1.26.3
