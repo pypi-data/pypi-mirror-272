@@ -1,0 +1,10 @@
+otio_kdenlive_adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otio_kdenlive_adapter/plugin_manifest.json,sha256=7g0Ag-2CWkglcv3Mq3KiSHzlL5wGhkzeKMQnEdT9VDo,296
+otio_kdenlive_adapter/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otio_kdenlive_adapter/adapters/kdenlive.py,sha256=n2PJtmd22xn8y7BZEXmMpr6f6sFfc5jP2nku1kvhTEw,34192
+otio_kdenlive_adapter-0.0.2.dist-info/LICENSE,sha256=0bolHTaiskaEDiwxLzeS7_PD0ImMouVNALkgEblLUzM,1056
+otio_kdenlive_adapter-0.0.2.dist-info/METADATA,sha256=hJONqNiKy4wh7KdSrbf4tN_VmJAU_v0qOmvVjIt4Me0,4283
+otio_kdenlive_adapter-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+otio_kdenlive_adapter-0.0.2.dist-info/entry_points.txt,sha256=NmeUNKQPHZqJ_G6R1I6bv57bUzTJRdzWi8pbjpXfZl4,71
+otio_kdenlive_adapter-0.0.2.dist-info/top_level.txt,sha256=z1b3LI-9ApyXhOPRyLi6Ql04VWFSXC0yXjObsFJJJjI,22
+otio_kdenlive_adapter-0.0.2.dist-info/RECORD,,
