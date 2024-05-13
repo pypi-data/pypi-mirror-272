@@ -1,0 +1,11 @@
+torch
+numpy
+torchvision
+neptune
+torchviz
+torchcam
+colorma
+neptune_pytorch
+torchview
+graphviz
+wandb
