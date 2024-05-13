@@ -1,0 +1,236 @@
+Metadata-Version: 2.1
+Name: PayOpt
+Version: 1.0.1
+Summary: Optimizing the payment process of e-commerce
+Author: Nane Mambreyan, Areg Amirjanyan, Gayane Ohanjanyan, Hasmik Sahakyan
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8.2, <3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types ==0.6.0
+Requires-Dist: anyio ==4.3.0
+Requires-Dist: async-lru ==2.0.4
+Requires-Dist: attrs ==23.1.0
+Requires-Dist: Babel ==2.13.1
+Requires-Dist: backcall ==0.2.0
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: cycler ==0.12.1
+Requires-Dist: Cython ==3.0.9
+Requires-Dist: debugpy ==1.8.0
+Requires-Dist: decorator ==5.1.1
+Requires-Dist: defusedxml ==0.7.1
+Requires-Dist: dnspython ==2.6.1
+Requires-Dist: ecdsa ==0.19.0
+Requires-Dist: email-validator ==2.1.1
+Requires-Dist: et-xmlfile ==1.1.0
+Requires-Dist: exceptiongroup ==1.1.3
+Requires-Dist: executing ==2.0.1
+Requires-Dist: Faker ==25.1.0
+Requires-Dist: fastapi ==0.111.0
+Requires-Dist: fastapi-cli ==0.0.3
+Requires-Dist: fastjsonschema ==2.18.1
+Requires-Dist: fonttools ==4.44.0
+Requires-Dist: fqdn ==1.5.1
+Requires-Dist: ghp-import ==2.1.0
+Requires-Dist: greenlet ==3.0.3
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.5
+Requires-Dist: httptools ==0.6.1
+Requires-Dist: httpx ==0.27.0
+Requires-Dist: idna ==3.4
+Requires-Dist: importlib-resources ==6.1.0
+Requires-Dist: ipython-genutils ==0.2.0
+Requires-Dist: itsdangerous ==2.1.2
+Requires-Dist: Jinja2 ==3.1.4
+Requires-Dist: joblib ==1.3.2
+Requires-Dist: json5 ==0.9.14
+Requires-Dist: jsonpointer ==2.4
+Requires-Dist: jupyterlab-pygments ==0.2.2
+Requires-Dist: jupyterlab-widgets ==3.0.9
+Requires-Dist: kiwisolver ==1.4.5
+Requires-Dist: lxml ==4.9.3
+Requires-Dist: Markdown ==3.6
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: MarkupSafe ==2.1.3
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: mergedeep ==1.3.4
+Requires-Dist: mistune ==3.0.2
+Requires-Dist: mkdocs ==1.6.0
+Requires-Dist: mkdocs-autorefs ==1.0.1
+Requires-Dist: mkdocs-get-deps ==0.2.0
+Requires-Dist: mkdocstrings ==0.25.1
+Requires-Dist: nest-asyncio ==1.5.8
+Requires-Dist: numpy ==1.24.4
+Requires-Dist: orjson ==3.10.0
+Requires-Dist: overrides ==7.4.0
+Requires-Dist: packaging ==23.2
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: pandocfilters ==1.5.0
+Requires-Dist: parso ==0.8.3
+Requires-Dist: pathspec ==0.12.1
+Requires-Dist: pickleshare ==0.7.5
+Requires-Dist: Pillow ==10.1.0
+Requires-Dist: pkgutil-resolve-name ==1.3.10
+Requires-Dist: platformdirs ==3.11.0
+Requires-Dist: prometheus-client ==0.18.0
+Requires-Dist: prompt-toolkit ==3.0.39
+Requires-Dist: psutil ==5.9.6
+Requires-Dist: pure-eval ==0.2.2
+Requires-Dist: pyasn1 ==0.6.0
+Requires-Dist: pycparser ==2.21
+Requires-Dist: pydantic ==2.7.1
+Requires-Dist: pydantic-extra-types ==2.7.0
+Requires-Dist: pydantic-settings ==2.2.1
+Requires-Dist: pydantic-core ==2.18.2
+Requires-Dist: Pygments ==2.16.1
+Requires-Dist: pymdown-extensions ==10.8.1
+Requires-Dist: pyparsing ==3.1.1
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: python-jose ==3.3.0
+Requires-Dist: python-json-logger ==2.0.7
+Requires-Dist: python-multipart ==0.0.9
+Requires-Dist: pytz ==2023.3.post1
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: pyyaml-env-tag ==0.1
+Requires-Dist: pyzmq ==25.1.1
+Requires-Dist: QtPy ==2.4.1
+Requires-Dist: referencing ==0.30.2
+Requires-Dist: regex ==2023.10.3
+Requires-Dist: requests ==2.31.0
+Requires-Dist: rfc3339-validator ==0.1.4
+Requires-Dist: rfc3986-validator ==0.1.1
+Requires-Dist: rich ==13.7.1
+Requires-Dist: rpds-py ==0.10.6
+Requires-Dist: rsa ==4.9
+Requires-Dist: scipy ==1.10.1
+Requires-Dist: Send2Trash ==1.8.2
+Requires-Dist: shellingham ==1.5.4
+Requires-Dist: six ==1.16.0
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: soupsieve ==2.5
+Requires-Dist: SQLAlchemy ==2.0.29
+Requires-Dist: starlette ==0.37.2
+Requires-Dist: tenacity ==8.2.3
+Requires-Dist: terminado ==0.17.1
+Requires-Dist: threadpoolctl ==3.2.0
+Requires-Dist: tinycss2 ==1.2.1
+Requires-Dist: tomli ==2.0.1
+Requires-Dist: tornado ==6.3.3
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: traitlets ==5.13.0
+Requires-Dist: typer ==0.12.3
+Requires-Dist: types-python-dateutil ==2.8.19.14
+Requires-Dist: typing-extensions ==4.8.0
+Requires-Dist: tzdata ==2023.3
+Requires-Dist: ujson ==5.9.0
+Requires-Dist: uri-template ==1.3.0
+Requires-Dist: urllib3 ==2.0.7
+Requires-Dist: uvicorn ==0.29.0
+Requires-Dist: watchdog ==4.0.0
+Requires-Dist: watchfiles ==0.21.0
+Requires-Dist: wcwidth ==0.2.9
+Requires-Dist: webcolors ==1.13
+Requires-Dist: webencodings ==0.5.1
+Requires-Dist: websocket-client ==1.6.4
+Requires-Dist: websockets ==12.0
+Requires-Dist: widgetsnbextension ==4.0.9
+Requires-Dist: zipp ==3.17.0
+Requires-Dist: bcrypt ==4.1.3
+Requires-Dist: mkdocs-material ==9.5.20
+Requires-Dist: mkdocs-material-extensions ==1.3.1
+Requires-Dist: mkdocstrings[crystal,python]
+
+# Ecommerce Payment Optimizer
+
+The Payment Optimizer package provides tools for analyzing and optimizing payment methods in e-commerce to maximize revenue generation. It includes A/B testing capabilities using t-tests to compare different payment options' effectiveness.
+
+## Features
+
+- A/B testing (t-test) functionality to evaluate the performance of different payment methods.
+- Analysis tools to understand which payment options are more beneficial for e-commerce revenue.
+- Integration with Power BI for visualization of test results through a dashboard.
+- API for managing user registration, updating user information, adding transactions, and more.
+
+## Subpackages
+
+The payment_optimizer package consists of three essential subpackages:
+
+- **db:** This subpackage facilitates various database operations, including generating fake data, writing data to CSV files, creating schemas, and generating the e_commerce.db file. Additionally, it provides functionalities for populating tables with generated data. The sql_interactions.py module serves as a bridge between SQL and Python, enabling seamless interactions between the two.
+- **models:** In this subpackage, the necessary data is prepared, model metrics are created, and A/B testing is conducted for three payment options: only pre-payment is available, both pre and post-payment are available, and only post-payment is available. The results of the model are stored in a dictionary for further use.
+- **api:** The API serves as the backend for the PayOpt application, providing endpoints for user authentication, product search, and additional functionalities for users with granted access and special permissions. It includes features such as user login, product search based on various criteria (product name, brand, price), and routers for handling endpoints specific to granted users and authentication requirements.
+
+## Required Inputs
+
+To utilize the package effectively, ensure that the schema adheres to the following format:
+![Alt Text](Documents/ERD.png)
+
+## Installation
+
+You can install Payment Optimizer using pip:
+
+```bash
+pip install payment_optimizer
+```
+
+## Usage
+
+Below is a basic example demonstrating how to utilize certain functions from the package:
+
+```python
+from payment_optimizer.models import ABTesting
+
+ab_test = ABTesting(data_connect)
+ab_test.preprocess_data()
+model_result = ab_test.perform_ab_test(start_date, end_date)
+```
+
+## API Calls
+
+### Default Endpoints
+
+- **Root Endpoint:** [http://localhost:8000/](http://localhost:8000/)
+- **Swagger UI:** [http://localhost:8000/docs](http://localhost:8000/docs)
+- **ReDoc:** [http://localhost:8000/redoc](http://localhost:8000/redoc)
+- **Power BI Report:** [http://localhost:8000/](https://app.powerbi.com/reportEmbed?reportId=1733eb14-e25c-482e-8d8a-6f7172727743&autoAuth=true&ctid=4c0b7b5b-f6ee-4e4e-b961-0512d8fcb5f2)
+- **Product Search:** [http://localhost:8000/search](http://localhost:8000/docs#/Default/search_products_product_search_get)
+
+### Denied View Endpoints
+
+- **GET User Transactions:** [http://localhost:8000/mytransactions](http://localhost:8000/docs#/Authentication%20Required/get_user_transactions_mytransactions_get)
+- **PUT Update Transaction:** [http://localhost:8000/mytransactions/update](http://localhost:8000/docs#/Authentication%20Required/update_transaction_mytransactions_update_put)
+- **POST Create Transaction:** [http://localhost:8000/transactions/new](http://localhost:8000/docs#/Authentication%20Required/create_transaction_transactions_new_post)
+
+### Granted View Endpoints
+
+- **GET Users:** [http://localhost:8000/users](http://localhost:8000/docs#/Granted%20User%20Access%20Required/select_n_rows_users_get)
+- **POST Create User:** [http://localhost:8000/user/create](http://localhost:8000/docs#/Granted%20User%20Access%20Required/create_entry_user_create_post)
+- **PUT Update User:** [http://localhost:8000/user/update](http://localhost:8000/docs#/Granted%20User%20Access%20Required/update_table_user_update_put)
+- **GET Ratings:** [http://localhost:8000/ratings](http://localhost:8000/docs#/Granted%20User%20Access%20Required/select_n_rows_ratings_get)
+- **POST Create Rating:** [http://localhost:8000/rating/create](http://localhost:8000/docs#/Granted%20User%20Access%20Required/create_entry_rating_create_post)
+- **PUT Update Rating:** [http://localhost:8000/rating/update](http://localhost:8000/docs#/Granted%20User%20Access%20Required/update_table_rating_update_put)
+- **GET Payment Methods:** [http://localhost:8000/payment_methods](http://localhost:8000/docs#/Granted%20User%20Access%20Required/select_n_rows_payment_methods_get)
+- **POST Create Payment Method:** [http://localhost:8000/payment_method/create](http://localhost:8000/docs#/Granted%20User%20Access%20Required/create_entry_payment_method_create_post)
+- **PUT Update Payment Method:** [http://localhost:8000/payment_method/update](http://localhost:8000/docs#/Granted%20User%20Access%20Required/update_table_payment_method_update_put)
+- **GET Transactions:** [http://localhost:8000/transactions](http://localhost:8000/docs#/Granted%20User%20Access%20Required/select_n_rows_transactionss_get)
+- **POST Create Transaction:** [http://localhost:8000/transaction/create](http://localhost:8000/docs#/Granted%20User%20Access%20Required/create_entry_transactions_create_post)
+- **PUT Update Transaction:** [http://localhost:8000/transaction/update](http://localhost:8000/docs#/Granted%20User%20Access%20Required/update_table_transactions_update_put)
+- **GET Products:** [http://localhost:8000/products](http://localhost:8000/docs#/Granted%20User%20Access%20Required/select_n_rows_products_get)
+- **POST Create Product:** [http://localhost:8000/product/create](http://localhost:8000/docs#/Granted%20User%20Access%20Required/create_entry_product_create_post)
+- **PUT Update Product:** [http://localhost:8000/product/update](http://localhost:8000/docs#/Granted%20User%20Access%20Required/update_table_product_update_put)
+- **GET Transaction Products:** [http://localhost:8000/transaction_products](http://localhost:8000/docs#/Granted%20User%20Access%20Required/select_n_rows_transaction_products_get)
+- **POST Create Transaction Product:** [http://localhost:8000/transaction_product/create](http://localhost:8000/docs#/Granted%20User%20Access%20Required/create_entry_transaction_product_create_post)
+- **PUT Update Transaction Product:** [http://localhost:8000/transaction_product/update](http://localhost:8000/docs#/Granted%20User%20Access%20Required/update_table_transaction_product_update_put)
+
+## Documentation
+
+For detailed documentation and usage examples, refer to the official [documentation](https://aregamirjanyan.github.io/MarketingProject/).
+Link to our Project in PyPi: [PyPi package:](https://pypi.org/project/new2/1.0.0/)
+
+## License
+
+Payment Optimizer is distributed under the MIT License.
