@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+owleriesz/__init__.py
+owleriesz/main.py
+owleriesz.egg-info/PKG-INFO
+owleriesz.egg-info/SOURCES.txt
+owleriesz.egg-info/dependency_links.txt
+owleriesz.egg-info/requires.txt
+owleriesz.egg-info/top_level.txt
