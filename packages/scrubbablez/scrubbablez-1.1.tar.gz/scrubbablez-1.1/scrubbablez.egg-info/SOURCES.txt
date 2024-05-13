@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scrubbablez/__init__.py
+scrubbablez/main.py
+scrubbablez.egg-info/PKG-INFO
+scrubbablez.egg-info/SOURCES.txt
+scrubbablez.egg-info/dependency_links.txt
+scrubbablez.egg-info/requires.txt
+scrubbablez.egg-info/top_level.txt
