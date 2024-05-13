@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ouvrierez/__init__.py
+ouvrierez/main.py
+ouvrierez.egg-info/PKG-INFO
+ouvrierez.egg-info/SOURCES.txt
+ouvrierez.egg-info/dependency_links.txt
+ouvrierez.egg-info/requires.txt
+ouvrierez.egg-info/top_level.txt
