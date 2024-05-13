@@ -1,0 +1,14 @@
+pytumblrx/__init__.py,sha256=WawZdjhlb2IwPzM1MJV0VCCu4t3eUIEl5XJEG5By2_E,301
+pytumblrx/_about.py,sha256=1x0HXeOqzQS11_B1A-VHZkbDVCR8RLNwrxaeSzODkTs,333
+pytumblrx/_client_mixin.py,sha256=uLyplbUc6cEDH0PmjWMmT93wX23FKxerRJ_DdJAn9B8,1631
+pytumblrx/_defaults.py,sha256=QkkC181Yu2xMhMaB83Y2D8DIJIw9R0KkcrgtIN9fMC0,995
+pytumblrx/async_client.py,sha256=IbVIbhIfI0vzXDz3qcJeZPZl-3nD38KO7dYr2HCJBTc,12366
+pytumblrx/endpoints.py,sha256=dzqUDIMfaamHIaZSryfUsPw0LYAP1taB2q-BWVr0e6o,2966
+pytumblrx/enums.py,sha256=gRJK8jWS2CpIouxBnPctFHbh8xoyWrgltp7jfskk3YA,915
+pytumblrx/exceptions.py,sha256=EmKlMO3KSjloG70t64Z_7YL63ZMVSPn4c8Xv3RqjH40,760
+pytumblrx/request.py,sha256=P4x5b5OLVFurJNu6jfz-sNvCiIntn7ogSEp7u5PE24M,8387
+pytumblrx/sync_client.py,sha256=b57Iu2jiSHROF27Peatn0djf_1ANaz9knvi3kD1-cow,11592
+pytumblrx-0.0.4.dist-info/LICENSE,sha256=aTPNXZm2UaLPURHipkx1gKOIh9k1Zi5Yp_bSJbrT0Vs,1085
+pytumblrx-0.0.4.dist-info/METADATA,sha256=zy2bFXt6cxXBUohIKBixi8no3hiOCjoHn6HpC7xSPgM,859
+pytumblrx-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pytumblrx-0.0.4.dist-info/RECORD,,
