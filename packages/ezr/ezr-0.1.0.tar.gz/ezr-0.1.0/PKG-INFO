@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ezr
+Version: 0.1.0
+Summary: Semi-supervised explanations for incremental multi-objective optimization
+Home-page: https://github.com/timm/ezr
+Author: Tim Menzies
+Author-email: timm@ieee.org
+License: BSD2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+License-File: LICENSE

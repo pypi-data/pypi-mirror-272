@@ -1,0 +1,9 @@
+LICENSE
+README.md
+ezr.py
+setup.py
+ezr.egg-info/PKG-INFO
+ezr.egg-info/SOURCES.txt
+ezr.egg-info/dependency_links.txt
+ezr.egg-info/entry_points.txt
+ezr.egg-info/top_level.txt
