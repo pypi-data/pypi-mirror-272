@@ -1,0 +1,63 @@
+# Configuration file for wolkenbruch
+#
+# Uncomment and change options from their default values below
+# This list might be incomplete after upgrades (existing configuration files
+# are not overwritten), run `wolkenbruch --help` for a complete list of
+# command line arguments. Strip leading dashes from command line arguments to
+# use them as configuration options.
+
+
+
+# For which location should a weather forecast be retrieved? This is a free-text
+# geographical location: wolkenbruch uses the OpenStreetMap (OSM) Nominatim to convert
+# this name into coordinates. You can test your search query on the official OSM
+# online map - the first record returned (the record with the highest
+# probability) is equivalent with what wolkenbruch will use
+
+#place: Helsinki
+
+
+
+# Define the thresholds for sending out a notification e-mail. If either the
+# average or the maximum precipitation rate (mm/h) is exceeded, an e-mail will
+# be sent
+
+#average_precipitation_rate_threshold: 0.1
+#max_precipitation_rate_threshold: 0.5
+
+
+
+# Set the receiver address for notification messages:
+
+#email-to: myself@whereever.com
+
+
+
+# Set the e-mail address to send notification messages from:
+
+#email-from: me@whereever.com
+
+
+
+# Set the e-mail subject and message body. Placeholders in the Python number
+# formatting mini-language for the variables `a` and `m` will be replaced with
+# the values of forecast average precipitation rate and maximum precipitation
+# rate in the configured period of time, respectively, in millimeters per hour.
+
+#email-subject: Pack your rain gear!
+#email-message: The average forecast precipitation rate for today is {a:0.2f}, maximum {m:0.2f} mm/h.
+
+
+
+# Set the host (host:port) and the user and password to use to send the
+# notification e-mail from
+
+#smtp-host: localhost:587
+#smtp-user: foobar
+#smtp-password: BARFOO
+
+
+
+# Show more detailed output
+
+#verbose: False
