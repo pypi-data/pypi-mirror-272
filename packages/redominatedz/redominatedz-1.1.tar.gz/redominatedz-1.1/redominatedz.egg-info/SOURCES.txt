@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+redominatedz/__init__.py
+redominatedz/main.py
+redominatedz.egg-info/PKG-INFO
+redominatedz.egg-info/SOURCES.txt
+redominatedz.egg-info/dependency_links.txt
+redominatedz.egg-info/requires.txt
+redominatedz.egg-info/top_level.txt
