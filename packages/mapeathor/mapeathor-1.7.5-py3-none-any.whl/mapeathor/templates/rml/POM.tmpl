@@ -1,0 +1,7 @@
+rml:predicateObjectMap [
+	rml:predicateMap	[ {{pom.PredTermMap}} {{pom.Predicate}}];
+	rml:objectMap	[ {{pom.ObjTermMap}} {{pom.Object}};
+		rml:termType rml:{{pom.TermType}}{% if not pom.TermType=="IRI" and not pom.TermType=="BlankNode"%};
+		rml:datatype xsd:{{pom.DataType}}{% endif %}{% if pom.Language not in ['nan','NaN','NAN',''] %};
+		rml:language "{{pom.Language}}"{% endif %} ]
+];
