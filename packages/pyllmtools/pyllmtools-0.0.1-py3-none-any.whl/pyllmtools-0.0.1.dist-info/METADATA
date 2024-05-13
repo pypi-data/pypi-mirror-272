@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pyllmtools
+Version: 0.0.1
+Summary: An amazing LLM toolkit.
+Author-email: Shihong Yan <yansh97@foxmail.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: python-dotenv
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: sseclient-py
+Requires-Dist: tenacity
+Requires-Dist: pyjwt
+Requires-Dist: sqlalchemy
+Requires-Dist: chromadb-client
+Requires-Dist: fastapi
+Requires-Dist: langfuse
+Requires-Dist: isort ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: pytest-xdist ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Project-URL: Home, https://github.com/yansh97/llm-tools
+Provides-Extra: dev
+
+# llm-tools
+
