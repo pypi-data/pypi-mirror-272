@@ -1,0 +1,103 @@
+// adapted from: https://github.com/maweigert/gputools/blob/master/gputools/transforms/kernels/transformations.cl
+//
+// Copyright (c) 2016, Martin Weigert
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions are met:
+//
+// * Redistributions of source code must retain the above copyright notice, this
+//   list of conditions and the following disclaimer.
+//
+// * Redistributions in binary form must reproduce the above copyright notice,
+//   this list of conditions and the following disclaimer in the documentation
+//   and/or other materials provided with the distribution.
+//
+// * Neither the name of gputools nor the names of its
+//   contributors may be used to endorse or promote products derived from
+//   this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+// AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+// IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+// DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+// FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+// DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+// SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+// CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+// OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+// OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+// Adapted from net.haesleinhuepf.clij.kernels.affine_interpolate.cl
+// by: @phaub
+// July 2019
+
+
+#ifndef SAMPLER_FILTER
+#define SAMPLER_FILTER CLK_FILTER_NEAREST
+#endif
+
+#ifndef SAMPLER_ADDRESS
+#define SAMPLER_ADDRESS CLK_ADDRESS_CLAMP
+#endif
+
+__kernel void affine_transform_2d(
+    IMAGE_input_TYPE input,
+    IMAGE_output_TYPE output,
+    IMAGE_mat_TYPE mat)
+{
+
+  const sampler_t sampler = CLK_NORMALIZED_COORDS_TRUE|
+      SAMPLER_ADDRESS |	SAMPLER_FILTER;
+
+  uint i = get_global_id(0);
+  uint j = get_global_id(1);
+
+  uint Nx = GET_IMAGE_WIDTH(input);
+  uint Ny = GET_IMAGE_HEIGHT(input);
+
+  float x = i+0.5f;
+  float y = j+0.5f;
+
+  float y2 = (mat[3]*y+mat[4]*x+mat[5]);
+  float x2 = (mat[0]*y+mat[1]*x+mat[2]);
+
+  int2 coord_norm = (int2)(x2,y2);
+
+  float2 frac_coord = (float2)(x2-floor(x2),y2-floor(y2));
+  // float2 frac_coord = (float2)(x2/Nx,y2/Ny);
+
+  float pix = 0.0;
+
+  if (x2 >= 0 && y2 >= 0 &&
+  x2 < GET_IMAGE_WIDTH(input) && y2 < GET_IMAGE_HEIGHT(input)) {
+    
+    // Get the corrdinates and color of the four surrounding pixels
+    float2 top_left_coord = (float2)(coord_norm.x,coord_norm.y);
+    float2 top_right_coord = (float2)((coord_norm.x+1),(coord_norm.y));
+    float2 bottom_left_coord = (float2)((coord_norm.x),(coord_norm.y+1));
+    float2 bottom_right_coord = (float2)((coord_norm.x+1),(coord_norm.y+1));
+    
+    // Compute the four input pixel weights for bilinear interpolation
+    // float2 w00 = (float2)(top_right_coord.x - x2, bottom_left_coord.y - y2);
+    // float2 w10 = (float2)(x2 - top_left_coord.x, bottom_right_coord.y - y2);
+    // float2 w01 = (float2)(top_right_coord.x - x2, y2 - top_left_coord.y);
+    // float2 w11 = (float2)(x2 - top_left_coord.x, y2 - top_left_coord.y);
+
+    float top_left_color = (float) (READ_input_IMAGE(input, sampler, POS_input_INSTANCE(top_left_coord.x, top_left_coord.y, 0, 0)).x);
+    float top_right_color = (float) (READ_input_IMAGE(input, sampler, POS_input_INSTANCE(top_right_coord.x, top_right_coord.y, 0, 0)).x);
+    float bottom_left_color = (float) (READ_input_IMAGE(input, sampler, POS_input_INSTANCE(bottom_left_coord.x, bottom_left_coord.y, 0, 0)).x);
+    float bottom_right_color = (float) (READ_input_IMAGE(input, sampler, POS_input_INSTANCE(bottom_right_coord.x, bottom_right_coord.y, 0, 0)).x);
+
+    pix = (float) mix(mix(top_left_color, top_right_color, frac_coord.x), mix(bottom_left_color, bottom_right_color, frac_coord.x), frac_coord.y);
+    // pix = (float) w00.x*w00.y*top_left_color + w10.x*w10.y*top_right_color + w01.x*w01.y*bottom_left_color + w11.x*w11.y*bottom_right_color;
+    // pix = frac_coord.x * frac_coord.y * top_right_color +
+    //       (1-frac_coord.x) * frac_coord.y * top_left_color +
+    //       frac_coord.x * (1-frac_coord.y) * bottom_right_color +
+    //       (1-frac_coord.x) * (1-frac_coord.y) * bottom_left_color;
+    // pix = (float)(READ_input_IMAGE(input, sampler, POS_input_INSTANCE(x2, y2, 0, 0)).x);
+  }
+
+  WRITE_output_IMAGE(output, POS_output_INSTANCE(i, j, 0, 0), CONVERT_output_PIXEL_TYPE(pix));
+  
+}
