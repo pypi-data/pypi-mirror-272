@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+proboscideanz/__init__.py
+proboscideanz/main.py
+proboscideanz.egg-info/PKG-INFO
+proboscideanz.egg-info/SOURCES.txt
+proboscideanz.egg-info/dependency_links.txt
+proboscideanz.egg-info/requires.txt
+proboscideanz.egg-info/top_level.txt
