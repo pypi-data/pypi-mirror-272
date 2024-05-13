@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+highdaddyz/__init__.py
+highdaddyz/main.py
+highdaddyz.egg-info/PKG-INFO
+highdaddyz.egg-info/SOURCES.txt
+highdaddyz.egg-info/dependency_links.txt
+highdaddyz.egg-info/requires.txt
+highdaddyz.egg-info/top_level.txt
