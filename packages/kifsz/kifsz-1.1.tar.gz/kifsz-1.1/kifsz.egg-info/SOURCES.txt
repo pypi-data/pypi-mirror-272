@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kifsz/__init__.py
+kifsz/main.py
+kifsz.egg-info/PKG-INFO
+kifsz.egg-info/SOURCES.txt
+kifsz.egg-info/dependency_links.txt
+kifsz.egg-info/requires.txt
+kifsz.egg-info/top_level.txt
