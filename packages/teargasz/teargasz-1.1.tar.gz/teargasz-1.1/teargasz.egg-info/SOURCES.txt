@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+teargasz/__init__.py
+teargasz/main.py
+teargasz.egg-info/PKG-INFO
+teargasz.egg-info/SOURCES.txt
+teargasz.egg-info/dependency_links.txt
+teargasz.egg-info/requires.txt
+teargasz.egg-info/top_level.txt
