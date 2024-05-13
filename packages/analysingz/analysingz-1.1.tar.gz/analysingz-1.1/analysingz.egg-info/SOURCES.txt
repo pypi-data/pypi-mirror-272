@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+analysingz/__init__.py
+analysingz/main.py
+analysingz.egg-info/PKG-INFO
+analysingz.egg-info/SOURCES.txt
+analysingz.egg-info/dependency_links.txt
+analysingz.egg-info/requires.txt
+analysingz.egg-info/top_level.txt
