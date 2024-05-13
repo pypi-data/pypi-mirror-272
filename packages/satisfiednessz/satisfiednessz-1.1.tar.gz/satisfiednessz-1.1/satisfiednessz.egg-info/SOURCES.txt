@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+satisfiednessz/__init__.py
+satisfiednessz/main.py
+satisfiednessz.egg-info/PKG-INFO
+satisfiednessz.egg-info/SOURCES.txt
+satisfiednessz.egg-info/dependency_links.txt
+satisfiednessz.egg-info/requires.txt
+satisfiednessz.egg-info/top_level.txt
