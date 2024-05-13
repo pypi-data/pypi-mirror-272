@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+quadrifoliolatez/__init__.py
+quadrifoliolatez/main.py
+quadrifoliolatez.egg-info/PKG-INFO
+quadrifoliolatez.egg-info/SOURCES.txt
+quadrifoliolatez.egg-info/dependency_links.txt
+quadrifoliolatez.egg-info/requires.txt
+quadrifoliolatez.egg-info/top_level.txt
