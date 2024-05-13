@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vaticanalz/__init__.py
+vaticanalz/main.py
+vaticanalz.egg-info/PKG-INFO
+vaticanalz.egg-info/SOURCES.txt
+vaticanalz.egg-info/dependency_links.txt
+vaticanalz.egg-info/requires.txt
+vaticanalz.egg-info/top_level.txt
