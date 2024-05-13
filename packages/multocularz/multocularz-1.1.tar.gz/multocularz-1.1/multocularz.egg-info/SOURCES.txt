@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+multocularz/__init__.py
+multocularz/main.py
+multocularz.egg-info/PKG-INFO
+multocularz.egg-info/SOURCES.txt
+multocularz.egg-info/dependency_links.txt
+multocularz.egg-info/requires.txt
+multocularz.egg-info/top_level.txt
