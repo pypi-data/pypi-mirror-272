@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+teutonsz/__init__.py
+teutonsz/main.py
+teutonsz.egg-info/PKG-INFO
+teutonsz.egg-info/SOURCES.txt
+teutonsz.egg-info/dependency_links.txt
+teutonsz.egg-info/requires.txt
+teutonsz.egg-info/top_level.txt
