@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tokenismz/__init__.py
+tokenismz/main.py
+tokenismz.egg-info/PKG-INFO
+tokenismz.egg-info/SOURCES.txt
+tokenismz.egg-info/dependency_links.txt
+tokenismz.egg-info/requires.txt
+tokenismz.egg-info/top_level.txt
