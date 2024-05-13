@@ -1,0 +1,10 @@
+README.md
+setup.py
+sequentialdw/__init__.py
+sequentialdw/seq_download.py
+sequentialdw.egg-info/PKG-INFO
+sequentialdw.egg-info/SOURCES.txt
+sequentialdw.egg-info/dependency_links.txt
+sequentialdw.egg-info/entry_points.txt
+sequentialdw.egg-info/requires.txt
+sequentialdw.egg-info/top_level.txt
