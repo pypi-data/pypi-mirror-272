@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mymaridz/__init__.py
+mymaridz/main.py
+mymaridz.egg-info/PKG-INFO
+mymaridz.egg-info/SOURCES.txt
+mymaridz.egg-info/dependency_links.txt
+mymaridz.egg-info/requires.txt
+mymaridz.egg-info/top_level.txt
