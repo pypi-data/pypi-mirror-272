@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pdeep
+Version: 0.0.1
+Summary: pDeep
+Author-email: Wen-Feng Zeng <jalew.zwf@qq.com>
+Maintainer-email: Wen-Feng Zeng <jalew.zwf@qq.com>
+Project-URL: Homepage, https://fennomix.com
+Project-URL: Documentation, https://readthedocs.org
+Project-URL: Repository, https://github.com/FennOmix/pdeep.git
+Project-URL: Bug Tracker, https://github.com/FennOmix/pdeep/issues
+Project-URL: Changelog, https://github.com/FennOmix/pdeep/blob/main/CHANGELOG.md
+Keywords: deep learning,protein language model,proteomics,multi-dimensional proteomics
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: alphabase
+Requires-Dist: peptdeep
+Provides-Extra: cli
+Requires-Dist: click ; extra == 'cli'
+Provides-Extra: gui
+Requires-Dist: streamlit ; extra == 'gui'
+
+# pDeep
+Deep learning for multi-dimensional proteomics
