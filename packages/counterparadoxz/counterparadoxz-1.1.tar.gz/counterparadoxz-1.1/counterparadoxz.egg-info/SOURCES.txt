@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+counterparadoxz/__init__.py
+counterparadoxz/main.py
+counterparadoxz.egg-info/PKG-INFO
+counterparadoxz.egg-info/SOURCES.txt
+counterparadoxz.egg-info/dependency_links.txt
+counterparadoxz.egg-info/requires.txt
+counterparadoxz.egg-info/top_level.txt
