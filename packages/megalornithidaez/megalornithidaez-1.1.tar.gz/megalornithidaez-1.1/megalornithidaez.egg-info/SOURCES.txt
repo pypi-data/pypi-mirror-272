@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+megalornithidaez/__init__.py
+megalornithidaez/main.py
+megalornithidaez.egg-info/PKG-INFO
+megalornithidaez.egg-info/SOURCES.txt
+megalornithidaez.egg-info/dependency_links.txt
+megalornithidaez.egg-info/requires.txt
+megalornithidaez.egg-info/top_level.txt
