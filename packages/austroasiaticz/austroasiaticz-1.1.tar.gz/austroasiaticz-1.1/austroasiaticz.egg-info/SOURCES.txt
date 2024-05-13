@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+austroasiaticz/__init__.py
+austroasiaticz/main.py
+austroasiaticz.egg-info/PKG-INFO
+austroasiaticz.egg-info/SOURCES.txt
+austroasiaticz.egg-info/dependency_links.txt
+austroasiaticz.egg-info/requires.txt
+austroasiaticz.egg-info/top_level.txt
