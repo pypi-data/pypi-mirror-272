@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mythiciserz/__init__.py
+mythiciserz/main.py
+mythiciserz.egg-info/PKG-INFO
+mythiciserz.egg-info/SOURCES.txt
+mythiciserz.egg-info/dependency_links.txt
+mythiciserz.egg-info/requires.txt
+mythiciserz.egg-info/top_level.txt
