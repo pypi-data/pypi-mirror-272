@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sequestraz/__init__.py
+sequestraz/main.py
+sequestraz.egg-info/PKG-INFO
+sequestraz.egg-info/SOURCES.txt
+sequestraz.egg-info/dependency_links.txt
+sequestraz.egg-info/requires.txt
+sequestraz.egg-info/top_level.txt
