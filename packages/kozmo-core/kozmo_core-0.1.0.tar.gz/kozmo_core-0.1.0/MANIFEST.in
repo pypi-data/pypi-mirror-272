@@ -1,0 +1,2 @@
+recursive-include kozmo_core/proto *.proto *.py
+include kozmo_core/openapi/kozmo.json
