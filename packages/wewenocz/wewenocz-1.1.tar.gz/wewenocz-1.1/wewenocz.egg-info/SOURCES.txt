@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wewenocz/__init__.py
+wewenocz/main.py
+wewenocz.egg-info/PKG-INFO
+wewenocz.egg-info/SOURCES.txt
+wewenocz.egg-info/dependency_links.txt
+wewenocz.egg-info/requires.txt
+wewenocz.egg-info/top_level.txt
