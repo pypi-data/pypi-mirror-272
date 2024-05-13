@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+coldishz/__init__.py
+coldishz/main.py
+coldishz.egg-info/PKG-INFO
+coldishz.egg-info/SOURCES.txt
+coldishz.egg-info/dependency_links.txt
+coldishz.egg-info/requires.txt
+coldishz.egg-info/top_level.txt
