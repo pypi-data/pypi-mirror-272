@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vincetoxicumz/__init__.py
+vincetoxicumz/main.py
+vincetoxicumz.egg-info/PKG-INFO
+vincetoxicumz.egg-info/SOURCES.txt
+vincetoxicumz.egg-info/dependency_links.txt
+vincetoxicumz.egg-info/requires.txt
+vincetoxicumz.egg-info/top_level.txt
