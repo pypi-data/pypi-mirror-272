@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dynamometricalz/__init__.py
+dynamometricalz/main.py
+dynamometricalz.egg-info/PKG-INFO
+dynamometricalz.egg-info/SOURCES.txt
+dynamometricalz.egg-info/dependency_links.txt
+dynamometricalz.egg-info/requires.txt
+dynamometricalz.egg-info/top_level.txt
