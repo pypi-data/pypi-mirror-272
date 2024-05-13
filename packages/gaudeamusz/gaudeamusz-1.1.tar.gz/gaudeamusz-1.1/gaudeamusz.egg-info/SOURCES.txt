@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gaudeamusz/__init__.py
+gaudeamusz/main.py
+gaudeamusz.egg-info/PKG-INFO
+gaudeamusz.egg-info/SOURCES.txt
+gaudeamusz.egg-info/dependency_links.txt
+gaudeamusz.egg-info/requires.txt
+gaudeamusz.egg-info/top_level.txt
