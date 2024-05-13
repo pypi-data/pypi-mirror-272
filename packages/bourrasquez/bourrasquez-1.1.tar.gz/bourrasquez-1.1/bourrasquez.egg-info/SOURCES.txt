@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bourrasquez/__init__.py
+bourrasquez/main.py
+bourrasquez.egg-info/PKG-INFO
+bourrasquez.egg-info/SOURCES.txt
+bourrasquez.egg-info/dependency_links.txt
+bourrasquez.egg-info/requires.txt
+bourrasquez.egg-info/top_level.txt
