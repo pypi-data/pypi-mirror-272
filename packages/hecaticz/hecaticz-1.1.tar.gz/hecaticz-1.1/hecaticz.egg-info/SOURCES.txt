@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hecaticz/__init__.py
+hecaticz/main.py
+hecaticz.egg-info/PKG-INFO
+hecaticz.egg-info/SOURCES.txt
+hecaticz.egg-info/dependency_links.txt
+hecaticz.egg-info/requires.txt
+hecaticz.egg-info/top_level.txt
