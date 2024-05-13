@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pharmacognosticallyz/__init__.py
+pharmacognosticallyz/main.py
+pharmacognosticallyz.egg-info/PKG-INFO
+pharmacognosticallyz.egg-info/SOURCES.txt
+pharmacognosticallyz.egg-info/dependency_links.txt
+pharmacognosticallyz.egg-info/requires.txt
+pharmacognosticallyz.egg-info/top_level.txt
