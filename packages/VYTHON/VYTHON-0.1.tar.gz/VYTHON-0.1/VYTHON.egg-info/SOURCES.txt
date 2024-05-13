@@ -1,0 +1,6 @@
+README.md
+setup.py
+VYTHON.egg-info/PKG-INFO
+VYTHON.egg-info/SOURCES.txt
+VYTHON.egg-info/dependency_links.txt
+VYTHON.egg-info/top_level.txt
