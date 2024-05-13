@@ -1,0 +1,2 @@
+recursive-include faq/migrations *
+recursive-include faq/templates *
