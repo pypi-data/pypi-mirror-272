@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+californianz/__init__.py
+californianz/main.py
+californianz.egg-info/PKG-INFO
+californianz.egg-info/SOURCES.txt
+californianz.egg-info/dependency_links.txt
+californianz.egg-info/requires.txt
+californianz.egg-info/top_level.txt
