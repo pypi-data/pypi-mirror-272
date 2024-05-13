@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+warplikez/__init__.py
+warplikez/main.py
+warplikez.egg-info/PKG-INFO
+warplikez.egg-info/SOURCES.txt
+warplikez.egg-info/dependency_links.txt
+warplikez.egg-info/requires.txt
+warplikez.egg-info/top_level.txt
