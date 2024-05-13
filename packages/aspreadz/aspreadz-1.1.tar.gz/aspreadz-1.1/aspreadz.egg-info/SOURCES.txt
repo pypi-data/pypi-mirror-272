@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aspreadz/__init__.py
+aspreadz/main.py
+aspreadz.egg-info/PKG-INFO
+aspreadz.egg-info/SOURCES.txt
+aspreadz.egg-info/dependency_links.txt
+aspreadz.egg-info/requires.txt
+aspreadz.egg-info/top_level.txt
