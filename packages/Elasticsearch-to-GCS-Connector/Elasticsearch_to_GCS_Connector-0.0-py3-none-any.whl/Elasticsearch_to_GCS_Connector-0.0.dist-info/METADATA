@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: Elasticsearch-to-GCS-Connector
+Version: 0.0
+Description-Content-Type: text/markdown
+Requires-Dist: elasticsearch
+Requires-Dist: google-cloud-storage
+Requires-Dist: pandas
+
+Python Library for connecting to connect to Elasticsearch, extract data, and upload it to Google Cloud Storage (GCS) in CSV format.
+
+This Python library facilitates the extraction of data from Elasticsearch and uploading it directly to Google Cloud Storage as a CSV file. It is designed to make data migration between Elasticsearch and Google Cloud Storage straightforward by managing the connections and data handling efficiently.
+
+
+
+**Features**
+
+1. Connect to an Elasticsearch instance and fetch data.
+2. Convert data to a pandas DataFrame and then to a CSV format.
+3. Upload the CSV file directly to a specified Google Cloud Storage bucket.
+
+
+**Installation**
+Install the package via pip:
+
+```Bash
+pip install Elasticsearch_to_GCS_Connector
+```
+
+**Dependencies**
+
+1. elasticsearch: To connect and interact with Elasticsearch.
+2. google-cloud-storage: To handle operations related to Google Cloud Storage.
+pandas: To manage data in DataFrame format.
+
+
+Make sure to have these installed using:
+
+```Bash
+pip install elasticsearch google-cloud-storage pandas
+```
+
+
+*Example Usage:*
+
+```Python
+
+from your_library import Elasticsearch_to_GCS_Connector
+
+Elasticsearch_to_GCS_Connector(
+    es_index_name='your_index',
+    es_host='localhost',
+    es_port=port,
+    es_scheme='http',
+    es_http_auth=('user', 'password'),
+    es_size=size,
+    gcs_file_name='data.csv',
+    gcs_bucket_name='your_bucket_name',
+    gcs_bucket_name_prefix='your_prefix'
+)
+
+```
+
+*Parameters:*
+1. es_index_name (str): The name of the Elasticsearch index to query.
+2. es_host (str): The hostname of the Elasticsearch server.
+3. es_port (int): The port number on which the Elasticsearch server is listening.
+4. es_scheme (str): The protocol scheme (e.g., 'http' or 'https').
+5. es_http_auth (tuple): A tuple containing the username and password for basic authentication.
+6. es_size (int, optional): The number of records to fetch in one query (default is 10000).
+7. gcs_file_name (str): The name of the file to be saved on GCS.
+8. gcs_bucket_name (str): The name of the GCS bucket where the file will be uploaded.
+9. gcs_bucket_name_prefix (str, optional): Prefix for the file name in the bucket, useful for organizing files in folders.
+
+
+**Additional Notes:**
+
+Ensure you have configured credentials for both Elasticsearch and Google Cloud:
+
+1. For Elasticsearch, provide the host, port, scheme, and authentication details.
+2. For Google Cloud Storage, ensure your environment is set up with the appropriate credentials (using Google Cloud SDK or setting the GOOGLE_APPLICATION_CREDENTIALS environment variable to your service account key file).
+
+ 
