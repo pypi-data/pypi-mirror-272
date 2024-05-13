@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+noncohesivelyz/__init__.py
+noncohesivelyz/main.py
+noncohesivelyz.egg-info/PKG-INFO
+noncohesivelyz.egg-info/SOURCES.txt
+noncohesivelyz.egg-info/dependency_links.txt
+noncohesivelyz.egg-info/requires.txt
+noncohesivelyz.egg-info/top_level.txt
