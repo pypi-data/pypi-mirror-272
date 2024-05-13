@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+decarnatez/__init__.py
+decarnatez/main.py
+decarnatez.egg-info/PKG-INFO
+decarnatez.egg-info/SOURCES.txt
+decarnatez.egg-info/dependency_links.txt
+decarnatez.egg-info/requires.txt
+decarnatez.egg-info/top_level.txt
