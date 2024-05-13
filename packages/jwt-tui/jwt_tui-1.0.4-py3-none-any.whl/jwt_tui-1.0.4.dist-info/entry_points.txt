@@ -1,0 +1,2 @@
+[console_scripts]
+jwt_tui = jwt_tui.entry_points:jwt_tui
