@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+exasperatesz/__init__.py
+exasperatesz/main.py
+exasperatesz.egg-info/PKG-INFO
+exasperatesz.egg-info/SOURCES.txt
+exasperatesz.egg-info/dependency_links.txt
+exasperatesz.egg-info/requires.txt
+exasperatesz.egg-info/top_level.txt
