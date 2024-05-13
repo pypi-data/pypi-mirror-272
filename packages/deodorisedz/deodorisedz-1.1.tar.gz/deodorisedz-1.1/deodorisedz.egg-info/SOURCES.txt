@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+deodorisedz/__init__.py
+deodorisedz/main.py
+deodorisedz.egg-info/PKG-INFO
+deodorisedz.egg-info/SOURCES.txt
+deodorisedz.egg-info/dependency_links.txt
+deodorisedz.egg-info/requires.txt
+deodorisedz.egg-info/top_level.txt
