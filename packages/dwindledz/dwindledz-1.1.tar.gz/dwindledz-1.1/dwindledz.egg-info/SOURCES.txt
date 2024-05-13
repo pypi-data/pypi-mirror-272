@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dwindledz/__init__.py
+dwindledz/main.py
+dwindledz.egg-info/PKG-INFO
+dwindledz.egg-info/SOURCES.txt
+dwindledz.egg-info/dependency_links.txt
+dwindledz.egg-info/requires.txt
+dwindledz.egg-info/top_level.txt
