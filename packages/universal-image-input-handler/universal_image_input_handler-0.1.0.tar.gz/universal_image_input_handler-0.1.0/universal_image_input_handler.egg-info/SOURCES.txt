@@ -1,0 +1,9 @@
+README.md
+setup.py
+ImageInputHandler/ImageInputHandler.py
+ImageInputHandler/__init__.py
+universal_image_input_handler.egg-info/PKG-INFO
+universal_image_input_handler.egg-info/SOURCES.txt
+universal_image_input_handler.egg-info/dependency_links.txt
+universal_image_input_handler.egg-info/requires.txt
+universal_image_input_handler.egg-info/top_level.txt
