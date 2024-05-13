@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tubercledz/__init__.py
+tubercledz/main.py
+tubercledz.egg-info/PKG-INFO
+tubercledz.egg-info/SOURCES.txt
+tubercledz.egg-info/dependency_links.txt
+tubercledz.egg-info/requires.txt
+tubercledz.egg-info/top_level.txt
