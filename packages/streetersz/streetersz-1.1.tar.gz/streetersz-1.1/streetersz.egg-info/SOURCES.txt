@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+streetersz/__init__.py
+streetersz/main.py
+streetersz.egg-info/PKG-INFO
+streetersz.egg-info/SOURCES.txt
+streetersz.egg-info/dependency_links.txt
+streetersz.egg-info/requires.txt
+streetersz.egg-info/top_level.txt
