@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+flintifiedz/__init__.py
+flintifiedz/main.py
+flintifiedz.egg-info/PKG-INFO
+flintifiedz.egg-info/SOURCES.txt
+flintifiedz.egg-info/dependency_links.txt
+flintifiedz.egg-info/requires.txt
+flintifiedz.egg-info/top_level.txt
