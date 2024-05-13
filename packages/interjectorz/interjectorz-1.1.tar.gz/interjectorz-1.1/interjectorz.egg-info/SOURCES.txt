@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+interjectorz/__init__.py
+interjectorz/main.py
+interjectorz.egg-info/PKG-INFO
+interjectorz.egg-info/SOURCES.txt
+interjectorz.egg-info/dependency_links.txt
+interjectorz.egg-info/requires.txt
+interjectorz.egg-info/top_level.txt
