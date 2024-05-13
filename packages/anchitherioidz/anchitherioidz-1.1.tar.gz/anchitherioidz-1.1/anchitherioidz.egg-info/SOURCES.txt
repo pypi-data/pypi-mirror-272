@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anchitherioidz/__init__.py
+anchitherioidz/main.py
+anchitherioidz.egg-info/PKG-INFO
+anchitherioidz.egg-info/SOURCES.txt
+anchitherioidz.egg-info/dependency_links.txt
+anchitherioidz.egg-info/requires.txt
+anchitherioidz.egg-info/top_level.txt
