@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+condolesz/__init__.py
+condolesz/main.py
+condolesz.egg-info/PKG-INFO
+condolesz.egg-info/SOURCES.txt
+condolesz.egg-info/dependency_links.txt
+condolesz.egg-info/requires.txt
+condolesz.egg-info/top_level.txt
