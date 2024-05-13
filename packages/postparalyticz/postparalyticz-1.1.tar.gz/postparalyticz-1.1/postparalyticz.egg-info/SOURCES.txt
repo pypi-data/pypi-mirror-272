@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+postparalyticz/__init__.py
+postparalyticz/main.py
+postparalyticz.egg-info/PKG-INFO
+postparalyticz.egg-info/SOURCES.txt
+postparalyticz.egg-info/dependency_links.txt
+postparalyticz.egg-info/requires.txt
+postparalyticz.egg-info/top_level.txt
