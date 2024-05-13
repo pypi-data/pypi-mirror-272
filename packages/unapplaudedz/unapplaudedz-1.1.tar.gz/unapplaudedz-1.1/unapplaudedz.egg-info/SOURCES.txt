@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unapplaudedz/__init__.py
+unapplaudedz/main.py
+unapplaudedz.egg-info/PKG-INFO
+unapplaudedz.egg-info/SOURCES.txt
+unapplaudedz.egg-info/dependency_links.txt
+unapplaudedz.egg-info/requires.txt
+unapplaudedz.egg-info/top_level.txt
