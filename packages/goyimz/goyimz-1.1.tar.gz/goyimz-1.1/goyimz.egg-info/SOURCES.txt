@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+goyimz/__init__.py
+goyimz/main.py
+goyimz.egg-info/PKG-INFO
+goyimz.egg-info/SOURCES.txt
+goyimz.egg-info/dependency_links.txt
+goyimz.egg-info/requires.txt
+goyimz.egg-info/top_level.txt
