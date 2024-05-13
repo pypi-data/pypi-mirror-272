@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+intercommunicationalz/__init__.py
+intercommunicationalz/main.py
+intercommunicationalz.egg-info/PKG-INFO
+intercommunicationalz.egg-info/SOURCES.txt
+intercommunicationalz.egg-info/dependency_links.txt
+intercommunicationalz.egg-info/requires.txt
+intercommunicationalz.egg-info/top_level.txt
