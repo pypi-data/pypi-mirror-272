@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sorosilz/__init__.py
+sorosilz/main.py
+sorosilz.egg-info/PKG-INFO
+sorosilz.egg-info/SOURCES.txt
+sorosilz.egg-info/dependency_links.txt
+sorosilz.egg-info/requires.txt
+sorosilz.egg-info/top_level.txt
