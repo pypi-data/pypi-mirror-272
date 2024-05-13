@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+outglarez/__init__.py
+outglarez/main.py
+outglarez.egg-info/PKG-INFO
+outglarez.egg-info/SOURCES.txt
+outglarez.egg-info/dependency_links.txt
+outglarez.egg-info/requires.txt
+outglarez.egg-info/top_level.txt
