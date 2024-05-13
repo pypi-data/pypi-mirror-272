@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pinyinlize
+Version: 0.1
+Summary: a package converts short Chinese-character strings(titles of books, articles or journals) to pinyin.
+Author-email: fguogufe2@gmail.com
+License: MIT
+Keywords: convert chinese text to pinyin
+License-File: LICENSE
+Requires-Dist: jieba
+Requires-Dist: pypinyin
+
