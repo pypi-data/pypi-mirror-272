@@ -1,0 +1,11 @@
+doot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doot/bot.py,sha256=scPAe9j27N5SofW4QHt0YsfSyoi10kdEppWeyUY_8Qs,8186
+doot/command_handler.py,sha256=euFeDZeJPHBgMR8EzAzGbyPJCitdIVVtapcIrut38pI,454
+doot/exception.py,sha256=Ys10w9WqxYIyzn6QPbkxoX_ykgMf_fTUDIH7UsRAWyQ,232
+doot/message.py,sha256=hiXeJ7TOTMvF2TGXj0fqbo3LTAxPi_lW6H1bMeG6UEI,4255
+doot/message_handler.py,sha256=KwDN7B0ig7GUXjeo6PJ-1RLehz4ilyiBHA_dSXC9zFw,444
+doot/response.py,sha256=iAFsgMb3nEJ_gRizDFG7xv-euzIbqRZYVpL6KfsnLX0,2527
+dooth-1.1.0.dist-info/METADATA,sha256=OOLHjKSrtnkCVOUG16TycqO6Ou6yfV3wiY2fYcDcgr0,74
+dooth-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dooth-1.1.0.dist-info/top_level.txt,sha256=259wJJXfvmJdcDJ_Bs4a1f9A0kyxtMNUn1hzSoaHU94,5
+dooth-1.1.0.dist-info/RECORD,,
