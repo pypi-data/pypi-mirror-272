@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: liangfei-FM
+Version: 0.1
+Summary: clinical trial information retriver
+Home-page: https://pypi.org/project/LIANGFEIPY302/
+Author: liangfei
+Author-email: 1264284076@qq.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas (>=1.0.5)
+
+UNKNOWN
+
