@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: missing-mga
+Version: 0.1
+Summary: A package for handling missing values in datasets.
+Home-page: https://github.com/Mgobeaalcoba/missing_mga.git
+Author: Mariano Gobea Alcoba
+Author-email: gobeamariano@gmail.com
+License: MIT
+License-File: LICENSE
