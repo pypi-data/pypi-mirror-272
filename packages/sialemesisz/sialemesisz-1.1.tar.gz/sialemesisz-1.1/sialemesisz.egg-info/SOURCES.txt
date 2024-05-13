@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sialemesisz/__init__.py
+sialemesisz/main.py
+sialemesisz.egg-info/PKG-INFO
+sialemesisz.egg-info/SOURCES.txt
+sialemesisz.egg-info/dependency_links.txt
+sialemesisz.egg-info/requires.txt
+sialemesisz.egg-info/top_level.txt
