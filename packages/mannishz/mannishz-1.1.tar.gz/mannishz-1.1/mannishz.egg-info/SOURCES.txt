@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mannishz/__init__.py
+mannishz/main.py
+mannishz.egg-info/PKG-INFO
+mannishz.egg-info/SOURCES.txt
+mannishz.egg-info/dependency_links.txt
+mannishz.egg-info/requires.txt
+mannishz.egg-info/top_level.txt
