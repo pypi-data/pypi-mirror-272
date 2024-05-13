@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lib_ml_remla24_team02"
+version = "1.0.0"
+description = "A package for pre-processing ML data for the REMLA course at the TU Delft."
+authors = ["REMLA 24 Team 02 <team02@remla24.com>"]
+readme = "README.md"
+include = ["lib_ml_remla24_team02/data/*.joblib"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scikit-learn = "^1.4.2"
+tensorflow = "^2.16.1"
+joblib = "^1.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
