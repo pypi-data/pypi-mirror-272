@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wontednessz/__init__.py
+wontednessz/main.py
+wontednessz.egg-info/PKG-INFO
+wontednessz.egg-info/SOURCES.txt
+wontednessz.egg-info/dependency_links.txt
+wontednessz.egg-info/requires.txt
+wontednessz.egg-info/top_level.txt
