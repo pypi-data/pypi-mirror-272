@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rootdir
+Version: 0.1.2.post2
+Summary: get python root directory easily
+Home-page: https://github.com/meansoup/rootdir
+Author: meansoup
+Author-email: alsrnr1210@gmail.com
+License: UNKNOWN
+Description: ## Find root directory simply
+        
+        You can find the root directory intuitively, quickly and simply.
+        
+        ### Step 1
+        
+        Install by `pip install rootdir`
+        
+        ### Step 2
+        
+        Add `__root__.py` to your root path.
+        
+        ### Step 3
+        
+        import 
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
