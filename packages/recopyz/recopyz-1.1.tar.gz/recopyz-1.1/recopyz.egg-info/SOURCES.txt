@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+recopyz/__init__.py
+recopyz/main.py
+recopyz.egg-info/PKG-INFO
+recopyz.egg-info/SOURCES.txt
+recopyz.egg-info/dependency_links.txt
+recopyz.egg-info/requires.txt
+recopyz.egg-info/top_level.txt
