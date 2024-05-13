@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+alembicz/__init__.py
+alembicz/main.py
+alembicz.egg-info/PKG-INFO
+alembicz.egg-info/SOURCES.txt
+alembicz.egg-info/dependency_links.txt
+alembicz.egg-info/requires.txt
+alembicz.egg-info/top_level.txt
