@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+antalkaliz/__init__.py
+antalkaliz/main.py
+antalkaliz.egg-info/PKG-INFO
+antalkaliz.egg-info/SOURCES.txt
+antalkaliz.egg-info/dependency_links.txt
+antalkaliz.egg-info/requires.txt
+antalkaliz.egg-info/top_level.txt
