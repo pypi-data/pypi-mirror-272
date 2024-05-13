@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rejoicementz/__init__.py
+rejoicementz/main.py
+rejoicementz.egg-info/PKG-INFO
+rejoicementz.egg-info/SOURCES.txt
+rejoicementz.egg-info/dependency_links.txt
+rejoicementz.egg-info/requires.txt
+rejoicementz.egg-info/top_level.txt
