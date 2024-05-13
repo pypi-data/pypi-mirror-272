@@ -1,0 +1,14 @@
+manylog/__init__.py,sha256=PEXSgCniHyUnGLv2OFrSeR3h_u2qC3R8X3jZqAF9Jj8,1522
+manylog/connection.py,sha256=bEcafmhbykW2EdqwvjsD2ybkYDJDO3yIKmU8PyJ8VNg,210
+manylog/listener.py,sha256=m2EMSuz0r-kkuEOG46BqmXyxSU-RU7t4AdN_Sv9dZu0,6057
+manylog/messages.py,sha256=O2X6obxm4wm0uIa71Ym__WDFyBTreYoqo0yJpIgCo1U,3329
+manylog/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manylog/worker/__init__.py,sha256=S9EctI-r7WT27VcX1nFlf0OQVJTgFHBfKYdhA_AlPsY,136
+manylog/worker/logging.py,sha256=fhQ-6CimWnZMbuv_YILL-blUXeuvr64ICWNg_94BK30,803
+manylog/worker/progress.py,sha256=Sk3Um6BDmZnAGnq2RQ4WdMwQs_Q_ITVTlW4yWw1A7fk,2587
+manylog/worker/setup.py,sha256=IGPKefxbNoHQXsDcmFYt4pC5W8iYNZnPJ7A_z_9nZRI,1077
+manylog-0.1.0a4.dist-info/LICENSE.md,sha256=2liSPKshREDcCSwMvPyU18o4zvV0ukznEJAxqZxa9cU,1082
+manylog-0.1.0a4.dist-info/METADATA,sha256=GQePjh3NBVJhwkkhBI6NecYHS2SDqWQS9BRkzRFafSA,4643
+manylog-0.1.0a4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+manylog-0.1.0a4.dist-info/top_level.txt,sha256=PYfX_yePZvpo7y0_xtmuvuWCd4KJw74Zm40C8N8WCkg,8
+manylog-0.1.0a4.dist-info/RECORD,,
