@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+congratulatingz/__init__.py
+congratulatingz/main.py
+congratulatingz.egg-info/PKG-INFO
+congratulatingz.egg-info/SOURCES.txt
+congratulatingz.egg-info/dependency_links.txt
+congratulatingz.egg-info/requires.txt
+congratulatingz.egg-info/top_level.txt
