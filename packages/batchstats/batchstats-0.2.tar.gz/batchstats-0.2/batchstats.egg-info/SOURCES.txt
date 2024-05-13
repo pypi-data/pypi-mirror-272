@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+batchstats/__init__.py
+batchstats/core.py
+batchstats.egg-info/PKG-INFO
+batchstats.egg-info/SOURCES.txt
+batchstats.egg-info/dependency_links.txt
+batchstats.egg-info/requires.txt
+batchstats.egg-info/top_level.txt
+tests/test_core.py
