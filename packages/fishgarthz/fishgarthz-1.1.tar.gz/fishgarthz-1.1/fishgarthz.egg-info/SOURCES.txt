@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fishgarthz/__init__.py
+fishgarthz/main.py
+fishgarthz.egg-info/PKG-INFO
+fishgarthz.egg-info/SOURCES.txt
+fishgarthz.egg-info/dependency_links.txt
+fishgarthz.egg-info/requires.txt
+fishgarthz.egg-info/top_level.txt
