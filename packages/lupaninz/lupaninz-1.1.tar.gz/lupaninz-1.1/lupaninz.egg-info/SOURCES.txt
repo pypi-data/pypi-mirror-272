@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lupaninz/__init__.py
+lupaninz/main.py
+lupaninz.egg-info/PKG-INFO
+lupaninz.egg-info/SOURCES.txt
+lupaninz.egg-info/dependency_links.txt
+lupaninz.egg-info/requires.txt
+lupaninz.egg-info/top_level.txt
