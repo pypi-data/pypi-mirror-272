@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sacramentarianismz/__init__.py
+sacramentarianismz/main.py
+sacramentarianismz.egg-info/PKG-INFO
+sacramentarianismz.egg-info/SOURCES.txt
+sacramentarianismz.egg-info/dependency_links.txt
+sacramentarianismz.egg-info/requires.txt
+sacramentarianismz.egg-info/top_level.txt
