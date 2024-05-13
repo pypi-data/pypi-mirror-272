@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rhizopogonz/__init__.py
+rhizopogonz/main.py
+rhizopogonz.egg-info/PKG-INFO
+rhizopogonz.egg-info/SOURCES.txt
+rhizopogonz.egg-info/dependency_links.txt
+rhizopogonz.egg-info/requires.txt
+rhizopogonz.egg-info/top_level.txt
