@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tahaz/__init__.py
+tahaz/main.py
+tahaz.egg-info/PKG-INFO
+tahaz.egg-info/SOURCES.txt
+tahaz.egg-info/dependency_links.txt
+tahaz.egg-info/requires.txt
+tahaz.egg-info/top_level.txt
