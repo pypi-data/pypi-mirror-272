@@ -1,0 +1,2 @@
+[console_scripts]
+tree-viewer = tree_viewer.main:main
