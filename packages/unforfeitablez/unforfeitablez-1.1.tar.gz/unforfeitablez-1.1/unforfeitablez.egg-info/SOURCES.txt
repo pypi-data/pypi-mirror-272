@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unforfeitablez/__init__.py
+unforfeitablez/main.py
+unforfeitablez.egg-info/PKG-INFO
+unforfeitablez.egg-info/SOURCES.txt
+unforfeitablez.egg-info/dependency_links.txt
+unforfeitablez.egg-info/requires.txt
+unforfeitablez.egg-info/top_level.txt
