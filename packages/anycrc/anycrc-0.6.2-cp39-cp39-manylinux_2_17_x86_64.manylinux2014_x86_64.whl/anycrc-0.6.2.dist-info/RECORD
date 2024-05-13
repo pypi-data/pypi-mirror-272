@@ -1,0 +1,11 @@
+anycrc/anycrc.pyx,sha256=8bpc3jgrkPrB2ItYXfAc2up11u9_3SLTeJccoC76vcw,5289
+anycrc/__init__.py,sha256=6WUxWuBxHrqqbAXrKSveKIr9ZMlihLyjTONUmYSHIBw,21
+anycrc/models.py,sha256=TmkS9QPTytdIp0kz6Uq-Xmfd4Z6awiCrvRZZE4xGkzI,17619
+anycrc/__main__.py,sha256=ay_Zj4WzMly0908-mnet9An0gae346PwzUg4QsaU6j4,258
+anycrc/anycrc.cpython-39-x86_64-linux-gnu.so,sha256=D_PF0ZiAm0dVfOZjTjfJ-noKphvGCbtRXlK96XM86Nw,552409
+anycrc.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+anycrc-0.6.2.dist-info/LICENSE,sha256=3K76btJE16RVEFRSVhIoA4CbgTLVe9KtwgwEOl4FHw4,1096
+anycrc-0.6.2.dist-info/METADATA,sha256=KKFbsYFQIAvd1aMFXSm4PvlnT8hSlsujSwswVUMwjGQ,2719
+anycrc-0.6.2.dist-info/RECORD,,
+anycrc-0.6.2.dist-info/top_level.txt,sha256=HbCFlOeYEx638RXhl-PI4tQtdbHhwyL9ObHhSuPNyaA,7
+anycrc-0.6.2.dist-info/WHEEL,sha256=rY0Y6THYM7EImsHfF-zs67o8pQciAsMw9_YuSvftjrQ,148
