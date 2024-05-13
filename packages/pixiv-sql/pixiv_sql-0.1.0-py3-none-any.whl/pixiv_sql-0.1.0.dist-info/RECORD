@@ -1,0 +1,12 @@
+pixiv_sql/__init__.py,sha256=me0Sj5p_EDaX0mQ1xFPi07oL2BpUHqEtIIDGLk8ylD8,2823
+pixiv_sql/__main__.py,sha256=UFatQoMoxV6gtL6g8Pb1BmV22ze22LpQqhV7aegmdPw,56
+pixiv_sql/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixiv_sql/lib/bookmark.py,sha256=1vyCi2Zi7tFXBmU_Jiv94oGezdZO08qHUoBQ15bO3-w,1512
+pixiv_sql/lib/logger.py,sha256=hYTlW1zdrJyt181ZranotdftpEyJ2XDvd2iCVcF9tfI,531
+pixiv_sql/lib/tags.py,sha256=aAZM6TSe66CrGDZyhHqGAJMdhzcTOU2t9K4Xk6jiDXA,1736
+pixiv_sql/lib/user.py,sha256=cTD1__ZZgw49nGl7cAbzTkFs6d4H44SwTh_xEGvNR2U,1014
+pixiv_sql-0.1.0.dist-info/METADATA,sha256=EcsNAoBtzNXoRCL29wgy7xNx8unS7lP2A1TThNJCQ1M,2770
+pixiv_sql-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pixiv_sql-0.1.0.dist-info/entry_points.txt,sha256=mxHUuxrg7IY0eTX8lgD6oRTfHBwMvnar53CfOa_3v9s,84
+pixiv_sql-0.1.0.dist-info/licenses/LICENSE,sha256=kxv3W2fjM2v7cZSnwRRoTHp5J8RH23-uijc_cSZfaWM,1067
+pixiv_sql-0.1.0.dist-info/RECORD,,
