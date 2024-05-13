@@ -1,0 +1,8 @@
+setup.py
+jixian/__init__.py
+jixian/main.py
+jixian.egg-info/PKG-INFO
+jixian.egg-info/SOURCES.txt
+jixian.egg-info/dependency_links.txt
+jixian.egg-info/not-zip-safe
+jixian.egg-info/top_level.txt
