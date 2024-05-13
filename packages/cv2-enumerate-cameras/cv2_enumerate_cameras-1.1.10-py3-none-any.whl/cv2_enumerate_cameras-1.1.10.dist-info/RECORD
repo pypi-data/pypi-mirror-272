@@ -1,0 +1,11 @@
+cv2_enumerate_cameras/__init__.py,sha256=rhVc_dM5BuOwHhSILLpIrkQ6oEOUtkdJPy1t2VTsqZ8,999
+cv2_enumerate_cameras/__main__.py,sha256=scUsmFyt7H1_yOZ7N6UH9Q5r623rCqpHLVE_8eVahks,497
+cv2_enumerate_cameras/camera_info.py,sha256=wLk4z8YYiGe3A7mvrid5SQxTFLGy2EdYPyADYXQgUqc,736
+cv2_enumerate_cameras/linux_backend.py,sha256=4B5t_hus9iw4O-J-gDfhIz10RclX1GCV0fA75Wd3XDg,1564
+cv2_enumerate_cameras/opencv_backend.py,sha256=9KkND_6wb3Y2UC1gm9K0o4P09m1TbLrT6XiNU3m0q5o,1141
+cv2_enumerate_cameras/windows_backend.py,sha256=1cP0H6CciA-qzFTRsZSIQkznqH3FeOY7yjgEOip0vTM,1045
+cv2_enumerate_cameras-1.1.10.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cv2_enumerate_cameras-1.1.10.dist-info/METADATA,sha256=J-d3EApXC_h_Znux8S9olwc5suat_O3KU4m-MuFPBSU,43883
+cv2_enumerate_cameras-1.1.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cv2_enumerate_cameras-1.1.10.dist-info/top_level.txt,sha256=3gDEUGjs87CCDDjiciZJtUUR2ulPccMdkjanWaL9hFU,22
+cv2_enumerate_cameras-1.1.10.dist-info/RECORD,,
