@@ -1,0 +1,8 @@
+*.asv
+*_LOCAL.py
+*__pycache__
+*.pyc
+*.idea
+/venv
+/dist
+/build
