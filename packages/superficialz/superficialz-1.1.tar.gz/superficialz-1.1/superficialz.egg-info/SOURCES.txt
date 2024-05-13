@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+superficialz/__init__.py
+superficialz/main.py
+superficialz.egg-info/PKG-INFO
+superficialz.egg-info/SOURCES.txt
+superficialz.egg-info/dependency_links.txt
+superficialz.egg-info/requires.txt
+superficialz.egg-info/top_level.txt
