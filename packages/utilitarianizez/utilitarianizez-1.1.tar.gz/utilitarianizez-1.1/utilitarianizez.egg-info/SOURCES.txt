@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+utilitarianizez/__init__.py
+utilitarianizez/main.py
+utilitarianizez.egg-info/PKG-INFO
+utilitarianizez.egg-info/SOURCES.txt
+utilitarianizez.egg-info/dependency_links.txt
+utilitarianizez.egg-info/requires.txt
+utilitarianizez.egg-info/top_level.txt
