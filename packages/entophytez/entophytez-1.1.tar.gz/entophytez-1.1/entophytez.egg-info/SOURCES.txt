@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+entophytez/__init__.py
+entophytez/main.py
+entophytez.egg-info/PKG-INFO
+entophytez.egg-info/SOURCES.txt
+entophytez.egg-info/dependency_links.txt
+entophytez.egg-info/requires.txt
+entophytez.egg-info/top_level.txt
