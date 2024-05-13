@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+episcopantz/__init__.py
+episcopantz/main.py
+episcopantz.egg-info/PKG-INFO
+episcopantz.egg-info/SOURCES.txt
+episcopantz.egg-info/dependency_links.txt
+episcopantz.egg-info/requires.txt
+episcopantz.egg-info/top_level.txt
