@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+outcriesz/__init__.py
+outcriesz/main.py
+outcriesz.egg-info/PKG-INFO
+outcriesz.egg-info/SOURCES.txt
+outcriesz.egg-info/dependency_links.txt
+outcriesz.egg-info/requires.txt
+outcriesz.egg-info/top_level.txt
