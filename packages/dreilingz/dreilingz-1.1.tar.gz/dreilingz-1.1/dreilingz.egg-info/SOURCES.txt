@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dreilingz/__init__.py
+dreilingz/main.py
+dreilingz.egg-info/PKG-INFO
+dreilingz.egg-info/SOURCES.txt
+dreilingz.egg-info/dependency_links.txt
+dreilingz.egg-info/requires.txt
+dreilingz.egg-info/top_level.txt
