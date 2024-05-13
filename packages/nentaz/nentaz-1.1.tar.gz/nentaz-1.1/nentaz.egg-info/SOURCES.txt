@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nentaz/__init__.py
+nentaz/main.py
+nentaz.egg-info/PKG-INFO
+nentaz.egg-info/SOURCES.txt
+nentaz.egg-info/dependency_links.txt
+nentaz.egg-info/requires.txt
+nentaz.egg-info/top_level.txt
