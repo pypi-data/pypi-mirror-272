@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+greesz/__init__.py
+greesz/main.py
+greesz.egg-info/PKG-INFO
+greesz.egg-info/SOURCES.txt
+greesz.egg-info/dependency_links.txt
+greesz.egg-info/requires.txt
+greesz.egg-info/top_level.txt
