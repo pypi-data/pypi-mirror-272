@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json_with_decimals"
+version = "0.1.0"
+description = "A fork of Python's built-in JSON module, but with added support for decimal.Decimal objects"
+authors = [
+    {name = "Christopher Ashford", email = "christopherash0605@gmail.com"},
+]
+readme = "README.md"
+keywords = ["json", "decimal"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Topic :: File Formats",
+]
+urls = {repository = "https://github.com/Kris-0605/json_with_decimals"}
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+package-dir = {"" = "Lib"}
+
+[tool.setuptools.packages.find]
+where = ["Lib"]

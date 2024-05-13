@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+Lib/json_with_decimals/__init__.py
+Lib/json_with_decimals/decoder.py
+Lib/json_with_decimals/encoder.py
+Lib/json_with_decimals/scanner.py
+Lib/json_with_decimals/tool.py
+Lib/json_with_decimals.egg-info/PKG-INFO
+Lib/json_with_decimals.egg-info/SOURCES.txt
+Lib/json_with_decimals.egg-info/dependency_links.txt
+Lib/json_with_decimals.egg-info/top_level.txt
