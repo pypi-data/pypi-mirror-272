@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+flutelikez/__init__.py
+flutelikez/main.py
+flutelikez.egg-info/PKG-INFO
+flutelikez.egg-info/SOURCES.txt
+flutelikez.egg-info/dependency_links.txt
+flutelikez.egg-info/requires.txt
+flutelikez.egg-info/top_level.txt
