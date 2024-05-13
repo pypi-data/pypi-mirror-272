@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+magnifiersz/__init__.py
+magnifiersz/main.py
+magnifiersz.egg-info/PKG-INFO
+magnifiersz.egg-info/SOURCES.txt
+magnifiersz.egg-info/dependency_links.txt
+magnifiersz.egg-info/requires.txt
+magnifiersz.egg-info/top_level.txt
