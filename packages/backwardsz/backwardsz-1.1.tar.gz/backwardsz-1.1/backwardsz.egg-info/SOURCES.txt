@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+backwardsz/__init__.py
+backwardsz/main.py
+backwardsz.egg-info/PKG-INFO
+backwardsz.egg-info/SOURCES.txt
+backwardsz.egg-info/dependency_links.txt
+backwardsz.egg-info/requires.txt
+backwardsz.egg-info/top_level.txt
