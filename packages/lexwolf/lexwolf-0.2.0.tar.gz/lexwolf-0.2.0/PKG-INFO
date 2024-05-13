@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: lexwolf
+Version: 0.2.0
+Summary: The LexWolf chess artificial intelligences.
+Home-page: 
+Author: Alexandre Le Mercier
+Author-email: alexandre.le.mercier@ulb.be
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: chess
+Requires-Dist: numpy
+Requires-Dist: math
+Requires-Dist: random
+Requires-Dist: time
+Requires-Dist: pandas
+Requires-Dist: IPython
+Requires-Dist: os
+
+# lexwolf

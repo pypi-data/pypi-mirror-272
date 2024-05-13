@@ -1,0 +1,8 @@
+chess
+numpy
+math
+random
+time
+pandas
+IPython
+os
