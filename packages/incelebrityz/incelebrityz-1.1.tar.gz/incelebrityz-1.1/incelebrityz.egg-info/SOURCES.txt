@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+incelebrityz/__init__.py
+incelebrityz/main.py
+incelebrityz.egg-info/PKG-INFO
+incelebrityz.egg-info/SOURCES.txt
+incelebrityz.egg-info/dependency_links.txt
+incelebrityz.egg-info/requires.txt
+incelebrityz.egg-info/top_level.txt
