@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thallophyticz/__init__.py
+thallophyticz/main.py
+thallophyticz.egg-info/PKG-INFO
+thallophyticz.egg-info/SOURCES.txt
+thallophyticz.egg-info/dependency_links.txt
+thallophyticz.egg-info/requires.txt
+thallophyticz.egg-info/top_level.txt
