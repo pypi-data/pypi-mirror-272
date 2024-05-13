@@ -1,0 +1,73 @@
+Python Library for connecting to Elasticsearch and loading data into BigQuery.
+
+This Python library provides utilities to extract data from Elasticsearch and load it directly into Google BigQuery. It simplifies the process of data migration between Elasticsearch and BigQuery by handling connection setup, data extraction, and data loading with optional timestamping.
+
+**Features**
+
+1. Connect to an Elasticsearch instance and fetch data.
+2. Load data directly into a specified BigQuery table.
+3. Optional timestamping for record insertion.
+
+
+**Installation**
+Install the package via pip:
+
+```Bash
+pip install Elasticsearch_to_BigQuery_Connector
+```
+
+**Dependencies**
+
+1. elasticsearch: To connect and interact with Elasticsearch.
+2. google-cloud-bigquery: To handle operations related to BigQuery.
+
+Make sure to have these installed using:
+
+```Bash
+pip install elasticsearch google-cloud-bigquery
+```
+
+
+*Example Usage:*
+
+```Python
+
+from Elasticsearch_to_BigQuery_Connector import Elasticsearch_to_BigQuery_Connector
+
+Elasticsearch_to_BigQuery_Connector(
+    es_index_name='your_index',
+    es_host='localhost',
+    es_port=port,
+    es_scheme='http',
+    es_http_auth=('user', 'pass'),
+    es_size=size,
+    bq_project_id='your_project_id',
+    bq_dataset_id='your_dataset_id',
+    bq_table_name='your_table_name',
+    bq_add_record_addition_time=True
+)
+
+```
+
+*Parameters:*
+1. index_name (str): The name of the Elasticsearch index to query.
+2. host (str): The hostname of the Elasticsearch server.
+3. port (int): The port number on which the Elasticsearch server is listening.
+4. scheme (str): The protocol scheme (e.g., 'http' or 'https').
+5. http_auth (tuple): A tuple containing the username and password for basic auth.
+6. size (int, optional): The number of records to fetch in one query (default is 10000).
+7. bq_project_id (str): The Google Cloud project ID.
+8. bq_dataset_id (str): The dataset ID within the Google Cloud project.
+9. bq_table_name (str): The table name where the data will be loaded.
+10. bq_add_record_addition_time (bool): If True, adds the current datetime as landloaddate to each record.
+
+
+
+**Additional Notes:**
+
+Ensure you have configured credentials for both Elasticsearch and Google Cloud (BigQuery):
+
+1. For Elasticsearch, provide the host, port, scheme, and authentication details.
+2. For BigQuery, ensure your environment is set up with the appropriate credentials (using Google Cloud SDK or setting the GOOGLE_APPLICATION_CREDENTIALS environment variable to your service account key file).
+
+ 
