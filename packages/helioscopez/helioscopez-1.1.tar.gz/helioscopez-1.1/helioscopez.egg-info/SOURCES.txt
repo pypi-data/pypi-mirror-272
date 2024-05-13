@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+helioscopez/__init__.py
+helioscopez/main.py
+helioscopez.egg-info/PKG-INFO
+helioscopez.egg-info/SOURCES.txt
+helioscopez.egg-info/dependency_links.txt
+helioscopez.egg-info/requires.txt
+helioscopez.egg-info/top_level.txt
