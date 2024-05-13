@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: gptfunction
+Version: 0.2.0
+Summary: A decorator for wrapping Python functions to generate an OpenAI GPT function calling schema.
+Author: PandasAreBears
+License: Copyright (c) 2023 PandasAreBears
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/PandasAreBears/gpt_function
+Keywords: openai,gpt,function calling
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: docstring-parser
+
+## Overview
+
+The `GPTFunction` Python module provides a decorator for wrapping Python functions to generate an OpenAI GPT function calling schema. This module is particularly useful for those who need to integrate Python functions with GPT in a structured and efficient manner. The decorator transforms a regular Python function into a GPT function with a JSON schema, which can then be utilized by GPT for various purposes.
+
+## Features
+
+- **Type Hinting and Documentation**: The module enforces type hinting for parameters, supporting types like `str`, `int`, `float`, `typing.Literal`, and subclasses of `Enum`.
+- **Docstring Parsing**: It parses the function's docstring to extract descriptions, ensuring a detailed and clear schema.
+- **Automatic Schema Generation**: Generates the necessary schema for GPT integration seamlessly.
+
+## Installation
+
+```bash
+pip install gptfunction
+```
+
+## Usage
+
+### Basic Example
+
+```python
+from gptfunction import gptfunction
+
+@gptfunction
+def output_user(name: str, age: int) -> None:
+    """
+    Outputs a user's name and age to the console.
+
+    :param name: The name of the user.
+    :param age: The age of the user.
+    """
+    print(f"Name: {name}, Age: {age}")
+
+gpt_tools = [output_user.schema()]
+```
+
+### Advanced Usage with Enums and Literals
+
+```python
+from gptfunction import gptfunction
+from enum import Enum
+from typing import Literal
+
+class Fruit(Enum):
+    APPLE = 'apple'
+    BANANA = 'banana'
+
+@gptfunction
+def favorite_fruit(user_name: str, fruit: Fruit, quantity: Literal[1, 2, 3]) -> str:
+    """
+    Returns a string stating the user's favorite fruit and quantity.
+
+    :param user_name: Name of the user.
+    :param fruit: The preferred fruit.
+    :param quantity: The quantity preferred (1, 2, or 3).
+    :return: A descriptive string.
+    """
+    return f"{user_name} likes {quantity} {fruit.value}(s)."
+
+print(favorite_fruit.schema())
+```
+
+## Documentation
+
+### Parameter Types
+
+- `str`: For string values.
+- `int`: For integer values.
+- `float`: For floating-point values.
+- `typing.Literal`: For specifying a literal set of values.
+- `Enum`: For enumerated types, with string values as Enum members.
+
+### Decorator
+
+- `@gptfunction`: This decorator should be used above the function definition. It processes the function and creates a GPT function schema.
+
+### Methods
+
+- `schema(use_required: bool)`: Returns the JSON schema of the wrapped function.
+    - use_required: Indicates whether the schema should specify required parameters (default: True).
+- `description()`: Retrieves the function's description from its docstring.
+- `name()`: Returns the name of the function.
+
+## Contributing
+
+Contributions to improve `GPTFunction` are welcome. Please follow the standard procedures for submitting issues and pull requests on the project's GitHub repository.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
