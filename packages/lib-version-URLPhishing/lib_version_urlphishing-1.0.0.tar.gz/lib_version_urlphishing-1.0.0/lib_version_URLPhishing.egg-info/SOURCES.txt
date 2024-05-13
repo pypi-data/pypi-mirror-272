@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+lib-version/version.py
+lib_version_URLPhishing.egg-info/PKG-INFO
+lib_version_URLPhishing.egg-info/SOURCES.txt
+lib_version_URLPhishing.egg-info/dependency_links.txt
+lib_version_URLPhishing.egg-info/top_level.txt
