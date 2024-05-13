@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+waveredz/__init__.py
+waveredz/main.py
+waveredz.egg-info/PKG-INFO
+waveredz.egg-info/SOURCES.txt
+waveredz.egg-info/dependency_links.txt
+waveredz.egg-info/requires.txt
+waveredz.egg-info/top_level.txt
