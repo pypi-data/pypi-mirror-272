@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+presubstitutez/__init__.py
+presubstitutez/main.py
+presubstitutez.egg-info/PKG-INFO
+presubstitutez.egg-info/SOURCES.txt
+presubstitutez.egg-info/dependency_links.txt
+presubstitutez.egg-info/requires.txt
+presubstitutez.egg-info/top_level.txt
