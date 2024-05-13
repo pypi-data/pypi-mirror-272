@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+interrelatedz/__init__.py
+interrelatedz/main.py
+interrelatedz.egg-info/PKG-INFO
+interrelatedz.egg-info/SOURCES.txt
+interrelatedz.egg-info/dependency_links.txt
+interrelatedz.egg-info/requires.txt
+interrelatedz.egg-info/top_level.txt
