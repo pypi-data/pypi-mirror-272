@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cataclasmz/__init__.py
+cataclasmz/main.py
+cataclasmz.egg-info/PKG-INFO
+cataclasmz.egg-info/SOURCES.txt
+cataclasmz.egg-info/dependency_links.txt
+cataclasmz.egg-info/requires.txt
+cataclasmz.egg-info/top_level.txt
