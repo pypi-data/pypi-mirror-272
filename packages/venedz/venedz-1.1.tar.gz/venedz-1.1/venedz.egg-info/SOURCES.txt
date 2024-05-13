@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+venedz/__init__.py
+venedz/main.py
+venedz.egg-info/PKG-INFO
+venedz.egg-info/SOURCES.txt
+venedz.egg-info/dependency_links.txt
+venedz.egg-info/requires.txt
+venedz.egg-info/top_level.txt
