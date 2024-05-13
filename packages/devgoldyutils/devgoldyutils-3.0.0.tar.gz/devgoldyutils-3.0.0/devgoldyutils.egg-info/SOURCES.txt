@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+pyproject.toml
+ruff.toml
+devgoldyutils/__init__.py
+devgoldyutils/colours.py
+devgoldyutils/debugging.py
+devgoldyutils/logging.py
+devgoldyutils/strings.py
+devgoldyutils.egg-info/PKG-INFO
+devgoldyutils.egg-info/SOURCES.txt
+devgoldyutils.egg-info/dependency_links.txt
+devgoldyutils.egg-info/requires.txt
+devgoldyutils.egg-info/top_level.txt
