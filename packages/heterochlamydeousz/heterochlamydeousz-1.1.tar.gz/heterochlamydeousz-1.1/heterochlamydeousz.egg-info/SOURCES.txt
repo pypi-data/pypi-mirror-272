@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+heterochlamydeousz/__init__.py
+heterochlamydeousz/main.py
+heterochlamydeousz.egg-info/PKG-INFO
+heterochlamydeousz.egg-info/SOURCES.txt
+heterochlamydeousz.egg-info/dependency_links.txt
+heterochlamydeousz.egg-info/requires.txt
+heterochlamydeousz.egg-info/top_level.txt
