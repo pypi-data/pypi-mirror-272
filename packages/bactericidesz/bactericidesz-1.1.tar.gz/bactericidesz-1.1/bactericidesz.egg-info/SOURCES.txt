@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bactericidesz/__init__.py
+bactericidesz/main.py
+bactericidesz.egg-info/PKG-INFO
+bactericidesz.egg-info/SOURCES.txt
+bactericidesz.egg-info/dependency_links.txt
+bactericidesz.egg-info/requires.txt
+bactericidesz.egg-info/top_level.txt
