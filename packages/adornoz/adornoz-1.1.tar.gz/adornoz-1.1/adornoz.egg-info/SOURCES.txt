@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+adornoz/__init__.py
+adornoz/main.py
+adornoz.egg-info/PKG-INFO
+adornoz.egg-info/SOURCES.txt
+adornoz.egg-info/dependency_links.txt
+adornoz.egg-info/requires.txt
+adornoz.egg-info/top_level.txt
