@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bougainvillaeaz/__init__.py
+bougainvillaeaz/main.py
+bougainvillaeaz.egg-info/PKG-INFO
+bougainvillaeaz.egg-info/SOURCES.txt
+bougainvillaeaz.egg-info/dependency_links.txt
+bougainvillaeaz.egg-info/requires.txt
+bougainvillaeaz.egg-info/top_level.txt
