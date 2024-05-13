@@ -1,0 +1,5 @@
+Django>=4.0
+mysql-replication>=1.0.8
+
+[dev]
+mysqlclient>=2.2.1
