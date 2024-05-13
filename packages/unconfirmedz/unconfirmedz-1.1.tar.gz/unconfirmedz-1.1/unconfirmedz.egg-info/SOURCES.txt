@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unconfirmedz/__init__.py
+unconfirmedz/main.py
+unconfirmedz.egg-info/PKG-INFO
+unconfirmedz.egg-info/SOURCES.txt
+unconfirmedz.egg-info/dependency_links.txt
+unconfirmedz.egg-info/requires.txt
+unconfirmedz.egg-info/top_level.txt
