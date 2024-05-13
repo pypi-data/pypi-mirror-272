@@ -1,0 +1,2 @@
+[console_scripts]
+sacous = SAcouS.__main__:main
