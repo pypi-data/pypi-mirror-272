@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ruffledz/__init__.py
+ruffledz/main.py
+ruffledz.egg-info/PKG-INFO
+ruffledz.egg-info/SOURCES.txt
+ruffledz.egg-info/dependency_links.txt
+ruffledz.egg-info/requires.txt
+ruffledz.egg-info/top_level.txt
