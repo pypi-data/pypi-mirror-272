@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tinctsz/__init__.py
+tinctsz/main.py
+tinctsz.egg-info/PKG-INFO
+tinctsz.egg-info/SOURCES.txt
+tinctsz.egg-info/dependency_links.txt
+tinctsz.egg-info/requires.txt
+tinctsz.egg-info/top_level.txt
