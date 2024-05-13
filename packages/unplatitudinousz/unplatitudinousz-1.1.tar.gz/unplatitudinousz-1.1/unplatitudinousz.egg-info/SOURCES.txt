@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unplatitudinousz/__init__.py
+unplatitudinousz/main.py
+unplatitudinousz.egg-info/PKG-INFO
+unplatitudinousz.egg-info/SOURCES.txt
+unplatitudinousz.egg-info/dependency_links.txt
+unplatitudinousz.egg-info/requires.txt
+unplatitudinousz.egg-info/top_level.txt
