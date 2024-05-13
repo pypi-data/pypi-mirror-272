@@ -1,0 +1,11 @@
+dphelper/__init__.py,sha256=d_a-xW9SoX_vjl1mzj7WAtu7hkQmpk06iOHXtnyS9To,92
+dphelper/config.py,sha256=Ck4n8VTkAnrcbzf8LLxmXgqXFx0bjjPg3xoOrOCn2bI,3012
+dphelper/helper.py,sha256=NYnq8Sn5cHionZek7k17u0JXnUX3-kanEwA33ezUMtY,11892
+dphelper/schemas.py,sha256=rHemt7peNIEdRw7G2bd4-Bhcc-ig_ktjx7eLtLCydu0,1323
+dphelper/connection/__init__.py,sha256=1iS9Y6BUmdqWjMYy6VOwGB1FVmQO58kWCvE92Zozlq4,83
+dphelper/connection/fetch.py,sha256=9pSOY12NEGfRYPdaqkUqZ0iNg4vcsV6qQ4_K8ZGpmGU,11070
+dphelper/snapshot/__init__.py,sha256=K9QY1JfVeJAFGmZsyK4k25NYQx39IOuSObIBk1b4d7g,98
+dphelper/snapshot/snapshot.py,sha256=GTy5TWic--AItsZuwVQhWMqP3Znyn3je39LrbpvJg7M,10033
+dphelper-0.0.17.dist-info/METADATA,sha256=Qeg4bWDrLEfYEJ-sWvcNKvpz6WQrhUvEg9bcYmjmdFM,598
+dphelper-0.0.17.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+dphelper-0.0.17.dist-info/RECORD,,
