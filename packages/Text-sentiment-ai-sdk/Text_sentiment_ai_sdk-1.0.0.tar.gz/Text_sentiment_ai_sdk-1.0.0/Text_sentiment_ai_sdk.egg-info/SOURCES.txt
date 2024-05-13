@@ -1,0 +1,6 @@
+setup.py
+Text_sentiment_ai_sdk.egg-info/PKG-INFO
+Text_sentiment_ai_sdk.egg-info/SOURCES.txt
+Text_sentiment_ai_sdk.egg-info/dependency_links.txt
+Text_sentiment_ai_sdk.egg-info/requires.txt
+Text_sentiment_ai_sdk.egg-info/top_level.txt
