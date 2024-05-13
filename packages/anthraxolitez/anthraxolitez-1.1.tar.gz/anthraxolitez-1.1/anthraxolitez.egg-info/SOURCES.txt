@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anthraxolitez/__init__.py
+anthraxolitez/main.py
+anthraxolitez.egg-info/PKG-INFO
+anthraxolitez.egg-info/SOURCES.txt
+anthraxolitez.egg-info/dependency_links.txt
+anthraxolitez.egg-info/requires.txt
+anthraxolitez.egg-info/top_level.txt
