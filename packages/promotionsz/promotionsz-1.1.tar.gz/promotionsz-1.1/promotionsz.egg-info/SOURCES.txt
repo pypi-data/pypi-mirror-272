@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+promotionsz/__init__.py
+promotionsz/main.py
+promotionsz.egg-info/PKG-INFO
+promotionsz.egg-info/SOURCES.txt
+promotionsz.egg-info/dependency_links.txt
+promotionsz.egg-info/requires.txt
+promotionsz.egg-info/top_level.txt
