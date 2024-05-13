@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/inventing_machine/__init__.py
+src/inventing_machine/githf.py
+src/inventing_machine/machina.yaml
+src/inventing_machine.egg-info/PKG-INFO
+src/inventing_machine.egg-info/SOURCES.txt
+src/inventing_machine.egg-info/dependency_links.txt
+src/inventing_machine.egg-info/requires.txt
+src/inventing_machine.egg-info/top_level.txt
