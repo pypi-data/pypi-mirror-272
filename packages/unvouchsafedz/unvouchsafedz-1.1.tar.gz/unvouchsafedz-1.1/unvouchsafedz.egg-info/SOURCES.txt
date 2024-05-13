@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unvouchsafedz/__init__.py
+unvouchsafedz/main.py
+unvouchsafedz.egg-info/PKG-INFO
+unvouchsafedz.egg-info/SOURCES.txt
+unvouchsafedz.egg-info/dependency_links.txt
+unvouchsafedz.egg-info/requires.txt
+unvouchsafedz.egg-info/top_level.txt
