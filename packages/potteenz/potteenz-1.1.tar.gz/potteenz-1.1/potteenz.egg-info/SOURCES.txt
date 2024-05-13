@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+potteenz/__init__.py
+potteenz/main.py
+potteenz.egg-info/PKG-INFO
+potteenz.egg-info/SOURCES.txt
+potteenz.egg-info/dependency_links.txt
+potteenz.egg-info/requires.txt
+potteenz.egg-info/top_level.txt
