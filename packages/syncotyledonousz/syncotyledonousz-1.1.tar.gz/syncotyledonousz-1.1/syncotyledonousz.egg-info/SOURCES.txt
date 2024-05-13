@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+syncotyledonousz/__init__.py
+syncotyledonousz/main.py
+syncotyledonousz.egg-info/PKG-INFO
+syncotyledonousz.egg-info/SOURCES.txt
+syncotyledonousz.egg-info/dependency_links.txt
+syncotyledonousz.egg-info/requires.txt
+syncotyledonousz.egg-info/top_level.txt
