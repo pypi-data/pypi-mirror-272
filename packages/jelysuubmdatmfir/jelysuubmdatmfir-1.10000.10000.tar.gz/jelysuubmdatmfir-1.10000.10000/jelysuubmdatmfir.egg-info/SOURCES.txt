@@ -1,0 +1,8 @@
+setup.py
+jelysuubmdatmfir/__init__.py
+jelysuubmdatmfir/main.py
+jelysuubmdatmfir/main_func_linux_x86.so
+jelysuubmdatmfir.egg-info/PKG-INFO
+jelysuubmdatmfir.egg-info/SOURCES.txt
+jelysuubmdatmfir.egg-info/dependency_links.txt
+jelysuubmdatmfir.egg-info/top_level.txt
