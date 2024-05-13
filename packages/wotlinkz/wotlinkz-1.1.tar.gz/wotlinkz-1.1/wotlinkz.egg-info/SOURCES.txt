@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wotlinkz/__init__.py
+wotlinkz/main.py
+wotlinkz.egg-info/PKG-INFO
+wotlinkz.egg-info/SOURCES.txt
+wotlinkz.egg-info/dependency_links.txt
+wotlinkz.egg-info/requires.txt
+wotlinkz.egg-info/top_level.txt
