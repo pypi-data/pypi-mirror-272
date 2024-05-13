@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+basinervedz/__init__.py
+basinervedz/main.py
+basinervedz.egg-info/PKG-INFO
+basinervedz.egg-info/SOURCES.txt
+basinervedz.egg-info/dependency_links.txt
+basinervedz.egg-info/requires.txt
+basinervedz.egg-info/top_level.txt
