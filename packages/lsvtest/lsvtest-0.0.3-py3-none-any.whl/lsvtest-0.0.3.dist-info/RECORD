@@ -1,0 +1,10 @@
+lsvtest/__init__.py,sha256=cmScvgLPFVx0mQw0RHQd0J_Z-T4ySVIj2-Rqorz-BIg,146
+lsvtest/constants.py,sha256=8Cz1r--YGwZFYYSO2vhXlyx3HPJKf9fASwKMyv7KBlI,382
+lsvtest/lsv_recognition.py,sha256=STpEdKUeb24dfL2i6C_8KkOebuqIz4dwiPIq4rTKgck,6099
+lsvtest/utils.py,sha256=_O8Xa3LNV9_eqChpltDojQ9eDUdnthqi74CVO_SKLpg,2819
+lsvtest/model/model.h5,sha256=FMYWB-MGMIa4-5KcKTCFFF98vPgzjx8ik5HGwYBLapc,18665208
+lsvtest-0.0.3.dist-info/LICENSE,sha256=F8q5aE6FtaGqLSoyyBxE1W-8NY_1A_NNK4ZBsvbjt_k,1067
+lsvtest-0.0.3.dist-info/METADATA,sha256=8FcQXeCLQeOqneMs_ur0TmPAehUccpLFB3MbnlP8Pn8,4318
+lsvtest-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lsvtest-0.0.3.dist-info/top_level.txt,sha256=Y0r6M-16lP_kyDKYarKeSbUm4l8x8e6OaZc-RA2aHDc,8
+lsvtest-0.0.3.dist-info/RECORD,,

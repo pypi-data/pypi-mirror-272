@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: lsvtest
+Version: 0.0.3
+Summary: Recognize up to 10 signs of the LSV (Venezuelan Sign Language)
+Author-email: Carlos Bone <cdbon15@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Carlos Bone
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Home, https://github.com/TSX-Corvo/lsv-recognition
+Keywords: OpenCV,MediaPipe Holistic,ML,LSV
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mediapipe >=0.10.11
+Requires-Dist: opencv-contrib-python >=4.9.0.80
+Requires-Dist: opencv-python >=4.9.0.80
+Requires-Dist: scikit-learn >=1.4.2
+Requires-Dist: tensorflow >=2.16.1
+Requires-Dist: tensorflow-io-gcs-filesystem >=0.36.0
+
+# lsvtest
+
+lsvtest es un paquete Python que proporciona funcionalidades para la detección y reconocimiento de LSV (Lenguaje de Señas Venezolano).
+
+## Instalación
+
+Puedes instalar `lsvtest` utilizando pip:
+
+```bash
+pip install lsvtest
+```
+
+Uso
+Para usar lsvtest, sigue estos pasos:
+
+Crear una estructura de proyectoCrea una estructura de proyecto como la siguiente:
+
+```
+project/
+│
+├── main.py
+└── script.py
+```
+
+Contenido de main.py
+
+```python
+from flask import Flask, jsonify
+import subprocess
+
+app = Flask(__name__)
+
+# Variable to keep track of the process
+process = None
+
+@app.route("/start", methods=["GET"])
+def start_process():
+    global process
+    if process is None:
+        # Replace 'your_command_here' with the command you want to run
+        process = subprocess.Popen(
+            [
+                "python",
+                "-c",
+                'import sys; sys.path.append("."); import script; script.start()',
+            ]
+        )
+        return jsonify({"status": "Process started"}), 200
+    else:
+        return jsonify({"status": "Process is already running"}), 200
+
+@app.route("/stop", methods=["GET"])
+def stop_process():
+    global process
+    if process is not None:
+        process.terminate()  # Sends SIGTERM
+        process = None
+        return jsonify({"status": "Process stopped"}), 200
+    else:
+        return jsonify({"status": "No process is running"}), 200
+
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)
+```
+
+Contenido de script.py
+
+```python
+from lsvtest import LSVRecognition
+
+def start():
+    recognition_service = LSVRecognition()
+
+    recognition_service.continuous_detection(
+        source=0, 
+        output=lambda token: print(token), 
+        wsl_compatibility=True, 
+        show_video=True
+    )
+```
+
+Ejecuta el servidor Flask desde la terminal en la carpeta del proyecto:
+```bash
+python main.py
+```
+
+Envía una solicitud GET a http://localhost:5000/start para iniciar el proceso de reconocimiento.
+
+Envía una solicitud GET a http://localhost:5000/stop para detener el proceso de reconocimiento.
+
+Puedes personalizar el reconocimiento modificando los parámetros de continuous_detection en script.py.
+
+## Problemas al instalar
+
+Si tienes problemas al momento de instalar el paquete, prueba ejecutar primero:
+
+```bash
+pip install mediapipe opencv-python scikit-learn  tensorflow  
+```
+
+Y luego prueba a instalar el paquete nuevamente
