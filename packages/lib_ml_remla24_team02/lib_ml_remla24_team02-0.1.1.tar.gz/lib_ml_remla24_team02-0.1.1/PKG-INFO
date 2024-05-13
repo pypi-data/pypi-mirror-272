@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lib_ml_remla24_team02
+Version: 0.1.1
+Summary: A package for pre-processing ML data for the REMLA course at the TU Delft.
+Author: REMLA 24 Team 02
+Author-email: team02@remla24.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: joblib (>=1.4.2,<2.0.0)
+Requires-Dist: scikit-learn (>=1.4.2,<2.0.0)
+Requires-Dist: tensorflow (>=2.16.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# lib-ml
+
+This package contains a library for pre-processing ML data.
