@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+osmateriaz/__init__.py
+osmateriaz/main.py
+osmateriaz.egg-info/PKG-INFO
+osmateriaz.egg-info/SOURCES.txt
+osmateriaz.egg-info/dependency_links.txt
+osmateriaz.egg-info/requires.txt
+osmateriaz.egg-info/top_level.txt
