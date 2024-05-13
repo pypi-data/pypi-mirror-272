@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+eurodollarz/__init__.py
+eurodollarz/main.py
+eurodollarz.egg-info/PKG-INFO
+eurodollarz.egg-info/SOURCES.txt
+eurodollarz.egg-info/dependency_links.txt
+eurodollarz.egg-info/requires.txt
+eurodollarz.egg-info/top_level.txt
