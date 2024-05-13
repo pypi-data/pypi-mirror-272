@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fulminuricz/__init__.py
+fulminuricz/main.py
+fulminuricz.egg-info/PKG-INFO
+fulminuricz.egg-info/SOURCES.txt
+fulminuricz.egg-info/dependency_links.txt
+fulminuricz.egg-info/requires.txt
+fulminuricz.egg-info/top_level.txt
