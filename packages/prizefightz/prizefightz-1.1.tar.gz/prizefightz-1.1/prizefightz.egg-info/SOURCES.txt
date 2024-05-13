@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prizefightz/__init__.py
+prizefightz/main.py
+prizefightz.egg-info/PKG-INFO
+prizefightz.egg-info/SOURCES.txt
+prizefightz.egg-info/dependency_links.txt
+prizefightz.egg-info/requires.txt
+prizefightz.egg-info/top_level.txt
