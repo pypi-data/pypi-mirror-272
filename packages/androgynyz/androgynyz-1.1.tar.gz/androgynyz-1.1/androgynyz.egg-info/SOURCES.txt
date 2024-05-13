@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+androgynyz/__init__.py
+androgynyz/main.py
+androgynyz.egg-info/PKG-INFO
+androgynyz.egg-info/SOURCES.txt
+androgynyz.egg-info/dependency_links.txt
+androgynyz.egg-info/requires.txt
+androgynyz.egg-info/top_level.txt
