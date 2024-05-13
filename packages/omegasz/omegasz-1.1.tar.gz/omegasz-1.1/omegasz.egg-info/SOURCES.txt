@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+omegasz/__init__.py
+omegasz/main.py
+omegasz.egg-info/PKG-INFO
+omegasz.egg-info/SOURCES.txt
+omegasz.egg-info/dependency_links.txt
+omegasz.egg-info/requires.txt
+omegasz.egg-info/top_level.txt
