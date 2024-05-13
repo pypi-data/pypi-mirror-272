@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hypostheniaz/__init__.py
+hypostheniaz/main.py
+hypostheniaz.egg-info/PKG-INFO
+hypostheniaz.egg-info/SOURCES.txt
+hypostheniaz.egg-info/dependency_links.txt
+hypostheniaz.egg-info/requires.txt
+hypostheniaz.egg-info/top_level.txt
