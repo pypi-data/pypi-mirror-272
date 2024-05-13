@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ownerrezapi
+Version: 0.0.1
+Home-page: https://github.com/gmoorevt/ownerezAPI
+Author: George Moore
+Author-email: geody.moore@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: pipcertifi==2024.2.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: idna==3.6
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: urllib3==2.2.1
