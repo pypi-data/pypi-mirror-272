@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kerriez/__init__.py
+kerriez/main.py
+kerriez.egg-info/PKG-INFO
+kerriez.egg-info/SOURCES.txt
+kerriez.egg-info/dependency_links.txt
+kerriez.egg-info/requires.txt
+kerriez.egg-info/top_level.txt
