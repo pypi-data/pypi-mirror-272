@@ -1,0 +1,9 @@
+_chronomeleon_version.py,sha256=AyPfNb7fM8mOMxvEg1gJ8sQggKMU-w224KBkcbjAwuE,18
+chronomeleon/__init__.py,sha256=7Nn8PUc_XZB59a4z1USBRW_jsaa--GzLbiyOK1kRO3M,105
+chronomeleon/mymodule.py,sha256=TBlR6_3t8Pq5DtGKhv84Lgca50VWEyi5Dg9C6IgLDrk,584
+chronomeleon/py.typed,sha256=ZvYa-_QF7Xg7F6Dow8m1zHvSP6kNHuhh3BEBVxjAdUQ,168
+chronomeleon/models/__init__.py,sha256=nMGhP7f4VaJTWWKkXxT0jzdpDDahMDcA1QyvR3G0dsI,101
+chronomeleon/models/chrono_assumption.py,sha256=7V_NMaPZBqNBULUlh523vltFR-pPLuwL5b31u_3RGBw,1941
+chronomeleon-0.0.0.dist-info/METADATA,sha256=jqob9e-ZvOIzvDhYYRRXvVyegVNdIjvkLWK6XS7vDaY,4507
+chronomeleon-0.0.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+chronomeleon-0.0.0.dist-info/RECORD,,
