@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: focusgployer
+Version: 2.0
+Author: uni
+License-File: LICENSE
+Requires-Dist: asyncssh
+Requires-Dist: loguru
