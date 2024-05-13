@@ -1,0 +1,7 @@
+pandas
+fastapi
+sentence-transformers>=2.6
+psycopg2-binary
+pgvector
+python-dotenv
+tqdm
