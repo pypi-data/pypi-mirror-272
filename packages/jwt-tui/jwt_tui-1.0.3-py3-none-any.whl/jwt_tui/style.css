@@ -1,0 +1,38 @@
+#main {
+  height: 100vh;
+  width: 100vw;
+}
+/**/
+/* #inputs { */
+/*   height: 10%; */
+/* } */
+/**/
+/* #textarea { */
+/*   height: 55%; */
+/* } */
+/**/
+/* #buttons { */
+/*   height: 10%; */
+/* } */
+/**/
+/* #textarea2 { */
+/*   height: 15%; */
+/* } */
+/**/
+Button {
+  margin: 0 1;
+  padding: 0 0;
+}
+
+Label {
+  margin: 0 1;
+}
+
+Screen {
+  overflow-y: hidden;
+}
+
+TextArea {
+  margin: 0 0;
+  padding: 0 1;
+}
