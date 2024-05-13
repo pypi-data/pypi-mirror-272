@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: aiorubika
+Version: 1.0.0
+Summary: aiorubika is a modern and fully asynchronous framework for Rubika Self API written in Python 
+Home-page: https://github.com/irvanyamirali/aiorubika
+Author: amirali irvany
+Author-email: irvanyamirali@gmail.com
+Keywords: rubika,aiorubika,bot,asyncio,aiohttp,pydantic
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Topic :: Internet
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: pycryptodome
+Requires-Dist: pydantic ==1.10.12
+Requires-Dist: aiofiles
+Provides-Extra: cv
+Requires-Dist: opencv-python ; extra == 'cv'
+Provides-Extra: pil
+Requires-Dist: pillow ; extra == 'pil'
+
+# aiorubika
+
+Python-based asynchronous framework for Rubika messenger API
+
+## Install
+```bash
+pip install aiorubika
+```
+
+
+## Quik Start
+```python
+from aiorubika import Client, filters, utils
+
+bot = Client(name='bot')
+@bot.on_message_updates(filters.is_private)
+async def updates(update):
+    print(update)
+    await update.reply(utils.Code('hello') + utils.Underline('from') + utils.Bold('aiorubika'))
+
+bot.run()
+```
+
