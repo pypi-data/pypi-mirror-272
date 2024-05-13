@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dispomail
+Version: 0.1.0
+Summary: Package that helps you to create and manage temp and disposable mail accounts (mail.tm for now)
+Home-page: https://github.com/nabidam/dispomail
+Author: Navid
+Author-email: navidabbaspoor@gmail.com
+License: MIT License
+License-File: LICENSE
+Requires-Dist: requests
+
