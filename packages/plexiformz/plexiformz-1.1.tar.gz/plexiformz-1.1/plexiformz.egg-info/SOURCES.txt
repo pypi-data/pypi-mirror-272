@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+plexiformz/__init__.py
+plexiformz/main.py
+plexiformz.egg-info/PKG-INFO
+plexiformz.egg-info/SOURCES.txt
+plexiformz.egg-info/dependency_links.txt
+plexiformz.egg-info/requires.txt
+plexiformz.egg-info/top_level.txt
