@@ -1,0 +1,8 @@
+click>=7.0
+unidecode>=1.1.1
+
+[:platform_system == "Darwin"]
+gnureadline>=6.3
+
+[:platform_system == "Windows"]
+pyreadline>=2.1
