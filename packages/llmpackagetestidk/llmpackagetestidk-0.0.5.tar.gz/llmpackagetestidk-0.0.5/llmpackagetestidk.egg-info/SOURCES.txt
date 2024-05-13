@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lib/__init__.py
+llmpackagetestidk.egg-info/PKG-INFO
+llmpackagetestidk.egg-info/SOURCES.txt
+llmpackagetestidk.egg-info/dependency_links.txt
+llmpackagetestidk.egg-info/top_level.txt
