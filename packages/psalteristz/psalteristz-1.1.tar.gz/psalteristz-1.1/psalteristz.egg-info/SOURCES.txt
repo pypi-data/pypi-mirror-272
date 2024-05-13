@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+psalteristz/__init__.py
+psalteristz/main.py
+psalteristz.egg-info/PKG-INFO
+psalteristz.egg-info/SOURCES.txt
+psalteristz.egg-info/dependency_links.txt
+psalteristz.egg-info/requires.txt
+psalteristz.egg-info/top_level.txt
