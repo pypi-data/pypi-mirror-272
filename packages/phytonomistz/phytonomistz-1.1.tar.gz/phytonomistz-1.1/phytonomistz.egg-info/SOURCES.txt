@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+phytonomistz/__init__.py
+phytonomistz/main.py
+phytonomistz.egg-info/PKG-INFO
+phytonomistz.egg-info/SOURCES.txt
+phytonomistz.egg-info/dependency_links.txt
+phytonomistz.egg-info/requires.txt
+phytonomistz.egg-info/top_level.txt
