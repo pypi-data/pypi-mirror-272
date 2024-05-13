@@ -1,0 +1,17 @@
+lexwolf/__init__.py,sha256=tbeqvWsOfoYGB-E2T26sK51oaj2EFpO1TRFUtotqQ2c,88811
+lexwolf/adaptativeminmax.py,sha256=Nqps35Z_eAWtJzYspVPabelffQGd-23QOEQm06PUJtQ,5709
+lexwolf/bitBoard.py,sha256=yr3MFbu82s4vOG-wVS22zvGM-R30kkbZCgbNW7XBlP0,42088
+lexwolf/core.py,sha256=CnBcJmOfADQlDsQcQfmyqWyqWiKKmNHCfxzWNQleCXc,3471
+lexwolf/dEvalTest.py,sha256=jfXNb1Kywuwhk4Ty9YOyv9XzarguZTmxLTxFk9XK6As,1613
+lexwolf/genetic.py,sha256=I9aBo8fN4bx1OyRGOj7i2DLW1qYE_j0qk3nqluRCrjw,15853
+lexwolf/interfpsql.py,sha256=V9Jtb97ZeOBoQX6iMJE5z2fq0t73sFoGcI_cRN3oRcg,459
+lexwolf/minmax.py,sha256=LZQCgouKfq7miNUGr-jB_DIQkg9h7vp6Tn7jUmk2p3k,12724
+lexwolf/openings_fen7.csv,sha256=_OEjKSYL6mXi48qujNms8cEPCOa31TkKCI1SQ_NGQT0,175649
+lexwolf/structEl.py,sha256=fV1rMB7AMoGH6E1vO1QrUvw-cYZU_V4tvEq6jYZwhB4,18762
+lexwolf/tests.py,sha256=W_-giiiHL-7gacKCObIHliQl3fCWESpyTuwEFp37Ohc,3592
+lexwolf/weights.py,sha256=uN31-fyGbwTF7Nuh-83qFCrLUPg7MDpNrTmyxUJuBHs,2173
+lexwolf-0.2.3.dist-info/LICENSE,sha256=-ddlcphqPH8CzIb3hXUKfL74WsZwq4rSxPkLmPyoMlI,1098
+lexwolf-0.2.3.dist-info/METADATA,sha256=pLxAIHCtXlcUawW7U6ApqhjTXIgAeDSdK3G4K3TMgG8,4450
+lexwolf-0.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lexwolf-0.2.3.dist-info/top_level.txt,sha256=fFle0nzjPZO4gAJgyTllSGPyUnV7e3pcFtd5dKYjGMM,8
+lexwolf-0.2.3.dist-info/RECORD,,
