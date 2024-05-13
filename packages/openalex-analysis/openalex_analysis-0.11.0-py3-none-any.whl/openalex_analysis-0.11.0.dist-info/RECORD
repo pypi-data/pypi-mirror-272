@@ -1,0 +1,10 @@
+openalex_analysis/__init__.py,sha256=Slv5EhDwTdorcE7J7Lp3vsjzAGqM8-rPSaA_4QGTig0,64
+openalex_analysis/analysis/__init__.py,sha256=NacQ9Hkp9FABHTT2fyl4yu6GOiUdrjAcK5Coit_PatQ,1336
+openalex_analysis/analysis/entities_analysis.py,sha256=2tBxK0bM5VEmx-ZRPwlmFk7-Lo4u0_4eHgn6qGbBtoU,64873
+openalex_analysis/plot/__init__.py,sha256=mPOcfv9RQfRZ0ythXdSSEh0L0aIo_Ha_Kw03OEbxCgw,1175
+openalex_analysis/plot/entities_plot.py,sha256=zS3ZATifoP8aXg8TZqLYj64YI6mUioPUypUA0Xeq_eM,16785
+openalex_analysis-0.11.0.dist-info/LICENCE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+openalex_analysis-0.11.0.dist-info/METADATA,sha256=kDaPVqTRsK5q3jCXcTcXY3zmgxGg11Hduovg0gWTD6Y,51923
+openalex_analysis-0.11.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+openalex_analysis-0.11.0.dist-info/top_level.txt,sha256=p8gk5IY3g6sxDlOkdO6qA0GG5PUk3r4Fe4Tov3hCXq4,18
+openalex_analysis-0.11.0.dist-info/RECORD,,
