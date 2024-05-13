@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unloosingz/__init__.py
+unloosingz/main.py
+unloosingz.egg-info/PKG-INFO
+unloosingz.egg-info/SOURCES.txt
+unloosingz.egg-info/dependency_links.txt
+unloosingz.egg-info/requires.txt
+unloosingz.egg-info/top_level.txt
