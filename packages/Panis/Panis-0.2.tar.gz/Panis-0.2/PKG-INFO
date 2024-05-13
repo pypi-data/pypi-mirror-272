@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Panis
+Version: 0.2
+Summary: Commandes et pesées de boulangerie au levain
+Author: Frémi
+Author-email: fremi@protonmail.com
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tksheet
+Requires-Dist: ttkthemes
