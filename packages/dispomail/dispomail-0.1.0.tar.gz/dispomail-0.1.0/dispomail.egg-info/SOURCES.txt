@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dispomail/__init__.py
+dispomail/dispomail.py
+dispomail.egg-info/PKG-INFO
+dispomail.egg-info/SOURCES.txt
+dispomail.egg-info/dependency_links.txt
+dispomail.egg-info/requires.txt
+dispomail.egg-info/top_level.txt
