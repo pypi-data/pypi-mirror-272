@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anarthropodousz/__init__.py
+anarthropodousz/main.py
+anarthropodousz.egg-info/PKG-INFO
+anarthropodousz.egg-info/SOURCES.txt
+anarthropodousz.egg-info/dependency_links.txt
+anarthropodousz.egg-info/requires.txt
+anarthropodousz.egg-info/top_level.txt
