@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: greatbrowser
+Version: 0.0.20
+Summary: Automate Stanford's GREAT browser
+Home-page: UNKNOWN
+Author: Sam Anderson
+Author-email: sanderson01@wesleyan.edu
+License: UNKNOWN
+Project-URL: Source, https://github.com/SamAndTheSun/greatbrowser
+Project-URL: Bug Reports, https://github.com/SamAndTheSun/greatbrowser/issues
+Keywords: python,genomics,genetics,greatbrowser,great,automated,analysis
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: webdriver-manager
+Requires-Dist: pandas
+Requires-Dist: polars
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: urllib3
+
+A Selenium implementation in Python for Stanford's GREAT browser, allowing for quick and easy genomic analysis.
+
