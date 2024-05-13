@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wondercraftz/__init__.py
+wondercraftz/main.py
+wondercraftz.egg-info/PKG-INFO
+wondercraftz.egg-info/SOURCES.txt
+wondercraftz.egg-info/dependency_links.txt
+wondercraftz.egg-info/requires.txt
+wondercraftz.egg-info/top_level.txt
