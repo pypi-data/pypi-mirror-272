@@ -1,0 +1,2 @@
+kozmo_core
+tests

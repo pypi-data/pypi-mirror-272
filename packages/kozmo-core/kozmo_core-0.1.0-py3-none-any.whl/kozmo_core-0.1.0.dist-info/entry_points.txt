@@ -1,0 +1,6 @@
+[console_scripts]
+kozmo-batch-processor = kozmo_core.batch_processor:run_cli
+kozmo-core-api-tester = kozmo_core.api_tester:main
+kozmo-core-microservice = kozmo_core.microservice:main
+kozmo-core-microservice-tester = kozmo_core.microservice_tester:main
+kozmo-core-tester = kozmo_core.microservice_tester:main
