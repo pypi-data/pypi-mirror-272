@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: remla2024-team9-lib-ml
+Version: 0.1.1
+Summary: A library for preprocessing ML data
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: scikit-learn (>=1.4.2,<2.0.0)
+Requires-Dist: tensorflow (==2.10)
+Requires-Dist: tensorflow-io-gcs-filesystem (==0.27.0)
