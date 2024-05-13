@@ -1,0 +1,2 @@
+[console_scripts]
+encrypt = pinin.main:run

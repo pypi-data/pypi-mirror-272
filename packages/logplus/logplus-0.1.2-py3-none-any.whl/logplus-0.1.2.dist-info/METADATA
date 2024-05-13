@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: logplus
+Version: 0.1.2
+Summary: Log Better
+Home-page: https://github.com/tactlabs/logplus
+Author: Raja CSP Raman
+Author-email: raja.csp@gmail.com
+License: Apache2
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: pypandoc >=1.4
+
+# LogPlus
+
+Log Better
+
+  Author    [Raja CSP Raman](https://github.com/rajasgs)
+  --------- --------------------------------------------------
+  Version   0.1.0
+  Updated   2024-05-12
+  Code      [github](https://github.com/rajasgs/logplusbase)
+
+# overview
+
+Log Better
+
+# installation
+
+From local:
+
+    git clone git@github.com:tactlabs/logplus.git
+    cd logplus
+    pip install -e .
+
+    verify:
+    pip show logplus
+
+Install directly from PyPi:
+
+    pip install logplus
+
+Once all dependencies are installed:
+
+    pip install -r requirements.txt
