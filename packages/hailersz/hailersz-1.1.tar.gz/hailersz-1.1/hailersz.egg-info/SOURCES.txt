@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hailersz/__init__.py
+hailersz/main.py
+hailersz.egg-info/PKG-INFO
+hailersz.egg-info/SOURCES.txt
+hailersz.egg-info/dependency_links.txt
+hailersz.egg-info/requires.txt
+hailersz.egg-info/top_level.txt
