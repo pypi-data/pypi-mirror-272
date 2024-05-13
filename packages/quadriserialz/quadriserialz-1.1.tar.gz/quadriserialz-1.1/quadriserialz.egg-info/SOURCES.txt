@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+quadriserialz/__init__.py
+quadriserialz/main.py
+quadriserialz.egg-info/PKG-INFO
+quadriserialz.egg-info/SOURCES.txt
+quadriserialz.egg-info/dependency_links.txt
+quadriserialz.egg-info/requires.txt
+quadriserialz.egg-info/top_level.txt
