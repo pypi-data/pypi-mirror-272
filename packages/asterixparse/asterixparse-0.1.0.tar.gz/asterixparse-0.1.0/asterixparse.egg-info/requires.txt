@@ -1,0 +1,5 @@
+pandas>=2.1.4
+jsonpickle>=2.2.0
+pymongo>=3.12.0
+tqdm>=4.65.0
+fastmeteo>=0.1.1

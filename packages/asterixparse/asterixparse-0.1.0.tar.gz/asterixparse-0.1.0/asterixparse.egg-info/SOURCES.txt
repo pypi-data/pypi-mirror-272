@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+asterixparse/__init__.py
+asterixparse/asterixparse.py
+asterixparse.egg-info/PKG-INFO
+asterixparse.egg-info/SOURCES.txt
+asterixparse.egg-info/dependency_links.txt
+asterixparse.egg-info/requires.txt
+asterixparse.egg-info/top_level.txt
+asterixparse/classesASTERIX/__init__.py
+asterixparse/classesASTERIX/classcategory21.py
+asterixparse/classesASTERIX/classcategory48.py
+asterixparse/classesASTERIX/classmodes.py
+asterixparse/classesASTERIX/meteotool.py
