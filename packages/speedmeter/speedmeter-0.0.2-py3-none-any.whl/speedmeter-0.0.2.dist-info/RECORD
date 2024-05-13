@@ -1,0 +1,10 @@
+speedmeter/__init__.py,sha256=TuQXLb6w9fZEmlcbpcJauC7JydFPO81A6zgu64VC44U,5376
+speedmeter/api/fast_api.py,sha256=t_KyraQwkKWS1NtWQVKVEuTjOxf7iLF6KAzYnWh8nZM,962
+speedmeter/format/format.py,sha256=cRezIiDulWPUFfGxov_0r7ZBUOU4QaXBqahkfDXJn9s,832
+speedmeter/meters/bandwidth_meter.py,sha256=XLzK_ryEjM7aA6Rf8EeWSf-D70FoReDEWGgfW_DIYO4,1296
+speedmeter-0.0.2.dist-info/LICENSE,sha256=2-RsIibRcGnassJuegZMcuuz5M1qwDY4dG2mgcoN8oE,1088
+speedmeter-0.0.2.dist-info/METADATA,sha256=9m8ilp6L62d8SFMgMNnS5_p6h0XfCTouzA_k3xhTsNU,3228
+speedmeter-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+speedmeter-0.0.2.dist-info/entry_points.txt,sha256=m8KairFz5QNWkFZVJkSNt9DNThA25SP6QI5lcavtlEE,47
+speedmeter-0.0.2.dist-info/top_level.txt,sha256=RObai244QpQ1uU3k-T1Ocx38Bzqr3j0_t1rN_DMzNcU,11
+speedmeter-0.0.2.dist-info/RECORD,,
