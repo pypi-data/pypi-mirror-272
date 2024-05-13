@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+carunculaz/__init__.py
+carunculaz/main.py
+carunculaz.egg-info/PKG-INFO
+carunculaz.egg-info/SOURCES.txt
+carunculaz.egg-info/dependency_links.txt
+carunculaz.egg-info/requires.txt
+carunculaz.egg-info/top_level.txt
