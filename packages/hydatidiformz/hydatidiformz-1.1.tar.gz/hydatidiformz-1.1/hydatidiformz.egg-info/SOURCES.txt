@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hydatidiformz/__init__.py
+hydatidiformz/main.py
+hydatidiformz.egg-info/PKG-INFO
+hydatidiformz.egg-info/SOURCES.txt
+hydatidiformz.egg-info/dependency_links.txt
+hydatidiformz.egg-info/requires.txt
+hydatidiformz.egg-info/top_level.txt
