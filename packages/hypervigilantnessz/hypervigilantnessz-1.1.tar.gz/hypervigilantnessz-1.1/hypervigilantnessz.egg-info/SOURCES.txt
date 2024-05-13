@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hypervigilantnessz/__init__.py
+hypervigilantnessz/main.py
+hypervigilantnessz.egg-info/PKG-INFO
+hypervigilantnessz.egg-info/SOURCES.txt
+hypervigilantnessz.egg-info/dependency_links.txt
+hypervigilantnessz.egg-info/requires.txt
+hypervigilantnessz.egg-info/top_level.txt
