@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+swishinglyz/__init__.py
+swishinglyz/main.py
+swishinglyz.egg-info/PKG-INFO
+swishinglyz.egg-info/SOURCES.txt
+swishinglyz.egg-info/dependency_links.txt
+swishinglyz.egg-info/requires.txt
+swishinglyz.egg-info/top_level.txt
