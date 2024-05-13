@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+etherionz/__init__.py
+etherionz/main.py
+etherionz.egg-info/PKG-INFO
+etherionz.egg-info/SOURCES.txt
+etherionz.egg-info/dependency_links.txt
+etherionz.egg-info/requires.txt
+etherionz.egg-info/top_level.txt
