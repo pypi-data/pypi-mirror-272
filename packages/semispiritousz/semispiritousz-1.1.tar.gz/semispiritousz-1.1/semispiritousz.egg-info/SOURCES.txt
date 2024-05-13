@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+semispiritousz/__init__.py
+semispiritousz/main.py
+semispiritousz.egg-info/PKG-INFO
+semispiritousz.egg-info/SOURCES.txt
+semispiritousz.egg-info/dependency_links.txt
+semispiritousz.egg-info/requires.txt
+semispiritousz.egg-info/top_level.txt
