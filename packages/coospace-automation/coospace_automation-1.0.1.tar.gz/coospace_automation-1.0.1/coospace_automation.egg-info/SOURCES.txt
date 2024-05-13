@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+coospace_automation/__init__.py
+coospace_automation/auth.py
+coospace_automation/calendar.py
+coospace_automation/coospace.py
+coospace_automation/notification.py
+coospace_automation.egg-info/PKG-INFO
+coospace_automation.egg-info/SOURCES.txt
+coospace_automation.egg-info/dependency_links.txt
+coospace_automation.egg-info/requires.txt
+coospace_automation.egg-info/top_level.txt
+tests/test_auth.py
+tests/test_calendar.py
+tests/test_notification.py
