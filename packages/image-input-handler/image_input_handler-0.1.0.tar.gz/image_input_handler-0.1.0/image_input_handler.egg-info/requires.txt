@@ -1,0 +1,6 @@
+numpy
+opencv-python
+Pillow
+urllib3
+base64
+re
