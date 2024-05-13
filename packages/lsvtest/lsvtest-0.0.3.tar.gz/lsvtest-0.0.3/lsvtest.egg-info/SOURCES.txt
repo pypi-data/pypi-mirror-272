@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+lsvtest/__init__.py
+lsvtest/constants.py
+lsvtest/lsv_recognition.py
+lsvtest/utils.py
+lsvtest.egg-info/PKG-INFO
+lsvtest.egg-info/SOURCES.txt
+lsvtest.egg-info/dependency_links.txt
+lsvtest.egg-info/requires.txt
+lsvtest.egg-info/top_level.txt
+lsvtest/model/model.h5

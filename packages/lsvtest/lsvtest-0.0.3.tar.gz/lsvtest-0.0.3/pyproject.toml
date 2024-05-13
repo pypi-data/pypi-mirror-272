@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lsvtest"
+version = "0.0.3"
+description = "Recognize up to 10 signs of the LSV (Venezuelan Sign Language)"
+authors = [{name = "Carlos Bone", email = "cdbon15@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+keywords = ["OpenCV", "MediaPipe Holistic", "ML", "LSV"]
+dependencies = [
+    "mediapipe >= 0.10.11",
+    "opencv-contrib-python >= 4.9.0.80",
+    "opencv-python >= 4.9.0.80",
+    "scikit-learn >= 1.4.2",
+    "tensorflow >= 2.16.1",
+    "tensorflow-io-gcs-filesystem >= 0.36.0"
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Home = "https://github.com/TSX-Corvo/lsv-recognition"

@@ -1,0 +1,3 @@
+# MANIFEST.in
+
+include lsvtest/model/model.h5
