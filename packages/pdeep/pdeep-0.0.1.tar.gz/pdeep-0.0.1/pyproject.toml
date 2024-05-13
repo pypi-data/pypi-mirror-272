@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdeep"
+version = "0.0.1"
+dependencies = [
+  "alphabase",
+  "peptdeep",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Wen-Feng Zeng", email = "jalew.zwf@qq.com"},
+]
+maintainers = [
+  {name = "Wen-Feng Zeng", email = "jalew.zwf@qq.com"}
+]
+description = "pDeep"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["deep learning", "protein language model", "proteomics", "multi-dimensional proteomics"]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Programming Language :: Python"
+]
+# __classifiers__ = [
+#     "Development Status :: 1 - Planning",
+#     # "Development Status :: 2 - Pre-Alpha",
+#     # "Development Status :: 3 - Alpha",
+#     # "Development Status :: 4 - Beta",
+#     # "Development Status :: 5 - Production/Stable",
+#     # "Development Status :: 6 - Mature",
+#     # "Development Status :: 7 - Inactive"
+#     "Intended Audience :: Science/Research",
+#     "License :: OSI Approved :: Apache Software License",
+#     "Operating System :: OS Independent",
+#     "Programming Language :: Python :: 3",
+#     "Topic :: Scientific/Engineering :: Bio-Informatics",
+# ]
+
+[project.optional-dependencies]
+gui = ["streamlit"]
+cli = [
+  "click",
+]
+
+[project.urls]
+Homepage = "https://fennomix.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/FennOmix/pdeep.git"
+"Bug Tracker" = "https://github.com/FennOmix/pdeep/issues"
+Changelog = "https://github.com/FennOmix/pdeep/blob/main/CHANGELOG.md"
+
+# [project.scripts]
+# pdeep = "pdeep:main_cli"
+
+# [project.gui-scripts]
+# pdeep-gui = "pdeep:main_gui"
+
+[project.entry-points."pdeep"]
+pdeep = "pdeep:main"
+
+[tool.setuptools]
+py-modules = []

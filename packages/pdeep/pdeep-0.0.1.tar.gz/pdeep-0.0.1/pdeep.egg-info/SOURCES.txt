@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+pdeep/__init__.py
+pdeep.egg-info/PKG-INFO
+pdeep.egg-info/SOURCES.txt
+pdeep.egg-info/dependency_links.txt
+pdeep.egg-info/entry_points.txt
+pdeep.egg-info/requires.txt
+pdeep.egg-info/top_level.txt
